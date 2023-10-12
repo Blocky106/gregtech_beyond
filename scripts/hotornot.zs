@@ -1,0 +1,1 @@
+recipes.addShaped(<hotornot:mitts>, [	[<contenttweaker:stretchedwool>,<gregtech:meta_item_2:32433>, <contenttweaker:stretchedwool>], 	[<minecraft:wool:12>, <contenttweaker:stretchedwool>, <minecraft:wool:12>], 	[<ore:leather>, <ore:plateIron>, <ore:leather>]]);

@@ -1,0 +1,29 @@
+{
+  "weight": 50,
+  "density": 0.4,
+  "max_height": 65,
+  "min_height": 25,
+  "generator": {
+    "type": "ellipsoid",
+    "radius": [12, 12]
+  },
+  "filler": {
+    "type": "simple",
+    "value": {
+      "type": "weight_random",
+      "values": [{
+          "weight": 30,
+          "value": "ore_dict:oreAlumina"
+        },
+        {
+          "weight": 30,
+          "value": "ore_dict:oreAluminiumsalt"
+        },
+	{
+          "weight": 40,
+          "value": "ore_dict:oreBauxite"
+        }
+      ]
+    }
+  }
+}

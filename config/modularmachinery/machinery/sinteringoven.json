@@ -1,0 +1,42 @@
+{
+	"parts": [{
+			"elements": ["gregtech:frame_steel@0"],
+			"x": [-1, 1],
+			"z": [1, 3, 5],
+			"y": [-1, 0, 1]
+		}, {
+			"elements": ["casings_sintering"],
+			"x": [-1, 1],
+			"z": [0, 6],
+			"y": 0
+		}, {
+			"elements": ["gregtech:machine_casing@0"],
+			"x": [-1, 1],
+			"z": [0, 6],
+			"y": [-1, 1]
+		}, {
+			"elements": ["contenttweaker:copperalloycoilblock@0"],
+			"x": 0,
+			"z": [1, 2, 3, 4, 5],
+			"y": 0
+		}, {
+			"elements": ["casings_sintering"],
+			"x": 0,
+			"z": 6,
+			"y": 0
+		}, {
+			"elements": ["gregtech:frame_steel@0"],
+			"x": 0,
+			"z": [1, 3, 5],
+			"y": [-1, 1]
+		}, {
+			"elements": ["casings_sintering"],
+			"x": 0,
+			"z": [0, 6],
+			"y": [-1, 1]
+		}
+	],
+	"localizedname": "Sintering Oven",
+	"color": "6E6D6D",
+	"registryname": "sint"
+}

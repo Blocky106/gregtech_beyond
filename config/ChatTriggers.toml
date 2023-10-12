@@ -1,0 +1,23 @@
+
+[general]
+	modules_folders = "./config/ChatTriggers/modules"
+	show_module_changelog_on_update = true
+	show_module_help_on_import = true
+	threaded_loading = true
+	show_updates_in_chat = true
+	auto-update_modules = true
+
+[console]
+	print_chat_to_console = true
+	open_console_on_error = false
+	use_custom_console_theme = false
+	use_custom_console_colors_for_errors_or_warnings = true
+	console_font_size = 9
+	console_custom_theme = "default.dark"
+	use_fira_code_font_for_console = true
+	console_foreground_color = "255,208,208,208"
+	clear_console_on_ct_load = true
+	console_background_color = "255,21,21,21"
+	console_error_color = "255,225,65,73"
+	console_warning_color = "255,248,191,84"
+

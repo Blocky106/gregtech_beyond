@@ -1,0 +1,38 @@
+ {
+    "machine": "sint",
+    "registryName": "sintering_oven_recipe1",
+    "recipeTime": 400,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 512
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "gregtech:meta_item_1@14184",
+	    "amount" : 1,
+ 	    "chance": 0
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "tetrafluoroethylene",
+	    "amount" : 3000
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "gregtech:meta_item_1@32766", 
+            "amount": 1,
+	    "chance": 0
+        },
+        {
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "hexafluoropropylene",
+	    "amount" : 2000
+        }
+    ]
+}

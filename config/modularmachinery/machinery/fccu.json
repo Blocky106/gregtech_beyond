@@ -1,0 +1,166 @@
+{
+    "registryname": "fccu",
+    "localizedname": "Fluid Catalytic Unit",
+    "color": "b6e2ed",  
+    "parts": [
+        {
+            "x": [-4, 4],
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "gregtech:metal_casing@5"
+            ]
+        },
+		{
+            "x": [-3, 3],
+            "y": 0,
+            "z": [1, 2, 3],
+            "elements": [
+                "gregtech:metal_casing@5"
+            ]
+        },
+		{
+            "x": [-2, -1, 1, 2],
+            "y": 0,
+            "z": [0, 1, 2, 3, 4],
+            "elements": [
+                "gregtech:metal_casing@5"
+            ]
+        },
+		{
+            "x": 0,
+            "y": 0,
+            "z": [1, 2, 3, 4],
+            "elements": [
+                "gregtech:metal_casing@5"
+            ]
+        },
+		{
+            "x": [0, 4],
+            "y": [6, 7, 8, 9, 10],
+            "z": [1, 2, 3],
+            "elements": [
+                "gregtech:metal_casing@5"
+            ]
+        },
+		{
+            "x": [1, 2, 3],
+            "y": [6, 7, 8, 9, 10],
+            "z": [0, 4],
+            "elements": [
+                "gregtech:metal_casing@5"
+            ]
+        },
+		{
+            "x": [1, 2, 3],
+            "y": [5, 11],
+            "z": [1, 2, 3],
+            "elements": [
+                "gregtech:metal_casing@5"
+            ]
+        },
+        {
+            "x": [-3, 3],
+            "y": [0, 1],
+            "z": [0, 4],
+            "elements": [
+                "casings_fccu"
+            ]
+        },
+		{
+            "x": [-4, 4],
+            "y": [0, 1],
+            "z": [0, 1, 3, 4],
+            "elements": [
+                "casings_fccu"
+            ]
+        },
+        {
+            "x": [1, 3],
+            "y": [1, 2, 3, 4],
+            "z": [1, 3],
+            "elements": [
+                "gregtech:frame_blue_steel@0"
+            ]
+        },
+		{
+            "x": [-1, -3],
+            "y": [1, 2],
+            "z": [1, 3],
+            "elements": [
+                "gregtech:frame_blue_steel@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": [2, 3, 4],
+            "z": 2,
+            "elements": [
+                "gregtech:boiler_casing@0"
+            ]
+        },
+		{
+            "x": [0, 1],
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "gregtech:boiler_casing@0"
+            ]
+        },
+        {
+            "x": [-1, -2],
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "gregtech:boiler_casing@0"
+            ]
+        },
+		{
+            "x": -2,
+            "y": [6, 7],
+            "z": 2,
+            "elements": [
+                "gregtech:boiler_casing@0"
+            ]
+        },
+        {
+            "x": [-1, -3],
+            "y": 3,
+            "z": [1, 2, 3],
+            "elements": [
+                "gregtech:metal_casing@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": [2, 3, 4],
+            "z": [1, 3],
+            "elements": [
+                "gregtech:metal_casing@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": [1, 2, 3],
+            "elements": [
+                "gregtech:metal_casing@4"
+            ]
+        },
+        {
+            "x": [-3, -1],
+            "y": [2, 5],
+            "z": 2,
+            "elements": [
+                "gregtech:metal_casing@4"
+            ]
+        },
+        {
+            "x": [-1, -3],
+            "y": 4,
+            "z": [1, 2, 3],
+            "elements": [
+                "gregtech:metal_casing@4"
+            ]
+        }
+    ]}

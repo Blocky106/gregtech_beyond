@@ -1,0 +1,70 @@
+{
+    "registryname": "cstr",
+    "localizedname": "Continuous Stirring Reactor (CSTR)",
+	"color": "BBDEFB",
+	"parts": [		
+		{
+			"x": [-2, 2],
+			"y": [-1, 0, 1, 2],
+			"z": [ 1, 2, 3],
+			"elements": ["gregtech:metal_casing@5"]
+		},
+		{
+			"x": [-1, 0, 1],
+			"y": [-1, 0, 1, 2],
+			"z": [0,4],
+			"elements": [
+				"gregtech:metal_casing@5"
+			]
+		},
+		{
+			"x": [-1, 0, 1],
+			"y": -1,
+			"z": [0,4],
+			"elements": [
+				"gregtech:metal_casing@5",
+				"modularmachinery:blockenergyinputhatch",
+				"modularmachinery:blockinputbus"
+			]
+		},
+		{
+			"x": [-1,0,1],
+			"y": -2,
+			"z": [1, 2, 3],
+			"elements": [
+				"gregtech:boiler_casing@1"
+			]
+		},
+		{
+			"x": [-1,0,1],
+			"y": -2,
+			"z": 2,
+			"elements": [
+				"gregtech:boiler_casing@1"
+			]
+		},
+		{
+			"x": [-1,0,1],
+			"y": 3,
+			"z": [1, 2, 3],
+			"elements": [
+				"gregtech:boiler_casing@1"			
+]
+		},
+		{
+			"x": [-1,0,1],
+			"y": 3,
+			"z": 2,
+			"elements": [
+				"gregtech:boiler_casing@1"	
+			]
+		},
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "gregtech:machine@817"
+            ]
+        }
+    ]}

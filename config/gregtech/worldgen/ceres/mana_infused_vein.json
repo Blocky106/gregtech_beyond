@@ -1,0 +1,28 @@
+{
+  "weight": 19,
+  "density": 0.3,
+  "max_height": 155,
+  "min_height": 35,
+    "dimension_filter": [
+        "dimension_id:-1007"
+    ],
+  "generator": {
+    "type": "ellipsoid",
+    "radius": [11, 11]
+  },
+  "filler": {
+    "type": "simple",
+    "value": {
+      "type": "weight_random",
+      "values": [{
+         	 "weight": 40,
+         	 "value": "ore_dict:manainfusedore"
+        },
+        {
+         	 "weight": 60,
+         	 "value": "block:gregtech:ore_diamond_0"
+        }
+      ]
+    }
+  }
+}

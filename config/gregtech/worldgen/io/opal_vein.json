@@ -1,0 +1,30 @@
+{
+  "weight": 80,
+  "density": 0.4,
+  "max_height": 50,
+  "min_height": 10,
+  "vein_populator": {
+    "type": "surface_rock",
+    "material": "opal"
+  },
+  "generator": {
+    "type": "ellipsoid",
+    "radius": [17, 19]
+  },
+  "filler": {
+    "type": "simple",
+    "value": {
+      "type": "weight_random",
+      "values": [
+        {
+          "weight": 80,
+          "value": "ore:oreOpal"
+        },
+		{
+          "weight": 20,
+          "value": "ore:oreBlackopal"
+        }
+      ]
+    }
+  }
+}

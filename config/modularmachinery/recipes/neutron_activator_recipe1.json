@@ -1,0 +1,31 @@
+ {
+    "machine": "neutron",
+    "registryName": "neutron_activator_recipe1",
+    "recipeTime": 1400,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 512
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "gregtech:meta_item_1@12814",
+	    "amount" : 1,
+ 	    "chance": 0
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "thoriumsolution",
+	    "amount" : 1000
+        },
+        {
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "activatedthoriumsolution",
+	    "amount" : 1000
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+	"registryname": "plasmamix",
+	"localizedname": "Transcendant Plasma Mixer",
+	"color": "00345c",
+	"parts": [{
+			"elements": ["contenttweaker:quantumcasing@0"],
+			"y": [1, 2, 3, 4, 5],
+			"x": [-1, 1],
+			"z": [0, 4]
+		}, {
+			"elements": ["contenttweaker:quantumcasing@0"],
+			"y": [1, 2, 3, 4, 5],
+			"x": [-2, 2],
+			"z": [1, 3]
+		}, {
+			"elements": ["contenttweaker:highpowercasing@0"],
+			"y": [1, 2, 3, 4, 5],
+			"x": [-2, 2],
+			"z": 2
+		}, {
+			"elements": ["contenttweaker:dimensionalcasing@0"],
+			"y": [0, 6],
+			"x": [-1, 1],
+			"z": [0, 4]
+		}, {
+			"elements": ["contenttweaker:highpowercasing@0"],
+			"y": [1, 2, 3, 4, 5],
+			"x": 0,
+			"z": [0, 4]
+		}, {
+			"elements": ["contenttweaker:quantumcasing@0"],
+			"y": [0, 6],
+			"x": [-1, 0, 1],
+			"z": [1, 2, 3]
+		}, {
+			"elements": ["contenttweaker:coil@0"],
+			"y": [1, 2, 3, 4, 5],
+			"x": 0,
+			"z": 2
+		}, {
+			"elements": ["contenttweaker:dimensionalcasing@0"],
+			"y": [0, 6],
+			"x": [-2, 2],
+			"z": [1, 3]
+		}, {
+			"elements": ["casings_quantum"],
+			"y": [0, 6],
+			"x": [-2, 2],
+			"z": 2
+		}, {
+			"elements": ["casings_quantum"],
+			"y": 0,
+			"x": 0,
+			"z": 4
+		}, {
+			"elements": ["casings_quantum"],
+			"y": 6,
+			"x": 0,
+			"z": [0, 4]
+		}
+	]
+}

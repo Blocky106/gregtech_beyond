@@ -1,0 +1,27 @@
+{
+  "weight": 70,
+  "density": 0.2,
+  "max_height": 110,
+  "min_height": 40, 
+ "dimension_filter": ["name:planet.europa"],
+  "generator": {
+    "type": "ellipsoid",
+    "radius": [18, 18]
+  },
+  "filler": {
+    "type": "simple",
+    "value": {
+      "type": "weight_random",
+      "values": [
+        {
+          "weight": 50,
+          "value": "ore:nether_quartz"
+        },
+        {
+          "weight": 50,
+          "value": "block:appliedenergistics2:quartz_ore"
+        }
+      ]
+    }
+  }
+}
