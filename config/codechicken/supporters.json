@@ -1,250 +1,52 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta http-equiv=content-type content="text/html; charset=utf-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="format-detection" content="telephone=no" />
-<meta http-equiv="x-rim-auto-match" content="none" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui" />
-<meta name="mobile-web-app-capable" content="yes" />
-<meta name="apple-mobile-web-app-capable" content="yes" />
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-<meta http-equiv="cleartype" content="on">
-<link rel="icon" href="/favicon.ico" size="16x16"/>
-<link rel="icon" href="/icon.svg" type="image/svg+xml"/>
-<link rel="icon" href="/icon.png" type="image/png"/>
-<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-<link rel="apple-touch-startup-image" href="/apple-touch-icon.png" />
-<link rel="stylesheet" type="text/css" href="/css/rd/singleside_old.css"/>
-<title>FRITZ!Box</title>
-
-<meta http-equiv=content-type content="text/html; charset=utf-8" />
-<meta http-equiv="Cache-Control" content="private, no-transform" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="format-detection" content="telephone=no" />
-<meta http-equiv="x-rim-auto-match" content="none" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimal-ui" />
-<meta name="mobile-web-app-capable" content="yes" />
-<meta name="apple-mobile-web-app-capable" content="yes" />
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-<meta http-equiv="cleartype" content="on">
-<link rel="icon" href="/favicon.ico" size="16x16"/>
-<link rel="icon" href="/icon.svg" type="image/svg+xml"/>
-<link rel="icon" href="/icon.png" type="image/png"/>
-<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-<link rel="apple-touch-startup-image" href="/apple-touch-icon.png" />
-<style>
-/*@font-face {
-font-family: 'Source Sans Pro';
-font-style: italic;
-font-stretch: normal;
-font-weight: 400;
-src: url('/assets/fonts/SourceSansPro-Italic.woff2') format('woff2');
-}*/
-@font-face {
-font-family: 'Source Sans Pro';
-font-style: normal;
-font-stretch: normal;
-font-weight: 400;
-src: url('/assets/fonts/source-sans-pro-v11-latin-ext_latin-regular.woff2') format('woff2');
-}
-@font-face {
-font-family: 'Source Sans Pro';
-font-style: normal;
-font-stretch: normal;
-font-weight: 600;
-src: url('/assets/fonts/source-sans-pro-v11-latin-ext_latin-600.woff2') format('woff2');
-}
-@font-face {
-font-family: 'Source Sans Pro';
-font-style: normal;
-font-stretch: normal;
-font-weight: 900;
-src: url('/assets/fonts/SourceSansPro-Black.woff2') format('woff2');
-}
-html, input, textarea, keygen, select, button {
-font-family: 'Source Sans Pro', Arial, sans-serif;
-font-size: 100%;
-}
-</style>
-
-<style type="text/css">
-html {
-height: 100%;
-font-size: 100%;
-}
-.error_text {
-color: #ff0000;
-}
-.blue_bar_back h2 {
-text-align: center;
-}
-.area_form input{
-margin-left: 0.5rem;
-margin-right: 0.5rem;
-width: 6.25rem;
-}
-.page_content {
-padding: 1rem;
-}
-.button_tobox {
-text-align: center;
-margin-top: 2rem;
-}
-#page_content_no_menu_box {
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-min-height: 100vh;
-margin: 0;
-padding: 0;
-background-image: url(/assets/images/img_login_background.svg);
-background-position: center calc(50% + 3rem);
-background-repeat: no-repeat;
-background-size: 38rem;
-}
-.outer_dialog {
-margin: 7.25rem 0 1rem;
-}
-.outer_dialog > .page_content,
-.outer_dialog > .blue_bar_back {
-margin: 0;
-}
-@media (max-width: 47.4375em) {
-#page_content_no_menu_box {
-background-image: none;
-}
-.outer_dialog {
-margin: 4.75rem 0 1rem;
-}
-}
-</style>
-<script type="module">
-import dc from "/js/directPageCall.js";
-import jsl from "/js/jsl.js";
-import html2 from "/js/html2.js";
-import { setConfig } from "/js/config.js";
-setConfig({"ZIGBEE":false,"GUI_IS_POWERLINE":false,"isDebug":false,"gu_type":"release","WLAN":{"is_double_wlan":false},"GUI_IS_REPEATER":false,"GUI_IS_GATEWAY":false,"language":"de","GUI_HIDE_TEASER":false});
-function block(blocktime) {
-var form = jsl.get("uiMainForm");
-if (form) {
-if (blocktime > 0) {
-doBlockTicket(blocktime * 1000);
-}
-}
-}
-function getWaitStr(mSec) {
-var sec = Math.ceil(mSec / 1000),
-gTxtWaitmore = "Bitte warten Sie %1 Sekunden.",
-gTxtWaitone = "Bitte warten Sie 1 Sekunde.";
-if (sec === 1) {
-return gTxtWaitone;
-} else {
-return gTxtWaitmore.replace(/%1/, sec);
-}
-}
-function doBlockTicket(time) {
-var start = (new Date()).getTime();
-var timer = timer || null;
-jsl.disable("uiTicket");
-jsl.disable("uiSendTicket");
-if (timer) {
-window.clearTimeout(timer);
-timer = null;
-}
-function f() {
-var now = (new Date()).getTime();
-var wait = time - (now - start);
-if (wait > 0) {
-jsl.setHtml("uiWait", getWaitStr(wait));
-jsl.show("uiLoginError");
-timer = window.setTimeout(f, 500);
-} else {
-jsl.hide("uiLoginError");
-jsl.enable("uiTicket");
-jsl.enable("uiSendTicket");
-}
-}
-f();
-}
-/**
-* Erstellt Hinweis das der Internetzugang gesperrt ist
-*/
-function getAccessBlocked() {
-return html2.div({class: "space"},
-html2.div({}, "Gerätesperre aktiv: Der Internetzugang Ihres Gerätes ist gesperrt.")
-);
-}
-/**
-* gibt Button zurück für Weiterleitung zum Log-In der Fritz!Box
-*/
-function getBackButton() {
-// eslint-disable-next-line standard/object-curly-even-spacing
-return html2.fragment(
-html2.hr(),
-html2.div({class: "button_tobox"},
-html2.button({type: "button", id: "uiTobox", onclick: function () { dc.call("/start") }, name: "tobox" }, "Zur FRITZ!Box")
-));
-}
-window.onload = function () {
-var isAllowed = true;
-var blockTime = 0;
-if (!isAllowed) {
-var page = jsl.get("page_content");
-if (page) {
-html2.add(page, getAccessBlocked());
-//html2.add(page, getBackButton());
-}
-}
-block(blockTime);
-}
-</script>
-</head>
-<body>
-<div id="main_page_all">
-<header class="" name="" id="blueBarBox">
-<div class="logoBox" name="" id=""></div>
-<div class="blue_bar_titel" name="" id="blueBarTitel">FRITZ!Box</div>
-<div class="logoBox fake" name="" id=""></div>
-</header>
-<div id="page_content_no_menu_box">
-
-<div class="outer_dialog">
-<div class="blue_bar_back">
-<h2>FRITZ!Box</h2>
-</div>
-<div id="page_content" class="page_content">
-<form id="uiMainForm" name="mainform" method="POST" action="/tools/kids_not_allowed.lua">
-<input type="hidden" name="account" value="landeviceUID-6380" >
-<div class="area_content">
-<div><h2>Die Internetnutzung ist gesperrt.</h2></div>
-<br>
-<p>Die FRITZ!Box verhindert den Internetzugang aus einem der folgenden Gründe:</p>
-<br>
-<p>- Die erlaubte Online-Zeit ist ausgeschöpft.</p>
-<p>- Die Internetnutzung erfolgt außerhalb der erlaubten Tageszeit.</p>
-<br>
-<p>Wenn Sie über ein Ticket zur Verlängerung der Online-Zeit verfügen, können Sie es hier einlösen und weitere 45 Minuten surfen.</p>
-<p>Geben Sie die Ticket-Nummer ein. Jede Ticket-Nummer kann nur einmal verwendet werden.</p>
-<br>
-<div class="area_form">
-<label for="uiTicket" >Ticket-Nummer</label><input type="text" maxlength="6" name="ticket" id="uiTicket">
-<button type="submit" id="uiSendTicket" name="edit" value="">Ticket einlösen</button>
-</div>
-
-</div>
-</form>
-</div>
-</div>
-
-<div class="clear_float"></div>
-
-</div>
-</div>
-</div>
-
-</body>
-</html>
-
-
+[
+	{
+		"mod" : "EnderStorage",
+		"supporters": [
+			"Blkdragon112",
+			"Pyrodogg"
+		]
+	},
+	{
+		"mod" : "ChickenChunks",
+		"supporters": [
+		]
+	},
+	{
+		"mod" : "NotEnoughItems",
+		"supporters": [
+			"EmuCraft Team",
+			"Victor Zimmer",
+			"lexi85",
+			"Ace_Trainer_Tullius",
+			"Bacon_Donut",
+			"Sleement",
+			"Ninja 5tyl3",
+			"Disalot",
+			"Gamer2313",
+			"Majorangejuice",
+			"Kadah",
+			"adeilt",
+			"Terkanil",
+			"Pandemonia",
+		]
+	},
+	{
+		"mod" : "WR-CBE",
+		"supporters" : [
+			"Vizerei"
+		]
+	},
+	{
+		"mod" : "Translocators",
+		"supporters": [
+			"Boyd Stephen Smith Jr."
+		]
+	}, 
+	{
+		"mod" : "ProjectRed",
+		"supporters" : [
+			"Jacob M",
+			"Darker Light"
+		]
+	}
+]

@@ -1063,12 +1063,6 @@ hotantoingot.register();
 var hotultimateingot = VanillaFactory.createItem("hotultimateingot");
 hotultimateingot.register();
 
-var cupbase = VanillaFactory.createItem("cupbase");
-cupbase.register();
-
-var cupholder = VanillaFactory.createItem("cupholder");
-cupholder.register();
-
 var tiedhay = VanillaFactory.createItem("tiedhay");
 tiedhay.register();
 
@@ -2762,10 +2756,21 @@ dense_ice.setToolLevel(2);
 dense_ice.setBlockSoundType(<soundtype:metal>);
 dense_ice.register();
 
+var triethylaluminium = VanillaFactory.createFluid("triethylaluminium", Color.fromHex("4d4de3"));
+triethylaluminium.register();
+
+var polybenzimidazoleprepolymerfoam = VanillaFactory.createFluid("polybenzimidazoleprepolymerfoam", Color.fromHex("1b1b1c"));
+polybenzimidazoleprepolymerfoam.register();
+
+var polybenzimidazolesolution = VanillaFactory.createFluid("polybenzimidazolesolution", Color.fromHex("1a1a1c"));
+polybenzimidazolesolution.register();
+
+var impurepolybenzimidazolesolution = VanillaFactory.createFluid("impurepolybenzimidazolesolution", Color.fromHex("1a1a1c"));
+impurepolybenzimidazolesolution.register();
 
 
-
-
+var polybenzimidazolewaste = VanillaFactory.createFluid("polybenzimidazolewaste", Color.fromHex("070708"));
+polybenzimidazolewaste.register();
 
 
 

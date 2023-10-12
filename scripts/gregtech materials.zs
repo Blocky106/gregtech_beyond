@@ -261,8 +261,25 @@ titaniumiridium.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENER
 val titaniumaluminide = MaterialRegistry.createIngotMaterial(594,"titaniumaluminide",0xABBFDA,"DULL",2);
 titaniumaluminide.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_DENSE","GENERATE_FLUID_BLOCK"]);
 
-val sodiumethylxantate = MaterialRegistry.createIngotMaterial(595,"sodiumethylxantate",0xABBFDA,"DULL",2);
+val sodiumethylxantate = MaterialRegistry.createDustMaterial(595,"sodiumethylxantate",0xB7AA33,"DULL",2);
 sodiumethylxantate.addFlags(["GENERATE_PLATE"]);
+
+val philipscatalyst = MaterialRegistry.createDustMaterial(596,"philipscatalyst",0xB45D83,"DULL",2);
+philipscatalyst.addFlags(["GENERATE_PLATE"]);
+
+val zieglernattacatalyst = MaterialRegistry.createDustMaterial(597,"zieglernattacatalyst",0x8BC34A,"DULL",2);
+zieglernattacatalyst.addFlags(["GENERATE_PLATE"]);
+
+val kaminskycatalyst = MaterialRegistry.createDustMaterial(598,"kaminskycatalyst",0x372927,"DULL",2);
+kaminskycatalyst.addFlags(["GENERATE_PLATE"]);
+
+
+
+
+
+
+
+
 
 
 

@@ -135,3 +135,114 @@ fusion_reactor.recipeBuilder()
     .EUt(500000)
     .buildAndRegister();
 
+alloy_smelter.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2848>*4,<gtadditions:ga_dust:28>*3)
+    .outputs(<gregtech:meta_item_1:2596>*7)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:hydrogen>*6000,<liquid:ethylene>*6000)
+    .outputs(<gregtech:meta_item_1:2001>*2)
+    .inputs(<liquid:triethylaluminium>*3000)
+    .duration(400)
+    .EUt(12)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:hydrogen>*6000,<liquid:ethylene>*6000)
+    .outputs(<gregtech:meta_item_1:2001>*2)
+    .inputs(<liquid:triethylaluminium>*3000)
+    .duration(400)
+    .EUt(12)
+    .buildAndRegister();
+
+mixer.recipeBuilder()
+    .fluidInputs(<liquid:triethylaluminium>*1000,<liquid:titanium_tetrachloride>*1000)
+    .outputs(<gregtech:meta_item_1:2597>)
+    .duration(900)
+    .EUt(100)
+    .buildAndRegister();
+
+Utils.removeRecipeByOutput(chemReactor, [], [<liquid:plastic>*144], false);
+Utils.removeRecipeByOutput(chemReactor, [], [<liquid:plastic>*216], false);
+Utils.removeRecipeByOutput(chemReactor, [], [<liquid:plastic>*3240], false);
+Utils.removeRecipeByOutput(chemReactor, [], [<liquid:plastic>*4320], false);
+
+Utils.removeRecipeByOutput(lcr, [], [<liquid:plastic>*144], false);
+Utils.removeRecipeByOutput(lcr, [], [<liquid:plastic>*216], false);
+Utils.removeRecipeByOutput(lcr, [], [<liquid:plastic>*3240], false);
+Utils.removeRecipeByOutput(lcr, [], [<liquid:plastic>*4320], false);
+
+Utils.removeRecipeByOutput(lcr, [], [<liquid:polybenzimidazole>*1008], false);
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:diphenylisophtalate>*1000,<liquid:diaminobenzidine>*1000)  
+    .fluidOutputs(<liquid:water>*2000,<liquid:phenol>*2000,<liquid:polybenzimidazoleprepolymerfoam>*1008) 
+    .duration(200)
+    .EUt(300)
+    .buildAndRegister();
+
+centrifuge.recipeBuilder()
+    .fluidInputs(<liquid:impurepolybenzimidazolesolution>*7000)
+    .fluidOutputs(<liquid:polybenzimidazolesolution>*4000,<liquid:polybenzimidazolewaste>*3000)
+    .duration(120)
+    .EUt(290)
+    .buildAndRegister();
+
+distillation_tower.recipeBuilder()
+    .fluidInputs(<liquid:polybenzimidazolesolution>*1000)
+    .fluidOutputs(<liquid:water>*100)
+    .outputs(<gregtech:meta_item_1:2840>*7)
+    .duration(400)
+    .EUt(1200)
+    .buildAndRegister();
+
+distillation_tower.recipeBuilder()
+    .fluidInputs(<liquid:polybenzimidazolewaste>*7000)
+    .fluidOutputs(<liquid:water>*4000,<liquid:phenol>*1000,<liquid:toluene>*1000,<liquid:dichloromethane>*1000)
+    .outputs(<gregtech:meta_item_1:2155>*4)
+    .duration(800)
+    .EUt(200)
+    .buildAndRegister();
+
+Utils.removeRecipeByOutput(chemReactor, [], [<liquid:polystyrene>*144], false);
+Utils.removeRecipeByOutput(chemReactor, [], [<liquid:polystyrene>*216], false);
+Utils.removeRecipeByOutput(chemReactor, [], [<liquid:polystyrene>*3240], false);
+Utils.removeRecipeByOutput(chemReactor, [], [<liquid:polystyrene>*4320], false);
+
+Utils.removeRecipeByOutput(lcr, [], [<liquid:polystyrene>*144], false);
+Utils.removeRecipeByOutput(lcr, [], [<liquid:polystyrene>*216], false);
+Utils.removeRecipeByOutput(lcr, [], [<liquid:polystyrene>*3240], false);
+Utils.removeRecipeByOutput(lcr, [], [<liquid:polystyrene>*4320], false);
+
+Utils.removeRecipeByOutput(chemReactor, [], [<liquid:polytetrafluoroethylene>*144], false);
+Utils.removeRecipeByOutput(chemReactor, [], [<liquid:polytetrafluoroethylene>*216], false);
+Utils.removeRecipeByOutput(chemReactor, [], [<liquid:polytetrafluoroethylene>*3240], false);
+Utils.removeRecipeByOutput(chemReactor, [], [<liquid:polytetrafluoroethylene>*4320], false);
+
+Utils.removeRecipeByOutput(lcr, [], [<liquid:polytetrafluoroethylene>*144], false);
+Utils.removeRecipeByOutput(lcr, [], [<liquid:polytetrafluoroethylene>*216], false);
+Utils.removeRecipeByOutput(lcr, [], [<liquid:polytetrafluoroethylene>*3240], false);
+Utils.removeRecipeByOutput(lcr, [], [<liquid:polytetrafluoroethylene>*4320], false);
+
+Utils.removeRecipeByOutput(chemReactor, [], [<liquid:polyvinyl_acetate>*144], false);
+Utils.removeRecipeByOutput(chemReactor, [], [<liquid:polyvinyl_acetate>*216], false);
+Utils.removeRecipeByOutput(chemReactor, [], [<liquid:polyvinyl_acetate>*3240], false);
+Utils.removeRecipeByOutput(chemReactor, [], [<liquid:polyvinyl_acetate>*4320], false);
+
+Utils.removeRecipeByOutput(lcr, [], [<liquid:polyvinyl_acetate>*144], false);
+Utils.removeRecipeByOutput(lcr, [], [<liquid:polyvinyl_acetate>*216], false);
+Utils.removeRecipeByOutput(lcr, [], [<liquid:polyvinyl_acetate>*3240], false);
+Utils.removeRecipeByOutput(lcr, [], [<liquid:polyvinyl_acetate>*4320], false);
+
+Utils.removeRecipeByOutput(chemReactor, [], [<liquid:polyvinyl_chloride>*144], false);
+Utils.removeRecipeByOutput(chemReactor, [], [<liquid:polyvinyl_chloride>*216], false);
+Utils.removeRecipeByOutput(chemReactor, [], [<liquid:polyvinyl_chloride>*3240], false);
+Utils.removeRecipeByOutput(chemReactor, [], [<liquid:polyvinyl_chloride>*4320], false);
+
+Utils.removeRecipeByOutput(lcr, [], [<liquid:polyvinyl_chloride>*144], false);
+Utils.removeRecipeByOutput(lcr, [], [<liquid:polyvinyl_chloride>*216], false);
+Utils.removeRecipeByOutput(lcr, [], [<liquid:polyvinyl_chloride>*3240], false);
+Utils.removeRecipeByOutput(lcr, [], [<liquid:polyvinyl_chloride>*4320], false);

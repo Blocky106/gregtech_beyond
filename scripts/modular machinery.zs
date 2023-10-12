@@ -149,7 +149,7 @@ recipes.addShapeless(<modularmachinery:blockmefluidinputbus>,[<modularmachinery:
 
 
 recipes.addShaped(<modularmachinery:planar_controller>, [	[<ore:plateSteel>, <ore:itemLens>, <ore:plateSteel>], 	[<ore:circuitAdvanced>, <ore:frameGtBlackSteel>, <ore:circuitAdvanced>], 	[<ore:plateSteel>, <gregtech:machine:503>, <ore:plateSteel>]]);
-
+recipes.addShaped(<modularmachinery:polytank_controller>, [[<ore:circuitGood>, <gregtech:meta_item_1:32610>, <ore:circuitGood>], [<gregtech:meta_item_1:32610>, <gregtech:machine:501>, <gregtech:meta_item_1:32610>], 	[<ore:rotorSteel>, <gregtech:meta_item_1:32610>, <ore:rotorSteel>]]);
 
 
 

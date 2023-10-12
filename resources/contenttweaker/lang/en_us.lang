@@ -919,11 +919,16 @@ item.contenttweaker.researchpaperkuiperbelt.name=Research Paper (Kuiper Belt)
 item.contenttweaker.researchpaperhaumea.name=Research Paper (Haumea)
 item.contenttweaker.researchpapereris.name=Research Paper (Eris)
 item.contenttweaker.researchpapermakemake.name=Research Paper (MakeMake)
-item.contenttweaker.researchpapersaturn Paper (Saturn)
+item.contenttweaker.researchpapersaturn.name=Research Paper (Saturn)
 tile.contenttweaker.dense_ice.name=Dense Ice
 item.contenttweaker.alumino_silicate_wool_sheet.name=Alumino Silicate Wool Sheet
 item.contenttweaker.eris.name=Eris
-
-
-
-
+material.sodiumethylxantate=Sodium Ethyl Xantate
+material.philipscatalyst=Philips Catalyst
+material.zieglernattacatalyst=Ziegler-Natta Catalyst
+material.kaminskycatalyst=Kaminsky Catalyst
+fluid.triethylaluminium=Triethylaluminium
+fluid.polybenzimadozoleprepolymerfoam=Polybenzimadozole Pre Polymer Foam
+fluid.polybenzimadozolesolution=Polybenzimadozole Solution
+fluid.impurepolybenzimadozolesolution=Impure Polybenzimadozole Solution
+fluid.polybenzimadozolewaste=Polybenzimadozole Waste

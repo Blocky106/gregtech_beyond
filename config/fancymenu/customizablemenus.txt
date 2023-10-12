@@ -1,8 +1,5 @@
 type = customizablemenus
 
-net.minecraft.client.gui.GuiMainMenu {
-}
-
 net.minecraftforge.fml.client.GuiModList {
 }
 
@@ -28,5 +25,8 @@ net.minecraft.client.gui.GuiIngameMenu {
 }
 
 net.minecraft.client.gui.inventory.GuiContainerCreative {
+}
+
+net.minecraft.client.gui.GuiMainMenu {
 }
 
