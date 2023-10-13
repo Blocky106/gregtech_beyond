@@ -2768,11 +2768,11 @@ polybenzimidazolesolution.register();
 var impurepolybenzimidazolesolution = VanillaFactory.createFluid("impurepolybenzimidazolesolution", Color.fromHex("1a1a1c"));
 impurepolybenzimidazolesolution.register();
 
-
 var polybenzimidazolewaste = VanillaFactory.createFluid("polybenzimidazolewaste", Color.fromHex("070708"));
 polybenzimidazolewaste.register();
 
-
+var living_bio_chip = VanillaFactory.createItem("living_bio_chip");
+living_bio_chip.register();
 
 
 

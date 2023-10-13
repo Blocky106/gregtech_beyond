@@ -634,7 +634,7 @@ furnace.remove(<gregtech:meta_item_1:9273>);
 assembly_line.recipeBuilder()
     .inputs(<gtadditions:ga_meta_item:32405>*4,<contenttweaker:biotransistor>*2,<contenttweaker:stemcellcontainmentcell>*2,<gtadditions:ga_meta_item:32018>*2,<contenttweaker:opticalenforcedlaser>*2,<gtadditions:ga_meta_item:32407>*4,<gtadditions:ga_meta_item:32406>*4,<gtadditions:ga_meta_item:32408>*4,<contenttweaker:biowarecoolingunit>*2,<contenttweaker:uvhasoc>*2,<contenttweaker:biowareprocessingunit>,<contenttweaker:biowaremainboard>,<gtadditions:ga_meta_item:32213>*4,<gregtech:cable:967>*32)
     .fluidInputs(<liquid:soldering_alloy>*3200,<liquid:lubricant>*2000,<liquid:indalloy140>*600)
-    .outputs(<contenttweaker:biowaremainchip>*8)
+    .outputs(<contenttweaker:biowaremainchip>*32)
     .duration(400)
     .EUt(500000)
     .buildAndRegister();
@@ -657,7 +657,7 @@ assembler.recipeBuilder()
 
 assembly_line.recipeBuilder()
     .inputs(<gtadditions:ga_meta_item:32405>*32,<gregtech:meta_item_1:12022>*16,<gregtech:meta_item_1:14549>*32,<gregtech:meta_item_1:14549>*32,<gregtech:cable:968>*16,<gregtech:meta_item_2:16692>*64,<gregtech:meta_item_2:16692>*64,<gregtech:meta_item_2:16692>*64,<gregtech:meta_item_2:16692>*64)
-    .outputs(<contenttweaker:biotransistor>*2)
+    .outputs(<contenttweaker:biotransistor>*16)
     .duration(800)
     .EUt(12000)
     .buildAndRegister();
@@ -856,7 +856,7 @@ ebf.recipeBuilder()
 
 assembler.recipeBuilder()
     .inputs(<gtadditions:ga_meta_item:32016>*4,<gregtech:meta_item_1:12564>*2,<enderio:item_material:14>*2,<enderio:item_material:15>*2,<ore:circuitElite>)
-    .outputs(<contenttweaker:opticalenforcedlaser>*16)
+    .outputs(<contenttweaker:opticalenforcedlaser>*32)
     .fluidInputs(<liquid:heavy_lepton_mix>*1000)
     .duration(800)
     .EUt(12000)

@@ -2520,7 +2520,7 @@ assembly_line.recipeBuilder()
     .buildAndRegister();
 
 assembly_line.recipeBuilder()
-    .inputs(<gregtech:meta_item_2:32476>*32,<contenttweaker:onecoolant>,<contenttweaker:onecoolant>,<gregtech:cable:307>*10,<ore:circuitUltimate>,<ore:circuitUltimate>,<gregtech:machine:507>,<contenttweaker:naquadaalloycoil>*8,<gtadditions:ga_meta_item:32426>*16)
+    .inputs(<gregtech:meta_item_2:32476>*32,<contenttweaker:onecoolant>*2,<gregtech:cable:1964>*2,<ore:circuitUltimate>*2,<gregtech:machine:507>,<contenttweaker:naquadaalloycoil>*8,<gtadditions:ga_meta_item:32426>*16)
     .outputs(<gregtech:machine:774>)
     .fluidInputs(<liquid:soldering_alloy>*3200,<liquid:naquadah>*1000)
     .duration(300)
@@ -3018,7 +3018,6 @@ furnace.remove(<gregtech:meta_item_1:9780>);
 furnace.remove(<gregtech:meta_item_1:10563>);
 furnace.remove(<gregtech:meta_item_1:9563>);
 furnace.remove(<gregtech:meta_item_1:9530>);
-recipes.remove(<gregtech:machine:774>);
 recipes.remove(<gregtech:meta_item_1:2421>);
 recipes.remove(<gregtech:machine:784>);
 recipes.remove(<gregtech:machine:2533>);
