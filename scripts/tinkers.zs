@@ -115,7 +115,7 @@ recipes.addShaped(<tconstruct:smeltery_controller>, [	[<ore:ingotBrickSeared>, <
 recipes.remove(<tconstruct:fancy_frame:6>);
 recipes.remove(<tconstruct:tooltables>);
 recipes.addShaped(<tconstruct:tooltables>, [	[<ore:plankWood>, <ore:workbench>, <ore:plankWood>], 	[<ore:stickLongWood>, <ore:slabWood>, <ore:stickLongWood>], 	[<ore:screwIron>, null, <ore:screwIron>]]);
-
+recipes.remove(<tconstruct:smeltery_controller>);
 
 
 

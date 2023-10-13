@@ -222,10 +222,37 @@ lcr.recipeBuilder()
 
 recipes.addShaped(<gregtech:meta_item_2:32461>*4, [	[<ore:plateSilicon>, <ore:plateSilicon>, <ore:plateSilicon>], 	[<ore:wireGtSingleTin>, <ore:wireGtSingleTin>, <ore:wireGtSingleTin>], 	[<ore:wireGtSingleTin>, <ore:wireGtSingleTin>, <ore:wireGtSingleTin>]]);
 
+assembler.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:12111>*4)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 4}))
+    .outputs(<minecraft:diamond_boots>)
+    .duration(40)
+    .EUt(12)
+    .buildAndRegister();
 
+assembler.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:12111>*7)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 7}))
+    .outputs(<minecraft:diamond_leggings>)
+    .duration(40)
+    .EUt(12)
+    .buildAndRegister();
 
+assembler.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:12111>*8)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 8}))
+    .outputs(<minecraft:diamond_chestplate>)
+    .duration(40)
+    .EUt(12)
+    .buildAndRegister();
 
-
+assembler.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:12111>*5)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 5}))
+    .outputs(<minecraft:diamond_helmet>)
+    .duration(40)
+    .EUt(12)
+    .buildAndRegister();
 
 
 
