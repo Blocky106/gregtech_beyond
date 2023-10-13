@@ -179,7 +179,7 @@ customization {
   width = 228
   action = deep_customization_element:title_screen_forge_copyright
   actionid = 0025bd40-d671-42a2-a1c1-f2582dbf3a751696777493677
-  y = 520
+  y = 489
   height = 9
 }
 
