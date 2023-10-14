@@ -37,20 +37,12 @@ var scannerev = IRecipeMap.recipeMapBuilder("scannerev",2,2,1,1,0,0,0,0)
 
 RegisterMachine.CreateSimpleMachine(1407, "scanner",scanner, Overlays.get("assembler"), 5);
 RegisterMachine.CreateSimpleMachine(1408, "scannerluv",scannerluv, Overlays.get("assembler"), 6);
-RegisterMachine.CreateSimpleMachine(1411, "scannerev",scannerev, Overlays.get("assembler"), 4);
 
 scanner.recipeBuilder()
     .inputs(<contenttweaker:datadisc>,<gregtech:machine:104>)
     .outputs(<contenttweaker:datadiskassemblyline>)
     .duration(8000)
     .EUt(6000)
-    .buildAndRegister();
-
-scannerev.recipeBuilder()
-    .inputs(<contenttweaker:datadisc>,<gregtech:machine:283>)
-    .outputs(<contenttweaker:datadiskdigester>)
-    .duration(8000)
-    .EUt(2000)
     .buildAndRegister();
 
 scannerluv.recipeBuilder()

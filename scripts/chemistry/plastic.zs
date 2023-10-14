@@ -246,3 +246,12 @@ Utils.removeRecipeByOutput(lcr, [], [<liquid:polyvinyl_chloride>*144], false);
 Utils.removeRecipeByOutput(lcr, [], [<liquid:polyvinyl_chloride>*216], false);
 Utils.removeRecipeByOutput(lcr, [], [<liquid:polyvinyl_chloride>*3240], false);
 Utils.removeRecipeByOutput(lcr, [], [<liquid:polyvinyl_chloride>*4320], false);
+
+
+Utils.removeRecipeByOutput(chemReactor, [], [<liquid:styrene_butadiene_rubber>*1296], false);
+Utils.removeRecipeByOutput(chemReactor, [], [<liquid:rubber>*1296], false);
+Utils.removeRecipeByOutput(chemReactor, [], [<liquid:silicon_rubber>*1296], false);
+
+Utils.removeRecipeByOutput(lcr, [], [<liquid:styrene_butadiene_rubber>*1296], false);
+Utils.removeRecipeByOutput(lcr, [], [<liquid:rubber>*1296], false);
+Utils.removeRecipeByOutput(lcr, [], [<liquid:silicon_rubber>*1296], false);

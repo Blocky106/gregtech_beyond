@@ -19,7 +19,7 @@ I:defaultguiscale = '-1';
 ##[customization]
 
 B:advancedmode = 'false';
-B:showcustomizationbuttons = 'false';
+B:showcustomizationbuttons = 'true';
 
 
 ##[mainmenu]
@@ -40,9 +40,9 @@ S:customgameintroskiptext = '';
 ##[minecraftwindow]
 
 [A minecraft restart is required after changing this value.]
-S:customwindowtitle = '';
+S:customwindowtitle = 'GregTech Beyond';
 [A minecraft restart is required after changing this value.]
-B:customwindowicon = 'false';
+B:customwindowicon = 'true';
 
 
 ##[multiplayer_screen]
@@ -67,7 +67,7 @@ B:showvanillamovewarning = 'true';
 ##[ui]
 
 B:show_unicode_warning = 'true';
-F:uiscale = '1.0';
+F:uiscale = '1';
 
 
 ##[compatibility]

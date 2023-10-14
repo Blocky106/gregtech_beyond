@@ -126,13 +126,6 @@ RecipeBuilder.newBuilder("transformer15", "transformer", 20) .addEnergyPerTickIn
 RecipeBuilder.newBuilder("transformer16", "transformer", 20) .addEnergyPerTickInput(512) .addItemInput(<gregtech:meta_item_1:10072>) .addItemOutput(<gregtech:meta_item_1:10016>) .build();
 RecipeBuilder.newBuilder("transformer17", "transformer", 20) .addEnergyPerTickInput(512) .addItemInput(<minecraft:dirt:2>) .addItemOutput(<minecraft:clay>) .build();
 RecipeBuilder.newBuilder("transformer18", "transformer", 20) .addEnergyPerTickInput(512) .addItemInput(<contenttweaker:instablematter>) .addFluidInput(<liquid:atomicseperationcatalyst>*144) .addItemOutput(<contenttweaker:stablematter>) .build();
-RecipeBuilder.newBuilder("rock1", "rock", 20) .addEnergyPerTickInput(512) .addItemInput(<minecraft:stone>) .addItemOutput(<minecraft:stone>*4) .build();
-RecipeBuilder.newBuilder("rock2", "rock", 20) .addEnergyPerTickInput(512) .addItemInput(<minecraft:cobblestone>) .addItemOutput(<minecraft:cobblestone>*4) .build();
-RecipeBuilder.newBuilder("rock3", "rock", 20) .addEnergyPerTickInput(512) .addItemInput(<minecraft:obsidian>) .addItemOutput(<minecraft:obsidian>*4) .build();
-RecipeBuilder.newBuilder("rock4", "rock", 20) .addEnergyPerTickInput(512) .addItemInput(<minecraft:stone:3>) .addItemOutput(<minecraft:stone:3>*4) .build();
-RecipeBuilder.newBuilder("rock5", "rock", 20) .addEnergyPerTickInput(512) .addItemInput(<minecraft:stone:5>) .addItemOutput(<minecraft:stone:5>*4) .build();
-RecipeBuilder.newBuilder("rock6", "rock", 20) .addEnergyPerTickInput(512) .addItemInput(<minecraft:stone:1>) .addItemOutput(<minecraft:stone:1>*4) .build();
-RecipeBuilder.newBuilder("rock7", "rock", 20) .addEnergyPerTickInput(512) .addItemInput(<appliedenergistics2:sky_stone_block>) .addItemOutput(<appliedenergistics2:sky_stone_block>*4) .build();
 RecipeBuilder.newBuilder("precise15", "precise", 1200)   .addEnergyPerTickInput(1400000) .addFluidInput(<liquid:sterilized_growth_medium>*100000) .addFluidInput(<liquid:tritanium>*80000) .addFluidInput(<liquid:soldering_alloy>*500000).addItemOutput(<contenttweaker:quantumcontrolcomputermk1>) .addFluidInput(<liquid:indalloy140>*24000) .addItemInput(<gregtech:meta_item_1:12730>*32 ) .addItemInput(<gregtech:meta_item_1:12144>*32) .addItemInput(<gregtech:meta_item_1:12700>*32) .addItemInput(<gregtech:meta_item_1:12395>*32) .addItemInput(<gregtech:meta_item_1:12143>*32) .addItemInput(<gregtech:cable:1744>*16) .addItemInput(<gregtech:meta_item_1:12965>*32) .addItemInput(<gregtech:meta_item_1:12141>*32) .addItemInput(<gregtech:meta_item_1:32655>*4) .addItemInput(<gregtech:meta_item_1:12840>*32) .addItemInput(<gregtech:meta_item_1:12563>*16) .addItemInput(<gregtech:meta_item_1:12145>*32) .addItemInput(<contenttweaker:hicomputationstationmk3>*4) .addItemInput(<ore:circuitInfinite>*8) .addItemInput(<gregtech:meta_item_1:32675>*2) .build();
 RecipeBuilder.newBuilder("water1", "water", 12) .addEnergyPerTickInput(6) .addFluidOutput(<liquid:water>*150) .build();
 RecipeBuilder.newBuilder("brine1", "brine", 80) .addEnergyPerTickInput(500) .addFluidInput(<liquid:sea_water>*1000) .addFluidOutput(<liquid:brine>*100 ) .build();
@@ -199,24 +192,24 @@ recipes.addShaped(<modularmachinery:polytank_controller>, [[<ore:circuitGood>, <
 
 
 assembler.recipeBuilder()
-    .inputs(<modularmachinery:itemmodularium>*4,<gregtech:machine:744>)
-    .outputs(<modularmachinery:blockenergyinputhatch:4>)
-    .fluidInputs(<liquid:polybenzimidazole>*288)
+    .inputs(<gregtech:machine:744>)
+    .outputs(<modularmachinery:blockenergyinputhatch:4>,<contenttweaker:tungstensteelcoil>*2)
+    .fluidInputs(<liquid:polytetrafluoroethylene>*288)
     .duration(800)
     .EUt(2400)
     .buildAndRegister();
 
 assembler.recipeBuilder()
-    .inputs(<modularmachinery:itemmodularium>*4,<gregtech:machine:754>)
-    .outputs(<modularmachinery:blockenergyinputhatch:5>)
-    .fluidInputs(<liquid:polybenzimidazole>*288)
+    .inputs(<gregtech:machine:754>)
+    .outputs(<modularmachinery:blockenergyinputhatch:5>,<contenttweaker:hssgcoil>*2)
+    .fluidInputs(<liquid:polytetrafluoroethylene>*288)
     .duration(800)
     .EUt(2400)
     .buildAndRegister();
 
 assembler.recipeBuilder()
-    .inputs(<modularmachinery:itemmodularium>*4,<gregtech:machine:784>)
-    .outputs(<modularmachinery:blockenergyinputhatch:7>)
+    .inputs(<gregtech:machine:784>)
+    .outputs(<modularmachinery:blockenergyinputhatch:7>,<contenttweaker:naquadaalloycoil>*2,<contenttweaker:twocryogeniccoolant>*2)
     .fluidInputs(<liquid:polybenzimidazole>*288)
     .duration(800)
     .EUt(2400)
@@ -270,7 +263,6 @@ assembler.recipeBuilder()
     .duration(200)
     .EUt(144)
     .buildAndRegister();
-
 
 
 

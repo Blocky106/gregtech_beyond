@@ -254,10 +254,16 @@ assembler.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:ethylene>*3000)
+    .inputs(<gregtech:meta_item_1:2001>*2)
+    .fluidOutputs(<liquid:triethylaluminium>*4000)
+    .duration(300)
+    .EUt(12)
+    .buildAndRegister();
 
-
-
-
+recipes.addShaped(<gregtech:machine:1407>, [	[<gregtech:meta_item_1:32654>, <ore:cableGtSingleTungstenSteel>, <gregtech:meta_item_1:32654>], 	[<ore:circuitMaster>, <gregtech:machine:505>, <ore:circuitMaster>], 	[<gregtech:meta_item_1:32654>, <ore:cableGtSingleTungstenSteel>, <gregtech:meta_item_1:32654>]]);
+recipes.addShaped(<gregtech:machine:1408>, [	[<gregtech:meta_item_1:32655>, <ore:cableGtSingleNaquadah>, <gregtech:meta_item_1:32655>], 	[<ore:circuitUltimate>, <gregtech:machine:506>, <ore:circuitUltimate>], [<gregtech:meta_item_1:32655>, <ore:cableGtSingleNaquadah>, <gregtech:meta_item_1:32655>]]);
 
 
 
