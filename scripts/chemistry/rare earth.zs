@@ -70,7 +70,7 @@ lcentrifuge.findRecipe(480,null,[<liquid:rare_earth_chlorides_solution>*6000,<li
 
 mixer.recipeBuilder()
     .fluidInputs(<liquid:muddybastnasitesolution>*1000)
-    .inputs(<gregicalityoreaddon:gaoe_oredict_item:2010>)
+    .inputs(<gregtech:meta_item_1:2063>*2)
     .fluidOutputs(<liquid:conditionedbastnasitemud>*1144)
     .duration(400)
     .EUt(500)

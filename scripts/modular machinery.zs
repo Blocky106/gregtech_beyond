@@ -75,7 +75,6 @@ val cluster_mill = mods.gregtech.recipe.RecipeMap.getByName("cluster_mill");
 recipes.remove(<modularmachinery:blockcontroller>);
 
 mods.recipestages.Recipes.addShaped("machineProjector", <modularmachinery:machine_projector>, [	[null, null, <ore:circuitSuperconductor>], 	[null, <ore:plateFermium>, null], 	[<ore:plateFermium>, null, null]]);
-RecipeBuilder.newBuilder("cooler1", "cooler", 40)   .addEnergyPerTickInput(50000)    .addItemInput(<contenttweaker:hotresonantseaborgiumingot>)    .addFluidInput(<liquid:cryogeniccoolant> * 1000)   .addItemOutput(<contenttweaker:resonantseaborgiumingot>)    .build();    RecipeBuilder.newBuilder("pneumatic1", "pneumatic", 900)    .addEnergyPerTickInput(800000)    .addItemInput(<pneumaticcraft:plastic>)    .addItemInput(<extendedcrafting:material:36>*16)    .addItemInput(<extendedcrafting:storage:1>)    .addItemOutput(<extendedcrafting:material:49>)   .build();
 RecipeBuilder.newBuilder("matter1", "matter", 80)    .addEnergyPerTickInput(512800000)    .addItemInput(<enderio:item_alloy_ingot:6> *64)    .addItemOutput(<contenttweaker:elementds>)    .build();
 RecipeBuilder.newBuilder("matter2", "matter", 80)    .addEnergyPerTickInput(512800000)    .addItemInput(<gregtech:meta_item_1:10856>*64)    .addItemOutput(<contenttweaker:selementts>)    .build();
 RecipeBuilder.newBuilder("matter3", "matter", 80)    .addEnergyPerTickInput(512800000)    .addItemInput(<gregtech:meta_item_1:10786>*64)    .addItemOutput(<contenttweaker:elementfm>)   .build();
@@ -143,7 +142,7 @@ recipes.addShapeless(<modularmachinery:blockmefluidinputbus>,[<modularmachinery:
 
 recipes.addShaped(<modularmachinery:planar_controller>, [	[<ore:plateSteel>, <ore:itemLens>, <ore:plateSteel>], 	[<ore:circuitAdvanced>, <ore:frameGtBlackSteel>, <ore:circuitAdvanced>], 	[<ore:plateSteel>, <gregtech:machine:503>, <ore:plateSteel>]]);
 recipes.addShaped(<modularmachinery:polytank_controller>, [[<ore:circuitGood>, <gregtech:meta_item_1:32610>, <ore:circuitGood>], [<gregtech:meta_item_1:32610>, <gregtech:machine:501>, <gregtech:meta_item_1:32610>], 	[<ore:rotorSteel>, <gregtech:meta_item_1:32610>, <ore:rotorSteel>]]);
-
+recipes.addShaped(<modularmachinery:press_controller>, [	[<gregtech:meta_item_1:32640>, <ore:craftingAnvil>, <gregtech:meta_item_1:32640>], 	[<ore:plateWroughtIron>, <gregtech:machine:501>, <ore:plateWroughtIron>], 	[<gregtech:meta_item_1:32610>, <ore:circuitGood>, <gregtech:meta_item_1:32610>]]);
 
 
 
@@ -192,27 +191,27 @@ recipes.addShaped(<modularmachinery:polytank_controller>, [[<ore:circuitGood>, <
 
 
 assembler.recipeBuilder()
-    .inputs(<gregtech:machine:744>)
-    .outputs(<modularmachinery:blockenergyinputhatch:4>,<contenttweaker:tungstensteelcoil>*2)
+    .inputs(<gregtech:machine:744>,<contenttweaker:tungstensteelcoil>*2)
+    .outputs(<modularmachinery:blockenergyinputhatch:4>)
     .fluidInputs(<liquid:polytetrafluoroethylene>*288)
     .duration(800)
-    .EUt(2400)
+    .EUt(400)
     .buildAndRegister();
 
 assembler.recipeBuilder()
-    .inputs(<gregtech:machine:754>)
-    .outputs(<modularmachinery:blockenergyinputhatch:5>,<contenttweaker:hssgcoil>*2)
+    .inputs(<gregtech:machine:754>,<contenttweaker:hssgcoil>*2)
+    .outputs(<modularmachinery:blockenergyinputhatch:5>)
     .fluidInputs(<liquid:polytetrafluoroethylene>*288)
     .duration(800)
-    .EUt(2400)
+    .EUt(2000)
     .buildAndRegister();
 
 assembler.recipeBuilder()
-    .inputs(<gregtech:machine:784>)
-    .outputs(<modularmachinery:blockenergyinputhatch:7>,<contenttweaker:naquadaalloycoil>*2,<contenttweaker:twocryogeniccoolant>*2)
+    .inputs(<gregtech:machine:784>,<contenttweaker:naquadaalloycoil>*2,<contenttweaker:twocryogeniccoolant>*2)
+    .outputs(<modularmachinery:blockenergyinputhatch:7>)
     .fluidInputs(<liquid:polybenzimidazole>*288)
     .duration(800)
-    .EUt(2400)
+    .EUt(120000)
     .buildAndRegister();
 
 recipes.addShaped(<modularmachinery:furnace_controller>, [	[<ore:plateSteel>, <ore:circuitGood>, <ore:plateSteel>], 	[<ore:circuitGood>, <contenttweaker:vacuumfurnacecasing>, <ore:circuitGood>], 	[<ore:plateSteel>, <ore:circuitGood>, <ore:plateSteel>]]);

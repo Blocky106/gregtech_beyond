@@ -1697,9 +1697,6 @@ reprep_radium_202.register();
 var radium_202_dust = VanillaFactory.createItem("radium_202_dust");
 radium_202_dust.register();
 
-var radium_sodium_emulsion = VanillaFactory.createFluid("radium_sodium_emulsion", Color.fromHex("666B66"));
-radium_sodium_emulsion.register();
-
 var woodeneglinsteelcasing = VanillaFactory.createBlock("woodeneglinsteelcasing", <blockmaterial:rock>);
 woodeneglinsteelcasing.setBlockHardness(20.0);
 woodeneglinsteelcasing.setBlockResistance(10.0);
@@ -2774,6 +2771,32 @@ polybenzimidazolewaste.register();
 var living_bio_chip = VanillaFactory.createItem("living_bio_chip");
 living_bio_chip.register();
 
+var sgm_catalyst = VanillaFactory.createItem("sgm_catalyst");
+sgm_catalyst.register();
 
+var living_crystal_chip = VanillaFactory.createItem("living_crystal_chip");
+living_crystal_chip.register();
 
+var pgm_catalyst = VanillaFactory.createItem("pgm_catalyst");
+pgm_catalyst.register();
 
+var ngm_catalyst = VanillaFactory.createItem("ngm_catalyst");
+ngm_catalyst.register();
+
+var ree_catalyst = VanillaFactory.createItem("ree_catalyst");
+ree_catalyst.register();
+
+var radox_catalyst = VanillaFactory.createItem("radox_catalyst");
+radox_catalyst.register();
+
+var plastic_catalyst = VanillaFactory.createItem("plastic_catalyst");
+plastic_catalyst.register();
+
+var kevlar_catalyst = VanillaFactory.createItem("kevlar_catalyst");
+kevlar_catalyst.register();
+
+var metal_catalyst = VanillaFactory.createItem("metal_catalyst");
+metal_catalyst.register();
+
+var soldering_catalyst = VanillaFactory.createItem("soldering_catalyst");
+soldering_catalyst.register();

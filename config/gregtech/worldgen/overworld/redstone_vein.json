@@ -1,30 +1,25 @@
 {
-  "weight": 70,
-  "density": 0.4,
-  "max_height": 50,
-  "min_height": 10,
-  "vein_populator": {
-    "type": "surface_rock",
-    "material": "redstone"
-  },
+  "weight": 60,
+  "density": 0.5,
+  "max_height": 65,
+  "min_height": 25,
   "generator": {
     "type": "ellipsoid",
-    "radius": [17, 19]
+    "radius": [16, 16]
   },
   "filler": {
     "type": "simple",
     "value": {
       "type": "weight_random",
-      "values": [
-        {
-          "weight": 60,
-          "value": "ore:redstone"
+      "values": [{
+          "weight": 40,
+          "value": "ore_dict:oreRedstone"
         },
         {
-          "weight": 20,
-          "value": "ore:ruby"
+          "weight": 35,
+          "value": "ore_dict:oreRuby"
         },
-        {
+	{
           "weight": 20,
           "value": "ore:cinnabar"
         },
@@ -35,4 +30,9 @@
       ]
     }
   }
+      ]
+    }
+  }
+}
+
 }

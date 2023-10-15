@@ -265,13 +265,37 @@ chemReactor.recipeBuilder()
 recipes.addShaped(<gregtech:machine:1407>, [	[<gregtech:meta_item_1:32654>, <ore:cableGtSingleTungstenSteel>, <gregtech:meta_item_1:32654>], 	[<ore:circuitMaster>, <gregtech:machine:505>, <ore:circuitMaster>], 	[<gregtech:meta_item_1:32654>, <ore:cableGtSingleTungstenSteel>, <gregtech:meta_item_1:32654>]]);
 recipes.addShaped(<gregtech:machine:1408>, [	[<gregtech:meta_item_1:32655>, <ore:cableGtSingleNaquadah>, <gregtech:meta_item_1:32655>], 	[<ore:circuitUltimate>, <gregtech:machine:506>, <ore:circuitUltimate>], [<gregtech:meta_item_1:32655>, <ore:cableGtSingleNaquadah>, <gregtech:meta_item_1:32655>]]);
 
+chemical_bath.recipeBuilder()
+    .fluidInputs(<liquid:sterilizedbiocatalystmedium>*12)
+    .inputs(<gregtech:meta_item_2:32475>)
+    .outputs(<contenttweaker:living_crystal_chip>)
+    .duration(800)
+    .EUt(2000000)
+    .buildAndRegister();
 
+cas.recipeBuilder()
+    .inputs(<contenttweaker:ultrabiomutatedcircuitboard>,<contenttweaker:living_crystal_chip>,<gregtech:meta_item_1:16002>)
+    .fluidInputs(<liquid:soldering_alloy>*144)
+    .outputs(<gtadditions:ga_meta_item:32213>*16)
+    .duration(400)
+    .EUt(120000)
+    .buildAndRegister();
 
+cas.recipeBuilder()
+    .inputs(<contenttweaker:living_bio_chip>,<gregtech:meta_item_2:16736>*4,<gtadditions:ga_meta_item:32426>*4)
+    .fluidInputs(<liquid:soldering_alloy>*144)
+    .outputs(<gregtech:meta_item_2:32498>)
+    .duration(800)
+    .EUt(2000000)
+    .buildAndRegister();
 
-
-
-
-
+chemical_bath.recipeBuilder()
+    .fluidInputs(<liquid:sterilizedbiocatalystmedium>*12)
+    .inputs(<gtadditions:ga_meta_item:32411>)
+    .outputs(<contenttweaker:living_bio_chip>)
+    .duration(800)
+    .EUt(2000000)
+    .buildAndRegister();
 
 
 

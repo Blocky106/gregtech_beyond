@@ -1036,7 +1036,7 @@ lcr.recipeBuilder()
 lcr.recipeBuilder()
 	.inputs(<contenttweaker:titaniumtetrachloridedust>)
 	.fluidInputs(<liquid:titanyl_sulfate> * 800)
-	.outputs(<gregtech:meta_item_1:2072>)
+	.outputs(<gregtech:meta_item_1:2072>*2)
 	.duration(240)
 	.EUt(456)
 	.buildAndRegister();
@@ -3045,7 +3045,7 @@ recipes.addShapeless(<gtadditions:ga_meta_item2:103>.withTag({Charge: 13107200 a
 recipes.addShaped(<gregtech:meta_item_1:10095>*2,[[<gregtech:meta_item_1:2095>,<gregtech:meta_item_1:2095>,null],[<gregtech:meta_tool:6>,null,null],[null,null,null]]);
 recipes.addShapeless(<gregtech:meta_item_1:2237>*6, [<ore:dustRegularRedstone>, <ore:dustRegularRedstone>, <ore:dustRegularRedstone>, <ore:dustRegularRedstone>, <ore:dustRegularCopper>, <ore:dustRegularCopper>]);
 furnace.remove(<gregtech:meta_item_1:10532>);
-recipes.addShaped(<gregtech:meta_item_2:32433>, [[<gregtech:meta_item_2:32432>, <gregtech:meta_tool:6>], 	[<gregtech:meta_item_2:32432>, null]]);
+recipes.addShaped(<gregtech:meta_item_2:32433>*2, [[<gregtech:meta_item_2:32432>, <gregtech:meta_tool:6>], 	[<gregtech:meta_item_2:32432>, null]]);
 recipes.addShaped(<gregtech:machine:4329>, [	[<ore:plateTritanium>, <ore:plateTritanium>, <ore:plateTritanium>], 	[<ore:stickTritanium>, null, <ore:stickTritanium>], 	[<ore:plateTritanium>, <ore:plateTritanium>, <ore:plateTritanium>]]);
 recipes.addShapeless(<gregtech:meta_item_1:2355>,[<minecraft:brick>,<gregtech:meta_tool:12>]);
 recipes.addShaped(<gregtech:meta_item_2:32708>, [	[<ore:platePlastic>, <gregtech:meta_item_1:32752>, <ore:platePlastic>], 	[<gregtech:meta_item_1:32752>, <ore:circuitGood>, <gregtech:meta_item_1:32752>], 	[<ore:platePlastic>, <gregtech:meta_item_1:32752>, <ore:platePlastic>]]);

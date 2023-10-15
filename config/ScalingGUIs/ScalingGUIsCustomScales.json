@@ -26,7 +26,6 @@
     "zmaster587.libVulpes.inventory.GuiModular",
     "betterquesting.client.gui2.GuiHome",
     "betterquesting.client.gui2.GuiQuestLines",
-    "net.minecraft.client.gui.GuiMainMenu",
     "net.minecraft.client.gui.GuiWorldSelection",
     "net.minecraft.client.gui.GuiScreenWorking",
     "mezz.jei.gui.recipes.RecipesGui",
@@ -35,6 +34,8 @@
     "net.minecraft.client.gui.inventory.GuiInventory",
     "net.minecraft.client.gui.inventory.GuiContainerCreative",
     "net.minecraft.client.gui.GuiIngameMenu",
+    "net.minecraft.client.gui.GuiMainMenu",
+    "net.minecraft.client.gui.GuiScreenResourcePacks",
     "net.minecraft.client.gui.GuiOptions",
     "net.minecraft.client.gui.GuiVideoSettings",
     "spazley.scalingguis.gui.guiconfig.GuiConfigSG"

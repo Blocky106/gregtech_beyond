@@ -282,7 +282,7 @@ kaminskycatalyst.addFlags(["GENERATE_PLATE"]);
 
 
 
-
+<material:americium>.addFlags(["GENERATE_FINE_WIRE"]);
 <material:cosmic_neutronium>.addFlags(["GENERATE_PLASMA"]);
 <material:neutronium>.addFlags(["GENERATE_PLASMA"]);
 <material:periodicium>.addFlags(["GENERATE_PLASMA"]);
