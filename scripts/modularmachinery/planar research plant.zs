@@ -17,7 +17,7 @@ import crafttweaker.item.IItemCondition;
 recipes.addShapeless(<contenttweaker:researchpapermoon>,[<minecraft:paper>,<minecraft:dye>]);
 recipes.addShapeless(<contenttweaker:researchpapermars>,[<contenttweaker:researchpapermoon>,<gregtech:meta_item_1:14072>.transformDamage(0)]);
 recipes.addShapeless(<contenttweaker:researchpapermercury>,[<contenttweaker:researchpapermoon>,<gregtech:meta_item_1:14788>.transformDamage(0)]);
-
+recieps.addShapeless(<contenttweaker:researchpaperasteroids>,[<contenttweaker:researchpapermercury>]);
 
 
 
