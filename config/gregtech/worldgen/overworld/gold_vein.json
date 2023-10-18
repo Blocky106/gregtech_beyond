@@ -1,0 +1,34 @@
+{
+  "weight": 70,
+  "density": 0.5,
+  "min_height": 50,
+  "vein_populator": {
+    "type": "surface_rock",
+    "material": "gold"
+  },
+
+  "generator": {
+    "type": "ellipsoid",
+    "radius": [17, 18]
+  },
+  "filler": {
+    "type": "simple",
+    "value": {
+      "type": "weight_random",
+      "values": [
+        {
+          "weight": 10,
+          "value": "ore:gold"
+        },
+        {
+          "weight": 25,
+          "value": "ore:vanadium_magnetite"
+        },
+        {
+          "weight": 50,
+          "value": "ore:magnetite"
+        }
+      ]
+    }
+  }
+}
