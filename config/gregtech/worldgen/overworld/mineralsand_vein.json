@@ -18,11 +18,11 @@
       "values": [
         {
           "weight": 25,
-          "value": "ore:basaltic_mineral"
+          "value": "ore:basaltic_mineral_sand"
         },
         {
           "weight": 25,
-          "value": "ore:granitic_mineral"
+          "value": "ore:granitic_mineral_sand"
         },
         {
           "weight": 40,

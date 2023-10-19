@@ -4,7 +4,7 @@
   "min_height": 50,
   "vein_populator": {
     "type": "surface_rock",
-    "material": "lapis_lazuli"
+    "material": "lapis"
   },
 
   "generator": {

@@ -119,3 +119,28 @@ recipes.remove(<tconstruct:smeltery_controller>);
 
 
 
+mods.tconstruct.Melting.removeRecipe(<liquid:cupronickel>);
+mods.tconstruct.Melting.removeRecipe(<liquid:zylon>);
+mods.tconstruct.Melting.removeRecipe(<liquid:invar>);
+mods.tconstruct.Melting.removeRecipe(<liquid:copperalloy>);
+mods.tconstruct.Melting.removeRecipe(<liquid:kevlar>);
+mods.tconstruct.Melting.removeRecipe(<liquid:plastic>);
+mods.tconstruct.Melting.removeRecipe(<liquid:polycaprolactam>);
+mods.tconstruct.Melting.removeRecipe(<liquid:polytetrafluoroethylene>);
+mods.tconstruct.Melting.removeRecipe(<liquid:fullerenepolymertetrix>);
+mods.tconstruct.Melting.removeRecipe(<liquid:tumbaga>);
+mods.tconstruct.Melting.removeRecipe(<liquid:polyphenylene_sulfide>);
+mods.tconstruct.Melting.removeRecipe(<liquid:polyurethane>);
+mods.tconstruct.Melting.removeRecipe(<liquid:fullerene_polymer_matrix>);
+mods.tconstruct.Melting.removeRecipe(<liquid:polybenzimidazole>);
+mods.tconstruct.Melting.removeRecipe(<liquid:reinforced_epoxy_resin>);
+mods.tconstruct.Melting.removeRecipe(<liquid:polyimide>);
+mods.tconstruct.Melting.removeRecipe(<liquid:polyvinyl_chloride>);
+mods.tconstruct.Melting.removeRecipe(<liquid:reinforcedkevlar>);
+mods.tconstruct.Melting.removeRecipe(<liquid:silicon_rubber>);
+mods.tconstruct.Melting.removeRecipe(<liquid:aluminium>);
+mods.tconstruct.Melting.removeRecipe(<liquid:epoxid>);
+mods.tconstruct.Melting.removeRecipe(<liquid:taranium>);
+mods.tconstruct.Melting.removeRecipe(<liquid:tritanium>);
+mods.tconstruct.Melting.removeRecipe(<liquid:seaborgium>);
+mods.tconstruct.Melting.removeRecipe(<liquid:stainless_steel>);

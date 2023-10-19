@@ -13,11 +13,11 @@
       "type": "weight_random",
       "values": [{
          	 "weight": 40,
-         	 "value": "ore_dict:oreAmethyst"
+         	 "value": "ore:amethyst"
         },
         {
          	 "weight": 60,
-         	 "value": "ore_dict:oreRedGarnet"
+         	 "value": "ore:garnet_red"
         }
       ]
     }
