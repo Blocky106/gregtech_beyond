@@ -4,10 +4,8 @@
   "max_height": 40,
   "min_height": 10,
   "dimension_filter": ["is_nether"],
-  "vein_populator": {
-    "type": "surface_rock",
-    "material": "redstone"
-  },
+  "surface_stone_material": "redstone",
+
   "generator": {
     "type": "ellipsoid",
     "radius": [12, 12]

@@ -407,8 +407,8 @@ mixer.recipeBuilder()
 assembler.recipeBuilder()
 	.inputs(<gregtech:frame_steel>, <gregtech:meta_item_1:12184> * 6)
 	.outputs(<gregtech:metal_casing:4>)
-	.duration(600)
-	.EUt(250)
+	.duration(20)
+	.EUt(12)
 	.buildAndRegister();
 
 mixer.recipeBuilder()
