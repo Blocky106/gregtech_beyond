@@ -214,7 +214,6 @@ assembler.recipeBuilder()
     .EUt(120000)
     .buildAndRegister();
 
-recipes.addShaped(<modularmachinery:furnace_controller>, [	[<ore:plateSteel>, <ore:circuitGood>, <ore:plateSteel>], 	[<ore:circuitGood>, <contenttweaker:vacuumfurnacecasing>, <ore:circuitGood>], 	[<ore:plateSteel>, <ore:circuitGood>, <ore:plateSteel>]]);
 recipes.addShaped(<modularmachinery:sint_controller>, [	[<ore:plateSteel>, <ore:circuitGood>, <ore:plateSteel>], 	[<ore:stickLongSteel>, <contenttweaker:copperalloycoilblock>, <ore:stickLongSteel>], 	[<ore:plateSteel>, <ore:circuitGood>, <ore:plateSteel>]]);
 recipes.remove(<modularmachinery:blockenergyinputhatch>);
 recipes.addShapeless(<modularmachinery:blockinputbus:2>, [<ore:chest>,<gregtech:machine_casing>]);

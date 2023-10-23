@@ -554,6 +554,6 @@ recipes.addShaped(<contenttweaker:enhancedenderiumdust>, [	[<contenttweaker:enha
 <ore:dustYttrium>.remove(<qmd:dust2>);
 <ore:dustPotassium>.remove(<qmd:dust:12>);
 <ore:dustLithium>.remove(<nuclearcraft:dust:6>);
-
+<ore:ingotCobalt>.remove(<tconstruct:ingots>);
 
 
