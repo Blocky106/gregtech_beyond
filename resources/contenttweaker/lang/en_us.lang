@@ -928,11 +928,47 @@ material.philipscatalyst=Philips Catalyst
 material.zieglernattacatalyst=Ziegler-Natta Catalyst
 material.kaminskycatalyst=Kaminsky Catalyst
 fluid.triethylaluminium=Triethylaluminium
-fluid.polybenzimadozoleprepolymerfoam=Polybenzimadozole Pre Polymer Foam
+fluid.polybenzimadozoleprepolymerfoam=Polybenzimadozole Pre-Polymer Foam
 fluid.polybenzimadozolesolution=Polybenzimadozole Solution
 fluid.impurepolybenzimadozolesolution=Impure Polybenzimadozole Solution
 fluid.polybenzimadozolewaste=Polybenzimadozole Waste
 multiblocktweaker.machine.vacuum_furnace.name=Vacuum Furnace
+multiblocktweaker.machine.matter_dequantizer.name=Matter Dequantizer
+multiblocktweaker.machine.matter_quantizer.name=Matter Quantizer
+multiblocktweaker.machine.polymerization_tank.name=Polymeriztaion Tank
+multiblocktweaker.machine.water_tank.name=Water Tank
+multiblocktweaker.machine.vulcanized_press.name=Vulcanized Press
+multiblocktweaker.machine.vis_breaker.name=Vis Breaker
+multiblocktweaker.machine.vacuum_distillation_tower.name=Vacuum Distillation Tower
+multiblocktweaker.machine.tree_farm.name=Tree Farm
+multiblocktweaker.machine.dilution_tank.name=Dilution Tank
+multiblocktweaker.machine.sintering_oven.name=Sintering Oven
+multiblocktweaker.machine.large_rock_breaker.name=Large Rock Breaker
+multiblocktweaker.machine.roaster.name=Roaster
+multiblocktweaker.machine.quantum_computer.name=Quantum Computer
+multiblocktweaker.machine.quantum_circuit_assembler.name=Quantum Circuit Assembler
+multiblocktweaker.machine.fermentation_vat.name=Fermentation Vat
+multiblocktweaker.machine.astro_mining_station.name=Astro Mining Station
+multiblocktweaker.machine.black_hole_compressor.name=Black Hole Compressor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
