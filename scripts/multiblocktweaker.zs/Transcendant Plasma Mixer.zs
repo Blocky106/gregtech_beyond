@@ -29,7 +29,7 @@ val transcendant_plasma_mixer = Builder.start(loc, meta)
     .withPattern(
             FactoryBlockPattern.start(RelativeDirection.RIGHT, RelativeDirection.BACK, RelativeDirection.UP)
                 .aisle(
-                    "~CEC~",
+                    "~CCC~",
                     "CMMMC",
                     "CMMMC",
                     "CMMMC",
