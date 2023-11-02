@@ -32,16 +32,6 @@ val extractor = mods.gregtech.recipe.RecipeMap.getByName("extractor");
 val compressor = mods.gregtech.recipe.RecipeMap.getByName("compressor");
 val electrolyzer = mods.gregtech.recipe.RecipeMap.getByName("electrolyzer");
 val centrifuge = mods.gregtech.recipe.RecipeMap.getByName("centrifuge");
-
-
-
-
-
-
-
-
-
-
 val ebf = mods.gregtech.recipe.RecipeMap.getByName("blast_furnace");
 val wiremill = mods.gregtech.recipe.RecipeMap.getByName("wiremill");
 var fusion_reactor = mods.gregtech.recipe.RecipeMap.getByName("fusion_reactor");
@@ -252,7 +242,7 @@ assembler.recipeBuilder()
 
 
 
-
+recipes.remove(<advancedrocketry:arcfurnace>);
 
 
 

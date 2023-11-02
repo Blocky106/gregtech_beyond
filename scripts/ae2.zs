@@ -93,7 +93,6 @@ recipes.addShaped(<appliedenergistics2:quartz_growth_accelerator>, [	[<applieden
 recipes.addShaped(<ae2stuff:grower>, [	[<appliedenergistics2:quartz_growth_accelerator>, <contenttweaker:tungstencircuit>, <appliedenergistics2:quartz_growth_accelerator>], 	[<appliedenergistics2:quartz_growth_accelerator>, <enderio:item_basic_capacitor:2>, <appliedenergistics2:quartz_growth_accelerator>], 	[<appliedenergistics2:quartz_growth_accelerator>, <contenttweaker:tungstencircuit>, <appliedenergistics2:quartz_growth_accelerator>]]);
 recipes.addShaped(<appliedenergistics2:part:340>, [	[null, <appliedenergistics2:part:360>, null], 	[null, <appliedenergistics2:material:24>, null], 	[null, <ore:circuitExtreme>, null]]);
 recipes.addShaped(<contenttweaker:advancedcraftingunit>, [	[<ore:plateNiobiumTitanium>, <appliedenergistics2:material:6>, <ore:plateNiobiumTitanium>], 	[<contenttweaker:hssgcircuit>, <appliedenergistics2:crafting_unit>, <contenttweaker:hssgcircuit>], 	[<ore:plateNiobiumTitanium>, <appliedenergistics2:material:6>, <ore:plateNiobiumTitanium>]]);
-mods.extendedcrafting.TableCrafting.addShaped(0, <appliedenergistics2:creative_storage_cell>, [	[<aeadditions:storage.physical:3>, <aeadditions:storage.physical:3>, <aeadditions:storage.physical:3>, <aeadditions:storage.physical:3>, <ore:frameGtInfinity>, <aeadditions:storage.physical:3>, <aeadditions:storage.physical:3>, <aeadditions:storage.physical:3>, <aeadditions:storage.physical:3>], 	[<aeadditions:storage.physical:3>, <aeadditions:storage.physical:3>, <aeadditions:storage.physical:3>, <aeadditions:storage.physical:3>, <ore:frameGtInfinity>, <aeadditions:storage.physical:3>, <aeadditions:storage.physical:3>, <aeadditions:storage.physical:3>, <aeadditions:storage.physical:3>], 	[<aeadditions:storage.physical:3>, <aeadditions:storage.physical:3>, <aeadditions:storage.physical:3>, <aeadditions:storage.physical:3>, <gtadditions:ga_heating_coil:5>, <aeadditions:storage.physical:3>, <aeadditions:storage.physical:3>, <aeadditions:storage.physical:3>, <aeadditions:storage.physical:3>], 	[<aeadditions:storage.physical:3>, <aeadditions:storage.physical:3>, <aeadditions:storage.physical:3>, <aeadditions:storage.physical:3>, <storagedrawers:upgrade_creative>, <aeadditions:storage.physical:3>, <aeadditions:storage.physical:3>, <aeadditions:storage.physical:3>, <aeadditions:storage.physical:3>], 	[<ore:frameGtInfinity>, <ore:frameGtInfinity>, <gtadditions:ga_heating_coil:5>, <storagedrawers:upgrade_creative>, <storagedrawers:upgrade_creative>, <storagedrawers:upgrade_creative>, <gtadditions:ga_heating_coil:5>, <ore:frameGtInfinity>, <ore:frameGtInfinity>], 	[<aeadditions:storage.physical:3>, <aeadditions:storage.physical:3>, <aeadditions:storage.physical:3>, <aeadditions:storage.physical:3>, <storagedrawers:upgrade_creative>, <aeadditions:storage.physical:3>, <aeadditions:storage.physical:3>, <aeadditions:storage.physical:3>, <aeadditions:storage.physical:3>], 	[<aeadditions:storage.physical:3>, <aeadditions:storage.physical:3>, <aeadditions:storage.physical:3>, <aeadditions:storage.physical:3>, <gtadditions:ga_heating_coil:5>, <aeadditions:storage.physical:3>, <aeadditions:storage.physical:3>, <aeadditions:storage.physical:3>, <aeadditions:storage.physical:3>], 	[<aeadditions:storage.physical:3>, <aeadditions:storage.physical:3>, <aeadditions:storage.physical:3>, <aeadditions:storage.physical:3>, <ore:frameGtInfinity>, <aeadditions:storage.physical:3>, <aeadditions:storage.physical:3>, <aeadditions:storage.physical:3>, <aeadditions:storage.physical:3>], 	[<aeadditions:storage.physical:3>, <aeadditions:storage.physical:3>, <aeadditions:storage.physical:3>, <aeadditions:storage.physical:3>, <ore:frameGtInfinity>, <aeadditions:storage.physical:3>, <aeadditions:storage.physical:3>, <aeadditions:storage.physical:3>, <aeadditions:storage.physical:3>]]);
 recipes.addShaped(<appliedenergistics2:energy_cell>, [	[<appliedenergistics2:quartz_glass>, <ore:dustFluix>, <appliedenergistics2:quartz_glass>], 	[<appliedenergistics2:material:1>, <gregtech:meta_item_1:32500>, <appliedenergistics2:material:1>], 	[<appliedenergistics2:quartz_glass>, <ore:dustFluix>, <appliedenergistics2:quartz_glass>]]);
 recipes.addShaped(<appliedenergistics2:quantum_link>, [	[<gtadditions:ga_transparent_casing:4>, <ore:plateNiobiumTitanium>, <gtadditions:ga_transparent_casing:4>], 	[<ore:plateNiobiumTitanium>, <ore:circuitSuperconductor>, <ore:plateNiobiumTitanium>], 	[<gtadditions:ga_transparent_casing:4>, <ore:plateNiobiumTitanium>, <gtadditions:ga_transparent_casing:4>]]);
 recipes.addShaped(<appliedenergistics2:quantum_ring>, [	[<ore:plateYttriumBariumCuprate>, <ore:wireGtSingleLuvSuperconductor>, <ore:plateYttriumBariumCuprate>], 	[<ore:wireGtSingleLuvSuperconductor>, <appliedenergistics2:energy_cell>, <ore:wireGtSingleLuvSuperconductor>], 	[<ore:plateYttriumBariumCuprate>, <ore:wireGtSingleLuvSuperconductor>, <ore:plateYttriumBariumCuprate>]]);
@@ -103,11 +102,9 @@ recipes.addShaped(<appliedenergistics2:material:30>, [	[<ore:crystalFluix>, null
 recipes.addShaped(<appliedenergistics2:memory_card>, [	[null, null, null], 	[<ore:plateTungsten>, <ore:plateTungsten>, <appliedenergistics2:material:23>], 	[<ore:plateGold>, <ore:plateRedstone>, <ore:crystalFluix>]]);
 recipes.addShaped(<appliedenergistics2:material:52>, [	[<gtadditions:ga_transparent_casing:2>, <ore:plateNichrome>, <gtadditions:ga_transparent_casing:2>], 	[<ore:plateNichrome>, <ore:crystalFluix>, <ore:plateNichrome>], 	[<ore:plateTitanium>, <ore:plateTitanium>, <ore:plateTitanium>]]);
 recipes.addShaped(<appliedenergistics2:material:39>, [	[<appliedenergistics2:quartz_glass>, <ore:plateNichrome>, <appliedenergistics2:quartz_glass>], 	[<ore:plateNichrome>, <ore:circuitGood>, <ore:plateNichrome>], 	[<ore:plateTitanium>, <ore:plateTitanium>, <ore:plateTitanium>]]);
-recipes.addShaped(<aeadditions:storage.casing:1>, [	[<aeadditions:certustank>, <ore:plateTungsten>, <aeadditions:certustank>], 	[<ore:plateTungsten>, <appliedenergistics2:material:39>, <ore:plateTungsten>], 	[<ore:platePlatinum>, <ore:platePlatinum>, <ore:platePlatinum>]]);
 
 recipes.remove(<appliedenergistics2:part:16>);
 recipes.remove(<appliedenergistics2:material:39>);
-recipes.remove(<aeadditions:storage.casing:1>);
 recipes.remove(<appliedenergistics2:material:53>);
 recipes.remove(<appliedenergistics2:material:52>);
 recipes.remove(<appliedenergistics2:memory_card>);
@@ -125,10 +122,6 @@ recipes.remove(<appliedenergistics2:crafting_storage_64k>);
 recipes.remove(<appliedenergistics2:energy_cell>);
 recipes.remove(<appliedenergistics2:quantum_link>);
 recipes.remove(<appliedenergistics2:charger>);
-recipes.remove(<aeadditions:storage.component:3>);
-recipes.remove(<aeadditions:storage.component:2>);
-recipes.remove(<aeadditions:storage.component:1>);
-recipes.remove(<aeadditions:storage.component>);
 
 
 
@@ -247,10 +240,6 @@ recipes.remove(<appliedenergistics2:storage_cell_1k>);
 recipes.remove(<appliedenergistics2:storage_cell_4k>);
 recipes.remove(<appliedenergistics2:storage_cell_16k>);
 recipes.remove(<appliedenergistics2:storage_cell_64k>);
-recipes.remove(<aeadditions:storage.physical>);
-recipes.remove(<aeadditions:storage.physical:1>);
-recipes.remove(<aeadditions:storage.physical:2>);
-recipes.remove(<aeadditions:storage.physical:3>);
 recipes.remove(<appliedenergistics2:material:58>);
 recipes.remove(<appliedenergistics2:fluid_storage_cell_1k>);
 recipes.remove(<appliedenergistics2:fluid_storage_cell_4k>);
@@ -259,18 +248,6 @@ recipes.remove(<appliedenergistics2:fluid_storage_cell_64k>);
 recipes.remove(<appliedenergistics2:spatial_storage_cell_2_cubed>);
 recipes.remove(<appliedenergistics2:spatial_storage_cell_16_cubed>);
 recipes.remove(<appliedenergistics2:spatial_storage_cell_128_cubed>);
-recipes.remove(<aeadditions:storage.fluid:4>);
-recipes.remove(<aeadditions:storage.fluid:5>);
-recipes.remove(<aeadditions:storage.fluid:6>);
-recipes.remove(<aeadditions:storage.fluid:7>);
-recipes.remove(<aeadditions:storage.physical>);
-recipes.remove(<aeadditions:storage.physical:1>);
-recipes.remove(<aeadditions:storage.physical:2>);
-recipes.remove(<aeadditions:storage.physical:3>);
-recipes.remove(<aeadditions:storage.fluid:4>);
-recipes.remove(<aeadditions:storage.fluid:5>);
-recipes.remove(<aeadditions:storage.fluid:6>);
-recipes.remove(<aeadditions:storage.fluid:7>);
 recipes.remove(<appliedenergistics2:inscriber>);
 recipes.remove(<appliedenergistics2:quartz_vibrant_glass>);
 
@@ -279,18 +256,6 @@ recipes.addShapeless(<appliedenergistics2:storage_cell_64k>,[<appliedenergistics
 recipes.addShapeless(<appliedenergistics2:storage_cell_16k>,[<appliedenergistics2:material:37>,<appliedenergistics2:material:39>]);
 recipes.addShapeless(<appliedenergistics2:storage_cell_4k>,[<appliedenergistics2:material:36>,<appliedenergistics2:material:39>]);
 recipes.addShapeless(<appliedenergistics2:storage_cell_1k>,[<appliedenergistics2:material:35>,<appliedenergistics2:material:39>]);
-recipes.addShapeless(<aeadditions:storage.physical>,[<aeadditions:storage.component>,<aeadditions:storage.casing>]);
-recipes.addShapeless(<aeadditions:storage.physical:1>,[<aeadditions:storage.component:1>,<aeadditions:storage.casing>]);
-recipes.addShapeless(<aeadditions:storage.physical:2>,[<aeadditions:storage.component:2>,<aeadditions:storage.casing>]);
-recipes.addShapeless(<aeadditions:storage.physical:3>,[<aeadditions:storage.component:3>,<aeadditions:storage.casing>]);
-recipes.addShapeless(<appliedenergistics2:fluid_storage_cell_64k>,[<appliedenergistics2:material:57>,<aeadditions:storage.casing:1>]);
-recipes.addShapeless(<appliedenergistics2:fluid_storage_cell_16k>,[<appliedenergistics2:material:56>,<aeadditions:storage.casing:1>]);
-recipes.addShapeless(<appliedenergistics2:fluid_storage_cell_4k>,[<appliedenergistics2:material:55>,<aeadditions:storage.casing:1>]);
-recipes.addShapeless(<appliedenergistics2:fluid_storage_cell_1k>,[<appliedenergistics2:material:54>,<aeadditions:storage.casing:1>]);
-recipes.addShapeless(<aeadditions:storage.fluid:4>,[<aeadditions:storage.component:8>,<aeadditions:storage.casing:1>]);
-recipes.addShapeless(<aeadditions:storage.fluid:5>,[<aeadditions:storage.component:9>,<aeadditions:storage.casing:1>]);
-recipes.addShapeless(<aeadditions:storage.fluid:6>,[<aeadditions:storage.component:10>,<aeadditions:storage.casing:1>]);
-recipes.addShapeless(<aeadditions:storage.fluid:7>,[<aeadditions:storage.component:11>,<aeadditions:storage.casing:1>]);
 recipes.addShapeless(<appliedenergistics2:spatial_storage_cell_2_cubed>,[<appliedenergistics2:material:32>,<appliedenergistics2:material:39>]);
 recipes.addShapeless(<appliedenergistics2:spatial_storage_cell_16_cubed>,[<appliedenergistics2:material:33>,<appliedenergistics2:material:39>]);
 recipes.addShapeless(<appliedenergistics2:spatial_storage_cell_128_cubed>,[<appliedenergistics2:material:34>,<appliedenergistics2:material:39>]);

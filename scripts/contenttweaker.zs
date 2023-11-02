@@ -2800,3 +2800,54 @@ metal_catalyst.register();
 
 var soldering_catalyst = VanillaFactory.createItem("soldering_catalyst");
 soldering_catalyst.register();
+
+var machine_casing_firebox_steel = VanillaFactory.createBlock("machine_casing_firebox_steel", <blockmaterial:rock>);
+machine_casing_firebox_steel.setBlockHardness(12.0);
+machine_casing_firebox_steel.setBlockResistance(10.0);
+machine_casing_firebox_steel.setToolClass("pickaxe");
+machine_casing_firebox_steel.setToolLevel(2);
+machine_casing_firebox_steel.setBlockSoundType(<soundtype:metal>);
+machine_casing_firebox_steel.register();
+
+var steel_item_casing = VanillaFactory.createItem("steel_item_casing");
+steel_item_casing.register();
+
+var machine_casing_clean_stainless_steel = VanillaFactory.createBlock("machine_casing_clean_stainless_steel", <blockmaterial:rock>);
+machine_casing_clean_stainless_steel.setBlockHardness(12.0);
+machine_casing_clean_stainless_steel.setBlockResistance(10.0);
+machine_casing_clean_stainless_steel.setToolClass("pickaxe");
+machine_casing_clean_stainless_steel.setToolLevel(2);
+machine_casing_clean_stainless_steel.setBlockSoundType(<soundtype:metal>);
+machine_casing_clean_stainless_steel.register();
+
+var basic_structural_casing = VanillaFactory.createBlock("basic_structural_casing", <blockmaterial:rock>);
+basic_structural_casing.setBlockHardness(12.0);
+basic_structural_casing.setBlockResistance(10.0);
+basic_structural_casing.setToolClass("pickaxe");
+basic_structural_casing.setToolLevel(2);
+basic_structural_casing.setBlockSoundType(<soundtype:metal>);
+basic_structural_casing.register();
+
+var machine_casing_solid_steel = VanillaFactory.createBlock("machine_casing_solid_steel", <blockmaterial:rock>);
+machine_casing_solid_steel.setBlockHardness(12.0);
+machine_casing_solid_steel.setBlockResistance(10.0);
+machine_casing_solid_steel.setToolClass("pickaxe");
+machine_casing_solid_steel.setToolLevel(2);
+machine_casing_solid_steel.setBlockSoundType(<soundtype:metal>);
+machine_casing_solid_steel.register();
+
+var machine_casing_stable_titanium = VanillaFactory.createBlock("machine_casing_stable_titanium", <blockmaterial:rock>);
+machine_casing_stable_titanium.setBlockHardness(12.0);
+machine_casing_stable_titanium.setBlockResistance(10.0);
+machine_casing_stable_titanium.setToolClass("pickaxe");
+machine_casing_stable_titanium.setToolLevel(2);
+machine_casing_stable_titanium.setBlockSoundType(<soundtype:metal>);
+machine_casing_stable_titanium.register();
+
+var bismuth_bronze = VanillaFactory.createBlock("bismuth_bronze", <blockmaterial:rock>);
+bismuth_bronze.setBlockHardness(12.0);
+bismuth_bronze.setBlockResistance(10.0);
+bismuth_bronze.setToolClass("pickaxe");
+bismuth_bronze.setToolLevel(2);
+bismuth_bronze.setBlockSoundType(<soundtype:metal>);
+bismuth_bronze.register();

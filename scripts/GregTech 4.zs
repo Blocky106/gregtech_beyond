@@ -297,10 +297,29 @@ chemical_bath.recipeBuilder()
     .EUt(2000000)
     .buildAndRegister();
 
+metal_bender.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:12184>)
+    .notConsumable(<gregtech:meta_item_1:32766>)
+    .outputs(<contenttweaker:steel_item_casing>*2)
+    .duration(20)
+    .EUt(33)
+    .buildAndRegister();
 
+assembler.recipeBuilder()
+    .inputs(<gregtech:frame_bismuth_bronze>,<gregtech:meta_item_1:12230>*6)
+    .outputs(<gregtech:metal_casing_bismuth_bronze>)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 0}))
+    .duration(40)
+    .EUt(24)
+    .buildAndRegister();
 
-
-
+assembler.recipeBuilder()
+    .inputs(<gregtech:frame_tungsten_titanium_carbide>,<gregtech:meta_item_1:12855>*6)
+    .outputs(<gregtech:metal_casing_tungsten_titanium_carbide>)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 0}))
+    .duration(40)
+    .EUt(24)
+    .buildAndRegister();
 
 
 

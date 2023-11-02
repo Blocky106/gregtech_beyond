@@ -406,7 +406,14 @@ mixer.recipeBuilder()
 
 assembler.recipeBuilder()
 	.inputs(<gregtech:frame_steel>, <gregtech:meta_item_1:12184> * 6)
-	.outputs(<gregtech:metal_casing:4>)
+	.outputs(<gregtech:metal_casing:4>*2)
+	.duration(20)
+	.EUt(12)
+	.buildAndRegister();
+
+assembler.recipeBuilder()
+	.inputs(<gregtech:frame_steel>, <contenttweaker:steel_item_casing> * 6)
+	.outputs(<gregtech:metal_casing:4>*2)
 	.duration(20)
 	.EUt(12)
 	.buildAndRegister();

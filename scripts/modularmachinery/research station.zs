@@ -19,4 +19,4 @@ import crafttweaker.item.IItemCondition;
 
 
 
-RecipeBuilder.newBuilder("research1", "research", 4000)    .addEnergyPerTickInput(2000000) .addItemInput(<gregtech:machine:3310>)    .addItemInput(<contenttweaker:datadisc> )  .addItemOutput(<contenttweaker:datadiskblackholecompressor>)  .build();
+RecipeBuilder.newBuilder("research1", "research", 4000)    .addEnergyPerTickInput(200000) .addItemInput(<gregtech:machine:3310>)    .addItemInput(<contenttweaker:datadisc> )  .addItemOutput(<contenttweaker:datadiskblackholecompressor>)  .build();

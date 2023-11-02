@@ -128,10 +128,11 @@ mods.qmd.ore_leacher.removeAllRecipes();
 mods.qmd.target_chamber.removeRecipeWithInput(<ore:ingotUranium238>, (<particle:neutron>*1000000)^26000);
 mods.qmd.target_chamber.addRecipe(<ore:ingotUranium238>, (<particle:neutron>*1000000)^26000, <ore:ingotUranium235>, null, <particle:neutron>*4, null, 34000, 0.55, -17800);
 
+recipes.remove(<nuclearcraft:alloy_furnace>);
 
 furnace.remove(<nuclearcraft:ingot:14>);
-
-
+recipes.remove(<nuclearcraft:part:4>);
+recipes.addShaped(<nuclearcraft:part:4>, [	[<ore:wireGtSingleCopper>, <ore:wireGtSingleCopper>, null], 	[<ore:stickIron>, <ore:stickIron>, null], [<ore:wireGtSingleCopper>, <ore:wireGtSingleCopper>, null]]);
 
 fluid_solidifier.recipeBuilder()
     .fluidInputs(<liquid:mercury>*1000)
