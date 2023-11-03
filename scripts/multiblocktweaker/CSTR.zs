@@ -123,12 +123,20 @@ val cstr = Builder.start(loc, meta)
                 .build())
 .withRecipeMap(
         FactoryRecipeMap.start(loc)
-                        .maxInputs(1)
-                        .maxFluidInputs(1)
-                        .maxFluidOutputs(1)
-                        .maxOutputs(1)
+                        .maxInputs(3)
+                        .maxFluidInputs(3)
+                        .maxFluidOutputs(3)
+                        .maxOutputs(3)
                         .build())
 .withTexture(ICubeRenderer.sided("contenttweaker:blocks/machine_casing_clean_stainless_steel"))
 .withZoom(0.5f)
 
 .buildAndRegister() as Multiblock;
+
+cstr.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:water>*1800,<liquid:ethanol>*100,<liquid:npropanol>*100)
+    .inputs(<gregtech:meta_item_1:2159>*6,<gregtech:meta_item_1:2373>,<gtadditions:ga_dust:116>*51)
+    .outputs(<gregtech:meta_item_1:2499>)
+    .duration(20)
+    .EUt(490)
+    .buildAndRegister();
