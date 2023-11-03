@@ -85,3 +85,114 @@ val tree_farm = Builder.start(loc, meta)
                         .build())
 .withZoom(0.5f)
 .buildAndRegister() as Multiblock;
+
+
+
+
+tree_farm.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:water>*2000)
+    .notConsumable(<minecraft:sapling>)
+    .outputs(<minecraft:log>*4)
+    .duration(200)
+    .EUt(500)
+    .buildAndRegister();
+
+tree_farm.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:water>*2000)
+    .notConsumable(<minecraft:sapling:1>)
+    .outputs(<minecraft:log:1>*4)
+    .duration(200)
+    .EUt(500)
+    .buildAndRegister();
+
+tree_farm.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:water>*2000)
+    .notConsumable(<minecraft:sapling:2>)
+    .outputs(<minecraft:log:2>*4)
+    .duration(200)
+    .EUt(500)
+    .buildAndRegister();
+
+tree_farm.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:water>*2000)
+    .notConsumable(<minecraft:sapling:3>)
+    .outputs(<minecraft:log:3>*4)
+    .duration(200)
+    .EUt(500)
+    .buildAndRegister();
+
+tree_farm.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:water>*2000)
+    .notConsumable(<minecraft:sapling:4>)
+    .outputs(<minecraft:log2>*4)
+    .duration(200)
+    .EUt(500)
+    .buildAndRegister();
+
+tree_farm.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:water>*2000)
+    .notConsumable(<minecraft:sapling:5>)
+    .outputs(<minecraft:log2:1>*4)
+    .duration(200)
+    .EUt(500)
+    .buildAndRegister();
+
+tree_farm.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:water>*2000)
+    .notConsumable(<extrautils2:ironwood_sapling>)
+    .outputs(<gregtech:meta_item_1:33>*2,<extrautils2:ironwood_log>*4)
+    .duration(400)
+    .EUt(500)
+    .buildAndRegister();
+
+tree_farm.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:water>*2000)
+    .notConsumable(<extrautils2:ironwood_sapling:1>)
+    .outputs(<gregtech:meta_item_1:33>*2,<extrautils2:ironwood_log:1>*4)
+    .duration(400)
+    .EUt(500)
+    .buildAndRegister();
+
+tree_farm.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:water>*2000)
+    .notConsumable(<gregtech:sapling>)
+    .outputs(<gregtech:meta_item_1:32627>*1,<gregtech:log>*4)
+    .duration(100)
+    .EUt(200)
+    .buildAndRegister();
+
+tree_farm.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:water>*2000)
+    .notConsumable(<thaumicbases:endersapling>)
+    .outputs(<thaumicbases:enderlogs>*2)
+    .duration(600)
+    .EUt(200)
+    .buildAndRegister();
+
+tree_farm.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:water>*2000)
+    .notConsumable(<thaumicbases:goldensapling>)
+    .outputs(<thaumicbases:goldenlogs>*2)
+    .duration(600)
+    .EUt(200)
+    .buildAndRegister();
+
+tree_farm.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:water>*2000)
+    .notConsumable(<thaumcraft:sapling_silverwood>)
+    .outputs(<thaumcraft:log_silverwood>*4)
+    .duration(200)
+    .EUt(200)
+    .buildAndRegister();
+
+tree_farm.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:water>*2000)
+    .notConsumable(<thaumcraft:sapling_greatwood>)
+    .outputs(<thaumcraft:log_greatwood>*4)
+    .duration(200)
+    .EUt(200)
+    .buildAndRegister();
+
+
+recipes.addShaped(<gregtech:machine:10015>, [	[<ore:plateRedSteel>, <ore:circuitAdvanced>, <ore:plateRedSteel>], 	[<ore:circuitAdvanced>, <ore:frameGtEglinSteel>, <ore:circuitAdvanced>], 	[<ore:plateRedSteel>, <ore:circuitAdvanced>, <ore:plateRedSteel>]]);
+
