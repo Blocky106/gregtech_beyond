@@ -2861,11 +2861,16 @@ fusel_oil.register();
 var npropanol = VanillaFactory.createFluid("npropanol", Color.fromHex("070708"));
 npropanol.register();
 
-var isoamyl_alcohol = VanillaFactory.createFluid("isoamyl_alcohol", Color.fromHex("070708"));
-isoamyl_alcohol.register();
-
 var nbutanol = VanillaFactory.createFluid("nbutanol", Color.fromHex("070708"));
 nbutanol.register();
 
 var isobutyl_alcohol = VanillaFactory.createFluid("isobutyl_alcohol", Color.fromHex("070708"));
 isobutyl_alcohol.register();
+
+var pneumatic = VanillaFactory.createBlock("pneumatic", <blockmaterial:rock>);
+pneumatic.setBlockHardness(12.0);
+pneumatic.setBlockResistance(10.0);
+pneumatic.setToolClass("pickaxe");
+pneumatic.setToolLevel(2);
+pneumatic.setBlockSoundType(<soundtype:metal>);
+pneumatic.register();
