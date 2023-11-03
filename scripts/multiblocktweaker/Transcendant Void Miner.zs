@@ -23,9 +23,9 @@ import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 
 
-var loc = "trascendant_void_miner";
+var loc = "transcendant_void_miner";
 var meta = 10025;
-val trascendant_void_miner = Builder.start(loc, meta)
+val transcendant_void_miner = Builder.start(loc, meta)
     .withPattern(
             FactoryBlockPattern.start(RelativeDirection.RIGHT, RelativeDirection.BACK, RelativeDirection.UP)
                 .aisle(
