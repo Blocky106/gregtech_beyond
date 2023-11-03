@@ -361,3 +361,25 @@ val particle_accelerator = Builder.start(loc, meta)
 .withZoom(0.5f)
 
 .buildAndRegister() as Multiblock;
+
+
+particle_accelerator.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:plutonium>*144)
+    .fluidOutputs(<liquid:plutonium247>*72)
+    .duration(200)
+    .EUt(2000)
+    .buildAndRegister();
+
+particle_accelerator.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:plutonium_radioactive245>*144)
+    .fluidOutputs(<liquid:plutonium247>*144)
+    .duration(200)
+    .EUt(20000)
+    .buildAndRegister();
+
+particle_accelerator.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:blackplutonium>*72)
+    .fluidOutputs(<liquid:plutonium247>*288)
+    .duration(200)
+    .EUt(200099)
+    .buildAndRegister();
