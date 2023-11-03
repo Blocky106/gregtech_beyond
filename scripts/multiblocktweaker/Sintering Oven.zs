@@ -98,3 +98,9 @@ val sintering_oven = Builder.start(loc, meta)
 .withZoom(0.5f)
 .buildAndRegister() as Multiblock;
 
+sintering_oven.recipeMap.recipeBuilder()
+    .inputs(<contenttweaker:bitominousresidue>)
+    .outputs(<thermalfoundation:material:892>)
+    .duration(200)
+    .EUt(24)
+    .buildAndRegister();
