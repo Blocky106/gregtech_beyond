@@ -928,10 +928,10 @@ material.philipscatalyst=Philips Catalyst
 material.zieglernattacatalyst=Ziegler-Natta Catalyst
 material.kaminskycatalyst=Kaminsky Catalyst
 fluid.triethylaluminium=Triethylaluminium
-fluid.polybenzimadozoleprepolymerfoam=Polybenzimadozole Pre-Polymer Foam
-fluid.polybenzimadozolesolution=Polybenzimadozole Solution
-fluid.impurepolybenzimadozolesolution=Impure Polybenzimadozole Solution
-fluid.polybenzimadozolewaste=Polybenzimadozole Waste
+fluid.polybenzimidozoleprepolymerfoam=Polybenzimidozole Pre-Polymer Foam
+fluid.polybenzimidozolesolution=Polybenzimidozole Solution
+fluid.impurepolybenzimidozolesolution=Impure polybenzimidozole Solution
+fluid.polybenzimidozolewaste=Polybenzimidozole Waste
 multiblocktweaker.machine.vacuum_furnace.name=Vacuum Furnace
 multiblocktweaker.machine.matter_dequantizer.name=Matter Dequantizer
 multiblocktweaker.machine.matter_quantizer.name=Matter Quantizer
@@ -950,23 +950,73 @@ multiblocktweaker.machine.quantum_circuit_assembler.name=Quantum Circuit Assembl
 multiblocktweaker.machine.fermentation_vat.name=Fermentation Vat
 multiblocktweaker.machine.astro_mining_station.name=Astro Mining Station
 multiblocktweaker.machine.black_hole_compressor.name=Black Hole Compressor
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+tile.contenttweaker.pneumatic.name=Pneumatic (Test)
+tile.contenttweaker.machine_casing_firebox_steel.name=Firebox Casing (Test)
+tile.contenttweaker.machine_casing_clean_stainless_steel.name=Clean Stainless Steel Casing (Test)
+tile.contenttweaker.machine_casing_solid_steel.name=Solid Steel Casing (Test)
+tile.contenttweaker.machine_casing_stable_titanium.name=Stable Titanium Casing (Test)
+tile.contenttweaker.bismuth_bronze.name=Bismuth Bronze Casing (Test)
+tile.contenttweaker.pneumatic.name=Pneumatic Casing (Test)
+fluid.lubricating_oil=Lubricating Oil
+fluid.fusel_oil=Fusel Oil
+fluid.npropanol=n-Propanol
+fluid.nbutanol=n-Butanol
+fluid.isobutyl_alcohol=Isobutyl Acid
+item.contenttweaker.living_bio_chip.name=Living Bio Chip
+item.contenttweaker.sgm_catalyst.name=SGM Catalyst
+item.contenttweaker.living_bio_crystal.name=Living Bio Crystal
+item.contenttweaker.pgm_catalyst.name=PGM Catalyst
+item.contenttweaker.ngm_catalyst.name=NGM Catalyst
+item.contenttweaker.ree_catalyst.name=REE Catalyst
+item.contenttweaker.radox_catalyst.name=Radox Catalyst
+item.contenttweaker.plastic_catalyst.name=Plastic Catalyst
+item.contenttweaker.kevlar_catalyst.name=Kevlar Catalyst
+item.contenttweaker.metal_catalyst.name=Metal Catalyst
+item.contenttweaker.soldering_catalyst.name=Soldering Catalyst
+item.contenttweaker.steel_item_casing.name=Steel Item Casing
+multiblocktweaker.machine.precise_assembler.name=Precise Assembler
+multiblocktweaker.machine.neutron_accelerator.name=Neutron Accelerator
+multiblocktweaker.machine.transcendant_plasma_mixer.name=Transcendant Plasma Mixer
+multiblocktweaker.machine.gravity_settler_tank.name=Gravity Settler Tank
+multiblocktweaker.machine.matter_dissovler.name=Matter Dissolver
+multiblocktweaker.machine.froth_flotation_cell.name=Froth Flotation Cell
+multiblocktweaker.machine.cosmic_pneumatic_chamber.name=Cosmic Pneumatic Chamber
+multiblocktweaker.machine.planar_research_plant.name=Planar Research Plant
+multiblocktweaker.machine.naquadah_fuel_refinery.name=Naquadah Fuel Refinery
+multiblocktweaker.machine.cstr.name=Continous Stirring Reactor (cstr)
+multiblocktweaker.machine.dissolution_tank.name=Dissolution Tank
+item.item_lighter.name=Lighter
+item.tconstruct.clay_cast.blank.name=Clay Cast (Blank) (Useless)
+gtadditions.machine.convert_gteu.ulv.128.name=GTEU Energy Converter (ULV)
+gtadditions.machine.convert_gteu.lv.128.name=GTEU Energy Converter (LV)
+gtadditions.machine.convert_gteu.mv.128.name=GTEU Energy Converter (MV)
+gtadditions.machine.convert_gteu.hv.128.name=GTEU Energy Converter (HV)
+gtadditions.machine.convert_gteu.ev.128.name=GTEU Energy Converter (EV)
+gtadditions.machine.convert_gteu.iv.128.name=GTEU Energy Converter (IV)
+gtadditions.machine.convert_gteu.luv.128.name=GTEU Energy Converter (LUV)
+gtadditions.machine.convert_gteu.zpm.128.name=GTEU Energy Converter (ZPM)
+gtadditions.machine.convert_gteu.uv.128.name=GTEU Energy Converter (UV)
+gtadditions.machine.convert_gteu.uhv.128.name=GTEU Energy Converter (UHV)
+gtadditions.machine.convert_gteu.uev.128.name=GTEU Energy Converter (UEV)
+gtadditions.machine.convert_gteu.uiv.128.name=GTEU Energy Converter (UIV)
+gtadditions.machine.convert_gteu.umv.128.name=GTEU Energy Converter (UMV)
+gtadditions.machine.convert_gteu.uxv.128.name=GTEU Energy Converter (UXV)
+gtadditions.machine.convert_forge.ulv.128.name=Forge Energy Converter (ULV)
+gtadditions.machine.convert_forge.lv.128.name=Forge Energy Converter (LV)
+gtadditions.machine.convert_forge.mv.128.name=Forge Energy Converter (MV)
+gtadditions.machine.convert_forge.hv.128.name=Forge Energy Converter (HV)
+gtadditions.machine.convert_forge.ev.128.name=Forge Energy Converter (EV)
+gtadditions.machine.convert_forge.iv.128.name=Forge Energy Converter (IV)
+gtadditions.machine.convert_forge.luv.128.name=Forge Energy Converter (LUV)
+gtadditions.machine.convert_forge.zpm.128.name=Forge Energy Converter (ZPM)
+gtadditions.machine.convert_forge.uv.128.name=Forge Energy Converter (UV)
+gtadditions.machine.convert_forge.uhv.128.name=Forge Energy Converter (UHV)
+gtadditions.machine.convert_forge.uev.128.name=Forge Energy Converter (UEV)
+gtadditions.machine.convert_forge.uiv.128.name=Forge Energy Converter (UIV)
+gtadditions.machine.convert_forge.umv.128.name=Forge Energy Converter (UMV)
+gtadditions.machine.convert_forge.uxv.128.name=Forge Energy Converter (UXV)
+fluid.polybenzimidozoleprepolymerfoam
+tile.catwalks.catwalk.unknown.name=Unknown Catwalk (Erroring)
 
 
 
