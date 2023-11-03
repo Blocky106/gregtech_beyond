@@ -793,7 +793,7 @@ ebf.recipeBuilder()
 
 assembler.recipeBuilder()
     .inputs(<contenttweaker:berylliumdetector>*4,<contenttweaker:electromagnet>*4,<gregtech:cable:3307>*6,<ore:circuitElite>*16,<contenttweaker:radiationproofplate>*8,<gregtech:meta_item_1:10756>*4,<gregtech:meta_item_1:12760>*4)
-    .outputs(<modularmachinery:partcleaccerlator_controller>)
+    .outputs(<gregtech:machine:10023>)
     .fluidInputs(<liquid:osmiridium>*1296)
     .duration(8000)
     .EUt(8000)

@@ -3038,7 +3038,7 @@ recipes.addShapeless(<gregtech:machine:713>,[<gregtech:machine:712>]);
 recipes.addShapeless(<gregtech:meta_item_1:2196>,[<ore:logWood>,<contenttweaker:stoneknife>.transformDamage(0)]);
 recipes.addShapeless(<gregtech:meta_item_1:2204>,[<ore:oreGraphite>,<contenttweaker:hammer>.transformDamage(0)]);
 recipes.addShapeless(<gregtech:meta_item_1:2012>,[<gregtech:meta_item_1:2204>,<minecraft:coal>]);
-recipes.addShaped(<gregtech:multiblock_casing:2>*2, [	[<ore:circuitMaster>, <ore:circuitMaster>, <ore:circuitMaster>], 	[<ore:circuitMaster>, <ore:frameGtTungstenSteel>, <ore:circuitMaster>], 	[<ore:circuitMaster>, <gregtech:meta_item_1:32606>, <ore:circuitMaster>]]);
+recipes.addShaped(<gregtech:multiblock_casing:2>*2, [	[<ore:circuitElite>, <ore:circuitElite>, <ore:circuitElite>], 	[<ore:circuitMaster>, <ore:frameGtTungstenSteel>, <ore:circuitMaster>], 	[<ore:circuitMaster>, <gregtech:meta_item_1:32606>, <ore:circuitMaster>]]);
 recipes.addShaped(<gregtech:machine:2533>, [	[<ore:plateDenseMarcem200steel>, <contenttweaker:assemblingcomponent>, <ore:plateDenseMarcem200steel>], 	[<ore:circuitUltimate>, <gregtech:machine:506>, <ore:circuitUltimate>], 	[<ore:plateDenseMarcem200steel>, <contenttweaker:assemblingcomponent>, <ore:plateDenseMarcem200steel>]]);
 recipes.addShapeless(<gregtech:meta_item_1:2012>,[<contenttweaker:hammer>.transformDamage(0),<minecraft:coal:1>,<minecraft:coal:1>]);
 recipes.addShapeless(<gtadditions:ga_meta_item2:103>.withTag({Charge: 13107200 as long, "GT.Detrav": {Data: 0}}),[<gtadditions:ga_meta_item2:103>]);

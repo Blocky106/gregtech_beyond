@@ -2851,3 +2851,21 @@ bismuth_bronze.setToolClass("pickaxe");
 bismuth_bronze.setToolLevel(2);
 bismuth_bronze.setBlockSoundType(<soundtype:metal>);
 bismuth_bronze.register();
+
+var lubricating_oil = VanillaFactory.createFluid("lubricating_oil", Color.fromHex("070708"));
+lubricating_oil.register();
+
+var fusel_oil = VanillaFactory.createFluid("fusel_oil", Color.fromHex("070708"));
+fusel_oil.register();
+
+var npropanol = VanillaFactory.createFluid("npropanol", Color.fromHex("070708"));
+npropanol.register();
+
+var isoamyl_alcohol = VanillaFactory.createFluid("isoamyl_alcohol", Color.fromHex("070708"));
+isoamyl_alcohol.register();
+
+var nbutanol = VanillaFactory.createFluid("nbutanol", Color.fromHex("070708"));
+nbutanol.register();
+
+var isobutyl_alcohol = VanillaFactory.createFluid("isobutyl_alcohol", Color.fromHex("070708"));
+isobutyl_alcohol.register();

@@ -23,39 +23,39 @@ import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 
 
-var loc = "sintering_oven";
-var meta = 10013;
-val sintering_oven = Builder.start(loc, meta)
+var loc = "gravity_settler_tank";
+var meta = 10004;
+val gravity_settler_tank = Builder.start(loc, meta)
     .withPattern(
             FactoryBlockPattern.start(RelativeDirection.RIGHT, RelativeDirection.BACK, RelativeDirection.UP)
                 .aisle(
-                    "CCC",
-                    "FFF",
-                    "~~~",
-                    "FFF",
-                    "~~~",
-                    "FFF",
-                    "CCC")
+                    "~~~~",
+                    "~CC~",
+                    "~CC~",
+                    "~CC~",
+                    "~CC~",
+                    "~CC~",
+                    "~~~~")
                 .aisle(
-                    "CCC",
-                    "FAF",
-                    "~A~",
-                    "FAF",
-                    "~A~",
-                    "FAF",
-                    "CSC")
+                    "~CC~",
+                    "CPPC",
+                    "C~~C",
+                    "CFFC",
+                    "CFFC",
+                    "CFFC",
+                    "~SC~")
                 .aisle(
-                    "CCC",
-                    "FFF",
-                    "~~~",
-                    "FFF",
-                    "~~~",
-                    "FFF",
-                    "CCC")
+                    "~~~~",
+                    "~GG~",
+                    "~GG~",
+                    "~GG~",
+                    "~GG~",
+                    "~GG~",
+                    "~~~~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
                 .whereOr("C", 
-                <metastate:contenttweaker:basic_structural_casing>,
+                <metastate:gregtech:metal_casing:5>,
                     IBlockMatcher.abilityPartPredicate(
                         MultiblockAbility.IMPORT_FLUIDS,
                         MultiblockAbility.IMPORT_ITEMS,
@@ -63,44 +63,47 @@ val sintering_oven = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
-                .where("F", <metastate:gregtech:frame_steel>)
-                .where("A", <metastate:contenttweaker:copperalloycoilblock>)
+                .where("P", <metastate:gregtech:boiler_casing:1>)
+                .where("F", <metastate:gregtech:multiblock_casing:1>)
+                .where("G", <metastate:thermalfoundation:glass:2>)
                 .build())
         .addDesign(
                 FactoryMultiblockShapeInfo.start()
                 .aisle(
-                    "CF F FC",
-                    "CF F FC",
-                    "CF F FC")
+                    "       ",
+                    " CCCCC ",
+                    " CCCCC ",
+                    "       ")
                 .aisle(
-                    "CF F FC",
-                    "SAAAAAC",
-                    "EF F FC")
+                    " CCCCC ",
+                    "SFFF PE",
+                    "C     C",
+                    " GGGGG ")
                 .aisle(
-                    "CF F FC",
-                    "CF F FC",
-                    "CF F FC")
-                .where("F", <metastate:gregtech:frame_steel>)
-                .where("A", <metastate:contenttweaker:copperalloycoilblock>)
-                .where("C", <metastate:contenttweaker:basic_structural_casing>)
+                    " CCCCC ",
+                    "CFFF PC",
+                    "C     C",
+                    " GGGGG ")
+                .aisle(
+                    "       ",
+                    " CCCCC ",
+                    " CCCCC ",
+                    "       ")
+                .where("C", <metastate:gregtech:metal_casing:5>)
                 .where("S", IBlockInfo.controller(loc))
-                .where("F", <metastate:gregtech:frame_steel>)
-                .where("E", MetaTileEntities.ENERGY_INPUT_HATCH[2], IFacing.west())
+                .where("P", <metastate:gregtech:boiler_casing:1>)
+                .where("F", <metastate:gregtech:multiblock_casing:1>)
+                .where("G", <metastate:thermalfoundation:glass:2>)
+                .where("E", MetaTileEntities.ENERGY_INPUT_HATCH[4], IFacing.east())
                 .build())
 .withRecipeMap(
         FactoryRecipeMap.start(loc)
-                        .maxInputs(2)
-                        .maxFluidInputs(2)
+                        .maxInputs(1)
+                        .maxFluidInputs(1)
                         .maxFluidOutputs(1)
                         .maxOutputs(1)
                         .build())
-                        .withTexture(ICubeRenderer.sided("contenttweaker:blocks/basic_structural_casing"))
+.withTexture(ICubeRenderer.sided("contenttweaker:blocks/machine_casing_clean_stainless_steel"))
 .withZoom(0.5f)
-.buildAndRegister() as Multiblock;
 
-sintering_oven.recipeMap.recipeBuilder()
-    .inputs(<contenttweaker:bitominousresidue>)
-    .outputs(<thermalfoundation:material:892>)
-    .duration(200)
-    .EUt(24)
-    .buildAndRegister();
+.buildAndRegister() as Multiblock;

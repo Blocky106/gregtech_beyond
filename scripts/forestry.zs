@@ -58,3 +58,23 @@ recipes.remove(<forestry:fabricator>);
 recipes.remove(<forestry:wrench>);
 
 
+
+
+
+recipes.remove(<forestry:apiarist_bag>);
+recipes.addShaped(<forestry:apiarist_bag>, [	[<ore:string>, <ore:stickWood>, <ore:string>], 	[<contenttweaker:boiledleather>, <forestry:bee_chest>, <contenttweaker:boiledleather>], 	[<ore:string>, <ore:stickWood>, <ore:string>]]);
+recipes.remove(<forestry:lepidopterist_bag>);
+recipes.addShaped(<forestry:lepidopterist_bag>, [	[<ore:string>, <ore:stickWood>, <ore:string>], 	[<contenttweaker:boiledleather>, <forestry:butterfly_chest>, <contenttweaker:boiledleather>], 	[<ore:string>, <ore:stickWood>, <ore:string>]]);
+recipes.remove(<forestry:miner_bag>);
+recipes.addShaped(<forestry:miner_bag>, [	[<ore:string>, <gregtech:meta_item_1:12184>, <ore:string>], 	[<contenttweaker:boiledleather>, <minecraft:chest>, <contenttweaker:boiledleather>], 	[<ore:string>, <gregtech:meta_item_1:12184>, <ore:string>]]);
+
+
+
+
+
+
+
+
+
+
+

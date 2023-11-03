@@ -57,5 +57,5 @@ furnace.addRecipe(<contenttweaker:blockgraphite>,<gregtech:meta_block_compressed
 furnace.addRecipe(<contenttweaker:rubyingot>,<gregtech:meta_item_1:2154>);
 furnace.addRecipe(<contenttweaker:cryolitedust>, <contenttweaker:cryoliteore>);
 
-
+recipes.addShaped(<contenttweaker:treatedwoodplanks>*8, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], 	[<ore:plankWood>, <contenttweaker:paraffinwax>, <ore:plankWood>], 	[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]);
 

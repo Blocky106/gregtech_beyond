@@ -322,25 +322,108 @@ assembler.recipeBuilder()
     .buildAndRegister();
 
 
+cutting_saw.recipeBuilder()
+    .fluidInputs(<liquid:water>*200)
+    .inputs(<forestry:crafting_material:3>)
+    .outputs(<minecraft:string>*8)
+    .duration(80)
+    .EUt(12)
+    .buildAndRegister();
+
+cutting_saw.recipeBuilder()
+    .fluidInputs(<liquid:distilled_water>*150)
+    .inputs(<forestry:crafting_material:3>)
+    .outputs(<minecraft:string>*8)
+    .duration(60)
+    .EUt(12)
+    .buildAndRegister();
+
+cutting_saw.recipeBuilder()
+    .fluidInputs(<liquid:lubricant>*100)
+    .inputs(<forestry:crafting_material:3>)
+    .outputs(<minecraft:string>*8)
+    .duration(40)
+    .EUt(10)
+    .buildAndRegister();
 
 
+fluidExtractor.recipeBuilder()
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .inputs(<contenttweaker:paraffinwax>)
+    .fluidOutputs(<liquid:resin>*1000)
+    .duration(40)
+    .EUt(28)
+    .buildAndRegister();
 
+fluidExtractor.recipeBuilder()
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .inputs(<contenttweaker:paraffinwax>)
+    .fluidOutputs(<liquid:lubricating_oil>*250)
+    .duration(40)
+    .EUt(28)
+    .buildAndRegister();
 
+mixer.recipeBuilder()
+    .fluidInputs(<liquid:lubricating_oil>*250)
+    .inputs(<minecraft:redstone>)
+    .fluidOutputs(<liquid:lubricant>*500)
+    .duration(80)
+    .EUt(20)
+    .buildAndRegister();
 
+mixer.recipeBuilder()
+    .fluidInputs(<liquid:lubricating_oil>*250)
+    .inputs(<gregtech:meta_item_1:2295>)
+    .fluidOutputs(<liquid:lubricant>*500)
+    .duration(80)
+    .EUt(20)
+    .buildAndRegister();
 
-
-
+mixer.recipeBuilder()
+    .fluidInputs(<liquid:lubricating_oil>*250)
+    .inputs(<gregtech:meta_item_1:2294>)
+    .fluidOutputs(<liquid:lubricant>*500)
+    .duration(80)
+    .EUt(20)
+    .buildAndRegister();
     
+distillation_tower.recipeBuilder()
+    .fluidInputs(<liquid:impure_ethanol>*2000)
+    .fluidOutputs(<liquid:water>*1000,<liquid:ehtanol_water_azeotrope>*720,<liquid:fusel_oil>*80)
+    .outputs(<gregtech:meta_item_1:2196>)
+    .duration(200)
+    .EUt(280)
+    .buildAndRegister();
+
+Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:11585>], [], false);
+
+ebf.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2585>)
+    .outputs(<gregtech:meta_item_1:11585>)
+    .duration(200)
+    .EUt(800)
+    .property("temperature", 5000)
+    .buildAndRegister();
+
+Utils.removeRecipeByOutput(chemReactor, [<thermalfoundation:material:165>], [], false);
+Utils.removeRecipeByOutput(lcr, [<thermalfoundation:material:165>], [], false);
 
 
-
-
-
-
-
-
-
-
+chemReactor.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:10227>)
+    .fluidInputs(<liquid:redstone>*144)
+    .outputs(<gregtech:meta_item_1:10539>)
+    .duration(120)
+    .EUt(200)
+    .buildAndRegister();
+    
+lcr.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:10227>)
+    .fluidInputs(<liquid:redstone>*144)
+    .outputs(<gregtech:meta_item_1:10539>)
+    .duration(120)
+    .EUt(200)
+    .buildAndRegister();
 
 
 

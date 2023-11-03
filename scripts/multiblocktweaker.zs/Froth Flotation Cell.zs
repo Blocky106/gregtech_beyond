@@ -23,46 +23,40 @@ import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 
 
-var loc = "cstr";
-var meta = 10026;
-val cstr = Builder.start(loc, meta)
+var loc = "froth_flotation_cell";
+var meta = 10006;
+val froth_flotation_cell = Builder.start(loc, meta)
     .withPattern(
             FactoryBlockPattern.start(RelativeDirection.RIGHT, RelativeDirection.BACK, RelativeDirection.UP)
                 .aisle(
+                    "~~P~~",
+                    "~CCC~",
+                    "PCCCP",
+                    "~CCC~",
+                    "~~P~~")
+                .aisle(
+                    "~~P~~",
+                    "~CCC~",
+                    "PC~CP",
+                    "~CCC~",
+                    "~~S~~")
+                .aisle(
                     "~~~~~",
-                    "~PPP~",
-                    "~PPP~",
-                    "~PPP~",
+                    "~CCC~",
+                    "~C~C~",
+                    "~CCC~",
                     "~~~~~")
                 .aisle(
+                    "~~~~~",
                     "~CCC~",
-                    "C~~~C",
-                    "C~~~C",
-                    "C~~~C",
-                    "~CCC~")
-                .aisle(
+                    "~C~C~",
                     "~CCC~",
-                    "C~~~C",
-                    "C~~~C",
-                    "C~~~C",
-                    "~CSC~")
-                .aisle(
-                    "~CCC~",
-                    "C~~~C",
-                    "C~~~C",
-                    "C~~~C",
-                    "~CCC~")
-                .aisle(
-                    "~CCC~",
-                    "C~~~C",
-                    "C~~~C",
-                    "C~~~C",
-                    "~CCC~")
+                    "~~~~~")
                 .aisle(
                     "~~~~~",
-                    "~PPP~",
-                    "~PPP~",
-                    "~PPP~",
+                    "~CCC~",
+                    "~CGC~",
+                    "~CCC~",
                     "~~~~~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
@@ -76,67 +70,56 @@ val cstr = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_ITEMS
                 ))
                 .where("P", <metastate:gregtech:boiler_casing:1>)
+                .where("G", <metastate:gregtech:multiblock_casing:1>)
                 .build())
         .addDesign(
                 FactoryMultiblockShapeInfo.start()
                 .aisle(
+                    "  P  ",
+                    "  P  ",
                     "     ",
-                    " CCC ",
-                    " CCC ",
-                    " CCC ",
-                    " CCC ",
+                    "     ",
                     "     ")
                 .aisle(
-                    " PPP ",
-                    "C   C",
-                    "C   C",
-                    "C   C",
-                    "C   C",
-                    " PPP ")
+                    " CCC ",
+                    " CCC ",
+                    " CCC ",
+                    " CCC ",
+                    " CCC ")
                 .aisle(
-                    " PPP ",
-                    "C   C",
-                    "S   E",
-                    "C   C",
-                    "C   C",
-                    " PPP ")
+                    "PCCCP",
+                    "SC CE",
+                    " C C ",
+                    " C C ",
+                    " CCC ")
                 .aisle(
-                    " PPP ",
-                    "C   C",
-                    "C   C",
-                    "C   C",
-                    "C   C",
-                    " PPP ")
+                    " CCC ",
+                    " CCC ",
+                    " CCC ",
+                    " CCC ",
+                    " CCC ")
                 .aisle(
+                    "  P  ",
+                    "  P  ",
                     "     ",
-                    " CCC ",
-                    " CCC ",
-                    " CCC ",
-                    " CCC ",
+                    "     ",
                     "     ")
                 .where("P", <metastate:gregtech:boiler_casing:1>)
-                .where("C", <metastate:gregtech:metal_casing:5>)
+                .where("G", <metastate:gregtech:multiblock_casing:1>)
                 .where("S", IBlockInfo.controller(loc))
+                .where("F", <metastate:gregtech:metal_casing:5>)
                 .where("L", MetaTileEntities.FLUID_IMPORT_HATCH[1], IFacing.south())
                 .where("X", MetaTileEntities.FLUID_EXPORT_HATCH[1], IFacing.north())
                 .where("E", MetaTileEntities.ENERGY_INPUT_HATCH[4], IFacing.east())
                 .build())
 .withRecipeMap(
         FactoryRecipeMap.start(loc)
-                        .maxInputs(3)
-                        .maxFluidInputs(3)
-                        .maxFluidOutputs(3)
-                        .maxOutputs(3)
+                        .maxInputs(1)
+                        .maxFluidInputs(1)
+                        .maxFluidOutputs(1)
+                        .maxOutputs(1)
                         .build())
 .withTexture(ICubeRenderer.sided("contenttweaker:blocks/machine_casing_clean_stainless_steel"))
 .withZoom(0.5f)
 
 .buildAndRegister() as Multiblock;
-
-cstr.recipeMap.recipeBuilder()
-    .fluidInputs(<liquid:water>*1800,<liquid:ethanol>*100,<liquid:npropanol>*100)
-    .inputs(<gregtech:meta_item_1:2159>*6,<gregtech:meta_item_1:2373>,<gtadditions:ga_dust:116>*51)
-    .outputs(<gregtech:meta_item_1:2499>)
-    .duration(20)
-    .EUt(490)
-    .buildAndRegister();

@@ -1,0 +1,12 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "forge:fluid",
+    "custom": {
+      "fluid": "isoamyl_alcohol"
+    }
+  },
+  "variants": {
+    "normal": [{}]
+  }
+}

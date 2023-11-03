@@ -1,80 +1,8 @@
 import mods.modularmachinery.RecipeBuilder;
 import mods.modularmachinery.RecipePrimer;
-import mods.gregtech.recipe.PBFRecipeBuilder;
-import crafttweaker.item.IItemStack;
-import crafttweaker.liquid.ILiquidStack;
-import crafttweaker.item.IIngredient;
-import mods.gregtech.recipe.RecipeMap;
-import crafttweaker.oredict.IOreDict;
-import crafttweaker.oredict.IOreDictEntry;
-import crafttweaker.block.IBlockDefinition;
-import crafttweaker.block.IBlockProperties;
-import crafttweaker.block.IBlock;
-import mods.contenttweaker.VanillaFactory;
-import mods.contenttweaker.Block;
-import crafttweaker.item.IItemCondition;
-import mods.gtadditions.recipe.GARecipeMaps.ADV_FUSION_RECIPES;
-import mods.gregtech.recipe.CokeOvenRecipeBuilder;
-import mods.gtadditions.recipe.Utils;
 
 
-val packer = mods.gregtech.recipe.RecipeMap.getByName("packer");
-val unpacker = mods.gregtech.recipe.RecipeMap.getByName("unpacker");
-val brewery = mods.gregtech.recipe.RecipeMap.getByName("brewer");
-val extruder = mods.gregtech.recipe.RecipeMap.getByName("extruder");
-val mixer = mods.gregtech.recipe.RecipeMap.getByName("mixer");
-val implosion = mods.gregtech.recipe.RecipeMap.getByName("implosion_compressor");
-val macerator = mods.gregtech.recipe.RecipeMap.getByName("macerator");
-val assembler = mods.gregtech.recipe.RecipeMap.getByName("assembler");
-val solidifier = mods.gregtech.recipe.RecipeMap.getByName("solidifier");
-val chemReactor = mods.gregtech.recipe.RecipeMap.getByName("chemical_reactor");
-val forgeHammer = mods.gregtech.recipe.RecipeMap.getByName("forge_hammer");
-val fluidExtractor = mods.gregtech.recipe.RecipeMap.getByName("fluid_extractor");
-val extractor = mods.gregtech.recipe.RecipeMap.getByName("extractor");
-val compressor = mods.gregtech.recipe.RecipeMap.getByName("compressor");
-val electrolyzer = mods.gregtech.recipe.RecipeMap.getByName("electrolyzer");
-val centrifuge = mods.gregtech.recipe.RecipeMap.getByName("centrifuge");
-val ebf = mods.gregtech.recipe.RecipeMap.getByName("blast_furnace");
-val wiremill = mods.gregtech.recipe.RecipeMap.getByName("wiremill");
-var fusion_reactor = mods.gregtech.recipe.RecipeMap.getByName("fusion_reactor");
-val chemical_bath = mods.gregtech.recipe.RecipeMap.getByName("chemical_bath");
-val lathe = mods.gregtech.recipe.RecipeMap.getByName("lathe");
-val cracker = mods.gregtech.recipe.RecipeMap.getByName("cracker");
-val autoclave = mods.gregtech.recipe.RecipeMap.getByName("autoclave");
-val vacfreezer = mods.gregtech.recipe.RecipeMap.getByName("vacuum_freezer");
-val thermal = mods.gregtech.recipe.RecipeMap.getByName("thermal_centrifuge");
-val cutting_saw = mods.gregtech.recipe.RecipeMap.getByName("cutting_saw");
-val assembly_line = mods.gregtech.recipe.RecipeMap.getByName("assembly_line");
-val distillery = mods.gregtech.recipe.RecipeMap.getByName("distillery");
-val distillation_tower = mods.gregtech.recipe.RecipeMap.getByName("distillation_tower");
-val alloy_smelter = mods.gregtech.recipe.RecipeMap.getByName("alloy_smelter");
-val metal_bender = mods.gregtech.recipe.RecipeMap.getByName("metal_bender");
-val fluid_solidifier = mods.gregtech.recipe.RecipeMap.getByName("fluid_solidifier");
-val orewasher = mods.gregtech.recipe.RecipeMap.getByName("orewasher");
-val lcr = mods.gregtech.recipe.RecipeMap.getByName("large_chemical_reactor");
-val forming_press = mods.gregtech.recipe.RecipeMap.getByName("forming_press");
-val lmixer = mods.gregtech.recipe.RecipeMap.getByName("large_mixer");
-val blastalloy = mods.gregtech.recipe.RecipeMap.getByName("blast_alloy");
-val stellar = mods.gregtech.recipe.RecipeMap.getByName("stellar_forge");
-val dehydrator = mods.gregtech.recipe.RecipeMap.getByName("chemical_dehydrator");
-val plasma_condenser = mods.gregtech.recipe.RecipeMap.getByName("plasma_condenser");
-val circuit_assembly_line = mods.gregtech.recipe.RecipeMap.getByName("circuit_assembly_line");
-val bio = mods.gregtech.recipe.RecipeMap.getByName("bio_reactor");
-val fluidheater = mods.gregtech.recipe.RecipeMap.getByName("fluid_heater");
-val cas = mods.gregtech.recipe.RecipeMap.getByName("circuit_assembler");
-val engraver = mods.gregtech.recipe.RecipeMap.getByName("laser_engraver");
-val lengraver = mods.gregtech.recipe.RecipeMap.getByName("large_engraver");
-val adv = mods.gregtech.recipe.RecipeMap.getByName("ADVFusion");
-val chemical_plant = mods.gregtech.recipe.RecipeMap.getByName("chemical_plant");
-val canning = mods.gregtech.recipe.RecipeMap.getByName("canner");
-val lcentrifuge = mods.gregtech.recipe.RecipeMap.getByName("large_centrifuge");
-val fcanning = mods.gregtech.recipe.RecipeMap.getByName("fluid_canner");
-val sifter = mods.gregtech.recipe.RecipeMap.getByName("sifter");
-val cluster_mill = mods.gregtech.recipe.RecipeMap.getByName("cluster_mill");
 
-recipes.remove(<modularmachinery:blockcontroller>);
-
-mods.recipestages.Recipes.addShaped("machineProjector", <modularmachinery:machine_projector>, [	[null, null, <ore:circuitSuperconductor>], 	[null, <ore:plateFermium>, null], 	[<ore:plateFermium>, null, null]]);
 RecipeBuilder.newBuilder("matter1", "matter", 80)    .addEnergyPerTickInput(512800000)    .addItemInput(<enderio:item_alloy_ingot:6> *64)    .addItemOutput(<contenttweaker:elementds>)    .build();
 RecipeBuilder.newBuilder("matter2", "matter", 80)    .addEnergyPerTickInput(512800000)    .addItemInput(<gregtech:meta_item_1:10856>*64)    .addItemOutput(<contenttweaker:selementts>)    .build();
 RecipeBuilder.newBuilder("matter3", "matter", 80)    .addEnergyPerTickInput(512800000)    .addItemInput(<gregtech:meta_item_1:10786>*64)    .addItemOutput(<contenttweaker:elementfm>)   .build();
@@ -129,104 +57,13 @@ RecipeBuilder.newBuilder("precise15", "precise", 1200)   .addEnergyPerTickInput(
 RecipeBuilder.newBuilder("brine1", "brine", 80) .addEnergyPerTickInput(500) .addFluidInput(<liquid:sea_water>*1000) .addFluidOutput(<liquid:brine>*100 ) .build();
 RecipeBuilder.newBuilder("brine2", "brine", 80) .addEnergyPerTickInput(500) .addFluidInput(<liquid:debrominated_brine>*1000) .addFluidOutput(<liquid:brine>*100 ) .build();
 RecipeBuilder.newBuilder("brine3", "brine", 80) .addEnergyPerTickInput(500) .addFluidInput(<liquid:salt_water>*1000) .addFluidOutput(<liquid:brine>*100 ) .build();
-RecipeBuilder.newBuilder("partcleaccerlator1", "partcleaccerlator", 500) .addEnergyPerTickInput(100000) .addFluidInput(<liquid:plutonium>*144) .addFluidOutput(<liquid:plutonium247>*72) .build();
-RecipeBuilder.newBuilder("partcleaccerlator2", "partcleaccerlator", 500) .addEnergyPerTickInput(100000) .addFluidInput(<liquid:plutonium_radioactive245>*144) .addFluidOutput(<liquid:plutonium247>*144) .build();
-RecipeBuilder.newBuilder("partcleaccerlator3", "partcleaccerlator", 500) .addEnergyPerTickInput(50000000) .addFluidInput(<liquid:blackplutonium>*144) .addFluidOutput(<liquid:plutonium247>*288) .build();
-
-recipes.addShapeless(<modularmachinery:blockmeitemoutputbus>,[<modularmachinery:blockoutputbus:2>,<ae2fc:dual_interface>]);
-recipes.addShapeless(<modularmachinery:blockmeiteminputbus>,[<modularmachinery:blockoutputbus:2>,<ae2fc:dual_interface>]);
-recipes.addShapeless(<modularmachinery:blockmefluidoutputbus>,[<modularmachinery:blockoutputbus:2>,<ae2fc:dual_interface>]);
-recipes.addShapeless(<modularmachinery:blockmefluidinputbus>,[<modularmachinery:blockoutputbus:2>,<ae2fc:dual_interface>]);
 
 
 recipes.addShaped(<modularmachinery:planar_controller>, [	[<ore:plateSteel>, <ore:itemLens>, <ore:plateSteel>], 	[<ore:circuitAdvanced>, <ore:frameGtBlackSteel>, <ore:circuitAdvanced>], 	[<ore:plateSteel>, <gregtech:machine:503>, <ore:plateSteel>]]);
 recipes.addShaped(<modularmachinery:polytank_controller>, [[<ore:circuitGood>, <gregtech:meta_item_1:32610>, <ore:circuitGood>], [<gregtech:meta_item_1:32610>, <gregtech:machine:501>, <gregtech:meta_item_1:32610>], 	[<ore:rotorSteel>, <gregtech:meta_item_1:32610>, <ore:rotorSteel>]]);
 recipes.addShaped(<modularmachinery:press_controller>, [	[<gregtech:meta_item_1:32640>, <ore:craftingAnvil>, <gregtech:meta_item_1:32640>], 	[<ore:plateWroughtIron>, <gregtech:machine:501>, <ore:plateWroughtIron>], 	[<gregtech:meta_item_1:32610>, <ore:circuitGood>, <gregtech:meta_item_1:32610>]]);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-assembler.recipeBuilder()
-    .inputs(<gregtech:machine:744>,<contenttweaker:tungstensteelcoil>*2)
-    .outputs(<modularmachinery:blockenergyinputhatch:4>)
-    .fluidInputs(<liquid:polytetrafluoroethylene>*288)
-    .duration(800)
-    .EUt(400)
-    .buildAndRegister();
-
-assembler.recipeBuilder()
-    .inputs(<gregtech:machine:754>,<contenttweaker:hssgcoil>*2)
-    .outputs(<modularmachinery:blockenergyinputhatch:5>)
-    .fluidInputs(<liquid:polytetrafluoroethylene>*288)
-    .duration(800)
-    .EUt(2000)
-    .buildAndRegister();
-
-assembler.recipeBuilder()
-    .inputs(<gregtech:machine:784>,<contenttweaker:naquadaalloycoil>*2,<contenttweaker:twocryogeniccoolant>*2)
-    .outputs(<modularmachinery:blockenergyinputhatch:7>)
-    .fluidInputs(<liquid:polybenzimidazole>*288)
-    .duration(800)
-    .EUt(120000)
-    .buildAndRegister();
-
 recipes.addShaped(<modularmachinery:sint_controller>, [	[<ore:plateSteel>, <ore:circuitGood>, <ore:plateSteel>], 	[<ore:stickLongSteel>, <contenttweaker:copperalloycoilblock>, <ore:stickLongSteel>], 	[<ore:plateSteel>, <ore:circuitGood>, <ore:plateSteel>]]);
-recipes.remove(<modularmachinery:blockenergyinputhatch>);
-recipes.addShapeless(<modularmachinery:blockinputbus:2>, [<ore:chest>,<gregtech:machine_casing>]);
-recipes.addShapeless(<modularmachinery:blockoutputbus:2>, 	[<modularmachinery:blockinputbus:2>]);
-recipes.remove(<modularmachinery:blockenergyinputhatch:1>);
 recipes.addShaped(<modularmachinery:roaster_controller>, [	[<ore:plateDoubleInvar>, <ore:circuitAdvanced>, <ore:plateDoubleInvar>], 	[<ore:circuitAdvanced>, <ore:frameGtBlackSteel>, <ore:circuitAdvanced>], 	[<ore:plateDoubleInvar>, <ore:circuitAdvanced>, <ore:plateDoubleInvar>]]);
-recipes.remove(<modularmachinery:blockfluidinputhatch:2>);
-recipes.addShaped(<modularmachinery:blockfluidinputhatch:2>, [	[null, <thermalexpansion:tank>],	[null, <gregtech:machine:501>]]);
-recipes.remove(<modularmachinery:blockinputbus:1>);
-recipes.remove(<modularmachinery:blockinputbus>);
-recipes.addShaped(<modularmachinery:blockfluidoutputhatch>, [	[<gregtech:machine:703>, null, null], 	[null, null, null], 	[null, null, null]]);
-recipes.remove(<modularmachinery:blockfluidoutputhatch>);
-recipes.addShaped(<modularmachinery:blockfluidoutputhatch:1>, [	[<gregtech:machine:713>, null, null],	[null, null, null], 	[null, null, null]]);
-recipes.remove(<modularmachinery:blockfluidoutputhatch:1>);
 recipes.addShaped(<modularmachinery:dequantizer_controller>, [	[<ore:plateTgtalloy>, <ore:plateTgtalloy>, <ore:plateTgtalloy>], 	[<contenttweaker:forcefieldgenerator>, <contenttweaker:highpowercasing>, <contenttweaker:forcefieldgenerator>], 	[<ore:plateTgtalloy>, <ore:plateTgtalloy>, <ore:plateTgtalloy>]]);
 recipes.addShaped(<modularmachinery:visbreaker_controller>, [	[<contenttweaker:bulatsteelplate>, <contenttweaker:bulatsteelplate>, <contenttweaker:bulatsteelplate>], 	[<gregtech:meta_item_1:32611>, <ore:frameGtSteel>, <gregtech:meta_item_1:32611>], 	[<contenttweaker:bulatsteelplate>, <contenttweaker:bulatsteelplate>, <contenttweaker:bulatsteelplate>]]);
 recipes.addShaped(<modularmachinery:heat_controller>, [	[<gregtech:meta_item_1:32644>, <ore:frameGtTungstenSteel>, <gregtech:meta_item_1:32644>], 	[<gregtech:meta_item_1:32614>, <gregtech:machine:505>, <gregtech:meta_item_1:32614>], 	[<gregtech:meta_item_1:32644>, <ore:frameGtTungstenSteel>, <gregtech:meta_item_1:32644>]]);
@@ -240,25 +77,6 @@ recipes.addShaped(<modularmachinery:vacdistiller_controller>, [	[<gregtech:meta_
 recipes.addShaped(<modularmachinery:astro_controller>, [	[<ore:plateSteel>, <ore:circuitAdvanced>, <ore:plateSteel>], 	[<tconstruct:large_plate>.withTag({Material: "aluminium"}), <advancedrocketry:pipesealer>, <tconstruct:large_plate>.withTag({Material: "aluminium"})], 	[<ore:plateSteel>, <ore:circuitAdvanced>, <ore:plateSteel>]]);
 recipes.addShaped(<modularmachinery:fermentation_vat_controller>, [	[<gregtech:meta_item_1:32611>, <ore:circuitGood>, <gregtech:meta_item_1:32611>], 	[<ore:circuitGood>, <gregtech:machine:231>, <ore:circuitGood>], 	[<gregtech:meta_item_1:32651>, <ore:wireGtDoubleAluminium>, <gregtech:meta_item_1:32651>]]);
 
-
-
-
-
-assembler.recipeBuilder()
-    .inputs(<gregtech:machine:724>,<contenttweaker:cupronickelcoil>*2,<gregtech:cable:5018>*4)
-    .fluidInputs(<liquid:gold>*144)
-    .outputs(<modularmachinery:blockenergyinputhatch:1>)
-    .duration(200)
-    .EUt(144)
-    .buildAndRegister();
-
-assembler.recipeBuilder()
-    .inputs(<gregtech:machine:725>,<contenttweaker:cupronickelcoil>*2,<gregtech:cable:5018>*4)
-    .fluidInputs(<liquid:gold>*144)
-    .outputs(<modularmachinery:blockenergyoutputhatch:1>)
-    .duration(200)
-    .EUt(144)
-    .buildAndRegister();
 
 
 

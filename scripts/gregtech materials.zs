@@ -273,6 +273,10 @@ zieglernattacatalyst.addFlags(["GENERATE_PLATE"]);
 val kaminskycatalyst = MaterialRegistry.createDustMaterial(598,"kaminskycatalyst",0x372927,"DULL",2);
 kaminskycatalyst.addFlags(["GENERATE_PLATE"]);
 
+#val kaptonk = MaterialRegistry.createDustMaterial(32000,"kaptonk",0x372927,"DULL",2);
+#kaptonk.addFlags(["GENERATE_PLATE"]);
+
+
 
 
 
