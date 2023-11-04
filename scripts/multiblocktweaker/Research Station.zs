@@ -101,29 +101,29 @@ val research_station = Builder.start(loc, meta)
         .addDesign(
                 FactoryMultiblockShapeInfo.start()
                 .aisle(
-                    "    CCC",
+                    "   CCCC",
                     "CCCCVVV",
                     "    CCC",
                     "    CCC",
                     "    CCC",
                     "CCCCVVV",
-                    "    CCC")
+                    "   CCCC")
                 .aisle(
-                    "    CCC",
-                    "CCCCVVV",
+                    "  CCCCC",
+                    "CAAAVVV",
                     " A  C C",
-                    " A  D E",
+                    " A  S E",
                     " A  C C",
-                    "CCCCVVV",
-                    "    CCC")
+                    "CAAAVVV",
+                    "  CCCCC")
                 .aisle(
-                    "    CCC",
+                    "   CCCC",
                     "CCCCVVV",
                     "    CCC",
                     "    CCC",
                     "    CCC",
                     "CCCCVVV",
-                    "    CCC")
+                    "   CCCC")
                 .where("A", <metastate:contenttweaker:advcomputercasing>)
                 .where("V", <metastate:contenttweaker:computercasingvent>)
                 .where("S", IBlockInfo.controller(loc))
