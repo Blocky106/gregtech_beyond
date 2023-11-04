@@ -119,3 +119,4 @@ bacterial_vat.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:oil_heavy>*4000)
     .EUt(8000)
     .duration(900)
+    .buildAndRegister();

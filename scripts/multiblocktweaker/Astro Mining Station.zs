@@ -167,7 +167,8 @@ val astro_mining_station = Builder.start(loc, meta)
 .buildAndRegister() as Multiblock;
 
 astro_mining_station.recipeMap.recipeBuilder()
-    .notConsumable(<contenttweaker:astro_miner>,<contenttweaker:moon>)
+    .notConsumable(<contenttweaker:astro_miner>)
+    .notConsumable(<contenttweaker:moon>)
     .outputs(<gregtech:ore_rutile_0>*16,<gregtech:ore_ruby_0>*16,<gregtech:ore_bauxite_0>*16)
     .fluidInputs(<liquid:drilling_fluid>*16000)
     .EUt(1200)
@@ -175,7 +176,9 @@ astro_mining_station.recipeMap.recipeBuilder()
     .buildAndRegister();
 
 astro_mining_station.recipeMap.recipeBuilder()
-    .notConsumable(<contenttweaker:astro_miner>,<contenttweaker:mars>,<gregtech:meta_item_1:32766>)
+    .notConsumable(<contenttweaker:astro_miner>)
+    .notConsumable(<contenttweaker:mars>)
+    .notConsumable(<gregtech:meta_item_1:32766>)
     .outputs(<gregtech:ore_desh_0>*5,<gregtech:ore_platinumsalt_0>*5)
     .fluidInputs(<liquid:drilling_fluid>*16000)
     .EUt(1200)
@@ -183,7 +186,9 @@ astro_mining_station.recipeMap.recipeBuilder()
     .buildAndRegister();
 
 astro_mining_station.recipeMap.recipeBuilder()
-    .notConsumable(<contenttweaker:astro_miner>,<contenttweaker:moon>,<gregtech:meta_item_1:32766>)
+    .notConsumable(<contenttweaker:astro_miner>)
+    .notConsumable(<contenttweaker:moon>)
+    .notConsumable(<gregtech:meta_item_1:32766>)
     .outputs(<gregtech:ore_quartzite_0>*8,<appliedenergistics2:quartz_ore>*8,<appliedenergistics2:charged_quartz_ore>*8,<gregtech:ore_certus_quartz_0>*8)
     .fluidInputs(<liquid:drilling_fluid>*16000)
     .EUt(1200)
@@ -191,15 +196,9 @@ astro_mining_station.recipeMap.recipeBuilder()
     .buildAndRegister();
 
 astro_mining_station.recipeMap.recipeBuilder()
-    .notConsumable(<contenttweaker:astro_miner>,<contenttweaker:moon>,<gregtech:meta_item_1:32766>)
-    .outputs(<gregtech:ore_quartzite_0>*8,<appliedenergistics2:quartz_ore>*8,<appliedenergistics2:charged_quartz_ore>*8,<gregtech:ore_certus_quartz_0>*8)
-    .fluidInputs(<liquid:drilling_fluid>*16000)
-    .EUt(1200)
-    .duration(200)
-    .buildAndRegister();
-
-astro_mining_station.recipeMap.recipeBuilder()
-    .notConsumable(<contenttweaker:astro_miner>,<contenttweaker:asteroids>,<gregtech:meta_item_1:32766>)
+    .notConsumable(<contenttweaker:astro_miner>)
+    .notConsumable(<contenttweaker:asteroids>)
+    .notConsumable(<gregtech:meta_item_1:32766>)
     .outputs(<contenttweaker:dense_ice>*4,<contenttweaker:titaniumcontainingice>*2)
     .fluidInputs(<liquid:drilling_fluid>*16000)
     .EUt(1200)
@@ -207,7 +206,8 @@ astro_mining_station.recipeMap.recipeBuilder()
     .buildAndRegister();
 
 astro_mining_station.recipeMap.recipeBuilder()
-    .notConsumable(<contenttweaker:astro_miner>,<contenttweaker:ceres>)
+    .notConsumable(<contenttweaker:astro_miner>)
+    .notConsumable(<contenttweaker:ceres>)
     .outputs(<gregtech:ore_mythril_0>)
     .fluidInputs(<liquid:drilling_fluid>*16000)
     .EUt(1200)
@@ -215,7 +215,8 @@ astro_mining_station.recipeMap.recipeBuilder()
     .buildAndRegister();
 
 astro_mining_station.recipeMap.recipeBuilder()
-    .notConsumable(<contenttweaker:astro_miner>,<contenttweaker:mercury>)
+    .notConsumable(<contenttweaker:astro_miner>)
+    .notConsumable(<contenttweaker:mercury>)
     .outputs(<gregtech:ore_uranium_radioactive_0>,<gregtech:ore_uranium_0>)
     .fluidInputs(<liquid:drilling_fluid>*16000)
     .EUt(1200)
@@ -223,7 +224,9 @@ astro_mining_station.recipeMap.recipeBuilder()
     .buildAndRegister();
 
 astro_mining_station.recipeMap.recipeBuilder()
-    .notConsumable(<contenttweaker:astro_miner>,<contenttweaker:mercury>,<gregtech:meta_item_1:32766>)
+    .notConsumable(<contenttweaker:astro_miner>)
+    .notConsumable(<contenttweaker:mercury>)
+    .notConsumable(<gregtech:meta_item_1:32766>)
     .outputs(<gregtech:ore_platinum_metallic_powder_0>,<gregtech:ore_cooperite_0>)
     .fluidInputs(<liquid:drilling_fluid>*16000)
     .EUt(1200)

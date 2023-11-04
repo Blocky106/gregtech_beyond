@@ -131,4 +131,5 @@ hyper_chemical_plant.recipeMap.recipeBuilder()
     .fluidOutputs(<liquid:hyperreactiveliquid>*1000)
     .duration(2000)
     .EUt(80000000)
+    .buildAndRegister();
 

@@ -151,9 +151,6 @@ val fermentation_vat = Builder.start(loc, meta)
 
 
 
-
-
-
 fermentation_vat.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:grain_solution>*1000,<liquid:water>*16000)
     .fluidOutputs(<liquid:impure_ethanol>*16000)

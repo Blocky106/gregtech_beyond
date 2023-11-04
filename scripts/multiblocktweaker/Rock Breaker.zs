@@ -151,21 +151,21 @@ large_rock_breaker.recipeMap.recipeBuilder()
 
 large_rock_breaker.recipeMap.recipeBuilder()
     .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
-    .outputs(<minecraft:sone:1>)
+    .outputs(<minecraft:stone:1>)
     .duration(20)
     .EUt(480)
     .buildAndRegister();
 
 large_rock_breaker.recipeMap.recipeBuilder()
     .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 3}))
-    .outputs(<minecraft:sone:3>)
+    .outputs(<minecraft:stone:3>)
     .duration(20)
     .EUt(480)
     .buildAndRegister();
 
 large_rock_breaker.recipeMap.recipeBuilder()
     .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 5}))
-    .outputs(<minecraft:sone:5>)
+    .outputs(<minecraft:stone:5>)
     .duration(20)
     .EUt(480)
     .buildAndRegister();

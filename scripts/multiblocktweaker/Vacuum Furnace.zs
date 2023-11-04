@@ -104,11 +104,6 @@ val vacuum_furnace = Builder.start(loc, meta)
 
 .buildAndRegister() as Multiblock;
 
-
-
-recipes.addShaped(<gregtech:machine:1004>, [	[<ore:plateSteel>, <ore:circuitGood>, <ore:plateSteel>], 	[<ore:circuitGood>, <contenttweaker:vacuumfurnacecasing>, <ore:circuitGood>], 	[<ore:plateSteel>, <ore:circuitGood>, <ore:plateSteel>]]);
-recipes.addShapeless(<gregtech:machine:1004>,[<modularmachinery:furnace_controller>]);
-
 vacuum_furnace.recipeMap.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2109>)
     .outputs(<gregtech:meta_item_1:10109>)

@@ -39,7 +39,7 @@ val pressurized_sterile_tank = Builder.start(loc, meta)
                     "CHHHC",
                     "CHHHC",
                     "CHHHC",
-                    "~CCC~")
+                    "~CSC~")
                 .aisle(
                     "~CCC~",
                     "CHHHC",
@@ -81,7 +81,7 @@ val pressurized_sterile_tank = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
-                .where("G", <metastate:gtadditions:ga_metal_casing_1:7>)
+                .where("H", <metastate:gtadditions:ga_metal_casing_1:7>)
                 .build())
         .addDesign(
                 FactoryMultiblockShapeInfo.start()
@@ -95,7 +95,7 @@ val pressurized_sterile_tank = Builder.start(loc, meta)
                     "  C  ")
                 .aisle(
                     " CCC ",
-                    "CHHHX",
+                    "CHHHC",
                     "CHHHC",
                     "CHHHC",
                     "CHHHC",
@@ -111,7 +111,7 @@ val pressurized_sterile_tank = Builder.start(loc, meta)
                     " CCC ")
                 .aisle(
                     " CCC ",
-                    "CHHHL",
+                    "CHHHC",
                     "CHHHC",
                     "CHHHC",
                     "CHHHC",
