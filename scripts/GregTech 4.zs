@@ -386,14 +386,6 @@ mixer.recipeBuilder()
     .duration(80)
     .EUt(20)
     .buildAndRegister();
-    
-distillation_tower.recipeBuilder()
-    .fluidInputs(<liquid:impure_ethanol>*2000)
-    .fluidOutputs(<liquid:water>*1000,<liquid:ehtanol_water_azeotrope>*720,<liquid:fusel_oil>*80)
-    .outputs(<gregtech:meta_item_1:2196>)
-    .duration(200)
-    .EUt(280)
-    .buildAndRegister();
 
 Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:11585>], [], false);
 
@@ -406,7 +398,7 @@ ebf.recipeBuilder()
     .buildAndRegister();
 
 Utils.removeRecipeByOutput(chemReactor, [<thermalfoundation:material:165>], [], false);
-Utils.removeRecipeByOutput(lcr, [<thermalfoundation:material:165>], [], false);
+Utils.removeRecipeByOutput(lcr, [<thermalfoundation:material:165>], [ ], false);
 
 
 chemReactor.recipeBuilder()
