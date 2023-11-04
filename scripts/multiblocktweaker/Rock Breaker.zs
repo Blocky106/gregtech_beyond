@@ -118,7 +118,6 @@ val large_rock_breaker = Builder.start(loc, meta)
         FactoryRecipeMap.start(loc)
                         .maxInputs(1)
                         .maxFluidInputs(1)
-                        .maxFluidOutputs(1)
                         .maxOutputs(1)
                         .build())
 .withTexture(ICubeRenderer.sided("contenttweaker:blocks/machine_casing_stable_titanium"))
@@ -126,3 +125,54 @@ val large_rock_breaker = Builder.start(loc, meta)
 
 .buildAndRegister() as Multiblock;
 
+
+
+large_rock_breaker.recipeMap.recipeBuilder()
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 2}))
+    .outputs(<minecraft:stone>)
+    .duration(20)
+    .EUt(480)
+    .buildAndRegister();
+
+large_rock_breaker.recipeMap.recipeBuilder()
+    .notConsumable(<gregtech:meta_item_1:32766>)
+    .outputs(<minecraft:cobblestone>)
+    .duration(20)
+    .EUt(480)
+    .buildAndRegister();
+
+large_rock_breaker.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:lava>*1000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 4}))
+    .outputs(<minecraft:obsidian>)
+    .duration(20)
+    .EUt(480)
+    .buildAndRegister();
+
+large_rock_breaker.recipeMap.recipeBuilder()
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .outputs(<minecraft:sone:1>)
+    .duration(20)
+    .EUt(480)
+    .buildAndRegister();
+
+large_rock_breaker.recipeMap.recipeBuilder()
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 3}))
+    .outputs(<minecraft:sone:3>)
+    .duration(20)
+    .EUt(480)
+    .buildAndRegister();
+
+large_rock_breaker.recipeMap.recipeBuilder()
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 5}))
+    .outputs(<minecraft:sone:5>)
+    .duration(20)
+    .EUt(480)
+    .buildAndRegister();
+
+large_rock_breaker.recipeMap.recipeBuilder()
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 6}))
+    .outputs(<appliedenergistics2:sky_stone_block>)
+    .duration(20)
+    .EUt(480)
+    .buildAndRegister();
