@@ -3730,6 +3730,14 @@ chemReactor.findRecipe(480,[<gregtech:meta_item_1:2326>],[<liquid:water>*3000,<l
 lcr.findRecipe(480,[<gregtech:meta_item_1:2326>],[<liquid:water>*3000,<liquid:sodium_hydroxide_solution>*3000]);
 
 
+    
+distillation_tower.recipeBuilder()
+    .fluidInputs(<liquid:impure_ethanol>*2000)
+    .fluidOutputs(<liquid:water>*1000,<liquid:ehtanol_water_azeotrope>*720,<liquid:fusel_oil>*80)
+    .outputs(<gregtech:meta_item_1:2196>)
+    .duration(200)
+    .EUt(280)
+    .buildAndRegister();
 
 
 #--------MV Components-------------------------#
