@@ -77,7 +77,6 @@ val combustion_generator = Builder.start(loc, meta)
                     " CCC",
                     "CC CC",
                     "C   C",
-                    "C   C",
                     "CC CC",
                     " CCC")
                 .aisle(
@@ -101,7 +100,6 @@ val combustion_generator = Builder.start(loc, meta)
                 .aisle(
                     " CCC",
                     "CC CC",
-                    "C   C",
                     "C   C",
                     "CC CC",
                     " CCC")
