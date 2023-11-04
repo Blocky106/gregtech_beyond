@@ -387,7 +387,6 @@ mixer.recipeBuilder()
     .EUt(20)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:11585>], [], false);
 
 ebf.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2585>)
@@ -400,6 +399,7 @@ ebf.recipeBuilder()
 Utils.removeRecipeByOutput(chemReactor, [<thermalfoundation:material:165>], [], false);
 Utils.removeRecipeByOutput(lcr, [<thermalfoundation:material:165>], [ ], false);
 
+ebf.findRecipe(120,[<gregtech:meta_item_1:2585>],null).remove();
 
 chemReactor.recipeBuilder()
     .inputs(<gregtech:meta_item_1:10227>)
