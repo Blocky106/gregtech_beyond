@@ -102,13 +102,13 @@ val pressurized_sterile_tank = Builder.start(loc, meta)
                     "CHHHC",
                     " CCC ")
                 .aisle(
-                    " CCC ",
+                    "CCCCC",
                     "SHHHE",
                     "CH HC",
                     "CH HC",
                     "CH HC",
                     "CHHHC",
-                    " CCC ")
+                    "CCCCC")
                 .aisle(
                     " CCC ",
                     "CHHHC",
