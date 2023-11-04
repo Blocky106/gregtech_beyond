@@ -2874,3 +2874,11 @@ pneumatic.setToolClass("pickaxe");
 pneumatic.setToolLevel(2);
 pneumatic.setBlockSoundType(<soundtype:metal>);
 pneumatic.register();
+
+var machine_casing_robust_tungstensteel = VanillaFactory.createBlock("machine_casing_robust_tungstensteel", <blockmaterial:rock>);
+machine_casing_robust_tungstensteel.setBlockHardness(12.0);
+machine_casing_robust_tungstensteel.setBlockResistance(10.0);
+machine_casing_robust_tungstensteel.setToolClass("pickaxe");
+machine_casing_robust_tungstensteel.setToolLevel(2);
+machine_casing_robust_tungstensteel.setBlockSoundType(<soundtype:metal>);
+machine_casing_robust_tungstensteel.register();
