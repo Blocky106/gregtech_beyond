@@ -17,7 +17,7 @@ val desh = MaterialRegistry.createIngotMaterial(788, "desh", 0x333333, "SHINY", 
 desh.addFlags(["GENERATE_BOLT_SCREW","GENERATE_PLATE","GENERATE_DENSE","GENERATE_ROD","GENERATE_GEAR", "GENERATE_ORE"]);
 
 val energeticalloy = MaterialRegistry.createIngotMaterial(515, "energeticalloy", 0xDB9D0D, "SHINY", 2);
-energeticalloy.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR"]);
+energeticalloy.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_ROTOR"]);
 
 val draconium = MaterialRegistry.createIngotMaterial(517, "draconium", 0x8F07AD, "SHINY", 2);
 draconium.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_FRAME","GENERATE_PLASMA","GENERATE_FLUID_BLOCK"]);
@@ -343,4 +343,4 @@ kaminskycatalyst.addFlags(["GENERATE_PLATE"]);
 <material:realgar>.addFlags(["GENERATE_ORE"]);
 <material:kanthal>.addFlags(["GENERATE_ROTOR"]);
 <material:tumbaga>.addFlags(["GENERATE_ROTOR"]);
- 
+<material:tungsten_carbide>.addFlags(["GENERATE_ROTOR"]);
