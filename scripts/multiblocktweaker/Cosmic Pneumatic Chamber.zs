@@ -118,9 +118,13 @@ val cosmic_pneumatic_chamber = Builder.start(loc, meta)
                     "O     O",
                     "O     O",
                     "O     O",
+                    "O     O",
+                    "O     O",
                     "CCCCCCC")
                 .aisle(
                     "CCCCCCC",
+                    "O     O",
+                    "O     O",
                     "O     O",
                     "O     O",
                     "O     O",
@@ -134,17 +138,23 @@ val cosmic_pneumatic_chamber = Builder.start(loc, meta)
                     "O     O",
                     "O     O",
                     "O     O",
-                    "CCCCCCC")
-                .aisle(
-                    "CCCCCCC",
-                    "O     O",
-                    "O     O",
-                    "O     O",
                     "O     O",
                     "O     O",
                     "CCCCCCC")
                 .aisle(
                     "CCCCCCC",
+                    "O     O",
+                    "O     O",
+                    "O     O",
+                    "O     O",
+                    "O     O",
+                    "O     O",
+                    "O     O",
+                    "CCCCCCC")
+                .aisle(
+                    "CCCCCCC",
+                    "O     O",
+                    "O     O",
                     "O     O",
                     "O     O",
                     "O     O",
