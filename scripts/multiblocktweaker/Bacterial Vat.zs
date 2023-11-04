@@ -110,3 +110,12 @@ val bacterial_vat = Builder.start(loc, meta)
 .withZoom(0.5f)
 
 .buildAndRegister() as Multiblock;
+
+
+
+bacterial_vat.recipeMap.recipeBuilder()
+    .fluidOutputs(<liquid:xenoxene>*25000)
+    .inputs(<gregtech:meta_item_1:2047>*16,<gregtech:meta_item_1:2032>*16)
+    .fluidInputs(<liquid:oil_heavy>*4000)
+    .EUt(8000)
+    .duration(900)

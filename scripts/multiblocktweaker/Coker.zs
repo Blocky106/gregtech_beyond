@@ -264,3 +264,20 @@ val coker = Builder.start(loc, meta)
 .withZoom(0.5f)
 
 .buildAndRegister() as Multiblock;
+
+
+coker.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:vacuumflashedtar>*1000)
+    .fluidOutputs(<liquid:tar>*600)
+    .outputs(<contenttweaker:petreulumcoke>*2)
+    .EUt(80)
+    .duration(120)
+    .buildAndRegister();
+
+coker.recipeMap.recipeBuilder()
+    .inputs(<contenttweaker:bitominousresidue>*2)
+    .outputs(<gregtech:meta_item_1:2357>)
+    .EUt(290)
+    .fluidOutputs(<liquid:desaltedoil>*144)
+    .duration(320)
+    .buildAndRegister();

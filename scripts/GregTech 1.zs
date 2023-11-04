@@ -2094,7 +2094,7 @@ ebf.recipeBuilder()
 
 ebf.recipeBuilder()
 	.inputs(<gregtech:meta_item_1:2530>)
-	.fluidInputs(<liquid:cerium>*1000)
+	.fluidInputs(<liquid:cerium>*144)
 	.outputs(<contenttweaker:hotmarcem200steelingot>)
 	.duration(400)
 	.EUt(12000)

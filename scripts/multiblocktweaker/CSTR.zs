@@ -140,3 +140,39 @@ cstr.recipeMap.recipeBuilder()
     .duration(20)
     .EUt(490)
     .buildAndRegister();
+
+cstr.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:bastnasiteconcentrate>*1000,<liquid:sulfuric_acid>*250)
+    .fluidOutputs(<liquid:acidicbastnasiteconcentrate>*1000)
+    .duration(90)
+    .EUt(2490)
+    .buildAndRegister();
+
+cstr.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:acidicbastnasiteconcentrate>*1000,<liquid:fluorine>*1000)
+    .fluidOutputs(<liquid:ceriumcontainingbastnasiteconcentrate>*1000,<liquid:hydrofluoric_acid>*1000)
+    .duration(800)
+    .EUt(3400)
+    .buildAndRegister();
+
+cstr.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:bastnasiterarerearthconcentrate>*1000,<liquid:water>*4000)
+    .fluidOutputs(<liquid:wetbastnasiterareearthconcentrate>*5000)
+    .duration(820)
+    .EUt(1490)
+    .buildAndRegister();
+
+cstr.recipeMap.recipeBuilder()
+    .inputs(<contenttweaker:roastedbastnasite>)
+    .fluidInputs(<liquid:nitric_acid>*750)
+    .fluidOutputs(<liquid:nitrogenatedbastnasiterarerearthoxides>*1000)
+    .duration(820)
+    .EUt(1490)
+    .buildAndRegister();
+
+cstr.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:nitrogenatedbastnasiterarerearthoxides>*1000,<liquid:hydrochloric_acid>*500,<liquid:acetic_acid>*500)
+    .fluidOutputs(<liquid:bastnasiterarerearthoxidesemulsion>*2000)
+    .duration(820)
+    .EUt(1490)
+    .buildAndRegister();

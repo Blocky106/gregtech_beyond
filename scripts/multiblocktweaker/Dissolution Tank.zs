@@ -167,3 +167,42 @@ val dissolution_tank = Builder.start(loc, meta)
 .withZoom(0.5f)
 
 .buildAndRegister() as Multiblock;
+
+
+dissolution_tank.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:xenon>*2000)
+    .inputs(<gtadditions:ga_meta_item:32316>)
+    .outputs(<gregtech:meta_item_1:1814>*2,<gregtech:meta_item_1:2>*2,<gregtech:meta_item_1:2555>)
+    .duration(200)
+    .EUt(180)
+    .buildAndRegister();
+
+dissolution_tank.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:dissolvingfluid>*1000)
+    .inputs(<contenttweaker:purified2thorium>)
+    .outputs(<contenttweaker:purified3thorium>)
+    .duration(400)
+    .EUt(2180)
+    .buildAndRegister();
+
+dissolution_tank.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:hydrocrackedthoriumsolution>*1000)
+    .fluidOutputs(<liquid:thoriumleachsolution>*500)
+    .outputs(<gregtech:meta_item_1:2065>*3)
+    .duration(400)
+    .EUt(2180)
+    .buildAndRegister();
+
+dissolution_tank.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:conditionedbastnasitemud>*5000)
+    .fluidOutputs(<liquid:dilutedbastnasitemud>*5000)
+    .duration(400)
+    .EUt(2180)
+    .buildAndRegister();
+
+dissolution_tank.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:muddy_monazite_solution>*1000,<liquid:water>*1000)
+    .fluidOutputs(<liquid:monazite_solution>*2000)
+    .duration(400)
+    .EUt(2180)
+    .buildAndRegister();

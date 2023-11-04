@@ -123,3 +123,12 @@ val hyper_chemical_plant = Builder.start(loc, meta)
 .withZoom(0.5f)
 
 .buildAndRegister() as Multiblock;
+
+
+hyper_chemical_plant.recipeMap.recipeBuilder()
+    .inputs(<contenttweaker:highdensityplutonium>*4,<contenttweaker:highdensitythoria>*4,<contenttweaker:highdensityuranium>*4,<contenttweaker:rawneutroniumingot>*4)
+    .fluidInputs(<liquid:primalquarkdegeneratematterplasma>*1000,<liquid:heavy_quark_degenerate_matter>*1000,<liquid:quark_gluon_plasma>*1000,<liquid:degenerate_rhenium_plasma>*1000)
+    .fluidOutputs(<liquid:hyperreactiveliquid>*1000)
+    .duration(2000)
+    .EUt(80000000)
+

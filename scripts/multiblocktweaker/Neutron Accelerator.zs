@@ -127,3 +127,57 @@ val neutron_accelerator = Builder.start(loc, meta)
                         .build())
 .withZoom(0.5f)
 .buildAndRegister() as Multiblock;
+
+
+
+
+
+neutron_accelerator.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:uraniumbasedliquidfuel>*1000)
+    .fluidOutputs(<liquid:uraniumbasedliquidfuele>*1000)
+    .notConsumable(<gregtech:meta_item_1:12311>)
+    .EUt(12000)
+    .duration(500)
+    .buildAndRegister();
+    
+neutron_accelerator.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:plutoniumbasedliquidfuel>*1000)
+    .fluidOutputs(<liquid:plutoniumbasedliquidfuele>*1000)
+    .notConsumable(<gregtech:meta_item_1:12002>)
+    .EUt(12000)
+    .duration(500)
+    .buildAndRegister();
+    
+neutron_accelerator.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:naquadahactivationliquid>*1000)
+    .fluidOutputs(<liquid:naquadah_sulfate>*800,<liquid:chlorine>*200)
+    .EUt(4000)
+    .duration(300)
+    .buildAndRegister();
+    
+neutron_accelerator.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:enderium_molten>*1000)
+    .fluidOutputs(<liquid:moltenenhancedenderium>*500)
+    .outputs(<gtadditions:ga_dust:158>)
+    .EUt(42000)
+    .duration(200)
+    .buildAndRegister();
+    
+neutron_accelerator.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:moltenceriumlanthanum>*1000)
+    .fluidOutputs(<liquid:moltenceriumdopedlanthanum>*1000)
+    .EUt(82000)
+    .duration(800)
+    .buildAndRegister();
+    
+neutron_accelerator.recipeMap.recipeBuilder()
+    .inputs(<contenttweaker:purified4thorium>)
+    .outputs(<contenttweaker:thorium_crude_metal>)
+    .fluidOutputs(<liquid:low_thorium_solution>*288)
+    .EUt(82000)
+    .duration(800)
+    .buildAndRegister();
+
+
+
+

@@ -145,3 +145,20 @@ val digester = Builder.start(loc, meta)
 .withZoom(0.5f)
 
 .buildAndRegister() as Multiblock;
+
+digester.recipeMap.recipeBuilder()
+    .inputs(<contenttweaker:calcinatedbastnasite>)
+    .fluidInputs(<liquid:nitric_acid> * 750)
+    .fluidOutputs(<liquid:muddybastnasitesolution>*750)
+    .outputs(<gregtech:meta_item_1:2159>)
+    .EUt(2000)
+    .duration(280)
+    .buildAndRegister();
+
+digester.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:5281>)
+    .fluidInputs(<liquid:nitric_acid> * 750)
+    .fluidOutputs(<liquid:muddy_monazite_solution>*750)
+    .EUt(2000)
+    .duration(280)
+    .buildAndRegister();

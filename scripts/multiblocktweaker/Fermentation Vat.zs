@@ -140,11 +140,39 @@ val fermentation_vat = Builder.start(loc, meta)
                         .withTexture(ICubeRenderer.sided("contenttweaker:blocks/machine_casing_solid_steel"))
 .withRecipeMap(
         FactoryRecipeMap.start(loc)
-                        .maxInputs(1)
-                        .maxFluidInputs(1)
+                        .maxInputs(2)
+                        .maxFluidInputs(2)
                         .maxFluidOutputs(1)
                         .maxOutputs(1)
                         .build())
 .withZoom(0.5f)
 
 .buildAndRegister() as Multiblock;
+
+
+
+
+
+
+fermentation_vat.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:grain_solution>*1000,<liquid:water>*16000)
+    .fluidOutputs(<liquid:impure_ethanol>*16000)
+    .inputs(<minecraft:sugar>*24)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .EUt(20)
+    .duration(5)
+    .buildAndRegister();
+
+fermentation_vat.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:impure_ethanol>*16000,<liquid:oxygen>*4000)
+    .fluidOutputs(<liquid:vinegar>*16000)
+    .EUt(20)
+    .duration(5)
+    .buildAndRegister();
+
+fermentation_vat.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:biomass>*16000)
+    .fluidOutputs(<liquid:fermented_biomass>*16000)
+    .EUt(200)
+    .duration(50)
+    .buildAndRegister();
