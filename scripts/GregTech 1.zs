@@ -538,16 +538,9 @@ vacfreezer.recipeBuilder()
 	.EUt(1300)
 	.buildAndRegister();
 
-fluidExtractor.recipeBuilder()
-	.inputs(<enderio:item_alloy_ingot:5>)
-	.fluidOutputs(<liquid:moltenpulsatingiron> * 144)
-	.duration(680)
-    .EUt(425)
-    .buildAndRegister();
-
 chemReactor.recipeBuilder()
 	.inputs(<enderio:item_material:39>)
-	.fluidInputs(<liquid:moltenpulsatingiron> * 144)
+	.fluidInputs(<liquid:pulsating_iron> * 144)
 	.outputs(<gregtech:meta_item_1:10963>)
 	.duration(400)
 	.EUt(250)
@@ -1428,7 +1421,7 @@ fusion_reactor.recipeBuilder()
 assembly_line.recipeBuilder()
 	.inputs(<pneumaticcraft:advanced_pcb>,<pneumaticcraft:advanced_pcb>,<ore:circuitUxv>,<ore:circuitUxv>,<ore:circuitUxv>,<ore:circuitUxv>,<gregtech:machine:4174>,<gregtech:meta_item_1:13671>*8,<gregtech:meta_item_1:13671>*8,<gregtech:meta_item_1:13671>*8,<gregtech:meta_item_1:13671>*8,<gregtech:meta_item_1:13671>*8)
 	.fluidInputs(<liquid:neutronium_doped_nanotubes>*2000,<liquid:soldering_alloy>*20000)
-	.outputs(<modularmachinery:pneumatic_controller>)
+	.outputs(<gregtech:machine:10007>)
 	.duration(9000)
 	.EUt(45635364)
 	.buildAndRegister();
@@ -1450,7 +1443,7 @@ chemReactor.recipeBuilder()
 
 lcr.recipeBuilder()
 	.inputs(<extendedcrafting:material:16>,<extendedcrafting:material:7>,<avaritia:resource:1>)
-	.fluidInputs(<liquid:moltenemerald>*2000)
+	.fluidInputs(<liquid:emerald>*2000)
 	.outputs(<extendedcrafting:material:17>)
 	.duration(8000)
 	.EUt(200000)
@@ -1465,13 +1458,6 @@ assembly_line.recipeBuilder()
 	.EUt(244342424)
 	.buildAndRegister();
 
-fluidExtractor.recipeBuilder()
-	.inputs(<minecraft:emerald>)
-	.fluidOutputs(<liquid:moltenemerald> * 144)
-	.duration(200)
-	.EUt(80)
-	.buildAndRegister();
-
 stellar.recipeBuilder()
 	.inputs(<gtadditions:ga_explosive:3>)
 	.outputs(<appliedenergistics2:material:48>)
@@ -1484,7 +1470,7 @@ stellar.recipeBuilder()
 lmixer.recipeBuilder()
 	.inputs(<gtadditions:ga_dust:149>,<gregtech:meta_item_1:12673>,<appliedenergistics2:material:48>)
 	.fluidOutputs(<liquid:highlycomplicatedcosmicrubber>*1000)
-	.fluidInputs(<liquid:nickel56_plasma>*2000,<liquid:rapidly_replicating_animal_cells>*5000,<liquid:cosmic_neutronium>*2000,<liquid:bisphenolc>*2000)
+	.fluidInputs(<liquid:nickel56_plasma>*2000,<liquid:rapidly_replicating_animal_cells>*5000,<liquid:cosmic_neutronium>*200)
 	.duration(800)
 	.EUt(43343434)
 	.buildAndRegister();   
@@ -2009,7 +1995,7 @@ lmixer.recipeBuilder()
 
 assembler.recipeBuilder()
 	.inputs(<gregtech:machine:508>,<ore:circuitUltimate>*3,<contenttweaker:hicomputationstationmk1>*4,<gregtech:meta_item_2:32435>*2,<gregtech:meta_item_2:26531>*4,<gregtech:cable:8072>*4,<gregtech:meta_item_1:13530>*2,<gregtech:meta_item_1:32656>*4)
-	.outputs(<modularmachinery:precise_controller>)
+	.outputs(<gregtech:machine:10000>)
 	.duration(400)
 	.fluidInputs(<liquid:palladium>*2000)
 	.EUt(12000)
@@ -2056,7 +2042,8 @@ chemReactor.recipeBuilder()
 	.buildAndRegister();
 
 mixer.recipeBuilder()
-	.fluidInputs(<liquid:borontrioxide>*500,<liquid:sodiumchloride>*500)
+	.inputs(<gregtech:meta_item_1:2155>)
+	.fluidInputs(<liquid:borontrioxide>*500)
 	.fluidOutputs(<liquid:unprocessedboronsolution>*1000)
 	.duration(400)
 	.EUt(1200)
@@ -2935,14 +2922,6 @@ macerator.recipeBuilder()
 	.outputs(<contenttweaker:bisphenolbdust>)
 	.duration(300)
 	.EUt(12)
-	.buildAndRegister();
-
-lmixer.recipeBuilder()
-	.inputs(<contenttweaker:bisphenolbdust>)
-	.fluidInputs(<liquid:chlorine>*400,<liquid:polyphenol_mix>*600,<liquid:aqua_regia>*1000)
-	.fluidOutputs(<liquid:bisphenolc>*2000)
-	.duration(200)
-	.EUt(24)
 	.buildAndRegister();
 
 lcr.recipeBuilder()
