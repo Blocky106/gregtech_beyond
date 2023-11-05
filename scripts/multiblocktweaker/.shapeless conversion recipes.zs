@@ -37,7 +37,35 @@ recipes.addShapeless(<gregtech:machine:10009>,[<modularmachinery:vat_controller>
 recipes.addShaped(<gregtech:machine:10033>, [	[<ore:circuitExtreme>, <gregtech:meta_item_1:32652>, <ore:circuitExtreme>], 	[<gregtech:meta_item_1:32762>, <gregtech:machine:503>, <gregtech:meta_item_1:32762>], 	[<ore:circuitExtreme>, <gregtech:meta_item_1:32652>, <ore:circuitExtreme>]]);
 recipes.addShapeless(<gregtech:machine:10033>,[<modularmachinery:combustion_controller>]);
 recipes.addShaped(<gregtech:machine:10014>, [	[<gregtech:meta_item_1:32642>, <ore:circuitExtreme>, <gregtech:meta_item_1:32642>], 	[<gregtech:meta_item_1:32632>, <gregtech:machine:503>, <gregtech:meta_item_1:32632>], [<gregtech:meta_item_1:32642>, <ore:circuitExtreme>, <gregtech:meta_item_1:32642>]]);
-recipes.addShapeless(<gregtech:machine:10014>, [	[<gregtech:meta_item_1:32642>, <ore:circuitExtreme>, <gregtech:meta_item_1:32642>], 	[<gregtech:meta_item_1:32632>, <gregtech:machine:503>, <gregtech:meta_item_1:32632>], [<gregtech:meta_item_1:32642>, <ore:circuitExtreme>, <gregtech:meta_item_1:32642>]]);
+recipes.addShapeless(<gregtech:machine:10014>,[<modularmachinery:vacdistiller_controller>]);
+recipes.addShaped(<gregtech:machine:1005>, [	[<ore:plateBronze>, <ore:frameGtSteel>, <ore:plateBronze>], 	[<ore:circuitBasic>, <contenttweaker:steelborderedwoodencasing>, <ore:circuitBasic>], 	[<ore:plateBronze>, <ore:frameGtSteel>, <ore:plateBronze>]]);
+recipes.addShapeless(<gregtech:machine:1005>,[<modularmachinery:water_controller>]);
+recipes.addShapeless(<gregtech:machine:10000>,[<modularmachinery:precise_controller>]);
+recipes.addShapeless(<gregtech:machine:10001>,[<modularmachinery:transformer_controller>]);
+recipes.addShapeless(<gregtech:machine:10002>,[<modularmachinery:neutron_controller>]);
+recipes.addShapeless(<gregtech:machine:10003>,[<modularmachinery:plasmamix_controller>]);
+recipes.addShapeless(<gregtech:machine:10004>,[<modularmachinery:gravity_controller>]);
+recipes.addShapeless(<gregtech:machine:10005>,[<modularmachinery:matter_controller>]);
+recipes.addShapeless(<gregtech:machine:10006>,[<modularmachinery:froth_controller>]);
+recipes.addShapeless(<gregtech:machine:10007>,[<modularmachinery:pneumatic_controller>]);
+recipes.addShapeless(<gregtech:machine:10008>,[<modularmachinery:mf_controller>]);
+recipes.addShapeless(<gregtech:machine:10011>,[<modularmachinery:quantumcircuitassemblers_controller>]);
+recipes.addShapeless(<gregtech:machine:10012>,[<modularmachinery:pc_controller>]);
+recipes.addShapeless(<gregtech:machine:10017>,[<modularmachinery:rock_controller>]);
+recipes.addShapeless(<gregtech:machine:10021>,[<modularmachinery:blackhole_controller>]);
+recipes.addShapeless(<gregtech:machine:10023>,[<modularmachinery:partcleaccerlator_controller>]);
+recipes.addShapeless(<gregtech:machine:10024>,[<modularmachinery:fuel_controller>]);
+recipes.addShapeless(<gregtech:machine:10025>,[<modularmachinery:miner_controller>]);
+recipes.addShapeless(<gregtech:machine:10027>,[<modularmachinery:chem_controller>]);
+recipes.addShapeless(<gregtech:machine:10028>,[<modularmachinery:distillation_controller>]);
+recipes.addShapeless(<gregtech:machine:10029>,[<modularmachinery:research_controller>]);
+recipes.addShapeless(<gregtech:machine:10032>,[<modularmachinery:steriletank_controller>]);
+
+
+
+
+
+
 
 
 
