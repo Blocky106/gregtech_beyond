@@ -928,10 +928,10 @@ material.philipscatalyst=Philips Catalyst
 material.zieglernattacatalyst=Ziegler-Natta Catalyst
 material.kaminskycatalyst=Kaminsky Catalyst
 fluid.triethylaluminium=Triethylaluminium
-fluid.polybenzimidozoleprepolymerfoam=Polybenzimidozole Pre-Polymer Foam
-fluid.polybenzimidozolesolution=Polybenzimidozole Solution
-fluid.impurepolybenzimidozolesolution=Impure polybenzimidozole Solution
-fluid.polybenzimidozolewaste=Polybenzimidozole Waste
+fluid.polybenzimidazoleprepolymerfoam=Polybenzimidozole Pre-Polymer Foam
+fluid.polybenzimidazolesolution=Polybenzimidozole Solution
+fluid.impurepolybenzimidazolesolution=Impure polybenzimidazole Solution
+fluid.polybenzimidazolewaste=Polybenzimidozole Waste
 multiblocktweaker.machine.vacuum_furnace.name=Vacuum Furnace
 multiblocktweaker.machine.matter_dequantizer.name=Matter Dequantizer
 multiblocktweaker.machine.matter_quantizer.name=Matter Quantizer
@@ -962,7 +962,7 @@ fluid.fusel_oil=Fusel Oil
 fluid.npropanol=n-Propanol
 fluid.nbutanol=n-Butanol
 fluid.isobutyl_alcohol=Isobutyl Acid
-item.contenttweaker.living_bio_chip.name=Living Bio Chip
+item.contenttweaker.living_crystal_chip.name=Living Crystal Chip
 item.contenttweaker.sgm_catalyst.name=SGM Catalyst
 item.contenttweaker.living_bio_crystal.name=Living Bio Crystal
 item.contenttweaker.pgm_catalyst.name=PGM Catalyst
@@ -1015,10 +1015,27 @@ gtadditions.machine.convert_forge.uev.128.name=Forge Energy Converter (UEV)
 gtadditions.machine.convert_forge.uiv.128.name=Forge Energy Converter (UIV)
 gtadditions.machine.convert_forge.umv.128.name=Forge Energy Converter (UMV)
 gtadditions.machine.convert_forge.uxv.128.name=Forge Energy Converter (UXV)
-fluid.polybenzimidozoleprepolymerfoam
 tile.catwalks.catwalk.unknown.name=Unknown Catwalk (Erroring)
-
-
-
+tile.contenttweaker.basic_structural_casing.name=Basic Structural Casing
+tile.contenttweaker.machine_casing_robust_tungstensteel.name=Robust Tungstensteel Machine Casing (Test)
+multiblocktweaker.machine.matter_dissolver.name=Matter Dissolver
+multiblocktweaker.machine.primordial_forge.name=Primordial Forge
+multiblocktweaker.machine.bacterial_vat.name=Bacterial Vat
+multiblocktweaker.machine.research_station.name=Research Station
+multiblocktweaker.machine.digester.name=Digester
+multiblocktweaker.machine.coker.name=Coker
+multiblocktweaker.machine.pressurized_sterile_tank.name=Pressurized Sterile tank 
+multiblocktweaker.machine.combustion_generator.name=Combustion Generator
+recipemap.vacuum_furnace.name=Vacuum Smelting
+multiblocktweaker.multiblock.vacuum_furnace.description=The Vacuum Furnace is a furnace, being able to produce up to 1800k heat, it can smelt basic materials like copper alloy and certain plastics. It's required pre-EBF
+recipemap.water_tank.name=Water Collecting
+multiblocktweaker.multiblock.water_tank.description=The Water Tank Collects Water from the surrounding areas and outputs them in the hatch, it's meant to be used after aquiring steel
+recipemap.coker.name=Coking
+recipemap.vacuum_distillation_tower.name=Vacuum Distillation
+recipemap.digester.name=Digestion
+recipemap.astro_mining_station.name=Astro Mining
+recipemap.planar_research_plant.name=Planar Research
+recipemap.matter_quantizer.name=Matter Quantizing
+recipemap.matter_dequantizer.name=Matter Dequantizing
 
 
