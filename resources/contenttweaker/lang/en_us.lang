@@ -1037,5 +1037,5 @@ recipemap.astro_mining_station.name=Astro Mining
 recipemap.planar_research_plant.name=Planar Research
 recipemap.matter_quantizer.name=Matter Quantizing
 recipemap.matter_dequantizer.name=Matter Dequantizing
-
+recipemap.cstr.name=Continous Stirring
 
