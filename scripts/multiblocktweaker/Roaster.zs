@@ -125,8 +125,6 @@ val roaster = Builder.start(loc, meta)
 
 .buildAndRegister() as Multiblock;
 
-recipes.addShapeless(<gregtech:machine:1009>,[<modularmachinery:roaster_controller>]);
-
 
 
 
