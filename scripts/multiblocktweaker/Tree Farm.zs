@@ -194,5 +194,4 @@ tree_farm.recipeMap.recipeBuilder()
     .buildAndRegister();
 
 
-recipes.addShaped(<gregtech:machine:10015>, [	[<ore:plateRedSteel>, <ore:circuitAdvanced>, <ore:plateRedSteel>], 	[<ore:circuitAdvanced>, <ore:frameGtEglinSteel>, <ore:circuitAdvanced>], 	[<ore:plateRedSteel>, <ore:circuitAdvanced>, <ore:plateRedSteel>]]);
 
