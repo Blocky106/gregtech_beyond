@@ -279,6 +279,208 @@ kaminskycatalyst.addFlags(["GENERATE_PLATE"]);
 #kaptonk.addFlags(["GENERATE_PLATE"]);
 
 
+util.registerFluid("npropanol",0xad9113);
+util.registerFluid("isobutyl_alcohol",0xa0ad13);
+util.registerFluid("nbutanol",0x8ac294);
+util.registerFluid("fusel_oil",0xa62403);
+util.registerFluid("lubricating_oil",0x858146);
+util.registerFluid("polybenzimidazoleprepolymerfoam",0x1b1b1c);
+util.registerFluid("triethylaluminium",0x4d4de3);
+util.registerFluid("polybenzimidazolesolution",0x1a1a1c);
+util.registerFluid("impurepolybenzimidazolesolution",0x1a1a1c);
+util.registerFluid("polybenzimidazolewaste",0x070708);
+util.registerFluid("ehtanol_water_azeotrope",0xD88267);
+util.registerFluid("grain_solution",0xCDCDC8);
+util.registerFluid("impure_ethanol",0x6F6936);
+util.registerFluid("diluted_monazite_sulfate",0x374f36);
+util.registerFluid("neutralized_monazite",0x273b26);
+util.registerFluid("muddy_monazite_solution",0x353626);
+util.registerFluid("monazite_solution",0x192418);
+util.registerFluid("ic2distilled_water",0x66b8cc);
+util.registerFluid("rawradox",0x8E24AA);
+util.registerFluid("lightradox",0xD0AADB);
+util.registerFluid("heavyradox",0x633C7A);
+util.registerFluid("crackedlightradox",0xB9A1C7);
+util.registerFluid("purifiedradox",0x8E24AA);
+util.registerFluid("crackedheavyradox",0x6A1B9A);
+util.registerFluid("waterplasma",0x827717);
+util.registerFluid("geneticmutagen",0x448247);
+util.registerFluid("xenoxene",0x4D4C4C);
+util.registerFluid("bastnasiteoxidecompositeliquid",0x827717);
+util.registerFluid("diethylamine",0x827717);
+util.registerFluid("bastnasiterarerearthconcentrate",0x2E4D7F);
+util.registerFluid("nitrogenatedbastnasiterarerearthoxides",0x2E4D7F);
+util.registerFluid("ceriumcontainingbastnasiteconcentrate",0xBF5D40);
+util.registerFluid("bastnasiterarerearthoxidemixture",0xD28770);
+util.registerFluid("acidicbastnasiteconcentrate",0xBF360C);
+util.registerFluid("bastnasiterarerearthoxidesemulsion",0x2E4D7F);
+util.registerFluid("bastnasiterarerearthoxidessolution",0x2E4D7F);
+util.registerFluid("ethanolgasoline",0x2E4D7F);
+util.registerFluid("impureferrocenemixture",0x8E24AA);
+util.registerFluid("ether",0xE65100);
+util.registerFluid("ferrocenesolution",0xB0BEC5);
+util.registerFluid("roastedbastnasiteconcentrate",0x2E4D7F);
+util.registerFluid("jetfuel",0x429D46);
+util.registerFluid("combustionpromoter",0x2E4D7F);
+util.registerFluid("muddybastnasitesolution",0x842508);
+util.registerFluid("conditionedbastnasitemud",0x544340);
+util.registerFluid("dilutedbastnasitemud",0x2E4D7F);
+util.registerFluid("filteredbsatnasitemud",0x2E4D7F);
+util.registerFluid("wetbastnasiterareearthconcentrate",0x2E4D7F);
+util.registerFluid("bastnasiteconcentrate",0x2E4D7F);
+util.registerFluid("wastewater",0x2E4D7F);
+util.registerFluid("treatedsulfuricfractions",0x121010);
+util.registerFluid("richamine",0x121010);
+util.registerFluid("sourgas",0x121010);
+util.registerFluid("oilfractions",0x121010);
+util.registerFluid("fractionatedoil",0x181816);
+util.registerFluid("tar",0x222121);
+util.registerFluid("oilgas",0x121010);
+util.registerFluid("vacuumflashedtar",0x121010);
+util.registerFluid("heavyoilresidues",0x181816);
+util.registerFluid("sulfuricbyproducts",0x2C2C2C);
+util.registerFluid("sulfuricoilresidues",0xFFEE58);
+util.registerFluid("desaltedoil",0x2C2C2C);
+util.registerFluid("dilutedoil",0x141414);
+util.registerFluid("hexanoldehyde",0xB71C1C);
+util.registerFluid("isohexanoldehyde",0xB71C1C);
+util.registerFluid("sterilebiomedium",0x1B5E20);
+util.registerFluid("siliconoil",0xD4D4D4);
+util.registerFluid("pentanol",0xEF9A9A);
+util.registerFluid("pentoldehyde",0xEF9A9A);
+util.registerFluid("isopentoldehyde",0xEF9A9A);
+util.registerFluid("diphenylmethanediiscocyanatemixture",0xDFC9E2);
+util.registerFluid("diaminodiphenylmethanemixture",0xE1BEE7);
+util.registerFluid("polyurethaneresin",0xC3B640);
+util.registerFluid("propionicacid",0xE0E0E0);
+util.registerFluid("nickeltetracarbonyl", 0xB7D7F0);
+util.registerFluid("vinegar", 0xc3c4b3);
+util.registerFluid("hexanol", 0xc3c4b3);
+util.registerFluid("pvtchs", 0xC1D111);
+util.registerFluid("draconiumenrichedamonia", 0xEA00FF);
+util.registerFluid("steamcrackeddraconiumenrichedamonia", 0xEA00FF);
+util.registerFluid("draconiumcontainingmixture", 0xEA00FF);
+util.registerFluid("enhanceddraconiummixture", 0xEA00FF);
+util.registerFluid("draconiumsaltmixture", 0xEA00FF);
+util.registerFluid("aircompresseddsm", 0xEA00FF);
+util.registerFluid("draconiumdioxide", 0xEA00FF);
+util.registerFluid("draconiumhexachloride", 0xEA00FF);
+util.registerFluid("draconiumhexafluoride", 0xEA00FF);
+util.registerFluid("draconiumnitradesolution", 0xEA00FF);
+util.registerFluid("depleteddraconiumnitradesolution", 0xEA00FF);
+util.registerFluid("draconiumrichsolution", 0xEA00FF);
+util.registerFluid("highlycomplicatedcosmicrubber", 0x6C706E);
+util.registerFluid("primalquarkdegeneratematterplasma", 0xA39090);
+util.registerFluid("moltencompressediron", 0x363636);
+util.registerFluid("moltenmodularium", 0xFFFFFF);
+util.registerFluid("moltenresonantseaborgium", 0x54D66B);
+util.registerFluid("cryogeniccoolant", 0xBDECFC);
+util.registerFluid("obisdianinfuseddraconiummixture", 0xEA00FF);
+util.registerFluid("plutoniumbasedliquidfuel", 0xEB1010);
+util.registerFluid("plutoniumbasedliquidfuele", 0xC41010);
+util.registerFluid("unprocessedboronsolution", 0x739993);
+util.registerFluid("borontrioxide", 0x64695D);
+util.registerFluid("liquidboronnanoparticles", 0x739993);
+util.registerFluid("uraniumbasedliquidfuel", 0x034314);
+util.registerFluid("uraniumbasedliquidfuele", 0x034b16);
+util.registerFluid("rawsterilizedbiocatalystmedium", 0x2E871A);
+util.registerFluid("sterilizedbiocatalystmedium", 0x237A10);
+util.registerFluid("moltentungsticnaquadah", 0x1F1F1F);
+util.registerFluid("naqudahasphalt", 0x137009);
+util.registerFluid("moderatelycrackednaquadahasphalt", 0x227033);
+util.registerFluid("acidnaquadahemulsion", 0x444A45);
+util.registerFluid("naquadahemulsion", 0x2C2E2C);
+util.registerFluid("monazitecakesolution", 0x2A751B);
+util.registerFluid("monazitefilteredcakesolution", 0x1B5710);
+util.registerFluid("monazitefilteredsolution", 0x294207);
+util.registerFluid("moltenprotoadamantiumplatedalloy", 0x252b7a);
+util.registerFluid("protoadamantiumalloycatalyst", 0x2c3393);
+util.registerFluid("refinedglue", 0xA9AD21);
+util.registerFluid("naquadahactivationliquid", 0x2b1303);
+util.registerFluid("molteninfnite", 0x6099C4);
+util.registerFluid("zeliusactivationfluid", 0xF5F2D6);
+util.registerFluid("moltenrawneutronium", 0x734ca4);
+util.registerFluid("hyperreactiveliquid", 0x773693);
+util.registerFluid("moltenlegendarium", 0xc3c3c3);
+util.registerFluid("moltenlanthanumfullerenenanotubes", 0x6099C4);
+util.registerFluid("moltenactiniumsuperhydride", 0x8c273f);
+util.registerFluid("moltenrheniumhassiumthalliumisophtaloylbisdiethylthiourea", 0x85428a);
+util.registerFluid("moltenchargedcesiumceriumcobaltindium", 0x296b0a);
+util.registerFluid("moltenfullerenesuperconductor", 0x74eb1a);
+util.registerFluid("moltenborocarbide", 0x679112);
+util.registerFluid("creatium", 0x7B1FA2);
+util.registerFluid("thoriumleach", 0xB1CADD);
+util.registerFluid("activatedthoriumsolution", 0x004D40);
+util.registerFluid("tetraethylene", 0x4a4a4a);
+util.registerFluid("lumin", 0xbab709);
+util.registerFluid("bisphenolb", 0x6B5802);
+util.registerFluid("blackfluid", 0x090909);
+util.registerFluid("ferrocenewaste", 0x827717);
+util.registerFluid("hundretbutanol", 0x827722);
+util.registerFluid("hundretmethanol", 0x827722);
+util.registerFluid("moltenenhancedenderium", 0x113817);
+util.registerFluid("moltenawakenedcompressedmetal", 0xab4b1b);
+util.registerFluid("explosivehydrazine", 0x827722);
+util.registerFluid("livingsolder", 0x886C62);
+util.registerFluid("mutatedlivingsolder", 0x694653);
+util.registerFluid("liquidrawneutronium", 0xF5F2D6);
+util.registerFluid("photopolymer", 0x4CAF50);
+util.registerFluid("explosivehydrazine", 0x827722);
+util.registerFluid("livingsolder", 0x886C62);
+util.registerFluid("mutatedlivingsolder", 0x694653);
+util.registerFluid("liquidrawneutronium", 0xF5F2D6);
+util.registerFluid("hydrogentetrafluoride", 0x90CAF9);
+util.registerFluid("pcbb", 0x9C27B0);
+util.registerFluid("fluorohydrideammoniumcarbamat", 0x2E7D32);
+util.registerFluid("hydrogentetrafluorocarbidedioxide", 0xF8BBD0);
+util.registerFluid("hydrogentetrafluoromehtane", 0x8D6E63);
+util.registerFluid("lanthanumyttriumsolution", 0x615263);
+util.registerFluid("lanthanumceriumacidicsolution", 0xA1887F);
+util.registerFluid("ceriumlanthanumsaturatedcompoundsolution", 0xFFE0B2);
+util.registerFluid("moltenceriumdopedlanthanum", 0xF3EDBF);
+util.registerFluid("unprocessedcelasolution", 0xD9DF95);
+util.registerFluid("moltencelananoparticles", 0xD9DF95);
+util.registerFluid("moltencelananocarbides", 0xAB47BC);
+util.registerFluid("moltenceriumlanthanum", 0xD9DF95);
+util.registerFluid("lanthanumceriumsolution", 0xE2E7B3);
+util.registerFluid("usedphotopolymersolution", 0xCE93D8);
+util.registerFluid("extradistilledwater", 0xBBDEFB);
+util.registerFluid("quaternaryammonium", 0xCFD8DC);
+util.registerFluid("dissolvingfluid", 0xCFD8DC);
+util.registerFluid("aluminosilicatewoolsolution", 0x8A8A8A);
+util.registerFluid("radioactive_sludge", 0x495B49);
+util.registerFluid("low_thorium_solution", 0x0C220C);
+util.registerFluid("thorium_emulsion", 0x885B49);
+util.registerFluid("radium_emulsion", 0x7E7E85);
+util.registerFluid("radium_cake_solution", 0x666B66);
+util.registerFluid("radium_sodium_solution", 0x7E7E97);
+util.registerFluid("radium_cake_solution", 0x666B66);
+util.registerFluid("solardistilledwater", 0x40b0ed);
+util.registerFluid("dirtywater",0x6e3415);
+util.registerFluid("superlubricenttincture",0x5a5c00);
+util.registerFluid("nmethyl2pyrrolidone", 0x81D4FA);
+util.registerFluid("bbutyrolactone", 0xC8E6C9);
+util.registerFluid("twonaphthol", 0xFFAB91);
+util.registerFluid("binol", 0x37474F);
+util.registerFluid("diketene", 0xB0BEC5);
+util.registerFluid("chlorodiphenylphosphine", 0x666B66);
+util.registerFluid("terephtaladehyde", 0xCFD8DC);
+util.registerFluid("naphtalene",0xFF8F00);
+util.registerFluid("butylithium",0xC2185B);
+util.registerFluid("liquidbinap", 0x263238);
+util.registerFluid("crystalkevlar", 0xcba3cc);
+util.registerFluid("supraplasma",0xcba3cc);
+util.registerFluid("metastableenergeticalalloy",0xdb4234);
+util.registerFluid("supercooledthoriumsolution", 0xB3E5FC);
+util.registerFluid("heatedthoriumsolution",0xDCE775);
+util.registerFluid("thoriumsolution",0x2E7D32);
+util.registerFluid("hydrocrackedthoriumsolution", 0xA5D6A7);
+util.registerFluid("sulfuricthoriumsolution", 0xFF7043);
+util.registerFluid("driedthoriumemulsion",0x305731);
+util.registerFluid("purifiedthoriumemulsion",0x388E3C);
+util.registerFluid("paraphenylenediaminesolution", 0xBA68C8);
+util.registerFluid("unrefinedkevlar",0xFFEB3B);
+util.registerFluid("thoriumleachsolution",0x06521c);
 
 
 
@@ -288,6 +490,32 @@ kaminskycatalyst.addFlags(["GENERATE_PLATE"]);
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<material:emerald>.addFlags(["GENERATE_FLUID_BLOCK"]);
 <material:americium>.addFlags(["GENERATE_FINE_WIRE"]);
 <material:cosmic_neutronium>.addFlags(["GENERATE_PLASMA"]);
 <material:neutronium>.addFlags(["GENERATE_PLASMA"]);
