@@ -389,18 +389,16 @@ mixer.recipeBuilder()
 
 
 ebf.recipeBuilder()
-    .inputs(<gregtech:meta_item_1:2585>)
-    .outputs(<gregtech:meta_item_1:11585>)
+    .inputs(<gregtech:meta_item_1:2858>)
+    .outputs(<gregtech:meta_item_1:11858>)
     .duration(200)
     .EUt(800)
     .property("temperature", 5000)
     .buildAndRegister();
 
 Utils.removeRecipeByOutput(chemReactor, [<thermalfoundation:material:165>], [], false);
-Utils.removeRecipeByOutput(lcr, [<thermalfoundation:material:165>], [ ], false);
-Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:2858>], [ ], false);
-
-
+Utils.removeRecipeByOutput(lcr, [<thermalfoundation:material:165>], [], false);
+Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:2858>], [], false);
 
 chemReactor.recipeBuilder()
     .inputs(<gregtech:meta_item_1:10227>)
