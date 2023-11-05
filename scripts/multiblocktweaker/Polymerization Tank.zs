@@ -99,7 +99,6 @@ val polymerization_tank = Builder.start(loc, meta)
 .withZoom(0.5f)
 .buildAndRegister() as Multiblock;
 
-recipes.addShapeless(<gregtech:machine:10010>,[<modularmachinery:polytank_controller>]);
 
 polymerization_tank.recipeMap.recipeBuilder()
     .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 0}))
