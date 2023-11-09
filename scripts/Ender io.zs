@@ -57,7 +57,7 @@ val bio = mods.gregtech.recipe.RecipeMap.getByName("bio_reactor");
 val fluidheater = mods.gregtech.recipe.RecipeMap.getByName("fluid_heater");
 val engraver = mods.gregtech.recipe.RecipeMap.getByName("laser_engraver");
 
-mods.enderio.AlloySmelter.addRecipe(<contenttweaker:silversteel>,[<contenttweaker:silversteeldust>]);
+mods.enderio.AlloySmelter.addRecipe(<contenttweaker:silversteel>,[<gtadditions:ga_dust:32014>]);
 mods.enderio.AlloySmelter.addRecipe(<gregtech:meta_item_1:10095>,[<gregtech:meta_item_1:2095>]);
 
 recipes.removeByMod("enderio");
@@ -66,11 +66,11 @@ recipes.addShaped(<enderio:item_basic_capacitor>, [	[<ore:plateSteel>, <ore:plat
 recipes.addShaped(<enderio:block_dark_steel_anvil>, [	[<ore:blockDarkSteel>, <ore:blockDarkSteel>, <ore:blockDarkSteel>], 	[null, <ore:ingotDarkSteel>, null], 	[<ore:ingotDarkSteel>, <ore:ingotDarkSteel>, <ore:ingotDarkSteel>]]);
 recipes.addShaped(<enderio:block_infinity>, [	[<ore:dustBedrock>, <ore:dustBedrock>, <ore:dustBedrock>], 	[<ore:dustBedrock>, <ore:dustBedrock>, <ore:dustBedrock>], 	[<ore:dustBedrock>, <ore:dustBedrock>, <ore:dustBedrock>]]);
 recipes.addShaped(<enderio:block_dark_iron_bars> * 8, [	[null, <gregtech:meta_tool:8>, null], 	[<contenttweaker:bulatsteelrod>, <contenttweaker:bulatsteelrod>, <contenttweaker:bulatsteelrod>], 	[<contenttweaker:bulatsteelrod>, <contenttweaker:bulatsteelrod>, <contenttweaker:bulatsteelrod>]]);
-recipes.addShaped(<enderio:item_material:51>, [	[<ore:dustSmallBatteryAlloy>, <contenttweaker:blackirondust>, <ore:dustSmallBatteryAlloy>], 	[<contenttweaker:blackirondust>, <ore:itemBinderComposite>, <contenttweaker:blackirondust>], 	[<ore:dustSmallBatteryAlloy>, <contenttweaker:blackirondust>, <ore:dustSmallBatteryAlloy>]]);
+recipes.addShaped(<enderio:item_material:51>, [	[<ore:dustSmallBatteryAlloy>, <gtadditions:ga_dust:32003>, <ore:dustSmallBatteryAlloy>], 	[<gtadditions:ga_dust:32003>, <ore:itemBinderComposite>, <gtadditions:ga_dust:32003>], 	[<ore:dustSmallBatteryAlloy>, <gtadditions:ga_dust:32003>, <ore:dustSmallBatteryAlloy>]]);
 recipes.addShaped(<enderio:item_material:22> * 4, [	[<ore:dustMagnesium>, <ore:dustSilicon>, <ore:dustManganese>], 	[<ore:dustRockSalt>, <ore:dustSmallFireclay>, <ore:dustRockSalt>], 	[<ore:dustCalcium>, <ore:dustSilicon>, <ore:dustRegularChrome>]]);
 recipes.addShaped(<enderio:block_tank>, [	[<gregtech:meta_item_2:32433>, <ore:barsIron>, <gregtech:meta_item_2:32433>], 	[<ore:barsIron>, <gregtech:machine:811>, <ore:barsIron>], 	[<gregtech:meta_item_2:32433>, <ore:barsIron>, <gregtech:meta_item_2:32433>]]);
 recipes.addShaped(<enderio:item_material:10>*2, [	[<ore:stoneSmooth>, <minecraft:cobblestone_wall>, <ore:stoneSmooth>], 	[<minecraft:cobblestone_wall>, <contenttweaker:woodgear>, <minecraft:cobblestone_wall>], 	[<ore:stoneSmooth>, <minecraft:cobblestone_wall>, <ore:stoneSmooth>]]);
-recipes.addShaped(<enderio:item_material>*2, [	[<ore:plateIron>, <contenttweaker:bulatsteeldust>, <ore:plateIron>], 	[<contenttweaker:bulatsteeldust>, <ore:frameGtWood>, <contenttweaker:bulatsteeldust>], 	[<ore:plateIron>, <contenttweaker:bulatsteeldust>, <ore:plateIron>]]);
+recipes.addShaped(<enderio:item_material>*2, [	[<ore:plateIron>, <gtadditions:ga_dust:32013>, <ore:plateIron>], 	[<gtadditions:ga_dust:32013>, <ore:frameGtWood>, <gtadditions:ga_dust:32013>], 	[<ore:plateIron>, <gtadditions:ga_dust:32013>, <ore:plateIron>]]);
 recipes.addShaped(<enderio:block_infinity:1>,[ [<enderio:block_infinity>, <enderio:block_infinity>, <enderio:block_infinity>], [<enderio:block_infinity>, <enderio:block_infinity>, <enderio:block_infinity>], [<enderio:block_infinity>, <enderio:block_infinity>, <enderio:block_infinity>]]);
 recipes.addShaped(<enderio:block_infinity:2>,[ [<enderio:block_infinity:1>, <enderio:block_infinity:1>, <enderio:block_infinity:1>], [<enderio:block_infinity:1>, <enderio:block_infinity:1>, <enderio:block_infinity:1>], [<enderio:block_infinity:1>, <enderio:block_infinity:1>, <enderio:block_infinity:1>]]);
 recipes.addShaped(<enderio:item_material:11>, [	[<ore:dustBedrock>, <ore:ingotElectricalSteel>, <ore:dustBedrock>], 	[<ore:ingotElectricalSteel>, <ore:gearStone>, <ore:ingotElectricalSteel>], 	[<ore:dustBedrock>, <ore:ingotElectricalSteel>, <ore:dustBedrock>]]);
@@ -97,7 +97,7 @@ recipes.addShapeless(<enderio:item_alloy_nugget:9> * 9, [<enderio:item_alloy_ing
 recipes.addShapeless(<enderio:item_alloy_ingot:9> * 9, [<enderio:block_alloy:9>]);
 recipes.addShaped(<enderio:block_exit_rail>, [	[null, <ore:dustRegularRedstone>, null], 	[null, <ore:rail>, null], 	[null, <ore:craftingPiston>, null]]);
 recipes.addShaped(<enderio:block_dark_steel_ladder>*7, [	[<ore:ingotDarkSteel>, null, <ore:ingotDarkSteel>], 	[<ore:ingotDarkSteel>, <ore:ingotDarkSteel>, <ore:ingotDarkSteel>], 	[<ore:ingotDarkSteel>, null, <ore:ingotDarkSteel>]]);
-recipes.addShapeless(<contenttweaker:electricalsteeldust>*3, [<ore:dustSilicon>, <ore:dustRegularIron>, <ore:dustRegularIron>,<ore:dustCoal>]);
+recipes.addShapeless(<gtadditions:ga_dust:32016>*3, [<ore:dustSilicon>, <ore:dustRegularIron>, <ore:dustRegularIron>,<ore:dustCoal>]);
 recipes.remove(<enderio:item_redstone_sensor_filter>);
 recipes.addShapeless(<enderio:item_redstone_nor_filter>, [<minecraft:redstone_torch>, <enderio:item_redstone_or_filter>]);
 recipes.addShapeless(<enderio:item_redstone_nand_filter>, [<minecraft:redstone_torch>, <enderio:item_redstone_and_filter>]);

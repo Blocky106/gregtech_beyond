@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="EnderCore-1.12.2-0.5.76-core">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/memory_repo/com/enderio/core/EnderCore/1.12.2-0.5.76/EnderCore-1.12.2-0.5.76-core.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

@@ -137,30 +137,14 @@ fusion_reactor.recipeBuilder()
 
 alloy_smelter.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2848>*4,<gtadditions:ga_dust:28>*3)
-    .outputs(<gregtech:meta_item_1:2596>*7)
+    .outputs(<gtadditions:ga_dust:32001>*7)
     .duration(200)
-    .EUt(12)
-    .buildAndRegister();
-
-chemReactor.recipeBuilder()
-    .fluidInputs(<liquid:hydrogen>*6000,<liquid:ethylene>*6000)
-    .outputs(<gregtech:meta_item_1:2001>*2)
-    .inputs(<liquid:triethylaluminium>*3000)
-    .duration(400)
-    .EUt(12)
-    .buildAndRegister();
-
-lcr.recipeBuilder()
-    .fluidInputs(<liquid:hydrogen>*6000,<liquid:ethylene>*6000)
-    .outputs(<gregtech:meta_item_1:2001>*2)
-    .inputs(<liquid:triethylaluminium>*3000)
-    .duration(400)
     .EUt(12)
     .buildAndRegister();
 
 mixer.recipeBuilder()
     .fluidInputs(<liquid:triethylaluminium>*1000,<liquid:titanium_tetrachloride>*1000)
-    .outputs(<gregtech:meta_item_1:2597>)
+    .outputs(<gtadditions:ga_dust:32002>)
     .duration(900)
     .EUt(100)
     .buildAndRegister();

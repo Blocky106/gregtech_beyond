@@ -77,7 +77,8 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundnormal = resources/custommainmenu/textures/gui/settingsv2.png
+  backgroundhovered = resources/custommainmenu/textures/gui/settings_v3_clicked.png
+  backgroundnormal = resources/custommainmenu/textures/gui/settings_v3.png
 }
 
 customization {
@@ -191,11 +192,11 @@ customization {
 customization {
   orientation = top-left
   hidden = false
-  x = 731
+  x = 611
   width = 228
   action = deep_customization_element:title_screen_forge_copyright
   actionid = 0025bd40-d671-42a2-a1c1-f2582dbf3a751696777493677
-  y = 489
+  y = 505
   height = 9
 }
 
@@ -238,6 +239,7 @@ customization {
   orientation = element
   restartbackgroundanimations = true
   buttonaction = openlink;https://discord.gg/sG6NZ7NaeC%btnaction_splitter_fm%
+  backgroundhovered = resources/custommainmenu/textures/gui/discord_v1_clicked.png
   label = 
   loopbackgroundanimations = true
   orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button
@@ -288,5 +290,17 @@ customization {
   y = -16
   alignment = left
   height = 15
+}
+
+customization {
+  path = resources/custommainmenu/textures/gui/gregtech.png
+  orientation = element
+  orientation_element = d6472250-37be-45f3-9dfa-e98b7aab9d901696783014363
+  x = -54
+  width = 257
+  actionid = d70d239f-9cc0-4b75-b623-c8b98464fef41698086352963
+  action = addtexture
+  y = -105
+  height = 100
 }
 

@@ -118,7 +118,7 @@ val dilution_tank = Builder.start(loc, meta)
 
 dilution_tank.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*6000)
-    .inputs(<contenttweaker:monazite_sulfate>)
+    .inputs(<gtadditions:ga_dust:32065>)
     .fluidOutputs(<liquid:diluted_monazite_sulfate>*3000)
     .duration(80)
     .EUt(2000)

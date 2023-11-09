@@ -398,7 +398,7 @@ ebf.recipeBuilder()
 
 Utils.removeRecipeByOutput(chemReactor, [<thermalfoundation:material:165>], [], false);
 Utils.removeRecipeByOutput(lcr, [<thermalfoundation:material:165>], [], false);
-Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:2858>], [], false);
+Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:11858>], [], false);
 
 chemReactor.recipeBuilder()
     .inputs(<gregtech:meta_item_1:10227>)
@@ -416,6 +416,23 @@ lcr.recipeBuilder()
     .EUt(200)
     .buildAndRegister();
 
+centrifuge.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:32011>)
+    .chancedOutput(<gregtech:meta_item_1:3822>, 3333, 0)
+    .chancedOutput(<gregtech:meta_item_1:3075>, 3333, 0)
+    .chancedOutput(<gregtech:meta_item_1:3076>, 3333, 0)
+    .EUt(288)
+    .duration(600)
+    .buildAndRegister();
+
+lcentrifuge.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:32011>)
+    .chancedOutput(<gregtech:meta_item_1:3822>, 3333, 0)
+    .chancedOutput(<gregtech:meta_item_1:3075>, 3333, 0)
+    .chancedOutput(<gregtech:meta_item_1:3076>, 3333, 0)
+    .EUt(288)
+    .duration(600)
+    .buildAndRegister();
 
 
 

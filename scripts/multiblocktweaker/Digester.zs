@@ -147,7 +147,7 @@ val digester = Builder.start(loc, meta)
 .buildAndRegister() as Multiblock;
 
 digester.recipeMap.recipeBuilder()
-    .inputs(<contenttweaker:calcinatedbastnasite>)
+    .inputs(<gtadditions:ga_dust:32083>)
     .fluidInputs(<liquid:nitric_acid> * 750)
     .fluidOutputs(<liquid:muddybastnasitesolution>*750)
     .outputs(<gregtech:meta_item_1:2159>)

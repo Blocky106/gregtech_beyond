@@ -9,9 +9,6 @@ net.minecraft.client.gui.GuiOptions {
 net.minecraft.client.gui.GuiMultiplayer {
 }
 
-net.minecraft.client.gui.GuiWorldSelection {
-}
-
 net.minecraft.client.gui.GuiScreenResourcePacks {
 }
 
@@ -28,5 +25,8 @@ net.minecraft.client.gui.inventory.GuiContainerCreative {
 }
 
 net.minecraft.client.gui.GuiMainMenu {
+}
+
+net.minecraft.client.gui.GuiWorldSelection {
 }
 

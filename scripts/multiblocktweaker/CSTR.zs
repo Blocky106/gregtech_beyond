@@ -163,7 +163,7 @@ cstr.recipeMap.recipeBuilder()
     .buildAndRegister();
 
 cstr.recipeMap.recipeBuilder()
-    .inputs(<contenttweaker:roastedbastnasite>)
+    .inputs(<gtadditions:ga_dust:32084>)
     .fluidInputs(<liquid:nitric_acid>*750)
     .fluidOutputs(<liquid:nitrogenatedbastnasiterarerearthoxides>*1000)
     .duration(820)

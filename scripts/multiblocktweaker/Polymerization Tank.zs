@@ -117,7 +117,7 @@ polymerization_tank.recipeMap.recipeBuilder()
     .buildAndRegister();
 
 polymerization_tank.recipeMap.recipeBuilder()
-    .notConsumable(<gregtech:meta_item_1:2596>)
+    .notConsumable(<gtadditions:ga_dust:32001>)
     .fluidInputs(<liquid:vinyl_acetate>*144)
     .fluidOutputs(<liquid:polyvinyl_acetate>*288)
     .duration(200)
@@ -125,7 +125,7 @@ polymerization_tank.recipeMap.recipeBuilder()
     .buildAndRegister();
 
 polymerization_tank.recipeMap.recipeBuilder()
-    .notConsumable(<gregtech:meta_item_1:2597>)
+    .notConsumable(<gtadditions:ga_dust:32002>)
     .fluidInputs(<liquid:vinyl_acetate>*144)
     .fluidOutputs(<liquid:polyvinyl_acetate>*432)
     .duration(200)
@@ -133,7 +133,7 @@ polymerization_tank.recipeMap.recipeBuilder()
     .buildAndRegister();
 
 polymerization_tank.recipeMap.recipeBuilder()
-    .notConsumable(<gregtech:meta_item_1:2598>)
+    .notConsumable(<gtadditions:ga_dust:32000>)
     .fluidInputs(<liquid:vinyl_acetate>*144)
     .fluidOutputs(<liquid:polyvinyl_acetate>*576)
     .duration(200)
@@ -149,7 +149,7 @@ polymerization_tank.recipeMap.recipeBuilder()
     .buildAndRegister();
 
 polymerization_tank.recipeMap.recipeBuilder()
-    .notConsumable(<gregtech:meta_item_1:2596>)
+    .notConsumable(<gtadditions:ga_dust:32001>)
     .fluidInputs(<liquid:vinyl_chloride>*144)
     .fluidOutputs(<liquid:polyvinyl_chloride>*288)
     .duration(200)
@@ -157,7 +157,7 @@ polymerization_tank.recipeMap.recipeBuilder()
     .buildAndRegister();
 
 polymerization_tank.recipeMap.recipeBuilder()
-    .notConsumable(<gregtech:meta_item_1:2597>)
+    .notConsumable(<gtadditions:ga_dust:32002>)
     .fluidInputs(<liquid:vinyl_chloride>*144)
     .fluidOutputs(<liquid:polyvinyl_chloride>*432)
     .duration(200)
@@ -165,7 +165,7 @@ polymerization_tank.recipeMap.recipeBuilder()
     .buildAndRegister();
 
 polymerization_tank.recipeMap.recipeBuilder()
-    .notConsumable(<gregtech:meta_item_1:2598>)
+    .notConsumable(<gtadditions:ga_dust:32000>)
     .fluidInputs(<liquid:vinyl_chloride>*144)
     .fluidOutputs(<liquid:polyvinyl_chloride>*576)
     .duration(200)
@@ -181,7 +181,7 @@ polymerization_tank.recipeMap.recipeBuilder()
     .buildAndRegister();
 
 polymerization_tank.recipeMap.recipeBuilder()
-    .notConsumable(<gregtech:meta_item_1:2596>)
+    .notConsumable(<gtadditions:ga_dust:32001>)
     .fluidInputs(<liquid:styrene>*144)
     .fluidOutputs(<liquid:polystyrene>*288)
     .duration(200)
@@ -189,7 +189,7 @@ polymerization_tank.recipeMap.recipeBuilder()
     .buildAndRegister();
 
 polymerization_tank.recipeMap.recipeBuilder()
-    .notConsumable(<gregtech:meta_item_1:2597>)
+    .notConsumable(<gtadditions:ga_dust:32002>)
     .fluidInputs(<liquid:styrene>*144)
     .fluidOutputs(<liquid:polystyrene>*432)
     .duration(200)
@@ -197,7 +197,7 @@ polymerization_tank.recipeMap.recipeBuilder()
     .buildAndRegister();
 
 polymerization_tank.recipeMap.recipeBuilder()
-    .notConsumable(<gregtech:meta_item_1:2598>)
+    .notConsumable(<gtadditions:ga_dust:32000>)
     .fluidInputs(<liquid:styrene>*144)
     .fluidOutputs(<liquid:polystyrene>*576)
     .duration(200)
@@ -213,7 +213,7 @@ polymerization_tank.recipeMap.recipeBuilder()
     .buildAndRegister();
 
 polymerization_tank.recipeMap.recipeBuilder()
-    .notConsumable(<gregtech:meta_item_1:2596>)
+    .notConsumable(<gtadditions:ga_dust:32001>)
     .fluidInputs(<liquid:tetrafluoroethylene>*144)
     .fluidOutputs(<liquid:polytetrafluoroethylene>*288)
     .duration(200)
@@ -221,7 +221,7 @@ polymerization_tank.recipeMap.recipeBuilder()
     .buildAndRegister();
 
 polymerization_tank.recipeMap.recipeBuilder()
-    .notConsumable(<gregtech:meta_item_1:2597>)
+    .notConsumable(<gtadditions:ga_dust:32002>)
     .fluidInputs(<liquid:tetrafluoroethylene>*144)
     .fluidOutputs(<liquid:polytetrafluoroethylene>*432)
     .duration(200)
@@ -229,7 +229,7 @@ polymerization_tank.recipeMap.recipeBuilder()
     .buildAndRegister();
 
 polymerization_tank.recipeMap.recipeBuilder()
-    .notConsumable(<gregtech:meta_item_1:2598>)
+    .notConsumable(<gtadditions:ga_dust:32000>)
     .fluidInputs(<liquid:tetrafluoroethylene>*144)
     .fluidOutputs(<liquid:polytetrafluoroethylene>*576)
     .duration(200)
@@ -245,7 +245,7 @@ polymerization_tank.recipeMap.recipeBuilder()
     .buildAndRegister();
 
 polymerization_tank.recipeMap.recipeBuilder()
-    .notConsumable(<gregtech:meta_item_1:2596>)
+    .notConsumable(<gtadditions:ga_dust:32001>)
     .fluidInputs(<liquid:ethylene>*144)
     .fluidOutputs(<liquid:plastic>*288)
     .duration(200)
@@ -253,7 +253,7 @@ polymerization_tank.recipeMap.recipeBuilder()
     .buildAndRegister();
 
 polymerization_tank.recipeMap.recipeBuilder()
-    .notConsumable(<gregtech:meta_item_1:2597>)
+    .notConsumable(<gtadditions:ga_dust:32002>)
     .fluidInputs(<liquid:ethylene>*144)
     .fluidOutputs(<liquid:plastic>*432)
     .duration(200)
@@ -261,7 +261,7 @@ polymerization_tank.recipeMap.recipeBuilder()
     .buildAndRegister();
 
 polymerization_tank.recipeMap.recipeBuilder()
-    .notConsumable(<gregtech:meta_item_1:2598>)
+    .notConsumable(<gtadditions:ga_dust:32000>)
     .fluidInputs(<liquid:ethylene>*144)
     .fluidOutputs(<liquid:plastic>*576)
     .duration(200)

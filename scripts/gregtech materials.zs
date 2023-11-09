@@ -211,9 +211,6 @@ val copperalloy = MaterialRegistry.createIngotMaterial(577,"copperalloy",0xcf794
 copperalloy.setCableProperties(512, 4, 4);
 copperalloy.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_DENSE","GENERATE_FINE_WIRE"]);
 
-val radium202 = MaterialRegistry.createIngotMaterial(578,"radium202",0xFFCA28,"SHINY",2);
-radium202.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_DENSE"]);
-
 val fontium = MaterialRegistry.createIngotMaterial(579,"fontium",0x0a802b,"SHINY",2);
 fontium.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_DENSE","GENERATE_FRAME","GENERATE_FINE_WIRE"]);
 fontium.setCableProperties(524288, 4, 2);
@@ -235,12 +232,6 @@ chromaticglass.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_LENSE"]);
 
 val enrichedholmium = MaterialRegistry.createIngotMaterial(585,"enrichedholmium",0x330D4A,"SHINY",2);
 enrichedholmium.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_DENSE"]);
-
-val teflon = MaterialRegistry.createFluidMaterial(586,"teflon",0xa1a1a1,"FLUID", null);
-
-val brightsteel = MaterialRegistry.createIngotMaterial(587, "brightsteel", 0xd3d3d3, "shiny",2);
-brightsteel.setCableProperties(32768, 2, 4);
-brightsteel.addFlags(["GENERATE_PLATE"]);
 
 val exoticmatter = MaterialRegistry.createIngotMaterial(588,"exoticmatter",0xB71C1C,"SHINY",2);
 exoticmatter.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_DENSE","GENERATE_PLASMA","GENERATE_FLUID_BLOCK"]);
@@ -266,19 +257,186 @@ titaniumaluminide.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GEN
 val sodiumethylxantate = MaterialRegistry.createDustMaterial(595,"sodiumethylxantate",0xB7AA33,"DULL",2);
 sodiumethylxantate.addFlags(["GENERATE_PLATE"]);
 
-val philipscatalyst = MaterialRegistry.createDustMaterial(596,"philipscatalyst",0xB45D83,"DULL",2);
-philipscatalyst.addFlags(["GENERATE_PLATE"]);
-
-val zieglernattacatalyst = MaterialRegistry.createDustMaterial(597,"zieglernattacatalyst",0x8BC34A,"DULL",2);
-zieglernattacatalyst.addFlags(["GENERATE_PLATE"]);
-
-val kaminskycatalyst = MaterialRegistry.createDustMaterial(598,"kaminskycatalyst",0x372927,"DULL",2);
-kaminskycatalyst.addFlags(["GENERATE_PLATE"]);
-
-#val kaptonk = MaterialRegistry.createDustMaterial(32000,"kaptonk",0x372927,"DULL",2);
-#kaptonk.addFlags(["GENERATE_PLATE"]);
+val kaptonk = MaterialRegistry.createDustMaterial(578,"kaptonk",0x372927,"DULL",3);
+kaptonk.addFlags(["GENERATE_PLATE"]);
 
 
+
+
+
+util.registerDust("kaminskycatalyst", 32000, 0x372927, "DULL");
+util.registerDust("philipscatalyst", 32001, 0xB45D83, "DULL");
+util.registerDust("zieglernattacatalyst", 32002, 0x8BC34A, "DULL");
+util.registerDust("blackirondust", 32003, 0x1c1b1c, "DULL");
+util.registerDust("darksteeldust", 32004, 0x2b2b2b, "DULL");
+util.registerDust("nichromerichblend", 32005, 0xb7b0d1, "DULL");
+util.registerDust("greensteeldust", 32006, 0x379953, "SHINY");
+util.registerDust("cryolitedust", 32007, 0x658af0, "DULL");
+util.registerDust("energeticblend", 32008, 0xbd642a, "DULL");
+util.registerDust("resonantseaborgiumdust", 32009, 0x1f6612, "DULL");
+util.registerDust("uraniumconcentrate", 32010, 0x299912, "DULL");
+util.registerDust("uraniumfiltrate", 32011, 0x3d9e29, "DULL");
+util.registerDust("bulatsteeldust", 32013, 0x736D62, "SHINY");
+util.registerDust("silversteeldust", 32014, 0x828180, "SHINY");
+util.registerDust("silveralloydust", 32015, 0xD6D3D6, "SHINY");
+util.registerDust("electricalsteeldust", 32016, 0x757473, "DULL");
+util.registerDust("supercooleddust", 32017, 0x0F5C6E, "DULL");
+util.registerDust("bisphenolbdust", 32018, 0x59330D, "DULL");
+util.registerDust("titaniumtetrachloridedust", 32019, 0x701a31, "SHINY");
+util.registerDust("graphiteuraniummixturedust", 32020, 0x2F5407, "DULL");
+util.registerDust("unprocessedborondust", 32021, 0x5487FF, "DULL");
+util.registerDust("distilledmonazitedust", 32022, 0x0A4B1A, "SHINY");
+util.registerDust("radioactivesludge", 32023, 0x704c0a, "SHINY");
+util.registerDust("monazitebasedpulp", 32024, 0x0E6E25, "SHINY");
+util.registerDust("monazitedigesteddust", 32025, 0x0A521D, "SHINY");
+util.registerDust("monazitefilteredpulp", 32026, 0x0A4718, "SHINY");
+util.registerDust("monazitenitride", 32027, 0x0C6624, "SHINY");
+util.registerDust("monaziteoxide", 32028, 0x0C6624, "SHINY");
+util.registerDust("siftedmonazite", 32029, 0x094B1A, "SHINY");
+util.registerDust("thoriadust", 32030, 0x004B1A, "DULL");
+util.registerDust("naquadahdopedmonazite", 32031, 0xA8A049, "DULL");
+util.registerDust("sunnariumenrichedmonazite", 32032, 0xB9B276, "DULL");
+util.registerDust("rutherfordiumcontainingnaqdopedmonazite", 32033, 0x585858, "DULL");
+util.registerDust("sunnariumoxide", 32035, 0xB4AD6A, "DULL");
+util.registerDust("sunnariumdioxide", 32034, 0xB4AD6A, "DULL");
+util.registerDust("rutherfordiumcarbideoxide", 32036, 0xE0D9B8, "DULL");
+util.registerDust("vanadiumtitaniumconentratedust", 32037, 0x3C3C3C, "DULL");
+util.registerDust("sunaricoreresiduedust", 32038, 0xB9B276, "DULL");
+util.registerDust("samaricinfusedresiduedust", 32039, 0xE5E5E4, "DULL");
+util.registerDust("infusedgoldtrioxide", 32040, 0xA8801B, "SHINY");
+util.registerDust("plutoniumoxideuraniummixturedust", 32041, 0xC40424, "SHINY");
+util.registerDust("boronnanoparticles", 32042, 0x6593FF, "SHINY");
+util.registerDust("tungsticnaquadah", 32043, 0x1F1F1F, "DULL");
+util.registerDust("endsteelconcentrate", 32044, 0xC9C176, "DULL");
+util.registerDust("protoadamantiumalloycatalystdust", 32045, 0x333AA4, "DULL");
+util.registerDust("circuitcompundmk1", 32046, 0x0E000B, "DULL");
+util.registerDust("circuitcompundmk2", 32047, 0x0E000B, "DULL");
+util.registerDust("circuitcompundmk3", 32048, 0x0E000B, "DULL");
+util.registerDust("silicongradedust", 32049, 0x585858, "SHINY");
+util.registerDust("rawneutroniumdust", 32050, 0xE9F5F5, "SHINY");
+util.registerDust("plutoniumuraniumferitemixturedust", 32051, 0x8F041C, "SHINY");
+util.registerDust("dehydratedaluminiumcatalyst", 32052, 0x5D87E8, "DULL");
+util.registerDust("aluminiumcatalyst", 32053, 0x5487FF, "DULL");
+util.registerDust("rdxdust", 32054, 0xEEE559, "SHINY");
+util.registerDust("hdxdust", 32055, 0xE0D9B8, "SHINY");
+util.registerDust("formaldehydedust", 32056, 0x88BD3D, "SHINY");
+util.registerDust("hexaminedust", 32057, 0xA1A1A1, "SHINY");
+util.registerDust("dialuminiumtrioxide", 32058, 0x0a7080, "SHINY");
+util.registerDust("dialuminiumcobalttetroxidedust", 32059, 0x0c616e, "SHINY");
+util.registerDust("thoriumleachdust", 32060, 0x374a27, "SHINY");
+util.registerDust("enhancedenderiumdust", 32063, 0x184229, "DULL");
+util.registerDust("compressedmetaldust", 32064, 0x1A1A1A, "DULL");
+util.registerDust("bastnasiterarerearthoxidemixturedust", 32061, 0xB97A57, "DULL");
+util.registerDust("fourdiphenylmethanediiscocyanatedust", 32062, 0xB576B8, "DULL");
+util.registerDust("monazite_sulfate", 32065, 0x145926, "DULL");
+util.registerDust("thorium_phosphate_cake", 32066, 0x20452a, "DULL");
+util.registerDust("thorium_phosphate_concentrate", 32067, 0x223b29, "DULL");
+util.registerDust("rare_earth_filtrate", 32068, 0x3b2d22, "DULL");
+util.registerDust("neutralized_rare_earth_filtrate", 32069, 0x3b2d22, "DULL");
+util.registerDust("uranium_filtrate_dust", 32070, 0x274d0a, "DULL");
+util.registerDust("uranium_concentrate_dust", 32071, 0x214703, "DULL");
+util.registerDust("zircalloydust", 32072, 0xB5B5B5, "SHINY");
+util.registerDust("neodymiumrareearthconcentrate", 32073, 0x3C3C3C, "DULL");
+util.registerDust("samaricrareearthconcentrate", 32074, 0xB9B276, "DULL");
+util.registerDust("fluorinatedsamariccompound", 32075, 0xB5B5B5, "SHINY");
+util.registerDust("calciumfluoride", 32076, 0x5f7f87, "DULL");
+util.registerDust("samariumterbiumconcentrate", 32077, 0x82875f, "DULL");
+util.registerDust("samaricresidues", 32078, 0x82875f, "SHINY");
+util.registerDust("bastnasiteoxidecomposite", 32079, 0x8a643a, "SHINY");
+util.registerDust("ferrocene", 32080, 0xa6a39f, "SHINY");
+util.registerDust("dirtdust", 32081, 0x79553A, "DULL");
+util.registerDust("hydrogeniodide", 32082, 0x3e2f47, "DULL");
+util.registerDust("calcinatedbastnasite", 32083, 0x473c2f, "DULL");
+util.registerDust("roastedbastnasite", 32084, 0x3d2a14, "SHINY");
+util.registerDust("crackingcatalystpreparation", 32085, 0x7d7d3c, "DULL");
+util.registerDust("pentaerythritoldust", 32086, 0xd61542, "DULL");
+util.registerDust("oranorhodiumcatalystdust", 32087, 0x942942, "SHINY");
+util.registerDust("polyurethanecatalystbdust", 32088, 0x946f29, "DULL");
+util.registerDust("polyurethanecatalystadust", 32089, 0x946f29, "SHINY");
+util.registerDust("leadmetallicpowder", 32090, 0x75516e, "DULL");
+util.registerDust("kevlarmix", 32091, 0x756e09, "SHINY");
+util.registerDust("binap", 32092, 0x8b8c87, "DULL");
+util.registerDust("paraphenylenediamine", 32093, 0x317c87, "SHINY");
+util.registerDust("muddustresidues", 32095, 0x8c878b, "DULL");
+util.registerDust("terephthaloylchloride", 32094, 0x5e240c, "DULL");
+util.registerDust("lapotrondust", 32126, 0x392d75, "DULL");
+util.registerDust("radium_202_dust", 32096, 0x75412d, "DULL");
+util.registerDust("radium_cake_dust", 32097, 0x94914a, "SHINY");
+util.registerDust("radium_metallic_powder", 32127, 0xab7141, "DULL");
+util.registerDust("thorium_233_dust", 32098, 0x7a4920, "SHINY");
+util.registerDust("thorium_radioactive_dust", 32099, 0x6e3d15, "DULL");
+util.registerDust("thorium_radioactive_powder", 32100, 0x436e15, "DULL");
+util.registerDust("thorium_salt", 32101, 0x756e09, "SHINY");
+util.registerDust("thorium_metallic_powder", 32102, 0x3e7009, "DULL");
+util.registerDust("refined_thorium_salts", 32103, 0x385717, "SHINY");
+util.registerDust("thorium_residues", 32105, 0x425e23, "DULL");
+util.registerDust("thorium_crude_metal", 32104, 0x3e4d2f, "DULL");
+util.registerDust("lanthanumyttriumdust", 32106, 0x2D2D2D, "DULL");
+util.registerDust("lanthanumyttriumcuprite", 32107, 0x74744A, "DULL");
+util.registerDust("lanthanumdopedyttrium", 32108, 0x9E9D24, "DULL");
+util.registerDust("lanthanum2dopedyttriumbarium", 32109, 0x092A21, "DULL");
+util.registerDust("enrichedgraphitedust", 32110, 0xB3B385, "SHINY");
+util.registerDust("irradiated_borax", 32111, 0xCCCCCC, "SHINY");
+util.registerDust("rhodium3", 32113, 0x6E2A2B, "DULL");
+util.registerDust("rhodium2a", 32112, 0x949335, "DULL");
+util.registerDust("bariumsludgedustresidue", 32114, 0x7E5D4B, "SHINY");
+util.registerDust("yttriumlanthanumceriummixturedust", 32115, 0x888675, "SHINY");
+util.registerDust("ceriumlanthanumcompound", 32116, 0x514F3F, "DULL");
+util.registerDust("ceriumlanthanumsaturatedcompound", 32117, 0xD81B60, "DULL");
+util.registerDust("ceriumlanthanumsaturatedsamaritecompound", 32118, 0x7B1FA2, "SHINY");
+util.registerDust("ceriumlanthanumsaturatedcompounddust", 32119, 0x7F5D8D, "SHINY");
+util.registerDust("ceriumdopedlanthanumdust", 32120, 0x6A1B9A, "DULL");
+util.registerDust("celananoparticle", 32121, 0x290E3A, "DULL");
+util.registerDust("celananocarbides", 32122, 0x261133, "SHINY");
+util.registerDust("yttriumsludgedustresidue", 32123, 0x905529, "SHINY");
+util.registerDust("unprocessedceladust", 32124, 0x4A148C, "DULL");
+util.registerDust("ceriumlanthanumdust", 32125, 0xFDD835, "DULL");
+util.registerDust("radium202", 32128, 0xFFCA28, "SHINY");
+util.registerDust("titaniumiodine", 32129, 0xC4A5D1, "SHINY");
+util.registerDust("reprep_radium_202", 32130, 0xD4AF7F, "SHINY");
+util.registerDust("terephtaladehyde", 32131, 0xFBC02D, "DULL");
+util.registerDust("sunnariumxenontrioxidedust", 32132, 0x977C39, "DULL");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+util.registerFluid("solardistilledwater",0x0277BD);
 util.registerFluid("npropanol",0xad9113);
 util.registerFluid("isobutyl_alcohol",0xa0ad13);
 util.registerFluid("nbutanol",0x8ac294);
@@ -481,9 +639,8 @@ util.registerFluid("purifiedthoriumemulsion",0x388E3C);
 util.registerFluid("paraphenylenediaminesolution", 0xBA68C8);
 util.registerFluid("unrefinedkevlar",0xFFEB3B);
 util.registerFluid("thoriumleachsolution",0x06521c);
-
-
-
+util.registerFluid("ic2coolant",0x06521c);
+util.registerFluid("teflon",0xa1a1a1);
 
 
 

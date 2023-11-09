@@ -3,15 +3,6 @@ import mods.modularmachinery.RecipePrimer;
 
 
 
-RecipeBuilder.newBuilder("matter1", "matter", 80)    .addEnergyPerTickInput(512800000)    .addItemInput(<enderio:item_alloy_ingot:6> *64)    .addItemOutput(<contenttweaker:elementds>)    .build();
-RecipeBuilder.newBuilder("matter2", "matter", 80)    .addEnergyPerTickInput(512800000)    .addItemInput(<gregtech:meta_item_1:10856>*64)    .addItemOutput(<contenttweaker:selementts>)    .build();
-RecipeBuilder.newBuilder("matter3", "matter", 80)    .addEnergyPerTickInput(512800000)    .addItemInput(<gregtech:meta_item_1:10786>*64)    .addItemOutput(<contenttweaker:elementfm>)   .build();
-RecipeBuilder.newBuilder("matter4", "matter", 80)    .addEnergyPerTickInput(512800000)   .addItemInput(<thermalfoundation:material:166>*64)   .addItemOutput(<contenttweaker:elementlu>)    .build();    
-RecipeBuilder.newBuilder("matter5", "matter", 80)    .addEnergyPerTickInput(512800000)    .addItemInput(<gregtech:meta_item_1:10072>*64)    .addItemOutput(<contenttweaker:elementti>)   .build();
-RecipeBuilder.newBuilder("matter6", "matter", 80)    .addEnergyPerTickInput(512800000)   .addItemInput(<gregtech:meta_item_1:10311>*64)    .addItemOutput(<contenttweaker:elementtr>)    .build();
-RecipeBuilder.newBuilder("matter7", "matter", 80)   .addEnergyPerTickInput(512800000)    .addItemInput(<gregtech:meta_item_1:10692>*64)    .addItemOutput(<contenttweaker:selementp>)    .build();
-RecipeBuilder.newBuilder("matter8", "matter", 80)    .addEnergyPerTickInput(512800000)    .addItemInput(<gregtech:meta_item_1:10074>*64)    .addItemOutput(<contenttweaker:elementw>)    .build();
-RecipeBuilder.newBuilder("matter9", "matter", 80)    .addEnergyPerTickInput(512800000)    .addItemInput(<gregtech:meta_item_1:10517>*64)    .addItemOutput(<contenttweaker:elementdr>)   .build();
 RecipeBuilder.newBuilder("pneumatic2", "pneumatic", 80)    .addEnergyPerTickInput(51280000)    .addItemInput(<pneumaticcraft:empty_pcb>)    .addItemOutput(<pneumaticcraft:unassembled_pcb>)    .build();
 RecipeBuilder.newBuilder("pneumatic4", "pneumatic", 80)    .addEnergyPerTickInput(51280000)    .addItemInput(<gtadditions:ga_meta_item:32601>*8)    .addItemInput(<pneumaticcraft:ingot_iron_compressed>*4)    .addItemOutput(<pneumaticcraft:capacitor>)    .build();
 RecipeBuilder.newBuilder("pneumatic5", "pneumatic", 80)    .addEnergyPerTickInput(51280000)    .addItemInput(<gtadditions:ga_meta_item:32545>*2)    .addItemInput(<pneumaticcraft:ingot_iron_compressed>*4)    .addItemOutput(<pneumaticcraft:capacitor>)    .build();

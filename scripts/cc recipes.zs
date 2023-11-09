@@ -25,8 +25,8 @@ recipes.addShaped(<contenttweaker:engine>, [	[<ore:gearElectrum>, <minecraft:clo
 recipes.addShapeless(<contenttweaker:compressedironnugget>*9, [<ore:ingotIronCompressed>]);
 recipes.addShaped(<contenttweaker:hvroboticcomponent>, [	[<gregtech:meta_item_1:32651>, <gregtech:meta_item_1:32641>, <contenttweaker:electricalsteelrod>], 	[<ore:stickKanthal>, <ore:plateKanthal>, <gregtech:meta_item_1:32511>], 	[null, <ore:plateKanthal>, <gregtech:meta_item_1:32641>]]);
 recipes.addShaped(<contenttweaker:perciseelectronicunitcasing>, [	[<ore:plateIncoloyMa>, <ore:plateNaquadriatictritanium>, <ore:plateIncoloyMa>], 	[<gregtech:meta_item_1:32657>, <ore:frameGtTitanSteel>, <gregtech:meta_item_1:32657>], [<ore:plateIncoloyMa>, <ore:plateNaquadriatictritanium>, <ore:plateIncoloyMa>]]);
-recipes.addShapeless(<contenttweaker:bulatsteeldust>*2,[<gregtech:meta_item_1:2012>,<gregtech:meta_item_1:2033>,<gregtech:meta_item_1:2033>,<gregtech:meta_item_1:2033>]);
-recipes.addShapeless(<contenttweaker:silversteeldust> * 6,[<gregtech:meta_item_1:2184>,<gregtech:meta_item_1:2184>,<gregtech:meta_item_1:2184>,<gregtech:meta_item_1:2184>,<gregtech:meta_item_1:2184>,<gregtech:meta_item_1:2184>,<gregtech:meta_item_1:2062>,<gregtech:meta_item_1:2062>]);
+recipes.addShapeless(<gtadditions:ga_dust:32013>*2,[<gregtech:meta_item_1:2012>,<gregtech:meta_item_1:2033>,<gregtech:meta_item_1:2033>,<gregtech:meta_item_1:2033>]);
+recipes.addShapeless(<gtadditions:ga_dust:32014> * 6,[<gregtech:meta_item_1:2184>,<gregtech:meta_item_1:2184>,<gregtech:meta_item_1:2184>,<gregtech:meta_item_1:2184>,<gregtech:meta_item_1:2184>,<gregtech:meta_item_1:2184>,<gregtech:meta_item_1:2062>,<gregtech:meta_item_1:2062>]);
 recipes.addShaped(<contenttweaker:neutronsensor>, [	[<ore:platePlatinum>, <ore:plateDoubleRhodium>, <ore:platePlatinum>], 	[<ore:platePlatinum>, <ore:frameGtGrisium>, <ore:platePlatinum>], 	[<ore:platePlatinum>, <contenttweaker:space_warper_core>, <ore:platePlatinum>]]);
 recipes.addShaped(<contenttweaker:neutronaccelerator>, [	[<ore:gearPlatinum>, <contenttweaker:space_warper_core>, <ore:gearPlatinum>], 	[<ore:platePlutonium>, <ore:plateDenseRhodium>, <ore:platePlutonium>], 	[<gregtech:meta_item_2:32484>, <projectred-integration:gate:10>, <gregtech:meta_item_2:32484>]]);
 recipes.addShaped(<contenttweaker:particleprotectioncasing>, [	[<contenttweaker:radiationproofplate>, <ore:plateTungstenCarbide>, <contenttweaker:radiationproofplate>], 	[null, <ore:frameGtHsss>, null], 	[<contenttweaker:radiationproofplate>, <ore:plateTungstenCarbide>, <contenttweaker:radiationproofplate>]]);
@@ -42,7 +42,7 @@ recipes.addShaped(<contenttweaker:solenoid>, [	[<contenttweaker:wiring>, <conten
 recipes.addShaped(<contenttweaker:motor>, [	[<ore:plateIronMagnetic>, <contenttweaker:bulatsteelgear>, <ore:plateIronMagnetic>], 	[<contenttweaker:solenoid>, <gregtech:meta_item_1:32601>, <contenttweaker:solenoid>], 	[<ore:plateCarbon>, <thermalfoundation:material:512>, <ore:plateCarbon>]]);
 recipes.addShaped(<contenttweaker:coolantcontainmentcell>, [	[<ore:plateBlackSteel>, <ore:plateNickelZincFerrite>, <ore:plateBlackSteel>], 	[<ore:plateBlackSteel>, <gregtech:meta_item_1:32406>, <ore:plateBlackSteel>], 	[<ore:plateBlackSteel>, <ore:plateNickelZincFerrite>, <ore:plateBlackSteel>]]);
 recipes.addShaped(<contenttweaker:pbistrengthenedtetrixcasing>, [	[<ore:platePolybenzimidazole>, <ore:plateFullerenePolymerMatrix>, <ore:platePolybenzimidazole>], 	[<ore:platePolybenzimidazole>, <ore:frameGtFullerenepolymertetrix>, <ore:platePolybenzimidazole>], 	[<ore:platePolybenzimidazole>, <ore:plateFullerenePolymerMatrix>, <ore:platePolybenzimidazole>]]);
-recipes.addShapeless(<contenttweaker:tinyoranorhodiumcatalystdust>*9,[<contenttweaker:oranorhodiumcatalystdust>]);
+recipes.addShapeless(<contenttweaker:tinyoranorhodiumcatalystdust>*9,[<gtadditions:ga_dust:32087>]);
 recipes.addShaped(<contenttweaker:astro_miner>, [	[<advancedrocketry:ic:2>, <advancedrocketry:satelliteprimaryfunction:3>, <gregtech:meta_item_1:32692>], 	[<advancedrocketry:satellitepowersource>, <advancedrocketry:satelliteprimaryfunction>, <thermalfoundation:material:656>], 	[<advancedrocketry:ic:2>, <ore:plateSteel>, null]]);
 recipes.addShaped(<contenttweaker:obsidianrod>, [	[null, null, null], 	[null, <ore:obsidian>, null], 	[null, <ore:obsidian>, null]]);
 recipes.addShaped(<contenttweaker:obsidianrod>, [ 	[null, <ore:obsidian>, null], 	[null, <ore:obsidian>, null], [null, null, null]]);
@@ -54,7 +54,7 @@ recipes.addShaped(<contenttweaker:detectiondevice>, [[<minecraft:comparator>, <o
 
 furnace.addRecipe(<contenttweaker:blockgraphite>,<gregtech:meta_block_compressed_6:5>);
 furnace.addRecipe(<contenttweaker:rubyingot>,<gregtech:meta_item_1:2154>);
-furnace.addRecipe(<contenttweaker:cryolitedust>, <contenttweaker:cryoliteore>);
+furnace.addRecipe(<gtadditions:ga_dust:32007>, <contenttweaker:cryoliteore>);
 
 recipes.addShaped(<contenttweaker:treatedwoodplanks>*8, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], 	[<ore:plankWood>, <contenttweaker:paraffinwax>, <ore:plankWood>], 	[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]);
 

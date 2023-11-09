@@ -10,8 +10,12 @@ customization-meta {
 
 customization {
   path = resources/custommainmenu/textures/gui/bg.png
-  wideformat = true
   action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 2
 }
 
 customization {

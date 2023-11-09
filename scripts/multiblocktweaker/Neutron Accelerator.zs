@@ -172,7 +172,7 @@ neutron_accelerator.recipeMap.recipeBuilder()
     
 neutron_accelerator.recipeMap.recipeBuilder()
     .inputs(<contenttweaker:purified4thorium>)
-    .outputs(<contenttweaker:thorium_crude_metal>)
+    .outputs(<gtadditions:ga_dust:32104>)
     .fluidOutputs(<liquid:low_thorium_solution>*288)
     .EUt(82000)
     .duration(800)

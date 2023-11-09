@@ -233,3 +233,68 @@ val matter_dissolver = Builder.start(loc, meta)
 .withZoom(0.5f)
 
 .buildAndRegister() as Multiblock;
+
+
+   
+matter_dissolver.recipeMap.recipeBuilder()
+    .inputs(<enderio:item_alloy_ingot:6> *64)
+    .outputs(<contenttweaker:elementds>)
+    .duration(800)
+    .EUt(512800000)
+    .buildAndRegister();
+
+matter_dissolver.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:10856>*64)
+    .outputs(<contenttweaker:selementts>)
+    .duration(800)
+    .EUt(512800000)
+    .buildAndRegister();
+
+matter_dissolver.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:10786>*64)
+    .outputs(<contenttweaker:elementfm>)
+    .duration(800)
+    .EUt(512800000)
+    .buildAndRegister();
+
+matter_dissolver.recipeMap.recipeBuilder()
+    .inputs(<thermalfoundation:material:166>*64)
+    .outputs(<contenttweaker:elementlu>)
+    .duration(800)
+    .EUt(512800000)
+    .buildAndRegister();
+
+matter_dissolver.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:10072>*64)
+    .outputs(<contenttweaker:elementti>)
+    .duration(800)
+    .EUt(512800000)
+    .buildAndRegister();
+
+matter_dissolver.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:10311>*64)
+    .outputs(<contenttweaker:elementtr>)
+    .duration(800)
+    .EUt(512800000)
+    .buildAndRegister();
+
+matter_dissolver.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:10692>*64)
+    .outputs(<contenttweaker:selementp>)
+    .duration(800)
+    .EUt(512800000)
+    .buildAndRegister();
+
+matter_dissolver.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:10074>*64)
+    .outputs(<contenttweaker:elementw>) 
+    .duration(800)
+    .EUt(512800000)
+    .buildAndRegister();
+
+matter_dissolver.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:10517>*64)
+    .outputs(<contenttweaker:elementdr>)
+    .duration(800)
+    .EUt(512800000)
+    .buildAndRegister();

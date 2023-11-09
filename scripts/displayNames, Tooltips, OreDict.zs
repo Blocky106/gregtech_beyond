@@ -352,7 +352,6 @@ mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:
 #enderium
 <ore:ingotEnderium>.remove(<thermalfoundation:material:167>);
 
-recipes.addShaped(<contenttweaker:enhancedenderiumdust>, [	[<contenttweaker:enhancedenderiumsmalldust>, <contenttweaker:enhancedenderiumsmalldust>],	[<contenttweaker:enhancedenderiumsmalldust>, <contenttweaker:enhancedenderiumsmalldust>],]);
 
 
 

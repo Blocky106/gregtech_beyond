@@ -334,4 +334,12 @@ vacuum_distillation_tower.recipeMap.recipeBuilder()
     .EUt(320)
     .buildAndRegister();
 
+vacuum_distillation_tower.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:tar>*600)
+    .fluidOutputs(<liquid:vacuumflashedtar>*600)
+    .duration(80)
+    .EUt(320)
+    .buildAndRegister();
+
+
     

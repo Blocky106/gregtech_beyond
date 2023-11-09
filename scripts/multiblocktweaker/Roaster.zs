@@ -130,13 +130,13 @@ val roaster = Builder.start(loc, meta)
 
 roaster.recipeMap.recipeBuilder()
     .fluidOutputs(<liquid:diketene>*1000,<liquid:methane>*2000)  
-    .fluidInputs(<liquid:acetone>*2000,<liquid:carbondisulfide>*500)
+    .fluidInputs(<liquid:acetone>*2000,<liquid:carbon_sulfide>*500)
     .duration(200)
     .EUt(200)
     .buildAndRegister();
 
 roaster.recipeMap.recipeBuilder()
-    .inputs(<contenttweaker:crackingcatalystpreparation>)
+    .inputs(<gtadditions:ga_dust:32085>)
     .outputs(<contenttweaker:crackingcatalyst>)
     .duration(50)
     .EUt(120)
@@ -144,7 +144,7 @@ roaster.recipeMap.recipeBuilder()
 
 roaster.recipeMap.recipeBuilder()  
     .inputs(<ore:dustCalcite>,<ore:crushedBastnasite>)
-    .outputs(<contenttweaker:calcinatedbastnasite>)
+    .outputs(<gtadditions:ga_dust:32083>)
     .EUt(2000)
     .duration(500)
     .buildAndRegister();
@@ -152,14 +152,14 @@ roaster.recipeMap.recipeBuilder()
 roaster.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:wetbastnasiterareearthconcentrate>*1000)
     .fluidOutputs(<liquid:oxygen>*500)
-    .outputs(<contenttweaker:roastedbastnasite>*2)
+    .outputs(<gtadditions:ga_dust:32084>*2)
     .duration(400)
     .EUt(2000)
     .buildAndRegister();
 
 roaster.recipeMap.recipeBuilder()
-    .inputs(<contenttweaker:fluorinatedsamariccompound>*2,<gregtech:meta_item_1:2011>)
-    .outputs(<gregtech:meta_item_1:2027>,<contenttweaker:calciumfluoride>,<gregtech:meta_item_1:2155>,<contenttweaker:samariumterbiumconcentrate>)
+    .inputs(<gtadditions:ga_dust:32077>*2,<gregtech:meta_item_1:2011>)
+    .outputs(<gregtech:meta_item_1:2027>,<gtadditions:ga_dust:32077>,<gregtech:meta_item_1:2155>,<gtadditions:ga_dust:32077>)
     .EUt(2800)
     .duration(400)
     .buildAndRegister();
