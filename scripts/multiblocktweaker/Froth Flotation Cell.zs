@@ -88,10 +88,10 @@ val froth_flotation_cell = Builder.start(loc, meta)
                     " CCC ")
                 .aisle(
                     "PCCCP",
-                    "SC CE",
+                    "SC CP",
+                    " C E ",
                     " C C ",
-                    " C C ",
-                    " CCC ")
+                    " CGC ")
                 .aisle(
                     " CCC ",
                     " CCC ",
@@ -114,12 +114,256 @@ val froth_flotation_cell = Builder.start(loc, meta)
                 .build())
 .withRecipeMap(
         FactoryRecipeMap.start(loc)
-                        .maxInputs(1)
-                        .maxFluidInputs(1)
-                        .maxFluidOutputs(1)
-                        .maxOutputs(1)
+                        .maxInputs(4)
+                        .maxFluidInputs(2)
+                        .maxFluidOutputs(2)
+                        .maxOutputs(6)
                         .build())
 .withTexture(ICubeRenderer.sided("contenttweaker:blocks/machine_casing_clean_stainless_steel"))
 .withZoom(0.5f)
 
 .buildAndRegister() as Multiblock;
+
+
+froth_flotation_cell.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:5182>*5)
+    .outputs(<gtadditions:ga_dust:32135>)
+    .fluidInputs(<liquid:froth_flotation_fluid>*100,<liquid:water>*32000)
+    .notConsumable(<gregtech:meta_item_1:2595>*3)
+    .notConsumable(<gregtech:meta_item_1:2526>*3)
+    .fluidOutputs(<liquid:used_froth_flotation_fluid>*200,<liquid:sphaleriteslurry>*1000)
+    .duration(280)
+    .EUt(480)
+    .buildAndRegister();
+
+froth_flotation_cell.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:5103>*5)
+    .outputs(<gtadditions:ga_dust:32135>)
+    .fluidInputs(<liquid:froth_flotation_fluid>*100,<liquid:water>*32000)
+    .notConsumable(<gregtech:meta_item_1:2595>*3)
+    .notConsumable(<gregtech:meta_item_1:2526>*3)
+    .fluidOutputs(<liquid:used_froth_flotation_fluid>*200,<liquid:cinnabarslurry>*1000)
+    .duration(280)
+    .EUt(480)
+    .buildAndRegister();
+
+froth_flotation_cell.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:5601>*5)
+    .outputs(<gtadditions:ga_dust:32135>)
+    .fluidInputs(<liquid:froth_flotation_fluid>*100,<liquid:water>*32000)
+    .notConsumable(<gregtech:meta_item_1:2595>*3)
+    .notConsumable(<gregtech:meta_item_1:2526>*3)
+    .fluidOutputs(<liquid:used_froth_flotation_fluid>*200,<liquid:aikiniteslurry>*1000)
+    .duration(280)
+    .EUt(480)
+    .buildAndRegister();
+
+froth_flotation_cell.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:5100>*5)
+    .outputs(<gtadditions:ga_dust:32135>)
+    .fluidInputs(<liquid:froth_flotation_fluid>*100,<liquid:water>*32000)
+    .notConsumable(<gregtech:meta_item_1:2595>*3)
+    .notConsumable(<gregtech:meta_item_1:2526>*3)
+    .fluidOutputs(<liquid:used_froth_flotation_fluid>*200,<liquid:chalcopyriteslurry>*1000)
+    .duration(280)
+    .EUt(480)
+    .buildAndRegister();
+
+froth_flotation_cell.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:5360>*5)
+    .outputs(<gtadditions:ga_dust:32135>)
+    .fluidInputs(<liquid:froth_flotation_fluid>*100,<liquid:water>*32000)
+    .notConsumable(<gregtech:meta_item_1:2595>*3)
+    .notConsumable(<gregtech:meta_item_1:2526>*3)
+    .fluidOutputs(<liquid:used_froth_flotation_fluid>*200,<liquid:borniteslurry>*1000)
+    .duration(280)
+    .EUt(480)
+    .buildAndRegister();
+
+froth_flotation_cell.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:5132>*5)
+    .outputs(<gtadditions:ga_dust:32135>)
+    .fluidInputs(<liquid:froth_flotation_fluid>*100,<liquid:water>*32000)
+    .notConsumable(<gregtech:meta_item_1:2595>*3)
+    .notConsumable(<gregtech:meta_item_1:2526>*3)
+    .fluidOutputs(<liquid:used_froth_flotation_fluid>*200,<liquid:molybdeniteslurry>*1000)
+    .duration(280)
+    .EUt(480)
+    .buildAndRegister();
+
+froth_flotation_cell.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:5148>*5)
+    .outputs(<gtadditions:ga_dust:32135>)
+    .fluidInputs(<liquid:froth_flotation_fluid>*100,<liquid:water>*32000)
+    .notConsumable(<gregtech:meta_item_1:2595>*3)
+    .notConsumable(<gregtech:meta_item_1:2526>*3)
+    .fluidOutputs(<liquid:used_froth_flotation_fluid>*200,<liquid:pyriteslurry>*1000)
+    .duration(280)
+    .EUt(480)
+    .buildAndRegister();
+
+froth_flotation_cell.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:5362>*5)
+    .outputs(<gtadditions:ga_dust:32135>)
+    .fluidInputs(<liquid:froth_flotation_fluid>*100,<liquid:water>*32000)
+    .notConsumable(<gregtech:meta_item_1:2595>*3)
+    .notConsumable(<gregtech:meta_item_1:2526>*3)
+    .fluidOutputs(<liquid:used_froth_flotation_fluid>*200,<liquid:enargiteslurry>*1000)
+    .duration(280)
+    .EUt(480)
+    .buildAndRegister();
+
+froth_flotation_cell.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:5185>*5)
+    .outputs(<gtadditions:ga_dust:32135>)
+    .fluidInputs(<liquid:froth_flotation_fluid>*100,<liquid:water>*32000)
+    .notConsumable(<gregtech:meta_item_1:2595>*3)
+    .notConsumable(<gregtech:meta_item_1:2526>*3)
+    .fluidOutputs(<liquid:used_froth_flotation_fluid>*200,<liquid:stibniteslurry>*1000)
+    .duration(280)
+    .EUt(480)
+    .buildAndRegister();
+
+froth_flotation_cell.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:5614>*5)
+    .outputs(<gtadditions:ga_dust:32135>)
+    .fluidInputs(<liquid:froth_flotation_fluid>*100,<liquid:water>*32000)
+    .notConsumable(<gregtech:meta_item_1:2595>*3)
+    .notConsumable(<gregtech:meta_item_1:2526>*3)
+    .fluidOutputs(<liquid:used_froth_flotation_fluid>*200,<liquid:carroliteslurry>*1000)
+    .duration(280)
+    .EUt(480)
+    .buildAndRegister();
+
+froth_flotation_cell.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:5668>*5)
+    .outputs(<gtadditions:ga_dust:32135>)
+    .fluidInputs(<liquid:froth_flotation_fluid>*100,<liquid:water>*32000)
+    .notConsumable(<gregtech:meta_item_1:2595>*3)
+    .notConsumable(<gregtech:meta_item_1:2526>*3)
+    .fluidOutputs(<liquid:used_froth_flotation_fluid>*200,<liquid:arsenopyriteslurry>*1000)
+    .duration(280)
+    .EUt(480)
+    .buildAndRegister();
+
+froth_flotation_cell.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:5107>*5)
+    .outputs(<gtadditions:ga_dust:32135>)
+    .fluidInputs(<liquid:froth_flotation_fluid>*100,<liquid:water>*32000)
+    .notConsumable(<gregtech:meta_item_1:2595>*3)
+    .notConsumable(<gregtech:meta_item_1:2526>*3)
+    .fluidOutputs(<liquid:used_froth_flotation_fluid>*200,<liquid:cobaltiteslurry>*1000)
+    .duration(280)
+    .EUt(480)
+    .buildAndRegister();
+
+froth_flotation_cell.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:5611>*5)
+    .outputs(<gtadditions:ga_dust:32135>)
+    .fluidInputs(<liquid:froth_flotation_fluid>*100,<liquid:water>*32000)
+    .notConsumable(<gregtech:meta_item_1:2595>*3)
+    .notConsumable(<gregtech:meta_item_1:2526>*3)
+    .fluidOutputs(<liquid:used_froth_flotation_fluid>*200,<liquid:rheniiteslurry>*1000)
+    .duration(280)
+    .EUt(480)
+    .buildAndRegister();
+
+froth_flotation_cell.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:5108>*5)
+    .outputs(<gtadditions:ga_dust:32135>)
+    .fluidInputs(<liquid:froth_flotation_fluid>*100,<liquid:water>*32000)
+    .notConsumable(<gregtech:meta_item_1:2595>*3)
+    .notConsumable(<gregtech:meta_item_1:2526>*3)
+    .fluidOutputs(<liquid:used_froth_flotation_fluid>*200,<liquid:sheldoniteslurry>*1000)
+    .duration(280)
+    .EUt(480)
+    .buildAndRegister();
+
+froth_flotation_cell.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:5609>*5)
+    .outputs(<gtadditions:ga_dust:32135>)
+    .fluidInputs(<liquid:froth_flotation_fluid>*100,<liquid:water>*32000)
+    .notConsumable(<gregtech:meta_item_1:2595>*3)
+    .notConsumable(<gregtech:meta_item_1:2526>*3)
+    .fluidOutputs(<liquid:used_froth_flotation_fluid>*200,<liquid:sylvaniteslurry>*1000)
+    .duration(280)
+    .EUt(480)
+    .buildAndRegister();
+
+froth_flotation_cell.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:5667>*5)
+    .outputs(<gtadditions:ga_dust:32135>)
+    .fluidInputs(<liquid:froth_flotation_fluid>*100,<liquid:water>*32000)
+    .notConsumable(<gregtech:meta_item_1:2595>*3)
+    .notConsumable(<gregtech:meta_item_1:2526>*3)
+    .fluidOutputs(<liquid:used_froth_flotation_fluid>*200,<liquid:galliteslurry>*1000)
+    .duration(280)
+    .EUt(480)
+    .buildAndRegister();
+
+froth_flotation_cell.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:5666>*5)
+    .outputs(<gtadditions:ga_dust:32135>)
+    .fluidInputs(<liquid:froth_flotation_fluid>*100,<liquid:water>*32000)
+    .notConsumable(<gregtech:meta_item_1:2595>*3)
+    .notConsumable(<gregtech:meta_item_1:2526>*3)
+    .fluidOutputs(<liquid:used_froth_flotation_fluid>*200,<liquid:bowieiteslurry>*1000)
+    .duration(280)
+    .EUt(480)
+    .buildAndRegister();
+
+froth_flotation_cell.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:5608>*5)
+    .outputs(<gtadditions:ga_dust:32135>)
+    .fluidInputs(<liquid:froth_flotation_fluid>*100,<liquid:water>*32000)
+    .notConsumable(<gregtech:meta_item_1:2595>*3)
+    .notConsumable(<gregtech:meta_item_1:2526>*3)
+    .fluidOutputs(<liquid:used_froth_flotation_fluid>*200,<liquid:stanniteslurry>*1000)
+    .duration(280)
+    .EUt(480)
+    .buildAndRegister();
+
+froth_flotation_cell.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:5363>*5)
+    .outputs(<gtadditions:ga_dust:32135>)
+    .fluidInputs(<liquid:froth_flotation_fluid>*100,<liquid:water>*32000)
+    .notConsumable(<gregtech:meta_item_1:2595>*3)
+    .notConsumable(<gregtech:meta_item_1:2526>*3)
+    .fluidOutputs(<liquid:used_froth_flotation_fluid>*200,<liquid:tennaniteslurry>*1000)
+    .duration(280)
+    .EUt(480)
+    .buildAndRegister();
+
+froth_flotation_cell.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:5117>*5)
+    .outputs(<gtadditions:ga_dust:32135>)
+    .fluidInputs(<liquid:froth_flotation_fluid>*100,<liquid:water>*32000)
+    .notConsumable(<gregtech:meta_item_1:2595>*3)
+    .notConsumable(<gregtech:meta_item_1:2526>*3)
+    .fluidOutputs(<liquid:used_froth_flotation_fluid>*200,<liquid:green_sapphire_slurry>*1000)
+    .duration(280)
+    .EUt(480)
+    .buildAndRegister();
+
+froth_flotation_cell.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:5157>*5)
+    .outputs(<gtadditions:ga_dust:32135>)
+    .fluidInputs(<liquid:froth_flotation_fluid>*100,<liquid:water>*32000)
+    .notConsumable(<gregtech:meta_item_1:2595>*3)
+    .notConsumable(<gregtech:meta_item_1:2526>*3)
+    .fluidOutputs(<liquid:used_froth_flotation_fluid>*200,<liquid:sapphire_slurry>*1000)
+    .duration(280)
+    .EUt(480)
+    .buildAndRegister();
+
+froth_flotation_cell.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:5154>*5)
+    .outputs(<gtadditions:ga_dust:32135>)
+    .fluidInputs(<liquid:froth_flotation_fluid>*100,<liquid:water>*32000)
+    .notConsumable(<gregtech:meta_item_1:2595>*3)
+    .notConsumable(<gregtech:meta_item_1:2526>*3)
+    .fluidOutputs(<liquid:used_froth_flotation_fluid>*200,<liquid:ruby_slurry>*1000)
+    .duration(280)
+    .EUt(480)
+    .buildAndRegister();
+    
