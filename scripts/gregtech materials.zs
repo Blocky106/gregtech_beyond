@@ -52,9 +52,6 @@ alumina.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_FLUI
 
 val aluminiumsalt = MaterialRegistry.createDustMaterial(525, "aluminiumsalt", 0xB3B3C7, "DULL", 2);
 aluminiumsalt.addFlags(["GENERATE_ORE"]);
- 
-val zyptorium = MaterialRegistry.createIngotMaterial(526, "zyptorium", 0x0048FF, "SHINY", 2);
-zyptorium.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_DENSE"]);
 
 val manyullyn = MaterialRegistry.createIngotMaterial(527, "manyullyn", 0x590580, "SHINY", 2);
 manyullyn.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_DENSE","GENERATE_FINE_WIRE"]);
@@ -257,6 +254,9 @@ titaniumaluminide.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GEN
 val sodiumethylxantate = MaterialRegistry.createDustMaterial(595,"sodiumethylxantate",0xB7AA33,"DULL",2);
 sodiumethylxantate.addFlags(["GENERATE_PLATE"]);
 
+val potassiumethylxantate = MaterialRegistry.createDustMaterial(526,"potassiumethylxantate",0xB7AA33,"DULL",2);
+potassiumethylxantate.addFlags(["GENERATE_PLATE"]);
+
 val kaptonk = MaterialRegistry.createDustMaterial(578,"kaptonk",0x372927,"DULL",3);
 kaptonk.addFlags(["GENERATE_PLATE"]);
 
@@ -396,6 +396,9 @@ util.registerDust("titaniumiodine", 32129, 0xC4A5D1, "SHINY");
 util.registerDust("reprep_radium_202", 32130, 0xD4AF7F, "SHINY");
 util.registerDust("terephtaladehyde", 32131, 0xFBC02D, "DULL");
 util.registerDust("sunnariumxenontrioxidedust", 32132, 0x977C39, "DULL");
+util.registerDust("liquid_wet_tailing", 32133, 0x5D5A5A, "DULL");
+util.registerDust("solid_wet_tailing", 32134, 0x5D5A5A, "DULL");
+util.registerDust("solid_dry_tailing", 32135, 0x5D5A5A, "DULL");
 
 
 
@@ -417,25 +420,27 @@ util.registerDust("sunnariumxenontrioxidedust", 32132, 0x977C39, "DULL");
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+util.registerFluid("used_froth_flotation_fluid",0x281D1D);
+util.registerFluid("galliteslurry",0x525066);
+util.registerFluid("stibniteslurry",0x282828);
+util.registerFluid("sheldoniteslurry",0xB8B890);
+util.registerFluid("pyriteslurry",0x745D1F);
+util.registerFluid("cobaltiteslurry",0x3A3AB4);
+util.registerFluid("enargiteslurry",0x919191);
+util.registerFluid("bowieiteslurry",0x5A5960);
+util.registerFluid("tennaniteslurry",0x5D5D5D);
+util.registerFluid("chalcopyriteslurry",0x73571D);
+util.registerFluid("sylvaniteslurry",0xB2AD9D);
+util.registerFluid("stanniteslurry",0xC0BAA8);
+util.registerFluid("arsenopyriteslurry",0x7B6C47);
+util.registerFluid("tetrahedriteslurry",0x731200);
+util.registerFluid("borniteslurry",0x7D1000);
+util.registerFluid("carroliteslurry",0x807404);
+util.registerFluid("aikiniteslurry",0xA58442);
+util.registerFluid("cinnabarslurry",0x740000);
+util.registerFluid("molybdeniteslurry",0x0E0E0E);
+util.registerFluid("rheniiteslurry",0x534536);
+util.registerFluid("sphaleriteslurry",0xC6C6C6);
 util.registerFluid("solardistilledwater",0x0277BD);
 util.registerFluid("npropanol",0xad9113);
 util.registerFluid("isobutyl_alcohol",0xa0ad13);
