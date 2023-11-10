@@ -1181,3 +1181,5 @@ recipemap.dilution_tank.name=Dilution
 recipemap.dissolution_tank.name=Dissolution
 metaitem.uraniumconcentrate.name=Uranium Concentrate
 metaitem.uraniumfiltrate.name=Uranium Filtrate
+fluid.sphaleriteslurry=Sphalerite Slurry
+
