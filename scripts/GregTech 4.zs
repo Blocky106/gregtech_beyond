@@ -220,6 +220,24 @@ lcr.recipeBuilder()
     .EUt(24)
     .buildAndRegister();
 
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:carbon_sulfide>*1000,<liquid:ethanol>*1000)
+    .inputs(<gregtech:meta_item_1:2054>*3)
+    .outputs(<gregtech:meta_item_1:2526>)
+    .fluidOutputs(<liquid:water>*1000)
+    .duration(200)
+    .EUt(24)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:carbon_sulfide>*1000,<liquid:ethanol>*1000)
+    .inputs(<gregtech:meta_item_1:2054>*3)
+    .outputs(<gregtech:meta_item_1:2526>)
+    .fluidOutputs(<liquid:water>*1000)
+    .duration(200)
+    .EUt(24)
+    .buildAndRegister();
+
 recipes.addShaped(<gregtech:meta_item_2:32461>*4, [	[<ore:plateSilicon>, <ore:plateSilicon>, <ore:plateSilicon>], 	[<ore:wireGtSingleTin>, <ore:wireGtSingleTin>, <ore:wireGtSingleTin>], 	[<ore:wireGtSingleTin>, <ore:wireGtSingleTin>, <ore:wireGtSingleTin>]]);
 
 assembler.recipeBuilder()
@@ -434,9 +452,19 @@ lcentrifuge.recipeBuilder()
     .duration(600)
     .buildAndRegister();
 
+centrifuge.recipeBuilder()
+    .fluidInputs(<liquid:used_froth_flotation_fluid>*200)
+    .fluidOUtputs(<liquid:froth_flotation_fluid>*100,<liquid:dirtywater>*100)
+    .duration(800)
+    .EUt(80)
+    .buildAndRegister();
 
-
-
+lcentrifuge.recipeBuilder()
+    .fluidInputs(<liquid:used_froth_flotation_fluid>*200)
+    .fluidOUtputs(<liquid:froth_flotation_fluid>*100,<liquid:dirtywater>*100)
+    .duration(800)
+    .EUt(80)
+    .buildAndRegister();
 
 
 
