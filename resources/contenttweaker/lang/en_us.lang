@@ -1182,4 +1182,34 @@ recipemap.dissolution_tank.name=Dissolution
 metaitem.uraniumconcentrate.name=Uranium Concentrate
 metaitem.uraniumfiltrate.name=Uranium Filtrate
 fluid.sphaleriteslurry=Sphalerite Slurry
+metaitem.liquid_wet_tailing.name=Liquid Wet Tailing
+metaitem.solid_wet_tailing.name=Solid Wet Tailing
+metaitem.solid_dry_tailing.name=Solid Dry Tailing
+fluid.used_froth_flotation_fluid=Used Froth Flotation Fluid
+fluid.teflon=Teflon
+fluid.galliteslurry=Gallite Slurry
+fluid.stibniteslurry=Stibnite Slurry
+fluid.sheldoniteslurry=Sheldonite Slurry
+fluid.pyriteslurry=Pyrite Slurry
+fluid.enargiteslurry=Enargite Slurry
+fluid.cobaltiteslurry=Cobaltite Slurry
+fluid.bowieiteslurry=Bowieite Slurry
+fluid.tennaniteslurry=Tennanite Slurry
+fluid.chalcopyriteslurry=Chalcopyrite Slurry
+fluid.sylvaniteslurry=Sylvanite Slurry
+fluid.stanniteslurry=Stannite Slurry
+fluid.arsenopyriteslurry=Arsenopyrite Slurry
+fluid.tetrahedriteslurry=Tetrahedrite Slurry
+fluid.borniteslurry=Bornite Slurry
+fluid.carroliteslurry=Carrolite Slurry
+fluid.aikiniteslurry=Aikinite Slurry
+fluid.cinnabarslurry=Cinnabar Slurry
+fluid.molybdeniteslurry=Molybdenite Slurry
+fluid.rheniiteslurry=Rheniite Slurry
+fluid.sphaleriteslurry=Sphalerite Slurry
+recipemap.froth_flotation_cell.name=Froth Flotation
+item.contenttweaker.living_bio_chip.name=Living Bio Chip
+
+
+
 
