@@ -20,23 +20,16 @@ import mods.devtech.OverlayRenderer;
 import mods.gtadditions.recipe.GARecipeMaps;
 
 
+
 var scanner = IRecipeMap.recipeMapBuilder("scanner",2,2,1,1,0,0,0,0)
-    .setOverlaySlots(OverlaySlot.newOverlaySlot(false, false,false,GUITextures.get("hammer_overlay")))
-    .setProgressBar(GUITextures.get("progress_bar_bending"), MoveType.VERTICAL)
-    .build();
+	.setOverlaySlots(OverlaySlot.newOverlaySlot(false, false, false, GUITextures.get("hammer_overlay")))
+	.setProgressBar(GUITextures.get("progress_bar_bending"), MoveType.VERTICAL)
+	.build();
 
-var scannerluv = IRecipeMap.recipeMapBuilder("scannerluv",2,2,1,1,0,0,0,0)
-    .setOverlaySlots(OverlaySlot.newOverlaySlot(false, false,false,GUITextures.get("hammer_overlay")))
-    .setProgressBar(GUITextures.get("progress_bar_bending"), MoveType.VERTICAL)
-    .build();
 
-var scannerev = IRecipeMap.recipeMapBuilder("scannerev",2,2,1,1,0,0,0,0)
-    .setOverlaySlots(OverlaySlot.newOverlaySlot(false, false,false,GUITextures.get("hammer_overlay")))
-    .setProgressBar(GUITextures.get("progress_bar_bending"), MoveType.VERTICAL)
-    .build();
 
-RegisterMachine.CreateSimpleMachine(1407, "scanner",scanner, Overlays.get("assembler"), 5);
-RegisterMachine.CreateSimpleMachine(1408, "scannerluv",scannerluv, Overlays.get("assembler"), 6);
+RegisterMachine.CreateSimpleMachine(1407, "scanner.iv",scanner, Overlays.get("assembler"), 5);
+RegisterMachine.CreateSimpleMachine(1408, "scanner.luv",scanner, Overlays.get("assembler"), 6);
 
 scanner.recipeBuilder()
     .inputs(<contenttweaker:datadisc>,<gregtech:machine:104>)
@@ -45,27 +38,12 @@ scanner.recipeBuilder()
     .EUt(6000)
     .buildAndRegister();
 
-scannerluv.recipeBuilder()
-    .inputs(<contenttweaker:datadisc>,<gregtech:machine:104>)
-    .outputs(<contenttweaker:datadiskassemblyline>)
-    .duration(4000)
-    .EUt(30000)
-    .buildAndRegister();
-
 scanner.recipeBuilder()
     .inputs(<contenttweaker:datadisc>,<gregtech:machine:283>)
     .outputs(<contenttweaker:datadiskdigester>)
     .duration(4000)
     .EUt(6000)
     .buildAndRegister();
-
-scannerluv.recipeBuilder()
-    .inputs(<contenttweaker:datadisc>,<gregtech:machine:283>)
-    .outputs(<contenttweaker:datadiskdigester>)
-    .duration(2000)
-    .EUt(30000)
-    .buildAndRegister();
-
 
 
 
