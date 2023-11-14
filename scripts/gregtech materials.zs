@@ -260,6 +260,9 @@ potassiumethylxantate.addFlags(["GENERATE_PLATE"]);
 val kaptonk = MaterialRegistry.createDustMaterial(578,"kaptonk",0x372927,"DULL",3);
 kaptonk.addFlags(["GENERATE_PLATE"]);
 
+val modularium = MaterialRegistry.createDustMaterial(596,"modularium",0x000000,"DULL",3);
+modularium.addFlags(["GENERATE_PLATE"]);
+
 
 
 
@@ -399,6 +402,7 @@ util.registerDust("sunnariumxenontrioxidedust", 32132, 0x977C39, "DULL");
 util.registerDust("liquid_wet_tailing", 32133, 0x5D5A5A, "DULL");
 util.registerDust("solid_wet_tailing", 32134, 0x5D5A5A, "DULL");
 util.registerDust("solid_dry_tailing", 32135, 0x5D5A5A, "DULL");
+util.registerDust("limestone", 32136, 0xBBB79C, "DULL");
 
 
 
@@ -419,7 +423,7 @@ util.registerDust("solid_dry_tailing", 32135, 0x5D5A5A, "DULL");
 
 
 
-
+util.registerFluid("eternity", 0x46008b);
 util.registerFluid("used_froth_flotation_fluid",0x281D1D);
 util.registerFluid("galliteslurry",0x525066);
 util.registerFluid("stibniteslurry",0x282828);
@@ -644,7 +648,7 @@ util.registerFluid("purifiedthoriumemulsion",0x388E3C);
 util.registerFluid("paraphenylenediaminesolution", 0xBA68C8);
 util.registerFluid("unrefinedkevlar",0xFFEB3B);
 util.registerFluid("thoriumleachsolution",0x06521c);
-util.registerFluid("ic2coolant",0x06521c);
+util.registerFluid("ic2coolant",0x2f6bb5);
 util.registerFluid("teflon",0xa1a1a1);
 
 
