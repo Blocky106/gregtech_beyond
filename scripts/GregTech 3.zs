@@ -1701,7 +1701,6 @@ metal_bender.recipeBuilder()
 
 
 
-recipes.addShaped(<gregtech:machine:1405>, [	[<gregtech:meta_item_1:32654>, <ore:circuitMaster>, <gregtech:meta_item_1:32654>], 	[<ore:cableGtSingleGraphene>, <gregtech:machine:505>, <ore:cableGtSingleGraphene>], 	[<gregtech:meta_item_1:32644>, <ore:circuitMaster>, <gregtech:meta_item_1:32644>]]);
 ebf.findRecipe(120,[<gregtech:meta_item_1:183>],null).remove();
 recipes.remove(<gregtech:machine:1>);
 recipes.addShaped(<gregtech:machine:1>, [	[<ore:plateBronze>, <ore:plateBronze>, <ore:plateBronze>], 	[<ore:plateBronze>, <gregtech:meta_tool:8>, <ore:plateBronze>], 	[<ore:blockBrick>, null, <ore:blockBrick>] ]);
@@ -1740,13 +1739,7 @@ furnace.remove(<gregtech:meta_item_1:10577>);
 
 
 
-assembler.recipeBuilder()
-    .inputs(<gregtech:machine:704>,<gregtech:meta_item_1:12033>*4)
-    .fluidInputs(<liquid:soldering_alloy>*144)
-    .outputs(<modularmachinery:blockenergyinputhatch>)
-    .duration(400)
-    .EUt(12)
-    .buildAndRegister();
+
 
 
 
@@ -1770,7 +1763,6 @@ alloy_smelter.findRecipe(16,[<gregtech:meta_item_1:2087>,<gregtech:meta_item_1:2
 alloy_smelter.findRecipe(16,[<gregtech:meta_item_1:10087>,<gregtech:meta_item_1:10044>], null).remove();
 alloy_smelter.findRecipe(16,[<gregtech:meta_item_1:2087>,<gregtech:meta_item_1:10044>], null).remove();
 
-recipes.addShaped(<modularmachinery:brine_controller>, [	[<ore:plateSignalum>, <gregtech:meta_item_1:32653>, <ore:plateSignalum>], 	[<ore:circuitExtreme>, <gregtech:machine:504>, <ore:circuitExtreme>], 	[<ore:plateSignalum>, <gregtech:meta_item_1:32653>, <ore:plateSignalum>]]);
 
 assembler.recipeBuilder() 
     .inputs(<gregtech:frame_red_steel>,<gregtech:meta_item_1:12196>*16,<gregtech:meta_item_1:17184>*4)
@@ -2199,7 +2191,7 @@ metal_bender.recipeBuilder()
 assembler.recipeBuilder()
     .inputs(<gregtech:meta_item_2:18235>*4,<ore:circuitElite>*4,<gregtech:machine:505>,<gregtech:meta_item_1:13184>*2,<gregtech:meta_item_1:32614>*2)
     .fluidInputs(<liquid:tungsten_steel>*511)
-    .outputs(<modularmachinery:distillation_controller>)
+    .outputs(<gregtech:machine:10028>)
     .duration(300)
     .EUt(2000)
     .buildAndRegister();
@@ -2416,14 +2408,6 @@ ebf.recipeBuilder()
     .buildAndRegister();
 
 assembler.recipeBuilder()
-    .inputs(<contenttweaker:steelborderedwoodencasing>,<gregtech:meta_item_1:32721>,<ore:circuitBasic>*4,<gregtech:meta_item_2:19184>*4,<gtadditions:ga_meta_item:1001>*2)
-    .outputs(<modularmachinery:saw_controller>)
-    .fluidInputs(<liquid:cupronickel>*576)
-    .duration(20)
-    .EUt(12)
-    .buildAndRegister();
-
-assembler.recipeBuilder()
     .inputs(<gtadditions:ga_meta_item:1072>*4,<gregtech:meta_item_1:32644>*2,<ore:circuitElite>*2,<gregtech:machine:4004>,<gregtech:meta_item_1:14734>*4,<gregtech:meta_item_1:14547>*4)
     .outputs(<gregtech:machine:10017>)
     .duration(1200)
@@ -2434,8 +2418,8 @@ furnace.remove(<gregtech:meta_item_1:10526>);
 furnace.remove(<gregtech:meta_item_1:9526>);
 
 ebf.recipeBuilder()
-    .inputs(<gregtech:meta_item_1:2526>)
-    .outputs(<gregtech:meta_item_1:10526>)
+    .inputs(<gregtech:meta_item_1:2858>)
+    .outputs(<gregtech:meta_item_1:11858>)
     .property("temperature",3700)
     .duration(250)
     .EUt(8000)
@@ -2514,22 +2498,6 @@ assembler.recipeBuilder()
     .outputs(<contenttweaker:fieldgeneratorcasing>)
     .duration(400)
     .EUt(120000)
-    .buildAndRegister();
-
-assembler.recipeBuilder()
-    .inputs(<modularmachinery:blockinputbus:2>)
-    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
-    .outputs(<modularmachinery:blockinputbus:1>)
-    .duration(400)
-    .EUt(12)
-    .buildAndRegister();
-
-assembler.recipeBuilder()
-    .inputs(<modularmachinery:blockinputbus:1>)
-    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
-    .outputs(<modularmachinery:blockinputbus>)
-    .duration(400)
-    .EUt(12)
     .buildAndRegister();
 
 ebf.findRecipe(480,[<gregtech:meta_item_1:10074>,<gregtech:meta_item_1:10184>],null).remove();
@@ -2649,7 +2617,7 @@ assembly_line.recipeBuilder()
     .inputs(<gregtech:meta_item_1:12549>*32,<gregtech:meta_item_1:14985>*32,<gregtech:meta_item_2:19530>*4,<gregtech:meta_item_1:14549>*32,<gregtech:meta_item_2:26570>*8,<gregtech:meta_item_1:14570>*32
     ,<contenttweaker:quantumcasing>,<ore:circuitUiv>*8,<gregtech:meta_item_1:12570>*32,<gtadditions:ga_meta_item:32362>*4,<gtadditions:ga_meta_item:32356>*2,<gtadditions:ga_meta_item:32380>*2
     ,<gtadditions:ga_meta_item:32386>*2,<gtadditions:ga_meta_item:32499>*16)
-    .outputs(<modularmachinery:blackhole_controller>)
+    .outputs(<gregtech:machine:10021>)
     .fluidInputs(<liquid:artheriumsn>*50000,<liquid:germanium>*2000,<liquid:americium>*4200,<liquid:naquadriatic_taranium>*6000)
     .notConsumable(<contenttweaker:datadiskblackholecompressor>)
     .duration(20000)

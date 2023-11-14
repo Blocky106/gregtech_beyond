@@ -454,33 +454,125 @@ lcentrifuge.recipeBuilder()
 
 centrifuge.recipeBuilder()
     .fluidInputs(<liquid:used_froth_flotation_fluid>*200)
-    .fluidOUtputs(<liquid:froth_flotation_fluid>*100,<liquid:dirtywater>*100)
+    .fluidOutputs(<liquid:froth_flotation_fluid>*100,<liquid:dirtywater>*100)
     .duration(800)
     .EUt(80)
     .buildAndRegister();
 
 lcentrifuge.recipeBuilder()
     .fluidInputs(<liquid:used_froth_flotation_fluid>*200)
-    .fluidOUtputs(<liquid:froth_flotation_fluid>*100,<liquid:dirtywater>*100)
+    .fluidOutputs(<liquid:froth_flotation_fluid>*100,<liquid:dirtywater>*100)
     .duration(800)
     .EUt(80)
     .buildAndRegister();
 
+sifter.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:32134>)
+    .chancedOutput(<gregtech:meta_item_1:2203>,8000 , 0)
+    .chancedOutput(<gregtech:meta_item_1:2203>,4000 , 0)
+    .chancedOutput(<gregtech:meta_item_1:2203>,2000 , 0)
+    .chancedOutput(<gregtech:meta_item_1:2203>,1000 , 0)
+    .chancedOutput(<gregtech:meta_item_1:2203>,500 , 0)
+    .chancedOutput(<gregtech:meta_item_1:2203>,250 , 0)
+    .EUt(80)
+    .duration(280)
+    .buildAndRegister();
+
+sifter.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:32135>)
+    .chancedOutput(<gtadditions:ga_dust:32136>,8000 , 0)
+    .chancedOutput(<gtadditions:ga_dust:32136>,4000 , 0)
+    .chancedOutput(<gtadditions:ga_dust:32136>,2000 , 0)
+    .chancedOutput(<gtadditions:ga_dust:32136>,1000 , 0)
+    .chancedOutput(<gtadditions:ga_dust:32136>,500 , 0)
+    .chancedOutput(<gtadditions:ga_dust:32136>,250 , 0)
+    .EUt(80)
+    .duration(280)
+    .buildAndRegister();
 
 
+sifter.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:32133>)
+    .chancedOutput(<gregtech:meta_item_1:2203>,8000 , 0)
+    .chancedOutput(<gregtech:meta_item_1:2203>,4000 , 0)
+    .chancedOutput(<gregtech:meta_item_1:2203>,2000 , 0)
+    .chancedOutput(<gregtech:meta_item_1:2131>,1000 , 0)
+    .chancedOutput(<gregtech:meta_item_1:2203>,500 , 0)
+    .chancedOutput(<gregtech:meta_item_1:2203>,250 , 0)
+    .EUt(80)
+    .duration(280)
+    .buildAndRegister();
+
+furnace.remove(<projectred-core:resource_item:300>);
+
+ebf.recipeBuilder()
+    .inputs(<projectred-core:resource_item:250>)
+    .outputs(<projectred-core:resource_item:300>)
+    .duration(20)
+    .EUt(80)
+    .property("temperature", 900)
+    .buildAndRegister();
+
+cutting_saw.recipeBuilder()
+    .inputs(<projectred-core:resource_item:300>)
+    .fluidInputs(<liquid:water>*20)
+    .outputs(<projectred-core:resource_item:301>*16)
+    .duration(400)
+    .EUt(12)
+    .buildAndRegister();
+    
+cutting_saw.recipeBuilder()
+    .inputs(<projectred-core:resource_item:300>)
+    .fluidInputs(<liquid:distilled_water>*12)
+    .outputs(<projectred-core:resource_item:301>*16)
+    .duration(40)
+    .EUt(12)
+    .buildAndRegister();
+
+cutting_saw.recipeBuilder()
+    .inputs(<projectred-core:resource_item:300>)
+    .fluidInputs(<liquid:lubricant>*12)
+    .outputs(<projectred-core:resource_item:301>*16)
+    .duration(20)
+    .EUt(12)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs(<projectred-core:resource_item:301>,<minecraft:redstone>*8)
+    .outputs(<projectred-core:resource_item:310>)
+    .duration(40)
+    .EUt(30)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs(<projectred-core:resource_item:301>,<minecraft:glowstone>*8)
+    .outputs(<projectred-core:resource_item:311>)
+    .duration(40)
+    .EUt(30)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs(<projectred-core:resource_item:301>,<projectred-core:resource_item:105>*8)
+    .outputs(<projectred-core:resource_item:312>)
+    .duration(40)
+    .EUt(30)
+    .buildAndRegister();
 
 
+recipes.remove(<projectred-core:resource_item:310>);
+recipes.remove(<projectred-core:resource_item:312>);
+recipes.remove(<projectred-core:resource_item:311>);
 
 
+Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:11127>], [], false);
 
-
-
-
-
-
-
-
-
+ebf.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2127>)
+    .outputs(<gregtech:meta_item_1:11127>)
+    .EUt(300)
+    .duration(80)
+    .property("temperature", 1800)
+    .buildAndRegister();
 
 
 
