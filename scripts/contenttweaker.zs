@@ -1003,10 +1003,10 @@ treatedwoodplanks.setBlockSoundType(<soundtype:metal>);
 treatedwoodplanks.register();
 
 var vacuumfurnacecasing = VanillaFactory.createBlock("vacuumfurnacecasing", <blockmaterial:rock>);
-vacuumfurnacecasing.setBlockHardness(10.0);
+vacuumfurnacecasing.setBlockHardness(8.0);
 vacuumfurnacecasing.setBlockResistance(10.0);
 vacuumfurnacecasing.setToolClass("pickaxe");
-vacuumfurnacecasing.setToolLevel(5);
+vacuumfurnacecasing.setToolLevel(2);
 vacuumfurnacecasing.setBlockSoundType(<soundtype:metal>);
 vacuumfurnacecasing.register();
 
@@ -1774,3 +1774,5 @@ machine_casing_robust_tungstensteel.setToolLevel(2);
 machine_casing_robust_tungstensteel.setBlockSoundType(<soundtype:metal>);
 machine_casing_robust_tungstensteel.register();
 
+var monocrystalline_seed_crystal = VanillaFactory.createItem("monocrystalline_seed_crystal");
+monocrystalline_seed_crystal.register();
