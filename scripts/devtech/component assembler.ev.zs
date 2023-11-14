@@ -19,15 +19,18 @@ import mods.devtech.OverlayFace;
 import mods.devtech.OverlayRenderer;
 import mods.gtadditions.recipe.GARecipeMaps;
 
-
-var componentassembler = IRecipeMap.recipeMapBuilder("componentassembler",0,9,0,1,0,3,0,0)
-    .setOverlaySlots(OverlaySlot.newOverlaySlot(false, false,false,GUITextures.get("circuit_overlay")))
-    .setProgressBar(GUITextures.get("progress_bar_bending"), MoveType.VERTICAL)
-    .build();
+recipes.addShaped(<gregtech:machine:1404>, [	[<gregtech:meta_item_1:32654>, <ore:circuitElite>, <gregtech:meta_item_1:32654>], 	[<ore:cableGtSingleAluminium>, <gregtech:machine:505>, <ore:cableGtSingleAluminium>], 	[<gregtech:meta_item_1:32644>, <ore:circuitElite>, <gregtech:meta_item_1:32644>]]);
+recipes.addShaped(<gregtech:machine:1405>, [	[<gregtech:meta_item_1:32655>, <ore:circuitMaster>, <gregtech:meta_item_1:32655>], 	[<ore:cableGtSingleGraphene>, <gregtech:machine:506>, <ore:cableGtSingleGraphene>], 	[<gregtech:meta_item_1:32645>, <ore:circuitMaster>, <gregtech:meta_item_1:32645>]]);
 
 
-RegisterMachine.CreateSimpleMachine(1405, "componentassembler",componentassembler, Overlays.get("assembler"), 5);
+var componentassembler = IRecipeMap.recipeMapBuilder("componentassembler", 0,9,0,1,0,3,0,0)
+	.setOverlaySlots(OverlaySlot.newOverlaySlot(false, false, false, GUITextures.get("circuit_overlay")))
+	.setProgressBar(GUITextures.get("progress_bar_bending"), MoveType.VERTICAL)
+	.build();
 
+RegisterMachine.CreateSimpleMachine(1404, "componentassembler.iv", componentassembler, Overlays.get("assembler"),5);
+RegisterMachine.CreateSimpleMachine(1405, "componentassembler.luv", componentassembler, Overlays.get("assembler"), 6);
+RegisterMachine.CreateSimpleMachine(1406, "componentassembler.zpm", componentassembler, Overlays.get("assembler"), 7);
 
 componentassembler.recipeBuilder()
 	.inputs(<gtadditions:ga_meta_item:2304>*32,<gregtech:meta_item_1:12304>*8,<gregtech:meta_item_2:19304>*4,<gregtech:cable:5200>*4,<contenttweaker:wrapofnaquadahfinewire>*4)
@@ -93,32 +96,3 @@ componentassembler.recipeBuilder()
 	.EUt(8000)
 	.buildAndRegister();
 	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
-
-
-
-
-
-
-
-
