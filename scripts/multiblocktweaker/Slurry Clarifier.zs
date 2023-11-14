@@ -24,12 +24,12 @@ import crafttweaker.oredict.IOreDictEntry;
 
 
 var loc = "slurry_clarifier";
-var meta = 1008;
+var meta = 10034;
 val slurry_clarifier = Builder.start(loc, meta)
     .withPattern(
             FactoryBlockPattern.start(RelativeDirection.RIGHT, RelativeDirection.BACK, RelativeDirection.UP)
                 .aisle(
-                    "~~~~~"
+                    "~~~~~",
                     "~CCC~",
                     "~CCC~",
                     "~CCC~",
@@ -48,15 +48,15 @@ val slurry_clarifier = Builder.start(loc, meta)
                     "~CCC~")
                 .aisle(
                     "~CCC~",
-                    "C~~~C",
-                    "C~~~C",
-                    "C~~~C",
+                    "CGGGC",
+                    "CGGGC",
+                    "CGGGC",
                     "~CCC~")
                 .aisle(
                     "~CCC~",
-                    "CGGGC",
-                    "CGGGC",
-                    "CGGGC",
+                    "C~~~C",
+                    "C~~~C",
+                    "C~~~C",
                     "~CCC~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
@@ -69,7 +69,7 @@ val slurry_clarifier = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
-                .where("G", <metastate:gtadditions:ga_transparent_casing:4>)
+                .where("G", <metastate:gregtech:multiblock_casing:1>)
                 .build())
         .addDesign(
                 FactoryMultiblockShapeInfo.start()
@@ -83,20 +83,20 @@ val slurry_clarifier = Builder.start(loc, meta)
                     " CCC ",
                     "C   C",
                     "C   C",
-                    "C   C",
-                    "CGGGC")
+                    "CGGGC",
+                    "C   C")
                 .aisle(
                     " CCC ",
                     "S   E",
                     "C   C",
-                    "C   C",
-                    "CGGGC")
+                    "CGGGC",
+                    "C   C")
                 .aisle(
                     " CCC ",
                     "C   C",
                     "C   C",
-                    "C   C",
-                    "CGGGC")
+                    "CGGGC",
+                    "C   C")
                 .aisle(
                     "     ",
                     " CCC ",
@@ -105,7 +105,7 @@ val slurry_clarifier = Builder.start(loc, meta)
                     " CCC ")
                 .where("C", <metastate:gregtech:metal_casing:5>)
                 .where("S", IBlockInfo.controller(loc))
-                .where("G", <metastate:gtadditions:ga_transparent_casing:4>)
+                .where("G", <metastate:gregtech:multiblock_casing:1>)
                 .where("L", MetaTileEntities.FLUID_IMPORT_HATCH[1], IFacing.south())
                 .where("X", MetaTileEntities.FLUID_EXPORT_HATCH[1], IFacing.north())
                 .where("E", MetaTileEntities.ENERGY_INPUT_HATCH[4], IFacing.east())
