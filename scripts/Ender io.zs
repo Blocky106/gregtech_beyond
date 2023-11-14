@@ -114,7 +114,6 @@ recipes.addShaped(<enderio:block_wired_charger>, [	[<ore:boltAluminium>, <gregte
 
 
 
-mods.recipestages.Recipes.addShaped("obsidian", <enderio:block_reinforced_obsidian>, [	[<ore:plateDenseTungsten>, <ore:gearTungsten>, <ore:plateDenseTungsten>], 	[<ore:gearTungsten>, <ore:blockObsidian>, <ore:gearTungsten>], 	[<ore:plateDenseTungsten>, <ore:gearTungsten>, <ore:plateDenseTungsten>]]);
 recipes.addShaped(<enderio:block_reinforced_obsidian>, [	[<ore:stickLongNaquadriaticTaranium>, <ore:blockNaquadriaticCompound>, <ore:stickLongNaquadriaticTaranium>], 	[<ore:blockNaquadriaticCompound>, <ore:obsidian>, <ore:blockNaquadriaticCompound>], [<ore:stickLongNaquadriaticTaranium>, <ore:blockNaquadriaticCompound>, <ore:stickLongNaquadriaticTaranium>]]);
 recipes.addShaped(<enderio:block_farm_station>, [	[<ore:circuitAdvanced>, <ore:toolHoe>, <ore:circuitAdvanced>], 	[<ore:gearIronInfinity>, <ore:frameGtIron>, <ore:gearIronInfinity>], 	[<ore:gearSmallAluminium>, <ore:itemEnhancedMachineChassi>, <ore:gearSmallAluminium>]]);
 recipes.addShaped(<enderio:item_capacitor_silver>, [	[<contenttweaker:silversteelgear>, <ore:gearSterlingSilver>, <contenttweaker:silversteelgear>], 	[<ore:plateSilver>, <enderio:item_basic_capacitor:1>, <ore:plateSilver>], 	[<ore:screwElectrum>, null, <ore:screwElectrum>]]);
