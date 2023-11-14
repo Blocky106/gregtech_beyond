@@ -1,0 +1,34 @@
+
+{
+  "ID": 51,
+  "Name": "Contaminated Ocean",
+  "Resource Location": "trinity:contaminated_ocean",
+  "Class": "trinity.world.BiomeContaminatedOcean",
+  "Root Height": 0.12,
+  "Height Variation": 0.02,
+  "Top Block": "nuclearcraft:wasteland_earth",
+  "Filler Block": "minecraft:cobblestone",
+  "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
+  "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Water Color": "5801106",
+  "Temperature": 2.0,
+  "Humidity": 0.5,
+  "Water Tint": 5801106,
+  "Enable Rain": true,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "OCEAN",
+    "WATER",
+    "DEAD"
+  ],
+  "BiomeManager Entries": {},
+  "Spawnable Creatures": [],
+  "Spawnable Monsters": [],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [],
+  "Spawn Biome": false,
+  "Tweaked": false
+}

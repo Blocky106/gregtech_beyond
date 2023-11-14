@@ -1,0 +1,32 @@
+
+{
+  "ID": 41,
+  "Name": "Spectral",
+  "Resource Location": "randomthings:spectral",
+  "Class": "lumien.randomthings.biomes.BiomeSpectral",
+  "Root Height": 0.1,
+  "Height Variation": 0.2,
+  "Top Block": "minecraft:grass[snowy\u003dfalse]",
+  "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
+  "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
+  "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Water Color": "-16711681",
+  "Temperature": 0.2,
+  "Humidity": 0.5,
+  "Water Tint": -16711681,
+  "Enable Rain": false,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "MAGICAL"
+  ],
+  "BiomeManager Entries": {},
+  "Spawnable Creatures": [],
+  "Spawnable Monsters": [],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [],
+  "Spawn Biome": false,
+  "Tweaked": false
+}
