@@ -29,7 +29,7 @@ val mega_alloy_blast_smelter = Builder.start(loc, meta)
     .withPattern(
             FactoryBlockPattern.start(RelativeDirection.RIGHT, RelativeDirection.BACK, RelativeDirection.UP)
                 .aisle(
-                    "~~CCECC~~",
+                    "~~CCCCC~~",
                     "~CCCCCCC~",
                     "CCCCCCCCC",
                     "CCCCCCCCC",
