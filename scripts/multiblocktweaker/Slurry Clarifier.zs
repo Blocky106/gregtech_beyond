@@ -114,10 +114,19 @@ val slurry_clarifier = Builder.start(loc, meta)
         FactoryRecipeMap.start(loc)
                         .maxInputs(1)
                         .maxFluidInputs(1)
-                        .maxFluidOutputs(1)
-                        .maxOutputs(1)
+                        .maxFluidOutputs(2)
+                        .maxOutputs(6)
                         .build())
 .withTexture(ICubeRenderer.sided("contenttweaker:blocks/machine_casing_clean_stainless_steel"))
 .withZoom(0.5f)
 
 .buildAndRegister() as Multiblock;
+
+slurry_clarifier.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:wolframiteslurry>*1000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .outputs(<gregtech:meta_item_1:2074>*2,<nuclearcraft:dust:15>*8,<gregtech:meta_item_1:2033>)
+    .fluidOutputs(<liquid:wastewater>*200)
+    .duration(800)
+    .EUt(240)
+    .buildAndRegister();

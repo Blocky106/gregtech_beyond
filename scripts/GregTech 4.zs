@@ -575,13 +575,25 @@ ebf.recipeBuilder()
     .buildAndRegister();
 
 
+electrolyzer.findRecipe(1920,[<gregtech:meta_item_1:2615>*12],null).remove();
 
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:hydrogen>*1200)
+    .inputs(<gregicalityoreaddon:gaoe_oredict_item:2010>*2)
+    .fluidOutputs(<liquid:hydrofluoric_acid>*2000)
+    .outputs(<gtadditions:ga_dust:32137>)
+    .EUt(3280)
+    .duration(580)
+    .buildAndRegister();
 
-
-
-
-
-
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:hydrogen>*1200)
+    .inputs(<gregicalityoreaddon:gaoe_oredict_item:2010>*2)
+    .fluidOutputs(<liquid:hydrofluoric_acid>*2000)
+    .outputs(<gtadditions:ga_dust:32137>)
+    .EUt(3280)
+    .duration(580)
+    .buildAndRegister();
 
 
 

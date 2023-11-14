@@ -233,5 +233,15 @@ astro_mining_station.recipeMap.recipeBuilder()
     .duration(200)
     .buildAndRegister();
 
+astro_mining_station.recipeMap.recipeBuilder()
+    .notConsumable(<contenttweaker:astro_miner>)
+    .notConsumable(<contenttweaker:mars>)
+    .notConsumable(<gregtech:meta_item_1:32766>)
+    .outputs(<gregtech:ore_wolframite_0>*2,<gregtech:ore_molybdenite_0>*2,<gregtech:ore_scheelite_0>*2)
+    .fluidInputs(<liquid:drilling_fluid>*16000)
+    .EUt(1200)
+    .duration(300)
+    .buildAndRegister();
+
 
 

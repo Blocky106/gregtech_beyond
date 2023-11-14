@@ -403,6 +403,8 @@ util.registerDust("liquid_wet_tailing", 32133, 0x5D5A5A, "DULL");
 util.registerDust("solid_wet_tailing", 32134, 0x5D5A5A, "DULL");
 util.registerDust("solid_dry_tailing", 32135, 0x5D5A5A, "DULL");
 util.registerDust("limestone", 32136, 0xBBB79C, "DULL");
+util.registerDust("sodiumsilicate", 32137, 0x8B8D8B, "SHINY");
+
 
 
 
@@ -650,6 +652,9 @@ util.registerFluid("unrefinedkevlar",0xFFEB3B);
 util.registerFluid("thoriumleachsolution",0x06521c);
 util.registerFluid("ic2coolant",0x2f6bb5);
 util.registerFluid("teflon",0xa1a1a1);
+util.registerFluid("wolframiteimpureslurry",0x39593C);
+util.registerFluid("wolframiteslurry",0x355D38);
+
 
 
 

@@ -366,4 +366,24 @@ froth_flotation_cell.recipeMap.recipeBuilder()
     .duration(280)
     .EUt(480)
     .buildAndRegister();
-    
+
+froth_flotation_cell.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:5154>*5)
+    .outputs(<gtadditions:ga_dust:32135>)
+    .fluidInputs(<liquid:froth_flotation_fluid>*100,<liquid:water>*32000)
+    .notConsumable(<gregtech:meta_item_1:2595>*3)
+    .notConsumable(<gregtech:meta_item_1:2526>*1)
+    .notConsumable(<liquid:oleic_acid>*200)
+    .notConsumable(<gtadditions:ga_dust:32137>*2)
+    .fluidOutputs(<liquid:used_froth_flotation_fluid>*200,<liquid:wolframiteimpureslurry>*1000)
+    .duration(280)
+    .EUt(480)
+    .buildAndRegister();
+
+froth_flotation_cell.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:wolframiteimpureslurry>*1000,<liquid:water>*4000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .fluidOutputs(<liquid:wolframiteslurry>*1000,<liquid:wastewater>*3000)
+    .duration(280)
+    .EUt(480)
+    .buildAndRegister();
