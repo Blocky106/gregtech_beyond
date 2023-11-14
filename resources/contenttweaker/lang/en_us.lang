@@ -1209,7 +1209,7 @@ fluid.rheniiteslurry=Rheniite Slurry
 fluid.sphaleriteslurry=Sphalerite Slurry
 recipemap.froth_flotation_cell.name=Froth Flotation
 item.contenttweaker.living_bio_chip.name=Living Bio Chip
-
-
-
-
+multiblocktweaker.machine.slurry_clarifier.name=Slurry Clarifier
+recipemap.slurry_clarifier.name=Clarifying
+metaitem.limestone.name=Limestone Dust
+item.contenttweaker.monocrystalline_seed_crystal.name=Monocrystalline Seed Crystal
