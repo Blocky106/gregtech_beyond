@@ -595,7 +595,16 @@ lcr.recipeBuilder()
     .duration(580)
     .buildAndRegister();
 
+Utils.removeRecipeByOutput(assembler, [<gtadditions:ga_multiblock_casing:1>], [], false);
 
+assembler.recipeBuilder()
+    .fluidInputs(<liquid:polytetrafluoroethylene>*288)
+    .inputs(<gregtech:metal_casing:4>)
+    .outputs(<gtadditions:ga_multiblock_casing:1>)
+    .duration(40)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 30}))
+    .EUt(240)
+    .buildAndRegister();
 
 
 
