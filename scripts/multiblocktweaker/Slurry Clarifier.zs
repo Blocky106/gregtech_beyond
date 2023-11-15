@@ -130,3 +130,182 @@ slurry_clarifier.recipeMap.recipeBuilder()
     .duration(800)
     .EUt(240)
     .buildAndRegister();
+
+slurry_clarifier.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:cinnabarslurry>*1000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .chancedOutput(<gregtech:meta_item_1:2016>, 2000, 100)
+    .outputs(<gregtech:meta_item_1:2065>*2,<minecraft:redstone>*4)
+    .fluidOutputs(<liquid:wastewater>*200,<liquid:mercury>*576)
+    .duration(800)
+    .EUt(240)
+    .buildAndRegister();
+
+slurry_clarifier.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:sphaleriteslurry>*1000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .chancedOutput(<gregtech:meta_item_1:2244>, 2000, 100)
+    .outputs(<gregtech:meta_item_1:2025>*3,<gregtech:meta_item_1:2182>,<gregtech:meta_item_1:2079>*2,<gregtech:meta_item_1:2013>*2)
+    .fluidOutputs(<liquid:wastewater>*200)
+    .duration(800)
+    .EUt(240)
+    .buildAndRegister();
+
+slurry_clarifier.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:aikiniteslurry>*1000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .outputs(<gregtech:meta_item_1:2601>*3,<gregtech:meta_item_1:2114>,<gregtech:meta_item_1:2100>*2)
+    .fluidOutputs(<liquid:wastewater>*200)
+    .duration(800)
+    .EUt(240)
+    .buildAndRegister();
+
+slurry_clarifier.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:chalcopyriteslurry>*2000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .outputs(<gregtech:meta_item_1:2827>*3,<gregtech:meta_item_1:2017>*2,<gregtech:meta_item_1:2148>*2,<gregtech:meta_item_1:2100>*2)
+    .fluidOutputs(<liquid:wastewater>*200)
+    .duration(800)
+    .EUt(240)
+    .buildAndRegister();
+
+slurry_clarifier.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:borniteslurry>*2000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .outputs(<gregtech:meta_item_1:2827>*2,<gregtech:meta_item_1:2148>,<gregtech:meta_item_1:2017>*2,<gregtech:meta_item_1:2360>)
+    .fluidOutputs(<liquid:wastewater>*200)
+    .duration(800)
+    .EUt(240)
+    .buildAndRegister();
+
+slurry_clarifier.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:molybdeniteslurry>*1000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .outputs(<gregtech:meta_item_1:2041>*2,<gregtech:meta_item_1:2132>*4,<gtadditions:ga_dust:192>)
+    .fluidOutputs(<liquid:wastewater>*200)
+    .duration(800)
+    .EUt(240)
+    .buildAndRegister();
+
+slurry_clarifier.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:pyriteslurry>*1000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .outputs(<gregtech:meta_item_1:2065>*2,<gregtech:meta_item_1:2148>,<gregtech:meta_item_1:2239>*3,<gtadditions:ga_dust:192>*2)
+    .fluidOutputs(<liquid:wastewater>*200)
+    .duration(800)
+    .EUt(240)
+    .buildAndRegister();
+
+slurry_clarifier.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:enargiteslurry>*1000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .outputs(<gregtech:meta_item_1:2148>*2,<gregtech:meta_item_1:2079>,<gregtech:meta_item_1:2362>*3)
+    .fluidOutputs(<liquid:wastewater>*200)
+    .duration(800)
+    .EUt(240)
+    .buildAndRegister();
+
+slurry_clarifier.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:stibniteslurry>*1000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .outputs(<gregtech:meta_item_1:2003>*2,<gregtech:meta_item_1:2185>,<gregtech:meta_item_1:2065>*3)
+    .fluidOutputs(<liquid:wastewater>*200)
+    .duration(800)
+    .EUt(240)
+    .buildAndRegister();
+
+slurry_clarifier.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:carroliteslurry>*1000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .outputs(<gregtech:meta_item_1:2271>*2,<gregtech:meta_item_1:2079>*2,<gregtech:meta_item_1:2614>*3,<gregtech:meta_item_1:2018>)
+    .fluidOutputs(<liquid:wastewater>*200)
+    .duration(800)
+    .EUt(240)
+    .buildAndRegister();
+
+slurry_clarifier.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:arsenopyriteslurry>*1000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .outputs(<gregtech:meta_item_1:2107>*2,<gregtech:meta_item_1:2033>,<gregtech:meta_item_1:2668>*3)
+    .fluidOutputs(<liquid:wastewater>*200)
+    .duration(800)
+    .EUt(240)
+    .buildAndRegister();
+
+slurry_clarifier.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:cobaltiteslurry>*1000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .outputs(<gregtech:meta_item_1:2017>*2,<gregtech:meta_item_1:2033>,<gregtech:meta_item_1:2107>*2)
+    .fluidOutputs(<liquid:wastewater>*200)
+    .duration(800)
+    .EUt(240)
+    .buildAndRegister();
+
+slurry_clarifier.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:rheniiteslurry>*1000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .outputs(<gregtech:meta_item_1:2108>*5,<gregtech:meta_item_1:2132>,<gregtech:meta_item_1:2611>*2)
+    .fluidOutputs(<liquid:wastewater>*200)
+    .duration(800)
+    .EUt(240)
+    .buildAndRegister();
+
+slurry_clarifier.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:sheldoniteslurry>*1000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .outputs(<gregtech:meta_item_1:2894>,<gregtech:meta_item_1:2877>*2,<gregtech:meta_item_1:2044>,<gregtech:meta_item_1:2108>*3)
+    .fluidOutputs(<liquid:wastewater>*200)
+    .duration(800)
+    .EUt(240)
+    .buildAndRegister();
+
+slurry_clarifier.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:sylvaniteslurry>*1000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .chancedOutput(<gregtech:meta_item_1:2067>, 2000, 0)
+    .outputs(<gregtech:meta_item_1:2609>*2,<gregtech:meta_item_1:2062>,<gregtech:meta_item_1:2827>*2)
+    .fluidOutputs(<liquid:wastewater>*200)
+    .duration(800)
+    .EUt(240)
+    .buildAndRegister();
+
+slurry_clarifier.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:galliteslurry>*1000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .outputs(<gregtech:meta_item_1:2018>,<gregtech:meta_item_1:2065>*2,<gregtech:meta_item_1:2667>,<gregtech:meta_item_1:2025>*3)
+    .fluidOutputs(<liquid:wastewater>*200)
+    .duration(800)
+    .EUt(240)
+    .buildAndRegister();
+
+slurry_clarifier.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:bowieiteslurry>*1000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .outputs(<gregtech:meta_item_1:2900>*2,<gregtech:meta_item_1:2666>*3,<gregtech:meta_item_1:2868>,<gregtech:meta_item_1:2044>*2)
+    .fluidOutputs(<liquid:wastewater>*200)
+    .duration(800)
+    .EUt(240)
+    .buildAndRegister();
+
+slurry_clarifier.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:stanniteslurry>*1000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .outputs(<gregtech:meta_item_1:2182>*5,<gregtech:meta_item_1:2188>*3,<gregtech:meta_item_1:2071>,<gregtech:meta_item_1:2608>*2)
+    .fluidOutputs(<liquid:wastewater>*200)
+    .duration(800)
+    .EUt(240)
+    .buildAndRegister();
+
+slurry_clarifier.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:tennaniteslurry>*1000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .outputs(<gregtech:meta_item_1:2363>*4,<gregtech:meta_item_1:2003>*2,<gregtech:meta_item_1:2033>*3)
+    .fluidOutputs(<liquid:wastewater>*200)
+    .duration(800)
+    .EUt(240)
+    .buildAndRegister();
+
+
+
+
+
