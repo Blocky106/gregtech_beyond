@@ -1350,7 +1350,7 @@ autoclave.recipeBuilder()
     .buildAndRegister();
 
 fluidExtractor.recipeBuilder()
-    .inputs(<gtadditions:ga_dust:32121>)
+    .inputs(<gtadditions:ga_dust:32122>)
     .fluidOutputs(<liquid:moltencelananocarbides>*1000)
     .duration(500)
     .EUt(35000)
@@ -2588,7 +2588,7 @@ cas.recipeBuilder()
 ebf.findRecipe(120,[<gregtech:meta_item_1:2061>*32,<gregtech:meta_item_1:1410>],null).remove();
 
 ebf.recipeBuilder()
-    .inputs(<gregtech:meta_item_1:2061>*32,<gregtech:meta_item_1:2410>)
+    .inputs(<gregtech:meta_item_1:2061>*32,<gregtech:meta_item_1:2410>,<contenttweaker:monocrystalline_seed_crystal>)
     .outputs(<gregtech:meta_item_2:32439>)
     .property("temperature", 1784)
     .duration(9000)
@@ -2596,7 +2596,7 @@ ebf.recipeBuilder()
     .buildAndRegister();
 
 ebf.recipeBuilder()
-    .inputs(<gregtech:meta_item_1:2061>*32,<gregtech:meta_item_1:2410>)
+    .inputs(<gregtech:meta_item_1:2061>*32,<gregtech:meta_item_1:2410>,<contenttweaker:monocrystalline_seed_crystal>)
     .fluidInputs(<liquid:nitrogen>*1000)
     .outputs(<gregtech:meta_item_2:32439>)
     .property("temperature", 1784)
@@ -2605,7 +2605,7 @@ ebf.recipeBuilder()
     .buildAndRegister();
 
 ebf.recipeBuilder()
-    .inputs(<gregtech:meta_item_1:2061>*32,<gregtech:meta_item_1:2410>)
+    .inputs(<gregtech:meta_item_1:2061>*32,<gregtech:meta_item_1:2410>,<contenttweaker:monocrystalline_seed_crystal>)
     .fluidInputs(<liquid:argon>*1000)
     .outputs(<gregtech:meta_item_2:32439>)
     .property("temperature", 1784)

@@ -1570,7 +1570,7 @@ assembler.recipeBuilder()
 chemReactor.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2061>)
     .fluidInputs(<liquid:iron_chloride>*200)
-    .outputs(<gtadditions:ga_dust:32049>)
+    .outputs(<gtadditions:ga_dust:32049>*2)
     .duration(200)
     .EUt(12)
     .buildAndRegister();
@@ -1578,11 +1578,10 @@ chemReactor.recipeBuilder()
 lcr.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2061>)
     .fluidInputs(<liquid:iron_chloride>*200)
-    .outputs(<gtadditions:ga_dust:32049>)
+    .outputs(<gtadditions:ga_dust:32049>*2)
     .duration(200)
     .EUt(12)
     .buildAndRegister();
-
 
 assembly_line.recipeBuilder()
     .inputs(<gregtech:meta_item_1:12558>*16,<gregtech:fluid_pipe:3018>*64,<gregtech:frame_neutronium>*32,<gregtech:fluid_pipe:3018>*64,<gtadditions:ga_fusion_casing:1>,<gregtech:fluid_pipe:3018>*64,<gregtech:fluid_pipe:3018>*64,<gtadditions:ga_meta_item:32371>*2,<gtadditions:ga_meta_item:32395>*2)
