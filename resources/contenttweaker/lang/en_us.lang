@@ -1213,3 +1213,24 @@ multiblocktweaker.machine.slurry_clarifier.name=Slurry Clarifier
 recipemap.slurry_clarifier.name=Clarifying
 metaitem.limestone.name=Limestone Dust
 item.contenttweaker.monocrystalline_seed_crystal.name=Monocrystalline Seed Crystal
+metaitem.sodiumsilicate.name=Sodium Silicate
+fluid.wolframiteimpureslurry=Impure Wolframite Slurry
+fluid.wolframiteslurry=Wolframite Slurry
+devtech.machine.fisher.ev.name=Advanced Fisher III
+devtech.machine.fisher.iv.name=Elite Fisher
+devtech.machine.fisher.luv.name=Elite Fisher II
+devtech.machine.fisher.zpm.name=Elite Fisher III
+devtech.machine.scanner.iv.name=Elite Scanner 
+devtech.machine.scanner.luv.name=Elite Scanner II
+devtech.machine.vacuum_ejection_chamber.lv.name=Basic Vacuum Ejection Chamber
+devtech.machine.vacuum_ejection_chamber.mv.name=Advanced Vacuum Ejection Chamber
+
+
+
+
+
+
+
+
+
+
