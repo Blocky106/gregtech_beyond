@@ -1224,8 +1224,9 @@ devtech.machine.scanner.iv.name=Elite Scanner
 devtech.machine.scanner.luv.name=Elite Scanner II
 devtech.machine.vacuum_ejection_chamber.lv.name=Basic Vacuum Ejection Chamber
 devtech.machine.vacuum_ejection_chamber.mv.name=Advanced Vacuum Ejection Chamber
-
-
+fluid.moltennichromerichblend=Molten Nichrome Rich Blend
+recipemap.fermentation_vat.name=Fermentation Vat
+multiblocktweaker.machine.mega_alloy_blast_smelter.name=Mega Alloy Blast Smelter
 
 
 

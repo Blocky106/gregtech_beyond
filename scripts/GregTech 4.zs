@@ -606,20 +606,66 @@ assembler.recipeBuilder()
     .EUt(240)
     .buildAndRegister();
 
+chemical_bath.recipeBuilder()
+    .fluidInputs(<liquid:moltennichromerichblend>*144)
+    .notConsumable(<gregtech:meta_item_1:32306>)
+    .outputs(<gregtech:meta_item_1:10133>)
+    .duration(80)
+    .EUt(120)
+    .buildAndRegister();
 
+chemical_bath.recipeBuilder()
+    .fluidInputs(<liquid:moltennichromerichblend>*144)
+    .notConsumable(<gregtech:meta_item_1:32301>)
+    .outputs(<gregtech:meta_item_1:12133>)
+    .duration(80)
+    .EUt(120)
+    .buildAndRegister();
 
+ebf.findRecipe(480,[<gregtech:meta_item_1:10044>*4,<gregtech:meta_item_1:10016>],null).remove();
 
+ebf.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2044>*4,<gregtech:meta_item_1:10016>)
+    .outputs(<gregtech:meta_item_1:2110>)
+    .fluidOutputs(<liquid:moltennichromerichblend>*720)
+    .property("temperature", 2700)
+    .EUt(480)
+    .duration(100)
+    .buildAndRegister();
 
+ebf.recipeBuilder() 
+    .inputs(<gtadditions:ga_dust:32005>)
+    .outputs(<gregtech:meta_item_1:2110>)
+    .fluidOutputs(<liquid:moltennichromerichblend>*144)
+    .property("temperature", 2700)
+    .duration(200)
+    .EUt(220)
+    .buildAndRegister();
 
+electrolyzer.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:32019>)
+    .fluidOutputs(<liquid:chlorine>*4000)
+    .outputs(<gregtech:meta_item_1:2072>)
+    .duration(200)
+    .EUt(520)
+    .buildAndRegister();
 
+ebf.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2900>)
+    .outputs(<gregtech:meta_item_1:9051>)
+    .duration(400)
+    .EUt(1200)
+    .property("temperature", 2600)
+    .buildAndRegister();
 
-
-
-
-
-
-
-
+ebf.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:10071>,<contenttweaker:silveralloyingot>)
+    .outputs(<nuclearcraft:alloy:8>)
+    .duration(400)
+    .EUt(24)
+    .property("temperature", 800)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 4}))
+    .buildAndRegister();
 
 
 

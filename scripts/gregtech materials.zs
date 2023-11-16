@@ -425,6 +425,7 @@ util.registerDust("sodiumsilicate", 32137, 0x8B8D8B, "SHINY");
 
 
 
+util.registerFluid("moltennichromerichblend", 0xCECDCD);
 util.registerFluid("eternity", 0x46008b);
 util.registerFluid("used_froth_flotation_fluid",0x281D1D);
 util.registerFluid("galliteslurry",0x525066);
