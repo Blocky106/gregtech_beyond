@@ -160,6 +160,16 @@ val mega_alloy_blast_smelter = Builder.start(loc, meta)
                     "~~~~~~~~~")
                 .aisle(
                     "~~~~~~~~~",
+                    "~~~GGG~~~",
+                    "~~GRRRG~~",
+                    "~GR~~~RG~",
+                    "~GR~~~RG~",
+                    "~GR~~~RG~",
+                    "~~GRRRG~~",
+                    "~~~GGG~~~",
+                    "~~~~~~~~~")
+                .aisle(
+                    "~~~~~~~~~",
                     "~~CCCCC~~",
                     "~CCCCCCC~",
                     "~CCCCCCC~",
