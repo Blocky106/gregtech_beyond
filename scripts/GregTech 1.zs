@@ -459,17 +459,9 @@ chemical_bath.recipeBuilder()
 
 mixer.recipeBuilder()
 	.inputs(<gregtech:meta_item_1:2044> * 4,<gregtech:meta_item_1:2016>,<gregtech:meta_item_1:2018>)  
-	.outputs(<gtadditions:ga_dust:32005>)
+	.outputs(<gtadditions:ga_dust:32005>*6)
 	.duration(180)
 	.EUt(420)
-	.buildAndRegister();
-
-chemReactor.recipeBuilder()
-	.inputs(<gtadditions:ga_dust:32005>)
-	.fluidInputs(<liquid:chlorine> * 500)
-	.outputs(<gregtech:meta_item_1:2133>,<gregtech:meta_item_1:2705>)
-	.duration(240)
-	.EUt(456)
 	.buildAndRegister();
 
 mixer.recipeBuilder()
