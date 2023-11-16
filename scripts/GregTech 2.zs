@@ -1026,14 +1026,6 @@ lcr.recipeBuilder()
 	.buildAndRegister();
 
 lcr.recipeBuilder()
-	.inputs(<gtadditions:ga_dust:32005>)
-	.fluidInputs(<liquid:chlorine> * 500)
-	.outputs(<gregtech:meta_item_1:2133>)
-	.duration(240)
-	.EUt(456)
-	.buildAndRegister();
-
-lcr.recipeBuilder()
 	.inputs(<gtadditions:ga_dust:32019>)
 	.fluidInputs(<liquid:titanyl_sulfate> * 800)
 	.outputs(<gregtech:meta_item_1:2072>*2)
