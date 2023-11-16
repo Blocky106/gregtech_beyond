@@ -1776,3 +1776,11 @@ machine_casing_robust_tungstensteel.register();
 
 var monocrystalline_seed_crystal = VanillaFactory.createItem("monocrystalline_seed_crystal");
 monocrystalline_seed_crystal.register();
+
+var zirconium_carbide = VanillaFactory.createBlock("zirconium_carbide", <blockmaterial:rock>);
+zirconium_carbide.setBlockHardness(12.0);
+zirconium_carbide.setBlockResistance(10.0);
+zirconium_carbide.setToolClass("pickaxe");
+zirconium_carbide.setToolLevel(2);
+zirconium_carbide.setBlockSoundType(<soundtype:metal>);
+zirconium_carbide.register();
