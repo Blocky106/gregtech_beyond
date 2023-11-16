@@ -626,7 +626,7 @@ assembly_line.recipeBuilder()
     .buildAndRegister();
 
 assembly_line.recipeBuilder()
-    .inputs(<gregtech:meta_item_1:19391>*32,<contenttweaker:biowaremainchip>*4,<gregtech:meta_item_2:16308>*16,<gtadditions:ga_meta_item:32018>*4,<gtadditions:ga_meta_item:32405>*2,<gtadditions:ga_meta_item:32406>*2,<gtadditions:ga_meta_item:32407>*2,<gtadditions:ga_meta_item:32405>*2,<gtadditions:ga_meta_item:32411>)
+    .inputs(<gregtech:meta_item_1:19391>*32,<contenttweaker:biowaremainchip>,<gregtech:meta_item_2:16308>*16,<gtadditions:ga_meta_item:32018>*4,<gtadditions:ga_meta_item:32405>*2,<gtadditions:ga_meta_item:32406>*2,<gtadditions:ga_meta_item:32407>*2,<gtadditions:ga_meta_item:32405>*2,<gtadditions:ga_meta_item:32411>)
     .fluidInputs(<liquid:tritanium>*144,<liquid:raw_growth_medium>*4000)
     .duration(200)   
     .EUt(491520)
@@ -647,7 +647,6 @@ assembly_line.recipeBuilder()
     .duration(800)
     .EUt(12000)
     .buildAndRegister();
-
 
 recipes.addShaped(<contenttweaker:stemcellcontainmentcell>, [	[<contenttweaker:containment_plating>, <contenttweaker:containment_plating>, <contenttweaker:containment_plating>], 	[<contenttweaker:containment_plating>, <contenttweaker:containment_box>, <contenttweaker:containment_plating>], 	[<contenttweaker:containment_plating>, <contenttweaker:containment_plating>, <contenttweaker:containment_plating>]]);
 
@@ -734,7 +733,6 @@ wiremill.recipeBuilder()
     .duration(200)
     .EUt(1980)
     .buildAndRegister();
-
 
 furnace.remove(<gregtech:meta_item_1:10519>);
 
@@ -895,7 +893,6 @@ vacfreezer.findRecipe(120, [<gregtech:meta_item_1:11883>],null).remove();
 vacfreezer.findRecipe(120, [<gregtech:meta_item_1:11047>],null).remove();
 vacfreezer.findRecipe(120, [<gregtech:meta_item_1:11854>],null).remove();
 
-
 vacfreezer.recipeBuilder()
     .inputs(<gregtech:meta_item_1:11032>)
     .outputs(<gregtech:meta_item_1:10032>)
@@ -1004,7 +1001,6 @@ ebf.recipeBuilder()
     .duration(4000)
     .EUt(600)
     .buildAndRegister();
-
 
 furnace.remove(<gregtech:meta_item_1:10527>);
 furnace.remove(<gregtech:meta_item_1:9527>);
@@ -3355,6 +3351,7 @@ lcr.recipeBuilder()
     .buildAndRegister();
 
 lcr.recipeBuilder() 
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 10}))
     .fluidInputs(<liquid:impureferrocenemixture>*7500,<liquid:ether>*1000)
     .fluidOutputs(<liquid:ferrocenewaste>*7500,<liquid:ferrocenesolution>*1000)
     .duration(20)
@@ -3362,6 +3359,7 @@ lcr.recipeBuilder()
     .buildAndRegister();
 
 chemReactor.recipeBuilder() 
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 10}))
     .fluidInputs(<liquid:impureferrocenemixture>*7500,<liquid:ether>*1000)
     .fluidOutputs(<liquid:ferrocenewaste>*7500,<liquid:ferrocenesolution>*1000)
     .duration(20)
