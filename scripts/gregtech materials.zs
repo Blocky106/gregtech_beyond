@@ -687,8 +687,9 @@ util.registerFluid("wolframiteslurry",0x355D38);
 
 
 
+<material:a>.addFlags(["GENERATE_FLUID_BLOCK"]);
 <material:emerald>.addFlags(["GENERATE_FLUID_BLOCK"]);
-<material:americium>.addFlags(["GENERATE_FINE_WIRE"]);
+<material:americium>.addFlags(["GENERATE_FINE_WIRE","GENERATE_SCREW"]);
 <material:cosmic_neutronium>.addFlags(["GENERATE_PLASMA"]);
 <material:neutronium>.addFlags(["GENERATE_PLASMA"]);
 <material:periodicium>.addFlags(["GENERATE_PLASMA"]);
