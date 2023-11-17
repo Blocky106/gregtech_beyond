@@ -265,6 +265,11 @@ recipes.removeByRecipeName("extrautils2:shortcut_stick");
 
 recipes.addShaped(<extrautils2:largishchest>, [	[<randomthings:blockofsticks>, <randomthings:blockofsticks>, <randomthings:blockofsticks>], 	[<randomthings:blockofsticks>, <ore:chest>, <randomthings:blockofsticks>], 	[<randomthings:blockofsticks>, <randomthings:blockofsticks>, <randomthings:blockofsticks>]]);
 
-
+recipes.addShaped(<extrautils2:trashcan>, [ [null, <gregtech:meta_item_1:12184>, null],[<gregtech:meta_item_1:12184>, <gregtech:machine:2197>, <gregtech:meta_item_1:12184>], [null,null, null]]);
+recipes.addShaped(<extrautils2:trashcanenergy>, [ [null, <gregtech:meta_item_1:12184>, null],[<gregtech:meta_item_1:12184>, <gregtech:meta_item_2:19018>, <gregtech:meta_item_1:12184>], [null,null, null]]);
+recipes.addShaped(<extrautils2:trashcanfluid>, [ [null, <gregtech:meta_item_1:12184>, null],[<gregtech:meta_item_1:12184>, <gregtech:machine:803>, <gregtech:meta_item_1:12184>], [null, null, null]]);
+recipes.remove(<extrautils2:trashcan>);
+recipes.remove(<extrautils2:trashcanenergy>);
+recipes.remove(<extrautils2:trashcanfluid>);
 
 

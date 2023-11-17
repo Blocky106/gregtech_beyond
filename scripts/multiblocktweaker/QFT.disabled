@@ -50,11 +50,11 @@ val intelligent_multi_tank = Builder.start(loc, meta)
                     "~~~A~~~A~~~A~~~",
                     "~~AAA~~~~~AAA~~",
                     "~~~A~~~~~~~A~~~",
-                    "~~~~~~~A~~~~~~~",
-                    "~A~~~~AAA~~~~A~",
+                    "~~~~~~AAA~~~~~~",
+                    "~A~~~AAAAA~~~A~",
                     "AAA~~AAAAA~~AAA",
-                    "~A~~~~AAA~~~~A~",
-                    "~~~~~~~S~~~~~~~",
+                    "~A~~~AAAAA~~~A~",
+                    "~~~~~~ASA~~~~~~",
                     "~~~A~~~~~~~A~~~",
                     "~~AAA~~~~~AAA~~",
                     "~~~A~~~A~~~A~~~",
@@ -130,11 +130,11 @@ val intelligent_multi_tank = Builder.start(loc, meta)
                     "~~~A~~~A~~~A~~~",
                     "~~AAA~~~~~AAA~~",
                     "~~~A~~~~~~~A~~~",
-                    "~~~~~~~A~~~~~~~",
-                    "~A~~~~AAA~~~~A~",
+                    "~~~~~~AAA~~~~~~",
+                    "~A~~~AAAAA~~~A~",
                     "AAA~~AAAAA~~AAA",
-                    "~A~~~~AAA~~~~A~",
-                    "~~~~~~~A~~~~~~~",
+                    "~A~~~AAAAA~~~A~",
+                    "~~~~~~AAA~~~~~~",
                     "~~~A~~~~~~~A~~~",
                     "~~AAA~~~~~AAA~~",
                     "~~~A~~~A~~~A~~~",
@@ -156,6 +156,7 @@ val intelligent_multi_tank = Builder.start(loc, meta)
                     "~~CCCCCCCCCCC~~",
                     "~~~CCCCCCCCC~~~",
                     "~~~~~CCCCC~~~~~")
+
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
                 .whereOr("A", 
@@ -210,6 +211,15 @@ val intelligent_multi_tank = Builder.start(loc, meta)
                     "   A       A   ",
                     " CCCCCCCCCCCCC ")
                 .aisle(
+                    " CCCCCCCCCCCCC ",
+                    "               ",
+                    "               ",
+                    "               ",
+                    "               ",
+                    "               ",
+                    "               ",
+                    " CCCCCCCCCCCCC ")
+                .aisle(
                     "CCCCCCCCCCCCCCC",
                     "      AAA      ",
                     "               ",
@@ -217,7 +227,7 @@ val intelligent_multi_tank = Builder.start(loc, meta)
                     "               ",
                     "               ",
                     "      AAA      ",
-                    " CCCCCCCCCCCCC ")
+                    "CCCCCCCCCCCCCCC")
                 .aisle(
                     "CCCCCCCCCCCCCCC",
                     " A   AAAAA   A ",
@@ -253,6 +263,15 @@ val intelligent_multi_tank = Builder.start(loc, meta)
                     "               ",
                     "               ",
                     "      AAA      ",
+                    " CCCCCCCCCCCCC ")
+                .aisle(
+                    " CCCCCCCCCCCCC ",
+                    "               ",
+                    "               ",
+                    "               ",
+                    "               ",
+                    "               ",
+                    "               ",
                     " CCCCCCCCCCCCC ")
                 .aisle(
                     " CCCCCCCCCCCCC ",
