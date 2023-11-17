@@ -20,7 +20,7 @@ import mods.devtech.OverlayRenderer;
 import mods.gtadditions.recipe.GARecipeMaps;
 
 
-var vacuum_ejection_chamber = IRecipeMap.recipeMapBuilder("vacuum_ejection_chamber",1,0,1,0,0,0,0,0)
+var vacuum_ejection_chamber = IRecipeMap.recipeMapBuilder("vacuum_ejection_chamber",1,1,1,1,0,0,0,0)
     .setOverlaySlots(OverlaySlot.newOverlaySlot(false, false,false,GUITextures.get("crystal_overlay")))
     .setProgressBar(GUITextures.get("progress_bar_bending"), MoveType.VERTICAL)
     .build();
@@ -36,7 +36,15 @@ vacuum_ejection_chamber.recipeBuilder()
     .buildAndRegister();
 
 
+recipes.addShaped(<gregtech:machine:1416>, [
+	[<gregtech:meta_item_1:32640>, <gregtech:meta_item_1:32680>, <gregtech:meta_item_1:32640>], 
+	[<ore:wireGtSingleLead>, <gregtech:machine:501>, <ore:wireGtSingleLead>], 
+	[<ore:circuitBasic>, <ore:cableGtSingleTin>, <ore:circuitBasic>]
+]);
 
-
-
+recipes.addShaped(<gregtech:machine:1417>, [
+	[<gregtech:meta_item_1:32641>, <gregtech:meta_item_1:32681>, <gregtech:meta_item_1:32641>], 
+	[<ore:wireGtSingleLead>, <gregtech:machine:502>, <ore:wireGtSingleLead>], 
+	[<ore:circuitGood>, <ore:cableGtSingleCopper>, <ore:circuitGood>]
+]);
 
