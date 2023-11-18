@@ -144,3 +144,11 @@ mods.tconstruct.Melting.removeRecipe(<liquid:taranium>);
 mods.tconstruct.Melting.removeRecipe(<liquid:tritanium>);
 mods.tconstruct.Melting.removeRecipe(<liquid:seaborgium>);
 mods.tconstruct.Melting.removeRecipe(<liquid:stainless_steel>);
+
+recipes.remove(<tconstruct:materials:14>);
+recipes.addShaped(<tconstruct:materials:14>, [	[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>], 	[<ore:plateSteel>, <ore:cast>, <ore:plateSteel>], 	[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
+recipes.addShapeless(<minecraft:stone_button>,[<minecraft:stone>,<gregtech:meta_tool:5>]);
+
+
+
+
