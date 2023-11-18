@@ -260,8 +260,15 @@ potassiumethylxantate.addFlags(["GENERATE_PLATE"]);
 val kaptonk = MaterialRegistry.createDustMaterial(578,"kaptonk",0x372927,"DULL",3);
 kaptonk.addFlags(["GENERATE_PLATE"]);
 
-val modularium = MaterialRegistry.createDustMaterial(596,"modularium",0x000000,"DULL",3);
+val modularium = MaterialRegistry.createDustMaterial(596,"modularium",0xFFFFFF,"DULL",3);
 modularium.addFlags(["GENERATE_PLATE"]);
+
+val awakened_draconium = MaterialRegistry.createDustMaterial(598,"awakened_draconium",0xFF6F00,"DULL",3);
+awakened_draconium.addFlags(["GENERATE_PLATE"]);
+
+val chaos = MaterialRegistry.createDustMaterial(599,"chaos",0x000000,"DULL",3);
+chaos.addFlags(["GENERATE_PLATE"]);
+
 
 
 
@@ -405,6 +412,11 @@ util.registerDust("solid_dry_tailing", 32135, 0x5D5A5A, "DULL");
 util.registerDust("limestone", 32136, 0xBBB79C, "DULL");
 util.registerDust("sodiumsilicate", 32137, 0x8B8D8B, "SHINY");
 
+util.registerDust("wet_bedrock", 32138, 0x121212, "SHINY");
+util.registerDust("oily_bedrock", 32139, 0x1E1C1C, "SHINY");
+util.registerDust("fine_bedrock_dust", 32140, 0x151515, "DULL");
+util.registerDust("adamantite", 32141, 0x243D63, "DULL");
+util.registerDust("darmstadtium_catalyst", 32142, 0x202122, "SHINY");
 
 
 
@@ -413,17 +425,30 @@ util.registerDust("sodiumsilicate", 32137, 0x8B8D8B, "SHINY");
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+util.registerFluid("adamantane", 0x1565C0);
+util.registerFluid("purified_bedrock_slurry", 0x171716);
+util.registerFluid("phosphorus_pentoxide", 0x857F47);
+util.registerFluid("soldering_adamantane", 0x26464A);
+util.registerFluid("adamantane_lubricant", 0xA7A27C);
+util.registerFluid("perfluorotributylamine", 0x880E4F);
+util.registerFluid("iodized_oil", 0x3E3C2C);
+util.registerFluid("adamantane_rich_oil_solution", 0x092D41);
+util.registerFluid("tetra_hydro_dicyclopentadiene", 0x515557);
+util.registerFluid("alkylated_adamantanes", 0x114A6A);
+util.registerFluid("isooctane", 0x33691E);
+util.registerFluid("darmstadtium_hexafluoride", 0x2D2F31);
+util.registerFluid("fluorodarmstadtic_acid", 0x2D2E2F);
+util.registerFluid("molten_adamantium_dioxide", 0x132E58);
+util.registerFluid("gaseous_adamantium", 0x4A6083);
+util.registerFluid("adamantium_phosphorus_hydrogen.plasma", 0x0D47A1);
+util.registerFluid("enriched_naquadah_nitrate", 0x191A19);
+util.registerFluid("naquadria_nitrate", 0x131313);
+util.registerFluid("trinium_sulfide", 0x7A807A);
+util.registerFluid("trinium_solution", 0xAEAFB1);
+util.registerFluid("adamantium_pentoxide", 0x323F52);
+util.registerFluid("bedrock_slurry", 0x212321);
+util.registerFluid("bedrock_contaminated_oil", 0x6B956E);
+util.registerFluid("perfluorotributylamine", 0x121212);
 
 util.registerFluid("moltennichromerichblend", 0xCECDCD);
 util.registerFluid("eternity", 0x46008b);
@@ -687,9 +712,8 @@ util.registerFluid("wolframiteslurry",0x355D38);
 
 
 
-<material:a>.addFlags(["GENERATE_FLUID_BLOCK"]);
 <material:emerald>.addFlags(["GENERATE_FLUID_BLOCK"]);
-<material:americium>.addFlags(["GENERATE_FINE_WIRE","GENERATE_SCREW"]);
+<material:americium>.addFlags(["GENERATE_FINE_WIRE","GENERATE_BOLT_SCREW"]);
 <material:cosmic_neutronium>.addFlags(["GENERATE_PLASMA"]);
 <material:neutronium>.addFlags(["GENERATE_PLASMA"]);
 <material:periodicium>.addFlags(["GENERATE_PLASMA"]);
