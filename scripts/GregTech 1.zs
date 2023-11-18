@@ -1494,94 +1494,11 @@ assembly_line.recipeBuilder()
 	.buildAndRegister();
 
 lcr.recipeBuilder()
-	.inputs(<minecraft:stone>,<extendedcrafting:material:49>*5,<gtadditions:ga_dust:385>)
-	.outputs(<contenttweaker:refabricateddraconiumore>)
-	.fluidInputs(<liquid:uumatter>*1000,<liquid:moltencompressediron>*200,<liquid:sterilized_growth_medium>*300,<liquid:sodium_lithium_solution>*400,<liquid:hydrogen>*200)
-	.duration(800)
-	.EUt(343045555)
-	.buildAndRegister();
-
-chemReactor.recipeBuilder()
-	.inputs(<contenttweaker:refabricateddraconiumore>)
-	.fluidInputs(<liquid:ammonia>*2000)
-	.fluidOutputs(<liquid:draconiumenrichedamonia>*500)
-	.outputs(<gtadditions:ga_dust:944>)
-	.duration(400)
-	.EUt(232323323)
-	.buildAndRegister();
-
-cracker.recipeBuilder()
-	.fluidInputs(<liquid:steam>*1000,<liquid:draconiumenrichedamonia>*1000)
-	.fluidOutputs(<liquid:steamcrackeddraconiumenrichedamonia>*1000)
-	.duration(800)
-	.EUt(532535357)
-	.buildAndRegister();
-
-lcr.recipeBuilder()	
-	.outputs(<gtadditions:ga_dust:385>,<gregtech:meta_item_1:2036>*1)
-	.fluidOutputs(<liquid:draconiumcontainingmixture>*1000,<liquid:sodium>*400)
-	.fluidInputs(<liquid:deuterium_superheavy_mix>*500,<liquid:steamcrackeddraconiumenrichedamonia>*1000)
-	.EUt(237676676)
-	.duration(999)
-	.buildAndRegister();
-
-mixer.recipeBuilder()	
-	.inputs(<thermalfoundation:geode>)
-	.fluidInputs(<liquid:draconiumcontainingmixture>*500)
-	.fluidOutputs(<liquid:enhanceddraconiummixture>*500)
-	.EUt(45454545)
-	.duration(9000)
-	.buildAndRegister();
-
-lcr.recipeBuilder()
 	.inputs(<thermalfoundation:material:893>,<thermalfoundation:material:894>,<thermalfoundation:material:895>)
 	.fluidInputs(<liquid:mana>*1000)
 	.outputs(<thermalfoundation:geode>)
 	.EUt(80000)
 	.duration(400)
-	.buildAndRegister();
-
-dehydrator.recipeBuilder()
-	.fluidInputs(<liquid:enhanceddraconiummixture>*1000)
-	.fluidOutputs(<liquid:draconiumsaltmixture>*500)
-	.duration(1234)
-	.EUt(43334346)
-	.buildAndRegister();
-
-chemReactor.recipeBuilder()	
-	.fluidInputs(<liquid:draconiumsaltmixture>*1000,<liquid:oxygen>*1000)
-	.fluidOutputs(<liquid:draconiumdioxide>*1000)
-	.EUt(8000)
-	.duration(43432566)
-	.buildAndRegister();
-
-mixer.recipeBuilder()	
-	.fluidInputs(<liquid:draconiumdioxide>*500,<liquid:chlorine>*2000)
-	.fluidOutputs(<liquid:draconiumhexachloride>*500)
-	.EUt(2323)
-	.duration(12156535)
-	.buildAndRegister();
-
-mixer.recipeBuilder()	
-	.fluidInputs(<liquid:draconiumhexachloride>*1000,<liquid:fluorine>*6000)
-	.fluidOutputs(<liquid:draconiumhexafluoride>*1000)
-	.EUt(43446343)
-	.duration(2323)
-	.buildAndRegister();
-
-lcr.recipeBuilder()
-	.fluidInputs(<liquid:draconiumhexafluoride>*1000,<liquid:nitric_acid>*1000)
-	.fluidOutputs(<liquid:draconiumnitradesolution>*1000)
-	.EUt(70544533)
-	.duration(120)
-	.buildAndRegister();
-
-lcr.recipeBuilder()
-	.inputs(<gtadditions:ga_meta_item:9811>)
-	.fluidInputs(<liquid:draconiumnitradesolution>*1000,<liquid:nitric_acid>*1000)
-	.fluidOutputs(<liquid:depleteddraconiumnitradesolution>*1000)
-	.EUt(70544533)
-	.duration(120)
 	.buildAndRegister();
 
 distillation_tower.recipeBuilder()
@@ -1591,29 +1508,6 @@ distillation_tower.recipeBuilder()
     .duration(200)
     .EUt(30)
     .buildAndRegister();
-
-distillation_tower.recipeBuilder()
-	.fluidInputs(<liquid:depleteddraconiumnitradesolution>*10000)
-	.fluidOutputs(<liquid:hydrochloric_acid>*2000,<liquid:draconiumrichsolution>*1000,<liquid:water>*7000)
-	.duration(8000)
-	.EUt(34353453)
-	.buildAndRegister();
-
-mixer.recipeBuilder()
-	.fluidInputs(<liquid:draconiumrichsolution>*1000)
-	.inputs(<gregtech:meta_item_1:2138>*10)
-	.fluidOutputs(<liquid:obisdianinfuseddraconiummixture>*1000)
-	.duration(434)
-	.EUt(232353535)
-	.buildAndRegister();
-
-plasma_condenser.recipeBuilder()
-	.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
-	.fluidInputs(<liquid:obisdianinfuseddraconiummixture>*100)
-	.fluidOutputs(<liquid:plasma.draconium>*100)
-	.EUt(24244242)
-	.duration(467)
-	.buildAndRegister();
 
 fusion_reactor.recipeBuilder()
 	.fluidInputs(<liquid:plasma.draconium>*11,<liquid:primalquarkdegeneratematterplasma>*11)
