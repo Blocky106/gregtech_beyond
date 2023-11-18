@@ -1087,7 +1087,7 @@ lcr.recipeBuilder()
 	.fluidOutputs(<liquid:draconiumenrichedamonia>*500)
 	.outputs(<gtadditions:ga_dust:944>)
 	.duration(400)
-	.EUt(232323323)
+	.EUt(20000)
 	.buildAndRegister();
 
 lcr.recipeBuilder()	
