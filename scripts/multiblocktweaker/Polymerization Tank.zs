@@ -102,7 +102,7 @@ val polymerization_tank = Builder.start(loc, meta)
 
 polymerization_tank.recipeMap.recipeBuilder()
     .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 0}))
-    .fluidInputs(<liquid:polybenzimidazoleprepolymerfoam>*120000)
+    .fluidInputs(<liquid:polybenzimidazoleprepolymerfoam>*8000)
     .fluidOutputs(<liquid:impurepolybenzimidazolesolution>*7000)
     .duration(200)
     .EUt(12)

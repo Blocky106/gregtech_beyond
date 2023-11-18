@@ -667,54 +667,144 @@ ebf.recipeBuilder()
     .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 4}))
     .buildAndRegister();
 
+centrifuge.recipeBuilder()
+    .fluidInputs(<liquid:bedrock_contaminated_oil>*1000)
+    .fluidOutputs(<liquid:oil_heavy>*400)
+    .outputs(<gtadditions:ga_dust:32138>)
+    .chancedOutput(<gregtech:meta_item_1:2242>, 500, 0)
+    .chancedOutput(<gregtech:meta_item_1:2266>, 500, 0)
+    .chancedOutput(<enderio:item_material:20>, 2000, 120)
+    .EUt(800)
+    .duration(802)
+    .buildAndRegister();
 
+lcentrifuge.recipeBuilder()
+    .fluidInputs(<liquid:bedrock_contaminated_oil>*1000)
+    .fluidOutputs(<liquid:oil_heavy>*400)
+    .outputs(<gtadditions:ga_dust:32138>)
+    .chancedOutput(<gregtech:meta_item_1:2242>, 500, 0)
+    .chancedOutput(<gregtech:meta_item_1:2266>, 500, 0)
+    .chancedOutput(<enderio:item_material:20>, 2000, 120)
+    .EUt(800)
+    .duration(802)
+    .buildAndRegister();
 
+mixer.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:32138>)
+    .fluidOutputs(<liquid:phosphoric_acid>*1000)
+    .fluidInputs(<liquid:phosphorus_pentoxide>*1000)
+    .outputs(<gtadditions:ga_dust:32139>)
+    .EUt(2000)
+    .duration(20)
+    .buildAndRegister();
 
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:tributylamine>*1000,<liquid:hydrofluoric_acid>*1000)
+    .fluidOutputs(<liquid:perfluorotributylamine>*2000)
+    .duration(200)
+    .EUt(12800)
+    .buildAndRegister();
 
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:tributylamine>*1000,<liquid:hydrofluoric_acid>*1000)
+    .fluidOutputs(<liquid:perfluorotributylamine>*2000)
+    .duration(200)
+    .EUt(12800)
+    .buildAndRegister();
 
+centrifuge.recipeBuilder()
+    .fluidInputs(<liquid:purified_bedrock_slurry>*1000)
+    .outputs(<gtadditions:ga_dust:32140>,<gregtech:meta_item_1:2324>*2,<gregtech:meta_item_1:2111>)
+    .fluidOutputs(<liquid:adamantane_rich_oil_solution>*400)
+    .duration(2000)
+    .EUt(20)
+    .buildAndRegister();
 
+distillation_tower.recipeBuilder()
+    .fluidInputs(<liquid:adamantane_rich_oil_solution>*1000)
+    .fluidOutputs(<liquid:adamantane>*400,<liquid:perfluorotributylamine>*90,<liquid:iodized_oil>*510)
+    .duration(400)
+    .EUt(12000)
+    .buildAndRegister();
 
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:butane>*1000,<liquid:oxygen>*1000)
+    .notConsumable(<gregtech:meta_item_1:12718>)
+    .fluidOutputs(<liquid:adamantane>*1000,<liquid:water>*1000)
+    .duration(289)
+    .EUt(80000)
+    .buildAndRegister();
 
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:cyclopentadiene>*1000,<liquid:hydrogen>*1000)
+    .notConsumable(<gregtech:meta_item_1:12049>)
+    .fluidOutputs(<liquid:tetra_hydro_dicyclopentadiene>*1000)
+    .duration(800)
+    .EUt(200)
+    .buildAndRegister();
 
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:butane>*1000,<liquid:oxygen>*1000)
+    .notConsumable(<gregtech:meta_item_1:12718>)
+    .fluidOutputs(<liquid:adamantane>*1000,<liquid:water>*1000)
+    .duration(289)
+    .EUt(80000)
+    .buildAndRegister();
 
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:cyclopentadiene>*1000,<liquid:hydrogen>*1000)
+    .notConsumable(<gregtech:meta_item_1:12049>)
+    .fluidOutputs(<liquid:tetra_hydro_dicyclopentadiene>*1000)
+    .duration(800)
+    .EUt(200)
+    .buildAndRegister();
 
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:tetra_hydro_dicyclopentadiene>*1000)
+    .notConsumable(<liquid:fluoroantimonic_acid>)
+    .fluidOutputs(<liquid:adamantane>*1000)
+    .duration(200)
+    .EUt(90000)
+    .buildAndRegister();
 
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:isooctane>*1000,<liquid:adamantane>*1000)
+    .fluidOutputs(<liquid:alkylated_adamantanes>*2000)
+    .notConsumable(<gtadditions:ga_dust:79>)
+    .duration(800)
+    .EUt(120000)
+    .buildAndRegister();
 
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:isooctane>*1000,<liquid:adamantane>*1000)
+    .fluidOutputs(<liquid:alkylated_adamantanes>*2000)
+    .notConsumable(<gtadditions:ga_dust:79>)
+    .duration(800)
+    .EUt(120000)
+    .buildAndRegister();
 
+distillation_tower.recipeBuilder()
+    .fluidInputs(<liquid:alkylated_adamantanes>*1000)
+    .fluidOutputs(<liquid:adamantane_lubricant>*500,<liquid:ethanol>*500)
+    .duration(500)
+    .EUt(80000)
+    .buildAndRegister();
 
+chemical_plant.recipeBuilder()
+    .fluidInputs(<liquid:fluorodarmstadtic_acid>*1000,<liquid:antimony_pentafluoride>*1000,<liquid:fluorine>*1000,<liquid:water>*2000)
+    .inputs(<gtadditions:ga_dust:86>)
+    .outputs(<gtadditions:ga_dust:32142>)
+    .duration(6000)
+    .EUt(2800)
+    .buildAndRegister();
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#lcr.recipeBuilder()
+#    .fluidInputs()
+#    .inputs(<extendedcrafting:material:49>)
+#    .outputs(<contenttweaker:refabricateddraconiumore>)
+#    .duration()
+#    .EUt()
+#    .buildAndRegister();
 
 
 

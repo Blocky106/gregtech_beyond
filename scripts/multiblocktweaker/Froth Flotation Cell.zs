@@ -387,3 +387,11 @@ froth_flotation_cell.recipeMap.recipeBuilder()
     .duration(280)
     .EUt(480)
     .buildAndRegister();
+
+froth_flotation_cell.recipeMap.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:32139>*2,<gregtech:meta_item_1:2960>*2)
+    .fluidInputs(<liquid:perfluorotributylamine>*100,<liquid:water>*16000)
+    .fluidOutputs(<liquid:bedrock_slurry>*1000)
+    .duration(299)
+    .EUt(8000)
+    .buildAndRegister();

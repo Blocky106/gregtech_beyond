@@ -305,6 +305,14 @@ slurry_clarifier.recipeMap.recipeBuilder()
     .EUt(240)
     .buildAndRegister();
 
+slurry_clarifier.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:bedrock_slurry>*1000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .fluidOutputs(<liquid:purified_bedrock_slurry>*900,<liquid:wastewater>*100)
+    .duration(800)
+    .EUt(240)
+    .buildAndRegister();
+
 
 
 
