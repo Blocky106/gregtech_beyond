@@ -930,7 +930,7 @@ material.kaminskycatalyst=Kaminsky Catalyst
 fluid.triethylaluminium=Triethylaluminium
 fluid.polybenzimidazoleprepolymerfoam=Polybenzimidozole Pre-Polymer Foam
 fluid.polybenzimidazolesolution=Polybenzimidozole Solution
-fluid.impurepolybenzimidazolesolution=Impure polybenzimidazole Solution
+fluid.impurepolybenzimidazolesolution=Impure Polybenzimidazole Solution
 fluid.polybenzimidazolewaste=Polybenzimidozole Waste
 multiblocktweaker.machine.vacuum_furnace.name=Vacuum Furnace
 multiblocktweaker.machine.matter_dequantizer.name=Matter Dequantizer
@@ -1228,7 +1228,7 @@ fluid.moltennichromerichblend=Molten Nichrome Rich Blend
 recipemap.fermentation_vat.name=Fermentation Vat
 multiblocktweaker.machine.mega_alloy_blast_smelter.name=Mega Alloy Blast Smelter
 recipemap.vacuum_ejection_chamber.name=Vacuum Ejection
-
+multiblocktweaker.machine.bedrock_pump.name=Bedrock Pump
 
 
 
