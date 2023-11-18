@@ -83,7 +83,7 @@ val water_tank = Builder.start(loc, meta)
                 .build())
 .withRecipeMap(
         FactoryRecipeMap.start(loc)
-                        .maxFluidInputs(1)
+                        .maxInputs(1)
                         .maxFluidOutputs(1)
                         .build())
 .withTexture(ICubeRenderer.sided("contenttweaker:blocks/steelborderedwoodencasing"))
@@ -94,6 +94,7 @@ val water_tank = Builder.start(loc, meta)
 water_tank.noEnergy = true;
 
 water_tank.recipeMap.recipeBuilder()
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
     .fluidOutputs(<liquid:water>*200)
     .duration(20)
     .buildAndRegister();
