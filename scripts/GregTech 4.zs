@@ -545,7 +545,7 @@ assembler.recipeBuilder()
     .buildAndRegister();
 
 assembler.recipeBuilder()
-    .inputs(<projectred-core:resource_item:301>,<minecraft:glowstone>*8)
+    .inputs(<projectred-core:resource_item:301>,<minecraft:glowstone_dust>*8)
     .outputs(<projectred-core:resource_item:311>)
     .duration(40)
     .EUt(30)
@@ -1044,4 +1044,63 @@ lcr.recipeBuilder()
     .outputs(<gtadditions:ga_dust:32149>)
     .duration(400)
     .EUt(90)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:carbon_sulfide>*1000,<liquid:isobutyl_alcohol>*1000)
+    .outputs(<gtadditions:ga_dust:32157>)
+    .inputs(<gregtech:meta_item_1:2373>*3)
+    .duration(400)
+    .EUt(90)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:carbon_sulfide>*1000,<liquid:isobutyl_alcohol>*1000)
+    .outputs(<gtadditions:ga_dust:32157>)
+    .inputs(<gregtech:meta_item_1:2373>*3)
+    .duration(400)
+    .EUt(90)
+    .buildAndRegister();
+
+distillation_tower.recipeBuilder()
+    .fluidInputs(<liquid:fusel_oil>*1000)
+    .fluidOutputs(<liquid:water>*110,<liquid:npropanol>*10,<liquid:ehtanol_water_azeotrope>*100,<liquid:isoamyl_alcohol>*615,<liquid:nbutanol>*10,<liquid:isobutyl_alcohol>*155)   
+    .duration(80)
+    .EUt(72)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:propene>*50,<liquid:bromine>*50,<liquid:tripropylamine>*50)
+    .fluidOutputs(<liquid:tetra_propyl_ammonium_bromide>*50)
+    .duration(200)
+    .EUt(290)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:propene>*50,<liquid:bromine>*50,<liquid:tripropylamine>*50)
+    .fluidOutputs(<liquid:tetra_propyl_ammonium_bromide>*50)
+    .duration(200)
+    .EUt(290)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:npropanol>*150,<liquid:ammonia>*50)
+    .fluidOutputs(<liquid:tripropylamine>*50,<liquid:water>*150)
+    .EUt(80)
+    .duration(200)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:npropanol>*150,<liquid:ammonia>*50)
+    .fluidOutputs(<liquid:tripropylamine>*50,<liquid:water>*150)
+    .EUt(80)
+    .duration(200)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:tetra_propyl_ammonium_bromide>*100,<liquid:sulfuric_acid>*100)
+    .inputs(<gtadditions:ga_dust:116>*51,<gregtech:meta_item_1:2373>,<gregtech:meta_item_1:2159>*6)
+    .outputs(<gtadditions:ga_dust:32158>)
+    .EUt(200)
+    .duration(800)
     .buildAndRegister();
