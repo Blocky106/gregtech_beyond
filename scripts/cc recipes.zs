@@ -14,7 +14,7 @@ recipes.addShaped(<contenttweaker:longbulatsteelrod>, [	[null, <contenttweaker:b
 recipes.addShaped(<contenttweaker:advancedalloygear>, [	[null, <gregtech:meta_item_2:32433>, null], 	[<gregtech:meta_item_2:32433>, <contenttweaker:wrench>, <gregtech:meta_item_2:32433>], 	[null, <gregtech:meta_item_2:32433>, null]]);
 recipes.addShaped(<contenttweaker:electricalsteelgear>, [	[null, <enderio:block_alloy>, null], 	[<enderio:block_alloy>,<contenttweaker:hammer>.anyDamage().transformDamage(0),<enderio:block_alloy>], 	[null, <enderio:block_alloy>, null]]);
 recipes.addShaped(<contenttweaker:stoneknife>, [	[<ore:stoneCobble>, null, null], 	[null, <ore:stoneCobble>, null], 	[null, null, <ore:stickWood>]]);
-recipes.addShaped(<contenttweaker:bronzeblend> * 4, [	[<ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>], 	[<ore:dustCopper>, <ore:dustTin>, <ore:dustTin>], 	[null, null, null]]);
+recipes.addShaped(<gtadditions:ga_dust:32154> * 4, [	[<ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>], 	[<ore:dustCopper>, <ore:dustTin>, <ore:dustTin>], 	[null, null, null]]);
 recipes.addShaped(<contenttweaker:hammer>, [	[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], 	[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], 	[null, <ore:stickLongWood>, null]]);
 recipes.addShaped(<contenttweaker:stretchedwool>, [	[<ore:stickWood>, <ore:wool>, <ore:stickWood>], 	[<ore:boltWood>, <ore:paper>, <ore:boltWood>], 	[<ore:stickWood>, <ore:wool>, <ore:stickWood>]]);
 recipes.addShaped(<contenttweaker:woodgear>, [	[<ore:dustWood>, <ore:stickWood>, <ore:dustWood>], 	[<ore:stickWood>, <ore:logWood>, <ore:stickWood>], 	[<ore:dustWood>, <ore:stickWood>, <ore:dustWood>]]);
