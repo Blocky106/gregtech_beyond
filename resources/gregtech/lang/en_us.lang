@@ -78,8 +78,11 @@ material.transcendantmatter=Transcendant Matter
 material.darkmatter=Dark Matter
 material.potassiumethylxantate=Potassium Ethyl Xantate
 material.modularium=Modularium
-
-
+material.kaptonk=Kapton-K
+material.awakened_draconium=Awakened Draconium
+material.chaos=Chaos
+multiblocktweaker.machine.cvd_unit.name=CVD Unit
+recipemap.cvd_unit.name=CVD Process
 
 
 
