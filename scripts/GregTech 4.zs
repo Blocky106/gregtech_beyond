@@ -806,73 +806,242 @@ chemical_plant.recipeBuilder()
 #    .EUt()
 #    .buildAndRegister();
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ebf.recipeBuilder()
+    .fluidInputs(<liquid:liquid_ozone>*1000)
+    .inputs(<gtadditions:ga_dust:32140>)
+    .outputs(<gtadditions:ga_dust:32141>)
+    .duration(350)
+    .EUt(2000)
+    .buildAndRegister();
+
+vacfreezer.recipeBuilder()
+    .fluidInputs(<liquid:ozone>*1000)
+    .fluidOutputs(<liquid:liquid_ozone>*1000)
+    .duration(200)
+    .EUt(800)
+    .buildAndRegister();
+
+chemical_bath.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:32141>*2)
+    .fluidInputs(<liquid:aqua_regia>*1000)
+    .fluidOutputs(<liquid:trinium_solution>*1000)
+    .outputs(<gtadditions:ga_dust:32144>*2,<gtadditions:ga_dust:32145>*2,<gtadditions:ga_dust:32143>)
+    .duration(200)
+    .EUt(7800)
+    .buildAndRegister();
+
+fluidExtractor.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:32143>)
+    .fluidOutputs(<liquid:adamantium_pentoxide>*1000)
+    .duration(200)
+    .EUt(18000)
+    .buildAndRegister();
+
+fusion_reactor.recipeBuilder()
+    .fluidInputs(<liquid:adamantium_pentoxide>*12,<liquid:oxygen>*12)
+    .fluidOutputs(<liquid:adamantium_phosphorus_hydrogen.plasma>*12)
+    .EUt(20000)
+    .duration(120)
+    .property("eu_to_start", 320000000)
+    .buildAndRegister();
+
+chemical_bath.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2063>)
+    .fluidInputs(<liquid:enriched_naquadah_nitrate>*1000)
+    .outputs(<gtadditions:ga_dust:4>*3,<gregtech:meta_item_1:2865>)
+    .duration(200)
+    .EUt(12090)
+    .buildAndRegister();
+
+chemical_bath.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2063>)
+    .fluidInputs(<liquid:naquadria_nitrate>*1000)
+    .outputs(<gtadditions:ga_dust:5>*3,<gregtech:meta_item_1:2865>)
+    .duration(200)
+    .EUt(12090)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:trinium_solution>*1000,<liquid:hydrogen_sulfide>*1000)
+    .fluidOutputs(<liquid:hydrochloric_acid>*1000)
+    .outputs(<gtadditions:ga_dust:32146>*2)
+    .EUt(200)
+    .duration(900)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:trinium_solution>*1000,<liquid:hydrogen_sulfide>*1000)
+    .fluidOutputs(<liquid:hydrochloric_acid>*1000)
+    .outputs(<gtadditions:ga_dust:32146>*2)
+    .EUt(200)
+    .duration(900)
+    .buildAndRegister();
+
+chemical_plant.recipeBuilder()
+    .fluidInputs(<liquid:adamantium_phosphorus_hydrogen.plasma>*2000)
+    .fluidOutputs(<liquid:gaseous_adamantium>*800,<liquid:hydrogen>*400,<liquid:molten_adamantium_dioxide>*400)
+    .outputs(<gtadditions:ga_dust:32143>*2,<gregtech:meta_item_1:2050>)
+    .duration(200)
+    .EUt(12000)
+    .buildAndRegister();
+
+chemical_plant.recipeBuilder()  
+    .fluidInputs(<liquid:adamantium_pentoxide>*1000,<liquid:gaseous_adamantium>*400)
+    .notConsumable(<qmd:part:10>)
+    .notConsumable(<gtadditions:ga_dust:32142>)
+    .inputs(<gregtech:meta_item_1:2074>*2)
+    .outputs(<gregtech:meta_item_1:2750>*6,<gregtech:meta_item_1:2718>*2)
+    .duration(800)
+    .EUt(9000)
+    .buildAndRegister();
+
+extruder.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2688>)
+    .notConsumable(<gregtech:meta_item_1:32351>)
+    .outputs(<qmd:part:5>*2)
+    .duration(200)
+    .EUt(8000)
+    .buildAndRegister();
+
+ebf.recipeBuilder()
+    .fluidInputs(<liquid:liquid_ozone>*1000)
+    .inputs(<gregtech:meta_item_1:2718>)
+    .outputs(<gtadditions:ga_dust:32143>*2)
+    .duration(400)
+    .EUt(24000)
+    .buildAndRegister();
+
+fluidExtractor.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:32144>)
+    .fluidOutputs(<liquid:enriched_naquadah_nitrate>*144)
+    .duration(200)
+    .EUt(12000)
+    .buildAndRegister();
+
+fluidExtractor.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:32145>)
+    .fluidOutputs(<liquid:naquadria_nitrate>*144)
+    .duration(200)
+    .EUt(12000)
+    .buildAndRegister();
+
+recipes.addShaped(<contenttweaker:basic_structural_casing>, [	[<ore:screwSteel>, <ore:plateSteel>, <ore:screwSteel>], 	[<ore:plateSteel>, <ore:plateNickel>, <ore:plateSteel>], 	[<ore:screwSteel>, <ore:plateSteel>, <ore:screwSteel>]]);
+
+
+chemReactor.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2196>*4)
+    .fluidInputs(<liquid:sulfuric_acid>*1000)
+    .fluidOutputs(<liquid:furfural>*5000)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2196>*4)
+    .fluidInputs(<liquid:sulfuric_acid>*1000)
+    .fluidOutputs(<liquid:furfural>*5000)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:naphtha>*1000)
+    .notConsumable(<liquid:furfural>*100)
+    .fluidOutputs(<liquid:btex>*1000)
+    .EUt(20)
+    .duration(8)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:naphtha>*1000)
+    .notConsumable(<liquid:furfural>*100)
+    .fluidOutputs(<liquid:btex>*1000)
+    .EUt(20)
+    .duration(8)
+    .buildAndRegister();
+
+distillation_tower.recipeBuilder()
+    .fluidInputs(<liquid:btex>*2000)
+    .fluidOutputs(<liquid:benzene>*300,<liquid:ethylbenzene>*200,<liquid:toluene>*500,<liquid:oxylene>*200,<liquid:mpxylene>*800)
+    .duration(200)
+    .EUt(80)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:oxygen>*6000,<liquid:oxylene>*1000)
+    .fluidOutputs(<liquid:steam>*3000)
+    .outputs(<gregtech:meta_item_1:2926>*13)
+    .duration(200)
+    .EUt(90)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:oxygen>*6000,<liquid:oxylene>*1000)
+    .fluidOutputs(<liquid:steam>*3000)
+    .outputs(<gregtech:meta_item_1:2926>*13)
+    .duration(200)
+    .EUt(90)
+    .buildAndRegister();
+
+centrifuge.recipeBuilder()
+    .fluidInputs(<liquid:mpxylene>*4000)
+    .fluidOutputs(<liquid:mxylene>*3000)
+    .outputs(<gtadditions:ga_dust:32147>)
+    .duration(800)
+    .EUt(22)
+    .buildAndRegister();
+
+fluidExtractor.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:32147>)
+    .fluidOutputs(<liquid:pxylene>*1000)
+    .duration(20)
+    .EUt(12)
+    .buildAndRegister();
+
+mixer.recipeBuilder()
+    .fluidInputs(<liquid:tetrabromethane>*100)
+    .inputs(<gregtech:meta_item_1:2017>,<gregtech:meta_item_1:2039>)
+    .outputs(<gtadditions:ga_dust:32148>)
+    .duration(80)
+    .EUt(90)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:acetylene>*100,<liquid:bromine>*400)
+    .fluidOutputs(<liquid:tetrabromethane>*500)
+    .duration(200)
+    .EUt(80)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .notConsumable(<gtadditions:ga_dust:32148>)
+    .fluidInputs(<liquid:acetic_acid>*1000,<liquid:mxylene>*1000)   
+    .fluidOutputs(<liquid:diluted_acetic_acid>*1000)
+    .outputs(<gtadditions:ga_dust:32149>)
+    .duration(400)
+    .EUt(90)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:phenol>*1000) 
+    .inputs(<gtadditions:ga_dust:32149>)
+    .fluidOutputs(<liquid:water>*2000,<liquid:diphenylisophtalate>*1000)
+    .duration(800)
+    .EUt(480)
+    .buildAndRegister();
+
+distillation_tower.recipeBuilder()
+    .fluidInputs(<liquid:diluted_acetic_acid>*2000)
+    .fluidOutputs(<liquid:water>*1000,<liquid:acetic_acid>*1000)
+    .duration(20)
+    .EUt(800)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .notConsumable(<gtadditions:ga_dust:32148>)
+    .fluidInputs(<liquid:acetic_acid>*1000,<liquid:pxylene>*1000)   
+    .fluidOutputs(<liquid:diluted_acetic_acid>*1000)
+    .outputs(<gtadditions:ga_dust:32149>)
+    .duration(400)
+    .EUt(90)
+    .buildAndRegister();
