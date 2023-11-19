@@ -1784,3 +1784,14 @@ zirconium_carbide.setToolClass("pickaxe");
 zirconium_carbide.setToolLevel(2);
 zirconium_carbide.setBlockSoundType(<soundtype:metal>);
 zirconium_carbide.register();
+
+var hss_s = VanillaFactory.createBlock("hss_s", <blockmaterial:rock>);
+hss_s.setBlockHardness(12.0);
+hss_s.setBlockResistance(10.0);
+hss_s.setToolClass("pickaxe");
+hss_s.setToolLevel(2);
+hss_s.setBlockSoundType(<soundtype:metal>);
+hss_s.register();
+
+var nickel_breeding_bed  = VanillaFactory.createItem("nickel_breeding_bed");
+nickel_breeding_bed.register();
