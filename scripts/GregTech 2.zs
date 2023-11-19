@@ -1082,31 +1082,7 @@ lcr.recipeBuilder()
 	.buildAndRegister();
 
 lcr.recipeBuilder()
-	.inputs(<contenttweaker:refabricateddraconiumore>)
-	.fluidInputs(<liquid:ammonia>*2000)
-	.fluidOutputs(<liquid:draconiumenrichedamonia>*500)
-	.outputs(<gtadditions:ga_dust:944>)
-	.duration(400)
-	.EUt(20000)
-	.buildAndRegister();
-
-lcr.recipeBuilder()	
-	.outputs(<gtadditions:ga_dust:385>,<gregtech:meta_item_1:2036>*1)
-	.fluidOutputs(<liquid:draconiumcontainingmixture>*1000,<liquid:sodium>*400)
-	.fluidInputs(<liquid:deuterium_superheavy_mix>*500,<liquid:steamcrackeddraconiumenrichedamonia>*1000)
-	.EUt(237676676)
-	.duration(999)
-	.buildAndRegister();
-
-lcr.recipeBuilder()	
-	.fluidInputs(<liquid:draconiumsaltmixture>*1000,<liquid:oxygen>*1000)
-	.fluidOutputs(<liquid:draconiumdioxide>*1000)
-	.EUt(8000)
-	.duration(43432566)
-	.buildAndRegister();
-
-lcr.recipeBuilder()
-	.inputs(<contenttweaker:refinedsoulariumpowder>,<gregtech:meta_item_1:2122>)
+	.inputs(<gtadditions:ga_dust:32153>,<gregtech:meta_item_1:2122>)
 	.outputs(<gregtech:meta_item_1:2522>)
 	.duration(200)
 	.EUt(1600)
