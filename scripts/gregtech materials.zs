@@ -424,6 +424,14 @@ util.registerDust("pxylene", 32147, 0x252525, "DULL");
 util.registerDust("amococatalyst", 32148, 0xB0583E, "SHINY");
 util.registerDust("isophthalic_acid", 32149, 0xB0583E, "DULL");
 util.registerDust("terephthalic_acid", 32150, 0xB0583E, "DULL");
+util.registerDust("raw_atomic_seperation_catalyst", 32151, 0xBF360C, "DULL");
+util.registerDust("soularium_metallic_powder", 32152, 0x665653, "DULL");
+util.registerDust("refined_soularium_powder", 32153, 0x665653, "SHINY");
+util.registerDust("bronze_blend", 32154, 0xD56C16, "DULL");
+util.registerDust("enhancedenderiumrefinedmetalresidues", 32155, 0x004D40, "SHINY");
+util.registerDust("hmx", 32156, 0xB3B5B5, "SHINY");
+util.registerDust("sodium_isobutyl_xanthate", 32157, 0x86987A, "DULL");
+util.registerDust("zsmfive", 32158, 0x9EAE90, "DULL");
 
 
 
@@ -431,6 +439,9 @@ util.registerDust("terephthalic_acid", 32150, 0xB0583E, "DULL");
 
 
 
+util.registerFluid("tripropylamine", 0xA55A5A);
+util.registerFluid("tetra_propyl_ammonium_bromide", 0x788B68);
+util.registerFluid("isobutyl_alcohol", 0xB4BEAC);
 util.registerFluid("pxylene", 0x252525);
 util.registerFluid("diluted_acetic_acid", 0x7A6D69);
 util.registerFluid("tetrabromethane", 0x381F18);
@@ -487,7 +498,6 @@ util.registerFluid("rheniiteslurry",0x534536);
 util.registerFluid("sphaleriteslurry",0xC6C6C6);
 util.registerFluid("solardistilledwater",0x0277BD);
 util.registerFluid("npropanol",0xad9113);
-util.registerFluid("isobutyl_alcohol",0xa0ad13);
 util.registerFluid("nbutanol",0x8ac294);
 util.registerFluid("fusel_oil",0xa62403);
 util.registerFluid("lubricating_oil",0x858146);
