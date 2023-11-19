@@ -783,20 +783,6 @@ assembler.recipeBuilder()
     .EUt(8000)
     .buildAndRegister();
 
-chemReactor.recipeBuilder()
-    .fluidInputs(<liquid:hydrofluoric_acid>*1000,<liquid:fluorine>*3000)
-    .fluidOutputs(<liquid:hydrogentetrafluoride>*4000)
-    .duration(80)
-    .EUt(120)
-    .buildAndRegister();
-
-lcr.recipeBuilder()
-    .fluidInputs(<liquid:hydrofluoric_acid>*1000,<liquid:fluorine>*3000)
-    .fluidOutputs(<liquid:hydrogentetrafluoride>*4000)
-    .duration(80)
-    .EUt(120)
-    .buildAndRegister();
-
 lcr.recipeBuilder()
     .fluidInputs(<liquid:hydrogentetrafluoromehtane>*500,<liquid:methane>*500)
     .fluidOutputs(<liquid:hydrogentetrafluorocarbidedioxide>*1000,<liquid:hydrogen_sulfide>*1000,<liquid:water>*1000)
