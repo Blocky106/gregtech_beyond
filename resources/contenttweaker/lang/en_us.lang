@@ -490,7 +490,6 @@ item.contenttweaker.quantumcontrolcomputermk2.name=Quantum Control Computer MK2
 item.contenttweaker.quantumcontrolcomputermk3.name=Quantum Control Computer MK3
 item.contenttweaker.enrichedgraphite.name=Enriched Graphite
 item.contenttweaker.irradiated_borax.name=Irradiated Borax
-fluid.hydrogentetrafluoride=HydrogenTetraFluoride
 fluid.hydrogentetrafluoromehtane=Hydrogentetrafluoromethane
 fluid.hydrogentetrafluorocarbidedioxide=Hydrogentetrafluorocarbidedioxide
 fluid.fluorohydrideammoniumcarbamat=Fluorohydride Ammoniucarbama
@@ -1052,7 +1051,7 @@ metaitem.bulatsteeldust.name=Bulat Steel Dust
 metaitem.silversteeldust.name=Silver Steel Dust
 metaitem.silveralloydust.name=Silver Alloy Dust
 metaitem.electricalsteeldust.name=Electrical Steel Dust
-metaitem.supercooleddust.name=Supercooled Ingot
+metaitem.supercooleddust.name=Supercooled Dust
 metaitem.bisphenolbdust.name=Bisphenol B Dust
 metaitem.titaniumtetrachloridedust.name=Titanium Tetrachloride Dust
 metaitem.graphiteuraniummixturedust.name=Graphite Uranium Mixture Dust
@@ -1229,9 +1228,37 @@ recipemap.fermentation_vat.name=Fermentation Vat
 multiblocktweaker.machine.mega_alloy_blast_smelter.name=Mega Alloy Blast Smelter
 recipemap.vacuum_ejection_chamber.name=Vacuum Ejection
 multiblocktweaker.machine.bedrock_pump.name=Bedrock Pump
-
-
-
-
-
-
+tile.contenttweaker.hss_s.name=HSS-S Casing
+metaitem.wet_bedrock.name=Wet Bedrock Dust
+metaitem.oily_bedrock.name=Oily Bedrock Dust
+metaitem.fine_bedrock_dust.name=Fine bedrock Dust
+metaitem.adamantite.name=Adamantite Dust
+metaitem.darmstadtium_catalyst.name=Darmstadtium Catalyst Dust
+metaitem.adamantium_pentoxide.name=Adamantium Pentoxide Dust
+metaitem.enriched_naquadah_nitrate.name=Enriched Naquadah Nitrate
+metaitem.naquadria_nitrate.name=Naquadria Nitrate
+metaitem.trinium_sulfide.name=Trinium Sulfide
+fluid.adamantane=Adamantane
+fluid.liquid_ozone=Liquid Ozone
+fluid.bedrock_contaminated_oil=Bedrock Contaminated Oil
+fluid.bedrock_slurry=Bedrock Slurry
+fluid.trinium_solution=Trinium Solution
+fluid.naquadria_nitrate=Naquadria Nitrate
+fluid.enriched_naquadah_nitrate=Enriched Naquadah Nitrate
+fluid.adamantium_phosphorus_hydrogen.plasma=Adamantium Phosphorus Hydrogen Plasma
+fluid.gaseous_adamantium=Gaseous Adamantine
+fluid.molten_adamantium_dioxide=Molten Adamantium Dioxide
+fluid.fluorodarmstadtic_acid=Flurodarmstadtic Acid
+fluid.darmstadtium_hexafluoride=Darmstadtium Hexafluoride
+fluid.isooctane=Isooctane
+fluid.alkylated_adamantanes=Alkylated Adamantanes
+fluid.tetra_hydro_dicyclopentadiene=Tetrahydrodicyclopentadiene
+fluid.adamantane_rich_oil_solution=Adamantane Rich Oil Solution
+fluid.iodized_oil=Iodized Oil
+fluid.perfluorotributylamine=Perfluorotributylamine
+fluid.adamantane_lubricant=Adamantane Lubricant
+fluid.soldering_adamantane=Soldering Adamantane
+fluid.phosphorus_pentoxide=Phosphorus Pentoxide
+fluid.purified_bedrock_slurry=Purified Bedrock Slurry
+fluid.adamantium_pentoxide=Adamantium Pentoxide
+tile.contenttweaker.zirconium_carbide.name=Zirconium Carbide Casing (Test)
