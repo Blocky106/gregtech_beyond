@@ -43,7 +43,7 @@ val cvd_unit = Builder.start(loc, meta)
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
                 .whereOr("C", 
-                <metastate:gregtech:metal_casing_tungsten_titanium_carbide>,
+                <metastate:gtadditions:ga_metal_casing_2:9>,
                     IBlockMatcher.abilityPartPredicate(
                         MultiblockAbility.IMPORT_FLUIDS,
                         MultiblockAbility.IMPORT_ITEMS,
@@ -77,7 +77,7 @@ val cvd_unit = Builder.start(loc, meta)
                     " PP",
                     "   ")
                 .where("G", <metastate:gtadditions:ga_transparent_casing>)
-                .where("C", <metastate:gregtech:metal_casing_tungsten_titanium_carbide>)
+                .where("C", <metastate:gtadditions:ga_metal_casing_2:9>)
                 .where("P", <metastate:gregtech:boiler_casing:1>)
                 .where("S", IBlockInfo.controller(loc))
                 .where("E", MetaTileEntities.ENERGY_INPUT_HATCH[4], IFacing.east())
@@ -89,7 +89,7 @@ val cvd_unit = Builder.start(loc, meta)
                         .maxFluidOutputs(1)
                         .maxOutputs(1)
                         .build())
-.withTexture(ICubeRenderer.sided("contenttweaker:blocks/machine_casing_clean_stainless_steel"))
+.withTexture(ICubeRenderer.sided("contenttweaker:blocks/hss_s"))
 .withZoom(0.5f)
 
 .buildAndRegister() as Multiblock;

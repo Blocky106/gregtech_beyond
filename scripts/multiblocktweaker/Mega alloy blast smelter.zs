@@ -354,7 +354,7 @@ val mega_alloy_blast_smelter = Builder.start(loc, meta)
                         .maxFluidOutputs(1)
                         .maxOutputs(1)
                         .build())
-.withTexture(ICubeRenderer.sided("contenttweaker:blocks/machine_casing_clean_stainless_steel"))
+.withTexture(ICubeRenderer.sided("contenttweaker:blocks/zirconium_carbide"))
 .withZoom(0.5f)
 
 .buildAndRegister() as Multiblock;
