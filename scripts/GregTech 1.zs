@@ -1723,21 +1723,21 @@ assembler.recipeBuilder()
 
 electrolyzer.recipeBuilder()
 	.inputs(<enderio:item_material:74>)
-	.outputs(<contenttweaker:soulariummetallicpowder>)
+	.outputs(<gtadditions:ga_dust:32152>)
 	.duration(400)
 	.EUt(1200)
 	.buildAndRegister();
 
 mixer.recipeBuilder()
-	.inputs(<contenttweaker:soulariummetallicpowder>)
+	.inputs(<gtadditions:ga_dust:32152>)
 	.fluidInputs(<liquid:chlorine>*600)
-	.outputs(<contenttweaker:refinedsoulariumpowder>)
+	.outputs(<gtadditions:ga_dust:32153>)
 	.duration(200)
 	.EUt(2000)
 	.buildAndRegister();
 
 chemReactor.recipeBuilder()
-	.inputs(<contenttweaker:refinedsoulariumpowder>,<gregtech:meta_item_1:2122>)
+	.inputs(<gtadditions:ga_dust:32153>,<gregtech:meta_item_1:2122>)
 	.outputs(<gregtech:meta_item_1:2522>)
 	.duration(200)
 	.EUt(1600)
@@ -1820,7 +1820,7 @@ chemReactor.recipeBuilder()
 	.buildAndRegister();
 
 ebf.recipeBuilder()
-	.inputs(<contenttweaker:rawatomicsperationcatalyst>)
+	.inputs(<gtadditions:ga_dust:32151>)
 	.fluidInputs(<liquid:metastable_oganesson>*2000)
 	.outputs(<contenttweaker:hotatomicseperationcatalyst>)
 	.property("temperature", 8000)
@@ -2351,7 +2351,7 @@ assembly_line.recipeBuilder()
 lcr.recipeBuilder()
 	.inputs(<gtadditions:ga_dust:205>*2,<gregtech:meta_item_1:2813>,<gregtech:meta_item_1:2820>*2)
 	.fluidInputs(<liquid:metastable_hassium>*500,<liquid:metastable_flerovium>*500)
-	.outputs(<contenttweaker:rawatomicsperationcatalyst>)
+	.outputs(<gtadditions:ga_dust:32151>)
 	.duration(200)
 	.EUt(12000)
 	.buildAndRegister();
@@ -3209,7 +3209,7 @@ recipes.addShaped(<gtadditions:ga_machine_casing:4>, [	[<ore:plateCosmicNeutroni
 recipes.addShaped(<gregtech:machine:4029>, [	[null, null, null], 	[null, <gregtech:machine:3243>, <ore:wireGtHexNeutronium>], 	[null, null, null]]);
 recipes.addShaped(<gregtech:meta_item_1:32730>, [	[<ore:plateIron>, <ore:plateBronze>, <ore:plateIron>], 	[<ore:ingotWroughtIron>, <ore:plateBronze>, <ore:ingotWroughtIron>], 	[<ore:ingotWroughtIron>, <ore:ingotWroughtIron>, <ore:ingotWroughtIron>]]);
 recipes.addShaped(<gregtech:meta_item_2:19196>, [	[null , null, null], 	[<ore:stickWood>, <contenttweaker:stoneknife>.transformDamage(0), null], 	[null, <ore:stickWood>, null]]);
-recipes.addShaped(<gregtech:meta_item_1:2095>*2, [	[<contenttweaker:bronzeblend>, <contenttweaker:bronzeblend>, <gregtech:meta_item_1:2033>], 	[<contenttweaker:hammer>.transformDamage(0), null, null], 	[null, null, null]]);
+recipes.addShaped(<gregtech:meta_item_1:2095>*2, [	[<gtadditions:ga_dust:32154>, <gtadditions:ga_dust:32154>, <gregtech:meta_item_1:2033>], 	[<contenttweaker:hammer>.transformDamage(0), null, null], 	[null, null, null]]);
 recipes.addShaped(<gregtech:meta_item_1:12196> * 2, [	[<ore:plankWood>, <ore:dustWood>, <ore:plankWood>], 	[<ore:paper>, <ore:dustWood>, <ore:paper>], 	[<ore:plankWood>, <ore:dustWood>, <ore:plankWood>]]);
 recipes.addShaped(<gregtech:meta_item_2:32443>*4, [	[<ore:paper>, <ore:dustBedrock>, <gregtech:meta_item_1:32627>], 	[<ore:plankWood>, <gregtech:meta_item_2:16033>, <ore:plankWood>], 	[<gregtech:meta_item_1:32627>, <ore:dustBedrock>, <ore:paper>]]);
 recipes.addShaped(<gregtech:meta_item_2:32014>, [	[null, null], 	[<ore:dustFireclay>, <ore:dustFireclay>],]);
