@@ -411,12 +411,19 @@ util.registerDust("solid_wet_tailing", 32134, 0x5D5A5A, "DULL");
 util.registerDust("solid_dry_tailing", 32135, 0x5D5A5A, "DULL");
 util.registerDust("limestone", 32136, 0xBBB79C, "DULL");
 util.registerDust("sodiumsilicate", 32137, 0x8B8D8B, "SHINY");
-
 util.registerDust("wet_bedrock", 32138, 0x121212, "SHINY");
 util.registerDust("oily_bedrock", 32139, 0x1E1C1C, "SHINY");
 util.registerDust("fine_bedrock_dust", 32140, 0x151515, "DULL");
 util.registerDust("adamantite", 32141, 0x243D63, "DULL");
 util.registerDust("darmstadtium_catalyst", 32142, 0x202122, "SHINY");
+util.registerDust("adamantium_pentoxide", 32143, 0x323F52, "SHINY");
+util.registerDust("enriched_naquadah_nitrate", 32144, 0x1F2021, "SHINY");
+util.registerDust("naquadria_nitrate", 32145, 0x181818, "SHINY");
+util.registerDust("trinium_sulfide", 32146, 0x7A807A, "SHINY");
+util.registerDust("pxylene", 32147, 0x252525, "DULL");
+util.registerDust("amococatalyst", 32148, 0xB0583E, "SHINY");
+util.registerDust("isophthalic_acid", 32149, 0xB0583E, "DULL");
+util.registerDust("terephthalic_acid", 32150, 0xB0583E, "DULL");
 
 
 
@@ -424,8 +431,13 @@ util.registerDust("darmstadtium_catalyst", 32142, 0x202122, "SHINY");
 
 
 
-
-util.registerFluid("adamantane", 0x1565C0);
+util.registerFluid("pxylene", 0x252525);
+util.registerFluid("diluted_acetic_acid", 0x7A6D69);
+util.registerFluid("tetrabromethane", 0x381F18);
+util.registerFluid("mxylene", 0x313130);
+util.registerFluid("oxylene", 0x201F1F);
+util.registerFluid("mpxylene", 0x191818);
+util.registerFluid("adamantium_pentoxide", 0x323F52);
 util.registerFluid("purified_bedrock_slurry", 0x171716);
 util.registerFluid("phosphorus_pentoxide", 0x857F47);
 util.registerFluid("soldering_adamantane", 0x26464A);
@@ -443,13 +455,13 @@ util.registerFluid("gaseous_adamantium", 0x4A6083);
 util.registerFluid("adamantium_phosphorus_hydrogen.plasma", 0x0D47A1);
 util.registerFluid("enriched_naquadah_nitrate", 0x191A19);
 util.registerFluid("naquadria_nitrate", 0x131313);
-util.registerFluid("trinium_sulfide", 0x7A807A);
 util.registerFluid("trinium_solution", 0xAEAFB1);
-util.registerFluid("adamantium_pentoxide", 0x323F52);
 util.registerFluid("bedrock_slurry", 0x212321);
 util.registerFluid("bedrock_contaminated_oil", 0x6B956E);
-util.registerFluid("perfluorotributylamine", 0x121212);
-
+util.registerFluid("liquid_ozone", 0x2196F3);
+util.registerFluid("adamantane", 0x1565C0);
+util.registerFluid("furfural", 0x3949AB);
+util.registerFluid("btex", 0x605C35);
 util.registerFluid("moltennichromerichblend", 0xCECDCD);
 util.registerFluid("eternity", 0x46008b);
 util.registerFluid("used_froth_flotation_fluid",0x281D1D);
