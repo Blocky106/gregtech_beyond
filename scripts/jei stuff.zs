@@ -212,7 +212,7 @@ recipes.remove(<thermalexpansion:frame:128>);
 
 
 
-
+mods.jei.JEI.removeAndHide(<nuclearcraft:fluid_sulfuric_acid>);
 mods.jei.JEI.removeAndHide(<libvulpes:productgear:6>);
 mods.jei.JEI.removeAndHide(<libvulpes:productgear:7>);
 mods.jei.JEI.removeAndHide(<libvulpes:productboule:3>);
