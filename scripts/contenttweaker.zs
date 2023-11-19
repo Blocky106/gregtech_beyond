@@ -335,12 +335,6 @@ hotsoulariumingot.register();
 var hvroboticcomponent = VanillaFactory.createItem("hvroboticcomponent");
 hvroboticcomponent.register();
 
-var soulariummetallicpowder = VanillaFactory.createItem("soulariummetallicpowder");
-soulariummetallicpowder.register();
-
-var refinedsoulariumpowder = VanillaFactory.createItem("refinedsoulariumpowder");
-refinedsoulariumpowder.register();
-
 var itemprocessort1 = VanillaFactory.createItem("itemprocessort1");
 itemprocessort1.register();
 
@@ -370,9 +364,6 @@ radiationproofplate.register();
 
 var wrappeduraniumingot = VanillaFactory.createItem("wrappeduraniumingot");
 wrappeduraniumingot.register();
-
-var rawatomicsperationcatalyst = VanillaFactory.createItem("rawatomicsperationcatalyst");
-rawatomicsperationcatalyst.register();
 
 var hotatomicseperationcatalyst = VanillaFactory.createItem("hotatomicseperationcatalyst");
 hotatomicseperationcatalyst.register();
@@ -899,9 +890,6 @@ enhancedenderiumunrefinedcrystal.register();
 var enhancedenderiumcrystal = VanillaFactory.createItem("enhancedenderiumcrystal");
 enhancedenderiumcrystal.register();
 
-var enhancedenderiumrefinedmetalresidues = VanillaFactory.createItem("enhancedenderiumrefinedmetalresidues");
-enhancedenderiumrefinedmetalresidues.register();
-
 var awakenedcompressedmetalingot = VanillaFactory.createItem("awakenedcompressedmetalingot");
 awakenedcompressedmetalingot.register();
 
@@ -1268,9 +1256,6 @@ dimensionalcasing.setToolClass("pickaxe");
 dimensionalcasing.setToolLevel(2);
 dimensionalcasing.setBlockSoundType(<soundtype:metal>);
 dimensionalcasing.register();
-
-var hmx = VanillaFactory.createItem("hmx");
-hmx.register();
 
 var spacetimebendingprocessor = VanillaFactory.createItem("spacetimebendingprocessor");
 spacetimebendingprocessor.register();
@@ -1793,5 +1778,8 @@ hss_s.setToolLevel(2);
 hss_s.setBlockSoundType(<soundtype:metal>);
 hss_s.register();
 
-var nickel_breeding_bed  = VanillaFactory.createItem("nickel_breeding_bed");
+var nickel_breeding_bed = VanillaFactory.createItem("nickel_breeding_bed");
 nickel_breeding_bed.register();
+
+var annealed_nickel_plate = VanillaFactory.createItem("annealed_nickel_plate");
+annealed_nickel_plate.register();
