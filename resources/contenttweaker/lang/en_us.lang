@@ -1293,3 +1293,7 @@ fluid.eternity=Eternity
 fluid.btex=B.T.E.X
 fluid.mpxylene=M/P Xylene
 fluid.isobutyl_alcohol=Isobutyl Alcohol
+recipemap.inscriber.name=Circuit Inscribing
+devtech.machine.inscriber.mv.name=Advanced Inscriber
+devtech.machine.inscriber.hv.name=Advanced Inscriber II
+devtech.machine.inscriber.ev.name=Advanced Inscriber III
