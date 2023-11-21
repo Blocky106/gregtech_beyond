@@ -83,7 +83,7 @@ inscriber.recipeBuilder()
     .buildAndRegister();
 
 inscriber.recipeBuilder()
-    .notConsumable(<gregtech:meta_item_1:12207>)
+    .notConsumable(<appliedenergistics2:material:14>)
     .inputs(<gregtech:meta_item_1:12061>)
     .outputs(<contenttweaker:osmiridiumcircuit>)
     .duration(40)
