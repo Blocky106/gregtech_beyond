@@ -134,14 +134,6 @@ val cstr = Builder.start(loc, meta)
 .buildAndRegister() as Multiblock;
 
 cstr.recipeMap.recipeBuilder()
-    .fluidInputs(<liquid:water>*1800,<liquid:ethanol>*100,<liquid:npropanol>*100)
-    .inputs(<gregtech:meta_item_1:2159>*6,<gregtech:meta_item_1:2373>,<gtadditions:ga_dust:116>*51)
-    .outputs(<gregtech:meta_item_1:2499>)
-    .duration(20)
-    .EUt(490)
-    .buildAndRegister();
-
-cstr.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:bastnasiteconcentrate>*1000,<liquid:sulfuric_acid>*250)
     .fluidOutputs(<liquid:acidicbastnasiteconcentrate>*1000)
     .duration(90)
