@@ -3255,7 +3255,7 @@ lcentrifuge.recipeBuilder()
     .chancedOutput(<gregtech:meta_item_1:2960>, 1200, 520)
     .outputs(<gtadditions:ga_dust:32081>)
     .duration(40)
-    .EUt(5000)
+    .EUt(40)
     .buildAndRegister();
 
 centrifuge.recipeBuilder()
@@ -3274,7 +3274,7 @@ centrifuge.recipeBuilder()
     .chancedOutput(<gregtech:meta_item_1:2960>, 1200, 520)
     .outputs(<gtadditions:ga_dust:32081>)
     .duration(40)
-    .EUt(5000)
+    .EUt(40)
     .buildAndRegister();
 
 compressor.recipeBuilder()
