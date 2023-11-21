@@ -25,9 +25,9 @@ var inscriber = IRecipeMap.recipeMapBuilder("inscriber",0,3,0,1,0,0,0,0)
 	.setProgressBar(GUITextures.get("progress_bar_bending"), MoveType.VERTICAL)
 	.build();
 
-RegisterMachine.CreateSimpleMachine(1421, "inscriber.mv",inscriber, Overlays.get("assembler"), 2);
-RegisterMachine.CreateSimpleMachine(1422, "inscriber.hv",inscriber, Overlays.get("assembler"), 3);
-RegisterMachine.CreateSimpleMachine(1423, "inscriber.ev",inscriber, Overlays.get("assembler"), 4);
+RegisterMachine.CreateSimpleMachine(1421, "inscriber.mv",inscriber, Overlays.get("polarizer"), 2);
+RegisterMachine.CreateSimpleMachine(1422, "inscriber.hv",inscriber, Overlays.get("polarizer"), 3);
+RegisterMachine.CreateSimpleMachine(1423, "inscriber.ev",inscriber, Overlays.get("polarizer"), 4);
 
 inscriber.recipeBuilder()
     .notConsumable(<appliedenergistics2:material:19>)
@@ -128,3 +128,21 @@ inscriber.recipeBuilder()
     .duration(40)
     .EUt(12)
     .buildAndRegister();
+
+recipes.addShaped(<gregtech:machine:1421>, [
+	[<ore:screwSteel>, <gregtech:meta_item_1:32681>, <ore:screwSteel>], 
+	[<gregtech:meta_item_1:32651>, <gregtech:machine:502>, <gregtech:meta_item_1:32651>], 
+	[<ore:plateSteel>, <appliedenergistics2:inscriber>, <ore:plateSteel>]
+]);
+
+recipes.addShaped(<gregtech:machine:1422>, [
+	[<ore:screwSteel>, <gregtech:meta_item_1:32682>, <ore:screwSteel>], 
+	[<gregtech:meta_item_1:32652>, <gregtech:machine:503>, <gregtech:meta_item_1:32652>], 
+	[<ore:plateSteel>, <appliedenergistics2:inscriber>, <ore:plateSteel>]
+]);
+
+recipes.addShaped(<gregtech:machine:1423>, [
+	[<ore:screwSteel>, <gregtech:meta_item_1:32683>, <ore:screwSteel>], 
+	[<gregtech:meta_item_1:32653>, <gregtech:machine:504>, <gregtech:meta_item_1:32653>], 
+	[<ore:plateSteel>, <appliedenergistics2:inscriber>, <ore:plateSteel>]
+]);
