@@ -1598,7 +1598,7 @@ lcr.recipeBuilder()
     .EUt(240)
     .buildAndRegister();
 
-recipes.addShaped(<gregtech:machine:714>, [	[<ore:cableGtSingleTin>, <ore:plateRubber>, <ore:cableGtSingleTin>], 	[<contenttweaker:cupronickelcoil>, <gregtech:machine:501>, <contenttweaker:cupronickelcoil>], 	[<ore:circuitBasic>, <ore:plateRubber>, <ore:circuitBasic>]]);
+recipes.addShaped(<gregtech:machine:714>, [	[<ore:cableGtSingleTin>, <ore:plateRubber>, <ore:cableGtSingleTin>], 	[<contenttweaker:cupronickelcoil>, <gregtech:machine:501>, <contenttweaker:cupronickelcoil>], 	[<ore:cableGtSingleTin>, <ore:plateRubber>, <ore:cableGtSingleTin>]]);
 recipes.remove(<gregtech:meta_item_1:32729>);
 recipes.remove(<gregtech:machine:714>);
 furnace.remove(<gregtech:meta_item_1:10557>);
