@@ -158,3 +158,35 @@ val primordial_forge = Builder.start(loc, meta)
 .withZoom(0.5f)
 
 .buildAndRegister() as Multiblock;
+
+primordial_forge.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:moltenfullerenesuperconductor>*1000,<liquid:proto_adamantium>*2000,<liquid:metastable_oganesson>*2000,<liquid:moltenborocarbide>*3000)
+    .fluidOutputs(<liquid:uiv_superconductor_base>*3500)
+    .duration(400)
+    .EUt(100000)
+    .buildAndRegister();
+
+primordial_forge.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:superheavy_h_alloy>*2000,<liquid:moltenchargedcesiumceriumcobaltindium>*3000,<liquid:black_titanium>*3000,<liquid:moltenrheniumhassiumthalliumisophtaloylbisdiethylthiourea>*6000)
+    .fluidOutputs(<liquid:umv_superconductor_base>*7000)
+    .duration(400)
+    .EUt(100000)
+    .buildAndRegister();
+
+primordial_forge.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:moltenlegendarium>*5000,<liquid:moltenrheniumhassiumthalliumisophtaloylbisdiethylthiourea>*12000,<liquid:moltenactiniumsuperhydride>*5000,<liquid:moltenlanthanumfullerenenanotubes>*4000,<liquid:neutronium>*4000)
+    .fluidOutputs(<liquid:uxv_superconductor_base>*15000)
+    .duration(400)
+    .EUt(100000)
+    .buildAndRegister();
+
+primordial_forge.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:moltenlegendarium>*4000,<liquid:pikyonium>*3000,<liquid:ultimate>*3500,<liquid:cosmic_neutronium>*2000,<liquid:moltenrheniumhassiumthalliumisophtaloylbisdiethylthiourea>*24000,<liquid:periodicium>*12000)
+    .fluidOutputs(<liquid:maxsuperconductorbase>*10000)
+    .duration(400)
+    .EUt(100000)
+    .buildAndRegister();
+
+
+
+
