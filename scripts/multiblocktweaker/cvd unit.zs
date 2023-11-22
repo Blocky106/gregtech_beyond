@@ -86,10 +86,27 @@ val cvd_unit = Builder.start(loc, meta)
         FactoryRecipeMap.start(loc)
                         .maxInputs(1)
                         .maxFluidInputs(1)
-                        .maxFluidOutputs(1)
-                        .maxOutputs(1)
+                        .maxOutputs(2)
                         .build())
 .withTexture(ICubeRenderer.sided("contenttweaker:blocks/hss_s"))
 .withZoom(0.5f)
 
 .buildAndRegister() as Multiblock;
+
+cvd_unit.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2204>*3)
+    .fluidInputs(<liquid:graphene_oxidation_solution>*100)
+    .outputs(<gtadditions:ga_dust:358>)
+    .chancedOutput(<gtadditions:ga_dust:107>, 8000, 100)
+    .duration(200)
+    .EUt(2000)
+    .buildAndRegister();
+
+cvd_unit.recipeMap.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:358>)
+    .notConsumable(<contenttweaker:nickel_breeding_bed>)
+    .fluidInputs(<liquid:methane>*1000)
+    .outputs(<gtadditions:ga_dust:357>)
+    .duration(200)
+    .EUt(2000)
+    .buildAndRegister();
