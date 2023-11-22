@@ -129,20 +129,34 @@ inscriber.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
-recipes.addShaped(<gregtech:machine:1421>, [
-	[<ore:screwSteel>, <gregtech:meta_item_1:32681>, <ore:screwSteel>], 
-	[<gregtech:meta_item_1:32651>, <gregtech:machine:502>, <gregtech:meta_item_1:32651>], 
-	[<ore:plateSteel>, <appliedenergistics2:inscriber>, <ore:plateSteel>]
-]);
+recipes.addShaped(<gregtech:machine:1421>, [	[<ore:screwSteel>, <gregtech:meta_item_1:32681>, <ore:screwSteel>], 	[<gregtech:meta_item_1:32651>, <gregtech:machine:502>, <gregtech:meta_item_1:32651>], 	[<ore:plateSteel>, <appliedenergistics2:inscriber>, <ore:plateSteel>]]);
+recipes.addShaped(<gregtech:machine:1422>, [	[<ore:screwSteel>, <gregtech:meta_item_1:32682>, <ore:screwSteel>], 	[<gregtech:meta_item_1:32652>, <gregtech:machine:503>, <gregtech:meta_item_1:32652>], 	[<ore:plateSteel>, <appliedenergistics2:inscriber>, <ore:plateSteel>]]);
+recipes.addShaped(<gregtech:machine:1423>, [	[<ore:screwSteel>, <gregtech:meta_item_1:32683>, <ore:screwSteel>], 	[<gregtech:meta_item_1:32653>, <gregtech:machine:504>, <gregtech:meta_item_1:32653>], 	[<ore:plateSteel>, <appliedenergistics2:inscriber>, <ore:plateSteel>]]);
 
-recipes.addShaped(<gregtech:machine:1422>, [
-	[<ore:screwSteel>, <gregtech:meta_item_1:32682>, <ore:screwSteel>], 
-	[<gregtech:meta_item_1:32652>, <gregtech:machine:503>, <gregtech:meta_item_1:32652>], 
-	[<ore:plateSteel>, <appliedenergistics2:inscriber>, <ore:plateSteel>]
-]);
+inscriber.recipeBuilder()
+    .inputs(<threng:material:1>,<minecraft:iron_ingot>,<appliedenergistics2:material:45>)
+    .outputs(<threng:material:2>)
+    .duration(40)
+    .EUt(12)
+    .buildAndRegister();
 
-recipes.addShaped(<gregtech:machine:1423>, [
-	[<ore:screwSteel>, <gregtech:meta_item_1:32683>, <ore:screwSteel>], 
-	[<gregtech:meta_item_1:32653>, <gregtech:machine:504>, <gregtech:meta_item_1:32653>], 
-	[<ore:plateSteel>, <appliedenergistics2:inscriber>, <ore:plateSteel>]
-]);
+inscriber.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:12061>,<threng:material:5>,<minecraft:redstone>)
+    .outputs(<threng:material:6>)
+    .duration(40)
+    .EUt(12)
+    .buildAndRegister();
+
+inscriber.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:12061>,<threng:material:13>,<minecraft:redstone>)
+    .outputs(<threng:material:14>)
+    .duration(40)
+    .EUt(480)
+    .buildAndRegister();
+
+
+
+
+
+
+
