@@ -1085,3 +1085,118 @@ alloy_smelter.recipeBuilder()
     .EUt(22)
     .buildAndregister();
 
+recipes.remove(<nuclearcraft:helm_hazmat>);
+recipes.remove(<nuclearcraft:chest_hazmat>);
+recipes.remove(<nuclearcraft:legs_hazmat>);
+recipes.remove(<nuclearcraft:boots_hazmat>);
+
+recipes.addShaped(<nuclearcraft:helm_hazmat>, [
+	[<nuclearcraft:rad_shielding:2>, <ore:plateSteel>, <nuclearcraft:rad_shielding:2>], 
+	[<ore:bioplastic>, null, <ore:bioplastic>], 
+	[null, null, null]
+]);
+recipes.addShaped(<nuclearcraft:helm_hazmat>, [
+	[<nuclearcraft:rad_shielding:2>, <ore:plateSteel>, <nuclearcraft:rad_shielding:2>], 
+	[<gregtech:meta_item_1:12141>, null, <gregtech:meta_item_1:12141>], 
+	[null, null, null]
+]);
+
+recipes.addShaped(<nuclearcraft:legs_hazmat>, [
+	[<nuclearcraft:rad_shielding:2>, <ore:wool>, <nuclearcraft:rad_shielding:2>], 
+	[<gregtech:meta_item_1:12141>, null, <gregtech:meta_item_1:12141>], 
+	[<ore:plateSteel>, null, <ore:plateSteel>]
+]);
+
+recipes.addShaped(<nuclearcraft:legs_hazmat>, [
+	[<nuclearcraft:rad_shielding:2>, <ore:wool>, <nuclearcraft:rad_shielding:2>], 
+	[<ore:bioplastic>, null, <ore:bioplastic>], 
+	[<ore:plateSteel>, null, <ore:plateSteel>]
+]);
+
+recipes.addShaped(<nuclearcraft:chest_hazmat>, [
+	[<ore:bioplastic>, null, <ore:bioplastic>], 
+	[<nuclearcraft:rad_shielding:2>, <ore:plateSteel>, <nuclearcraft:rad_shielding:2>], 
+	[<ore:plateSteel>, <ore:wool>, <ore:plateSteel>]
+]);
+
+recipes.addShaped(<nuclearcraft:chest_hazmat>, [
+	[<gregtech:meta_item_1:12141>, null, <gregtech:meta_item_1:12141>], 
+	[<nuclearcraft:rad_shielding:2>, <ore:plateSteel>, <nuclearcraft:rad_shielding:2>], 
+	[<ore:plateSteel>, <ore:wool>, <ore:plateSteel>]
+]);
+
+recipes.addShaped(<nuclearcraft:boots_hazmat> [
+	[null, null, null], 
+	[<nuclearcraft:rad_shielding:2>, null, <nuclearcraft:rad_shielding:2>], 
+	[<ore:bioplastic>, null, <ore:bioplastic>]
+]);
+
+recipes.addShaped(<nuclearcraft:boots_hazmat>, [
+	[null, null, null], 
+	[<nuclearcraft:rad_shielding:2>, null, <nuclearcraft:rad_shielding:2>], 
+	[<gregtech:meta_item_1:12141>, null, <gregtech:meta_item_1:12141>]
+]);
+
+assembler.recipeBuilder()
+    .inputs(<nuclearcraft:rad_shielding:2>*2,<gregtech:meta_item_1:12141>*2)   
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 4}))
+    .outputs(<nuclearcraft:boots_hazmat>)
+    .duration(20)
+    .EUt(12)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs(<nuclearcraft:rad_shielding:2>*2,<ore:bioplastic>*2)   
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 4}))
+    .outputs(<nuclearcraft:boots_hazmat>)
+    .duration(20)
+    .EUt(12)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs(<nuclearcraft:rad_shielding:2>*2,<gregtech:meta_item_1:12141>*2,<ore:plateSteel>)   
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 5}))
+    .outputs(<nuclearcraft:helm_hazmat>)
+    .duration(20)
+    .EUt(12)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs(<nuclearcraft:rad_shielding:2>*2,<ore:bioplastic>*2,<ore:plateSteel>)   
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 5}))
+    .outputs(<nuclearcraft:helm_hazmat>)
+    .duration(20)
+    .EUt(12)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs(<nuclearcraft:rad_shielding:2>*2,<gregtech:meta_item_1:12141>*2,<ore:plateSteel>*2,<ore:wool>)   
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 7}))
+    .outputs(<nuclearcraft:legs_hazmat>)
+    .duration(20)
+    .EUt(12)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs(<nuclearcraft:rad_shielding:2>*2,<ore:bioplastic>*2,<ore:plateSteel>*2,<ore:wool>)   
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 7}))
+    .outputs(<nuclearcraft:legs_hazmat>)
+    .duration(20)
+    .EUt(12)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs(<nuclearcraft:rad_shielding:2>*2,<ore:bioplastic>*2,<ore:plateSteel>*3,<ore:wool>)   
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 8}))
+    .outputs(<nuclearcraft:chest_hazmat>)
+    .duration(20)
+    .EUt(12)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs(<nuclearcraft:rad_shielding:2>*2,<gregtech:meta_item_1:12141>*2,<ore:plateSteel>*3,<ore:wool>)   
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 8}))
+    .outputs(<nuclearcraft:chest_hazmat>)
+    .duration(20)
+    .EUt(12)
+    .buildAndRegister();
