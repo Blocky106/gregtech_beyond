@@ -25,7 +25,7 @@ import crafttweaker.oredict.IOreDictEntry;
 
 var loc = "molecular_transformer";
 var meta = 10001;
-val dilution_tank = Builder.start(loc, meta)
+val molecular_transformer = Builder.start(loc, meta)
     .withPattern(
             FactoryBlockPattern.start(RelativeDirection.RIGHT, RelativeDirection.BACK, RelativeDirection.UP)
                 .aisle(
@@ -160,10 +160,125 @@ val dilution_tank = Builder.start(loc, meta)
         FactoryRecipeMap.start(loc)
                         .maxInputs(1)
                         .maxFluidInputs(1)
-                        .maxFluidOutputs(1)
                         .maxOutputs(1)
                         .build())
 .withTexture(ICubeRenderer.sided("contenttweaker:blocks/particleprotectioncasing"))
 .withZoom(0.5f)
 
 .buildAndRegister() as Multiblock;
+
+
+molecular_transformer.recipeMap.recipeBuilder()
+    .inputs(<minecraft:dye:4>)
+    .outputs(<gregtech:meta_item_1:8157>)
+    .duration(20)
+    .EUt(480)
+    .buildAndRegister();
+
+molecular_transformer.recipeMap.recipeBuilder()
+    .inputs(<ore:sand>)
+    .outputs(<minecraft:gravel>)
+    .duration(20)
+    .EUt(480)
+    .buildAndRegister();
+
+molecular_transformer.recipeMap.recipeBuilder()
+    .inputs(<contenttweaker:crystaltinebaseingot>)
+    .outputs(<extendedcrafting:material:24>)
+    .duration(20)
+    .EUt(480)
+    .buildAndRegister();
+
+molecular_transformer.recipeMap.recipeBuilder()
+    .inputs(<ore:woolYellow>)
+    .outputs(<minecraft:glowstone>)
+    .duration(20)
+    .EUt(480)
+    .buildAndRegister();
+
+molecular_transformer.recipeMap.recipeBuilder()
+    .inputs(<minecraft:netherrack>)
+    .outputs(<minecraft:gunpowder>*2)
+    .duration(20)
+    .EUt(480)
+    .buildAndRegister();
+
+molecular_transformer.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2072>)
+    .outputs(<gregtech:meta_item_1:2016>)
+    .duration(20)
+    .EUt(480)
+    .buildAndRegister();
+
+molecular_transformer.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:10071>)
+    .outputs(<gregtech:meta_item_1:10062>)
+    .duration(20)
+    .EUt(480)
+    .buildAndRegister();
+
+molecular_transformer.recipeMap.recipeBuilder()
+    .inputs(<minecraft:quartz>)
+    .outputs(<gregtech:meta_item_1:8202>)
+    .duration(20)
+    .EUt(480)
+    .buildAndRegister();
+
+molecular_transformer.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:10018>)
+    .outputs(<gregtech:meta_item_1:10044>)
+    .duration(20)
+    .EUt(480)
+    .buildAndRegister();
+
+molecular_transformer.recipeMap.recipeBuilder()
+    .inputs(<minecraft:wool:14>)
+    .outputs(<minecraft:redstone_block>)
+    .duration(20)
+    .EUt(480)
+    .buildAndRegister();
+
+molecular_transformer.recipeMap.recipeBuilder()
+    .inputs(<minecraft:redstone>)
+    .outputs(<gregtech:meta_item_1:8154>)
+    .duration(20)
+    .EUt(480)
+    .buildAndRegister();
+
+molecular_transformer.recipeMap.recipeBuilder()
+    .inputs(<minecraft:wool:11>)
+    .outputs(<minecraft:lapis_block>)
+    .duration(20)
+    .EUt(480)
+    .buildAndRegister();
+
+molecular_transformer.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:10062>)
+    .outputs(<minecraft:gold_ingot>)
+    .duration(20)
+    .EUt(480)
+    .buildAndRegister();
+
+molecular_transformer.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:10072>)
+    .outputs(<gregtech:meta_item_1:10016>)
+    .duration(20)
+    .EUt(480)
+    .buildAndRegister();
+
+molecular_transformer.recipeMap.recipeBuilder()
+    .inputs(<minecraft:dirt:2>)
+    .outputs(<minecraft:clay>)
+    .duration(20)
+    .EUt(480)
+    .buildAndRegister();
+
+molecular_transformer.recipeMap.recipeBuilder()
+    .inputs(<contenttweaker:instablematter>)
+    .fluidInputs(<liquid:atomicseperationcatalyst>*144)
+    .outputs(<contenttweaker:stablematter>)
+    .duration(20)
+    .EUt(480)
+    .buildAndRegister();
+
+
