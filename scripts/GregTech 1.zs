@@ -1144,7 +1144,7 @@ electrolyzer.recipeBuilder()
 	.buildAndRegister();
 
 fluidExtractor.recipeBuilder()
-	.inputs(<modularmachinery:itemmodularium>)
+	.inputs(<gregtech:meta_item_1:10596>)
 	.fluidOutputs(<liquid:moltenmodularium> * 144)
 	.duration(200)
 	.EUt(200000)
@@ -1153,7 +1153,7 @@ fluidExtractor.recipeBuilder()
 fluid_solidifier.recipeBuilder()
 	.fluidInputs(<liquid:moltenmodularium> * 144)
 	.notConsumable(<gregtech:meta_item_1:32306>)
-	.outputs(<modularmachinery:itemmodularium>)
+	.outputs(<gregtech:meta_item_1:10596>)
 	.duration(200)
 	.EUt(200000)
 	.buildAndRegister();
@@ -1200,7 +1200,7 @@ alloy_smelter.recipeBuilder()
 
 
 assembly_line.recipeBuilder()
-	.inputs(<gregtech:frame_seaborgium>*2,<ore:circuitInfinite>*4,<contenttweaker:forcefieldgenerator>*2,<modularmachinery:itemmodularium>*16,<gregtech:meta_item_1:19309>*32,<gregtech:meta_item_1:16309>*64,<gregtech:meta_item_1:16309>*64,<gregtech:meta_item_1:16309>*64)
+	.inputs(<gregtech:frame_seaborgium>*2,<ore:circuitInfinite>*4,<contenttweaker:forcefieldgenerator>*2,<gregtech:meta_item_1:10596>*16,<gregtech:meta_item_1:19309>*32,<gregtech:meta_item_1:16309>*64,<gregtech:meta_item_1:16309>*64,<gregtech:meta_item_1:16309>*64)
 	.fluidInputs(<liquid:zpm_superconductor>*2000,<liquid:hsss>*10000,<liquid:radon>*10000,<liquid:hsse>*10000)
 	.outputs(<contenttweaker:highpowercasing>*2)
 	.duration(800)
@@ -1493,11 +1493,19 @@ assembly_line.recipeBuilder()
 	.EUt(99999999)
 	.buildAndRegister();
 
+chemReactor.recipeBuilder()
+	.inputs(<thermalfoundation:material:893>,<thermalfoundation:material:894>,<thermalfoundation:material:895>)
+	.fluidInputs(<liquid:mana>*1000)
+	.outputs(<thermalfoundation:geode>)
+	.EUt(200)
+	.duration(400)
+	.buildAndRegister();
+
 lcr.recipeBuilder()
 	.inputs(<thermalfoundation:material:893>,<thermalfoundation:material:894>,<thermalfoundation:material:895>)
 	.fluidInputs(<liquid:mana>*1000)
 	.outputs(<thermalfoundation:geode>)
-	.EUt(80000)
+	.EUt(200)
 	.duration(400)
 	.buildAndRegister();
 
