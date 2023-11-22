@@ -347,14 +347,8 @@ val mega_alloy_blast_smelter = Builder.start(loc, meta)
                 .where("X", MetaTileEntities.FLUID_EXPORT_HATCH[1], IFacing.north())
                 .where("E", MetaTileEntities.ENERGY_INPUT_HATCH[4], IFacing.east())
                 .build())
-.withRecipeMap(
-        FactoryRecipeMap.start(loc)
-                        .maxInputs(1)
-                        .maxFluidInputs(1)
-                        .maxFluidOutputs(1)
-                        .maxOutputs(1)
-                        .build())
 .withTexture(ICubeRenderer.sided("contenttweaker:blocks/zirconium_carbide"))
 .withZoom(0.5f)
 
 .buildAndRegister() as Multiblock;
+
