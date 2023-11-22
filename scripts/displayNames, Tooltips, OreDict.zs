@@ -35,7 +35,6 @@ val extruder = mods.gregtech.recipe.RecipeMap.getByName("extruder");
 
 
 <appliedenergistics2:controller>.addTooltip(format.red("Requires Research"));
-<modularmachinery:machine_projector>.addTooltip(format.red("Requires Research"));
 <avaritia:resource:4>.addTooltip(format.green("True Neutronium"));
 <liquid:obisdianinfuseddraconiummixture>.addTooltip(format.red("made in cells"));
 <liquid:draconiumrichsolution>.addTooltip(format.red("made in cells"));
@@ -365,9 +364,9 @@ mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:
 
 
 
-
-
-
+<ore:nuggetManyullyn>.remove(<gregtech:meta_item_1:9527>);
+<ore:blockManyullyn>.remove(<gregtech:meta_block_compressed_32:15>);
+<ore:ingotManyullyn>.remove(<gregtech:meta_item_1:10527>);
 <ore:pulpWood>.remove(<forestry:wood_pulp>);
 <ore:plateSteel>.remove(<libvulpes:productplate:6>);
 <ore:gearSteel>.remove(<libvulpes:productgear:6>);
