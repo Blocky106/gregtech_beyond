@@ -1104,3 +1104,87 @@ lcr.recipeBuilder()
     .EUt(200)
     .duration(800)
     .buildAndRegister();
+
+engraver.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:12237>)
+    .notConsumable(<contenttweaker:advancedcircuitmold>)
+    .outputs(<contenttweaker:itemprocessorcoret1>)
+    .duration(120)
+    .EUt(80)
+    .buildAndRegister();
+
+engraver.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:12233>)
+    .notConsumable(<contenttweaker:advancedcircuitmold>)
+    .outputs(<contenttweaker:itemprocessorcoret2>)
+    .duration(120)
+    .EUt(80)
+    .buildAndRegister();
+
+engraver.recipeBuilder()
+    .inputs(<contenttweaker:greensteelplate>)
+    .notConsumable(<contenttweaker:advancedcircuitmold>)
+    .outputs(<contenttweaker:itemprocessorcoret3>)
+    .duration(120)
+    .EUt(80)
+    .buildAndRegister();
+
+engraver.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:12527>)
+    .notConsumable(<contenttweaker:advancedcircuitmold>)
+    .outputs(<contenttweaker:itemprocessorcoret4>)
+    .duration(120)
+    .EUt(80)
+    .buildAndRegister();
+
+lengraver.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:12237>)
+    .notConsumable(<contenttweaker:advancedcircuitmold>)
+    .outputs(<contenttweaker:itemprocessorcoret1>)
+    .duration(120)
+    .EUt(80)
+    .buildAndRegister();
+
+lengraver.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:12233>)
+    .notConsumable(<contenttweaker:advancedcircuitmold>)
+    .outputs(<contenttweaker:itemprocessorcoret2>)
+    .duration(120)
+    .EUt(80)
+    .buildAndRegister();
+
+lengraver.recipeBuilder()
+    .inputs(<contenttweaker:greensteelplate>)
+    .notConsumable(<contenttweaker:advancedcircuitmold>)
+    .outputs(<contenttweaker:itemprocessorcoret3>)
+    .duration(120)
+    .EUt(80)
+    .buildAndRegister();
+
+lengraver.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:12527>)
+    .notConsumable(<contenttweaker:advancedcircuitmold>)
+    .outputs(<contenttweaker:itemprocessorcoret4>)
+    .duration(120)
+    .EUt(80)
+    .buildAndRegister();
+
+Utils.removeRecipeByOutput(chemical_bath, [<gtadditions:ga_dust:358>,<gtadditions:ga_dust:107>], [], false);
+Utils.removeRecipeByOutput(chemical_bath, [<gtadditions:ga_dust:357>*3], [], false);
+
+ebf.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:12044>)
+    .fluidInputs(<liquid:oxygen>*1000)
+    .outputs(<contenttweaker:annealed_nickel_plate>)
+    .property("temperature", 1700)
+    .duration(400)
+    .EUt(1200)
+    .buildAndRegister();
+
+chemical_bath.recipeBuilder()
+    .inputs(<contenttweaker:annealed_nickel_plate>)
+    .fluidInputs(<liquid:argon>*2000)
+    .outputs(<contenttweaker:nickel_breeding_bed>)
+    .duration(800)
+    .EUt(1200)
+    .buildAndRegister();
