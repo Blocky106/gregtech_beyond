@@ -1188,3 +1188,14 @@ chemical_bath.recipeBuilder()
     .duration(800)
     .EUt(1200)
     .buildAndRegister();
+
+recipes.remove(<gregtech:machine:2994>);
+recipes.remove(<gregtech:machine:2995>);
+recipes.remove(<gregtech:machine:2996>);
+recipes.remove(<gregtech:machine:2997>);
+recipes.remove(<gregtech:machine:2998>);
+recipes.remove(<gregtech:machine:2999>);
+recipes.remove(<gregtech:machine:2930>);
+recipes.remove(<gregtech:machine:2931>);
+
+recipes.addShaped(<gregtech:machine:2994>, [	[<ore:cableGtSingleTin>, <ore:plateSteel>, <ore:cableGtSingleTin>], 	[<contenttweaker:cupronickelcoil>, <gregtech:machine:714>, <contenttweaker:cupronickelcoil>], 	[<ore:cableGtSingleTin>, <ore:plateSteel>, <ore:cableGtSingleTin>]]);
