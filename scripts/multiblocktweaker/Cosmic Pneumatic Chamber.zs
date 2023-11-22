@@ -77,6 +77,22 @@ val cosmic_pneumatic_chamber = Builder.start(loc, meta)
                     "O~~~~~O",
                     "OOOOOOO")
                 .aisle(
+                    "OOOOOOO",
+                    "O~~~~~O",
+                    "O~~~~~O",
+                    "O~~~~~O",
+                    "O~~~~~O",
+                    "O~~~~~O",
+                    "OOOOOOO")
+                .aisle(
+                    "OOOOOOO",
+                    "O~~~~~O",
+                    "O~~~~~O",
+                    "O~~~~~O",
+                    "O~~~~~O",
+                    "O~~~~~O",
+                    "OOOOOOO")
+                .aisle(
                     "CCCCCCC",
                     "CCCCCCC",
                     "CCCCCCC",
@@ -182,12 +198,98 @@ val cosmic_pneumatic_chamber = Builder.start(loc, meta)
                 .build())
 .withRecipeMap(
         FactoryRecipeMap.start(loc)
-                        .maxInputs(1)
-                        .maxFluidInputs(1)
-                        .maxFluidOutputs(1)
+                        .maxInputs(2)
                         .maxOutputs(1)
                         .build())
 .withTexture(ICubeRenderer.sided("contenttweaker:blocks/pneumatic"))
 .withZoom(0.5f)
 
 .buildAndRegister() as Multiblock;
+
+cosmic_pneumatic_chamber.recipeMap.recipeBuilder()
+    .inputs(<pneumaticcraft:empty_pcb>)
+    .outputs(<pneumaticcraft:unassembled_pcb>)
+    .duration(800)
+    .EUt(20000)
+    .buildAndRegister();
+
+cosmic_pneumatic_chamber.recipeMap.recipeBuilder()
+    .inputs(<gtadditions:ga_meta_item:32601>*8,<pneumaticcraft:ingot_iron_compressed>*4)
+    .outputs(<pneumaticcraft:capacitor>)
+    .duration(800)
+    .EUt(20000)
+    .buildAndRegister();
+
+cosmic_pneumatic_chamber.recipeMap.recipeBuilder()
+    .inputs(<gtadditions:ga_meta_item:32545>*2,<pneumaticcraft:ingot_iron_compressed>*4)
+    .outputs(<pneumaticcraft:capacitor>)
+    .duration(800)
+    .EUt(20000)
+    .buildAndRegister();
+
+cosmic_pneumatic_chamber.recipeMap.recipeBuilder()
+    .inputs(<gtadditions:ga_meta_item:32537>*4,<pneumaticcraft:ingot_iron_compressed>*4)
+    .outputs(<pneumaticcraft:transistor>)
+    .duration(800)
+    .EUt(20000)
+    .buildAndRegister();
+
+cosmic_pneumatic_chamber.recipeMap.recipeBuilder()
+    .inputs(<gtadditions:ga_meta_item:32405>*64,<pneumaticcraft:ingot_iron_compressed>*4)
+    .outputs(<pneumaticcraft:transistor>)
+    .duration(800)
+    .EUt(20000)
+    .buildAndRegister();
+
+cosmic_pneumatic_chamber.recipeMap.recipeBuilder()
+    .inputs(<gtadditions:ga_meta_item:32542>*2,<pneumaticcraft:ingot_iron_compressed>*4)
+    .outputs(<pneumaticcraft:transistor>)
+    .duration(800)
+    .EUt(20000)
+    .buildAndRegister();
+
+cosmic_pneumatic_chamber.recipeMap.recipeBuilder()
+    .inputs(<gtadditions:ga_meta_item:32497>*16,<pneumaticcraft:ingot_iron_compressed>*4)
+    .outputs(<pneumaticcraft:transistor>)
+    .duration(800)
+    .EUt(20000)
+    .buildAndRegister();
+
+cosmic_pneumatic_chamber.recipeMap.recipeBuilder()
+    .inputs(<gtadditions:ga_meta_item:32406>*64,<pneumaticcraft:ingot_iron_compressed>*4)
+    .outputs(<pneumaticcraft:capacitor>)
+    .duration(800)
+    .EUt(20000)
+    .buildAndRegister();
+
+cosmic_pneumatic_chamber.recipeMap.recipeBuilder()
+    .inputs(<gtadditions:ga_meta_item:32601>*8,<pneumaticcraft:ingot_iron_compressed>*4)
+    .outputs(<pneumaticcraft:capacitor>)
+    .duration(800)
+    .EUt(20000)
+    .buildAndRegister();
+
+cosmic_pneumatic_chamber.recipeMap.recipeBuilder()
+    .inputs(<gtadditions:ga_meta_item:32604>*8,<pneumaticcraft:ingot_iron_compressed>*4)
+    .outputs(<pneumaticcraft:transistor>)
+    .duration(800)
+    .EUt(20000)
+    .buildAndRegister();
+
+cosmic_pneumatic_chamber.recipeMap.recipeBuilder()
+    .inputs(<gtadditions:ga_meta_item:32534>*4,<pneumaticcraft:ingot_iron_compressed>*4)
+    .outputs(<pneumaticcraft:capacitor>)
+    .duration(800)
+    .EUt(20000)
+    .buildAndRegister();
+
+cosmic_pneumatic_chamber.recipeMap.recipeBuilder()
+    .inputs(<gtadditions:ga_meta_item:32494>*16,<pneumaticcraft:ingot_iron_compressed>*4)
+    .outputs(<pneumaticcraft:capacitor>)
+    .duration(800)
+    .EUt(20000)
+    .buildAndRegister();
+
+
+
+
