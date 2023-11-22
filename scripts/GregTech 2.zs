@@ -472,10 +472,10 @@ assembler.recipeBuilder()
 
 assembler.recipeBuilder()
     .inputs(<gregtech:meta_item_1:12328>*4,<gregtech:meta_item_1:12033>*4)
-    .fluidInputs(<liquid:refinedglue>*72)
-    .outputs(<projectred-core:resource_item>)
+    .fluidInputs(<liquid:refinedglue>*144)
+    .outputs(<projectred-core:resource_item>*4)
     .duration(400)
-    .EUt(560)
+    .EUt(24)
     .buildAndRegister();
 
 chemReactor.recipeBuilder()
@@ -528,34 +528,34 @@ mixer.recipeBuilder()
 
 assembler.recipeBuilder()
     .inputs(<contenttweaker:itemprocessorcoret1>,<projectred-core:resource_item>)
-    .fluidInputs(<liquid:polytetrafluoroethylene>*1000)
+    .fluidInputs(<liquid:plastic>*100)
     .outputs(<contenttweaker:itemprocessort1>)
     .duration(200)
-    .EUt(1200)
+    .EUt(200)
     .buildAndRegister();
 
 assembler.recipeBuilder()
     .inputs(<contenttweaker:itemprocessorcoret2>,<projectred-core:resource_item>)
-    .fluidInputs(<liquid:tungsten>*1000)
+    .fluidInputs(<liquid:plastic>*100)
     .outputs(<contenttweaker:itemprocessort2>)
     .duration(200)
-    .EUt(4800)
+    .EUt(200)
     .buildAndRegister();
 
 assembler.recipeBuilder()
     .inputs(<contenttweaker:itemprocessorcoret3>,<projectred-core:resource_item>)
-    .fluidInputs(<liquid:polybenzimidazole>*1000)
+    .fluidInputs(<liquid:polytetrafluoroethylene>*100)
     .outputs(<contenttweaker:itemprocessort3>)
     .duration(200)
-    .EUt(19200)
+    .EUt(200)
     .buildAndRegister();
 
 assembler.recipeBuilder()
     .inputs(<contenttweaker:itemprocessorcoret4>,<projectred-core:resource_item>)
-    .fluidInputs(<liquid:naquadah_alloy>*1000)
+    .fluidInputs(<liquid:polytetrafluoroethylene>*100)
     .outputs(<contenttweaker:itemprocessort4>)
     .duration(200)
-    .EUt(76800)
+    .EUt(200)
     .buildAndRegister();
 
 ebf.recipeBuilder()
@@ -696,64 +696,31 @@ ebf.recipeBuilder()
     .buildAndRegister();
 
 cas.recipeBuilder()
-    .inputs(<appliedenergistics2:material:1>*2,<enderio:item_alloy_ingot:3>*2,<appliedenergistics2:material:24>,<ore:circuitBasic>,<gregtech:meta_item_1:17127>*2)
+    .inputs(<appliedenergistics2:material:1>*2,<enderio:item_alloy_ingot:3>*2,<appliedenergistics2:material:24>,<ore:circuitPrimitive>,<gregtech:meta_item_1:17127>*2)
     .outputs(<appliedenergistics2:material:35>)
     .duration(200)
-    .EUt(100)
+    .EUt(20)
     .buildAndRegister();
 
 cas.recipeBuilder()
-    .inputs(<contenttweaker:itemprocessort1>,<appliedenergistics2:material:35>*4,<ore:circuitGood>,<gregtech:meta_item_1:17235>*2,<gtadditions:ga_dust:32046>)
+    .inputs(<contenttweaker:itemprocessort1>,<appliedenergistics2:material:35>*4,<ore:circuitBasic>,<gregtech:meta_item_1:17235>*2,<gtadditions:ga_dust:32046>)
     .outputs(<appliedenergistics2:material:36>)
     .duration(300)
-    .EUt(1980)
+    .EUt(20)
     .buildAndRegister();
 
 cas.recipeBuilder()
-    .inputs(<contenttweaker:itemprocessort2>,<appliedenergistics2:material:36>*4,<ore:circuitAdvanced>,<gregtech:meta_item_1:17859>*2,<gtadditions:ga_dust:32047>*2)
+    .inputs(<contenttweaker:itemprocessort2>,<appliedenergistics2:material:36>*4,<ore:circuitGood>,<gregtech:meta_item_1:17859>*2,<gtadditions:ga_dust:32047>*2)
     .outputs(<appliedenergistics2:material:37>)
     .duration(300)
-    .EUt(7890)
+    .EUt(20)
     .buildAndRegister();
 
 cas.recipeBuilder()
-    .inputs(<contenttweaker:itemprocessort3>,<appliedenergistics2:material:37>*4,<ore:circuitExtreme>,<contenttweaker:osmiridiumcircuit>,<gregtech:meta_item_1:17207>*2,<gtadditions:ga_dust:32048>*3)
+    .inputs(<contenttweaker:itemprocessort3>,<appliedenergistics2:material:37>*4,<ore:circuitAdvanced>,<gtadditions:ga_dust:32048>*3)
     .outputs(<appliedenergistics2:material:38>)
     .duration(300)
-    .EUt(32768)
-    .buildAndRegister();
-
-assembler.recipeBuilder()  
-    .inputs(<gregtech:meta_item_1:12303>*4,<contenttweaker:hssgcoil>*2)
-    .notConsumable(<contenttweaker:advancedcircuitmold>)
-    .outputs(<contenttweaker:itemprocessorcoret3>)
-    .duration(100)
-    .EUt(30000)
-    .buildAndRegister();
-
-assembler.recipeBuilder()  
-    .inputs(<gregtech:meta_item_1:12135>*4,<contenttweaker:tungstensteelcoil>*2)
-    .notConsumable(<contenttweaker:advancedcircuitmold>)
-    .outputs(<contenttweaker:itemprocessorcoret2>)
-    .duration(100)
-    .EUt(8000)
-    .buildAndRegister();
-
-assembler.recipeBuilder()  
-    .inputs(<gregtech:meta_item_1:12052>*4,<gregtech:meta_item_2:16237>*16)
-    .notConsumable(<contenttweaker:advancedcircuitmold>)
-    .outputs(<contenttweaker:itemprocessorcoret1>)
-    .duration(100)
-    .EUt(2000)
-    .buildAndRegister();
-
-assembler.recipeBuilder()  
-    .inputs(<gregtech:meta_item_1:12854>*4,<contenttweaker:naquadacoil>*4)
-    .notConsumable(<contenttweaker:advancedcircuitmold>)
-    .fluidInputs(<liquid:uumatter>*200)
-    .outputs(<contenttweaker:itemprocessorcoret4>)
-    .duration(100)
-    .EUt(500000)
+    .EUt(20)
     .buildAndRegister();
 
 forming_press.recipeBuilder()
