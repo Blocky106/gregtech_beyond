@@ -1068,3 +1068,20 @@ cas.recipeBuilder()
     .buildAndRegister();
 
 <ore:dustPotassiumFluoride>.remove(<nuclearcraft:compound:4>);
+
+furnace.remove(<qmd:ingot:8>);
+
+alloy_smelter.recipeBuilder()
+    .inputs(<minecraft:iron_ingot>,<gregtech:meta_item_1:2009>)
+    .outputs(<nuclearcraft:alloy:6>)
+    .duration(200)
+    .EUt(22)
+    .buildAndregister();
+
+alloy_smelter.recipeBuilder()
+    .inputs(<nuclearcraft:alloy:6>,<gregtech:meta_item_1:10036>)
+    .outputs(<nuclearcraft:alloy:1>)
+    .duration(200)
+    .EUt(22)
+    .buildAndregister();
+
