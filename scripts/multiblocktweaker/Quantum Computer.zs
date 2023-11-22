@@ -153,6 +153,7 @@ val quantum_computer = Builder.start(loc, meta)
 
 .withRecipeMap(
         FactoryRecipeMap.start(loc)
+                        .maxInputs(1)
                         .maxOutputs(1)
                         .build())
 .withZoom(0.5f)
