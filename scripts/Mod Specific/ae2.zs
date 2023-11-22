@@ -414,3 +414,6 @@ alloy_smelter.recipeBuilder()
     .duration(80)
     .EUt(512)
     .buildAndRegister();
+
+recipes.remove(<threng:material:9>);
+recipes.addShaped(<threng:material:9>, [[null, null, null], 	[<threng:material:8>, <ore:plateSilicon>, <threng:material:8>], 	[null, null, null]]);
