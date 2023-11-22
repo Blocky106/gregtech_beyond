@@ -110,7 +110,7 @@ recipes.addShaped(<randomthings:globalchatdetector>, [	[<projectred-integration:
 recipes.remove(<randomthings:imbuingstation>);
 recipes.addShaped(<randomthings:imbuingstation>, [	[<contenttweaker:greensteelplate>, <overloaded:infinite_water_source>, <contenttweaker:greensteelplate>], 	[<ore:blockCrudeSteel>, <gregtech:machine:132>, <ore:blockCrudeSteel>], 	[<contenttweaker:greensteelplate>, <ore:voodooPoppetProtectionSuffocation>, <contenttweaker:greensteelplate>]]);
 recipes.remove(<randomthings:fluiddisplay>);
-recipes.addShaped(<randomthings:fluiddisplay>, [	[<ore:blockGlassColorless>, <aeadditions:certustank>, <ore:blockGlassColorless>], 	[<ore:blockGlassColorless>, <fluiddrawers:tank>, <ore:blockGlassColorless>], 	[<ore:blockGlassColorless>, <minecraft:glass_bottle>, <ore:blockGlassColorless>]]);
+recipes.addShaped(<randomthings:fluiddisplay>, [	[<ore:blockGlassColorless>, null, <ore:blockGlassColorless>], 	[<ore:blockGlassColorless>, <fluiddrawers:tank>, <ore:blockGlassColorless>], 	[<ore:blockGlassColorless>, <minecraft:glass_bottle>, <ore:blockGlassColorless>]]);
 recipes.remove(<randomthings:biomeradar>);
 recipes.addShaped(<randomthings:biomeradar>, [	[<ore:plateIron>, <ore:plateBorosilicateGlass>, <ore:plateIron>], 	[<ore:plateIron>, <randomthings:ingredient:4>, <ore:plateIron>], 	[<ore:plateIron>, <ore:plateBorosilicateGlass>, <ore:plateIron>]]);
 recipes.remove(<randomthings:irondropper>);
