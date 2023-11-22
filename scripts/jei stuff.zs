@@ -191,7 +191,6 @@ recipes.remove(<appliedenergistics2:part:180>);
 recipes.remove(<appliedenergistics2:condenser>);
 recipes.remove(<gregtech:machine:230>);
 recipes.remove(<gregtech:machine:240>);
-recipes.remove(<modularmachinery:itemmodularium>);
 recipes.remove(<gregtech:machine:2536>);
 recipes.remove(<thermalexpansion:frame:64>);
 recipes.remove(<minecraft:stone_button>);
@@ -209,9 +208,13 @@ recipes.remove(<thermalexpansion:frame:128>);
 
 
 
-
-
-
+mods.jei.JEI.removeAndHide(<qmd:mass_spectrometer_controller>);
+mods.jei.JEI.removeAndHide(<energycontrol:item_component:1>);
+mods.jei.JEI.removeAndHide(<energycontrol:item_component>);
+mods.jei.JEI.removeAndHide(<energycontrol:kit_assembler>);
+mods.jei.JEI.removeAndHide(<gregtech:meta_item_1:10527>);
+mods.jei.JEI.removeAndHide(<gregtech:meta_item_1:9527>);
+mods.jei.JEI.removeAndHide(<gregtech:meta_block_compressed_32:15>);
 mods.jei.JEI.removeAndHide(<nuclearcraft:fluid_sulfuric_acid>);
 mods.jei.JEI.removeAndHide(<libvulpes:productgear:6>);
 mods.jei.JEI.removeAndHide(<libvulpes:productgear:7>);
@@ -464,25 +467,6 @@ mods.jei.JEI.removeAndHide(<gregtech:meta_block_compressed_32:11>);
 mods.jei.JEI.removeAndHide(<thaumcraft:plate>);
 mods.jei.JEI.removeAndHide(<thaumcraft:plate:1>);
 mods.jei.JEI.removeAndHide(<deepmoblearning:extraction_chamber>);
-mods.jei.JEI.removeAndHide(<modularmachinery:blockcasing:3>);
-mods.jei.JEI.removeAndHide(<modularmachinery:blockfluidinputhatch:1>);
-mods.jei.JEI.removeAndHide(<modularmachinery:blockfluidinputhatch>);
-mods.jei.JEI.removeAndHide(<modularmachinery:blockcasing:1>);
-mods.jei.JEI.removeAndHide(<modularmachinery:blockcasing:2>);
-mods.jei.JEI.removeAndHide(<modularmachinery:blockenergyoutputhatch:7>);
-mods.jei.JEI.removeAndHide(<modularmachinery:blockenergyoutputhatch:6>);
-mods.jei.JEI.removeAndHide(<modularmachinery:blockenergyoutputhatch:5>);
-mods.jei.JEI.removeAndHide(<modularmachinery:blockenergyoutputhatch:4>);
-mods.jei.JEI.removeAndHide(<modularmachinery:blockenergyoutputhatch:3>);
-mods.jei.JEI.removeAndHide(<modularmachinery:blockcasing>);
-mods.jei.JEI.removeAndHide(<modularmachinery:blockoutputbus>);
-mods.jei.JEI.removeAndHide(<modularmachinery:blockenergyoutputhatch:2>);
-mods.jei.JEI.removeAndHide(<modularmachinery:blockenergyoutputhatch:1>);
-mods.jei.JEI.removeAndHide(<modularmachinery:blockoutputbus:1>);
-mods.jei.JEI.removeAndHide(<modularmachinery:blockenergyoutputhatch>);
-mods.jei.JEI.removeAndHide(<modularmachinery:blockenergyoutputhatch>);
-mods.jei.JEI.removeAndHide(<modularmachinery:blockcasing:5>);
-mods.jei.JEI.removeAndHide(<modularmachinery:blockcasing:4>);
 mods.jei.JEI.removeAndHide(<thermalfoundation:material:772>);
 mods.jei.JEI.removeAndHide(<appliedenergistics2:material:2>);
 mods.jei.JEI.removeAndHide(<extendedcrafting:storage:2>);
