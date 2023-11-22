@@ -260,13 +260,13 @@ potassiumethylxantate.addFlags(["GENERATE_PLATE"]);
 val kaptonk = MaterialRegistry.createDustMaterial(578,"kaptonk",0x372927,"DULL",3);
 kaptonk.addFlags(["GENERATE_PLATE"]);
 
-val modularium = MaterialRegistry.createDustMaterial(596,"modularium",0xFFFFFF,"DULL",3);
+val modularium = MaterialRegistry.createIngotMaterial(596,"modularium",0xFFFFFF,"DULL",3);
 modularium.addFlags(["GENERATE_PLATE"]);
 
-val awakened_draconium = MaterialRegistry.createDustMaterial(598,"awakened_draconium",0xFF6F00,"DULL",3);
+val awakened_draconium = MaterialRegistry.createIngotMaterial(598,"awakened_draconium",0xFF6F00,"DULL",3);
 awakened_draconium.addFlags(["GENERATE_PLATE"]);
 
-val chaos = MaterialRegistry.createDustMaterial(599,"chaos",0x000000,"DULL",3);
+val chaos = MaterialRegistry.createIngotMaterial(599,"chaos",0x000000,"DULL",3);
 chaos.addFlags(["GENERATE_PLATE"]);
 
 
