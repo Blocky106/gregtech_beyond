@@ -242,34 +242,6 @@ assembler.recipeBuilder()
     .EUt(120)
     .buildAndRegister();
 
-cas.recipeBuilder()
-    .inputs(<appliedenergistics2:material:38>*4,<gregtech:meta_item_1:17312>*4,<contenttweaker:tritaniumcircuit>,<ore:circuitUltimate>)
-    .outputs(<aeadditions:storage.component>)
-    .duration(200)
-    .EUt(2400)
-    .buildAndRegister();
-
-cas.recipeBuilder()
-    .inputs(<aeadditions:storage.component>*4,<gregtech:meta_item_1:17736>*4,<contenttweaker:titansteelcircuit>*2,<ore:circuitSuperconductor>)
-    .outputs(<aeadditions:storage.component:1>)
-    .duration(200)
-    .EUt(2400)
-    .buildAndRegister();
-
-cas.recipeBuilder()
-    .inputs(<aeadditions:storage.component:1>*4,<ore:circuitInfinite>,<contenttweaker:einsteiniumcircuit>,<gregtech:meta_item_1:17720>*4)
-    .outputs(<aeadditions:storage.component:2>)
-    .duration(400)
-    .EUt(4800)
-    .buildAndRegister();
-
-cas.recipeBuilder()
-    .inputs(<aeadditions:storage.component:2>*4,<gregtech:meta_item_1:17856>*4,<contenttweaker:degeneraterheniumcircuit>,<ore:circuitUev>)
-    .outputs(<aeadditions:storage.component:3>)
-    .duration(600)
-    .EUt(5400)
-    .buildAndRegister();
-
 assembler.recipeBuilder()
     .inputs(<minecraft:glass_bottle>,<minecraft:glowstone_dust>,<gregtech:meta_item_1:2111>)
     .outputs(<randomthings:timeinabottle>)
@@ -993,7 +965,7 @@ furnace.remove(<gregtech:meta_item_1:9527>);
 
 vacfreezer.recipeBuilder()
     .inputs(<contenttweaker:hotmanyullyningot>)
-    .outputs(<gregtech:meta_item_1:10527>)
+    .outputs(<tconstruct:ingots:2>)
     .duration(400)
     .EUt(1200)
     .buildAndRegister();
