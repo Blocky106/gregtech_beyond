@@ -1076,14 +1076,14 @@ alloy_smelter.recipeBuilder()
     .outputs(<nuclearcraft:alloy:6>)
     .duration(200)
     .EUt(22)
-    .buildAndregister();
+    .buildAndRegister();
 
 alloy_smelter.recipeBuilder()
     .inputs(<nuclearcraft:alloy:6>,<gregtech:meta_item_1:10036>)
     .outputs(<nuclearcraft:alloy:1>)
     .duration(200)
     .EUt(22)
-    .buildAndregister();
+    .buildAndRegister();
 
 recipes.remove(<nuclearcraft:helm_hazmat>);
 recipes.remove(<nuclearcraft:chest_hazmat>);
@@ -1125,7 +1125,7 @@ recipes.addShaped(<nuclearcraft:chest_hazmat>, [
 	[<ore:plateSteel>, <ore:wool>, <ore:plateSteel>]
 ]);
 
-recipes.addShaped(<nuclearcraft:boots_hazmat> [
+recipes.addShaped(<nuclearcraft:boots_hazmat>, [
 	[null, null, null], 
 	[<nuclearcraft:rad_shielding:2>, null, <nuclearcraft:rad_shielding:2>], 
 	[<ore:bioplastic>, null, <ore:bioplastic>]
