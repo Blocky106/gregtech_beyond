@@ -124,5 +124,4 @@ dilution_tank.recipeMap.recipeBuilder()
     .EUt(2000)
     .buildAndRegister();
 
-recipes.addShapeless(<gregtech:machine:1008>,[<modularmachinery:dilution_controller>]);
 recipes.addShaped(<gregtech:machine:1008>, [	[<gregtech:meta_item_1:32613>, <gregtech:meta_item_1:32603>, <gregtech:meta_item_1:32613>], 	[<gregtech:machine:1021>, <gregtech:machine:504>, <gregtech:machine:1021>], 	[<ore:circuitElite>, <ore:circuitMaster>, <ore:circuitElite>]]);
