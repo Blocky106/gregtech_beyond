@@ -141,3 +141,5 @@ val research_station = Builder.start(loc, meta)
 .withZoom(0.5f)
 
 .buildAndRegister() as Multiblock;
+
+#RecipeBuilder.newBuilder("research1", "research", 4000)    .addEnergyPerTickInput(200000) .addItemInput(<gregtech:machine:3310>)    .addItemInput(<contenttweaker:datadisc> )  .addItemOutput(<contenttweaker:datadiskblackholecompressor>)  .build();
