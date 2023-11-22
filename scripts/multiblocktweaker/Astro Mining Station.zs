@@ -157,7 +157,7 @@ val astro_mining_station = Builder.start(loc, meta)
                 .build())
 .withRecipeMap(
         FactoryRecipeMap.start(loc)
-                        .maxInputs(3)
+                        .maxInputs(4)
                         .maxFluidInputs(1)
                         .maxOutputs(9)
                         .build())
