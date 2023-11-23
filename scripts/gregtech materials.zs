@@ -439,6 +439,7 @@ util.registerDust("zsmfive", 32158, 0x9EAE90, "DULL");
 
 
 
+util.registerFluid("polyhydroxyalkanoate", 0xA55A5A);
 util.registerFluid("tripropylamine", 0xA55A5A);
 util.registerFluid("tetra_propyl_ammonium_bromide", 0x788B68);
 util.registerFluid("isobutyl_alcohol", 0xB4BEAC);
