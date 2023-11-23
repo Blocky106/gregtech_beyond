@@ -703,7 +703,7 @@ cas.recipeBuilder()
     .buildAndRegister();
 
 cas.recipeBuilder()
-    .inputs(<contenttweaker:itemprocessort1>,<appliedenergistics2:material:35>*4,<ore:circuitBasic>,<gregtech:meta_item_1:17235>*2,<gtadditions:ga_dust:32046>)
+    .inputs(<contenttweaker:itemprocessort1>,<appliedenergistics2:material:35>*4,<ore:circuitBasic>,<gtadditions:ga_dust:32046>)
     .outputs(<appliedenergistics2:material:36>)
     .duration(300)
     .EUt(20)
@@ -2843,19 +2843,19 @@ assembler.recipeBuilder()
 
 
 
+Utils.removeRecipeByOutput(assembler, [<gtadditions:ga_meta_item:32538>], [], false);
+Utils.removeRecipeByOutput(assembly_line, [<gtadditions:ga_meta_item:32015>*4], [], false);
+Utils.removeRecipeByOutput(assembly_line, [<gregtech:meta_item_2:32501>], [], false);
+Utils.removeRecipeByOutput(assembly_line, [<gtadditions:ga_meta_item:32392>], [], false);
+Utils.removeRecipeByOutput(assembly_line, [<gtadditions:ga_meta_item:32391>], [], false);
 
 
-
-
-assembly_line.findRecipe(491520,[<gregtech:meta_item_1:19391>*32,<gregtech:meta_item_2:16308>*16,<gtadditions:ga_meta_item:32018>*4,<gtadditions:ga_meta_item:32405>*2,<gtadditions:ga_meta_item:32407>*2,<gtadditions:ga_meta_item:32408>*2,<gtadditions:ga_meta_item:32406>*2,<gtadditions:ga_meta_item:32411>] , [<liquid:tritanium>*144]).remove();
 mixer.findRecipe(30,[<gregtech:meta_item_1:2074>,<gregtech:meta_item_1:2184>], null).remove();
 lmixer.findRecipe(33500000,[<gtadditions:ga_dust:384>*12,<gtadditions:ga_dust:385>*5,<gtadditions:ga_dust:259>*5,<gregtech:meta_item_1:2993>*4,<gtadditions:ga_dust:386>*4], null).remove();
 mixer.findRecipe(8500000,[<gtadditions:ga_dust:384>*6,<gregtech:meta_item_1:2856>*3,<gtadditions:ga_dust:380>*3,<gregtech:meta_item_1:2675>*2], null).remove();
 lmixer.findRecipe(8500000,[<gtadditions:ga_dust:384>*6,<gregtech:meta_item_1:2856>*3,<gtadditions:ga_dust:380>*3,<gregtech:meta_item_1:2675>*2,<gregtech:meta_item_1:32766>.withTag({Configuration: 4})], null).remove();
 mixer.findRecipe(30,[<gtadditions:ga_dust:258>*2,<gregtech:meta_item_1:2707>*2,<gregtech:meta_item_1:2716>*2,<gtadditions:ga_dust:261>], null).remove();
 lmixer.findRecipe(30,[<gtadditions:ga_dust:258>*2,<gregtech:meta_item_1:2707>*2,<gregtech:meta_item_1:2716>*2,<gtadditions:ga_dust:261>,<gregtech:meta_item_1:32766>.withTag({Configuration: 4})], null).remove();
-assembly_line.findRecipe(3932160, [<gregtech:meta_item_1:19207>*64,<gregtech:meta_item_1:19207>*64,<gtadditions:ga_dust:252>*16,<gregtech:ga_cable:5852>*8,<gregtech:meta_item_2:25111>*2,<gtadditions:ga_meta_item:32459>*2,<gtadditions:ga_meta_item:32404>*2,<gregtech:frame_hdcs>], [<liquid:soldering_alloy>*576]).remove();
-assembly_line.findRecipe(7864320, [<gregtech:meta_item_1:19715>*64,<gregtech:ga_cable:5856>*8,<gtadditions:ga_meta_item:32459>*8,<gregtech:meta_item_2:25111>*2,<gtadditions:ga_meta_item:32607>*2,<gregtech:frame_hdcs>],[<liquid:soldering_alloy>*864,<liquid:liquid_crystal_detector>*2500]).remove();
 assembler.findRecipe(120, [<gregtech:meta_item_2:32435>,<gregtech:meta_item_1:12300>*4,<gregtech:meta_item_1:12007>*32],[<liquid:soldering_alloy>*144]).remove();
 mixer.findRecipe(16,[<gregtech:meta_item_1:2105>,<gregtech:meta_item_1:2328>*3,<gregtech:meta_item_1:32766>.withTag({Configuration: 3})], [<liquid:water>*500]).remove();
 autoclave.findRecipe(480,[<gregtech:meta_item_2:25212>],[<liquid:rutherfordium>*72]).remove();
@@ -2864,7 +2864,6 @@ compressor.findRecipe(2,[<thaumcraft:nugget:4>*9], null).remove();
 assembly_line.findRecipe(260000,[<gregtech:cable:744>*64,<gregtech:cable:744>*64,<gregtech:cable:744>*64,<gregtech:cable:744>*64,<gregtech:machine:2548>,<gregtech:machine:2549>,<gregtech:machine:2550>,<gregtech:meta_item_1:16311>*24,<gregtech:meta_item_1:32697>,<gregtech:meta_item_1:17736>*16,<gregtech:meta_item_2:26983>*4,<gtadditions:ga_meta_item:32402>*4,<gregtech:meta_item_1:32608>*4],[<liquid:hastelloy_n>*1152,<liquid:polybenzimidazole>*4608]).remove();
 ebf.findRecipe(120,[<gregtech:meta_item_1:2852>], null).remove();
 ebf.findRecipe(120,[<gregtech:meta_item_1:2856>], null).remove();
-assembler.findRecipe(7500000,[<gregtech:meta_item_2:16682>*6,<gtadditions:ga_meta_item:32430>*3,<gregtech:meta_item_1:12682>*2],[<liquid:cosmic_computing_mix>*1000]).remove();
 assembly_line.findRecipe(60000,[<gregtech:meta_item_2:32479>*48,<gregtech:cable:1964>*32,<gregtech:meta_item_1:12743>*4,<gregtech:meta_item_1:12807>*4,<gtadditions:ga_meta_item:32501>,<gtadditions:ga_meta_item:32501>,<gtadditions:ga_meta_item:32501>,<gtadditions:ga_meta_item:32501>,<gregtech:meta_item_1:32675>*2,<gtadditions:ga_fusion_casing:2>],[<liquid:soldering_alloy>*2880]).remove();
 assembler.findRecipe(32000000,[<gregtech:ga_cable:1671>*8,<gtadditions:ga_meta_item:32028>*8],[<liquid:neutronium>*144]).remove();
 assembler.findRecipe(32000000,[<gregtech:ga_cable:1993>*8,<gtadditions:ga_meta_item:32028>*8],[<liquid:cinobite>*144]).remove();
