@@ -2277,7 +2277,7 @@ assembler.recipeBuilder()
 	.buildAndRegister();
 
 assembly_line.recipeBuilder()
-	.inputs(<contenttweaker:radiationproofplate>*4,<gtadditions:ga_meta_item:32258>*64,<gtadditions:ga_meta_item:32256>*64,<gtadditions:ga_meta_item:32257>*64,<gtadditions:ga_meta_item:32259>*64,<gregtech:cable:744>*64,<gregtech:meta_item_1:19145>*64,<gregtech:meta_item_1:12312>*32,<gregtech:meta_item_2:32479>*8,<gregtech:meta_item_1:32726>*4,<ore:frameGtTritanium>*4,<gregtech:meta_item_2:32500>*2)
+	.inputs(<contenttweaker:radiationproofplate>*4,<gtadditions:ga_meta_item:32426>*16,<gtadditions:ga_meta_item:32258>*64,<gtadditions:ga_meta_item:32256>*64,<gtadditions:ga_meta_item:32257>*64,<gtadditions:ga_meta_item:32259>*64,<gregtech:cable:744>*8,<gregtech:meta_item_1:19145>*64,<gregtech:meta_item_1:12312>*4,<gregtech:meta_item_2:32479>*8,<gregtech:meta_item_1:32726>*4,<ore:frameGtTritanium>*4,<gregtech:meta_item_2:32500>*2)
 	.fluidInputs(<liquid:sterilized_growth_medium>*2000,<liquid:uumatter>*100)
 	.outputs(<gregtech:meta_item_2:32501>)
 	.EUt(30000)
@@ -3070,13 +3070,14 @@ macerator.recipeBuilder()
 	.EUt(12)
 	.buildAndRegister();
 
+
+
 ebf.findRecipe(480, [<gtadditions:ga_dust:19>*10,<gregtech:meta_item_1:2012>*3], null).remove();
 assembler.findRecipe(20,[<gregtech:meta_item_1:19018>*4,<gregtech:meta_item_1:12196>],[<liquid:glue>*72]).remove();
 assembly_line.findRecipe(30000, [<gregtech:meta_item_2:32479>*32,<gregtech:cable:966>*32,<gregtech:meta_item_1:12002>*4,<gregtech:meta_item_1:12331>*4,<gregtech:wire_coil:8>,<gregtech:meta_item_1:32674>*2,<gtadditions:ga_meta_item:32214>,<gtadditions:ga_meta_item:32214>,<gtadditions:ga_meta_item:32214>,<gtadditions:ga_meta_item:32214>],[<liquid:soldering_alloy>*2880]).remove();
 assembly_line.findRecipe(8000000,[<gregtech:meta_item_2:32436>*8,<gregtech:ga_cable:3737>*4,<gregtech:meta_item_1:12780>*4,<gregtech:meta_item_1:12717>*2,<gtadditions:ga_meta_item:32504>,<gtadditions:ga_meta_item:32379>],[<liquid:soldering_alloy>*576]).remove();
 assembly_line.findRecipe(2000000,[<gregtech:meta_item_2:32436>*6,<gregtech:ga_cable:3739>*4,<gregtech:meta_item_1:12786>*4,<gregtech:meta_item_1:12735>*2,<gtadditions:ga_meta_item:32404>,<gtadditions:ga_meta_item:32378>],[<liquid:soldering_alloy>*288]).remove();
 electrolyzer.findRecipe(30, [<gregtech:meta_item_1:2132>*3],null).remove();
-assembly_line.findRecipe(300000,[<gtadditions:ga_meta_item:32258>*64,<gtadditions:ga_meta_item:32256>*64,<gtadditions:ga_meta_item:32257>*64,<gtadditions:ga_meta_item:32259>*64,<gregtech:cable:744>*64,<gregtech:meta_item_1:19145>*64,<gregtech:meta_item_1:12312>*32,<gregtech:meta_item_2:32479>*8,<gregtech:meta_item_1:32726>*4,<gregtech:frame_tritanium>*4,<gregtech:meta_item_2:32500>*2], [<liquid:sterilized_growth_medium>*2000,<liquid:uumatter>*100]).remove();
 ebf.findRecipe(120,[<gregtech:meta_item_1:2854>], null).remove();
 assembler.findRecipe(9001,[<gtadditions:ga_meta_item:32028>*64,<gregtech:cable:1966>*64],[<liquid:naquadah_alloy>*1152]).remove();
 assembler.findRecipe(9001,[<gtadditions:ga_meta_item:32028>*32,<gregtech:cable:1964>*32],[<liquid:naquadah_alloy>*576]).remove();
