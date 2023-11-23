@@ -1199,3 +1199,26 @@ recipes.remove(<gregtech:machine:2930>);
 recipes.remove(<gregtech:machine:2931>);
 
 recipes.addShaped(<gregtech:machine:2994>, [	[<ore:cableGtSingleTin>, <ore:plateSteel>, <ore:cableGtSingleTin>], 	[<contenttweaker:cupronickelcoil>, <gregtech:machine:714>, <contenttweaker:cupronickelcoil>], 	[<ore:cableGtSingleTin>, <ore:plateSteel>, <ore:cableGtSingleTin>]]);
+
+assembly_line.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:19207>*64,<gregtech:meta_item_1:19207>*64,<gtadditions:ga_dust:252>*16,<gregtech:ga_cable:5852>*8,<gtadditions:ga_meta_item:32459>*8,<ore:circuitUev>*4,<gregtech:frame_hdcs>,<gregicalityoreaddon:gaoe_meta_item>)
+    .fluidInputs(<liquid:liquid_crystal_detector>*2000,<liquid:soldering_alloy>*576)
+    .outputs(<gtadditions:ga_meta_item:32391>)
+    .duration(400)
+    .EUt(3932160)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:19207>*64,<gregtech:meta_item_1:19207>*64,<gtadditions:ga_dust:332>*16,<gregtech:ga_cable:5852>*8,<gregtech:meta_item_2:25111>*2,<ore:circuitUev>*2,<gregtech:frame_enriched_naquadah_alloy>)
+    .fluidInputs(<liquid:liquid_crystal_detector>*2000,<liquid:soldering_alloy>*576)
+    .outputs(<gtadditions:ga_meta_item:32373>)
+    .duration(400)
+    .EUt(3932160)
+    .buildAndRegister();
+
+macerator.recipeBuilder()  
+    .inputs(<thaumcraft:ore_amber>)
+    .outputs(<thaumcraft:amber>*2)
+    .duration(300)
+    .EUt(1200)
+    .buildAndRegister();
