@@ -362,8 +362,8 @@ mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:
 
 
 
-
-
+<ore:plateLead>.remove(<thermalfoundation:material:323>);
+<ore:dustHafnium>.remove(<qmd:dust:6>);
 <ore:nuggetManyullyn>.remove(<gregtech:meta_item_1:9527>);
 <ore:blockManyullyn>.remove(<gregtech:meta_block_compressed_32:15>);
 <ore:ingotManyullyn>.remove(<gregtech:meta_item_1:10527>);
