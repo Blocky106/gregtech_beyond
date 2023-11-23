@@ -2057,7 +2057,7 @@ lcr.recipeBuilder()
 
 assembly_line.recipeBuilder()
     .inputs(<contenttweaker:computercasing>*8,<contenttweaker:superconductingwire>*4,<gtadditions:ga_meta_item:32379>*2,<gtadditions:ga_meta_item:32373>*4,<gtadditions:ga_meta_item:32391>*4,<gtadditions:ga_meta_item:32385>*4,<ore:circuitUmv>*6,<gregtech:ga_cable:4737>*32,<gregtech:meta_item_1:12331>*32,<gregtech:meta_item_1:12853>*16,<gregtech:meta_item_2:17072>*64,<gregtech:meta_item_2:26859>*16,<contenttweaker:forcefieldgenerator>*4)
-    .fluidInputs(<liquid:naquadria>*1700)
+    .fluidInputs(<liquid:naquadria>*1700,<liquid:liquid_crystal_detector>*2000)
     .outputs(<gregtech:machine:10008>)
     .duration(1800)
     .EUt(3200000)
@@ -3685,14 +3685,16 @@ assembler.recipeBuilder()
 #-------LUV Components-------------------------#
 
 
-assembly_line.findRecipe(15360,[<gregtech:meta_item_1:2760>*16,<gregtech:frame_hssg>,<gregtech:meta_item_2:25154>*2,<gregtech:cable:1200>*8,<gtadditions:ga_meta_item:32217>*2,<gregtech:meta_item_1:19112>*64,],[<liquid:soldering_alloy>*144]).remove();
-assembly_line.findRecipe(15360,[<gtadditions:ga_dust:331>*16,<gregtech:frame_hssg>,<gregtech:meta_item_2:25154>*2,<gregtech:cable:1200>*8,<gtadditions:ga_meta_item:32217>*2,<gregtech:meta_item_1:19112>*64,],[<liquid:soldering_alloy>*144]).remove();
-assembly_line.findRecipe(20480,[<gregtech:meta_item_2:32494>*8,<gregtech:meta_item_1:10302>,<gregtech:meta_item_1:17302>*16,<gregtech:meta_item_1:14302>*16,<gregtech:cable:6200>*16,<gregtech:meta_item_1:32606>*2,<gregtech:meta_item_1:32645>],[<liquid:soldering_alloy>*144,<liquid:lubricant>*250]).remove();
-assembly_line.findRecipe(30720,[<gregtech:meta_item_2:16047>*16,<gregtech:cable:8200>*4,<gregtech:frame_hssg>,<gtadditions:ga_meta_item:32217>*2,<gregtech:meta_item_1:32725>],[<liquid:soldering_alloy>*144]).remove();
-assembly_line.findRecipe(15360,[<gregtech:meta_item_1:18391>*16,<gregtech:meta_item_1:17302>*8,<gregtech:fluid_pipe:1192>*2,<gregtech:cable:5200>*2,<gregtech:meta_item_2:18302>*2,<gregtech:meta_item_1:32606>],[<liquid:soldering_alloy>*144,<liquid:lubricant>*250]).remove();
-assembly_line.findRecipe(10240,[<gregtech:meta_item_2:16087>*64,<gregtech:meta_item_2:16087>*64,<gregtech:meta_item_2:16087>*64,<gregtech:meta_item_2:16087>*64,<gregtech:meta_item_2:19299>,<gtadditions:ga_meta_item:2302>*16,<gregtech:meta_item_1:18302>*4,<gregtech:meta_item_2:19302>*2,<gregtech:cable:5200>*2],[<liquid:soldering_alloy>*144,<liquid:lubricant>*250]).remove();
-assembly_line.findRecipe(15360,[<gregtech:meta_item_1:12302>*8,<gregtech:meta_item_2:17302>*8,<gregtech:meta_item_1:14302>*4,<gregtech:meta_item_1:10302>*2,<gregtech:cable:5200>*2,<gregtech:meta_item_1:32606>],[<liquid:soldering_alloy>*144,<liquid:lubricant>*250]).remove();
 
+Utils.removeRecipeByOutput(assembly_line, [<gregtech:meta_item_1:32606>], [], false);
+Utils.removeRecipeByOutput(assembly_line, [<gregtech:meta_item_1:32615>], [], false);
+Utils.removeRecipeByOutput(assembly_line, [<gregtech:meta_item_1:32635>], [], false);
+Utils.removeRecipeByOutput(assembly_line, [<gregtech:meta_item_1:32645>], [], false);
+Utils.removeRecipeByOutput(assembly_line, [<gregtech:meta_item_1:32655>], [], false);
+Utils.removeRecipeByOutput(assembly_line, [<gregtech:meta_item_1:32665>], [], false);
+Utils.removeRecipeByOutput(assembly_line, [<gregtech:meta_item_1:32685>], [], false);
+Utils.removeRecipeByOutput(assembly_line, [<gregtech:meta_item_1:32695>], [], false);
+Utils.removeRecipeByOutput(assembly_line, [<gregtech:meta_item_1:32705>], [], false);
 
 
 
