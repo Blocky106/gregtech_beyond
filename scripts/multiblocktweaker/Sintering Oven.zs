@@ -104,3 +104,11 @@ sintering_oven.recipeMap.recipeBuilder()
     .duration(200)
     .EUt(24)
     .buildAndRegister();
+
+sintering_oven.recipeMap.recipeBuilder()
+    .notConsumable(<gregtech:meta_item_1:14184>)
+    .fluidInputs(<liquid:tetrafluoroethylene>*1000)
+    .fluidOutputs(<liquid:hexafluoropropylene>*1000)
+    .duration(200)
+    .EUt(24)
+    .buildAndRegister();
