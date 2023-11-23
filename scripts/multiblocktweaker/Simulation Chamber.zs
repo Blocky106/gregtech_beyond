@@ -91,7 +91,7 @@ val dml_recipe_map as RecipeMap = FactoryRecipeMap.start(name)
     .maxOutputs(2)
     .build();
 
-val sim_chamber_multiblock = Builder.start(name, 2003)
+val sim_chamber_multiblock = Builder.start(name, 32037)
     .withPattern(
         FactoryBlockPattern.start(RelativeDirection.RIGHT, RelativeDirection.DOWN, RelativeDirection.FRONT)
             .aisle(
