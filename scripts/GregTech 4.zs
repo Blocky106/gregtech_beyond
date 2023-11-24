@@ -1017,7 +1017,7 @@ lcr.recipeBuilder()
     .notConsumable(<gtadditions:ga_dust:32148>)
     .fluidInputs(<liquid:acetic_acid>*1000,<liquid:mxylene>*1000)   
     .fluidOutputs(<liquid:diluted_acetic_acid>*1000)
-    .outputs(<gtadditions:ga_dust:32149>)
+    .outputs(<gtadditions:ga_dust:32150>)
     .duration(400)
     .EUt(90)
     .buildAndRegister();
