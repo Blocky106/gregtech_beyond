@@ -84,7 +84,7 @@ val cvd_unit = Builder.start(loc, meta)
                 .build())
 .withRecipeMap(
         FactoryRecipeMap.start(loc)
-                        .maxInputs(1)
+                        .maxInputs(2)
                         .maxFluidInputs(1)
                         .maxOutputs(2)
                         .build())
