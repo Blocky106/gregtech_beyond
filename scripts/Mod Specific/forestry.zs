@@ -69,7 +69,7 @@ recipes.remove(<forestry:miner_bag>);
 recipes.addShaped(<forestry:miner_bag>, [	[<ore:string>, <gregtech:meta_item_1:12184>, <ore:string>], 	[<contenttweaker:boiledleather>, <minecraft:chest>, <contenttweaker:boiledleather>], 	[<ore:string>, <gregtech:meta_item_1:12184>, <ore:string>]]);
 
 
-
+recipes.remove(<forestry:fertilizer_compound>);
 
 
 
