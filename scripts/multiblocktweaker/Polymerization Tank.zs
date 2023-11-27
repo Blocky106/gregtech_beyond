@@ -267,3 +267,11 @@ polymerization_tank.recipeMap.recipeBuilder()
     .duration(200)
     .EUt(12)
     .buildAndRegister();
+
+polymerization_tank.recipeMap.recipeBuilder()
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .fluidInputs(<liquid:impure_kapton_k_solution>*6000)
+    .fluidOutputs(<liquid:kaptonk>*5000)
+    .duration(200)
+    .EUt(128)
+    .buildAndRegister();
