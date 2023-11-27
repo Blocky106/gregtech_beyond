@@ -1867,16 +1867,8 @@ vacfreezer.recipeBuilder()
     .EUt(900000)
     .buildAndRegister();
 
-chemReactor.recipeBuilder()
-    .inputs(<gregtech:meta_item_1:8226>)
-    .fluidInputs(<liquid:biomass>*250)
-    .outputs(<forestry:apatite>)
-    .duration(400)
-    .EUt(12)
-    .buildAndRegister();
-
 mixer.recipeBuilder()
-    .inputs(<ore:treeSapling>,<forestry:apatite>,<forestry:ash>*2)
+    .inputs(<ore:treeSapling>,<gregtech:meta_item_1:8226>,<forestry:ash>*2)
     .outputs(<forestry:fertilizer_compound>*16)
     .fluidInputs(<liquid:nutrient_distillation>*10)
     .duration(90)
