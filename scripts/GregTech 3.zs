@@ -1289,7 +1289,7 @@ fluidExtractor.recipeBuilder()
 
 chemical_bath.recipeBuilder()
     .fluidInputs(<liquid:moltencelananoparticles>*1000)
-    .outputs(<gtadditions:ga_dust:32121>)
+    .outputs(<gtadditions:ga_dust:32122>)
     .inputs(<gregtech:meta_item_2:32505>)
     .duration(800)
     .EUt(25000)
