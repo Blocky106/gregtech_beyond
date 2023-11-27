@@ -1783,3 +1783,23 @@ nickel_breeding_bed.register();
 
 var annealed_nickel_plate = VanillaFactory.createItem("annealed_nickel_plate");
 annealed_nickel_plate.register();
+
+var well_drained_soil = VanillaFactory.createBlock("well_drained_soil", <blockmaterial:rock>);
+well_drained_soil.setBlockHardness(12.0);
+well_drained_soil.setBlockResistance(10.0);
+well_drained_soil.setToolClass("shovel");
+well_drained_soil.setToolLevel(1);
+well_drained_soil.setBlockSoundType(<soundtype:metal>);
+well_drained_soil.register();
+
+var cupriavidusnecator = VanillaFactory.createItem("cupriavidusnecator");
+cupriavidusnecator.register();
+
+var graphite_cruicible = VanillaFactory.createItem("graphite_cruicible");
+graphite_cruicible.register();
+
+var unpreperated_cela_boule = VanillaFactory.createItem("unpreperated_cela_boule");
+unpreperated_cela_boule.register();
+
+var cruicible_mold = VanillaFactory.createItem("cruicible_mold");
+cruicible_mold.register();
