@@ -110,3 +110,11 @@ cvd_unit.recipeMap.recipeBuilder()
     .duration(200)
     .EUt(2000)
     .buildAndRegister();
+
+recipes.addShaped(<gregtech:machine:10038>, [	[<ore:plateHsss>, <gregtech:meta_item_1:32693>, <ore:plateHsss>], 	[<ore:circuitMaster>, <gregtech:machine:504>, <ore:circuitMaster>], 	[<ore:plateHsss>, <gregtech:meta_item_1:32673>, <ore:plateHsss>]]);
+
+
+
+
+
+
