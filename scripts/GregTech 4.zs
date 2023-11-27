@@ -2,15 +2,10 @@ import mods.gregtech.recipe.PBFRecipeBuilder;
 import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.item.IIngredient;
+import mods.gregtech.recipe.FactoryRecipeMap;
 import mods.gregtech.recipe.RecipeMap;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
-import crafttweaker.block.IBlockDefinition;
-import crafttweaker.block.IBlockProperties;
-import crafttweaker.block.IBlock;
-import mods.contenttweaker.VanillaFactory;
-import mods.contenttweaker.Block;
-import crafttweaker.item.IItemCondition;
 import mods.gtadditions.recipe.GARecipeMaps.ADV_FUSION_RECIPES;
 import mods.gregtech.recipe.CokeOvenRecipeBuilder;
 import mods.gtadditions.recipe.Utils;
@@ -1222,3 +1217,92 @@ macerator.recipeBuilder()
     .duration(300)
     .EUt(1200)
     .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:chlorobenzene>*1000,<liquid:ammonia>*1000,<liquid:sulfuric_acid>*1000,<liquid:nitro_benzene>*1000)
+    .notConsumable(<gregtech:meta_item_1:2148>)
+    .fluidOutputs(<liquid:quinoline>*2000,<liquid:hydrochloric_acid>*1000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 2}))
+    .EUt(200)
+    .duration(100)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:quinoline>*2000,<liquid:sulfuric_acid>*1000,<liquid:nitro_benzene>*1000)
+    .inputs(<gregtech:meta_item_1:2373>)
+    .fluidOutputs(<liquid:cuproquin>*1000)
+    .EUt(300)
+    .duration(50)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2926>*13)
+    .notConsumable(<gregtech:meta_item_1:2049>)
+    .outputs(<gtadditions:ga_dust:32168>*28)
+    .fluidOutputs(<liquid:hydrogen>*2000)
+    .duration(200)
+    .EUt(820)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2926>*13)
+    .notConsumable(<gregtech:meta_item_1:2049>)
+    .outputs(<gtadditions:ga_dust:32168>*28)
+    .fluidOutputs(<liquid:hydrogen>*2000)
+    .duration(200)
+    .EUt(820)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:nitrochlorobenzene>*1000,<liquid:ammonia>*2000)
+    .fluidOutputs(<liquid:nitroaniline>*1000,<liquid:ammonium_chloride>*6000)
+    .duration(200)
+    .EUt(92)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:nitrochlorobenzene>*1000,<liquid:ammonia>*2000)
+    .fluidOutputs(<liquid:nitroaniline>*1000,<liquid:ammonium_chloride>*6000)
+    .duration(200)
+    .EUt(92)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:nitroaniline>*1000,<liquid:hydrogen>*6000)
+    .outputs(<gtadditions:ga_dust:32093>*16)
+    .fluidOutputs(<liquid:water>*2000)
+    .duration(200)
+    .EUt(900)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:nitroaniline>*1000,<liquid:hydrogen>*6000)
+    .outputs(<gtadditions:ga_dust:32093>*16)
+    .fluidOutputs(<liquid:water>*2000)
+    .duration(200)
+    .EUt(900)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:32169>*2)
+    .fluidInputs(<liquid:oxydianiline>*3000)
+    .fluidOutputs(<liquid:impure_kapton_k_solution>*5000)
+    .duration(250)
+    .EUt(200)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:32169>*2)
+    .fluidInputs(<liquid:oxydianiline>*3000)
+    .fluidOutputs(<liquid:impure_kapton_k_solution>*5000)
+    .duration(250)
+    .EUt(200)
+    .buildAndRegister();
+
+
+
+recipes.addShaped(<gregtech:machine:1404>, [	[<gregtech:meta_item_1:32654>, <ore:circuitElite>, <gregtech:meta_item_1:32654>], 	[<ore:cableGtSingleAluminium>, <gregtech:machine:505>, <ore:cableGtSingleAluminium>], 	[<gregtech:meta_item_1:32644>, <ore:circuitElite>, <gregtech:meta_item_1:32644>]]);
+recipes.addShaped(<gregtech:machine:1405>, [	[<gregtech:meta_item_1:32655>, <ore:circuitMaster>, <gregtech:meta_item_1:32655>], 	[<ore:cableGtSingleGraphene>, <gregtech:machine:506>, <ore:cableGtSingleGraphene>], 	[<gregtech:meta_item_1:32645>, <ore:circuitMaster>, <gregtech:meta_item_1:32645>]]);
+recipes.addShaped(<gregtech:machine:1416>, [	[<gregtech:meta_item_1:32640>, <gregtech:meta_item_1:32680>, <gregtech:meta_item_1:32640>], 	[<ore:wireGtSingleLead>, <gregtech:machine:501>, <ore:wireGtSingleLead>], 	[<ore:circuitBasic>, <ore:cableGtSingleTin>, <ore:circuitBasic>]]);
+recipes.addShaped(<gregtech:machine:1417>, [	[<gregtech:meta_item_1:32641>, <gregtech:meta_item_1:32681>, <gregtech:meta_item_1:32641>], 	[<ore:wireGtSingleLead>, <gregtech:machine:502>, <ore:wireGtSingleLead>], 	[<ore:circuitGood>, <ore:cableGtSingleCopper>, <ore:circuitGood>]]);
+
