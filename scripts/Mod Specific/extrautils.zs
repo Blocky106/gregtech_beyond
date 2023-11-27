@@ -271,5 +271,6 @@ recipes.addShaped(<extrautils2:trashcanfluid>, [ [null, <gregtech:meta_item_1:12
 recipes.remove(<extrautils2:trashcan>);
 recipes.remove(<extrautils2:trashcanenergy>);
 recipes.remove(<extrautils2:trashcanfluid>);
-
-
+recipes.remove(<extrautils2:unstableingots:1>);
+recipes.addShaped(<unstableaxe:unstableaxe>, [	[<ore:ingotUnstable>, <ore:ingotUnstable>, null], 	[<ore:ingotUnstable>, <contenttweaker:obsidianrod>, null], 	[null, <contenttweaker:obsidianrod>, null]]);
+recipes.remove(<unstableaxe:unstableaxe>);
