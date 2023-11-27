@@ -257,8 +257,8 @@ sodiumethylxantate.addFlags(["GENERATE_PLATE"]);
 val potassiumethylxantate = MaterialRegistry.createDustMaterial(526,"potassiumethylxantate",0xB7AA33,"DULL",2);
 potassiumethylxantate.addFlags(["GENERATE_PLATE"]);
 
-val kaptonk = MaterialRegistry.createDustMaterial(578,"kaptonk",0x372927,"DULL",3);
-kaptonk.addFlags(["GENERATE_PLATE"]);
+val kaptonk = MaterialRegistry.createIngotMaterial(578,"kaptonk",0x372927,"DULL",3);
+kaptonk.addFlags(["GENERATE_PLATE","GENERATE_FLUID_BLOCK"]);
 
 val modularium = MaterialRegistry.createIngotMaterial(596,"modularium",0xFFFFFF,"DULL",3);
 modularium.addFlags(["GENERATE_PLATE"]);
@@ -432,6 +432,18 @@ util.registerDust("enhancedenderiumrefinedmetalresidues", 32155, 0x004D40, "SHIN
 util.registerDust("hmx", 32156, 0xB3B5B5, "SHINY");
 util.registerDust("sodium_isobutyl_xanthate", 32157, 0x86987A, "DULL");
 util.registerDust("zsmfive", 32158, 0x9EAE90, "DULL");
+util.registerDust("cuproquin", 32159, 0x667267, "SHINY");
+util.registerDust("quinoline", 32160, 0x986E4C, "SHINY");
+util.registerDust("bc_ecoli", 32161, 0x153462, "SHINY");
+util.registerDust("bc_rhizobium", 32162, 0x82CD47, "SHINY");
+util.registerDust("bc_nitrosomanos", 32163, 0x4FA095, "SHINY");
+util.registerDust("vr_retrovirus", 32164, 0x964B00, "SHINY");
+util.registerDust("pr_diatom", 32165, 0x82CD47, "SHINY");
+util.registerDust("pr_chlorophyte", 32166, 0x82CD47, "SHINY");
+util.registerDust("pr_euglena", 32167, 0x82CD47, "SHINY");
+util.registerDust("biphenyltetracarboxylicaciddianhydride", 32168, 0x1520b3, "SHINY");
+util.registerDust("pyromelliticdianhydride", 32169, 0x4d6964, "DULL");
+util.registerDust("cupriavidusnecator", 32170, 0xa69e30, "SHINY");
 
 
 
@@ -439,6 +451,13 @@ util.registerDust("zsmfive", 32158, 0x9EAE90, "DULL");
 
 
 
+
+
+util.registerFluid("nutrient_agar", 0x827717);
+util.registerFluid("nitroaniline", 0x9B4D35);
+util.registerFluid("impure_kapton_k_solution", 0x5D5B49);
+util.registerFluid("cuproquin", 0x667267);
+util.registerFluid("quinoline", 0x986E4C);
 util.registerFluid("polyhydroxyalkanoate", 0xA55A5A);
 util.registerFluid("tripropylamine", 0xA55A5A);
 util.registerFluid("tetra_propyl_ammonium_bromide", 0x788B68);
