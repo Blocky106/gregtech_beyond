@@ -20,11 +20,5 @@ import mods.devtech.unification.IMaterialPredicate;
 import mods.devtech.unification.IMaterialIconType;
 import mods.gregtech.material.Material;
 
-IFlag.registerFlag("seed_crystal", 210);
 
 RegisterMachine.CreateTank(4329, "tritanium.tank", MaterialCasting.toSolid(<material:tritanium>), 240000, 12, 12);
-
-
-var seedCrystal = IOrePrefix.createOrePrefix("seed_crystal", "seed_crystal", 0, IMaterialPredicate.isIngot & IMaterialPredicate.hasFlag("seed_crystal"));
-
-MetaItem.createItems("seed_crystal", seedCrystal);
