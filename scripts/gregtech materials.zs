@@ -443,6 +443,7 @@ util.registerDust("pr_euglena", 32167, 0x82CD47, "SHINY");
 util.registerDust("biphenyltetracarboxylicaciddianhydride", 32168, 0x1520b3, "SHINY");
 util.registerDust("pyromelliticdianhydride", 32169, 0x4d6964, "DULL");
 util.registerDust("cupriavidusnecator", 32170, 0xa69e30, "SHINY");
+util.registerDust("cucrmgba_catalyst", 32171, 0x512DA8, "SHINY");
 
 
 
@@ -452,6 +453,8 @@ util.registerDust("cupriavidusnecator", 32170, 0xa69e30, "SHINY");
 
 
 
+
+util.registerFluid("γ-butyrolactone", 0xAFA6C2);
 util.registerFluid("nutrient_agar", 0x827717);
 util.registerFluid("nitroaniline", 0x9B4D35);
 util.registerFluid("impure_kapton_k_solution", 0x5D5B49);
