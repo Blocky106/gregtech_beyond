@@ -553,5 +553,5 @@ mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:
 <ore:dustPotassium>.remove(<qmd:dust:12>);
 <ore:dustLithium>.remove(<nuclearcraft:dust:6>);
 <ore:ingotCobalt>.remove(<tconstruct:ingots>);
-
+<ore:oreMalachite>.add(<wildnature:malachite_ore>);
 
