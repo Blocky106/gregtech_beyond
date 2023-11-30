@@ -16,7 +16,7 @@ var roasters = IRecipeMap.recipeMapBuilder("roasters",0,2,0,2,0,2,0,2)
     .setProgressBar(GUITextures.get("progress_bar_bending"), MoveType.VERTICAL)
     .build();
     
-RegisterMachine.CreateSimpleMachine(1431, "roaster.lv", roasters, Overlays.get("assembler"),1);
-RegisterMachine.CreateSimpleMachine(1432, "roaster.mv", roasters, Overlays.get("assembler"), 2);
-RegisterMachine.CreateSimpleMachine(1433, "roaster.hv", roasters, Overlays.get("assembler"), 3);
+RegisterMachine.CreateSimpleMachine(1431, "roaster.lv", roasters, Overlays.get("forge_hammer"),1);
+RegisterMachine.CreateSimpleMachine(1432, "roaster.mv", roasters, Overlays.get("forge_hammer"), 2);
+RegisterMachine.CreateSimpleMachine(1433, "roaster.hv", roasters, Overlays.get("forge_hammer"), 3);
 
