@@ -598,7 +598,7 @@ assembly_line.recipeBuilder()
     .buildAndRegister();
 
 assembly_line.recipeBuilder()
-    .inputs(<gregtech:meta_item_1:19391>*32,<contenttweaker:biowaremainchip>,<gregtech:meta_item_2:16308>*16,<gtadditions:ga_meta_item:32018>*4,<gtadditions:ga_meta_item:32405>*2,<gtadditions:ga_meta_item:32406>*2,<gtadditions:ga_meta_item:32407>*2,<gtadditions:ga_meta_item:32405>*2,<gtadditions:ga_meta_item:32411>)
+    .inputs(<gregtech:meta_item_1:19391>*32,<nuclearcraft:part:6>*4,<contenttweaker:biowaremainchip>,<gregtech:meta_item_2:16308>*16,<gtadditions:ga_meta_item:32018>*4,<gtadditions:ga_meta_item:32405>*2,<gtadditions:ga_meta_item:32406>*2,<gtadditions:ga_meta_item:32407>*2,<gtadditions:ga_meta_item:32405>*2,<gtadditions:ga_meta_item:32411>)
     .fluidInputs(<liquid:tritanium>*144,<liquid:raw_growth_medium>*4000)
     .duration(200)   
     .EUt(491520)
