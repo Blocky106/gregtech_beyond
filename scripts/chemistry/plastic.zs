@@ -239,3 +239,21 @@ Utils.removeRecipeByOutput(chemReactor, [], [<liquid:silicon_rubber>*1296], fals
 Utils.removeRecipeByOutput(lcr, [], [<liquid:styrene_butadiene_rubber>*1296], false);
 Utils.removeRecipeByOutput(lcr, [], [<liquid:rubber>*1296], false);
 Utils.removeRecipeByOutput(lcr, [], [<liquid:silicon_rubber>*1296], false);
+
+
+
+chemReactor.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:32169>*2)
+    .fluidInputs(<liquid:oxydianiline>*3000)
+    .fluidOutputs(<liquid:impure_kapton_k_solution>*5000)
+    .duration(250)
+    .EUt(200)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:32169>*2)
+    .fluidInputs(<liquid:oxydianiline>*3000)
+    .fluidOutputs(<liquid:impure_kapton_k_solution>*5000)
+    .duration(250)
+    .EUt(200)
+    .buildAndRegister();
