@@ -1283,77 +1283,14 @@ lcr.recipeBuilder()
     .EUt(900)
     .buildAndRegister();
 
-chemReactor.recipeBuilder()
-    .inputs(<gtadditions:ga_dust:32169>*2)
-    .fluidInputs(<liquid:oxydianiline>*3000)
-    .fluidOutputs(<liquid:impure_kapton_k_solution>*5000)
-    .duration(250)
-    .EUt(200)
-    .buildAndRegister();
-
-lcr.recipeBuilder()
-    .inputs(<gtadditions:ga_dust:32169>*2)
-    .fluidInputs(<liquid:oxydianiline>*3000)
-    .fluidOutputs(<liquid:impure_kapton_k_solution>*5000)
-    .duration(250)
-    .EUt(200)
-    .buildAndRegister();
-
-
 
 recipes.addShaped(<gregtech:machine:1404>, [	[<gregtech:meta_item_1:32654>, <ore:circuitElite>, <gregtech:meta_item_1:32654>], 	[<ore:cableGtSingleAluminium>, <gregtech:machine:505>, <ore:cableGtSingleAluminium>], 	[<gregtech:meta_item_1:32644>, <ore:circuitElite>, <gregtech:meta_item_1:32644>]]);
 recipes.addShaped(<gregtech:machine:1405>, [	[<gregtech:meta_item_1:32655>, <ore:circuitMaster>, <gregtech:meta_item_1:32655>], 	[<ore:cableGtSingleGraphene>, <gregtech:machine:506>, <ore:cableGtSingleGraphene>], 	[<gregtech:meta_item_1:32645>, <ore:circuitMaster>, <gregtech:meta_item_1:32645>]]);
 recipes.addShaped(<gregtech:machine:1416>, [	[<gregtech:meta_item_1:32640>, <gregtech:meta_item_1:32680>, <gregtech:meta_item_1:32640>], 	[<ore:wireGtSingleLead>, <gregtech:machine:501>, <ore:wireGtSingleLead>], 	[<ore:circuitBasic>, <ore:cableGtSingleTin>, <ore:circuitBasic>]]);
 recipes.addShaped(<gregtech:machine:1417>, [	[<gregtech:meta_item_1:32641>, <gregtech:meta_item_1:32681>, <gregtech:meta_item_1:32641>], 	[<ore:wireGtSingleLead>, <gregtech:machine:502>, <ore:wireGtSingleLead>], 	[<ore:circuitGood>, <ore:cableGtSingleCopper>, <ore:circuitGood>]]);
 
-autoclave.recipeBuilder()
-    .fluidInputs(<liquid:water>*1000)
-    .inputs(<gregtech:meta_item_1:2282>)
-    .outputs(<wildnature:malachite>)
-    .duration(20)
-    .EUt(12)
-    .buildAndRegister();
 
-macerator.recipeBuilder()
-    .inputs(<ore:IngotMalachite>)
-    .outputs(<gregtech:meta_item_1:2282>)
-    .duration(200)
-    .EUt(90)
-    .buildAndRegister();
-
-macerator.recipeBuilder()
-    .inputs(<wildnature:malachite_axe>)
-    .outputs(<wildnature:malachite_shard>*3)
-    .duration(200)
-    .EUt(12)
-    .buildAndRegister();
-
-macerator.recipeBuilder()
-    .inputs(<wildnature:malachite_sword>)
-    .outputs(<wildnature:malachite_shard>*2)
-    .duration(200)
-    .EUt(12)
-    .buildAndRegister();
-
-macerator.recipeBuilder()
-    .inputs(<wildnature:malachite_pickaxe>)
-    .outputs(<wildnature:malachite_shard>*3)
-    .duration(200)
-    .EUt(12)
-    .buildAndRegister();
-
-macerator.recipeBuilder()
-    .inputs(<wildnature:malachite_shovel>)
-    .outputs(<wildnature:malachite_shard>)
-    .duration(200)
-    .EUt(12)
-    .buildAndRegister();
-
-macerator.recipeBuilder()
-    .inputs(<wildnature:malachite_hoe>)
-    .outputs(<wildnature:malachite_shard>*2)
-    .duration(200)
-    .EUt(12)
-    .buildAndRegister();
 
 Utils.removeRecipeByOutput(chemReactor, [], [<liquid:diborane>*500], false);
+
+electrolyzer.findRecipe(60,[<gregtech:meta_item_1:2904>*32],null).remove();
