@@ -13,7 +13,6 @@ import mods.gregtech.material.GemMaterial;
 import mods.gregtech.material.RoughSolidMaterial;
 import mods.gregtech.material.MaterialIconSet;
 
-var materialList = MaterialRegistry.getAllMaterials();
 
 val desh = MaterialRegistry.createIngotMaterial(788, "desh", 0x333333, "SHINY", 2);
 desh.addFlags(["GENERATE_BOLT_SCREW","GENERATE_PLATE","GENERATE_DENSE","GENERATE_ROD","GENERATE_GEAR", "GENERATE_ORE"]);
