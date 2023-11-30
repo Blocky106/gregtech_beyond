@@ -11,7 +11,7 @@ import mods.devtech.OverlayFace;
 import mods.devtech.OverlayRenderer;
 
 
-var microscope = IRecipeMap.recipeMapBuilder("microscope",0,1,0,9,0,0,0,0)
+var microscope = IRecipeMap.recipeMapBuilder("microscope",0,1,0,9,0,1,0,0)
     .setOverlaySlots(OverlaySlot.newOverlaySlot(false, false,false,GUITextures.get("hammer_overlay")))
     .setProgressBar(GUITextures.get("progress_bar_bending"), MoveType.VERTICAL)
     .build();
@@ -26,4 +26,12 @@ microscope.recipeBuilder()
     .chancedOutput(<gtadditions:ga_dust:32170>, 10, 1)
     .duration(200)
     .EUt(12)
+    .buildAndRegister();
+
+microscope.recipeBuilder()
+    .fluidInputs(<liquid:dirtywater>*100)
+    .chancedOutput(<gtadditions:ga_dust:32167>, 10, 0)
+    .fluidOutputs(<liquid:water>*100)
+    .duration(120)
+    .EUt(20)
     .buildAndRegister();
