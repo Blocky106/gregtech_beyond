@@ -82,10 +82,50 @@ lcr.recipeBuilder()
     .EUt(20)
     .buildAndRegister();
 
+lcr.recipeBuilder()
+    .inputs(<contenttweaker:cupriavidusnecator>)    
+    .fluidInputs(<liquid:cuproquin>*1000)
+    .outputs(<gtadditions:ga_meta_item:32541>)
+    .duration(200)
+    .EUt(20)
+
 chemReactor.recipeBuilder()
     .inputs(<contenttweaker:cupriavidusnecator>)    
+    .fluidInputs(<liquid:cuproquin>*1000)
+    .outputs(<gtadditions:ga_meta_item:32541>)
+    .duration(200)
+    .EUt(20)
+
+bio.recipeBuilder()
+    .notConsumable(<gtadditions:ga_meta_item:32541>) 
+    .inputs(<gtadditions:ga_dust:166>)
+    .fluidInputs(<liquid:γ-butyrolactone>*20,<liquid:palm_oil>*20)   
+    .fluidOutputs(<liquid:polyhydroxyalkanoate>*100)
+    .duration(200)
+    .EUt(20)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .inputs(<gtadditions:ga_meta_item:32541>)    
     .fluidInputs(<liquid:bacterial_growth_medium>*1000)
     .fluidOutputs(<liquid:depleted_growth_medium>*1000,<liquid:polyhydroxyalkanoate>*100)
     .outputs(<gtadditions:ga_meta_item:32398>)
+    .duration(200)
+    .EUt(20)
     .buildAndRegister();
 
+dehydrator.recipeBuilder()
+    .notConsumable(<gtadditions:ga_dust:32171>)
+    .fluidInputs(<liquid:1,4-butanediol>*1000)
+    .fluidOutputs(<liquid:γ-butyrolactone>*1000)
+    .duration(200)
+    .EUt(480)
+    .buildAndRegister();
+
+fluid_solidifier.recipeBuilder()
+    .fluidInputs(<liquid:polyhydroxyalkanoate>*144)
+    .outputs(<nuclearcraft:part:6>)
+    .notConsumable(<gregtech:meta_item_1:32301>)
+    .duration(289)
+    .EUt(12)
+    .buildAndRegister();
