@@ -112,3 +112,19 @@ sintering_oven.recipeMap.recipeBuilder()
     .duration(200)
     .EUt(24)
     .buildAndRegister();
+
+sintering_oven.recipeMap.recipeBuilder()
+    .inputs(<nuclearcraft:alloy:14>)
+    .outputs(<contenttweaker:cruicible_mold>)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 5}))
+    .EUt(80)
+    .duration(90)
+    .buildAndRegister();
+
+sintering_oven.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:graphite>*1296,<liquid:steel>*288)
+    .outputs(<contenttweaker:graphite_cruicible>)
+    .notConsumable(<contenttweaker:cruicible_mold>)
+    .EUt(180)
+    .duration(240)
+    .buildAndRegister();
