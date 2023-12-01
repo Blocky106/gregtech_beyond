@@ -1294,3 +1294,151 @@ recipes.addShaped(<gregtech:machine:1417>, [	[<gregtech:meta_item_1:32641>, <gre
 Utils.removeRecipeByOutput(chemReactor, [], [<liquid:diborane>*500], false);
 
 electrolyzer.findRecipe(60,[<gregtech:meta_item_1:2904>*32],null).remove();
+
+mixer.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2038>*2,<gregtech:meta_item_1:2006>,<gregtech:meta_item_1:2018>*3,<gregtech:meta_item_1:2016>*2)
+    .outputs(<gtadditions:ga_dust:32171>)
+    .duration(200)
+    .EUt(920)
+    .buildAndRegister();
+
+lmixer.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2038>*2,<gregtech:meta_item_1:2006>,<gregtech:meta_item_1:2018>*3,<gregtech:meta_item_1:2016>*2)
+    .outputs(<gtadditions:ga_dust:32171>)
+    .duration(200)
+    .EUt(920)
+    .buildAndRegister();
+
+fluidExtractor.recipeBuilder()
+    .inputs(<wildnature:palm_log>)
+    .fluidOutputs(<liquid:palm_oil>*600)
+    .duration(30)
+    .EUt(12)
+    .buildAndRegister();
+
+fluidExtractor.recipeBuilder()
+    .inputs(<forestry:logs.4:2>)
+    .fluidOutputs(<liquid:palm_oil>*600)
+    .duration(30)
+    .EUt(12)
+    .buildAndRegister();
+
+fluidExtractor.recipeBuilder()
+    .inputs(<forestry:planks.1:2>)
+    .fluidOutputs(<liquid:palm_oil>*100)
+    .duration(30)
+    .EUt(12)
+    .buildAndRegister();
+
+fluidExtractor.recipeBuilder()
+    .inputs(<wildnature:palm_parquet>)
+    .fluidOutputs(<liquid:palm_oil>*100)
+    .duration(30)
+    .EUt(12)
+    .buildAndRegister();
+
+fluidExtractor.recipeBuilder()
+    .inputs(<wildnature:palm_planks>)
+    .fluidOutputs(<liquid:palm_oil>*100)
+    .duration(30)
+    .EUt(12)
+    .buildAndRegister();
+
+fluidExtractor.recipeBuilder()
+    .inputs(<wildnature:palm_leaves>)
+    .fluidOutputs(<liquid:palm_oil>*25)
+    .duration(30)
+    .EUt(12)
+    .buildAndRegister();
+
+fluidExtractor.recipeBuilder()
+    .inputs(<wildnature:palm_sapling>)
+    .fluidOutputs(<liquid:palm_oil>*250)
+    .duration(30)
+    .EUt(12)
+    .buildAndRegister();
+
+fluidExtractor.recipeBuilder()
+    .inputs(<forestry:leaves.decorative.2:1>)
+    .fluidOutputs(<liquid:palm_oil>*25)
+    .duration(30)
+    .EUt(12)
+    .buildAndRegister();
+
+fluid_solidifier.recipeBuilder()
+    .fluidInputs(<liquid:moltencelananocarbides>*1000)
+    .notConsumable(<contenttweaker:graphite_cruicible>)
+    .outputs(<contenttweaker:unpreperated_cela_boule>)
+    .duration(200)
+    .EUt(180)
+    .buildAndRegister();
+
+distillation_tower.recipeBuilder()
+    .fluidInputs(<liquid:gasoline>*1000)
+    .fluidOutputs(<liquid:nheptane>*400,<liquid:toluene>*9,<liquid:noctane>*400,<liquid:ethylbenzene>*20,<liquid:mxylene>*40,<liquid:nhexadecane>*50)
+    .duration(200)
+    .EUt(80)
+    .buildAndRegister();
+
+ebf.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:55>)
+    .outputs(<nuclearcraft:alloy:13>)
+    .property("temperature", 700)
+    .duration(200)
+    .EUt(70)
+    .buildAndRegister();
+
+mixer.recipeBuilder()
+    .fluidInputs(<liquid:water>*1000)
+    .inputs(<gregtech:meta_item_1:2960>*2,<gregtech:meta_item_1:2105>,<gregtech:meta_item_1:2287>*2)
+    .outputs(<gtadditions:ga_dust:32174>*6)
+    .duration(40)
+    .EUt(22)
+    .buildAndRegister();
+
+lmixer.recipeBuilder()
+    .fluidInputs(<liquid:water>*1000)
+    .inputs(<gregtech:meta_item_1:2960>*2,<gregtech:meta_item_1:2105>,<gregtech:meta_item_1:2287>*2)
+    .outputs(<gtadditions:ga_dust:32174>*6)
+    .duration(40)
+    .EUt(22)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .notConsumable(<liquid:nheptane>)
+    .inputs(<gtadditions:ga_dust:32173>)
+    .outputs(<gtadditions:ga_dust:32172>)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
+
+mixer.recipeBuilder()
+    .fluidInputs(<liquid:water>*1000)
+    .inputs(<gregtech:meta_item_1:2269>*2,<gregtech:meta_item_1:2105>,<gregtech:meta_item_1:2287>*2)
+    .outputs(<gtadditions:ga_dust:32174>*6)
+    .duration(40)
+    .EUt(22)
+    .buildAndRegister();
+
+lmixer.recipeBuilder()
+    .fluidInputs(<liquid:water>*1000)
+    .inputs(<gregtech:meta_item_1:2269>*2,<gregtech:meta_item_1:2105>,<gregtech:meta_item_1:2287>*2)
+    .outputs(<gtadditions:ga_dust:32174>*6)
+    .duration(40)
+    .EUt(22)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .notConsumable(<liquid:nheptane>)
+    .inputs(<gtadditions:ga_dust:32173>)
+    .outputs(<gtadditions:ga_dust:32172>)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
+
+macerator.recipeBuilder()
+    .inputs(<contenttweaker:soy_bean>)
+    .outputs(<gtadditions:ga_dust:32173>)
+    .duration(200)
+    .EUt(120)
+    .buildAndRegister();
