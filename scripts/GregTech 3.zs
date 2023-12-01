@@ -1311,11 +1311,10 @@ fluidExtractor.recipeBuilder()
     .buildAndRegister();
 
 chemical_plant.recipeBuilder()
-    .inputs(<contenttweaker:lanthanumseedcrystal>)
+    .inputs(<contenttweaker:lanthanumseedcrystal>,<contenttweaker:unpreperated_cela_boule>)
     .notConsumable(<gtadditions:ga_meta_item:32492>)
     .notConsumable(<gtadditions:ga_meta_item:32493>)
     .notConsumable(<gregtech:meta_item_1:14157>)
-    .fluidInputs(<liquid:moltencelananocarbides>*1000)
     .outputs(<contenttweaker:celasiliconboule>)
     .duration(800)
     .EUt(24000)
@@ -1362,13 +1361,6 @@ cluster_mill.recipeBuilder()
     .outputs(<gtadditions:ga_meta_item:32028>*16)
     .duration(80)
     .EUt(8000)
-    .buildAndRegister();
-
-macerator.recipeBuilder()
-    .inputs(<gtadditions:ga_dust:32119>)
-    .outputs(<gtadditions:ga_dust:32119>)
-    .duration(400)
-    .EUt(2400)
     .buildAndRegister();
 
 cutting_saw.recipeBuilder()
