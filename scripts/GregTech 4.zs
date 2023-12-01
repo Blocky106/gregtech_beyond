@@ -1442,3 +1442,10 @@ macerator.recipeBuilder()
     .duration(200)
     .EUt(120)
     .buildAndRegister();
+
+alloy_smelter.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:32174>,<gtadditions:ga_dust:55>*2)
+    .outputs(<nuclearcraft:alloy:14>*3)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
