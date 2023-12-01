@@ -11,14 +11,14 @@ import mods.devtech.OverlayFace;
 import mods.devtech.OverlayRenderer;
 
 
-var microscope = IRecipeMap.recipeMapBuilder("microscope",0,1,0,9,0,1,0,0)
+var microscope = IRecipeMap.recipeMapBuilder("microscope",0,1,0,9,0,1,0,1)
     .setOverlaySlots(OverlaySlot.newOverlaySlot(false, false,false,GUITextures.get("hammer_overlay")))
     .setProgressBar(GUITextures.get("progress_bar_bending"), MoveType.VERTICAL)
     .build();
     
-RegisterMachine.CreateSimpleMachine(1424, "microscope.hv", microscope, Overlays.get("forge_hammer"),3);
-RegisterMachine.CreateSimpleMachine(1425, "microscope.ev", microscope, Overlays.get("forge_hammer"), 4);
-RegisterMachine.CreateSimpleMachine(1426, "microscope.iv", microscope, Overlays.get("forge_hammer"), 5);
+RegisterMachine.CreateSimpleMachine(1424, "microscope.hv", microscope, Overlays.get("microwave"),3);
+RegisterMachine.CreateSimpleMachine(1425, "microscope.ev", microscope, Overlays.get("microwave"), 4);
+RegisterMachine.CreateSimpleMachine(1426, "microscope.iv", microscope, Overlays.get("microwave"), 5);
 
 microscope.recipeBuilder()
     .inputs(<wildnature:molddirt>)
