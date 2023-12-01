@@ -19,17 +19,42 @@ customization {
 }
 
 customization {
-  identifier = %id=505232%
+  identifier = %id=505154%
   orientation = element
-  orientation_element = vanillabtn:345280
-  x = 164
+  orientation_element = vanillabtn:345154
+  x = 0
   action = movebutton
-  y = 0
+  y = -25
+}
+
+customization {
+  identifier = %id=505154%
+  width = 149
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=505154%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/custommainmenu/textures/gui/menu_text_box_selected.png
+  backgroundnormal = resources/custommainmenu/textures/gui/menu_box.png
 }
 
 customization {
   identifier = %id=505232%
-  width = 26
+  orientation = element
+  orientation_element = vanillabtn:345280
+  x = 152
+  action = movebutton
+  y = -126
+}
+
+customization {
+  identifier = %id=505232%
+  width = 24
   action = resizebutton
   height = 20
 }
@@ -50,16 +75,39 @@ customization {
 }
 
 customization {
-  identifier = %id=505256%
-  action = hidebutton
+  identifier = %id=400334%
+  orientation = element
+  orientation_element = vanillabtn:345280
+  x = 0
+  action = movebutton
+  y = 24
 }
 
 customization {
-  identifier = %id=505256%
-  orientation = mid-centered
-  x = -75
+  identifier = %id=400334%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/custommainmenu/textures/gui/menu_text_box_selected.png
+  backgroundnormal = resources/custommainmenu/textures/gui/menu_box.png
+}
+
+customization {
+  identifier = %id=635154%
+  orientation = element
+  orientation_element = vanillabtn:345154
+  x = 154
   action = movebutton
-  y = -10
+  y = -25
+}
+
+customization {
+  identifier = %id=635154%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/custommainmenu/textures/gui/menu_text_box_selected.png
+  backgroundnormal = resources/custommainmenu/textures/gui/menu_box.png
 }
 
 customization {
@@ -78,6 +126,19 @@ customization {
   action = setbuttontexture
   backgroundhovered = resources/custommainmenu/textures/gui/menu_text_box_selected.png
   backgroundnormal = resources/custommainmenu/textures/gui/menu_box.png
+}
+
+customization {
+  identifier = %id=505256%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=505256%
+  orientation = mid-centered
+  x = -75
+  action = movebutton
+  y = -10
 }
 
 customization {
@@ -100,24 +161,6 @@ customization {
 
 customization {
   identifier = %id=345154%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = resources/custommainmenu/textures/gui/menu_text_box_selected.png
-  backgroundnormal = resources/custommainmenu/textures/gui/menu_box.png
-}
-
-customization {
-  identifier = %id=400334%
-  orientation = element
-  orientation_element = vanillabtn:345280
-  x = 0
-  action = movebutton
-  y = 24
-}
-
-customization {
-  identifier = %id=400334%
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture

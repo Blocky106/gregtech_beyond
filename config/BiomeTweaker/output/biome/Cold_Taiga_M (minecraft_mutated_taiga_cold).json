@@ -20,12 +20,12 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
+    "RARE",
     "COLD",
-    "FOREST",
-    "CONIFEROUS",
     "MOUNTAIN",
-    "SNOWY",
-    "RARE"
+    "CONIFEROUS",
+    "FOREST",
+    "SNOWY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
