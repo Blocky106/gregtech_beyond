@@ -1803,3 +1803,9 @@ unpreperated_cela_boule.register();
 
 var cruicible_mold = VanillaFactory.createItem("cruicible_mold");
 cruicible_mold.register();
+
+var pad_petri = VanillaFactory.createItem("pad_petri");
+pad_petri.register();
+
+var soy_bean = VanillaFactory.createItem("soy_bean");
+soy_bean.register();
