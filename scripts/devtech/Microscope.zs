@@ -35,3 +35,15 @@ microscope.recipeBuilder()
     .duration(120)
     .EUt(20)
     .buildAndRegister();
+
+recipes.addShaped(<gregtech:machine:1424>, [	[<gregtech:meta_item_1:32602>, <gregtech:meta_item_1:32692>, <gregtech:meta_item_1:32602>], 	[<ore:plateSteel>, <gregtech:machine:503>, <ore:plateSteel>], 	[<gregtech:meta_item_1:32642>, <ore:cableGtSingleTin>, <gregtech:meta_item_1:32642>]]);
+recipes.addShaped(<gregtech:machine:1425>, [	[<gregtech:meta_item_1:32603>, <gregtech:meta_item_1:32693>, <gregtech:meta_item_1:32603>], 	[<ore:plateSteel>, <gregtech:machine:504>, <ore:plateSteel>], 	[<gregtech:meta_item_1:32643>, <ore:cableGtSingleTin>, <gregtech:meta_item_1:32643>]]);
+recipes.addShaped(<gregtech:machine:1426>, [	[<gregtech:meta_item_1:32604>, <gregtech:meta_item_1:32694>, <gregtech:meta_item_1:32604>], 	[<ore:plateSteel>, <gregtech:machine:505>, <ore:plateSteel>], 	[<gregtech:meta_item_1:32644>, <ore:cableGtSingleTin>, <gregtech:meta_item_1:32644>]]);
+
+
+
+
+
+
+
+
