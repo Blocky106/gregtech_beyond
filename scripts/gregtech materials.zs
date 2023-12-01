@@ -444,17 +444,20 @@ util.registerDust("biphenyltetracarboxylicaciddianhydride", 32168, 0x1520b3, "SH
 util.registerDust("pyromelliticdianhydride", 32169, 0x4d6964, "DULL");
 util.registerDust("cupriavidusnecator", 32170, 0xa69e30, "SHINY");
 util.registerDust("cucrmgba_catalyst", 32171, 0x512DA8, "SHINY");
+util.registerDust("defatted_soybean_flour", 32172, 0xB2B395, "DULL");
+util.registerDust("crushed_soybean", 32173, 0xB2B395, "DULL");
+util.registerDust("ceramics", 32174, 0x3E2D2A, "DULL");
 
 
 
 
 
-
-
-
-
-
-util.registerFluid("γ-butyrolactone", 0xAFA6C2);
+util.registerFluid("nhexadecane", 0x3F3F1D);
+util.registerFluid("nheptane", 0x383725);
+util.registerFluid("noctane", 0x6F6E56);
+util.registerFluid("phenylethyl_alcohol_blood_agar", 0x9E4545);
+util.registerFluid("palm_oil", 0xCEC787);
+util.registerFluid("y-butyrolactone", 0xAFA6C2);
 util.registerFluid("nutrient_agar", 0x827717);
 util.registerFluid("nitroaniline", 0x9B4D35);
 util.registerFluid("impure_kapton_k_solution", 0x5D5B49);
@@ -678,7 +681,7 @@ util.registerFluid("lanthanumceriumacidicsolution", 0xA1887F);
 util.registerFluid("ceriumlanthanumsaturatedcompoundsolution", 0xFFE0B2);
 util.registerFluid("moltenceriumdopedlanthanum", 0xF3EDBF);
 util.registerFluid("unprocessedcelasolution", 0xD9DF95);
-util.registerFluid("moltencelananoparticles", 0xD9DF95);
+util.registerFluid("moltencelananoparticles", 0x9C27B0);
 util.registerFluid("moltencelananocarbides", 0xAB47BC);
 util.registerFluid("moltenceriumlanthanum", 0xD9DF95);
 util.registerFluid("lanthanumceriumsolution", 0xE2E7B3);
