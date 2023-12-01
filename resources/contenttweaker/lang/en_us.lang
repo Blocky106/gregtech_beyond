@@ -1333,4 +1333,8 @@ devtech.machine.roaster.lv.name=Basic Roaster
 devtech.machine.roaster.mv.name=Advanced Roaster
 devtech.machine.roaster.hv.name=Advanced Roaster II
 metaitem.cucrmgba_catalyst.name=CuCrMgBa Catalyst
-fluid.AFA6C2
+recipemap.microscope.name=Inspection
+fluid.y-butyrolactone=γ-Butyrolactone
+item.contenttweaker.pad_petri.name=PAD Petri Dish
+fluid.phenylethyl_alcohol_blood_agar=Phenylethyl Alcohol Blood Agar
+fluid.palm_oil=Palm Oil
