@@ -64,3 +64,11 @@ roasters.recipeBuilder()
     .EUt(22)
     .duration(80)
     .buildAndRegister();
+
+recipes.addShaped(<gregtech:machine:1431>, [	[<gregtech:meta_item_1:32600>, <ore:cableGtSingleTin>, <gregtech:meta_item_1:32600>], 	[<ore:circuitBasic>, <gregtech:machine:501>, <ore:circuitBasic>], 	[<gregtech:meta_item_1:32640>, <ore:cableGtSingleTin>, <gregtech:meta_item_1:32640>]]);
+recipes.addShaped(<gregtech:machine:1432>, [	[<gregtech:meta_item_1:32601>, <ore:cableGtSingleTin>, <gregtech:meta_item_1:32601>], 	[<ore:circuitGood>, <gregtech:machine:502>, <ore:circuitGood>], 	[<gregtech:meta_item_1:32641>, <ore:cableGtSingleTin>, <gregtech:meta_item_1:32641>]]);
+recipes.addShaped(<gregtech:machine:1433>, [	[<gregtech:meta_item_1:32602>, <ore:cableGtSingleTin>, <gregtech:meta_item_1:32602>], 	[<ore:circuitAdvanced>, <gregtech:machine:503>, <ore:circuitAdvanced>], 	[<gregtech:meta_item_1:32642>, <ore:cableGtSingleTin>, <gregtech:meta_item_1:32642>]]);
+
+
+
+
