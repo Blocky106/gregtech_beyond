@@ -1407,6 +1407,7 @@ lmixer.recipeBuilder()
 chemReactor.recipeBuilder()
     .notConsumable(<liquid:nheptane>)
     .inputs(<gtadditions:ga_dust:32173>)
+    .fluidOutputs(<liquid:soy_bean_oil>*100)
     .outputs(<gtadditions:ga_dust:32172>)
     .duration(200)
     .EUt(12)
@@ -1431,6 +1432,7 @@ lmixer.recipeBuilder()
 lcr.recipeBuilder()
     .notConsumable(<liquid:nheptane>)
     .inputs(<gtadditions:ga_dust:32173>)
+    .fluidOutputs(<liquid:soy_bean_oil>*100)
     .outputs(<gtadditions:ga_dust:32172>)
     .duration(200)
     .EUt(12)
@@ -1449,3 +1451,112 @@ alloy_smelter.recipeBuilder()
     .duration(200)
     .EUt(12)
     .buildAndRegister();
+
+centrifuge.recipeBuilder()
+    .fluidInputs(<liquid:soy_bean_oil>*1000)
+    .fluidOutputs(<liquid:seed_oil>*1000)
+    .duration(200)
+    .EUt(120)
+    .buildAndRegister();
+
+lcentrifuge.recipeBuilder()
+    .fluidInputs(<liquid:soy_bean_oil>*1000)
+    .fluidOutputs(<liquid:seed_oil>*1000)
+    .duration(200)
+    .EUt(120)
+    .buildAndRegister();
+
+electrolyzer.recipeBuilder()
+    .inputs(<nuclearcraft:dust:14>)
+    .fluidOutputs(<liquid:oxygen>*1000)
+    .outputs(<gregtech:meta_item_1:2039>)
+    .duration(20)
+    .EUt(129)
+    .buildAndRegister();
+
+electrolyzer.recipeBuilder()
+    .inputs(<nuclearcraft:dust:15>)
+    .fluidOutputs(<liquid:oxygen>*2000)
+    .outputs(<gregtech:meta_item_1:2039>)
+    .duration(20)
+    .EUt(129)
+    .buildAndRegister();
+
+Utils.removeRecipeByOutput(macerator, [<thermalfoundation:material:2053>*2], [], false);
+Utils.removeRecipeByOutput(macerator, [<thermalfoundation:material:2051>*2], [], false);
+Utils.removeRecipeByOutput(lcr, [<gregtech:meta_item_1:2313>], [], false);
+Utils.removeRecipeByOutput(chemReactor, [<gregtech:meta_item_1:2313>], [], false);
+Utils.removeRecipeByOutput(lcr, [], [<liquid:borax_solution>*1000], false);
+Utils.removeRecipeByOutput(chemReactor, [], [<liquid:borax_solution>*1000], false);
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:redstone>*1000)
+    .inputs(<gregtech:meta_item_1:2421>*32,<gtadditions:ga_meta_item:32425>)
+    .outputs(<contenttweaker:nanopicw>)
+    .duration(200)
+    .EUt(120)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:redstone>*1000)
+    .inputs(<gregtech:meta_item_1:2421>*32,<gtadditions:ga_meta_item:32425>)
+    .outputs(<contenttweaker:nanopicw>)
+    .duration(200)
+    .EUt(120)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .fluidInputs(<liquid:novolacs_photoresist>*144)
+    .inputs(<gtadditions:ga_meta_item:32530>)
+    .outputs(<contenttweaker:treated_photocoated_hassium_wafer>)
+    .duration(200)
+    .EUt(90000)
+    .buildAndRegister();
+
+distillation_tower.findRecipe(7680,null,[<liquid:fl_cracked_light_naquadah>*1200]).remove();
+distillation_tower.findRecipe(7680,null,[<liquid:fl_cracked_medium_naquadah>*1400]).remove();
+distillation_tower.findRecipe(7680,null,[<liquid:fl_cracked_heavy_naquadah>*1600]).remove();
+
+distillation_tower.recipeBuilder()
+    .fluidInputs(<liquid:fl_cracked_light_naquadah>*1200)
+    .fluidOutputs(<liquid:naquadah_gas>*400,<liquid:unpreperated_light_naquadah_fuel>*400,<liquid:unpreperated_medium_naquadah_fuel>*150,<liquid:unpreperated_heavy_naquadah_fuel>*50,<liquid:fluorine>*200)
+    .duration(2000)
+    .EUt(7680)
+    .buildAndRegister();
+
+distillation_tower.recipeBuilder()
+    .fluidInputs(<liquid:fl_cracked_medium_naquadah>*1400)
+    .fluidOutputs(<liquid:naquadah_gas>*300,<liquid:unpreperated_light_naquadah_fuel>*200,<liquid:unpreperated_medium_naquadah_fuel>*400,<liquid:unpreperated_heavy_naquadah_fuel>*100,<liquid:fluorine>*400)
+    .duration(2000)
+    .EUt(7680)
+    .buildAndRegister();
+
+distillation_tower.recipeBuilder()
+    .fluidInputs(<liquid:fl_cracked_heavy_naquadah>*1600)
+    .fluidOutputs(<liquid:naquadah_gas>*300,<liquid:unpreperated_light_naquadah_fuel>*100,<liquid:unpreperated_medium_naquadah_fuel>*200,<liquid:unpreperated_heavy_naquadah_fuel>*400,<liquid:fluorine>*600)
+    .duration(2000)
+    .EUt(7680)
+    .buildAndRegister();
+
+
+distillation_tower.recipeBuilder()
+    .fluidInputs(<liquid:rn_cracked_light_e_naquadah>*1200)
+    .fluidOutputs(<liquid:naquadah_gas>*400,<liquid:unpreperated_enriched_light_naquadah_fuel>*400,<liquid:unpreperated_enriched_medium_naquadah_fuel>*150,<liquid:unpreperated_enriched_heavy_naquadah_fuel>*50,<liquid:fluorine>*200)
+    .duration(2000)
+    .EUt(7680)
+    .buildAndRegister();
+
+distillation_tower.recipeBuilder()
+    .fluidInputs(<liquid:rn_cracked_medium_e_naquadah>*1400)
+    .fluidOutputs(<liquid:naquadah_gas>*300,<liquid:unpreperated_enriched_light_naquadah_fuel>*200,<liquid:unpreperated_enriched_medium_naquadah_fuel>*400,<liquid:unpreperated_enriched_heavy_naquadah_fuel>*100,<liquid:fluorine>*400)
+    .duration(2000)
+    .EUt(7680)
+    .buildAndRegister();
+
+distillation_tower.recipeBuilder()
+    .fluidInputs(<liquid:rn_cracked_heavy_e_naquadah>*1600)
+    .fluidOutputs(<liquid:naquadah_gas>*300,<liquid:unpreperated_enriched_light_naquadah_fuel>*100,<liquid:unpreperated_enriched_medium_naquadah_fuel>*200,<liquid:unpreperated_enriched_heavy_naquadah_fuel>*400,<liquid:fluorine>*600)
+    .duration(2000)
+    .EUt(7680)
+    .buildAndRegister();
+
