@@ -447,11 +447,27 @@ util.registerDust("cucrmgba_catalyst", 32171, 0x512DA8, "SHINY");
 util.registerDust("defatted_soybean_flour", 32172, 0xB2B395, "DULL");
 util.registerDust("crushed_soybean", 32173, 0xB2B395, "DULL");
 util.registerDust("ceramics", 32174, 0x3E2D2A, "DULL");
+util.registerDust("papic_digest_of_soybean_meal", 32175, 0xFDD835, "DULL");
+util.registerDust("pancreatic_digest_of_casein", 32176, 0xBFBCAF, "DULL");
+util.registerDust("caesin", 32177, 0xCDDC39, "DULL");
 
 
 
 
 
+util.registerFluid("unpreperated_light_naquadah_fuel", 0x1D1C1A);
+util.registerFluid("unpreperated_medium_naquadah_fuel", 0x1F1E1E);
+util.registerFluid("unpreperated_light_enriched_naquadah_fuel", 0x201F1C);
+util.registerFluid("unpreperated_heavy_naquadah_fuel", 0x131210);
+util.registerFluid("unpreperated_medium_enriched_naquadah_fuel", 0x212120);
+util.registerFluid("unpreperated_heavy_enriched_naquadah_fuel", 0x333333);
+
+
+util.registerFluid("novolacs_photoresist", 0x997E3D);
+util.registerFluid("neutralized_matter_plasma", 0x0277BD);
+util.registerFluid("soy_bean_oil", 0xB6B18A);
+util.registerFluid("sterile_defibrinated_sheep_blood", 0x622424);
+util.registerFluid("b_phenylethyl_alcohol", 0x00695C);
 util.registerFluid("nhexadecane", 0x3F3F1D);
 util.registerFluid("nheptane", 0x383725);
 util.registerFluid("noctane", 0x6F6E56);
