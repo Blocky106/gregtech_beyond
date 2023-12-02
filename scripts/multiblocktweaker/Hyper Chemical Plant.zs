@@ -114,8 +114,8 @@ val hyper_chemical_plant = Builder.start(loc, meta)
                 .build())
 .withRecipeMap(
         FactoryRecipeMap.start(loc)
-                        .maxInputs(1)
-                        .maxFluidInputs(1)
+                        .maxInputs(4)
+                        .maxFluidInputs(4)
                         .maxFluidOutputs(1)
                         .maxOutputs(1)
                         .build())
@@ -133,3 +133,10 @@ hyper_chemical_plant.recipeMap.recipeBuilder()
     .EUt(80000000)
     .buildAndRegister();
 
+hyper_chemical_plant.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:positive_matter>*144,<liquid:neutral_matter>*144)
+    .inputs(<gregtech:meta_item_1:14673>,<gtadditions:ga_meta_item:32556>)
+    .fluidOutputs(<liquid:neutralized_matter_plasma>*144)
+    .duration(200)
+    .EUt(800000)
+    .buildAndRegister();
