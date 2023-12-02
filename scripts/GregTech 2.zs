@@ -976,14 +976,6 @@ lcr.recipeBuilder()
 	.buildAndRegister();
 
 lcr.recipeBuilder()
-	.inputs(<gregtech:meta_item_1:12142>,<gregtech:meta_item_1:19018>,<gregtech:meta_item_1:32762>.withTag({Fluid: {FluidName: "silicon_rubber", Amount: 1000}}) * 3)
-	.fluidInputs(<liquid:sulfuric_acid> * 125)
-	.outputs(<gregtech:meta_item_2:32444>)
-	.duration(80)
-	.EUt(420)
-	.buildAndRegister();
-
-lcr.recipeBuilder()
 	.inputs(<gregtech:meta_item_1:2013>,<gregtech:meta_item_1:2065>)
 	.fluidInputs(<liquid:hydrofluoric_acid> * 4000,<liquid:chloroform> * 2000)
 	.fluidOutputs(<liquid:hydrochloric_acid> * 6000,<liquid:tetraethylene> * 1000)
