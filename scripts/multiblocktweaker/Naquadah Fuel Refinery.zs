@@ -354,12 +354,55 @@ val naquadah_fuel_refinery = Builder.start(loc, meta)
                 .build())
 .withRecipeMap(
         FactoryRecipeMap.start(loc)
-                        .maxInputs(1)
-                        .maxFluidInputs(1)
-                        .maxFluidOutputs(1)
-                        .maxOutputs(1)
+                        .maxInputs(4)
+                        .maxFluidInputs(2)
+                        .maxFluidOutputs(2)
+                        .maxOutputs(4)
                         .build())
 .withTexture(ICubeRenderer.sided("contenttweaker:blocks/naquadahfuelrefinerycasing"))
 .withZoom(0.5f)
 
 .buildAndRegister() as Multiblock;
+
+
+naquadah_fuel_refinery.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:unpreperated_heavy_enriched_naquadah_fuel>*1000)
+    .fluidOutputs(<liquid:heavy_e_naquadah_fuel>*1000)
+    .duration(400)
+    .EUt(2000000)
+    .buildAndRegister();
+
+naquadah_fuel_refinery.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:unpreperated_light_naquadah_fuel>*1000)
+    .fluidOutputs(<liquid:light_naquadah_fuel>*1000)
+    .duration(400)
+    .EUt(2000000)
+    .buildAndRegister();
+
+naquadah_fuel_refinery.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:unpreperated_heavy_naquadah_fuel>*1000)
+    .fluidOutputs(<liquid:heavy_naquadah_fuel>*1000)
+    .duration(400)
+    .EUt(2000000)
+    .buildAndRegister();
+
+naquadah_fuel_refinery.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:unpreperated_medium_naquadah_fuel>*1000)
+    .fluidOutputs(<liquid:medium_naquadah_fuel>*1000)
+    .duration(400)
+    .EUt(2000000)
+    .buildAndRegister();
+
+naquadah_fuel_refinery.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:unpreperated_medium_enriched_naquadah_fuel>*1000)
+    .fluidOutputs(<liquid:medium_e_naquadah_fuel>*1000)
+    .duration(400)
+    .EUt(2000000)
+    .buildAndRegister();
+
+naquadah_fuel_refinery.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:unpreperated_light_enriched_naquadah_fuel>*1000)
+    .fluidOutputs(<liquid:light_e_naquadah_fuel>*1000)
+    .duration(400)
+    .EUt(2000000)
+    .buildAndRegister();
