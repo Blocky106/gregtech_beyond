@@ -124,3 +124,19 @@ fluid_solidifier.recipeBuilder()
     .buildAndRegister();
 
 Utils.removeRecipeByOutput(bio, [<gtadditions:ga_meta_item:32541>], [], false);
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:phenylethyl_alcohol_blood_agar>*100)
+    .inputs(<contenttweaker:purepetridish>)
+    .outputs(<contenttweaker:pad_petri>)
+    .duration(800)
+    .EUt(120)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:phenylethyl_alcohol_blood_agar>*100)
+    .inputs(<contenttweaker:purepetridish>)
+    .outputs(<contenttweaker:pad_petri>)
+    .duration(800)
+    .EUt(120)
+    .buildAndRegister();
