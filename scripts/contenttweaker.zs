@@ -1809,3 +1809,6 @@ pad_petri.register();
 
 var soy_bean = VanillaFactory.createItem("soy_bean");
 soy_bean.register();
+
+var treated_photocoated_hassium_wafer = VanillaFactory.createItem("treated_photocoated_hassium_wafer");
+treated_photocoated_hassium_wafer.register();
