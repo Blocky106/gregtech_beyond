@@ -1,10 +1,6 @@
 # gregtech_beyond
 Github for the gregtech beyond modpack, 
 A modpack created by Blocky 
-and Developed by a team considering of
-Railgun
-Staffix
-Quantumchromodynamicchagrge
 
 Without the help of a lot of people, this couldnt have been possible
 
