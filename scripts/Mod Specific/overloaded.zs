@@ -1026,7 +1026,9 @@ compressor.recipeBuilder()
     .duration(20)
     .buildAndRegister();
 
-
+recipes.remove(<overloaded:energy_core>);
+recipes.remove(<overloaded:item_core>);
+recipes.remove(<overloaded:fluid_core>);
 
 
 
