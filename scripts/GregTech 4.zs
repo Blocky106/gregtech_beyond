@@ -1541,22 +1541,37 @@ distillation_tower.recipeBuilder()
 
 distillation_tower.recipeBuilder()
     .fluidInputs(<liquid:rn_cracked_light_e_naquadah>*1200)
-    .fluidOutputs(<liquid:naquadah_gas>*400,<liquid:unpreperated_enriched_light_naquadah_fuel>*400,<liquid:unpreperated_enriched_medium_naquadah_fuel>*150,<liquid:unpreperated_enriched_heavy_naquadah_fuel>*50,<liquid:fluorine>*200)
+    .fluidOutputs(<liquid:naquadah_gas>*400,<liquid:unpreperated_light_enriched_naquadah_fuel>*400,<liquid:unpreperated_medium_enriched_naquadah_fuel>*150,<liquid:unpreperated_heavy_enriched_naquadah_fuel>*50,<liquid:fluorine>*200)
     .duration(2000)
     .EUt(7680)
     .buildAndRegister();
 
 distillation_tower.recipeBuilder()
     .fluidInputs(<liquid:rn_cracked_medium_e_naquadah>*1400)
-    .fluidOutputs(<liquid:naquadah_gas>*300,<liquid:unpreperated_enriched_light_naquadah_fuel>*200,<liquid:unpreperated_enriched_medium_naquadah_fuel>*400,<liquid:unpreperated_enriched_heavy_naquadah_fuel>*100,<liquid:fluorine>*400)
+    .fluidOutputs(<liquid:naquadah_gas>*300,<liquid:unpreperated_light_enriched_naquadah_fuel>*200,<liquid:unpreperated_medium_enriched_naquadah_fuel>*400,<liquid:unpreperated_heavy_enriched_naquadah_fuel>*100,<liquid:fluorine>*400)
     .duration(2000)
     .EUt(7680)
     .buildAndRegister();
 
 distillation_tower.recipeBuilder()
     .fluidInputs(<liquid:rn_cracked_heavy_e_naquadah>*1600)
-    .fluidOutputs(<liquid:naquadah_gas>*300,<liquid:unpreperated_enriched_light_naquadah_fuel>*100,<liquid:unpreperated_enriched_medium_naquadah_fuel>*200,<liquid:unpreperated_enriched_heavy_naquadah_fuel>*400,<liquid:fluorine>*600)
+    .fluidOutputs(<liquid:naquadah_gas>*300,<liquid:unpreperated_light_enriched_naquadah_fuel>*100,<liquid:unpreperated_medium_enriched_naquadah_fuel>*200,<liquid:unpreperated_heavy_enriched_naquadah_fuel>*400,<liquid:fluorine>*600)
     .duration(2000)
     .EUt(7680)
     .buildAndRegister();
 
+chemReactor.recipeBuilder()
+    .inputs(<contenttweaker:femtopicw>,<contenttweaker:treated_photocoated_hassium_wafer>)
+    .fluidInputs(<liquid:vibrantalloy>*14400)
+    .outputs(<contenttweaker:attopicw>)
+    .duration(2000)
+    .EUt(12000000)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .inputs(<contenttweaker:femtopicw>,<contenttweaker:treated_photocoated_hassium_wafer>)
+    .fluidInputs(<liquid:vibrantalloy>*14400)
+    .outputs(<contenttweaker:attopicw>)
+    .duration(2000)
+    .EUt(12000000)
+    .buildAndRegister();
