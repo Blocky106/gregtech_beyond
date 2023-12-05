@@ -84,3 +84,11 @@ componentassembler.recipeBuilder()
 	.duration(400)
 	.EUt(8000)
 	.buildAndRegister();
+
+componentassembler.recipeBuilder()
+	.inputs(<gregtech:meta_item_1:32606>*2,<gregtech:meta_item_1:12391>*8,<gregtech:meta_item_2:26859>*4,<gregtech:meta_item_1:10859>*2,<gregtech:meta_item_1:12859>*2,<gregtech:meta_item_1:14859>*2)
+	.fluidInputs(<liquid:lubricant>*1000,<liquid:soldering_alloy>*500,<liquid:indalloy140>*800)
+	.outputs(<gregtech:meta_item_1:32635>)
+	.duration(200)
+	.EUt(8000)
+	.buildAndregister();
