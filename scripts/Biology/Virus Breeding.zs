@@ -140,3 +140,41 @@ lcr.recipeBuilder()
     .duration(800)
     .EUt(120)
     .buildAndRegister();
+
+dehydrator.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:32172>)
+    .outputs(<gtadditions:ga_dust:32175>)
+    .duration(1200)
+    .EUt(280)
+    .buildAndRegister();
+
+mixer.recipeBuilder()
+    .fluidInputs(<liquid:distilled_water>*1000,<liquid:b_phenylethyl_alcohol>*250)
+    .inputs(<gtadditions:ga_dust:39>)
+    .fluidOutputs(<liquid:phenylethyl_alcohol_agar_solution>*1000)
+    .duration(200)
+    .EUt(720)
+    .buildAndRegister();
+
+lmixer.recipeBuilder()
+    .fluidInputs(<liquid:distilled_water>*1000,<liquid:b_phenylethyl_alcohol>*250)
+    .inputs(<gtadditions:ga_dust:39>)
+    .fluidOutputs(<liquid:phenylethyl_alcohol_agar_solution>*1000)
+    .duration(200)
+    .EUt(720)
+    .buildAndRegister();
+
+fluidheater.recipeBuilder()
+    .fluidInputs(<liquid:phenylethyl_alcohol_agar_solution>*1000)
+    .fluidOutputs(<liquid:dissolved_phenylethyl_alcohol_agar>*1000)
+    .duration(200)
+    .EUt(12000)
+    .buildAndRegister();
+
+autoclave.recipeBuilder()
+    .fluidInputs(<liquid:dissolved_phenylethyl_alcohol_agar>*200)
+    .inputs(<gtadditions:ga_dust:32178>)
+    .outputs(<gtadditions:ga_dust:32179>)
+    .EUt(200)
+    .duration(800)
+    .buildAndRegister();
