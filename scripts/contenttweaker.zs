@@ -23,9 +23,6 @@ import mods.contenttweaker.ItemList;
 var luminated_quartzite = VanillaFactory.createItem("luminated_quartzite");
 luminated_quartzite.register();
 
-var bronzeblend = VanillaFactory.createItem("bronzeblend");
-bronzeblend.register();
-
 var woodgear = VanillaFactory.createItem("woodgear");
 woodgear.register();
 
@@ -1784,14 +1781,6 @@ nickel_breeding_bed.register();
 var annealed_nickel_plate = VanillaFactory.createItem("annealed_nickel_plate");
 annealed_nickel_plate.register();
 
-var well_drained_soil = VanillaFactory.createBlock("well_drained_soil", <blockmaterial:rock>);
-well_drained_soil.setBlockHardness(12.0);
-well_drained_soil.setBlockResistance(10.0);
-well_drained_soil.setToolClass("shovel");
-well_drained_soil.setToolLevel(1);
-well_drained_soil.setBlockSoundType(<soundtype:metal>);
-well_drained_soil.register();
-
 var cupriavidusnecator = VanillaFactory.createItem("cupriavidusnecator");
 cupriavidusnecator.register();
 
@@ -1812,3 +1801,11 @@ soy_bean.register();
 
 var treated_photocoated_hassium_wafer = VanillaFactory.createItem("treated_photocoated_hassium_wafer");
 treated_photocoated_hassium_wafer.register();
+
+var gravity_separator_rotor_block = VanillaFactory.createBlock("gravity_separator_rotor_block", <blockmaterial:rock>);
+gravity_separator_rotor_block.setBlockHardness(12.0);
+gravity_separator_rotor_block.setBlockResistance(10.0);
+gravity_separator_rotor_block.setToolClass("shovel");
+gravity_separator_rotor_block.setToolLevel(1);
+gravity_separator_rotor_block.setBlockSoundType(<soundtype:metal>);
+gravity_separator_rotor_block.register();
