@@ -91,4 +91,4 @@ componentassembler.recipeBuilder()
 	.outputs(<gregtech:meta_item_1:32635>)
 	.duration(200)
 	.EUt(8000)
-	.buildAndregister();
+	.buildAndRegister();
