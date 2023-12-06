@@ -1575,3 +1575,31 @@ lcr.recipeBuilder()
     .duration(2000)
     .EUt(12000000)
     .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:formaldehyde>*50,<liquid:phenol>*50)
+    .fluidOutputs(<liquid:novolacs_photoresist>*100)
+    .duration(200)
+    .EUt(129)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:formaldehyde>*50,<liquid:phenol>*50)
+    .fluidOutputs(<liquid:novolacs_photoresist>*100)
+    .duration(200)
+    .EUt(129)
+    .buildAndRegister();
+
+macerator.recipeBuilder()
+    .inputs(<wildnature:dried_sand>)
+    .outputs(<gregtech:meta_item_1:2960>)
+    .duration(12)
+    .EUt(24)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:32603>,<gregtech:meta_item_2:18184>*4,<gregtech:meta_item_2:26184>*2,<gregtech:meta_item_2:17184>*2)
+    .outputs(<contenttweaker:gravity_separator_rotor_block>*2)
+    .duration(200)
+    .EUt(400)
+    .buildAndRegister();
