@@ -2440,7 +2440,7 @@ cas.recipeBuilder()
     .buildAndRegister();
 
 assembler.recipeBuilder()
-    .inputs(<contenttweaker:quantumcasing>,<gregtech:meta_item_1:32677>*2,<gregtech:meta_item_1:12031>*32,<gregtech:meta_item_1:12111>*32)
+    .inputs(<contenttweaker:quantumcasing>,<gregtech:meta_item_1:32677>*2,<gregtech:meta_item_1:12031>*32,<gregtech:meta_item_2:16470>*8,<gregtech:meta_item_1:12111>*32)
     .outputs(<contenttweaker:fieldgeneratorcasing>)
     .duration(400)
     .EUt(120000)
