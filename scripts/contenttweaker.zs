@@ -1809,3 +1809,12 @@ gravity_separator_rotor_block.setToolClass("shovel");
 gravity_separator_rotor_block.setToolLevel(1);
 gravity_separator_rotor_block.setBlockSoundType(<soundtype:metal>);
 gravity_separator_rotor_block.register();
+
+var syringe = VanillaFactory.createItem("syringe");
+syringe.register();
+
+var sheep_blood_syringe = VanillaFactory.createItem("sheep_blood_syringe");
+sheep_blood_syringe.register();
+
+var sterilized_syringe = VanillaFactory.createItem("sterilized_syringe");
+sterilized_syringe.register();
