@@ -166,6 +166,7 @@ lmixer.recipeBuilder()
 
 fluidheater.recipeBuilder()
     .fluidInputs(<liquid:phenylethyl_alcohol_agar_solution>*1000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 0}))
     .fluidOutputs(<liquid:dissolved_phenylethyl_alcohol_agar>*1000)
     .duration(200)
     .EUt(12000)
@@ -177,4 +178,172 @@ autoclave.recipeBuilder()
     .outputs(<gtadditions:ga_dust:32179>)
     .EUt(200)
     .duration(800)
+    .buildAndRegister();
+
+fluidExtractor.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:32179>)
+    .fluidOutputs(<liquid:phenylethyl_alcohol_blood_agar>*1000)
+    .duration(200)
+    .EUt(1200)
+    .buildAndRegister();
+
+bio.recipeBuilder()
+    .inputs(<contenttweaker:sterilized_syringe>)
+    .inputs(<minecraft:mutton>)
+    .outputs(<contenttweaker:sheep_blood_syringe>)
+    .duration(700)
+    .EUt(900)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .inputs(<contenttweaker:syringe>)
+    .fluidInputs(<liquid:hundretbutanol>*1000,<liquid:hundretmethanol>*1000)
+    .outputs(<contenttweaker:sterilized_syringe>)
+    .duration(200)
+    .EUt(800)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .inputs(<contenttweaker:syringe>)
+    .fluidInputs(<liquid:hundretbutanol>*1000,<liquid:hundretmethanol>*1000)
+    .outputs(<contenttweaker:sterilized_syringe>)
+    .duration(200)
+    .EUt(800)
+    .buildAndRegister();
+
+fluidExtractor.recipeBuilder()
+    .inputs(<contenttweaker:sheep_blood_syringe>)
+    .fluidOutputs(<liquid:sheep_blood>*1000)
+    .outputs(<contenttweaker:syringe>)
+    .duration(200)
+    .EUt(8000)
+    .buildAndRegister();
+
+centrifuge.recipeBuilder()
+    .fluidInputs(<liquid:sheep_blood>*1000)
+    .fluidOutputs(<liquid:sheep_blood_plasma>*200,<liquid:sheep_blood_cells>*800)
+    .duration(200)
+    .EUt(1200)
+    .buildAndRegister();
+
+lcentrifuge.recipeBuilder()
+    .fluidInputs(<liquid:sheep_blood>*1000)
+    .fluidOutputs(<liquid:sheep_blood_plasma>*200,<liquid:sheep_blood_cells>*800)
+    .duration(200)
+    .EUt(1200)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:sheep_blood_plasma>*1000)
+    .notConsumable(<liquid:edetic_acid>)
+    .fluidOutputs(<liquid:defibrinated_sheep_blood>*1000)
+    .duration(700)
+    .EUt(820)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:sheep_blood_plasma>*1000)
+    .notConsumable(<liquid:edetic_acid>)
+    .fluidOutputs(<liquid:defibrinated_sheep_blood>*1000)
+    .duration(700)
+    .EUt(820)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .notConsumable(<liquid:ethylene_oxide>)
+    .notConsumable(<gregtech:meta_item_1:32301>)
+    .fluidInputs(<liquid:defibrinated_sheep_blood>*1000)
+    .outputs(<gtadditions:ga_dust:32178>)
+    .duration(200)
+    .EUt(1200)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .notConsumable(<liquid:ethylene_oxide>)
+    .notConsumable(<gregtech:meta_item_1:32301>)
+    .fluidInputs(<liquid:defibrinated_sheep_blood>*1000)
+    .outputs(<gtadditions:ga_dust:32178>)
+    .duration(200)
+    .EUt(1200)
+    .buildAndRegister();
+
+mixer.recipeBuilder()
+    .fluidInputs(<liquid:phosphorus_pentoxide>*1000,<liquid:chlorine>*1000)
+    .fluidOutputs(<liquid:phosphoric_anyhidride>*2000)
+    .duration(80)
+    .EUt(700)
+    .buildAndRegister();
+
+mixer.recipeBuilder()
+    .fluidInputs(<liquid:phosphoric_anyhidride>*1000,<liquid:chlorine>*1000)
+    .fluidOutputs(<liquid:orthophosphoric_acid_solution>*2000)
+    .duration(80)
+    .EUt(700)
+    .buildAndRegister();
+
+lmixer.recipeBuilder()
+    .fluidInputs(<liquid:phosphorus_pentoxide>*1000,<liquid:chlorine>*1000)
+    .fluidOutputs(<liquid:phosphoric_anyhidride>*2000)
+    .duration(80)
+    .EUt(700)
+    .buildAndRegister();
+
+lmixer.recipeBuilder()
+    .fluidInputs(<liquid:phosphoric_anyhidride>*1000,<liquid:chlorine>*1000)
+    .fluidOutputs(<liquid:orthophosphoric_acid_solution>*2000)
+    .duration(80)
+    .EUt(700)
+    .buildAndRegister();
+
+electrolyzer.recipeBuilder()
+    .fluidInputs(<liquid:orthophosphoric_acid_solution>*2000)
+    .fluidOutputs(<liquid:orthophosphoric_acid>*1000,<liquid:hydrochloric_acid>*1000)
+    .duration(200)
+    .EUt(800)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:32056>)
+    .fluidInputs(<liquid:orthophosphoric_acid>*1000)
+    .fluidOutputs(<liquid:methylene_diphosphonic_acid>*1000)
+    .duration(200)
+    .EUt(7299)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:32056>)
+    .fluidInputs(<liquid:orthophosphoric_acid>*1000)
+    .fluidOutputs(<liquid:methylene_diphosphonic_acid>*1000)
+    .duration(200)
+    .EUt(7299)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:ethylenediamine>*1000,<liquid:sodium_hydroxide_solution>*1000,<liquid:methylene_diphosphonic_acid>*1000)
+    .fluidOutputs(<liquid:edetic_acid>*1000)
+    .duration(200)
+    .EUt(1200)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:ethylenediamine>*1000,<liquid:sodium_hydroxide_solution>*1000,<liquid:methylene_diphosphonic_acid>*1000)
+    .fluidOutputs(<liquid:edetic_acid>*1000)
+    .duration(200)
+    .EUt(1200)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:ethylene>*1000,<liquid:benzene>*1000)
+    .notConsumable(<gtadditions:ga_dust:79>)
+    .fluidOutputs(<liquid:b_phenylethyl_alcohol>*1000)
+    .duration(299)
+    .EUt(112)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:ethylene>*1000,<liquid:benzene>*1000)
+    .notConsumable(<gtadditions:ga_dust:79>)
+    .fluidOutputs(<liquid:b_phenylethyl_alcohol>*1000)
+    .duration(299)
+    .EUt(112)
     .buildAndRegister();
