@@ -193,9 +193,9 @@ mods.chisel.Carving.addVariation("cef uv 12 slot", <gregtech:machine:2953>);
 mods.chisel.Carving.addVariation("cef uv 12 slot", <gregtech:machine:10721>);
 
 
+recipes.remove(<chisel:paper>);
 
-
-
+recipes.addShaped(<chisel:paper>*16, [	[<ore:paperBlack>, <ore:paperBlack>, <ore:paperBlack>], 	[<ore:paperBlack>, <ore:stickWood>, <ore:paperBlack>], 	[<ore:paperBlack>, <ore:paperBlack>, <ore:paperBlack>]]);
 
 
 
