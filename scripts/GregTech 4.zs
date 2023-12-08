@@ -1603,3 +1603,19 @@ assembler.recipeBuilder()
     .duration(200)
     .EUt(400)
     .buildAndRegister();
+
+ebf.findRecipe(1000,[<gregtech:meta_item_1:2865>*30,<gregtech:meta_item_1:2604>*9], null).remove();
+
+assembler.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:32181>,<overloaded:compressed_dirt>)
+    .outputs(<randomthings:fertilizeddirt>*10)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
+
+metal_bender.recipeBuilder()
+    .inputs(<randomthings:ingredient:3>)
+    .outputs(<contenttweaker:spectreplate>)
+    .duration(12)
+    .EUt(129)
+    .buildAndRegister();
