@@ -453,6 +453,7 @@ util.registerDust("caesin", 32177, 0xCDDC39, "DULL");
 util.registerDust("solidified_sterile_defibrinated_sheep_blood", 32178, 0x572828, "DULL");
 util.registerDust("phenylethyl_alcohol_agar", 32179, 0xA37676, "SHINY");
 util.registerDust("neodymium_alloy", 32180, 0x605F5F, "SHINY");
+util.registerDust("supra_fertilizer", 32181, 0xB3929E, "SHINY");
 
 
 
@@ -460,7 +461,15 @@ util.registerDust("neodymium_alloy", 32180, 0x605F5F, "SHINY");
 
 
 
-
+util.registerFluid("orthophosphoric_acid_solution", 0x4a0715);
+util.registerFluid("defibrinated_sheep_blood", 0x154cb3);
+util.registerFluid("phosphoric_anyhidride", 0x4ecfa2);
+util.registerFluid("methylene_diphosphonic_acid", 0x146348);
+util.registerFluid("orthophosphoric_acid", 0xcfc04e);
+util.registerFluid("edetic_acid", 0xd9d9d9);
+util.registerFluid("sheep_blood", 0x880015);
+util.registerFluid("sheep_blood_plasma", 0xbf1733);
+util.registerFluid("sheep_blood_cells", 0xa3142c);
 util.registerFluid("phenylethyl_alcohol_agar_solution", 0x5D3131);
 util.registerFluid("dissolved_phenylethyl_alcohol_agar", 0xA65353);
 util.registerFluid("casein_enzymic_hydrolysate", 0xD7D3D3);
