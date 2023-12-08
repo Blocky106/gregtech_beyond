@@ -19,6 +19,11 @@ var roasters = IRecipeMap.recipeMapBuilder("roasters",0,2,0,4,0,2,0,2)
 RegisterMachine.CreateSimpleMachine(1431, "roaster.lv", roasters, Overlays.get("forge_hammer"),1);
 RegisterMachine.CreateSimpleMachine(1432, "roaster.mv", roasters, Overlays.get("forge_hammer"), 2);
 RegisterMachine.CreateSimpleMachine(1433, "roaster.hv", roasters, Overlays.get("forge_hammer"), 3);
+RegisterMachine.CreateSimpleMachine(1435, "roaster.ev", roasters, Overlays.get("forge_hammer"), 4);
+RegisterMachine.CreateSimpleMachine(1436, "roaster.iv", roasters, Overlays.get("forge_hammer"), 5);
+RegisterMachine.CreateSimpleMachine(1437, "roaster.luv", roasters, Overlays.get("forge_hammer"), 6);
+RegisterMachine.CreateSimpleMachine(1438, "roaster.zpm", roasters, Overlays.get("forge_hammer"), 7);
+RegisterMachine.CreateSimpleMachine(1439, "roaster.uv", roasters, Overlays.get("forge_hammer"), 8);
 
 
 
@@ -69,6 +74,9 @@ recipes.addShaped(<gregtech:machine:1431>, [	[<gregtech:meta_item_1:32600>, <ore
 recipes.addShaped(<gregtech:machine:1432>, [	[<gregtech:meta_item_1:32601>, <ore:cableGtSingleTin>, <gregtech:meta_item_1:32601>], 	[<ore:circuitGood>, <gregtech:machine:502>, <ore:circuitGood>], 	[<gregtech:meta_item_1:32641>, <ore:cableGtSingleTin>, <gregtech:meta_item_1:32641>]]);
 recipes.addShaped(<gregtech:machine:1433>, [	[<gregtech:meta_item_1:32602>, <ore:cableGtSingleTin>, <gregtech:meta_item_1:32602>], 	[<ore:circuitAdvanced>, <gregtech:machine:503>, <ore:circuitAdvanced>], 	[<gregtech:meta_item_1:32642>, <ore:cableGtSingleTin>, <gregtech:meta_item_1:32642>]]);
 
-
-
-
+roasters.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2865>*30,<gregtech:meta_item_1:2604>*9)
+    .outputs(<gregicalityoreaddon:gaoe_oredict_item:2012>*42,<gtadditions:ga_dust:356>*6)
+    .duration(200)
+    .EUt(1000)
+    .buildAndRegister();

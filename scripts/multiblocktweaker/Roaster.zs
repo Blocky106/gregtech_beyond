@@ -170,3 +170,10 @@ roaster.recipeMap.recipeBuilder()
     .EUt(22)
     .duration(80)
     .buildAndRegister();
+
+roaster.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2865>*30,<gregtech:meta_item_1:2604>*9)
+    .outputs(<gregicalityoreaddon:gaoe_oredict_item:2012>*42,<gtadditions:ga_dust:356>*6)
+    .duration(200)
+    .EUt(1000)
+    .buildAndRegister();
