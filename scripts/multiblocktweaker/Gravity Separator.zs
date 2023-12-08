@@ -29,20 +29,29 @@ val gravity_separator = Builder.start(loc, meta)
     .withPattern(
             FactoryBlockPattern.start(RelativeDirection.RIGHT, RelativeDirection.BACK, RelativeDirection.UP)
                 .aisle(
-                    "CCCCC~~",
-                    "CCCCC~P",
-                    "CCCCC~~",
-                    "CCCCC~P")
+                    "~P~P",
+                    "~~~~",
+                    "CCCC",
+                    "CCCC",
+                    "CCCC",
+                    "CCCC",
+                    "CCCC")
                 .aisle(
-                    "SCCCC~~",
-                    "C~D~CPP",
-                    "C~D~CP~",
-                    "CCCCCPP")
+                    "~PPP",
+                    "~P~P",
+                    "CCCC",
+                    "C~~C",
+                    "CDDC",
+                    "C~~C",
+                    "CCSC")
                 .aisle(
-                    "CCCCC~~",
-                    "CD~DC~~",
-                    "CD~DC~~",
-                    "CCCCC~~")
+                    "~~~~",
+                    "~~~~",
+                    "CCCC",
+                    "CDDC",
+                    "C~~C",
+                    "CDDC",
+                    "CCCC")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
                 .whereOr("C", 
@@ -61,7 +70,7 @@ val gravity_separator = Builder.start(loc, meta)
                 FactoryMultiblockShapeInfo.start()
                 .aisle(
                     "CCCCC  ",
-                    "SCCCC  ",
+                    "CCCCC  ",
                     "CCCCC  ")
                 .aisle(
                     "CCCCE P",
@@ -69,7 +78,7 @@ val gravity_separator = Builder.start(loc, meta)
                     "CG GC  ")
                 .aisle(
                     "CCCCC  ",
-                    "C G CP ",
+                    "S G C P",
                     "CG GC  ")
                 .aisle(
                     "CCCCC P",
