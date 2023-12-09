@@ -1827,3 +1827,6 @@ grown_yeast_culture.register();
 
 var yeast_cells = VanillaFactory.createItem("yeast_cells");
 yeast_cells.register();
+
+var silver_electrode = VanillaFactory.createItem("silver_electrode");
+silver_electrode.register();
