@@ -454,6 +454,8 @@ util.registerDust("solidified_sterile_defibrinated_sheep_blood", 32178, 0x572828
 util.registerDust("phenylethyl_alcohol_agar", 32179, 0xA37676, "SHINY");
 util.registerDust("neodymium_alloy", 32180, 0x605F5F, "SHINY");
 util.registerDust("supra_fertilizer", 32181, 0xB3929E, "SHINY");
+util.registerDust("grist_powder", 32182, 0x886054, "DULL");
+util.registerDust("solid_grain", 32183, 0xE6D5AF, "DULL");
 
 
 
@@ -461,6 +463,19 @@ util.registerDust("supra_fertilizer", 32181, 0xB3929E, "SHINY");
 
 
 
+util.registerFluid("bean_slurry", 0xD6C7A3);
+util.registerFluid("yeast_extract_mannitol_medium", 0x66468C);
+util.registerFluid("yeast_extract_mannitol_agar_solution", 0x381D59);
+util.registerFluid("dissolved_yeast_extract_mannitol_mixture", 0x0288D1);
+util.registerFluid("mannitol", 0x4A148C);
+util.registerFluid("yeast_extract", 0x9D9A7D);
+util.registerFluid("yeast_mixture", 0xB7B5A8);
+util.registerFluid("nutrient_rich_solution", 0x43A047);
+util.registerFluid("peptone", 0xAFABA3);
+util.registerFluid("malt_extract", 0x796841);
+util.registerFluid("wort", 0x3E2723);
+util.registerFluid("hot_grist_solution", 0x8D6A5F);
+util.registerFluid("hot_water", 0x6988AA);
 util.registerFluid("orthophosphoric_acid_solution", 0x4a0715);
 util.registerFluid("defibrinated_sheep_blood", 0x154cb3);
 util.registerFluid("phosphoric_anyhidride", 0x4ecfa2);
