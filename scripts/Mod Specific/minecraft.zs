@@ -56,7 +56,7 @@ recipes.remove(<minecraft:cake>);
 recipes.remove(<minecraft:fence>);
 
 vanilla.seeds.addSeed(<contenttweaker:soy_bean>);
-
+vanilla.seeds.addSeed(<contenttweaker:barley>);
 
 
 
