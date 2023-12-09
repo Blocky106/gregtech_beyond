@@ -1633,3 +1633,46 @@ lcr.recipeBuilder()
     .duration(120)
     .EUt(80)
     .buildAndRegister();
+
+fluidExtractor.recipeBuilder()
+    .inputs(<randomthings:beans:1>)
+    .fluidOutputs(<liquid:seed_oil>*720)
+    .duration(9)
+    .EUt(28)
+    .buildAndRegister();
+
+chemical_bath.recipeBuilder()
+    .inputs(<wildnature:dried_sand>)
+    .fluidInputs(<liquid:water>*100)
+    .outputs(<minecraft:sand>)
+    .duration(40)
+    .EUt(12)
+    .buildAndRegister();
+
+distillation_tower.recipeBuilder()
+    .fluidInputs(<liquid:lightly_steam_cracked_methane>*1000)
+    .fluidOutputs(<liquid:distilled_water>*1000)
+    .fluidOutputs(<liquid:carbon_monoxide>*1000)
+    .fluidOutputs(<liquid:hydrogen>*1500)
+    .duration(120)
+    .EUt(120)
+    .buildAndRegister();
+
+distillation_tower.recipeBuilder()
+    .fluidInputs(<liquid:moderately_steam_cracked_methane>*1000)
+    .fluidOutputs(<liquid:distilled_water>*2000)
+    .fluidOutputs(<liquid:carbon_monoxide>*1000)
+    .fluidOutputs(<liquid:hydrogen>*3000)
+    .duration(120)
+    .EUt(120)
+    .buildAndRegister();
+
+distillation_tower.recipeBuilder()
+    .fluidInputs(<liquid:severely_steam_cracked_methane>*1000)
+    .fluidOutputs(<liquid:distilled_water>*4000)
+    .fluidOutputs(<liquid:carbon_monoxide>*1000)
+    .fluidOutputs(<liquid:hydrogen>*4000)
+    .duration(120)
+    .EUt(120)
+    .buildAndRegister();
+
