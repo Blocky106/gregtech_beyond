@@ -516,3 +516,20 @@ mixer.recipeBuilder()
     .EUt(400)
     .buildAndRegister();
 
+recipes.remove(<randomthings:beans:1>);
+
+chemReactor.recipeBuilder()
+    .notConsumable(<gtadditions:ga_dust:32162>)
+    .inputs(<randomthings:beans>)
+    .outputs(<randomthings:beans:1>)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .notConsumable(<gtadditions:ga_dust:32162>)
+    .inputs(<randomthings:beans>)
+    .outputs(<randomthings:beans:1>)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
