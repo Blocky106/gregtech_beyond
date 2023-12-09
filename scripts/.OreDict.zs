@@ -562,8 +562,8 @@ mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:
 <ore:BlockSapphire>.remove(<wildnature:sapphire_block>);
 <ore:BlockSteel>.remove(<wildnature:steel_block>);
 <ore:BlockAmethyst>.remove(<wildnature:amethyst_block>);
-
-
+<ore:dustSodiumChloride>.remove(<qmd:chemical_dust:3>);
+<ore:dustSalt>.remove(<qmd:chemical_dust:3>);
 
 
 
