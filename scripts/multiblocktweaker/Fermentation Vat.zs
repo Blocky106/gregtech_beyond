@@ -173,3 +173,24 @@ fermentation_vat.recipeMap.recipeBuilder()
     .EUt(200)
     .duration(50)
     .buildAndRegister();
+
+fermentation_vat.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:wort>*1000)
+    .fluidOutputs(<liquid:malt_extract>*1000)
+    .duration(800)
+    .EUt(12)
+    .buildAndRegister();
+
+fermentation_vat.recipeMap.recipeBuilder()
+    .inputs(<minecraft:pumpkin_seeds>)
+    .fluidOutputs(<liquid:pumpkin_oil>*25)
+    .duration(800)
+    .EUt(12)
+    .buildAndRegister();
+
+fermentation_vat.recipeMap.recipeBuilder()
+    .inputs(<minecraft:melon_seeds>)
+    .fluidOutputs(<liquid:melon_oil>*25)
+    .duration(800)
+    .EUt(12)
+    .buildAndRegister();
