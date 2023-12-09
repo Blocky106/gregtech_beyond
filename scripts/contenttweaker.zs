@@ -1818,3 +1818,12 @@ sheep_blood_syringe.register();
 
 var sterilized_syringe = VanillaFactory.createItem("sterilized_syringe");
 sterilized_syringe.register();
+
+var barley = VanillaFactory.createItem("barley");
+barley.register();
+
+var grown_yeast_culture = VanillaFactory.createItem("grown_yeast_culture");
+grown_yeast_culture.register();
+
+var yeast_cells = VanillaFactory.createItem("yeast_cells");
+yeast_cells.register();
