@@ -354,3 +354,174 @@ assembler.recipeBuilder()
     .duration(299)
     .EUt(80)
     .buildAndRegister();
+
+mixer.recipeBuilder()
+    .fluidInputs(<liquid:sheep_blood_cells>*1000,<liquid:distilled_water>*1000)
+    .notConsumable(<gtadditions:ga_meta_item:32396>)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 3}))
+    .fluidOutputs(<liquid:bacterial_growth_medium>*1000)
+    .duration(200)
+    .EUt(7300)
+    .buildAndRegister();
+
+lmixer.recipeBuilder()
+    .fluidInputs(<liquid:sheep_blood_cells>*1000,<liquid:distilled_water>*1000)
+    .notConsumable(<gtadditions:ga_meta_item:32396>)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 3}))
+    .fluidOutputs(<liquid:bacterial_growth_medium>*1000)
+    .duration(200)
+    .EUt(7300)
+    .buildAndRegister();
+
+macerator.recipeBuilder()
+    .inputs(<contenttweaker:barley>)
+    .outputs(<gtadditions:ga_dust:32182>)
+    .duration(12)
+    .EUt(80)
+    .buildAndRegister();
+
+fluidheater.recipeBuilder()
+    .fluidInputs(<liquid:water>*12)
+    .fluidOutputs(<liquid:hot_water>*12)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 2}))    
+    .duration(299)
+    .EUt(820)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:hot_water>*125)
+    .inputs(<gtadditions:ga_dust:32182>)
+    .fluidOutputs(<liquid:hot_grist_solution>*200)
+    .duration(200)
+    .EUt(720)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:hot_water>*125)
+    .inputs(<gtadditions:ga_dust:32182>)
+    .fluidOutputs(<liquid:hot_grist_solution>*200)
+    .duration(200)
+    .EUt(720)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:hot_grist_solution>*200)
+    .notConsumable(<gtadditions:ga_dust:32184>)
+    .fluidOutputs(<liquid:wort>*100)
+    .outputs(<gtadditions:ga_dust:32183>)
+    .duration(120)
+    .EUt(200)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:hot_grist_solution>*200)
+    .notConsumable(<gtadditions:ga_dust:32184>)
+    .fluidOutputs(<liquid:wort>*100)
+    .outputs(<gtadditions:ga_dust:32183>)
+    .duration(120)
+    .EUt(200)
+    .buildAndRegister();
+
+lmixer.recipeBuilder()
+    .fluidInputs(<liquid:malt_extract>*1000,<liquid:peptone>*1000,<liquid:water>*1000)
+    .inputs(<gtadditions:ga_dust:166>*2)
+    .fluidOutputs(<liquid:nutrient_rich_solution>*4000)
+    .duration(200)
+    .EUt(820)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .inputs(<contenttweaker:purepetridish>,<gtadditions:ga_dust:26>)
+    .fluidInputs(<liquid:nutrient_rich_solution>*1000)
+    .outputs(<contenttweaker:grown_yeast_culture>)
+    .duration(200)
+    .EUt(800)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .inputs(<contenttweaker:purepetridish>,<gtadditions:ga_dust:26>)
+    .fluidInputs(<liquid:nutrient_rich_solution>*1000)
+    .outputs(<contenttweaker:grown_yeast_culture>)
+    .duration(200)
+    .EUt(800)
+    .buildAndRegister();
+
+centrifuge.recipeBuilder()
+    .inputs(<contenttweaker:grown_yeast_culture>)
+    .outputs(<contenttweaker:yeast_cells>)
+    .fluidOutputs(<liquid:wastewater>*12)
+    .duration(200)
+    .EUt(180)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:water>*1000)
+    .outputs(<gtadditions:ga_meta_item:32398>)
+    .inputs(<contenttweaker:yeast_cells>)
+    .fluidOutputs(<liquid:yeast_mixture>*1000)
+    .duration(200)
+    .EUt(24)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:water>*1000)
+    .outputs(<gtadditions:ga_meta_item:32398>)
+    .inputs(<contenttweaker:yeast_cells>)
+    .fluidOutputs(<liquid:yeast_mixture>*1000)
+    .duration(200)
+    .EUt(24)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:distilled_water>*200,<liquid:mannitol>*1000,<liquid:yeast_extract>*1000)
+    .fluidOutputs(<liquid:dissolved_yeast_extract_mannitol_mixture>*2200)
+    .duration(200)
+    .EUt(120)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:distilled_water>*200,<liquid:mannitol>*1000,<liquid:yeast_extract>*1000)
+    .fluidOutputs(<liquid:dissolved_yeast_extract_mannitol_mixture>*2200)
+    .duration(200)
+    .EUt(120)
+    .buildAndRegister();
+
+mixer.recipeBuilder()
+    .fluidInputs(<liquid:dissolved_yeast_extract_mannitol_mixture>*1000)
+    .inputs(<gtadditions:ga_dust:39>*2)
+    .fluidOutputs(<liquid:yeast_extract_mannitol_agar_solution>*1000)
+    .duration(200)
+    .EUt(720)
+    .buildAndRegister();
+
+lmixer.recipeBuilder()
+    .fluidInputs(<liquid:dissolved_yeast_extract_mannitol_mixture>*1000)
+    .inputs(<gtadditions:ga_dust:39>*2)
+    .fluidOutputs(<liquid:yeast_extract_mannitol_agar_solution>*1000)
+    .duration(200)
+    .EUt(720)
+    .buildAndRegister();
+
+autoclave.recipeBuilder()
+    .fluidInputs(<liquid:yeast_extract_mannitol_agar_solution>*1000)
+    .outputs(<gtadditions:ga_dust:32185>)
+    .notConsumable(<gregtech:meta_item_1:2033>)
+    .EUt(299)
+    .duration(70)
+    .buildAndRegister();
+
+bio.recipeBuilder()
+    .fluidInputs(<liquid:bean_slurry>*1000)
+    .inputs(<gtadditions:ga_dust:32185>)
+    .outputs(<gtadditions:ga_dust:32162>)
+    .duration(200)
+    .EUt(820)
+    .buildAndRegister();
+
+chemical_bath.recipeBuilder()
+    .fluidInputs(<liquid:water>*1000)
+    .inputs(<gtadditions:ga_dust:32175>)
+    .fluidOutputs(<liquid:bean_slurry>*1000)
+    .duration(200)
+    .EUt(120)
+    .buildAndRegister();
