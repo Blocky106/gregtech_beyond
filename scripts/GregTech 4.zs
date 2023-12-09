@@ -1619,3 +1619,17 @@ metal_bender.recipeBuilder()
     .duration(12)
     .EUt(129)
     .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .inputs(<minecraft:paper>,<gtadditions:ga_dust:32175>)
+    .outputs(<enderio:item_material:77>)
+    .duration(120)
+    .EUt(80)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .inputs(<minecraft:paper>,<gtadditions:ga_dust:32175>)
+    .outputs(<enderio:item_material:77>)
+    .duration(120)
+    .EUt(80)
+    .buildAndRegister();
