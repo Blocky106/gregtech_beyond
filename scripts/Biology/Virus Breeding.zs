@@ -197,7 +197,7 @@ bio.recipeBuilder()
 
 chemReactor.recipeBuilder()
     .inputs(<contenttweaker:syringe>)
-    .fluidInputs(<liquid:hundretbutanol>*1000,<liquid:hundretmethanol>*1000)
+    .fluidInputs(<liquid:hundretbutanol>*20,<liquid:hundretmethanol>*20)
     .outputs(<contenttweaker:sterilized_syringe>)
     .duration(200)
     .EUt(800)
@@ -346,4 +346,11 @@ lcr.recipeBuilder()
     .fluidOutputs(<liquid:b_phenylethyl_alcohol>*1000)
     .duration(299)
     .EUt(112)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs(<gregtech:meta_item_2:32454>,<gregtech:meta_item_1:14184>)
+    .outputs(<contenttweaker:syringe>)
+    .duration(299)
+    .EUt(80)
     .buildAndRegister();
