@@ -456,6 +456,9 @@ util.registerDust("neodymium_alloy", 32180, 0x605F5F, "SHINY");
 util.registerDust("supra_fertilizer", 32181, 0xB3929E, "SHINY");
 util.registerDust("grist_powder", 32182, 0x886054, "DULL");
 util.registerDust("solid_grain", 32183, 0xE6D5AF, "DULL");
+util.registerDust("activated_carbon", 32184, 0x272727, "SHINY");
+util.registerDust("yeast_extract_mannitol_medium", 32185, 0x66468C, "SHINY");
+util.registerDust("titanium_sludge", 32186, 0xC08C9D, "SHINY");
 
 
 
@@ -463,8 +466,24 @@ util.registerDust("solid_grain", 32183, 0xE6D5AF, "DULL");
 
 
 
+
+
+
+
+
+util.registerFluid("red_vitriol", 0xD32F2F);
+util.registerFluid("cyan_vitriol", 0x578AB4);
+util.registerFluid("clay_vitriol", 0x6D8191);
+util.registerFluid("white_vitriol", 0xFFFFFF);
+util.registerFluid("green_vitriol", 0x66BB6A);
+util.registerFluid("pink_vitriol", 0xF48FB1);
+util.registerFluid("gray_vitriol", 0x616161);
+util.registerFluid("pumpkin_oil", 0xAFB42B);
+util.registerFluid("melon_oil", 0xDDB8C4);
+util.registerFluid("moderately_steam_cracked_methane", 0xCC4A75);
+util.registerFluid("severely_steam_cracked_methane", 0xDF7197);
+util.registerFluid("lightly_steam_cracked_methane", 0xD4517D);
 util.registerFluid("bean_slurry", 0xD6C7A3);
-util.registerFluid("yeast_extract_mannitol_medium", 0x66468C);
 util.registerFluid("yeast_extract_mannitol_agar_solution", 0x381D59);
 util.registerFluid("dissolved_yeast_extract_mannitol_mixture", 0x0288D1);
 util.registerFluid("mannitol", 0x4A148C);
