@@ -341,5 +341,9 @@ vacuum_distillation_tower.recipeMap.recipeBuilder()
     .EUt(320)
     .buildAndRegister();
 
-
-    
+vacuum_distillation_tower.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2012>)
+    .outputs(<gtadditions:ga_dust:32184>)
+    .duration(1200)
+    .EUt(800)
+    .buildAndRegister();
