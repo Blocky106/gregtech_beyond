@@ -103,3 +103,23 @@ val gravity_separator = Builder.start(loc, meta)
 .withZoom(0.5f)
 
 .buildAndRegister() as Multiblock;
+
+
+var dirty_dirt = [<thaumcraft:taint_soil>] as IItemStack[];
+var dirty_stone = [<thaumicaugmentation:stone:2>] as IItemStack[];
+
+gravity_separator.recipeMap.recipeBuilder()
+    .inputs(dirty_dirt)
+    .outputs(<minecraft:dirt>)
+    .fluidOutputs(<liquid:oil>*125)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
+
+gravity_separator.recipeMap.recipeBuilder()
+    .inputs(dirty_stone)
+    .outputs(<minecraft:stone>)
+    .fluidOutputs(<liquid:oil>*125)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
