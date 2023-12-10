@@ -7,7 +7,7 @@
   "Root Height": 1.2,
   "Height Variation": 0.1,
   "Top Block": "minecraft:grass[snowy\u003dfalse]",
-  "Filler Block": "contenttweaker:well_drained_soil",
+  "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
   "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
   "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
   "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",

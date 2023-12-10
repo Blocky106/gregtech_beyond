@@ -1,0 +1,38 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiYesNo
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/custommainmenu/textures/gui/bg.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=505262%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/custommainmenu/textures/gui/menu_text_box_selected.png
+  backgroundnormal = resources/custommainmenu/textures/gui/menu_box.png
+}
+
+customization {
+  identifier = %id=345262%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/custommainmenu/textures/gui/menu_text_box_selected.png
+  backgroundnormal = resources/custommainmenu/textures/gui/menu_box.png
+}
+
