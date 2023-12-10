@@ -1398,3 +1398,47 @@ devtech.machine.rotary_evaporator.iv.name=Elite Rotary Evaporator
 multiblocktweaker.machine.electrolytic_cell.name=Electrolytic Cell
 recipemap.electrolytic_cell.name=Electrolysis
 multiblocktweaker.multiblock.electrolytic_cell.description=An advanced version of the Electrolyzer
+item.contenttweaker.grown_yeast_culture.name=Grown Yeast Culture
+item.contenttweaker.yeast_cells.name=Yeast Cells
+item.contenttweaker.silver_electrode.name=Silver Electrode
+metaitem.pancreatic_digest_of_casein.name=Pancreatic Digest of Casein Dust
+metaitem.activated_carbon.name=Activated Carbon Dust
+fluid.wort=Wort
+metaitem.casein.name=Casein Dust
+metaitem.phenylethyl_alcohol_agar.name=Phenylethyl Alcohol Agar Dust
+metaitem.supra_fertilizer.name=Supra Fertilizer Dust
+metaitem.solid_grain.name=Solid Grain
+metaitem.yeast_extract_mannitol_medium.name=Yeast Extract Mannitol Medium
+metaitem.titanium_sludge.name=Titanium Sludges Dust
+fluid.mannitol=Mannitol
+fluid.casein_enzymic_hydrolysate=Casein Enzymic Hydrolysate
+fluid.white_vitriol=White Vitriol Water Solution
+fluid.red_vitriol=Red Vitriol Water Solution
+fluid.cyan_vitriol=Cyan Vitriol Water Solution
+fluid.clay_vitriol=Clay Vitriol Water Solution
+fluid.gray_vitriol=Grey Vitriol Water Solution
+fluid.pink_vitriol=Pink Vitriol Water Solution
+fluid.green_vitriol=Green Vitriol Water Solution
+fluid.lightly_steam_cracked_methane=Lightly Steam Cracked Methane
+fluid.severely_steam_cracked_methane=Severely Steam Cracked Methane
+fluid.moderately_steam_cracked_methane=Moderately Steam Cracked Methane
+fluid.peptone=Peptone
+fluid.pumpkin_oil=Pumpkin Oil
+fluid.orthophosphoric_acid=Orthophosphoric Acid
+fluid.malt_extract=Malt Extract
+fluid.bean_slurry=Bean Slurry
+fluid.melon_oil=Melon Oil
+fluid.yeast_extract_mannitol_agar_solution=Yeast Extract Mannitol Agar Solution
+fluid.dissolved_yeast_extract_mannitol_mixture=Dissolved Yeast Extract Mannitol Mixture
+fluid.nutrient_rich_solution=Nutrient Rich Solution
+fluid.yeast_extract=Yeast Extract
+
+
+
+
+
+
+
+
+
+
