@@ -23,42 +23,14 @@ recipes.addShaped(<minecraft:fence>, [	[<ore:plankWood>, <minecraft:stick>, <ore
 recipes.addShaped(<minecraft:furnace>, [	[<ore:stoneCobble>, <ore:stoneCobble>, <ore:stoneCobble>], 	[<ore:gearStone>, <ore:itemFlint>, <ore:gearStone>], 	[<ore:stoneCobble>, <ore:stoneCobble>, <ore:stoneCobble>]]);
 
 furnace.addRecipe(<minecraft:iron_ingot>,<gregtech:meta_item_1:2033>);
-recipes.remove(<minecraft:iron_ingot>);
-recipes.remove(<minecraft:ender_chest>);
-recipes.remove(<minecraft:anvil>);
-recipes.remove(<minecraft:minecart>);
-recipes.remove(<minecraft:clay>);
-recipes.remove(<minecraft:wooden_pressure_plate>);
-recipes.remove(<minecraft:ender_eye>);
-recipes.remove(<minecraft:cobblestone_wall>);
-recipes.remove(<minecraft:obsidian>);
-recipes.remove(<minecraft:chest>);
 furnace.remove(<minecraft:coal:1>);
-recipes.remove(<minecraft:wooden_sword>);
-recipes.remove(<minecraft:wooden_shovel>);
-recipes.remove(<minecraft:wooden_pickaxe>);
-recipes.remove(<minecraft:wooden_axe>);
-recipes.remove(<minecraft:wooden_hoe>);
-recipes.remove(<minecraft:stone_sword>);
-recipes.remove(<minecraft:stone_shovel>);
-recipes.remove(<minecraft:stone_pickaxe>);
-recipes.remove(<minecraft:stone_axe>);
-recipes.remove(<minecraft:stone_hoe>);
-recipes.remove(<minecraft:diamond_helmet>);
-recipes.remove(<minecraft:diamond_chestplate>);
-recipes.remove(<minecraft:diamond_leggings>);
-recipes.remove(<minecraft:diamond_boots>);
-recipes.remove(<minecraft:leather_helmet>);
-recipes.remove(<minecraft:leather_chestplate>);
-recipes.remove(<minecraft:leather_leggings>);
-recipes.remove(<minecraft:leather_boots>);
-recipes.remove(<minecraft:cake>);
-recipes.remove(<minecraft:fence>);
+
 
 vanilla.seeds.addSeed(<contenttweaker:soy_bean>);
 vanilla.seeds.addSeed(<contenttweaker:barley>);
 
 
+//game.getEntity("Fox").addDrop(<gregtech:gt.multiitem.food:1200>,0,1); // ribs drops ribs
 
 
 

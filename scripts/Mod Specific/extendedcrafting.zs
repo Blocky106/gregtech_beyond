@@ -2,20 +2,6 @@ recipes.addShaped(<extendedcrafting:table_advanced>, [ [<extendedcrafting:materi
 recipes.addShaped(<extendedcrafting:material:8>, [	[null,  <extendedcrafting:material:14>, null], 	[<extendedcrafting:material:14>, <ore:gearAnnealedCopper>, <extendedcrafting:material:14>], 	[null, <extendedcrafting:material:14>, null]]);
 recipes.addShaped(<extendedcrafting:table_basic>, [	[<extendedcrafting:material:8>, <extendedcrafting:material:14>, <extendedcrafting:material:8>], 	[<extendedcrafting:material:14>, <gregtech:machine:825>, <extendedcrafting:material:14>], 	[<contenttweaker:silversteelplate>, <gregtech:machine:501>, <contenttweaker:silversteelplate>]]);
 recipes.addShaped(<extendedcrafting:table_elite>, [	[<extendedcrafting:material:10>, <extendedcrafting:material:16>, <extendedcrafting:material:10>], 	[<extendedcrafting:table_advanced>, <extendedcrafting:material:16>, <extendedcrafting:table_advanced>], 	[<extendedcrafting:material:16>, <extendedcrafting:trimmed:2>, <extendedcrafting:material:16>]]);
-
-recipes.remove(<extendedcrafting:table_ultimate>);
-recipes.remove(<extendedcrafting:material:17>);
-recipes.remove(<extendedcrafting:ender_crafter>);
-recipes.remove(<extendedcrafting:ender_alternator>);
-recipes.remove(<extendedcrafting:material:24>);
-recipes.remove(<extendedcrafting:material:15>);
-recipes.remove(<extendedcrafting:material:11>);
-recipes.remove(<extendedcrafting:material:12>);
-recipes.remove(<extendedcrafting:material:18>);
-recipes.remove(<extendedcrafting:material:2>);
-recipes.remove(<extendedcrafting:storage:2>);
-recipes.remove(<extendedcrafting:frame>);
-recipes.remove(<extendedcrafting:compressor>);
 recipes.addShaped(<extendedcrafting:compressor>, [	[<extendedcrafting:material:19>, <extendedcrafting:material:13>, <extendedcrafting:material:19>], 	[<extendedcrafting:material:13>, <avaritia:neutronium_compressor>, <extendedcrafting:material:13>], 	[null, <extendedcrafting:frame>, null]]);
 recipes.addShaped(<extendedcrafting:frame>, [	[<ore:plateUltimate>, <extendedcrafting:material:2>, <ore:plateUltimate>], 	[<extendedcrafting:material:2>, <thermalexpansion:frame:132>, <extendedcrafting:material:2>], 	[<ore:plateUltimate>, <extendedcrafting:material:2>, <ore:plateUltimate>]]);
 

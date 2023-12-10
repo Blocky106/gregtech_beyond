@@ -13,57 +13,6 @@ import mods.contenttweaker.Block;
 import crafttweaker.item.IItemCondition;
 import mods.appliedenergistics2.Grinder;
 
-val unpacker = mods.gregtech.recipe.RecipeMap.getByName("unpacker");
-val brewery = mods.gregtech.recipe.RecipeMap.getByName("brewer");
-val extruder = mods.gregtech.recipe.RecipeMap.getByName("extruder");
-val mixer = mods.gregtech.recipe.RecipeMap.getByName("mixer");
-val implosion = mods.gregtech.recipe.RecipeMap.getByName("implosion_compressor");
-val macerator = mods.gregtech.recipe.RecipeMap.getByName("macerator");
-val assembler = mods.gregtech.recipe.RecipeMap.getByName("assembler");
-val solidifier = mods.gregtech.recipe.RecipeMap.getByName("solidifier");
-val chemReactor = mods.gregtech.recipe.RecipeMap.getByName("chemical_reactor");
-val forgeHammer = mods.gregtech.recipe.RecipeMap.getByName("forge_hammer");
-val fluidExtractor = mods.gregtech.recipe.RecipeMap.getByName("fluid_extractor");
-val extractor = mods.gregtech.recipe.RecipeMap.getByName("extractor");
-val compressor = mods.gregtech.recipe.RecipeMap.getByName("compressor");
-val electrolyzer = mods.gregtech.recipe.RecipeMap.getByName("electrolyzer");
-val centrifuge = mods.gregtech.recipe.RecipeMap.getByName("centrifuge");
-val ebf = mods.gregtech.recipe.RecipeMap.getByName("blast_furnace");
-val wiremill = mods.gregtech.recipe.RecipeMap.getByName("wiremill");
-var fusion_reactor = mods.gregtech.recipe.RecipeMap.getByName("fusion_reactor");
-val chemical_bath = mods.gregtech.recipe.RecipeMap.getByName("chemical_bath");
-val lathe = mods.gregtech.recipe.RecipeMap.getByName("lathe");
-val cracker = mods.gregtech.recipe.RecipeMap.getByName("cracker");
-val autoclave = mods.gregtech.recipe.RecipeMap.getByName("autoclave");
-val vacfreezer = mods.gregtech.recipe.RecipeMap.getByName("vacuum_freezer");
-val thermalCent = mods.gregtech.recipe.RecipeMap.getByName("thermal_centrifuge");
-val cutting_saw = mods.gregtech.recipe.RecipeMap.getByName("cutting_saw");
-val assembly_line = mods.gregtech.recipe.RecipeMap.getByName("assembly_line");
-val distillery = mods.gregtech.recipe.RecipeMap.getByName("distillery");
-val distillation_tower = mods.gregtech.recipe.RecipeMap.getByName("distillery");
-val alloy_smelter = mods.gregtech.recipe.RecipeMap.getByName("alloy_smelter");
-val metal_bender = mods.gregtech.recipe.RecipeMap.getByName("metal_bender");
-val fluid_solidifier = mods.gregtech.recipe.RecipeMap.getByName("fluid_solidifier");
-val orewasher = mods.gregtech.recipe.RecipeMap.getByName("orewasher");
-val lcr = mods.gregtech.recipe.RecipeMap.getByName("large_chemical_reactor");
-val forming_press = mods.gregtech.recipe.RecipeMap.getByName("forming_press");
-val lmixer = mods.gregtech.recipe.RecipeMap.getByName("large_mixer");
-val blastalloy = mods.gregtech.recipe.RecipeMap.getByName("blast_alloy");
-val stellar = mods.gregtech.recipe.RecipeMap.getByName("stellar_forge");
-val dehydrator = mods.gregtech.recipe.RecipeMap.getByName("chemical_dehydrator");
-val plasma_condenser = mods.gregtech.recipe.RecipeMap.getByName("plasma_condenser");
-val circuit_assembly_line = mods.gregtech.recipe.RecipeMap.getByName("circuit_assembly_line");
-val bio = mods.gregtech.recipe.RecipeMap.getByName("bio_reactor");
-val fluidheater = mods.gregtech.recipe.RecipeMap.getByName("fluid_heater");
-val engraver = mods.gregtech.recipe.RecipeMap.getByName("laser_engraver");
-
-
-
-
-
-
-
-
 
 
 
@@ -103,25 +52,6 @@ recipes.addShaped(<appliedenergistics2:memory_card>, [	[null, null, null], 	[<or
 recipes.addShaped(<appliedenergistics2:material:52>, [	[<gtadditions:ga_transparent_casing:2>, <ore:plateNichrome>, <gtadditions:ga_transparent_casing:2>], 	[<ore:plateNichrome>, <ore:crystalFluix>, <ore:plateNichrome>], 	[<ore:plateTitanium>, <ore:plateTitanium>, <ore:plateTitanium>]]);
 recipes.addShaped(<appliedenergistics2:material:39>, [	[<appliedenergistics2:quartz_glass>, <ore:plateNichrome>, <appliedenergistics2:quartz_glass>], 	[<ore:plateNichrome>, <ore:circuitGood>, <ore:plateNichrome>], 	[<ore:plateTitanium>, <ore:plateTitanium>, <ore:plateTitanium>]]);
 
-recipes.remove(<appliedenergistics2:part:16>);
-recipes.remove(<appliedenergistics2:material:39>);
-recipes.remove(<appliedenergistics2:material:53>);
-recipes.remove(<appliedenergistics2:material:52>);
-recipes.remove(<appliedenergistics2:memory_card>);
-recipes.remove(<appliedenergistics2:material:30>);
-recipes.remove(<appliedenergistics2:material:28>);
-recipes.remove(<appliedenergistics2:sky_stone_chest>);
-recipes.remove(<appliedenergistics2:crank>);
-recipes.remove(<appliedenergistics2:interface>);
-recipes.remove(<appliedenergistics2:quantum_ring>);
-recipes.remove(<appliedenergistics2:part:340>);
-recipes.remove(<ae2stuff:grower>);
-recipes.remove(<appliedenergistics2:quartz_growth_accelerator>);
-recipes.remove(<appliedenergistics2:crafting_storage_16k>);
-recipes.remove(<appliedenergistics2:crafting_storage_64k>);
-recipes.remove(<appliedenergistics2:energy_cell>);
-recipes.remove(<appliedenergistics2:quantum_link>);
-recipes.remove(<appliedenergistics2:charger>);
 
 
 
@@ -227,29 +157,7 @@ Grinder.removeRecipe(<gregtech:ore_lead_0:5>);
 Grinder.removeRecipe(<gregtech:ore_aluminium_0:5>);
 
 
-recipes.remove(<appliedenergistics2:smooth_sky_stone_chest>);
-recipes.remove(<appliedenergistics2:material:37>);
-recipes.remove(<appliedenergistics2:material:38>);
-recipes.remove(<appliedenergistics2:material:36>);
-recipes.remove(<appliedenergistics2:molecular_assembler>);
-recipes.remove(<appliedenergistics2:crafting_unit>);
-recipes.remove(<appliedenergistics2:material:35>);
-recipes.remove(<appliedenergistics2:part:56>);
-recipes.remove(<appliedenergistics2:part:36>);
-recipes.remove(<appliedenergistics2:storage_cell_1k>);
-recipes.remove(<appliedenergistics2:storage_cell_4k>);
-recipes.remove(<appliedenergistics2:storage_cell_16k>);
-recipes.remove(<appliedenergistics2:storage_cell_64k>);
-recipes.remove(<appliedenergistics2:material:58>);
-recipes.remove(<appliedenergistics2:fluid_storage_cell_1k>);
-recipes.remove(<appliedenergistics2:fluid_storage_cell_4k>);
-recipes.remove(<appliedenergistics2:fluid_storage_cell_16k>);
-recipes.remove(<appliedenergistics2:fluid_storage_cell_64k>);
-recipes.remove(<appliedenergistics2:spatial_storage_cell_2_cubed>);
-recipes.remove(<appliedenergistics2:spatial_storage_cell_16_cubed>);
-recipes.remove(<appliedenergistics2:spatial_storage_cell_128_cubed>);
-recipes.remove(<appliedenergistics2:inscriber>);
-recipes.remove(<appliedenergistics2:quartz_vibrant_glass>);
+
 
 
 recipes.addShapeless(<appliedenergistics2:storage_cell_64k>,[<appliedenergistics2:material:38>,<appliedenergistics2:material:39>]);
@@ -263,29 +171,17 @@ recipes.addShapeless(<appliedenergistics2:spatial_storage_cell_128_cubed>,[<appl
 
 
 recipes.addShaped(<appliedenergistics2:material:41>, [	[null, <ore:pearlFluix>, null], 	[<ore:plateAluminium>, <appliedenergistics2:part:140>, <ore:plateAluminium>], 	[<appliedenergistics2:part:76>, <ore:circuitAdvanced>, <appliedenergistics2:part:76>]]);
-recipes.remove(<appliedenergistics2:fluid_interface>);
 recipes.addShaped(<appliedenergistics2:sky_compass>, [	[<ore:plateSteel>, <appliedenergistics2:material:44>, <ore:plateSteel>], 	[<ore:stickLongCertusQuartz>, <ore:plateCertusQuartz>, <ore:stickLongCertusQuartz>], 	[<ore:plateBlackSteel>, <appliedenergistics2:material:43>, <ore:plateBlackSteel>]]);
-recipes.remove(<appliedenergistics2:sky_compass>);
 recipes.addShaped(<appliedenergistics2:quartz_glass>, [	[<ore:blockGlassColorless>, <ore:dustCertusQuartz>, <ore:blockGlassColorless>], 	[<ore:dustRegularNetherQuartz>, <ore:blockGlassColorless>, <ore:dustRegularNetherQuartz>], 	[<ore:blockGlassColorless>, <ore:dustCertusQuartz>, <ore:blockGlassColorless>]]);
-recipes.remove(<appliedenergistics2:quartz_glass>);
 recipes.addShaped(<appliedenergistics2:energy_acceptor>, [	[<ore:plateTitanium>, <appliedenergistics2:material:44>, <ore:plateTitanium>], 	[<appliedenergistics2:material:43>, <appliedenergistics2:energy_cell>, <appliedenergistics2:material:43>], 	[<ore:plateTitanium>, <appliedenergistics2:material:44>, <ore:plateTitanium>]]);
-recipes.remove(<appliedenergistics2:energy_acceptor>);
 recipes.addShaped(<appliedenergistics2:security_station>, [	[<ore:plateTitanium>, <appliedenergistics2:chest>, <ore:plateTitanium>], 	[<appliedenergistics2:material:43>, <appliedenergistics2:material:38>, <appliedenergistics2:material:44>], 	[<ore:plateTitanium>, <appliedenergistics2:material:24>, <ore:plateTitanium>]]);
-recipes.remove(<appliedenergistics2:security_station>);
 recipes.addShaped(<appliedenergistics2:chest>, [	[<ore:plateTitanium>, <appliedenergistics2:part:380>, <ore:plateTitanium>], 	[<appliedenergistics2:part:76>, <ore:crystalPureFluix>, <appliedenergistics2:part:76>], 	[<ore:plateTitanium>, <contenttweaker:dualitioncore>, <ore:plateTitanium>]]);
-recipes.remove(<appliedenergistics2:chest>);
 recipes.addShaped(<appliedenergistics2:cell_workbench>, [	[<ore:plateTitanium>, <appliedenergistics2:material:23>, <ore:plateTitanium>], 	[<appliedenergistics2:material:36>, <appliedenergistics2:chest>, <appliedenergistics2:material:36>], 	[<ore:plateTitanium>, <appliedenergistics2:part:360>, <ore:plateTitanium>]]);
-recipes.remove(<appliedenergistics2:cell_workbench>);
 recipes.addShaped(<appliedenergistics2:io_port>, [	[<ore:plateNiobiumTitanium>, <gtadditions:ga_transparent_casing:4>, <ore:plateNiobiumTitanium>], 	[<appliedenergistics2:drive>, <appliedenergistics2:part:76>, <appliedenergistics2:drive>], 	[<ore:plateNiobiumTitanium>, <appliedenergistics2:material:23>, <ore:plateNiobiumTitanium>]]);
-recipes.remove(<appliedenergistics2:io_port>);
 recipes.addShaped(<appliedenergistics2:spatial_io_port>, [	[<ore:plateNiobiumTitanium>, <gtadditions:ga_transparent_casing:4>, <ore:plateNiobiumTitanium>], 	[<appliedenergistics2:io_port>, <ore:circuitElite>, <appliedenergistics2:io_port>], 	[<ore:plateNiobiumTitanium>, <gtadditions:ga_transparent_casing:4>, <ore:plateNiobiumTitanium>]]);
-recipes.remove(<appliedenergistics2:spatial_io_port>);
 recipes.addShaped(<appliedenergistics2:spatial_pylon>, [	[<appliedenergistics2:quartz_vibrant_glass>, <appliedenergistics2:part:76>, <appliedenergistics2:quartz_vibrant_glass>], 	[<ore:crystalPureFluix>, <ore:circuitElite>, <ore:crystalPureFluix>], 	[<appliedenergistics2:quartz_vibrant_glass>, <appliedenergistics2:part:76>, <appliedenergistics2:quartz_vibrant_glass>]]);
-recipes.remove(<appliedenergistics2:spatial_pylon>);
 recipes.addShaped(<appliedenergistics2:network_tool>, [	[null, <appliedenergistics2:quartz_vibrant_glass>, null], 	[<ore:circuitExtreme>, <appliedenergistics2:material:24>, <appliedenergistics2:part:76>], 	[null, <appliedenergistics2:part:76>, <appliedenergistics2:fluix_block>]]);
-recipes.remove(<appliedenergistics2:network_tool>);
 recipes.addShaped(<appliedenergistics2:material:41>, [	[null, <ore:pearlFluix>, null], 	[<appliedenergistics2:part:76>, <appliedenergistics2:part:140>, <appliedenergistics2:part:76>], 	[<ore:plateTitanium>, <ore:circuitExtreme>, <ore:plateTitanium>]]);
-recipes.remove(<appliedenergistics2:material:41>);
 
 
 
@@ -293,21 +189,14 @@ recipes.remove(<appliedenergistics2:material:41>);
 
 #ae2 stuff---------------------------------------
 recipes.addShaped(<ae2stuff:visualiser>, [	[<appliedenergistics2:material:41>, <ore:circuitElite>, <appliedenergistics2:material:41>], 	[<appliedenergistics2:material:24>, <appliedenergistics2:part:380>, <appliedenergistics2:material:24>], 	[<appliedenergistics2:fluix_block>, <appliedenergistics2:fluix_block>, <appliedenergistics2:fluix_block>]]);
-recipes.remove(<ae2stuff:visualiser>);
 recipes.addShaped(<ae2stuff:wireless_kit>, [	[<gtadditions:ga_transparent_casing:4>, <appliedenergistics2:material:41>, <gtadditions:ga_transparent_casing:4>], 	[<appliedenergistics2:part:76>, <appliedenergistics2:material:24>, <appliedenergistics2:part:76>], 	[<ore:crystalPureFluix>, <appliedenergistics2:network_tool>, <ore:crystalPureFluix>]]);
-recipes.remove(<ae2stuff:wireless_kit>);
 recipes.addShaped(<ae2stuff:encoder>, [	[<ore:pearlFluix>, <appliedenergistics2:crafting_unit>, <ore:pearlFluix>], 	[<appliedenergistics2:material:23>, <tconstruct:tooltables>, <appliedenergistics2:material:23>], 	[<ore:plateTitanium>, <ore:itemIlluminatedPanel>, <ore:plateTitanium>]]);
-recipes.remove(<ae2stuff:encoder>);
 recipes.addShaped(<ae2stuff:inscriber>, [	[<ore:plateTitanium>, <ore:circuitExtreme>, <ore:plateTitanium>], 	[<appliedenergistics2:inscriber>, <appliedenergistics2:crafting_unit>, <appliedenergistics2:inscriber>], 	[<ore:plateTitanium>, <appliedenergistics2:material:23>, <ore:plateTitanium>]]);
-recipes.remove(<ae2stuff:inscriber>);
 recipes.addShaped(<ae2stuff:wireless>, [	[<ore:crystalPureFluix>, <ore:plateTitanium>, <ore:crystalPureFluix>], 	[<appliedenergistics2:material:41>, <appliedenergistics2:material:23>, <appliedenergistics2:material:41>], 	[<ore:crystalPureFluix>, <ore:plateTitanium>, <ore:crystalPureFluix>]]);
-recipes.remove(<ae2stuff:wireless>);
 
 
 
 #lazy ae2-------------------------------------------
-recipes.remove(<threng:material:1>);
-recipes.remove(<threng:machine>);
 
 
 

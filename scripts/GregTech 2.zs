@@ -16,61 +16,6 @@ import mods.gregtech.recipe.CokeOvenRecipeBuilder;
 import mods.gtadditions.recipe.Utils;
 
 
-val packer = mods.gregtech.recipe.RecipeMap.getByName("packer");
-val unpacker = mods.gregtech.recipe.RecipeMap.getByName("unpacker");
-val brewery = mods.gregtech.recipe.RecipeMap.getByName("brewer");
-val extruder = mods.gregtech.recipe.RecipeMap.getByName("extruder");
-val mixer = mods.gregtech.recipe.RecipeMap.getByName("mixer");
-val implosion = mods.gregtech.recipe.RecipeMap.getByName("implosion_compressor");
-val macerator = mods.gregtech.recipe.RecipeMap.getByName("macerator");
-val assembler = mods.gregtech.recipe.RecipeMap.getByName("assembler");
-val solidifier = mods.gregtech.recipe.RecipeMap.getByName("solidifier");
-val chemReactor = mods.gregtech.recipe.RecipeMap.getByName("chemical_reactor");
-val forgeHammer = mods.gregtech.recipe.RecipeMap.getByName("forge_hammer");
-val fluidExtractor = mods.gregtech.recipe.RecipeMap.getByName("fluid_extractor");
-val extractor = mods.gregtech.recipe.RecipeMap.getByName("extractor");
-val compressor = mods.gregtech.recipe.RecipeMap.getByName("compressor");
-val electrolyzer = mods.gregtech.recipe.RecipeMap.getByName("electrolyzer");
-val centrifuge = mods.gregtech.recipe.RecipeMap.getByName("centrifuge");
-val ebf = mods.gregtech.recipe.RecipeMap.getByName("blast_furnace");
-val wiremill = mods.gregtech.recipe.RecipeMap.getByName("wiremill");
-var fusion_reactor = mods.gregtech.recipe.RecipeMap.getByName("fusion_reactor");
-val chemical_bath = mods.gregtech.recipe.RecipeMap.getByName("chemical_bath");
-val lathe = mods.gregtech.recipe.RecipeMap.getByName("lathe");
-val cracker = mods.gregtech.recipe.RecipeMap.getByName("cracker");
-val autoclave = mods.gregtech.recipe.RecipeMap.getByName("autoclave");
-val vacfreezer = mods.gregtech.recipe.RecipeMap.getByName("vacuum_freezer");
-val thermal = mods.gregtech.recipe.RecipeMap.getByName("thermal_centrifuge");
-val cutting_saw = mods.gregtech.recipe.RecipeMap.getByName("cutting_saw");
-val assembly_line = mods.gregtech.recipe.RecipeMap.getByName("assembly_line");
-val distillery = mods.gregtech.recipe.RecipeMap.getByName("distillery");
-val distillation_tower = mods.gregtech.recipe.RecipeMap.getByName("distillation_tower");
-val alloy_smelter = mods.gregtech.recipe.RecipeMap.getByName("alloy_smelter");
-val metal_bender = mods.gregtech.recipe.RecipeMap.getByName("metal_bender");
-val fluid_solidifier = mods.gregtech.recipe.RecipeMap.getByName("fluid_solidifier");
-val orewasher = mods.gregtech.recipe.RecipeMap.getByName("orewasher");
-val lcr = mods.gregtech.recipe.RecipeMap.getByName("large_chemical_reactor");
-val forming_press = mods.gregtech.recipe.RecipeMap.getByName("forming_press");
-val lmixer = mods.gregtech.recipe.RecipeMap.getByName("large_mixer");
-val blastalloy = mods.gregtech.recipe.RecipeMap.getByName("blast_alloy");
-val stellar = mods.gregtech.recipe.RecipeMap.getByName("stellar_forge");
-val dehydrator = mods.gregtech.recipe.RecipeMap.getByName("chemical_dehydrator");
-val plasma_condenser = mods.gregtech.recipe.RecipeMap.getByName("plasma_condenser");
-val circuit_assembly_line = mods.gregtech.recipe.RecipeMap.getByName("circuit_assembly_line");
-val bio = mods.gregtech.recipe.RecipeMap.getByName("bio_reactor");
-val fluidheater = mods.gregtech.recipe.RecipeMap.getByName("fluid_heater");
-val cas = mods.gregtech.recipe.RecipeMap.getByName("circuit_assembler");
-val engraver = mods.gregtech.recipe.RecipeMap.getByName("laser_engraver");
-val lengraver = mods.gregtech.recipe.RecipeMap.getByName("large_engraver");
-val adv = mods.gregtech.recipe.RecipeMap.getByName("ADVFusion");
-val chemical_plant = mods.gregtech.recipe.RecipeMap.getByName("chemical_plant");
-val canning = mods.gregtech.recipe.RecipeMap.getByName("canner");
-val lcentrifuge = mods.gregtech.recipe.RecipeMap.getByName("large_centrifuge");
-val fcanning = mods.gregtech.recipe.RecipeMap.getByName("fluid_canner");
-
-
-
-
 ebf.recipeBuilder()
 	.inputs(<gregtech:meta_item_1:2535>)
 	.outputs(<gregtech:meta_item_1:10535>)
@@ -2869,11 +2814,8 @@ chemReactor.findRecipe(480, [<gtadditions:ga_dust:374>*8,<gtadditions:ga_dust:3>
 furnace.remove(<gregtech:meta_item_1:10095>);
 assembler.findRecipe(7864320, [<gregtech:meta_item_2:32010>*4,<gregtech:meta_item_1:12780>,<gregtech:meta_item_2:19775>,<gregtech:meta_item_1:2714>,<gregtech:meta_item_1:12311>,<gtadditions:ga_meta_item:32432>],[<liquid:glyceryl>*2500]).remove();
 assembly_line.findRecipe(30720, [<gregtech:cable:2966>*4,<gregtech:meta_item_2:32436>*2,<gregtech:meta_item_1:12207>*2,<gregtech:meta_item_1:32675>*2,<gregtech:meta_item_2:32498>],[<liquid:helium>*4000]).remove();
-recipes.remove(<gregtech:machine:734>);
 furnace.remove(<gregtech:meta_item_1:10533>);
-recipes.remove(<gregtech:machine:744>);
 furnace.remove(<gregtech:meta_item_1:9565>);
-recipes.remove(<gregtech:machine:754>);
 furnace.remove(<gregtech:meta_item_1:10565>);
 furnace.remove(<gregtech:meta_item_1:10528>);
 furnace.remove(<gregtech:meta_item_1:9528>);
@@ -2900,29 +2842,14 @@ furnace.remove(<gregtech:meta_item_1:10993>);
 furnace.remove(<gregtech:meta_item_1:10567>);
 furnace.remove(<gregtech:meta_item_1:9567>);
 furnace.remove(<gregtech:meta_item_1:10728>);
-recipes.remove(<gregtech:machine:764>);
 furnace.remove(<gregtech:meta_item_1:10780>);
 furnace.remove(<gregtech:meta_item_1:10555>);
 furnace.remove(<gregtech:meta_item_1:9555>);
 furnace.remove(<gregtech:meta_item_1:9533>);
-recipes.remove(<gregtech:machine:4027>);
-recipes.remove(<gregtech:machine:4026>);
-recipes.remove(<gregtech:machine:734>);
-recipes.remove(<gregtech:machine:744>);
-recipes.remove(<gregtech:machine:754>);
-recipes.remove(<gregtech:machine:764>);
-recipes.remove(<gregtech:machine:774>);
-recipes.remove(<gregtech:machine:784>);
-recipes.remove(<gregtech:machine:4025>);
 furnace.remove(<gregtech:meta_item_1:9780>);
 furnace.remove(<gregtech:meta_item_1:10563>);
 furnace.remove(<gregtech:meta_item_1:9563>);
 furnace.remove(<gregtech:meta_item_1:9530>);
-recipes.remove(<gregtech:meta_item_1:2421>);
-recipes.remove(<gregtech:machine:784>);
-recipes.remove(<gregtech:machine:2533>);
-recipes.remove(<gregtech:machine:2502>);
-recipes.remove(<gregtech:multiblock_casing:2>);
 furnace.remove(<gregtech:meta_item_1:9743>);
 furnace.remove(<gregtech:meta_item_1:10743>);
 recipes.addShapeless(<gregtech:cable:5237>,[<gregtech:cable:237>,<gregtech:meta_item_1:12152>]);

@@ -1,11 +1,6 @@
 
 
 
-recipes.remove(<ironfurnaces:iron_furnace_idle>);
-recipes.remove(<ironfurnaces:gold_furnace_idle>);
-recipes.remove(<ironfurnaces:diamond_furnace_idle>);
-recipes.remove(<ironfurnaces:glass_furnace_idle>);
-recipes.remove(<ironfurnaces:obsidian_furnace_idle>);
 
 
 recipes.addShaped(<ironfurnaces:gold_furnace_idle>, [

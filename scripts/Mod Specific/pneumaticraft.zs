@@ -14,33 +14,7 @@ mods.pneumaticcraft.explosioncrafting.removeAllRecipes();
 mods.pneumaticcraft.liquidfuel.removeAllFuels();
 
 
-recipes.remove(<pneumaticcraft:network_component:5>);
-recipes.remove(<pneumaticcraft:crop_support>);
-recipes.remove(<pneumaticcraft:pressure_chamber_wall>);
-recipes.remove(<pneumaticcraft:gun_ammo_incendiary>);
-recipes.remove(<pneumaticcraft:gun_ammo_weighted>);
-recipes.remove(<pneumaticcraft:gun_ammo_ap>);
-recipes.remove(<pneumaticcraft:gun_ammo_explosive>);
-recipes.remove(<pneumaticcraft:gun_ammo_freezing>);
-recipes.remove(<pneumaticcraft:minigun>);
-recipes.remove(<pneumaticcraft:air_canister>);
-recipes.remove(<pneumaticcraft:pressure_tube>);
-recipes.remove(<pneumaticcraft:pressure_chamber_valve>);
-recipes.remove(<pneumaticcraft:assembly_controller>);
-recipes.remove(<pneumaticcraft:assembly_platform>);
-recipes.remove(<pneumaticcraft:assembly_drill>);
-recipes.remove(<pneumaticcraft:assembly_laser>);
-recipes.remove(<pneumaticcraft:assembly_io_unit>);
-recipes.remove(<pneumaticcraft:pressure_chamber_glass>);
-recipes.remove(<pneumaticcraft:air_compressor>);
-recipes.remove(<pneumaticcraft:cannon_barrel>);
-recipes.remove(<pneumaticcraft:advanced_air_compressor>);
-recipes.remove(<pneumaticcraft:turbine_rotor>);
-recipes.remove(<pneumaticcraft:electrostatic_compressor>);
-recipes.remove(<pneumaticcraft:network_component:3>);
-recipes.remove(<pneumaticcraft:uv_light_box>);
-recipes.remove(<pneumaticcraft:gun_ammo>);
-recipes.remove(<pneumaticcraft:plastic_mixer>);
+
 
 recipes.addShaped(<pneumaticcraft:uv_light_box>, [	[<ore:circuitUmv>, <gregtech:meta_item_1:32697>, <ore:circuitUmv>], 	[<pneumaticcraft:capacitor>, <gregtech:meta_item_1:32677>, <pneumaticcraft:capacitor>], 	[<ore:blockIronCompressed>, <gregtech:meta_item_1:32687>, <ore:blockIronCompressed>]]);
 recipes.addShaped(<pneumaticcraft:turbine_rotor>, [	[null, <pneumaticcraft:turbine_blade>, null], 	[null, null, null], 	[<pneumaticcraft:turbine_blade>, null, <pneumaticcraft:turbine_blade>]]);
@@ -83,5 +57,4 @@ mods.pneumaticcraft.pressurechamber.addRecipe([<gtadditions:ga_meta_item:32497>*
 mods.pneumaticcraft.pressurechamber.addRecipe([<gtadditions:ga_meta_item:32406>*64,<pneumaticcraft:ingot_iron_compressed>*4] , 1.0 , [<pneumaticcraft:capacitor>]);
 
  
-recipes.remove(<pneumaticcraft:liquid_hopper> );
 recipes.addShaped(<pneumaticcraft:liquid_hopper>, [ 	[<ore:plateSteel>, <minecraft:bucket>, <ore:plateSteel>],  	[<ore:plateSteel>, <ore:blockHopper>, <ore:plateSteel>],  	[null, <ore:plateSteel>, null] ]);

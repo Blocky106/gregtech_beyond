@@ -25,11 +25,7 @@ mods.thaumcraft.Infusion.registerRecipe("spectral_key", "", <randomthings:spectr
 
 recipes.addShaped(<thaumcraft:stone_arcane>, [	[<hammercore:gold_bordered_cobblestone>, <hammercore:gold_bordered_cobblestone>, <hammercore:gold_bordered_cobblestone>], 	[<hammercore:gold_bordered_cobblestone>, <thaumcraft:crystal_essence>, <hammercore:gold_bordered_cobblestone>], 	[<hammercore:gold_bordered_cobblestone>, <hammercore:gold_bordered_cobblestone>, <hammercore:gold_bordered_cobblestone>]]);
 
-recipes.remove(<thaumcraft:ingot:2>);
-recipes.remove(<thaumcraft:nugget>);
-recipes.remove(<thaumcraft:plate:2>);
-recipes.remove(<thaumcraft:stone_arcane>);
-recipes.remove(<thaumcraft:plate:3>);
+
 
 furnace.addRecipe(<gregtech:meta_item_1:10035>*2,<thaumcraft:cluster:5>);
 furnace.remove(<thaumcraft:nugget>);

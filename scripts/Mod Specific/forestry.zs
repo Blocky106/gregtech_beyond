@@ -17,60 +17,6 @@ import mods.gregtech.recipe.CokeOvenRecipeBuilder;
 import mods.gtadditions.recipe.Utils;
 
 
-val packer = mods.gregtech.recipe.RecipeMap.getByName("packer");
-val unpacker = mods.gregtech.recipe.RecipeMap.getByName("unpacker");
-val brewery = mods.gregtech.recipe.RecipeMap.getByName("brewer");
-val extruder = mods.gregtech.recipe.RecipeMap.getByName("extruder");
-val mixer = mods.gregtech.recipe.RecipeMap.getByName("mixer");
-val implosion = mods.gregtech.recipe.RecipeMap.getByName("implosion_compressor");
-val macerator = mods.gregtech.recipe.RecipeMap.getByName("macerator");
-val assembler = mods.gregtech.recipe.RecipeMap.getByName("assembler");
-val solidifier = mods.gregtech.recipe.RecipeMap.getByName("solidifier");
-val chemReactor = mods.gregtech.recipe.RecipeMap.getByName("chemical_reactor");
-val forgeHammer = mods.gregtech.recipe.RecipeMap.getByName("forge_hammer");
-val fluidExtractor = mods.gregtech.recipe.RecipeMap.getByName("fluid_extractor");
-val extractor = mods.gregtech.recipe.RecipeMap.getByName("extractor");
-val compressor = mods.gregtech.recipe.RecipeMap.getByName("compressor");
-val electrolyzer = mods.gregtech.recipe.RecipeMap.getByName("electrolyzer");
-val centrifuge = mods.gregtech.recipe.RecipeMap.getByName("centrifuge");
-val ebf = mods.gregtech.recipe.RecipeMap.getByName("blast_furnace");
-val wiremill = mods.gregtech.recipe.RecipeMap.getByName("wiremill");
-var fusion_reactor = mods.gregtech.recipe.RecipeMap.getByName("fusion_reactor");
-val chemical_bath = mods.gregtech.recipe.RecipeMap.getByName("chemical_bath");
-val lathe = mods.gregtech.recipe.RecipeMap.getByName("lathe");
-val cracker = mods.gregtech.recipe.RecipeMap.getByName("cracker");
-val autoclave = mods.gregtech.recipe.RecipeMap.getByName("autoclave");
-val vacfreezer = mods.gregtech.recipe.RecipeMap.getByName("vacuum_freezer");
-val thermal = mods.gregtech.recipe.RecipeMap.getByName("thermal_centrifuge");
-val cutting_saw = mods.gregtech.recipe.RecipeMap.getByName("cutting_saw");
-val assembly_line = mods.gregtech.recipe.RecipeMap.getByName("assembly_line");
-val distillery = mods.gregtech.recipe.RecipeMap.getByName("distillery");
-val distillation_tower = mods.gregtech.recipe.RecipeMap.getByName("distillation_tower");
-val alloy_smelter = mods.gregtech.recipe.RecipeMap.getByName("alloy_smelter");
-val metal_bender = mods.gregtech.recipe.RecipeMap.getByName("metal_bender");
-val fluid_solidifier = mods.gregtech.recipe.RecipeMap.getByName("fluid_solidifier");
-val orewasher = mods.gregtech.recipe.RecipeMap.getByName("orewasher");
-val lcr = mods.gregtech.recipe.RecipeMap.getByName("large_chemical_reactor");
-val forming_press = mods.gregtech.recipe.RecipeMap.getByName("forming_press");
-val lmixer = mods.gregtech.recipe.RecipeMap.getByName("large_mixer");
-val blastalloy = mods.gregtech.recipe.RecipeMap.getByName("blast_alloy");
-val stellar = mods.gregtech.recipe.RecipeMap.getByName("stellar_forge");
-val dehydrator = mods.gregtech.recipe.RecipeMap.getByName("chemical_dehydrator");
-val plasma_condenser = mods.gregtech.recipe.RecipeMap.getByName("plasma_condenser");
-val circuit_assembly_line = mods.gregtech.recipe.RecipeMap.getByName("circuit_assembly_line");
-val bio = mods.gregtech.recipe.RecipeMap.getByName("bio_reactor");
-val fluidheater = mods.gregtech.recipe.RecipeMap.getByName("fluid_heater");
-val cas = mods.gregtech.recipe.RecipeMap.getByName("circuit_assembler");
-val engraver = mods.gregtech.recipe.RecipeMap.getByName("laser_engraver");
-val lengraver = mods.gregtech.recipe.RecipeMap.getByName("large_engraver");
-val adv = mods.gregtech.recipe.RecipeMap.getByName("ADVFusion");
-val chemical_plant = mods.gregtech.recipe.RecipeMap.getByName("chemical_plant");
-val canning = mods.gregtech.recipe.RecipeMap.getByName("canner");
-val lcentrifuge = mods.gregtech.recipe.RecipeMap.getByName("large_centrifuge");
-val fcanning = mods.gregtech.recipe.RecipeMap.getByName("fluid_canner");
-
-
-
 mods.forestry.Carpenter.removeRecipe(<forestry:impregnated_casing>);
 mods.forestry.Carpenter.removeRecipe(<forestry:chipsets>.withTag({T: 0 as short}));
 mods.forestry.Carpenter.removeRecipe(<forestry:portable_alyzer>);
@@ -105,40 +51,9 @@ recipes.addShaped(<forestry:mailbox>, [	[<ore:plateTin>, <ore:plateTin>, <ore:pl
 recipes.addShaped(<forestry:trade_station>, [	[<forestry:thermionic_tubes:2>, <forestry:sturdy_machine>, <forestry:thermionic_tubes:2>], 	[<forestry:thermionic_tubes:2>, <gregtech:machine:802>, <forestry:thermionic_tubes:2>], 	[<ore:plateTin>, <forestry:mailbox>, <ore:plateTin>]]);
 recipes.addShaped(<forestry:cart.beehouse:1>, [	[null, null, null], 	[<ore:craftingToolSaw>, <forestry:apiary>, <ore:craftingToolHardHammer>], 	[<ore:screwSteel>, <minecraft:minecart>, <ore:screwSteel>]]);
 recipes.addShaped(<forestry:cart.beehouse>, [	[null, null, null], 	[<ore:craftingToolSaw>, <forestry:bee_house>, <ore:craftingToolHardHammer>], 	[<ore:screwSteel>, <minecraft:minecart>, <ore:screwSteel>]]);
-
-
-
-recipes.remove(<forestry:apatite>);
-recipes.remove(<forestry:thermionic_tubes:11>);
-recipes.remove(<forestry:thermionic_tubes:7>);
-recipes.remove(<forestry:thermionic_tubes:1>);
-recipes.remove(<forestry:thermionic_tubes:4>);
-recipes.remove(<forestry:trade_station>);
-recipes.remove(<forestry:mailbox>);
-recipes.remove(<forestry:charcoal>);
-recipes.remove(<forestry:engine_biogas>);
-recipes.remove(<forestry:engine_peat>);
-recipes.remove(<forestry:analyzer>);
-recipes.remove(<forestry:carpenter>);
-recipes.remove(<forestry:engine_clockwork>);
-recipes.remove(<forestry:centrifuge>);
-recipes.remove(<forestry:fabricator>);
-recipes.remove(<forestry:wrench>);
-
-
-
-
-
-recipes.remove(<forestry:apiarist_bag>);
 recipes.addShaped(<forestry:apiarist_bag>, [	[<ore:string>, <ore:stickWood>, <ore:string>], 	[<contenttweaker:boiledleather>, <forestry:bee_chest>, <contenttweaker:boiledleather>], 	[<ore:string>, <ore:stickWood>, <ore:string>]]);
-recipes.remove(<forestry:lepidopterist_bag>);
 recipes.addShaped(<forestry:lepidopterist_bag>, [	[<ore:string>, <ore:stickWood>, <ore:string>], 	[<contenttweaker:boiledleather>, <forestry:butterfly_chest>, <contenttweaker:boiledleather>], 	[<ore:string>, <ore:stickWood>, <ore:string>]]);
-recipes.remove(<forestry:miner_bag>);
 recipes.addShaped(<forestry:miner_bag>, [	[<ore:string>, <gregtech:meta_item_1:12184>, <ore:string>], 	[<contenttweaker:boiledleather>, <minecraft:chest>, <contenttweaker:boiledleather>], 	[<ore:string>, <gregtech:meta_item_1:12184>, <ore:string>]]);
-
-
-recipes.remove(<forestry:fertilizer_compound>);
-recipes.remove(<forestry:honeyed_slice>);
 
 
 

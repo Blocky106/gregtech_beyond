@@ -12,7 +12,6 @@ import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Block;
 import crafttweaker.item.IItemCondition;
 
-val compressor = mods.gregtech.recipe.RecipeMap.getByName("compressor");
 
 compressor.recipeBuilder()
     .inputs(<minecraft:cobblestone>*9)
@@ -799,120 +798,6 @@ compressor.recipeBuilder()
     .buildAndRegister();
 
 
-recipes.remove(<overloaded:nether_star_block>);
-recipes.remove(<overloaded:compressed_cobblestone:1>);
-recipes.remove(<overloaded:compressed_cobblestone>);
-recipes.remove(<overloaded:compressed_cobblestone:2>);
-recipes.remove(<overloaded:compressed_cobblestone:3>);
-recipes.remove(<overloaded:compressed_cobblestone:4>);
-recipes.remove(<overloaded:compressed_cobblestone:5>);
-recipes.remove(<overloaded:compressed_cobblestone:6>);
-recipes.remove(<overloaded:compressed_cobblestone:7>);
-recipes.remove(<overloaded:compressed_cobblestone:8>);
-recipes.remove(<overloaded:compressed_cobblestone:9>);
-recipes.remove(<overloaded:compressed_cobblestone:10>);
-recipes.remove(<overloaded:compressed_cobblestone:11>);
-recipes.remove(<overloaded:compressed_cobblestone:12>);
-recipes.remove(<overloaded:compressed_cobblestone:13>);
-recipes.remove(<overloaded:compressed_cobblestone:14>);
-recipes.remove(<overloaded:compressed_cobblestone:15>);
-recipes.remove(<overloaded:compressed_gravel:1>);
-recipes.remove(<overloaded:compressed_gravel>);
-recipes.remove(<overloaded:compressed_gravel:2>);
-recipes.remove(<overloaded:compressed_gravel:3>);
-recipes.remove(<overloaded:compressed_gravel:4>);
-recipes.remove(<overloaded:compressed_gravel:5>);
-recipes.remove(<overloaded:compressed_gravel:6>);
-recipes.remove(<overloaded:compressed_gravel:7>);
-recipes.remove(<overloaded:compressed_gravel:8>);
-recipes.remove(<overloaded:compressed_gravel:9>);
-recipes.remove(<overloaded:compressed_gravel:10>);
-recipes.remove(<overloaded:compressed_gravel:11>);
-recipes.remove(<overloaded:compressed_gravel:12>);
-recipes.remove(<overloaded:compressed_gravel:13>);
-recipes.remove(<overloaded:compressed_gravel:14>);
-recipes.remove(<overloaded:compressed_gravel:15>);
-recipes.remove(<overloaded:compressed_dirt:1>);
-recipes.remove(<overloaded:compressed_dirt>);
-recipes.remove(<overloaded:compressed_dirt:2>);
-recipes.remove(<overloaded:compressed_dirt:3>);
-recipes.remove(<overloaded:compressed_dirt:4>);
-recipes.remove(<overloaded:compressed_dirt:5>);
-recipes.remove(<overloaded:compressed_dirt:6>);
-recipes.remove(<overloaded:compressed_dirt:7>);
-recipes.remove(<overloaded:compressed_dirt:8>);
-recipes.remove(<overloaded:compressed_dirt:9>);
-recipes.remove(<overloaded:compressed_dirt:10>);
-recipes.remove(<overloaded:compressed_dirt:11>);
-recipes.remove(<overloaded:compressed_dirt:12>);
-recipes.remove(<overloaded:compressed_dirt:13>);
-recipes.remove(<overloaded:compressed_dirt:14>);
-recipes.remove(<overloaded:compressed_dirt:15>);
-recipes.remove(<overloaded:compressed_netherrack:1>);
-recipes.remove(<overloaded:compressed_netherrack>);
-recipes.remove(<overloaded:compressed_netherrack:2>);
-recipes.remove(<overloaded:compressed_netherrack:3>);
-recipes.remove(<overloaded:compressed_netherrack:4>);
-recipes.remove(<overloaded:compressed_netherrack:5>);
-recipes.remove(<overloaded:compressed_netherrack:6>);
-recipes.remove(<overloaded:compressed_netherrack:7>);
-recipes.remove(<overloaded:compressed_netherrack:8>);
-recipes.remove(<overloaded:compressed_netherrack:9>);
-recipes.remove(<overloaded:compressed_netherrack:10>);
-recipes.remove(<overloaded:compressed_netherrack:11>);
-recipes.remove(<overloaded:compressed_netherrack:12>);
-recipes.remove(<overloaded:compressed_netherrack:13>);
-recipes.remove(<overloaded:compressed_netherrack:14>);
-recipes.remove(<overloaded:compressed_netherrack:15>);
-recipes.remove(<overloaded:compressed_obsidian:1>);
-recipes.remove(<overloaded:compressed_obsidian>);
-recipes.remove(<overloaded:compressed_obsidian:2>);
-recipes.remove(<overloaded:compressed_obsidian:3>);
-recipes.remove(<overloaded:compressed_obsidian:4>);
-recipes.remove(<overloaded:compressed_obsidian:5>);
-recipes.remove(<overloaded:compressed_obsidian:6>);
-recipes.remove(<overloaded:compressed_obsidian:7>);
-recipes.remove(<overloaded:compressed_obsidian:8>);
-recipes.remove(<overloaded:compressed_obsidian:9>);
-recipes.remove(<overloaded:compressed_obsidian:10>);
-recipes.remove(<overloaded:compressed_obsidian:11>);
-recipes.remove(<overloaded:compressed_obsidian:12>);
-recipes.remove(<overloaded:compressed_obsidian:13>);
-recipes.remove(<overloaded:compressed_obsidian:14>);
-recipes.remove(<overloaded:compressed_obsidian:15>);
-recipes.remove(<overloaded:compressed_stone:1>);
-recipes.remove(<overloaded:compressed_stone>);
-recipes.remove(<overloaded:compressed_stone:2>);
-recipes.remove(<overloaded:compressed_stone:3>);
-recipes.remove(<overloaded:compressed_stone:4>);
-recipes.remove(<overloaded:compressed_stone:5>);
-recipes.remove(<overloaded:compressed_stone:6>);
-recipes.remove(<overloaded:compressed_stone:7>);
-recipes.remove(<overloaded:compressed_stone:8>);
-recipes.remove(<overloaded:compressed_stone:9>);
-recipes.remove(<overloaded:compressed_stone:10>);
-recipes.remove(<overloaded:compressed_stone:11>);
-recipes.remove(<overloaded:compressed_stone:12>);
-recipes.remove(<overloaded:compressed_stone:13>);
-recipes.remove(<overloaded:compressed_stone:14>);
-recipes.remove(<overloaded:compressed_stone:15>);
-recipes.remove(<overloaded:compressed_sand:1>);
-recipes.remove(<overloaded:compressed_sand>);
-recipes.remove(<overloaded:compressed_sand:2>);
-recipes.remove(<overloaded:compressed_sand:3>);
-recipes.remove(<overloaded:compressed_sand:4>);
-recipes.remove(<overloaded:compressed_sand:5>);
-recipes.remove(<overloaded:compressed_sand:6>);
-recipes.remove(<overloaded:compressed_sand:7>);
-recipes.remove(<overloaded:compressed_sand:8>);
-recipes.remove(<overloaded:compressed_sand:9>);
-recipes.remove(<overloaded:compressed_sand:10>);
-recipes.remove(<overloaded:compressed_sand:11>);
-recipes.remove(<overloaded:compressed_sand:12>);
-recipes.remove(<overloaded:compressed_sand:13>);
-recipes.remove(<overloaded:compressed_sand:14>);
-recipes.remove(<overloaded:compressed_sand:15>);
-recipes.remove(<overloaded:infinite_water_source>);
 
 compressor.recipeBuilder()
     .inputs(<overloaded:compressed_silicon_block>*9)
@@ -1026,9 +911,6 @@ compressor.recipeBuilder()
     .duration(20)
     .buildAndRegister();
 
-recipes.remove(<overloaded:energy_core>);
-recipes.remove(<overloaded:item_core>);
-recipes.remove(<overloaded:fluid_core>);
 
 
 

@@ -15,62 +15,6 @@ import mods.gtadditions.recipe.GARecipeMaps.ADV_FUSION_RECIPES;
 import mods.gregtech.recipe.CokeOvenRecipeBuilder;
 import mods.gtadditions.recipe.Utils;
 
-
-val packer = mods.gregtech.recipe.RecipeMap.getByName("packer");
-val unpacker = mods.gregtech.recipe.RecipeMap.getByName("unpacker");
-val brewery = mods.gregtech.recipe.RecipeMap.getByName("brewer");
-val extruder = mods.gregtech.recipe.RecipeMap.getByName("extruder");
-val mixer = mods.gregtech.recipe.RecipeMap.getByName("mixer");
-val implosion = mods.gregtech.recipe.RecipeMap.getByName("implosion_compressor");
-val macerator = mods.gregtech.recipe.RecipeMap.getByName("macerator");
-val assembler = mods.gregtech.recipe.RecipeMap.getByName("assembler");
-val solidifier = mods.gregtech.recipe.RecipeMap.getByName("solidifier");
-val chemReactor = mods.gregtech.recipe.RecipeMap.getByName("chemical_reactor");
-val forgeHammer = mods.gregtech.recipe.RecipeMap.getByName("forge_hammer");
-val fluidExtractor = mods.gregtech.recipe.RecipeMap.getByName("fluid_extractor");
-val extractor = mods.gregtech.recipe.RecipeMap.getByName("extractor");
-val compressor = mods.gregtech.recipe.RecipeMap.getByName("compressor");
-val electrolyzer = mods.gregtech.recipe.RecipeMap.getByName("electrolyzer");
-val centrifuge = mods.gregtech.recipe.RecipeMap.getByName("centrifuge");
-val ebf = mods.gregtech.recipe.RecipeMap.getByName("blast_furnace");
-val wiremill = mods.gregtech.recipe.RecipeMap.getByName("wiremill");
-var fusion_reactor = mods.gregtech.recipe.RecipeMap.getByName("fusion_reactor");
-val chemical_bath = mods.gregtech.recipe.RecipeMap.getByName("chemical_bath");
-val lathe = mods.gregtech.recipe.RecipeMap.getByName("lathe");
-val cracker = mods.gregtech.recipe.RecipeMap.getByName("cracker");
-val autoclave = mods.gregtech.recipe.RecipeMap.getByName("autoclave");
-val vacfreezer = mods.gregtech.recipe.RecipeMap.getByName("vacuum_freezer");
-val thermal = mods.gregtech.recipe.RecipeMap.getByName("thermal_centrifuge");
-val cutting_saw = mods.gregtech.recipe.RecipeMap.getByName("cutting_saw");
-val assembly_line = mods.gregtech.recipe.RecipeMap.getByName("assembly_line");
-val distillery = mods.gregtech.recipe.RecipeMap.getByName("distillery");
-val distillation_tower = mods.gregtech.recipe.RecipeMap.getByName("distillation_tower");
-val alloy_smelter = mods.gregtech.recipe.RecipeMap.getByName("alloy_smelter");
-val metal_bender = mods.gregtech.recipe.RecipeMap.getByName("metal_bender");
-val fluid_solidifier = mods.gregtech.recipe.RecipeMap.getByName("fluid_solidifier");
-val orewasher = mods.gregtech.recipe.RecipeMap.getByName("orewasher");
-val lcr = mods.gregtech.recipe.RecipeMap.getByName("large_chemical_reactor");
-val forming_press = mods.gregtech.recipe.RecipeMap.getByName("forming_press");
-val lmixer = mods.gregtech.recipe.RecipeMap.getByName("large_mixer");
-val blastalloy = mods.gregtech.recipe.RecipeMap.getByName("blast_alloy");
-val stellar = mods.gregtech.recipe.RecipeMap.getByName("stellar_forge");
-val dehydrator = mods.gregtech.recipe.RecipeMap.getByName("chemical_dehydrator");
-val plasma_condenser = mods.gregtech.recipe.RecipeMap.getByName("plasma_condenser");
-val circuit_assembly_line = mods.gregtech.recipe.RecipeMap.getByName("circuit_assembly_line");
-val bio = mods.gregtech.recipe.RecipeMap.getByName("bio_reactor");
-val fluidheater = mods.gregtech.recipe.RecipeMap.getByName("fluid_heater");
-val cas = mods.gregtech.recipe.RecipeMap.getByName("circuit_assembler");
-val engraver = mods.gregtech.recipe.RecipeMap.getByName("laser_engraver");
-val lengraver = mods.gregtech.recipe.RecipeMap.getByName("large_engraver");
-val adv = mods.gregtech.recipe.RecipeMap.getByName("ADVFusion");
-val chemical_plant = mods.gregtech.recipe.RecipeMap.getByName("chemical_plant");
-val canning = mods.gregtech.recipe.RecipeMap.getByName("canner");
-val lcentrifuge = mods.gregtech.recipe.RecipeMap.getByName("large_centrifuge");
-val fcanning = mods.gregtech.recipe.RecipeMap.getByName("fluid_canner");
-val sifter = mods.gregtech.recipe.RecipeMap.getByName("sifter");
-val cluster_mill = mods.gregtech.recipe.RecipeMap.getByName("cluster_mill");
-val pyro = mods.gregtech.recipe.RecipeMap.getByName("pyro");
-
 lcentrifuge.recipeBuilder()
     .fluidInputs(<liquid:rhodium>*1000)
     .outputs(<gregtech:meta_item_1:2862>*2,<projectred-core:resource_item:105>)
@@ -1591,8 +1535,6 @@ lcr.recipeBuilder()
     .buildAndRegister();
 
 recipes.addShaped(<gregtech:machine:714>, [	[<ore:cableGtSingleTin>, <ore:plateRubber>, <ore:cableGtSingleTin>], 	[<contenttweaker:cupronickelcoil>, <gregtech:machine:501>, <contenttweaker:cupronickelcoil>], 	[<ore:cableGtSingleTin>, <ore:plateRubber>, <ore:cableGtSingleTin>]]);
-recipes.remove(<gregtech:meta_item_1:32729>);
-recipes.remove(<gregtech:machine:714>);
 furnace.remove(<gregtech:meta_item_1:10557>);
 furnace.remove(<gregtech:meta_item_1:9557>);
 furnace.remove(<gregtech:meta_item_1:10515>);
@@ -1648,7 +1590,6 @@ metal_bender.recipeBuilder()
 
 
 ebf.findRecipe(120,[<gregtech:meta_item_1:183>],null).remove();
-recipes.remove(<gregtech:machine:1>);
 recipes.addShaped(<gregtech:machine:1>, [	[<ore:plateBronze>, <ore:plateBronze>, <ore:plateBronze>], 	[<ore:plateBronze>, <gregtech:meta_tool:8>, <ore:plateBronze>], 	[<ore:blockBrick>, null, <ore:blockBrick>] ]);
  
 mixer.recipeBuilder()
@@ -1801,7 +1742,6 @@ assembly_line.recipeBuilder()
     .fluidInputs(<liquid:tritanium>*2500,<liquid:europium>*2500,<liquid:duranium>*2500)
     .buildAndRegister();
 
-recipes.remove(<gregtech:meta_item_2:32213>);
 
 assembler.recipeBuilder()
     .inputs(<gregtech:meta_item_1:12543>*6,<gregtech:meta_item_1:12007>*6,<gregtech:frame_hsss>,<gregtech:meta_item_1:32606>)
@@ -2150,9 +2090,6 @@ assembler.recipeBuilder()
     .buildAndRegister();
 
 recipes.addShapeless(<contenttweaker:seperationcatalyst>,[<contenttweaker:seperationfilter>,<gregtech:meta_item_1:19051>*16,<torchmaster:frozen_pearl>]);
-recipes.remove(<gregtech:meta_item_1:32102>);
-recipes.remove(<gregtech:meta_item_1:32103>);
-recipes.remove(<gregtech:meta_item_1:32628>);
 
 assembler.recipeBuilder()
     .inputs(<gregtech:meta_item_1:19079>*32,<gregtech:meta_item_1:12113>)
@@ -2808,7 +2745,7 @@ cas.recipeBuilder()
     .buildAndRegister();
 
 bio.recipeBuilder()
-    .fluidOutputs(<liquid:livingsolder>*144)
+    .fluidOutputs(<liquid:livingsolder>*14400)
     .notConsumable(<gtadditions:ga_meta_item:32463>)
     .inputs(<contenttweaker:mutationbasedpetridish>,<gtadditions:ga_meta_item:32018>*2)
     .fluidInputs(<liquid:geneticmutagen>*1000)
@@ -3452,7 +3389,6 @@ ebf.recipeBuilder()
     .EUt(630)
     .buildAndRegister();
 
-
 lcr.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2074>*3,<gregtech:meta_item_1:2373>*6)
     .fluidInputs(<liquid:sulfuric_acid>*2000)
@@ -3461,8 +3397,6 @@ lcr.recipeBuilder()
     .duration(400)
     .EUt(1200)
     .buildAndRegister();
-
-recipes.remove(<gregtech:machine:2559>);
 
 lcentrifuge.recipeBuilder()
     .fluidInputs(<liquid:monazite_solution>*1000)
@@ -3607,11 +3541,7 @@ assembler.recipeBuilder()
 recipes.addShaped(<gregtech:meta_item_1:32671>, [	[<ore:plateDoubleOsmium>, <ore:circuitExtreme>, <ore:plateDoubleOsmium>], 	[<ore:circuitExtreme>, <ore:plateEnderEye>, <ore:circuitExtreme>], 	[<ore:plateDoubleOsmium>, <ore:circuitExtreme>, <ore:plateDoubleOsmium>]]);
 assembler.findRecipe(120,[<gregtech:meta_item_1:32601>*2,<gregtech:cable:5018>,<gregtech:meta_item_1:32766>.withTag({Configuration: 1})], [<liquid:rubber>*864]).remove();
 assembler.findRecipe(120,[<gregtech:cable:5018>*2,<gregtech:cable:1018>*4,<gregtech:meta_item_1:14001>*2,<gregtech:meta_item_1:14298>], null).remove();
-recipes.remove(<gregtech:meta_item_1:32631>);
-recipes.remove(<gregtech:meta_item_1:32601>);
-recipes.remove(<gregtech:meta_item_1:32671>);
 recipes.addShaped(<gregtech:meta_item_1:32691>, [	[<ore:plateAluminium>, null, <ore:gemFlawedDiamond>], 	[<ore:plateAluminium>, <ore:stickElectrum>, null], 	[<ore:circuitGood>, <ore:plateAluminium>, <ore:plateAluminium>]]);
-recipes.remove(<gregtech:meta_item_1:32691>);
 assembler.findRecipe(120,[<gtadditions:ga_meta_item:32207>,<gregtech:meta_item_1:14112>,<gregtech:meta_item_1:12001>,<minecraft:quartz>],null).remove();
 
 assembler.recipeBuilder()
@@ -3621,7 +3551,6 @@ assembler.recipeBuilder()
     .EUt(120) 
     .buildAndRegister();
 recipes.addShaped(<gregtech:meta_item_1:32681>, [	[<ore:stickElectrum>, <ore:stickElectrum>, <ore:circuitGood>], 	[<ore:cableGtSingleCopper>, <ore:gemFlawedEmerald>, <ore:stickElectrum>], 	[<ore:circuitGood>, <ore:cableGtSingleCopper>, <ore:stickElectrum>]]);
-recipes.remove(<gregtech:meta_item_1:32681>);
 assembler.findRecipe(120,[<gtadditions:ga_meta_item:32200>*2,<minecraft:quartz>,<gregtech:cable:5018>,<gregtech:meta_item_1:32766>.withTag({Configuration: 1}),<gregtech:meta_item_1:14112>*4], null).remove();
 assembler.recipeBuilder()
     .inputs(<ore:stickElectrum>*4,<ore:circuitGood>*2,<ore:gemFlawedEmerald>,<gregtech:cable:5018>*2)
@@ -3641,7 +3570,6 @@ assembler.recipeBuilder()
     .EUt(480)
     .buildAndRegister();
 
-recipes.remove(<gregtech:meta_item_1:32602>);
 recipes.addShaped(<gregtech:meta_item_1:32602>, [	[<ore:cableGtSingleGold>, <ore:wireGtQuadrupleElectrum>, <ore:stickStainlessSteel>], 	[<ore:wireGtQuadrupleElectrum>, <ore:stickSteelMagnetic>, <ore:wireGtQuadrupleElectrum>], 	[<ore:stickStainlessSteel>, <ore:wireGtQuadrupleElectrum>, <ore:cableGtSingleGold>]]);
 assembler.findRecipe(480,[<gregtech:cable:2018>*4,<gregtech:cable:5026>*2,<gregtech:meta_item_1:14183>*2,<gregtech:meta_item_1:14298>],null).remove();
 #--------EV Components-------------------------#
@@ -3661,11 +3589,9 @@ assembler.recipeBuilder()
     .buildAndRegister();
 
 recipes.addShaped(<gregtech:meta_item_1:32603>, [	[<ore:cableGtSingleAluminium>, <gregtech:cable:3231>, <ore:stickTitanium>], 	[<gregtech:cable:3231>, <ore:stickNeodymiumMagnetic>,<gregtech:cable:3231>], 	[<ore:stickTitanium>, <gregtech:cable:3231>, <ore:cableGtSingleAluminium>]]);
-recipes.remove(<gregtech:meta_item_1:32603>);
 assembler.findRecipe(1980,[<gregtech:meta_item_1:14072>*2,<gregtech:cable:3087>*4,<gregtech:meta_item_1:14299>,<gregtech:cable:5001>*2],null).remove();
 #--------IV Components-------------------------#
 recipes.addShaped(<gregtech:meta_item_1:32604>, [	[<ore:cableGtSingleTungsten>, <ore:wireGtOctalTgtalloy>, <ore:stickTungstenSteel>], 	[<ore:wireGtOctalTgtalloy>, <ore:stickNeodymiumMagnetic>, <ore:wireGtOctalTgtalloy>], 	[<ore:stickTungstenSteel>, <ore:wireGtOctalTgtalloy>, <ore:cableGtSingleTungsten>]]);
-recipes.remove(<gregtech:meta_item_1:32604>);
 assembler.findRecipe(7680,[<gregtech:cable:4087>*4,<gregtech:cable:5074>*2,<gregtech:meta_item_1:14235>*2,<gregtech:meta_item_1:14299>], null).remove();
 assembler.recipeBuilder()
     .inputs(<ore:wireGtOctalTgtalloy>*4,<gregtech:cable:5074>*2,<gregtech:meta_item_1:14235>*2,<gregtech:meta_item_1:14299>)
