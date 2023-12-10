@@ -468,3 +468,7 @@ chemical_bath.recipeBuilder()
     .duration(200)
     .EUt(120)
     .buildAndRegister();
+
+//Mannitol Production  fructose/glucose + sodium hydroxide solution + sodium boronhydride
+
+
