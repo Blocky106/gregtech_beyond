@@ -97,7 +97,7 @@ val electrolytic_cell = Builder.start(loc, meta)
 //Chalcopyrite --> Copper
 electrolytic_cell.recipeMap.recipeBuilder()
     .notConsumable(<contenttweaker:silver_electrode>)
-    .fluidInputs(<liquid:blue_vitriol>*1000,<liquid:distilled_water>*1000)
+    .fluidInputs(<liquid:blue_vitriol_water_solution>*1000,<liquid:distilled_water>*1000)
     .fluidOutputs(<liquid:water>*5000,<liquid:oxygen>*1000)
     .outputs(<gregtech:meta_item_1:2018>,<gregtech:meta_item_1:2065>)
     .duration(100)
