@@ -128,3 +128,12 @@ sintering_oven.recipeMap.recipeBuilder()
     .EUt(180)
     .duration(240)
     .buildAndRegister();
+
+sintering_oven.recipemap.recipeBuilder()
+    .fluidInputs(<liquid:silver>*576,<liquid:oxygen>*1000)
+    .notConsumable(<gregtech:meta_item_1:32351>)
+    .outputs(<contenttweaker:silver_electrode>)
+    .inputs(<gregtech:meta_item_1:14184>)
+    .duration(200)
+    .EUt(1299)
+    .buildAndRegister();
