@@ -466,11 +466,32 @@ util.registerDust("titanium_sludge", 32186, 0xC08C9D, "SHINY");
 
 
 
-
-
-
-
-
+util.registerFluid("cold_air", 0xBBDEFB);
+util.registerFluid("supercooled_liquid_nitrogen", 0x4FC3F7);
+util.registerFluid("untreated_liquid_oxygen", 0x6CA4BE);
+util.registerFluid("cold_waste_gaseous_nitrogen", 0x5C7884);
+util.registerFluid("cold_gaseous_nitrogen", 0x5C7884);
+util.registerFluid("argon_rich_gas", 0x6B976D);
+util.registerFluid("crude_argon_vapor", 0x388E3C);
+util.registerFluid("supercooled_oxygen", 0xE0F7FA);
+util.registerFluid("liquid_waste_nitrogen", 0x29B6F6);
+util.registerFluid("rare_gas_rich_gaseous_nitrogen", 0x7E57C2);
+util.registerFluid("rare_gas_mixture", 0x8F78B6);
+util.registerFluid("nitrogen_stripped_rare_gas_mixture", 0x7B1FA2);
+util.registerFluid("crude_krypton", 0x81C784);
+util.registerFluid("crude_neon", 0xF9A825);
+util.registerFluid("crude_helium", 0xDCE775);
+util.registerFluid("crude_xenon", 0xD32F2F);
+util.registerFluid("crude_argon", 0xD32F2F);
+util.registerFluid("partially_liquid_krypton", 0xAED5B0);
+util.registerFluid("partially_liquid_neon", 0xFBC02D);
+util.registerFluid("partially_liquid_helium", 0xFFEE58);
+util.registerFluid("partially_liquid_xenon", 0x03A9F4);
+util.registerFluid("partially_liquid_argon", 0x66BB6A);
+util.registerFluid("cold_gaseous_oxygen", 0xAED2F2);
+util.registerFluid("liquid_krypton", 0x0277BD);
+util.registerFluid("liquid_neon", 0xFF8F00);
+util.registerFluid("liquid_argon", 0x689F38);
 util.registerFluid("red_vitriol", 0xD32F2F);
 util.registerFluid("cyan_vitriol", 0x578AB4);
 util.registerFluid("clay_vitriol", 0x6D8191);
