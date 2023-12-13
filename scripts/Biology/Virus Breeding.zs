@@ -464,6 +464,7 @@ bio.recipeBuilder()
 chemical_bath.recipeBuilder()
     .fluidInputs(<liquid:water>*1000)
     .inputs(<gtadditions:ga_dust:32175>)
+    .outputs(<gregtech:meta_item_1:2196>)
     .fluidOutputs(<liquid:bean_slurry>*1000)
     .duration(200)
     .EUt(120)
@@ -471,4 +472,42 @@ chemical_bath.recipeBuilder()
 
 //Mannitol Production  fructose/glucose + sodium hydroxide solution + sodium boronhydride
 
+chemReactor.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:165>*6)
+    .notConsumable(<gtadditions:ga_dust:929>)
+    .fluidInputs(<liquid:sodium_hydroxide_solution>*1000)
+    .fluidOutputs(<liquid:mannitol>*1000)
+    .EUt(120)
+    .duration(200)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:165>*6)
+    .notConsumable(<gtadditions:ga_dust:929>)
+    .fluidInputs(<liquid:sodium_hydroxide_solution>*1000)
+    .fluidOutputs(<liquid:mannitol>*1000)
+    .EUt(120)
+    .duration(200)
+    .buildAndRegister();
+    
+chemReactor.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:166>*6)
+    .notConsumable(<gtadditions:ga_dust:929>)
+    .fluidInputs(<liquid:sodium_hydroxide_solution>*1000)
+    .fluidOutputs(<liquid:mannitol>*1000)
+    .EUt(120)
+    .duration(200)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:166>*6)
+    .notConsumable(<gtadditions:ga_dust:929>)
+    .fluidInputs(<liquid:sodium_hydroxide_solution>*1000)
+    .fluidOutputs(<liquid:mannitol>*1000)
+    .EUt(120)
+    .duration(200)
+    .buildAndRegister();
+
+
+//Peptone
 
