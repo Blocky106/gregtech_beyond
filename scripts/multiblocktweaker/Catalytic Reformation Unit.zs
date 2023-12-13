@@ -119,9 +119,7 @@ val catalytic_reformation_unit = Builder.start(loc, meta)
                         .maxFluidOutputs(2)
                         .maxOutputs(1)
                         .build())
-.withTexture(ICubeRenderer.sided("contenttweaker:blocks/hss_s"))
 .withZoom(0.5f)
-
 .buildAndRegister() as Multiblock;
 
 catalytic_reformation_unit.recipeMap.recipeBuilder()
