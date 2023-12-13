@@ -1605,3 +1605,10 @@ distillation_tower.recipeBuilder()
     .EUt(120)
     .buildAndRegister();
 
+bio.recipeBuilder()
+    .fluidInputs(<liquid:liquid_waste_nitrogen>*1000)
+    .notConsumable(<gtadditions:ga_meta_item:32541>)
+    .fluidOutputs(<liquid:nitrogen>*1000)
+    .duration(200)
+    .EUt(480)
+    .buildAndRegister();
