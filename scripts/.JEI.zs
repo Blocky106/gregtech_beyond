@@ -871,6 +871,7 @@ val itemstoRemoveAndHide =
 <wildnature:steel_block>,
 <wildnature:amethyst_block>,
 <wildnature:steel_rod>,
+<wildnature:ironworks>,
 <wildnature:steel_sword>,
 <wildnature:steel_hoe>,
 <wildnature:steel_shovel>,
