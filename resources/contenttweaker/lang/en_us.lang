@@ -1,4 +1,3 @@
-item.contenttweaker.bronzeblend.name= Bronze Blend
 item.contenttweaker.woodgear.name= Wooden Gear
 item.contenttweaker.hammer.name= Hammer
 item.contenttweaker.bulatsteeldust.name= Bulat Steel Dust
@@ -27,17 +26,13 @@ item.contenttweaker.lasermodule.name= Laser Module
 fluid.blackfluid=Black Fluid
 item.contenttweaker.goodcircuit.name= Good Circuit
 item.contenttweaker.catalyst.name= Catalyst
-item.contenttweaker.blackirondust.name= Black Iron Dust
 fluid.lumin=Lumin
 item.contenttweaker.silveralloyingot.name= Silver Alloy Ingot
 item.contenttweaker.silveralloyplate.name= Silver Alloy Plate
-item.contenttweaker.silveralloydust.name= Silver Alloy Dust
 item.contenttweaker.blazingrod.name= Blazing Rod
 item.contenttweaker.bronzeelectrontube.name= Bronze Electron Tube
 fluid.bisphenolb=Bisphenol B
 item.contenttweaker.vibrantcircuit.name= Vibrant Circuit
-item.contenttweaker.electricalsteeldust.name= Electrical Steel Dust
-item.contenttweaker.darksteeldust.name= Dark Steel Dust
 item.contenttweaker.supercooleddust.name= Super Cooled Dust
 item.contenttweaker.rubyingot.name= Ruby Ingot
 item.contenttweaker.supercooledingot.name= Super Cooled Ingot
@@ -1432,13 +1427,39 @@ fluid.yeast_extract_mannitol_agar_solution=Yeast Extract Mannitol Agar Solution
 fluid.dissolved_yeast_extract_mannitol_mixture=Dissolved Yeast Extract Mannitol Mixture
 fluid.nutrient_rich_solution=Nutrient Rich Solution
 fluid.yeast_extract=Yeast Extract
-
-
-
-
-
-
-
-
-
-
+recipemap.primordial_forge.name=Primordial Forging
+recipemap.beam_shrinking_device.name=Beam Shrinking Device
+recipemap.heat_exchanger.name=Heat Exchanger
+multiblocktweaker.heat_exchanger.name=Heat Exchanger
+fluid.cold_air=Cold Air
+fluid.supercooled_liquid_nitrogen=Supercooled Liquid Nitrogen
+fluid.untreated_liquid_oxygen=Untreated Liquid Oxygen
+fluid.cold_waste_gaseous_nitrogen=Cold Waste Gaseous Nitrogen
+fluid.cold_gaseous_nitrogen=Cold Gaseous Nitrogen
+fluid.argon_rich_gas=Argon Rich Gas
+fluid.crude_argon_vapor=Crude Argon Vapor 
+fluid.supercooled_oxygen=Supercooled Oxygen
+fluid.liquid_waste_nitrogen=Liquid Waste Nitrogen
+fluid.rare_gas_rich_gaseous_nitrogen=Rare Gas Rich Gaseous Nitrogen
+fluid.rare_gas_mixture=Rare Gas Mixture
+fluid.nitrogen_stripped_rare_gas_mixture=Nitrogen Stripped Rare Gas Mixture
+fluid.crude_krypton=Crude Krypton
+fluid.crude_neon=Crude Neon
+fluid.crude_helium=Crude Helium
+fluid.crude_xenon=Crude Xenon
+fluid.crude_argon=Crude Argon
+fluid.partially_liquid_neon=Partially Liquid Neon
+fluid.partially_liquid_krypton=Partially Liquid Krypton
+fluid.partially_liquid_helium=Partially Liquid Helium
+fluid.partially_liquid_xenon=Partially Liquid Xenon
+fluid.partially_liquid_argon=Partially Liquid Argon
+fluid.cold_gaseous_oxygen=Cold Gaseous Oxygen
+fluid.liquid_krypton=Liquid Krypton
+fluid.liquid_neon=Liquid Neon
+fluid.liquid_argon=Liquid Argon
+multiblocktweaker.machine.enzymatic_hydrolisis_tank.name=Enzymatic Hydrolisis Tank
+multiblocktweaker.machine.phase_separator.name=Phase Separator
+multiblocktweaker.machine.rare_gas_stripping_column.name=Rare Gas Stripping Column
+recipemap.rare_gas_stripping_column.name=Rare Gas Stripping
+multiblocktweaker.machine.cryogenic_distillation_plant.name=Cryogenic Disitllation Plant
+multiblocktweaker.machine.heat_exchanger.name=Heat Exchanger
