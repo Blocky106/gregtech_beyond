@@ -23,8 +23,8 @@
     "DENSE",
     "CONIFEROUS",
     "SNOWY",
-    "FOREST",
-    "RARE"
+    "RARE",
+    "FOREST"
   ],
   "BiomeManager Entries": {
     "ICY Weights": [

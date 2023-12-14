@@ -22,8 +22,8 @@
   "Dictionary Types": [
     "DENSE",
     "CONIFEROUS",
-    "FOREST",
-    "RARE"
+    "RARE",
+    "FOREST"
   ],
   "BiomeManager Entries": {
     "COOL Weights": [
