@@ -15,6 +15,7 @@ val itemstoRemove =
 <gregtech:machine:4>,
 <gregtech:machine:6>,
 <morphtool:tool>,
+<gregtech:machine:2242>,
 <torchmaster:terrain_lighter>,
 <xtones:base>,
 <torchmaster:frozen_pearl>,
