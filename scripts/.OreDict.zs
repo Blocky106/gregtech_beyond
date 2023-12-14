@@ -424,7 +424,7 @@ mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:
 
 
 
-
+<ore:IngotSilver>.remove(<wildnature:silver_ingot>);
 <ore:dustPotassiumFluoride>.remove(<nuclearcraft:compound:4>);
 <ore:plateLead>.remove(<thermalfoundation:material:323>);
 <ore:dustHafnium>.remove(<qmd:dust:6>);
