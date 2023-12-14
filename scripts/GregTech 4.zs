@@ -1612,3 +1612,12 @@ bio.recipeBuilder()
     .duration(200)
     .EUt(480)
     .buildAndRegister();
+
+distillation_tower.recipeBuilder()
+    .fluidInputs(<liquid:untreated_liquid_oxygen>*1000)
+    .fluidOutputs(<liquid:oxygen>*576,<liquid:crude_argon_vapor>*144,<liquid:nitrogen>*280)
+    .duration(200)
+    .EUt(80)
+    .buildAndRegister();
+
+recipes.addShaped(<gregtech:machine:2242>, [	[<ore:plateSteel>, <ore:circuitPrimitive>, <ore:plateSteel>], 	[<ore:rotorTin>, <gregtech:machine:501>, <ore:rotorTin>], 	[<ore:pipeMediumBronze>, <ore:circuitPrimitive>, <ore:pipeMediumBronze>]]);
