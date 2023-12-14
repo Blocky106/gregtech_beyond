@@ -8,6 +8,14 @@ import crafttweaker.block.IBlock;
 import mods.jei.JEI.removeAndHide;
 import mods.jei.JEI.hideCategory;
 
+
+mods.jei.JEI.hideCategory("zmaster587.AR.platePresser");
+mods.jei.JEI.hideCategory("zmaster587.AR.lathe");
+mods.jei.JEI.hideCategory("zmaster587.AR.rollingMachine");
+mods.jei.JEI.hideCategory("zmaster587.AR.electrolyzer");
+mods.jei.JEI.hideCategory("zmaster587.AR.arcFurnace");
+mods.jei.JEI.hideCategory("zmaster587.AR.chemicalReactor");
+
 val itemstoRemove =
 [
 <gregtech:machine:2>,
