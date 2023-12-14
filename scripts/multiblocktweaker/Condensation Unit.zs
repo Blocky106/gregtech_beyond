@@ -75,7 +75,7 @@ val condensation_unit = Builder.start(loc, meta)
                     "SPPPE",
                     "CGGGC")
                 .aisle(
-                    "GGGGC",
+                    "CCCCC",
                     "C P C",
                     "CGGGC")
                 .aisle(
