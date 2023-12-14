@@ -124,6 +124,7 @@ val froth_flotation_cell = Builder.start(loc, meta)
 
 .buildAndRegister() as Multiblock;
 
+recipes.addShaped(<gregtech:machine:10006>, [	[<ore:circuitExtreme>, <gregtech:meta_item_1:32613>, <ore:circuitExtreme>], 	[<gregtech:meta_item_1:32613>, <gregtech:machine:504>, <gregtech:meta_item_1:32613>], 	[<ore:circuitExtreme>, <gregtech:meta_item_1:32613>, <ore:circuitExtreme>]]);
 
 froth_flotation_cell.recipeMap.recipeBuilder()
     .inputs(<gregtech:meta_item_1:5182>*5)
