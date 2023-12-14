@@ -1621,3 +1621,135 @@ distillation_tower.recipeBuilder()
     .buildAndRegister();
 
 recipes.addShaped(<gregtech:machine:2242>, [	[<ore:plateSteel>, <ore:circuitPrimitive>, <ore:plateSteel>], 	[<ore:rotorTin>, <gregtech:machine:501>, <ore:rotorTin>], 	[<ore:pipeMediumBronze>, <ore:circuitPrimitive>, <ore:pipeMediumBronze>]]);
+
+fluidExtractor.recipeBuilder()
+    .inputs(<minecraft:obsidian>)
+    .fluidOutputs(<liquid:obsidian>*1000)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
+
+electrolyzer.findRecipe(60,null,[<liquid:blue_vitriol_water_solution>*1000]);
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:nitric_acid>*1000)
+    .fluidOutputs(<liquid:gray_vitriol>*1000)
+    .inputs(<gregtech:meta_item_1:5149>)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:nitric_acid>*1000)
+    .fluidOutputs(<liquid:pink_vitriol>*1000)
+    .inputs(<gregtech:meta_item_1:5130>)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:nitric_acid>*1000)
+    .fluidOutputs(<liquid:green_vitriol>*1000)
+    .inputs(<gregtech:meta_item_1:5121>)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:nitric_acid>*1000)
+    .fluidOutputs(<liquid:white_vitriol>*1000)
+    .inputs(<gregtech:meta_item_1:5182>)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:nitric_acid>*1000)
+    .fluidOutputs(<liquid:clay_vitriol>*1000)
+    .inputs(<gregtech:meta_item_1:2105>*4)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:nitric_acid>*1000)
+    .fluidOutputs(<liquid:cyan_vitriol>*1000)
+    .inputs(<gregtech:meta_item_1:5115>)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:nitric_acid>*1000)
+    .fluidOutputs(<liquid:red_vitriol>*1000)
+    .inputs(<gregtech:meta_item_1:5107>)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:nitric_acid>*1000)
+    .fluidOutputs(<liquid:gray_vitriol>*1000)
+    .inputs(<gregtech:meta_item_1:5149>)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:nitric_acid>*1000)
+    .fluidOutputs(<liquid:pink_vitriol>*1000)
+    .inputs(<gregtech:meta_item_1:5130>)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:nitric_acid>*1000)
+    .fluidOutputs(<liquid:green_vitriol>*1000)
+    .inputs(<gregtech:meta_item_1:5121>)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:nitric_acid>*1000)
+    .fluidOutputs(<liquid:white_vitriol>*1000)
+    .inputs(<gregtech:meta_item_1:5182>)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:nitric_acid>*1000)
+    .fluidOutputs(<liquid:clay_vitriol>*1000)
+    .inputs(<gregtech:meta_item_1:2105>*4)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:nitric_acid>*1000)
+    .fluidOutputs(<liquid:cyan_vitriol>*1000)
+    .inputs(<gregtech:meta_item_1:5115>)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:nitric_acid>*1000)
+    .fluidOutputs(<liquid:red_vitriol>*1000)
+    .inputs(<gregtech:meta_item_1:5107>)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
+
+
+
+
+
+
+
+
+
+
+
