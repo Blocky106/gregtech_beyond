@@ -511,3 +511,16 @@ lcr.recipeBuilder()
 
 //Peptone
 
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:liquid_crystal_detector>*1000,<liquid:mutatedlivingsolder>*1000)
+    .fluidOutputs(<liquid:living_mutation_medium>*2000)
+    .duration(200)
+    .EUt(12000000)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:liquid_crystal_detector>*1000,<liquid:mutatedlivingsolder>*1000)
+    .fluidOutputs(<liquid:living_mutation_medium>*2000)
+    .duration(200)
+    .EUt(12000000)
+    .buildAndRegister();
