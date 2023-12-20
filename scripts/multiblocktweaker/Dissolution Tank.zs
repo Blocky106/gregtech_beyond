@@ -206,3 +206,10 @@ dissolution_tank.recipeMap.recipeBuilder()
     .duration(400)
     .EUt(2180)
     .buildAndRegister();
+
+dissolution_tank.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:purified_draconium_slurry>*1000)
+    .fluidOutputs(<liquid:draconiumsolution>*1000)
+    .duration(200)
+    .EUt(90000)
+    .buildAndRegister();

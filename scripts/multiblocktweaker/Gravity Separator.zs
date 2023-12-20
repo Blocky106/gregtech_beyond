@@ -123,3 +123,10 @@ gravity_separator.recipeMap.recipeBuilder()
     .duration(200)
     .EUt(12)
     .buildAndRegister();
+
+gravity_separator.recipeMap.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:32187>)
+    .outputs(<gtadditions:ga_dust:32188>)
+    .duration(200)
+    .EUt(7800)
+    .buildAndRegister();

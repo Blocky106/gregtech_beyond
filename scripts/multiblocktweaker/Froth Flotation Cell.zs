@@ -398,3 +398,22 @@ froth_flotation_cell.recipeMap.recipeBuilder()
     .duration(299)
     .EUt(8000)
     .buildAndRegister();
+
+froth_flotation_cell.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:draconiumimpureslurry>*1000,<liquid:water>*4000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .fluidOutputs(<liquid:draconiumslurry>*1000,<liquid:wastewater>*3000)
+    .duration(280)
+    .EUt(480)
+    .buildAndRegister();
+
+froth_flotation_cell.recipeMap.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:32188>*2)
+    .outputs(<gregtech:meta_item_1:2089>)
+    .fluidInputs(<liquid:froth_flotation_fluid>*100,<liquid:water>*32000,<liquid:aqua_regia>*100)
+    .notConsumable(<gregtech:meta_item_1:2595>*3)
+    .notConsumable(<gregtech:meta_item_1:2526>*3)
+    .fluidOutputs(<liquid:used_froth_flotation_fluid>*200,<liquid:draconiumimpureslurry>*1000)
+    .duration(280)
+    .EUt(480)
+    .buildAndRegister();

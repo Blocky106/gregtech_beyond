@@ -175,6 +175,16 @@ electrolytic_cell.recipeMap.recipeBuilder()
     .EUt(590)
     .buildAndRegister();
 
+electrolytic_cell.recipeMap.recipeBuilder()
+    .notConsumable(<contenttweaker:silver_electrode>)
+    .notConsumable(<gregtech:meta_item_2:19300>)
+    .fluidInputs(<liquid:draconiumsolution>*1000)
+    .notConsumable(<liquid:plasma.draconium>)
+    .fluidOutputs(<liquid:draconium>*500,<liquid:distilled_water>*500)
+    .duration(100)
+    .EUt(590)
+    .buildAndRegister();
+
 
 
             
