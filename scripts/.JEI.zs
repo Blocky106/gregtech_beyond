@@ -15,6 +15,23 @@ mods.jei.JEI.hideCategory("zmaster587.AR.rollingMachine");
 mods.jei.JEI.hideCategory("zmaster587.AR.electrolyzer");
 mods.jei.JEI.hideCategory("zmaster587.AR.arcFurnace");
 mods.jei.JEI.hideCategory("zmaster587.AR.chemicalReactor");
+mods.jei.JEI.hideCategory("zmaster587.AR.chemicalReactor");
+mods.jei.JEI.hideCategory("forestry.squeezer");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 val itemstoRemove =
 [
