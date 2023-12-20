@@ -244,5 +244,9 @@ vacuum_furnace.recipeMap.recipeBuilder()
     .duration(50)
     .buildAndRegister();
 
-
-
+vacuum_furnace.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2205>)
+    .outputs(<gregtech:meta_item_1:10205>)
+    .EUt(1800)
+    .duration(120)
+    .buildAndRegister();

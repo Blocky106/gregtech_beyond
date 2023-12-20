@@ -602,9 +602,6 @@ mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:
 <ore:plateBrass>.remove(<thaumcraft:plate>);
 <ore:ingotCosmicNeutronium>.remove(<avaritia:resource:4>);
 <ore:titaniumice>.add(<contenttweaker:titaniumcontainingice>);
-<ore:ingotBrass>.remove(<thaumcraft:ingot:2>);
-<ore:blockBrass>.remove(<thaumcraft:metal_brass>);
-<ore:nuggetBrass>.remove(<thaumcraft:nugget:8>);
 <ore:dustSulfur>.remove(<thermalfoundation:material:771>);
 <ore:nuggetLead>.remove(<thaumcraft:nugget:4>);
 <ore:itemSawdust>.remove(<thermalfoundation:material:800>);
