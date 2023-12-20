@@ -21,8 +21,8 @@
   "Enable Snow": true,
   "Dictionary Types": [
     "CONIFEROUS",
-    "MOUNTAIN",
     "SNOWY",
+    "MOUNTAIN",
     "RARE",
     "FOREST",
     "COLD"

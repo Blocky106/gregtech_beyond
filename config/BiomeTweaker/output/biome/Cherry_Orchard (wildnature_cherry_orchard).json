@@ -22,8 +22,8 @@
   "Dictionary Types": [
     "DENSE",
     "WET",
-    "RARE",
     "HOT",
+    "RARE",
     "FOREST"
   ],
   "BiomeManager Entries": {
@@ -37,12 +37,6 @@
       "Weight": 7,
       "Min Group Count": 3,
       "Max Group Count": 4
-    },
-    {
-      "Entity Class": "com.matez.wildnature.entity.EntityBoar",
-      "Weight": 3,
-      "Min Group Count": 1,
-      "Max Group Count": 3
     },
     {
       "Entity Class": "com.matez.wildnature.entity.EntityDuckMale",

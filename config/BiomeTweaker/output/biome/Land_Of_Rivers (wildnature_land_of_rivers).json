@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "WATER",
     "WET",
+    "WATER",
     "FOREST"
   ],
   "BiomeManager Entries": {
@@ -35,12 +35,6 @@
       "Weight": 7,
       "Min Group Count": 3,
       "Max Group Count": 4
-    },
-    {
-      "Entity Class": "com.matez.wildnature.entity.EntityBoar",
-      "Weight": 2,
-      "Min Group Count": 1,
-      "Max Group Count": 3
     },
     {
       "Entity Class": "com.matez.wildnature.entity.EntityDuckMale",
