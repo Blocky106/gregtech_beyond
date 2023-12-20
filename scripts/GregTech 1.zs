@@ -1449,22 +1449,6 @@ assembly_line.recipeBuilder()
 	.EUt(99999999)
 	.buildAndRegister();
 
-chemReactor.recipeBuilder()
-	.inputs(<thermalfoundation:material:893>,<thermalfoundation:material:894>,<thermalfoundation:material:895>)
-	.fluidInputs(<liquid:mana>*1000)
-	.outputs(<thermalfoundation:geode>)
-	.EUt(200)
-	.duration(400)
-	.buildAndRegister();
-
-lcr.recipeBuilder()
-	.inputs(<thermalfoundation:material:893>,<thermalfoundation:material:894>,<thermalfoundation:material:895>)
-	.fluidInputs(<liquid:mana>*1000)
-	.outputs(<thermalfoundation:geode>)
-	.EUt(200)
-	.duration(400)
-	.buildAndRegister();
-
 distillation_tower.recipeBuilder()
     .fluidInputs(<liquid:vinegar>*2000)
     .fluidOutputs(<liquid:water>*1600,<liquid:acetic_acid>*400)

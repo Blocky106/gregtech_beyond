@@ -1744,12 +1744,43 @@ lcr.recipeBuilder()
     .buildAndRegister();
 
 
+furnace.remove(<gregtech:meta_item_1:10205>);
+furnace.remove(<gregtech:meta_item_1:9205>);
 
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:living_mutation_medium>*144)
+    .inputs(<minecraft:diamond>)
+    .outputs(<contenttweaker:draconiumfragment>)
+    .duration(200)
+    .EUt(800009)
+    .buildAndRegister();
 
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:living_mutation_medium>*144)
+    .inputs(<minecraft:diamond>)
+    .outputs(<contenttweaker:draconiumfragment>)
+    .duration(200)
+    .EUt(800009)
+    .buildAndRegister();
 
+assembler.recipeBuilder()
+    .inputs(<contenttweaker:draconiumfragment>,<minecraft:stone>)
+    .outputs(<contenttweaker:refabricateddraconiumore>)
+    .duration(200)
+    .EUt(120000)
+    .buildAndRegister();
 
+macerator.recipeBuilder()
+    .inputs(<contenttweaker:refabricateddraconiumore>)
+    .outputs(<gtadditions:ga_dust:32187>*2)
+    .duration(20)
+    .EUt(129000)
+    .buildAndRegister();
 
-
-
-
-
+fusion_reactor.recipeBuilder()
+    .fluidInputs(<liquid:extrmelyunstablenaquadah>*128,<liquid:nobelium>*128)
+    .fluidOutputs(<liquid:plasma.draconium>*12)
+    .duration(200)
+    .EUt(12000)
+	.property("eu_to_start", 320000000)
+    .buildAndRegister();
