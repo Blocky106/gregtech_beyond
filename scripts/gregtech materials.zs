@@ -459,6 +459,14 @@ util.registerDust("solid_grain", 32183, 0xE6D5AF, "DULL");
 util.registerDust("activated_carbon", 32184, 0x272727, "SHINY");
 util.registerDust("yeast_extract_mannitol_medium", 32185, 0x66468C, "SHINY");
 util.registerDust("titanium_sludge", 32186, 0xC08C9D, "SHINY");
+util.registerDust("refabricated_draconium_dust", 32187, 0x311B92, "SHINY");
+util.registerDust("leached_refabricated_draconium_dust", 32188, 0x8E24AA, "DULL");
+util.registerDust("mana_dust", 32189, 0x8C24A7, "SHINY");
+util.registerDust("aerotheum_dust", 32190, 0xFFEB3B, "SHINY");
+util.registerDust("petrotheum_dust", 32191, 0x383838, "SHINY");
+util.registerDust("resonant_clathrate", 32192, 0x1B5E20, "SHINY");
+util.registerDust("destabilized_clathrate", 32193, 0xB71C1C, "SHINY");
+util.registerDust("energized_clathrate", 32194, 0xFFEB3B, "SHINY");
 
 
 
@@ -466,6 +474,12 @@ util.registerDust("titanium_sludge", 32186, 0xC08C9D, "SHINY");
 
 
 
+util.registerFluid("draconiumsolution", 0xAB47BC);
+util.registerFluid("mana", 0x01579B);
+util.registerFluid("purified_draconium_slurry", 0x8E24AA);
+util.registerFluid("draconiumimpureslurry", 0x8E24AA);
+util.registerFluid("draconiumslurry", 0x311B92);
+util.registerFluid("living_mutation_medium", 0xBBDEFB);
 util.registerFluid("cold_air", 0xBBDEFB);
 util.registerFluid("supercooled_liquid_nitrogen", 0x4FC3F7);
 util.registerFluid("untreated_liquid_oxygen", 0x6CA4BE);
