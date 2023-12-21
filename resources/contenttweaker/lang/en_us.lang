@@ -1469,3 +1469,19 @@ fluid.draconiumslurry=Draconium Slurry
 fluid.draconiumimpureslurry=Impure Draconium Slurry
 fluid.purified_draconium_slurry=Purified Draconium Slurry
 fluid.draconiumsolution=Draconium Solution
+metaitem.caesin.name=Caesin Dust
+metaitem.refabricated_draconium_dust.name=Refabricated Draconium Dust
+metaitem.leached_refabricated_draconium_dust.name=Leached Refabricated Draconium Dust
+metaitem.mana_dust.name=Mana Dust
+metaitem.aerotheum_dust.name=Aerotheum Dust
+metaitem.petrotheum_dust.name=Petrotheum Dust
+metaitem.resonant_clathrate.name=Resonant Clathrate
+metaitem.destabilized_clathrate.name=Destabilized Clathrate
+metaitem.energized_clathrate.name=Energized Clathrate
+fluid.living_mutation_medium=Living Mutation Medium
+fluid.mb_water=Water
+
+
+
+
+
