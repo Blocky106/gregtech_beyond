@@ -615,6 +615,7 @@ val miracle_top = Builder.start(loc, meta)
                     "                           ",
                     "                           ",
                     "                           ",
+                    "                           ",
                     " C       C       C       C ",
                     " C       C       C       C ",
                     " C       C       C       C ",
@@ -633,6 +634,7 @@ val miracle_top = Builder.start(loc, meta)
                     "                           ",
                     "                           ",
                     "                           ",
+                    "                           ",
                     " C       C       C       C ",
                     " C       C       C       C ",
                     "CQC     CQC     CQC     CQC",
@@ -652,6 +654,7 @@ val miracle_top = Builder.start(loc, meta)
                     "                           ",
                     "                           ",
                     "                           ",
+                    "                           ",
                     " C       C       C       C ",
                     "CQC     CQC     CQC     CQC",
                     "CQC     CQC     CQC     CQC",
@@ -673,33 +676,14 @@ val miracle_top = Builder.start(loc, meta)
                     "                           ",
                     "                           ",
                     "                           ",
-                    " G       G       G       G ",
-                    " G       G       G       G ",
-                    "                           ",
-                    "                           ",
                     "                           ",
                     " G       G       G       G ",
                     " G       G       G       G ",
                     "                           ",
                     "                           ",
                     "                           ",
-                    "                           ",
-                    "                           ",
-                    "                           ")
-                .aisle(                          
-                    "                           ",
-                    "                           ",
-                    "                           ",
-                    "                           ",
-                    "                           ",
-                    "                           ",
-                    "                           ",
-                    "                           ",
-                    "                           ",
-                    "                           ",
-                    "                           ",
-                    "                           ",
-                    "                           ",
+                    " G       G       G       G ",
+                    " G       G       G       G ",
                     "                           ",
                     "                           ",
                     "                           ",
@@ -725,8 +709,31 @@ val miracle_top = Builder.start(loc, meta)
                     "                           ",
                     "                           ",
                     "                           ",
+                    "                           ",
                     "                           ")
                 .aisle(                          
+                    "                           ",
+                    "                           ",
+                    "                           ",
+                    "                           ",
+                    "                           ",
+                    "                           ",
+                    "                           ",
+                    "                           ",
+                    "                           ",
+                    "                           ",
+                    "                           ",
+                    "                           ",
+                    "                           ",
+                    "                           ",
+                    "                           ",
+                    "                           ",
+                    "                           ",
+                    "                           ",
+                    "                           ",
+                    "                           ")
+                .aisle(                          
+                    "                           ",
                     "                           ",
                     " C       C       C       C ",
                     "                           ",
@@ -750,13 +757,14 @@ val miracle_top = Builder.start(loc, meta)
                     " C       C       C       C ",
                     "CQC     CQC     CQC     CQC",
                     " G       G       G       G ",
+                    "                           ",
                     "                           ",
                     "                           ",
                     "                           ",
                     "CGC     CGC     CGC     CGC",
-                    "CMCGGGGGCMCGGGGGCMCGGGGGCMC",
-                    "CMCGGGGGCMCGGGGGCMCGGGGGCMC",
-                    "CMCGGGGGCMCGGGGGCMCGGGGGCMC",
+                    "CGC     CGC     CGC     CGC",
+                    "CGC     CGC     CGC     CGC",
+                    "CGC     CGC     CGC     CGC",
                     "CGC     CGC     CGC     CGC",
                     "                           ",
                     "                           ",
@@ -768,6 +776,7 @@ val miracle_top = Builder.start(loc, meta)
                     " C       C       C       C ",
                     "CQC     CQC     CQC     CQC",
                     " G       G       G       G ",
+                    "                           ",
                     "                           ",
                     "                           ",
                     "                           ",
@@ -787,6 +796,7 @@ val miracle_top = Builder.start(loc, meta)
                     " C       C       C       C ",
                     "CQC     CQC     CQC     CQC",
                     " G       G       G       G ",
+                    "                           ",
                     "                           ",
                     "                           ",
                     "                           ",
@@ -810,6 +820,7 @@ val miracle_top = Builder.start(loc, meta)
                     "                           ",
                     "                           ",
                     "                           ",
+                    "                           ",
                     "CGC     CGC     CGC     CGC",
                     "CMCGGGGGCMCGGGGGCMCGGGGGCMC",
                     "CMCGGGGGCMCGGGGGCMCGGGGGCMC",
@@ -829,6 +840,7 @@ val miracle_top = Builder.start(loc, meta)
                     "                           ",
                     "                           ",
                     "                           ",
+                    "                           ",
                     "CGC     CGC     CGC     CGC",
                     "CGC     CGC     CGC     CGC",
                     "CGC     CGC     CGC     CGC",
@@ -842,6 +854,7 @@ val miracle_top = Builder.start(loc, meta)
                     "                           ")
                 .aisle(                          
                     "                           ",
+                    "                           ",
                     " C       C       C       C ",
                     "                           ",
                     "                           ",
@@ -878,25 +891,6 @@ val miracle_top = Builder.start(loc, meta)
                     "                           ",
                     "                           ",
                     "                           ",
-                    "                           ")
-                .aisle(                          
-                    "                           ",
-                    "                           ",
-                    "                           ",
-                    "                           ",
-                    "                           ",
-                    "                           ",
-                    "                           ",
-                    "                           ",
-                    "                           ",
-                    "                           ",
-                    "                           ",
-                    "                           ",
-                    "                           ",
-                    "                           ",
-                    "                           ",
-                    "                           ",
-                    "                           ",
                     "                           ",
                     "                           ")
                 .aisle(                          
@@ -906,13 +900,14 @@ val miracle_top = Builder.start(loc, meta)
                     "                           ",
                     "                           ",
                     "                           ",
-                    " G       G       G       G ",
-                    " G       G       G       G ",
                     "                           ",
                     "                           ",
                     "                           ",
-                    " G       G       G       G ",
-                    " G       G       G       G ",
+                    "                           ",
+                    "                           ",
+                    "                           ",
+                    "                           ",
+                    "                           ",
                     "                           ",
                     "                           ",
                     "                           ",
@@ -925,15 +920,16 @@ val miracle_top = Builder.start(loc, meta)
                     "                           ",
                     "                           ",
                     "                           ",
-                    " C       C       C       C ",
-                    "CQC     CQC     CQC     CQC",
-                    "CQC     CQC     CQC     CQC",
+                    "                           ",
+                    "                           ",
                     " G       G       G       G ",
                     " G       G       G       G ",
+                    "                           ",
+                    "                           ",
+                    "                           ",
                     " G       G       G       G ",
-                    "CQC     CQC     CQC     CQC",
-                    "CQC     CQC     CQC     CQC",
-                    " C       C       C       C ",
+                    " G       G       G       G ",
+                    "                           ",
                     "                           ",
                     "                           ",
                     "                           ",
@@ -947,6 +943,28 @@ val miracle_top = Builder.start(loc, meta)
                     "                           ",
                     "                           ",
                     " C       C       C       C ",
+                    "CQC     CQC     CQC     CQC",
+                    "CQC     CQC     CQC     CQC",
+                    " G       G       G       G ",
+                    " G       G       G       G ",
+                    " G       G       G       G ",
+                    "CQC     CQC     CQC     CQC",
+                    "CQC     CQC     CQC     CQC",
+                    " C       C       C       C ",
+                    "                           ",
+                    "                           ",
+                    "                           ",
+                    "                           ",
+                    "                           ")
+                .aisle(                          
+                    "                           ",
+                    "                           ",
+                    "                           ",
+                    "                           ",
+                    "                           ",
+                    "                           ",
+                    "                           ",
+                    " C       C       C       C ",
                     " C       C       C       C ",
                     "CQC     CQC     CQC     CQC",
                     "CQC     CQC     CQC     CQC",
@@ -960,6 +978,7 @@ val miracle_top = Builder.start(loc, meta)
                     "                           ",
                     "                           ")
                 .aisle(                          
+                    "                           ",
                     "                           ",
                     "                           ",
                     "                           ",
@@ -991,12 +1010,60 @@ val miracle_top = Builder.start(loc, meta)
                 .build())
 .withRecipeMap(
         FactoryRecipeMap.start(loc)
-                        .maxInputs(1)
-                        .maxFluidInputs(1)
-                        .maxFluidOutputs(1)
+                        .maxInputs(9)
+                        .maxFluidInputs(3)
                         .maxOutputs(1)
                         .build())
 .withTexture(ICubeRenderer.sided("contenttweaker:blocks/quantumcasing"))
 .withZoom(0.3f)
 .buildAndRegister() as Multiblock;
 
+
+
+
+#Refined
+miracle_top.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_2:16189>*32,<gtadditions:ga_meta_item:32031>*4,<gregtech:meta_item_2:32486>*4)
+    .fluidInputs(<liquid:soldering_alloy>*288)
+    .outputs(<gtadditions:ga_meta_item:32203>*32)
+    .duration(400)
+    .EUt(800000)
+    .buildAndRegister();
+
+miracle_top.recipeMap.recipeBuilder()
+    .inputs(<gtadditions:ga_meta_item:32203>*16,<gtadditions:ga_meta_item:32031>*16,<gregtech:meta_item_1:12183>*8,<gtadditions:ga_meta_item:32242>*16,<gtadditions:ga_meta_item:32240>*16,<gtadditions:ga_meta_item:32241>*16)
+    .fluidInputs(<liquid:soldering_alloy>*288)
+    .outputs(<gtadditions:ga_meta_item:32204>*32)
+    .duration(400)
+    .EUt(800000)
+    .buildAndRegister();
+
+miracle_top.recipeMap.recipeBuilder()
+    .inputs(<gtadditions:ga_meta_item:32204>*64,<gtadditions:ga_meta_item:32241>*32,<gtadditions:ga_meta_item:32240>*32,<gtadditions:ga_meta_item:32031>*16,<gregtech:cable:970>*16,<gregtech:meta_item_2:32485>*16)
+    .fluidInputs(<liquid:soldering_alloy>*288)
+    .outputs(<gtadditions:ga_meta_item:32205>*32)
+    .duration(400)
+    .EUt(800000)
+    .buildAndRegister();
+
+miracle_top.recipeMap.recipeBuilder()
+    .inputs(<gtadditions:ga_meta_item:32205>*32,<gtadditions:ga_meta_item:32243>*16,<gtadditions:ga_meta_item:32240>*32,<gtadditions:ga_meta_item:32241>*64,<gregtech:frame_stainless_steel>*32,<gregtech:meta_item_2:32485>*32)
+    .fluidInputs(<liquid:soldering_alloy>*288)
+    .outputs(<gtadditions:ga_meta_item:32206>*32)
+    .duration(400)
+    .EUt(800000)
+    .buildAndRegister();
+
+#Micro
+#Nano
+#Quantum
+#Crystal
+#Wetware
+#Bioware
+#Optical
+#Exotic
+#Cosmic
+#Supra-Casual
+#Nano Circuit
+#Pico Circuit
+#Quantum Circuit
