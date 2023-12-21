@@ -158,7 +158,6 @@ neutron_accelerator.recipeMap.recipeBuilder()
 neutron_accelerator.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:enderium_molten>*1000)
     .fluidOutputs(<liquid:moltenenhancedenderium>*500)
-    .outputs(<gtadditions:ga_dust:158>)
     .EUt(42000)
     .duration(200)
     .buildAndRegister();
