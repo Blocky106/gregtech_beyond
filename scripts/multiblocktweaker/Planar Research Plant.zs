@@ -119,56 +119,56 @@ recipes.addShapeless(<contenttweaker:researchpaperasteroids>,[<contenttweaker:re
 
 planar_research_plant.recipeMap.recipeBuilder()
     .inputs(<contenttweaker:researchpapermoon>)
-    .chancedOutput(<contenttweaker:moon>, 1, 0)
+    .chancedOutput(<contenttweaker:moon>, 100, 0)
     .duration(800)
     .EUt(250)
     .buildAndRegister();
 
 planar_research_plant.recipeMap.recipeBuilder()
     .inputs(<contenttweaker:researchpapermars>)
-    .chancedOutput(<contenttweaker:mars>, 1, 0)
+    .chancedOutput(<contenttweaker:mars>, 100, 0)
     .duration(800)
     .EUt(250)
     .buildAndRegister();
 
 planar_research_plant.recipeMap.recipeBuilder()
     .inputs(<contenttweaker:researchpaperasteroids>)
-    .chancedOutput(<contenttweaker:asteroids>, 1, 0)
+    .chancedOutput(<contenttweaker:asteroids>, 100, 0)
     .duration(800)
     .EUt(250)
     .buildAndRegister();
 
 planar_research_plant.recipeMap.recipeBuilder()
     .inputs(<contenttweaker:researchpaperceres>)
-    .chancedOutput(<contenttweaker:ceres>, 1, 0)
+    .chancedOutput(<contenttweaker:ceres>, 100, 0)
     .duration(800)
     .EUt(250)
     .buildAndRegister();
 
 planar_research_plant.recipeMap.recipeBuilder()
     .inputs(<contenttweaker:researchpaperhaumea>)
-    .chancedOutput(<contenttweaker:haumea>, 1, 0)
+    .chancedOutput(<contenttweaker:haumea>, 100, 0)
     .duration(800)
     .EUt(250)
     .buildAndRegister();
 
 planar_research_plant.recipeMap.recipeBuilder()
     .inputs(<contenttweaker:researchpapermercury>)
-    .chancedOutput(<contenttweaker:mercury>, 1, 0)
+    .chancedOutput(<contenttweaker:mercury>, 100, 0)
     .duration(800)
     .EUt(250)
     .buildAndRegister();
 
 planar_research_plant.recipeMap.recipeBuilder()
     .inputs(<contenttweaker:researchpapereris>)
-    .chancedOutput(<contenttweaker:eris>, 1, 0)
+    .chancedOutput(<contenttweaker:eris>, 100, 0)
     .duration(800)
     .EUt(250)
     .buildAndRegister();
 
 planar_research_plant.recipeMap.recipeBuilder()
     .inputs(<contenttweaker:researchpaperjupiter>)
-    .chancedOutput(<contenttweaker:jupiter>, 1, 0)
+    .chancedOutput(<contenttweaker:jupiter>, 100, 0)
     .duration(800)
     .EUt(250)
     .buildAndRegister();
