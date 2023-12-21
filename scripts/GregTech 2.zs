@@ -2654,7 +2654,6 @@ assembler.recipeBuilder()
 
 Utils.removeRecipeByOutput(assembler, [<gtadditions:ga_meta_item:32538>], [], false);
 Utils.removeRecipeByOutput(assembly_line, [<gtadditions:ga_meta_item:32015>*4], [], false);
-Utils.removeRecipeByOutput(assembly_line, [<gregtech:meta_item_2:32501>], [], false);
 Utils.removeRecipeByOutput(assembly_line, [<gtadditions:ga_meta_item:32392>], [], false);
 Utils.removeRecipeByOutput(assembly_line, [<gtadditions:ga_meta_item:32391>], [], false);
 Utils.removeRecipeByOutput(assembly_line, [<gtadditions:ga_meta_item:32500>*6], [], false);
