@@ -2216,6 +2216,7 @@ assembler.recipeBuilder()
 	.EUt(4000)
 	.buildAndRegister();
 
+
 assembly_line.recipeBuilder()
 	.inputs(<contenttweaker:radiationproofplate>*4,<gtadditions:ga_meta_item:32426>*16,<gtadditions:ga_meta_item:32258>*64,<gtadditions:ga_meta_item:32256>*64,<gtadditions:ga_meta_item:32257>*64,<gtadditions:ga_meta_item:32259>*64,<gregtech:cable:744>*8,<gregtech:meta_item_1:19145>*64,<gregtech:meta_item_1:12312>*4,<gregtech:meta_item_2:32479>*8,<gregtech:meta_item_1:32726>*4,<ore:frameGtTritanium>*4,<gregtech:meta_item_2:32500>*2)
 	.fluidInputs(<liquid:sterilized_growth_medium>*2000,<liquid:uumatter>*100)
@@ -3203,3 +3204,4 @@ recipes.addShaped(<gregtech:metal_casing_tungsten_titanium_carbide>, [	[<ore:pla
 recipes.addShaped(<gregtech:machine:191>, [	[<gregtech:meta_item_1:32641>, <ore:rotorTumbaga>, <gregtech:meta_item_1:32641>], 	[<contenttweaker:bronzeelectrontube>, <gregtech:machine:502>, <contenttweaker:bronzeelectrontube>], 	[<ore:circuitGood>, <gregtech:meta_item_1:32601>, <ore:circuitGood>]]);
 recipes.addShaped(<gregtech:machine:2535>, [	[<gregtech:meta_item_1:32612>, <gregtech:meta_item_1:32612>, <gregtech:meta_item_1:32612>], 	[<ore:circuitExtreme>, <gregtech:metal_casing:3>, <ore:circuitExtreme>], 	[<ore:circuitExtreme>, <gregtech:machine:503>, <ore:circuitExtreme>]]);
 recipes.addShaped(<gregtech:machine:825>, [	[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 	[<ore:stickCopper>, <forestry:worktable>, <ore:stickCopper>], 	[<ore:plateCopper>, <ore:wireFineCopper>, <ore:plateCopper>]]);
+recipes.addShapeless(<gregtech:meta_item_1:2238>*9,[<gregtech:meta_item_1:2094>,<gregtech:meta_item_1:2094>,<gregtech:meta_item_1:2094>,<gregtech:meta_item_1:2094>,<gregtech:meta_item_1:2094>,<gregtech:meta_item_1:2094>,<gregtech:meta_item_1:2094>,<gregtech:meta_item_1:2017>,<gregtech:meta_item_1:2001>]);
