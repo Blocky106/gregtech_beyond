@@ -197,6 +197,13 @@ recipes.addShaped(<chisel:paper>*16, [	[<ore:paperBlack>, <ore:paperBlack>, <ore
 
 
 
+mods.chisel.Carving.addGroup("concrete");
+mods.chisel.Carving.addVariation("concrete", <gregtech:concrete:13>);
+mods.chisel.Carving.addVariation("concrete", <gregtech:concrete:12>);
+mods.chisel.Carving.addVariation("concrete", <gregtech:concrete:1>);
+mods.chisel.Carving.addVariation("concrete", <gregtech:concrete>);
+mods.chisel.Carving.addVariation("concrete", <advancedrocketry:concrete>);
+
 
 
 
