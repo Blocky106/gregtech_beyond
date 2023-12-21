@@ -17,8 +17,7 @@ mods.jei.JEI.hideCategory("zmaster587.AR.arcFurnace");
 mods.jei.JEI.hideCategory("zmaster587.AR.chemicalReactor");
 mods.jei.JEI.hideCategory("zmaster587.AR.chemicalReactor");
 mods.jei.JEI.hideCategory("forestry.squeezer");
-
-
+mods.jei.JEI.hideCategory("gregtech:beam_shrinking_device");
 
 
 
