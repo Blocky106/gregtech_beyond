@@ -2720,14 +2720,6 @@ assembly_line.recipeBuilder()
 	.duration(800)
 	.EUt(2023123)
 	.buildAndRegister();
-	
-assembly_line.recipeBuilder()
-	.inputs(<gregtech:frame_osmiridium>*8,<gregtech:meta_item_1:12520>*32,<contenttweaker:advancedradiationproofplate>*32,<gregtech:meta_item_1:17070>*64,<gregtech:meta_item_1:32677>*8,<gtadditions:ga_meta_item:32366>*2,<ore:circuitInfinite>,<ore:circuitInfinite>,<ore:circuitInfinite>,<ore:circuitInfinite>,<gtadditions:ga_meta_item:32424>*16,<ore:craftingLensYellow>*32)
-	.fluidInputs(<liquid:quantium>*9216,<liquid:indalloy140>*14400,<liquid:extrmelyunstablenaquadah>*8800)
-	.outputs(<gregtech:machine:10024>)
-	.duration(1200)
-	.EUt(2000000)
-	.buildAndRegister();
 
 ebf.recipeBuilder()
 	.inputs(<gregtech:meta_item_1:2552>)

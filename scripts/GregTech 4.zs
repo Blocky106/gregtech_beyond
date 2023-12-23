@@ -1784,3 +1784,11 @@ fusion_reactor.recipeBuilder()
     .EUt(12000)
 	.property("eu_to_start", 320000000)
     .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .fluidInputs(<liquid:indalloy140>*14400)
+    .inputs(<contenttweaker:advancedradiationproofplate>*16,<ore:circuitInfinite>*4,<gregtech:meta_item_1:32616>*2,<gregtech:frame_osmiridium>*4,<gregtech:meta_item_1:32676>*4,<gregtech:meta_item_1:12520>*32,<gtadditions:ga_meta_item:32424>*16)
+    .outputs(<gregtech:machine:10024>)
+    .duration(40000)
+    .EUt(110000)
+    .buildAndRegister();
