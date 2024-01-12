@@ -21,7 +21,7 @@ import mods.gregtech.render.ICubeRenderer;
 import mods.gregtech.render.Textures;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
-
+import mods.gregtech.multiblock.IControllerTile;+
 
 var loc = "mega_alloy_blast_smelter";
 var meta = 10035;
@@ -178,7 +178,7 @@ val mega_alloy_blast_smelter = Builder.start(loc, meta)
                     "~CCCCCCC~",
                     "~~CCCCC~~",
                     "~~~~~~~~~")
-                .where("S", IBlockMatcher.controller(loc))
+                                    .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
                 .whereOr("C", 
                 <metastate:gtadditions:ga_metal_casing_1:14>,
@@ -192,7 +192,7 @@ val mega_alloy_blast_smelter = Builder.start(loc, meta)
                 .where("V", <metastate:gtadditions:ga_metal_casing_2>)
                 .where("R", <metastate:gregtech:wire_coil>)
                 .where("G", <metastate:gtadditions:ga_transparent_casing:4>)
-                .build())
+                .build());
         .addDesign(
                 FactoryMultiblockShapeInfo.start()
                 .aisle(
@@ -347,12 +347,9 @@ val mega_alloy_blast_smelter = Builder.start(loc, meta)
                 .where("X", MetaTileEntities.FLUID_EXPORT_HATCH[1], IFacing.north())
                 .where("E", MetaTileEntities.ENERGY_INPUT_HATCH[4], IFacing.east())
                 .build())
-.withRecipeMap(
-        FactoryRecipeMap.start(loc)
-                        .maxInputs(1)
-                        .maxFluidInputs(1)
-                        .maxOutputs(1)
-                        .build())
+    .withRecipeMap(<recipemap:blastalloy>)
+    .buildAndRegister();
+
 .withTexture(ICubeRenderer.sided("contenttweaker:blocks/zirconium_carbide"))
 .withZoom(0.5f)
 .buildAndRegister() as Multiblock;
