@@ -23,7 +23,7 @@ mods.thaumcraft.Infusion.registerRecipe("spectral_key", "", <randomthings:spectr
 
 
 
-recipes.addShaped(<thaumcraft:stone_arcane>, [	[<hammercore:gold_bordered_cobblestone>, <hammercore:gold_bordered_cobblestone>, <hammercore:gold_bordered_cobblestone>], 	[<hammercore:gold_bordered_cobblestone>, <thaumcraft:crystal_essence>, <hammercore:gold_bordered_cobblestone>], 	[<hammercore:gold_bordered_cobblestone>, <hammercore:gold_bordered_cobblestone>, <hammercore:gold_bordered_cobblestone>]]);
+recipes.addShaped(<thaumcraft:stone_arcane>*8, [	[<hammercore:gold_bordered_cobblestone>, <hammercore:gold_bordered_cobblestone>, <hammercore:gold_bordered_cobblestone>], 	[<hammercore:gold_bordered_cobblestone>, <thaumcraft:crystal_essence>, <hammercore:gold_bordered_cobblestone>], 	[<hammercore:gold_bordered_cobblestone>, <hammercore:gold_bordered_cobblestone>, <hammercore:gold_bordered_cobblestone>]]);
 
 
 
