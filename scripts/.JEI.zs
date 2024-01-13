@@ -72,11 +72,31 @@ mods.jei.JEI.hideCategory("gregtech:vacuum_furnace");
 mods.jei.JEI.hideCategory("gregtech:vis_breaker");
 mods.jei.JEI.hideCategory("gregtech:vulcanized_press");
 mods.jei.JEI.hideCategory("gregtech:water_tank");
-
-
-
-
-
+mods.jei.JEI.hideCategory("xu2_machine_extrautils2:generator_slime");
+mods.jei.JEI.hideCategory("xu2_machine_extrautils2:generator_survival");
+mods.jei.JEI.hideCategory("xu2_machine_extrautils2:generator");
+mods.jei.JEI.hideCategory("xu2_machine_extrautils2:generator_culinary");
+mods.jei.JEI.hideCategory("xu2_machine_extrautils2:generator_lava");
+mods.jei.JEI.hideCategory("xu2_machine_extrautils2:generator_redstone");
+mods.jei.JEI.hideCategory("xu2_machine_extrautils2:generator_ender");
+mods.jei.JEI.hideCategory("xu2_machine_extrautils2:generator_potion");
+mods.jei.JEI.hideCategory("xu2_machine_extrautils2:generator_pink");
+mods.jei.JEI.hideCategory("xu2_machine_extrautils2:generator_overclock");
+mods.jei.JEI.hideCategory("xu2_machine_extrautils2:generator_tnt");
+mods.jei.JEI.hideCategory("xu2_machine_extrautils2:generator_netherstar");
+mods.jei.JEI.hideCategory("xu2_machine_extrautils2:generator_dragonsbreath");
+mods.jei.JEI.hideCategory("xu2_machine_extrautils2:generator_ice");
+mods.jei.JEI.hideCategory("xu2_machine_extrautils2:generator_death");
+mods.jei.JEI.hideCategory("xu2_machine_extrautils2:generator_enchant");
+mods.jei.JEI.hideCategory("AlloySmelter");
+mods.jei.JEI.hideCategory("xu2_machine_extrautils2:furnace");
+mods.jei.JEI.hideCategory("xu2_machine_extrautils2:crusher");
+mods.jei.JEI.hideCategory("extrautils2.terraformer");
+mods.jei.JEI.hideCategory("zmaster587.AR.precisionAssembler");
+mods.jei.JEI.hideCategory("zmaster587.AR.sawMill");
+mods.jei.JEI.hideCategory("zmaster587.AR.crystallizer");
+mods.jei.JEI.hideCategory("zmaster587.AR.centrifuge");
+mods.jei.JEI.hideCategory("zmaster587.AR.precisionlaseretcher");
 
 
 
