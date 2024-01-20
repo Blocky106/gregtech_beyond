@@ -275,3 +275,19 @@ polymerization_tank.recipeMap.recipeBuilder()
     .duration(200)
     .EUt(128)
     .buildAndRegister();
+
+polymerization_tank.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:ethylene>*1000)
+    .notConsumable(<liquid:alpha_linolenic_acid>)
+    .fluidOutputs(<liquid:highly_strained_ethylene_prepolymer_foam>*1000)
+    .duration(200)
+    .EUt(640)
+    .buildAndRegister();
+
+polymerization_tank.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:highly_strained_ethylene_prepolymer_foam>*1000)
+    .notConsumable(<gtadditions:ga_dust:32002>)
+    .fluidOutputs(<liquid:highly_strained_polyethylene>*1000)
+    .duration(200)
+    .EUt(640)
+    .buildAndRegister();
