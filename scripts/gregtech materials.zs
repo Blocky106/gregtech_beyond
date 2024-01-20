@@ -268,6 +268,9 @@ awakened_draconium.addFlags(["GENERATE_PLATE"]);
 val chaos = MaterialRegistry.createIngotMaterial(599,"chaos",0x000000,"DULL",3);
 chaos.addFlags(["GENERATE_PLATE"]);
 
+val highly_strained_polyethylene = MaterialRegistry.createIngotMaterial(616,"highly_strained_polyethylene",0xC3C0C1,"DULL",3);
+highly_strained_polyethylene.addFlags(["GENERATE_PLATE"]);
+
 
 
 
@@ -467,6 +470,7 @@ util.registerDust("petrotheum_dust", 32191, 0x383838, "SHINY");
 util.registerDust("resonant_clathrate", 32192, 0x1B5E20, "SHINY");
 util.registerDust("destabilized_clathrate", 32193, 0xB71C1C, "SHINY");
 util.registerDust("energized_clathrate", 32194, 0xFFEB3B, "SHINY");
+util.registerDust("solid_milk_residues", 32195, 0xFFEBEE, "SHINY");
 
 
 
@@ -474,6 +478,11 @@ util.registerDust("energized_clathrate", 32194, 0xFFEB3B, "SHINY");
 
 
 
+util.registerFluid("heatedmilkslurry", 0xC3C0C1);
+util.registerFluid("milk_oil", 0xC3C0C1);
+util.registerFluid("highly_strained_ethylene_prepolymer_foam", 0xC7C1C2);
+util.registerFluid("alpha_linolenic_acid", 0xFDD835);
+util.registerFluid("dilutedmilkslurry", 0xFFEBEE);
 util.registerFluid("draconiumsolution", 0xAB47BC);
 util.registerFluid("mana", 0x01579B);
 util.registerFluid("purified_draconium_slurry", 0x8E24AA);
