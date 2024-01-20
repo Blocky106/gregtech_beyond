@@ -28,6 +28,7 @@ furnace.remove(<minecraft:coal:1>);
 
 vanilla.seeds.addSeed(<contenttweaker:soy_bean>);
 vanilla.seeds.addSeed(<contenttweaker:barley>);
+vanilla.seeds.addSeed(<contenttweaker:cotton>);
 
 
 //game.getEntity("Fox").addDrop(<gregtech:gt.multiitem.food:1200>,0,1); // ribs drops ribs
