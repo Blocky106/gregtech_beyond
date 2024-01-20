@@ -93,6 +93,13 @@ mixer.recipeBuilder()
     .EUt(100)
     .buildAndRegister();
 
+lmixer.recipeBuilder()
+    .fluidInputs(<liquid:triethylaluminium>*1000,<liquid:titanium_tetrachloride>*1000)
+    .outputs(<gtadditions:ga_dust:32002>)
+    .duration(900)
+    .EUt(100)
+    .buildAndRegister();
+
 Utils.removeRecipeByOutput(chemReactor, [], [<liquid:plastic>*144], false);
 Utils.removeRecipeByOutput(chemReactor, [], [<liquid:plastic>*216], false);
 Utils.removeRecipeByOutput(chemReactor, [], [<liquid:plastic>*3240], false);
