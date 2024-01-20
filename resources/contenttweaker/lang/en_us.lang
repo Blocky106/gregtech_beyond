@@ -1481,7 +1481,15 @@ metaitem.energized_clathrate.name=Energized Clathrate
 fluid.living_mutation_medium=Living Mutation Medium
 fluid.mb_water=Water
 recipemap.miracle_top.name=Miracle Top
-
+item.contenttweaker.cotton.name=Cotton
+item.contenttweaker.cotton_sheet.name=Cotton Sheet
+item.contenttweaker.cheese_cloth.name=Cheese Cloth
+metaitem.solid_milk_residues.name=Solid Milk Residues
+fluid.milk_oil=Milk Oil
+fluid.dilutedmilkslurry=Diluted Milk Slurry
+fluid.heatedmilkslurry=Heated Milk Slurry
+fluid.alpha_linolenic_acid=Alpha Linolenic Acid
+fluid.highly_strained_ethylene_prepolymer_foam=Highly Strained Ethylene Prepolymer Foam
 
 
 

@@ -226,6 +226,15 @@ electroniccasing.setToolLevel(5);
 electroniccasing.setBlockSoundType(<soundtype:metal>);
 electroniccasing.register();
 
+var cotton = VanillaFactory.createItem("cotton");
+cotton.register();
+
+var cotton_sheet = VanillaFactory.createItem("cotton_sheet");
+cotton_sheet.register();
+
+var cheese_cloth = VanillaFactory.createItem("cheese_cloth");
+cheese_cloth.register();
+
 var advcomputercasing = VanillaFactory.createBlock("advcomputercasing", <blockmaterial:rock>);
 advcomputercasing.setBlockHardness(10.0);
 advcomputercasing.setBlockResistance(10.0);
