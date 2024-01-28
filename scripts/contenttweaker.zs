@@ -1839,3 +1839,6 @@ yeast_cells.register();
 
 var silver_electrode = VanillaFactory.createItem("silver_electrode");
 silver_electrode.register();
+
+var spacetime_bending_processing_core = VanillaFactory.createItem("spacetime_bending_processing_core");
+spacetime_bending_processing_core.register();
