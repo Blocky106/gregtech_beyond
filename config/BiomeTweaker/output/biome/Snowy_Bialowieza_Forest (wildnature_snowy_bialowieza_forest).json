@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
-    "DENSE",
-    "CONIFEROUS",
     "SNOWY",
-    "RARE",
-    "FOREST"
+    "CONIFEROUS",
+    "DENSE",
+    "FOREST",
+    "RARE"
   ],
   "BiomeManager Entries": {
     "ICY Weights": [

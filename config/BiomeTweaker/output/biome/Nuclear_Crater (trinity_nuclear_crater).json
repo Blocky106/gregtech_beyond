@@ -23,8 +23,8 @@
     "DEAD",
     "HOT",
     "WASTELAND",
-    "DRY",
-    "SPARSE"
+    "SPARSE",
+    "DRY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

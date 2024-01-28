@@ -21,8 +21,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "HOT",
-    "MESA",
-    "JUNGLE"
+    "JUNGLE",
+    "MESA"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [

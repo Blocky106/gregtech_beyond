@@ -22,10 +22,10 @@
   "Dictionary Types": [
     "DEAD",
     "HOT",
-    "SAVANNA",
     "WASTELAND",
-    "DRY",
-    "SPARSE"
+    "SAVANNA",
+    "SPARSE",
+    "DRY"
   ],
   "BiomeManager Entries": {
     "DESERT Weights": [

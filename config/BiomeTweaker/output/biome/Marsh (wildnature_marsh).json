@@ -21,8 +21,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "WET",
-    "WATER",
-    "DRY"
+    "DRY",
+    "WATER"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [

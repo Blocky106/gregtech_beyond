@@ -23,8 +23,8 @@
     "WET",
     "HOT",
     "BEACH",
-    "RARE",
-    "JUNGLE"
+    "JUNGLE",
+    "RARE"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [
