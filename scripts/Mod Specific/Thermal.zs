@@ -77,8 +77,12 @@ mods.thermalexpansion.InductionSmelter.removeRecipe(<minecraft:sand>,<thermalfou
 mods.thermalexpansion.InductionSmelter.removeRecipe(<minecraft:sand>,<gregtech:meta_item_2:26298>);
 mods.thermalexpansion.InductionSmelter.removeRecipe(<minecraft:sand>,<gregtech:meta_item_1:12576>);
 mods.thermalexpansion.InductionSmelter.removeRecipe(<minecraft:sand>,<gregtech:meta_item_1:12709>);
-
-
+mods.thermalexpansion.InductionSmelter.removeRecipe(<minecraft:sand>,<gregtech:ore_tin_0>);
+mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:865>,<gregtech:ore_tin_0>);
+mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:866>,<gregtech:ore_tin_0>);
+mods.thermalexpansion.InductionSmelter.removeRecipe(<minecraft:sand>,<gregtech:meta_item_1:2806>);
+mods.thermalexpansion.InductionSmelter.removeRecipe(<minecraft:sand>,<gregtech:meta_item_1:2814>);
+mods.thermalexpansion.InductionSmelter.removeRecipe(<minecraft:sand>,<minecraft:chest_minecart>);
 
 
 
@@ -122,7 +126,6 @@ recipes.addShaped(<thermalexpansion:strongbox>, [	[null, <ore:plateAluminium>, n
 recipes.addShaped(<thermalexpansion:frame:129>, [	[<ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>], 	[<ore:ingotIronCompressed>, <thermalexpansion:frame:128>, <ore:ingotIronCompressed>], 	[<ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>]]);
 recipes.addShaped(<thermalfoundation:material:512>, [	[<contenttweaker:rubyingot>, <contenttweaker:bulatsteelplate>, <contenttweaker:rubyingot>], 	[null, <contenttweaker:bulatsteelplate>, null], 	[<contenttweaker:rubyingot>, <contenttweaker:bulatsteelplate>, <contenttweaker:rubyingot>]]);
 recipes.addShaped(<thermalexpansion:frame:128>, [	[<ore:boltNaquadah>, <ore:plateDenseNaquadah>, <ore:boltNaquadah>], 	[<ore:plateDenseNaquadah>, <thermalexpansion:frame:64>, <ore:plateDenseNaquadah>], 	[<ore:boltNaquadah>, <ore:plateDenseNaquadah>, <ore:boltNaquadah>]]);
-recipes.addShaped(<thermalexpansion:machine:3>, [	[<ore:plateIron>, <ore:compressed1xDustBedrock>, <ore:plateIron>], 	[<ore:itemSimpleMachineChassi>, <ore:craftingFurnace>, <ore:itemSimpleMachineChassi>], 	[<ore:gearStone>, <gregtech:machine_casing>, <ore:gearStone>]]);
 recipes.addShaped(<thermalfoundation:material:514>, [	[null, <ore:plateSilver>, <ore:dustRegularRedstone>], 	[<ore:plateSilver>, <ore:plateSilver>, <ore:plateSilver>], 	[<ore:dustRegularRedstone>, <ore:plateSilver>, null]]);
 recipes.addShaped(<thermalexpansion:dynamo>, [	[<ore:wireGtSingleTin>, <thermalfoundation:material:514>, <ore:wireGtSingleTin>], 	[<ore:plateIron>, <minecraft:redstone>, <ore:plateIron>], 	[<ore:gearCopper>, <gregtech:meta_item_1:12018>, <ore:gearCopper>]]);
 recipes.addShaped(<thermalfoundation:upgrade>, [	[<ore:foilBismuthBronze>, <ore:gearBismuthBronze>, <ore:foilBismuthBronze>], 	[<ore:plateInvar>, <ore:blockRedstone>, <ore:plateInvar>], 	[<ore:plateInvar>, <ore:gearInvar>, <ore:plateInvar>]]); 
