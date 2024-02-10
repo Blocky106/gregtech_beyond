@@ -156,41 +156,41 @@ fermentation_vat.recipeMap.recipeBuilder()
     .fluidOutputs(<liquid:impure_ethanol>*16000)
     .inputs(<minecraft:sugar>*24)
     .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
-    .EUt(20)
-    .duration(5)
+    .EUt(200)
+    .duration(5000)
     .buildAndRegister();
 
 fermentation_vat.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:impure_ethanol>*16000,<liquid:oxygen>*4000)
     .fluidOutputs(<liquid:vinegar>*16000)
     .EUt(20)
-    .duration(5)
+    .duration(5000)
     .buildAndRegister();
 
 fermentation_vat.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:biomass>*16000)
     .fluidOutputs(<liquid:fermented_biomass>*16000)
     .EUt(200)
-    .duration(50)
+    .duration(5000)
     .buildAndRegister();
 
 fermentation_vat.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:wort>*1000)
     .fluidOutputs(<liquid:malt_extract>*1000)
-    .duration(800)
+    .duration(8000)
     .EUt(12)
     .buildAndRegister();
 
 fermentation_vat.recipeMap.recipeBuilder()
     .inputs(<minecraft:pumpkin_seeds>)
     .fluidOutputs(<liquid:pumpkin_oil>*25)
-    .duration(800)
+    .duration(8000)
     .EUt(12)
     .buildAndRegister();
 
 fermentation_vat.recipeMap.recipeBuilder()
     .inputs(<minecraft:melon_seeds>)
     .fluidOutputs(<liquid:melon_oil>*25)
-    .duration(800)
+    .duration(8000)
     .EUt(12)
     .buildAndRegister();
