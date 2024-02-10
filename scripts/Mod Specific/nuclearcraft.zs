@@ -45,7 +45,7 @@ import mods.nuclearcraft.Supercooler;
 
 alloy_smelter.recipeBuilder()
     .inputs(<gregtech:meta_item_1:13231>*2,<gregtech:meta_item_1:13035>*2)
-    .outputs(<nuclearcraft:part>)
+    .outputs(<nuclearcraft:part>*4)
     .duration(80)
     .EUt(512)
     .buildAndRegister();

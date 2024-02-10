@@ -34,4 +34,3 @@ vanilla.seeds.addSeed(<contenttweaker:cotton>);
 //game.getEntity("Fox").addDrop(<gregtech:gt.multiitem.food:1200>,0,1); // ribs drops ribs
 
 
-
