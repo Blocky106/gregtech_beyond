@@ -50,7 +50,7 @@ recipes.addShaped(<appliedenergistics2:material:28>, [	[null, <ore:plateTitanium
 recipes.addShaped(<appliedenergistics2:material:30>, [	[<ore:crystalFluix>, null, <ore:plateTungsten>], 	[<ore:plateTitanium>, <appliedenergistics2:material:28>, <appliedenergistics2:material:23>], 	[<ore:crystalFluix>, null, <ore:plateTungsten>]]);
 recipes.addShaped(<appliedenergistics2:memory_card>, [	[null, null, null], 	[<ore:plateTungsten>, <ore:plateTungsten>, <appliedenergistics2:material:23>], 	[<ore:plateGold>, <ore:plateRedstone>, <ore:crystalFluix>]]);
 recipes.addShaped(<appliedenergistics2:material:52>, [	[<gtadditions:ga_transparent_casing:2>, <ore:plateNichrome>, <gtadditions:ga_transparent_casing:2>], 	[<ore:plateNichrome>, <ore:crystalFluix>, <ore:plateNichrome>], 	[<ore:plateTitanium>, <ore:plateTitanium>, <ore:plateTitanium>]]);
-recipes.addShaped(<appliedenergistics2:material:39>, [	[<appliedenergistics2:quartz_glass>, <ore:plateNichrome>, <appliedenergistics2:quartz_glass>], 	[<ore:plateNichrome>, <ore:circuitGood>, <ore:plateNichrome>], 	[<ore:plateTitanium>, <ore:plateTitanium>, <ore:plateTitanium>]]);
+recipes.addShaped(<appliedenergistics2:material:39>, [	[<appliedenergistics2:quartz_glass>, <ore:plateAluminium>, <appliedenergistics2:quartz_glass>], 	[<ore:plateAluminium>, <ore:circuitGood>, <ore:plateAluminium>], 	[<ore:plateStainlessSteel>, <ore:plateStainlessSteel>, <ore:plateStainlessSteel>]]);
 
 
 
