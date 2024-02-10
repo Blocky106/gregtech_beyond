@@ -97,9 +97,10 @@ mods.jei.JEI.hideCategory("zmaster587.AR.sawMill");
 mods.jei.JEI.hideCategory("zmaster587.AR.crystallizer");
 mods.jei.JEI.hideCategory("zmaster587.AR.centrifuge");
 mods.jei.JEI.hideCategory("zmaster587.AR.precisionlaseretcher");
-
-
-
+mods.jei.JEI.hideCategory("EIOTank");
+mods.jei.JEI.hideCategory("forestry.bottler");
+mods.jei.JEI.hideCategory("thermalexpansion.smelter");
+mods.jei.JEI.hideCategory("thermalexpansion.smelter_pyrotheum");
 
 
 
