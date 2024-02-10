@@ -1814,7 +1814,7 @@ treated_photocoated_hassium_wafer.register();
 var gravity_separator_rotor_block = VanillaFactory.createBlock("gravity_separator_rotor_block", <blockmaterial:rock>);
 gravity_separator_rotor_block.setBlockHardness(12.0);
 gravity_separator_rotor_block.setBlockResistance(10.0);
-gravity_separator_rotor_block.setToolClass("shovel");
+gravity_separator_rotor_block.setToolClass("pickaxe");
 gravity_separator_rotor_block.setToolLevel(1);
 gravity_separator_rotor_block.setBlockSoundType(<soundtype:metal>);
 gravity_separator_rotor_block.register();
@@ -1842,3 +1842,25 @@ silver_electrode.register();
 
 var spacetime_bending_processing_core = VanillaFactory.createItem("spacetime_bending_processing_core");
 spacetime_bending_processing_core.register();
+
+var thaumic_casing = VanillaFactory.createBlock("thaumic_casing", <blockmaterial:rock>);
+thaumic_casing.setBlockHardness(12.0);
+thaumic_casing.setBlockResistance(10.0);
+thaumic_casing.setToolClass("pickaxe");
+thaumic_casing.setToolLevel(1);
+thaumic_casing.setBlockSoundType(<soundtype:metal>);
+thaumic_casing.register();
+
+var steel_plated_workbench = VanillaFactory.createBlock("steel_plated_workbench", <blockmaterial:rock>);
+steel_plated_workbench.setBlockHardness(12.0);
+steel_plated_workbench.setBlockResistance(10.0);
+steel_plated_workbench.setToolClass("pickaxe");
+steel_plated_workbench.setToolLevel(1);
+steel_plated_workbench.setBlockSoundType(<soundtype:metal>);
+steel_plated_workbench.register();
+
+var aluminium_item_casing = VanillaFactory.createItem("aluminium_item_casing");
+aluminium_item_casing.register();
+
+var superconducting_wire_insulation_base = VanillaFactory.createItem("superconducting_wire_insulation_base");
+superconducting_wire_insulation_base.register();

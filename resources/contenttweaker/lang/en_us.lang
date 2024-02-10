@@ -1490,6 +1490,9 @@ fluid.dilutedmilkslurry=Diluted Milk Slurry
 fluid.heatedmilkslurry=Heated Milk Slurry
 fluid.alpha_linolenic_acid=Alpha Linolenic Acid
 fluid.highly_strained_ethylene_prepolymer_foam=Highly Strained Ethylene Prepolymer Foam
-
-
-
+multiblocktweaker.multiblock.fermentation_vat.description=Place the hatches in the Pipe Casings
+item.contenttweaker.spacetime_bending_processing_core.name=Spacetime Bending Processing Core
+tile.contenttweaker.thaumic_casing.name=Thaumic Casing
+tile.contenttweaker.steel_plated_workbench.name=Steel Plated Workbench
+multiblocktweaker.machine.fischer_tropsch_reactor.name=Fischer Tropsch Reactor
+recipemap.fischer_tropsch_reactor.name=Fischer-Tropsch Reaction
