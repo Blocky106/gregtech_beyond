@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
-    "OCEAN",
-    "COLD",
     "SNOWY",
+    "COLD",
+    "OCEAN",
     "WATER"
   ],
   "BiomeManager Entries": {},

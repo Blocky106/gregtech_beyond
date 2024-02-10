@@ -21,8 +21,8 @@
   "Enable Snow": true,
   "Dictionary Types": [
     "CONIFEROUS",
-    "DENSE",
-    "FOREST"
+    "FOREST",
+    "DENSE"
   ],
   "BiomeManager Entries": {
     "ICY Weights": [
