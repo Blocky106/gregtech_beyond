@@ -1832,3 +1832,21 @@ centrifuge.recipeBuilder()
     .duration(200)
     .EUt(200)
     .buildAndRegister();
+
+recipes.remove(<minecraft:snow>);
+recipes.addShapeless(<minecraft:snow>,[<minecraft:snowball>,<minecraft:snowball>,<minecraft:snowball>,<minecraft:snowball>,<minecraft:snowball>,<minecraft:snowball>,<minecraft:snowball>,<minecraft:snowball>,<minecraft:snowball>]);
+Utils.removeRecipeByOutput(packer, [<minecraft:snow>], [], false);
+Utils.removeRecipeByOutput(compressor, [<minecraft:snow>*4], [], false);
+
+furnace.remove(<gregtech:meta_item_1:10592>);
+
+metal_bender.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:12001>)
+    .outputs(<contenttweaker:aluminium_item_casing>*2)
+    .duration(20)
+    .EUt(80)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 0}))
+    .buildAndRegister();
+
+centrifuge.findRecipe(5, null,[<liquid:gas>*8000]).remove();
+
