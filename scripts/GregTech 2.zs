@@ -788,8 +788,9 @@ assembler.recipeBuilder()
     .buildAndRegister();
 
 mixer.recipeBuilder()
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
     .inputs(<gregtech:meta_item_1:2051>,<gregtech:meta_item_1:2072>,<gregtech:meta_item_1:2963>)
-    .outputs(<gtadditions:ga_dust:32046>)
+    .outputs(<gtadditions:ga_dust:32046>*3)
     .duration(20)
     .EUt(200)
     .buildAndRegister();
