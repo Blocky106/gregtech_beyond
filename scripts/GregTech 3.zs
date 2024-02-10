@@ -2057,7 +2057,7 @@ metal_bender.recipeBuilder()
     .outputs(<gregtech:meta_item_1:12072>)
     .duration(20)
     .EUt(12)
-    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 0}))
     .buildAndRegister();
 
 metal_bender.recipeBuilder()
@@ -2065,7 +2065,7 @@ metal_bender.recipeBuilder()
     .outputs(<gregtech:meta_item_1:12072>)
     .duration(20)
     .EUt(12)
-    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 0}))
     .buildAndRegister();
 
 metal_bender.recipeBuilder()
@@ -2073,7 +2073,7 @@ metal_bender.recipeBuilder()
     .outputs(<gregtech:meta_item_1:12072>)
     .duration(20)
     .EUt(12)
-    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 0}))
     .buildAndRegister();
 
 assembler.recipeBuilder()
