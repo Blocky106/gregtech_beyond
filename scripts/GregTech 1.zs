@@ -335,7 +335,7 @@ assembler.recipeBuilder()
 	.buildAndRegister();
 
 chemReactor.recipeBuilder()
-	.inputs(<gregtech:meta_item_1:12142>,<gregtech:meta_item_1:19018>,<gregtech:meta_item_1:32762>.withTag({Fluid: {FluidName: "silicon_rubber", Amount: 1000}}) * 3)
+	.inputs(<gregtech:meta_item_1:12142>,<gregtech:meta_item_1:19018>)
 	.fluidInputs(<liquid:sulfuric_acid> * 125)
 	.outputs(<gregtech:meta_item_2:32444>)
 	.duration(80)
@@ -3159,7 +3159,7 @@ recipes.addShaped(<gregtech:meta_item_2:32454>, [	[null, <ore:paneGlassColorless
 recipes.addShaped(<gregtech:meta_item_2:32455>, [	[<ore:wireFineCopper>, <ore:paper>, <ore:wireFineCopper>], 	[<ore:wireGtSingleCopper>, <ore:dustCoal>, <ore:wireGtSingleCopper>], 	[null, <ore:paper>, null]]);
 recipes.addShaped(<gregtech:machine:510>, [	[<contenttweaker:electricalsteelplate>, <ore:circuitBasic>, <contenttweaker:electricalsteelplate>], 	[<ore:stickIron>, <gregtech:metal_casing:1>, <ore:stickIron>], 	[<ore:screwIron>, <ore:stickIron>, <ore:screwIron>]]);
 recipes.addShaped(<gregtech:metal_casing:1>*2, [	[null, <gregtech:meta_item_2:32015>, null], 	[<gregtech:meta_item_2:32015>, <contenttweaker:electricalsteelplate>, <gregtech:meta_item_2:32015>], 	[null, <gregtech:meta_item_2:32015>, null]]);
-recipes.addShaped(<gregtech:machine:70>, [	[<ore:circuitBasic>, <thermalexpansion:machine:3>, <ore:circuitBasic>], 	[<ore:wireGtSingleSilver>, <gregtech:machine:501>, <ore:wireGtSingleSilver>], 	[<ore:ingotConductiveIron>, <ore:ingotConductiveIron>, <ore:ingotConductiveIron>]]);
+recipes.addShaped(<gregtech:machine:70>, [	[<ore:circuitBasic>, <gregtech:machine:1343>, <ore:circuitBasic>], 	[<ore:wireGtSingleSilver>, <gregtech:machine:501>, <ore:wireGtSingleSilver>], 	[<ore:ingotConductiveIron>, <ore:ingotConductiveIron>, <ore:ingotConductiveIron>]]);
 recipes.addShaped(<gregtech:frame_invar>, [	[<ore:plateInvar>, <ore:ringInvar>, <ore:plateInvar>], 	[<ore:plateCurvedInvar>, <ore:stickInvar>, <ore:plateCurvedInvar>], 	[<ore:foilInvar>, <ore:stickInvar>, <ore:foilInvar>]]);
 recipes.addShaped(<gregtech:meta_item_1:9297>, [	[<ore:nuggetIron>,<ore:dustRegularRedstone>], 	[null, null]]);
 recipes.addShaped(<gregtech:machine:420>, [	[<ore:circuitBasic>, <gregtech:meta_item_1:32640>, <ore:circuitBasic>], 	[<ore:plateIronMagnetic>, <gregtech:machine:501>, <ore:plateIronMagnetic>], 	[<contenttweaker:electricalsteelplate>, <ore:frameGtIron>, <contenttweaker:electricalsteelplate>]]);
@@ -3173,7 +3173,7 @@ recipes.addShaped(<gregtech:machine:812>, [	[<ore:plateBronze>,null, <ore:plateB
 recipes.addShaped(<gregtech:machine:527>, [	[<gregtech:metal_casing:8>, <gregtech:meta_item_2:32433>, <gregtech:metal_casing:8>], 	[<gregtech:meta_item_2:32433>, <gregtech:machine:812>, <gregtech:meta_item_2:32433>], 	[<gregtech:metal_casing:8>, <gregtech:meta_item_2:32433>, <gregtech:metal_casing:8>]]);
 recipes.addShaped(<gregtech:machine:526>, [	[<gregtech:meta_item_2:32433>, <gregtech:metal_casing:8>, <gregtech:meta_item_2:32433>], 	[<gregtech:metal_casing:8>, <ore:frameGtIron>, <gregtech:metal_casing:8>], 	[<gregtech:meta_item_2:32433>, <gregtech:metal_casing:8>, <gregtech:meta_item_2:32433>]]);
 recipes.addShaped(<gregtech:machine:100>, [[<gregtech:meta_item_1:32650>, <ore:circuitBasic>, <gregtech:meta_item_1:32650>], [<gregtech:meta_item_1:32630>, <gregtech:machine:501>, <gregtech:meta_item_1:32630>], [<ore:platePigIron>, <ore:circuitBasic>, <ore:platePigIron>]]);
-recipes.addShaped(<gregtech:machine:2534>, [[<ore:circuitBasic>, <thermalexpansion:machine:3>, <ore:circuitBasic>], [<gregtech:metal_casing:2>, <ore:wireGtHexZinc>, <gregtech:metal_casing:2>], [<ore:circuitBasic>, <gregtech:metal_casing:2>, <ore:circuitBasic>]]);
+recipes.addShaped(<gregtech:machine:2534>, [[<ore:circuitBasic>, <gregtech:machine:1343>, <ore:circuitBasic>], [<gregtech:metal_casing:2>, <ore:wireGtHexZinc>, <gregtech:metal_casing:2>], [<ore:circuitBasic>, <gregtech:metal_casing:2>, <ore:circuitBasic>]]);
 recipes.addShaped(<gregtech:meta_item_1:32680>, [[<ore:stickBrass>, <ore:stickBrass>, <ore:circuitBasic>], [<ore:plateCurvedCupronickel>, <contenttweaker:luminated_quartzite>, <ore:stickBrass>], [<ore:circuitBasic>, <ore:plateCurvedCupronickel>, <ore:stickBrass>]]);
 recipes.addShaped(<gregtech:machine:430>, [[<gregtech:meta_item_1:32640>, <contenttweaker:lasermodule>, <gregtech:meta_item_1:32640>], [<ore:plateAnnealedCopper>, <gregtech:machine:501>, <ore:plateAnnealedCopper>], [<ore:circuitBasic>, <gregtech:meta_item_1:32680>, <ore:circuitBasic>]]);
 recipes.addShaped(<gregtech:meta_item_1:32721>, [[<ore:dustDiamond>, <ore:dustDiamond>, <ore:dustDiamond>], [<ore:dustDiamond>, <ore:gearCobaltBrass>, <ore:dustDiamond>], [<ore:dustDiamond>, <ore:dustDiamond>, <ore:dustDiamond>]]);
