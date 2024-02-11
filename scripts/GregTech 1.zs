@@ -119,7 +119,7 @@ chemReactor.recipeBuilder()
 	.buildAndRegister();
 	
 mixer.recipeBuilder()
-	.inputs(<contenttweaker:catalyst>)
+	.notConsumable(<contenttweaker:catalyst>)
 	.fluidInputs(<liquid:lumin> * 144)
 	.outputs(<extendedcrafting:material:7>)
 	.duration(120)
