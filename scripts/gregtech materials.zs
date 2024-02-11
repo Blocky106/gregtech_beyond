@@ -271,6 +271,13 @@ chaos.addFlags(["GENERATE_PLATE"]);
 val highly_strained_polyethylene = MaterialRegistry.createIngotMaterial(616,"highly_strained_polyethylene",0xC3C0C1,"DULL",3);
 highly_strained_polyethylene.addFlags(["GENERATE_PLATE"]);
 
+val high_density_polyethylene = MaterialRegistry.createIngotMaterial(617,"high_density_polyethylene",0xe0e0e0,"DULL",3);
+high_density_polyethylene.addFlags(["GENERATE_PLATE"]);
+
+val cross_linked_polyethylene = MaterialRegistry.createIngotMaterial(618,"cross_linked_polyethylene",0xf5dff5,"DULL",3);
+cross_linked_polyethylene.addFlags(["GENERATE_PLATE"]);
+
+
 
 
 
@@ -478,6 +485,8 @@ util.registerDust("solid_milk_residues", 32195, 0xFFEBEE, "SHINY");
 
 
 
+util.registerFluid("paraffin_wax", 0x805e4e);
+util.registerFluid("silane", 0x574f57);
 util.registerFluid("heatedmilkslurry", 0xC3C0C1);
 util.registerFluid("milk_oil", 0xC3C0C1);
 util.registerFluid("highly_strained_ethylene_prepolymer_foam", 0xC7C1C2);
