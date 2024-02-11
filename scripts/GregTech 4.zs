@@ -1850,3 +1850,44 @@ metal_bender.recipeBuilder()
 
 centrifuge.findRecipe(5, null,[<liquid:gas>*8000]).remove();
 
+chemReactor.recipeBuilder()
+    .inputs(<gregicalityoreaddon:gaoe_oredict_item:2017>*2)
+    .fluidInputs(<liquid:hydrogen>*2000)
+    .outputs(<gregtech:meta_item_1:2017>)
+    .fluidOutputs(<liquid:hydrogen_sulfide>*1000)
+    .duration(400)
+    .EUt(12)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .inputs(<gregicalityoreaddon:gaoe_oredict_item:2017>*2)
+    .fluidInputs(<liquid:hydrogen>*2000)
+    .outputs(<gregtech:meta_item_1:2017>)
+    .fluidOutputs(<liquid:hydrogen_sulfide>*1000)
+    .duration(400)
+    .EUt(12)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .inputs(<gregicalityoreaddon:gaoe_oredict_item:2016>*2)
+    .fluidInputs(<liquid:hydrogen>*2000)
+    .outputs(<gregtech:meta_item_1:2044>)
+    .fluidOutputs(<liquid:hydrogen_sulfide>*1000)
+    .duration(400)
+    .EUt(12)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:cross_linked_polyethylene>*144,<liquid:paraffin_wax>*144)
+    .inputs(<gtadditions:ga_meta_item:32028>)
+    .outputs(<contenttweaker:superconducting_wire_insulation_base>)
+    .duration(400)
+    .EUt(22)
+    .buildAndRegister();
+
+fluidExtractor.recipeBuilder()
+    .inputs(<contenttweaker:paraffinwax>)
+    .fluidOutputs(<liquid:paraffin_wax>*1000)
+    .duration(120)
+    .EUt(2)
+    .buildAndRegister();
