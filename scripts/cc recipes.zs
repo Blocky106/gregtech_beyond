@@ -58,3 +58,11 @@ furnace.addRecipe(<gtadditions:ga_dust:32007>, <contenttweaker:cryoliteore>);
 
 recipes.addShaped(<contenttweaker:treatedwoodplanks>*8, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], 	[<ore:plankWood>, <contenttweaker:paraffinwax>, <ore:plankWood>], 	[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]);
 recipes.addShaped(<contenttweaker:steel_plated_workbench>,[[<ore:plateSteel>,null,<ore:plateSteel>],[null,<minecraft:crafting_table>,null],[<ore:plateSteel>,null,<ore:plateSteel>]]);
+recipes.addShaped(<contenttweaker:lq_steel_casing>*6,[[<gregtech:meta_item_1:12619>,null,<gregtech:meta_item_1:12619>],[<gregtech:meta_item_1:12619>,<gregtech:frame_low_quality_steel>,<gregtech:meta_item_1:12619>],[<gregtech:meta_item_1:12619>,null,<gregtech:meta_item_1:12619>]]);
+
+
+
+
+
+
+
