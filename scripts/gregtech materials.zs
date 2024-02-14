@@ -277,6 +277,9 @@ high_density_polyethylene.addFlags(["GENERATE_PLATE"]);
 val cross_linked_polyethylene = MaterialRegistry.createIngotMaterial(618,"cross_linked_polyethylene",0xf5dff5,"DULL",3);
 cross_linked_polyethylene.addFlags(["GENERATE_PLATE"]);
 
+val low_quality_steel = MaterialRegistry.createIngotMaterial(619,"low_quality_steel",0x575757,"DULL",3);
+low_quality_steel.addFlags(["GENERATE_PLATE","GENERATE_FRAME"]);
+
 
 
 
@@ -485,6 +488,7 @@ util.registerDust("solid_milk_residues", 32195, 0xFFEBEE, "SHINY");
 
 
 
+util.registerFluid("paraffin_wax", 0x805e4e);
 util.registerFluid("paraffin_wax", 0x805e4e);
 util.registerFluid("silane", 0x574f57);
 util.registerFluid("heatedmilkslurry", 0xC3C0C1);
