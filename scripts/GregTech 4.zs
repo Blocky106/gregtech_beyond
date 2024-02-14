@@ -1891,3 +1891,141 @@ fluidExtractor.recipeBuilder()
     .duration(120)
     .EUt(2)
     .buildAndRegister();
+
+Utils.removeRecipeByOutput(assembler, [<gregtech:cable:970>*3], [], false);
+
+
+assembler.recipeBuilder()
+    .inputs(<gregtech:cable:976>*3,<gregtech:fluid_pipe:183>*2,<gregtech:meta_item_1:32611>*2,<contenttweaker:superconducting_wire_insulation_base>)
+    .fluidInputs(<liquid:nitrogen>*2000)
+    .outputs(<gregtech:cable:970>*3)
+    .duration(200)
+    .EUt(120)
+    .buildAndRegister();
+
+Utils.removeRecipeByOutput(assembler, [<gregtech:cable:69>*3], [], false);
+
+
+assembler.recipeBuilder()
+    .inputs(<gregtech:cable:975>*3,<gregtech:fluid_pipe:72>*2,<gregtech:meta_item_1:32612>,<contenttweaker:superconducting_wire_insulation_base>)
+    .fluidInputs(<liquid:nitrogen>*2000)
+    .outputs(<gregtech:cable:969>*3)
+    .duration(200)
+    .EUt(120)
+    .buildAndRegister();
+
+Utils.removeRecipeByOutput(assembler, [<gregtech:cable:968>*9], [], false);
+
+
+assembler.recipeBuilder()
+    .inputs(<gregtech:cable:974>*9,<gregtech:fluid_pipe:235>*6,<gregtech:meta_item_1:32613>*2,<contenttweaker:superconducting_wire_insulation_base>)
+    .fluidInputs(<liquid:liquid_nitrogen>*2000)
+    .outputs(<gregtech:cable:968>*9)
+    .duration(200)
+    .EUt(120)
+    .buildAndRegister();
+
+Utils.removeRecipeByOutput(assembler, [<gregtech:cable:967>*6], [], false);
+
+
+assembler.recipeBuilder()
+    .inputs(<gregtech:cable:973>*6,<gregtech:fluid_pipe:135>*4,<gregtech:meta_item_1:32614>,<contenttweaker:superconducting_wire_insulation_base>)
+    .fluidInputs(<liquid:liquid_nitrogen>*6000)
+    .outputs(<gregtech:cable:967>*6)
+    .duration(200)
+    .EUt(120)
+    .buildAndRegister();
+
+Utils.removeRecipeByOutput(assembler, [<gregtech:cable:966>*8], [], false);
+
+
+assembler.recipeBuilder()
+    .inputs(<gregtech:cable:972>*8,<gregtech:fluid_pipe:963>*5,<gregtech:meta_item_1:32615>,<contenttweaker:superconducting_wire_insulation_base>)
+    .fluidInputs(<liquid:liquid_nitrogen>*6000)
+    .outputs(<gregtech:cable:966>*8)
+    .duration(200)
+    .EUt(120)
+    .buildAndRegister();
+
+Utils.removeRecipeByOutput(assembler, [<gregtech:cable:964>*16], [], false);
+
+
+assembler.recipeBuilder()
+    .inputs(<gregtech:cable:971>*16,<gregtech:fluid_pipe:307>*6,<gregtech:meta_item_1:32616>,<contenttweaker:superconducting_wire_insulation_base>)
+    .fluidInputs(<liquid:liquid_helium>*8000)
+    .outputs(<gregtech:cable:964>*16)
+    .duration(200)
+    .EUt(120)
+    .buildAndRegister();
+
+Utils.removeRecipeByOutput(assembler, [<gregtech:cable:744>*32], [], false);
+
+
+assembler.recipeBuilder()
+    .inputs(<gregtech:cable:745>*32,<gregtech:fluid_pipe:192>*7,<gregtech:meta_item_1:32617>)
+    .fluidInputs(<liquid:liquid_helium>*8000)
+    .outputs(<gregtech:cable:744>*32)
+    .duration(200)
+    .EUt(120)
+    .buildAndRegister();
+
+recipes.addShapeless(<gregtech:meta_item_1:2619>*2,[<gregtech:meta_item_1:2033>,<gregtech:meta_item_1:2106>]);
+
+mixer.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2180>*2,<gregtech:meta_item_1:2521>*2)
+    .outputs(<gtadditions:ga_dust:32046>*4)
+    .duration(20)
+    .EUt(220)
+    .buildAndRegister();
+
+furnace.addRecipe(<minecraft:glass>,<tconstruct:clear_glass>);
+furnace.remove(<minecraft:glass>);
+
+compressor.recipeBuilder()
+    .inputs(<minecraft:coal>*2)
+    .outputs(<contenttweaker:coalball>)
+    .duration(20)
+    .EUt(12)
+    .buildAndRegister();
+
+compressor.recipeBuilder()
+    .inputs(<minecraft:coal:1>*2)
+    .outputs(<contenttweaker:coalball>)
+    .duration(20)
+    .EUt(12)
+    .buildAndRegister();
+
+compressor.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2106>*2)
+    .outputs(<contenttweaker:coalball>)
+    .duration(20)
+    .EUt(12)
+    .buildAndRegister();
+
+compressor.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2101>*2)
+    .outputs(<contenttweaker:coalball>)
+    .duration(20)
+    .EUt(12)
+    .buildAndRegister();
+
+compressor.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2211>*2)
+    .outputs(<contenttweaker:coalball>)
+    .duration(20)
+    .EUt(12)
+    .buildAndRegister();
+
+compressor.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2225>*2)
+    .outputs(<contenttweaker:coalball>)
+    .duration(20)
+    .EUt(12)
+    .buildAndRegister();
+
+compressor.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2357>*2)
+    .outputs(<contenttweaker:coalball>)
+    .duration(20)
+    .EUt(12)
+    .buildAndRegister();
