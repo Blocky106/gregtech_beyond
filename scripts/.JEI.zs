@@ -8,7 +8,7 @@ import crafttweaker.block.IBlock;
 import mods.jei.JEI.removeAndHide;
 import mods.jei.JEI.hideCategory;
 
-
+mods.jei.JEI.hideCategory("gregtech:fischer_tropsch_reactor");
 mods.jei.JEI.hideCategory("zmaster587.AR.platePresser");
 mods.jei.JEI.hideCategory("zmaster587.AR.lathe");
 mods.jei.JEI.hideCategory("zmaster587.AR.rollingMachine");
@@ -101,6 +101,7 @@ mods.jei.JEI.hideCategory("EIOTank");
 mods.jei.JEI.hideCategory("forestry.bottler");
 mods.jei.JEI.hideCategory("thermalexpansion.smelter");
 mods.jei.JEI.hideCategory("thermalexpansion.smelter_pyrotheum");
+mods.jei.JEI.hideCategory("gtadditions:disassembler");
 
 
 
