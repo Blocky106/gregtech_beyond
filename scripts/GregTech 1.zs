@@ -113,7 +113,7 @@ macerator.recipeBuilder()
 chemReactor.recipeBuilder()
 	.inputs(<enderio:item_material:76> * 2)
 	.fluidInputs(<liquid:nutrient_distillation> * 600,<liquid:cloud_seed> * 1300)
-	.fluidOutputs(<liquid:lumin> * 288)
+	.fluidOutputs(<liquid:lumin> * 1152)
 	.duration(80)
 	.EUt(15)
 	.buildAndRegister();
@@ -1606,7 +1606,7 @@ mixer.recipeBuilder()
 	.inputs(<gregtech:meta_item_1:2072>,<gregtech:meta_item_1:2051>)
 	.outputs(<gregtech:meta_item_1:2521>*2)
 	.duration(200)
-	.EUt(5657)
+	.EUt(120)
 	.buildAndRegister();
 
 assembler.recipeBuilder()	
