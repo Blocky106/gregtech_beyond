@@ -1864,3 +1864,11 @@ aluminium_item_casing.register();
 
 var superconducting_wire_insulation_base = VanillaFactory.createItem("superconducting_wire_insulation_base");
 superconducting_wire_insulation_base.register();
+
+var lq_steel_casing = VanillaFactory.createBlock("lq_steel_casing", <blockmaterial:rock>);
+lq_steel_casing.setBlockHardness(12.0);
+lq_steel_casing.setBlockResistance(10.0);
+lq_steel_casing.setToolClass("pickaxe");
+lq_steel_casing.setToolLevel(1);
+lq_steel_casing.setBlockSoundType(<soundtype:metal>);
+lq_steel_casing.register();
