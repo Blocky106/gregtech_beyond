@@ -28,60 +28,12 @@ var meta = 10018;
 val astro_mining_station = Builder.start(loc, meta)
     .withPattern(
             FactoryBlockPattern.start(RelativeDirection.RIGHT, RelativeDirection.BACK, RelativeDirection.UP)
-                .aisle(
-                    "~CCCCC~",
-                    "FCCCCCF",
-                    "FCCCCCF",
-                    "FCCCCCF",
-                    "FCCCCCF",
-                    "FCCCCCF",
-                    "FCCCCCF",
-                    "~CCSCC~")
-                .aisle(
-                    "~CCCCC~",
-                    "FCPPPCF",
-                    "~CPPPC~",
-                    "~CPPPC~",
-                    "~CPPPC~",
-                    "~C~P~C~",
-                    "FC~~~CF",
-                    "~C~~~C~")
-                .aisle(
-                    "~CCCCC~",
-                    "FCPPPCF",
-                    "~CPPPC~",
-                    "~CPPPC~",
-                    "~CPPPC~",
-                    "~CPPPC~",
-                    "FC~~~CF",
-                    "~C~~~C~")
-                .aisle(
-                    "~CCCCC~",
-                    "FCPPPCF",
-                    "~CPPPC~",
-                    "~CPPPC~",
-                    "~CPPPC~",
-                    "~C~P~C~",
-                    "FC~~~CF",
-                    "~C~~~C~")
-                .aisle(
-                    "~CCCCC~",
-                    "FCCCCCF",
-                    "FCCCCCF",
-                    "FCCCCCF",
-                    "FCCCCCF",
-                    "FCCCCCF",
-                    "FCCCCCF",
-                    "~CCCCC~")
-                .aisle(
-                    "~~~~~~~",
-                    "~FFFFF~",
-                    "~F~~~F~",    
-                    "~F~~~F~",    
-                    "~F~~~F~",   
-                    "~F~~~F~",  
-                    "~FFFFF~",  
-                    "~~~~~~~")
+                .aisle("~CCCCC~","FCCCCCF","FCCCCCF","FCCCCCF","FCCCCCF","FCCCCCF","FCCCCCF","~CCSCC~")
+                .aisle("~CCCCC~","FCPPPCF","~CPPPC~","~CPPPC~","~CPPPC~","~C~P~C~","FC~~~CF","~C~~~C~")
+                .aisle("~CCCCC~","FCPPPCF","~CPPPC~","~CPPPC~","~CPPPC~","~CPPPC~","FC~~~CF","~C~~~C~")
+                .aisle("~CCCCC~","FCPPPCF","~CPPPC~","~CPPPC~","~CPPPC~","~C~P~C~","FC~~~CF","~C~~~C~")
+                .aisle("~CCCCC~","FCCCCCF","FCCCCCF","FCCCCCF","FCCCCCF","FCCCCCF","FCCCCCF","~CCCCC~")
+                .aisle("~~~~~~~","~FFFFF~","~F~~~F~","~F~~~F~","~F~~~F~","~F~~~F~","~FFFFF~","~~~~~~~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
                 .whereOr("C", 
@@ -98,55 +50,13 @@ val astro_mining_station = Builder.start(loc, meta)
                 .build())
         .addDesign(
                 FactoryMultiblockShapeInfo.start()
-                .aisle(
-                    " FFFFFF ",
-                    " F    F ",
-                    " F    F ",
-                    " F    F ",
-                    " FFFFFF ",
-                    "        ")
-                .aisle(
-                    "CCCCCCCC",
-                    "CCCCCCCC",
-                    "CCCCCCCC",
-                    "CCCCCCCC",
-                    "CCCCCCCC",
-                    " FFFFFF ")
-                .aisle(
-                    "CCCCCCCC",
-                    "   PPPPC",
-                    "  PPPPPC",
-                    "   PPPPC",
-                    "CCCCCCCC",
-                    " F    F ")
-                .aisle(
-                    "SCCCCCCE",
-                    "  PPPPPC",
-                    " PPPPPPC",
-                    "  PPPPPC",
-                    "CCCCCCCC",
-                    " F    F ")
-                .aisle(
-                    "CCCCCCCC",
-                    "   PPPPC",
-                    "  PPPPPC",
-                    "   PPPPC",
-                    "CCCCCCCC",
-                    " F    F ")
-                .aisle(
-                    "CCCCCCCC",
-                    "CCCCCCCC",
-                    "CCCCCCCC",
-                    "CCCCCCCC",
-                    "CCCCCCCC",
-                    " FFFFFF ")
-                .aisle(
-                    " FFFFFF ",
-                    " F    F ",
-                    " F    F ",
-                    " F    F ",
-                    " FFFFFF ",
-                    "        ")
+                .aisle(" FFFFFF "," F    F "," F    F "," F    F "," FFFFFF ","        ")
+                .aisle("CCCCCCCC","CCCCCCCC","CCCCCCCC","CCCCCCCC","CCCCCCCC"," FFFFFF ")
+                .aisle("CCCCCCCC","   PPPPC","  PPPPPC","   PPPPC","CCCCCCCC"," F    F ")
+                .aisle("SCCCCCCE","  PPPPPC"," PPPPPPC","  PPPPPC","CCCCCCCC"," F    F ")
+                .aisle("CCCCCCCC","   PPPPC","  PPPPPC","   PPPPC","CCCCCCCC"," F    F ")
+                .aisle("CCCCCCCC","CCCCCCCC","CCCCCCCC","CCCCCCCC","CCCCCCCC"," FFFFFF ")
+                .aisle(" FFFFFF "," F    F "," F    F "," F    F "," FFFFFF ","        ")
                 .where("F", <metastate:gregtech:frame_steel>)
                 .where("P", <metastate:gregtech:boiler_casing:1>)
                 .where("S", IBlockInfo.controller(loc))

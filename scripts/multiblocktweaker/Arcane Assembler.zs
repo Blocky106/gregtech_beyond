@@ -28,18 +28,9 @@ var meta = 10051;
 val arcane_assembler = Builder.start(loc, meta)
     .withPattern(
             FactoryBlockPattern.start(RelativeDirection.RIGHT, RelativeDirection.BACK, RelativeDirection.UP)
-                .aisle(
-                    "CAC",
-                    "AAA",
-                    "CSC")
-                .aisle(
-                    "F~F",
-                    "~~~",
-                    "F~F")
-                .aisle(
-                    "CAC",
-                    "AAA",
-                    "CAC")
+                .aisle("CAC","AAA","CSC")
+                .aisle("F~F","~~~","F~F")
+                .aisle("CAC","AAA","CAC")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
                 .whereOr("A", 
