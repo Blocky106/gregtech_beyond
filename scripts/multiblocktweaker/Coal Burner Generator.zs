@@ -72,8 +72,28 @@ val coal_burner_generator = Builder.start(loc, meta)
         FactoryRecipeMap.start(loc)
                         .maxInputs(2)
                         .maxFluidInputs(1)
-                        .maxFluidOutputs(1)
+                        .maxFluidOutputs(2)
                         .build())
 .withZoom(0.5f)
 .buildAndRegister() as Multiblock;
 
+coal_burner_generator.recipeMap.recipeBuilder()
+    .inputs(<minecraft:coal>*2)
+    .fluidInputs(<liquid:water>*100)
+    .fluidOutputs(<liquid:sulfur_carbon_mixture>*200,<liquid:steam>*16000)
+    .duration(20)
+    .buildAndRegister();
+
+coal_burner_generator.recipeMap.recipeBuilder()
+    .inputs(<minecraft:coal:1>*2)
+    .fluidInputs(<liquid:water>*100)
+    .fluidOutputs(<liquid:sulfur_carbon_mixture>*200,<liquid:steam>*16000)
+    .duration(40)
+    .buildAndRegister();
+
+coal_burner_generator.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2991>)
+    .fluidInputs(<liquid:water>*100)
+    .fluidOutputs(<liquid:sulfur_carbon_mixture>*200,<liquid:steam>*16000)
+    .duration(5)
+    .buildAndRegister();
