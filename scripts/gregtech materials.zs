@@ -488,7 +488,7 @@ util.registerDust("solid_milk_residues", 32195, 0xFFEBEE, "SHINY");
 
 
 
-util.registerFluid("paraffin_wax", 0x805e4e);
+util.registerFluid("sulfur_carbon_mixture", 0x686853);
 util.registerFluid("paraffin_wax", 0x805e4e);
 util.registerFluid("silane", 0x574f57);
 util.registerFluid("heatedmilkslurry", 0xC3C0C1);
