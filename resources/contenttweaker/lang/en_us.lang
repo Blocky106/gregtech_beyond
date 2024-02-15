@@ -1503,3 +1503,4 @@ multiblocktweaker.machine.arcane_assembler.name=Arcane Assembler
 item.contenttweaker.aluminium_item_casing.name=Aluminium Item Casing
 item.contenttweaker.superconducting_wire_insulation_base.name=Superconducting Wire Insulation Base
 tile.contenttweaker.lq_steel_casing.name=Low Quality Steel Casing
+multiblocktweaker.machine.coal_burner_generator.name=Coal Burner Generator
