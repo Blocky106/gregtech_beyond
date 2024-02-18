@@ -280,6 +280,9 @@ cross_linked_polyethylene.addFlags(["GENERATE_PLATE"]);
 val low_quality_steel = MaterialRegistry.createIngotMaterial(619,"low_quality_steel",0x575757,"DULL",3);
 low_quality_steel.addFlags(["GENERATE_PLATE","GENERATE_FRAME"]);
 
+val bscco = MaterialRegistry.createIngotMaterial(620,"bscco",0x575757,"DULL",3);
+bscco.addFlags(["GENERATE_PLATE"]);
+
 
 
 
@@ -481,6 +484,10 @@ util.registerDust("resonant_clathrate", 32192, 0x1B5E20, "SHINY");
 util.registerDust("destabilized_clathrate", 32193, 0xB71C1C, "SHINY");
 util.registerDust("energized_clathrate", 32194, 0xFFEB3B, "SHINY");
 util.registerDust("solid_milk_residues", 32195, 0xFFEBEE, "SHINY");
+util.registerDust("precipitate_mithril_dust", 32196, 0xAED2F2, "DULL");
+util.registerDust("roughen_mithril_dust", 32197, 0xAED2F2, "DULL");
+util.registerDust("excited_roughen_mithril_dust", 32199, 0xAED2F2, "SHINY");
+util.registerDust("excited_mithril_dust", 32200, 0xAED2F2, "SHINY");
 
 
 
@@ -488,6 +495,7 @@ util.registerDust("solid_milk_residues", 32195, 0xFFEBEE, "SHINY");
 
 
 
+util.registerFluid("mithril_fluoride", 0x8C24A7);
 util.registerFluid("sulfur_carbon_mixture", 0x686853);
 util.registerFluid("paraffin_wax", 0x805e4e);
 util.registerFluid("silane", 0x574f57);
