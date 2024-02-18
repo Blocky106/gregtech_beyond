@@ -157,6 +157,16 @@ ebf.recipeBuilder()
 	.property("temperature", 1800)
 	.buildAndRegister();
 	
+ebf.recipeBuilder()
+	.inputs(<gtadditions:ga_dust:32013>)
+	.fluidInputs(<liquid:oxygen>*1000)
+	.outputs(<contenttweaker:bulatsteelingot>)
+	.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 11}))
+	.duration(100)
+	.EUt(80)
+	.property("temperature", 1700)
+	.buildAndRegister();
+	
 	
 metal_bender.recipeBuilder()
 	.inputs(<contenttweaker:silveralloyingot>)
