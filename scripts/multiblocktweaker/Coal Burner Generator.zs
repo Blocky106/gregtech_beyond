@@ -43,7 +43,7 @@ val coal_burner_generator = Builder.start(loc, meta)
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
                 .whereOr("C", 
-                <metastate:contenttweaker:lq_steel_casing>,
+                <blockstate:contenttweaker:lq_steel_casing>,
                     IBlockMatcher.abilityPartPredicate(
                         MultiblockAbility.IMPORT_FLUIDS,
                         MultiblockAbility.IMPORT_ITEMS,
@@ -63,7 +63,7 @@ val coal_burner_generator = Builder.start(loc, meta)
                 .aisle("CCC","CCC","CCC")
                 .aisle("CCC","S E","CCC")
                 .aisle("CCC","CCC","CCC")
-                .where("C", <metastate:contenttweaker:lq_steel_casing>)
+                .where("C", <blockstate:contenttweaker:lq_steel_casing>)
                 .where("G", <metastate:minecraft:glass>)
                 .where("S", IBlockInfo.controller(loc))
                 .where("E", MetaTileEntities.ENERGY_OUTPUT_HATCH[1], IFacing.east())
