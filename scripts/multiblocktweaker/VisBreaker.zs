@@ -28,102 +28,18 @@ var meta = 1007;
 val vis_breaker = Builder.start(loc, meta)
     .withPattern(
             FactoryBlockPattern.start(RelativeDirection.RIGHT, RelativeDirection.BACK, RelativeDirection.UP)
-                .aisle(
-                    "~~~~~~~",
-                    "~~CCC~~",
-                    "~CCCCC~",
-                    "~CCCCC~",
-                    "~CCCCC~",
-                    "~~CSC~~",
-                    "~~~~~~~")
-                .aisle(
-                    "~~~~~~~",
-                    "~~CCC~~",
-                    "~C~~~C~",
-                    "~C~~~C~",
-                    "~C~~~C~",
-                    "~~CCC~~",
-                    "~~~~~~~")
-                .aisle(
-                    "~~FFF~~",
-                    "~FFFFF~",
-                    "FFCCCFF",
-                    "FFCCCFF",
-                    "FFCCCFF",
-                    "~FFFFF~",
-                    "~~FFF~~")
-                .aisle(
-                    "~~~~~~~",
-                    "~~CCC~~",
-                    "~C~~~C~",
-                    "~C~~~C~",
-                    "~C~~~C~",
-                    "~~CCC~~",
-                    "~~~~~~~")
-                .aisle(
-                    "~~~~~~~",
-                    "~~CCC~~",
-                    "~C~~~C~",
-                    "~C~~~C~",
-                    "~C~~~C~",
-                    "~~CCC~~",
-                    "~~~~~~~")
-                .aisle(
-                    "~~FFF~~",
-                    "~FFFFF~",
-                    "FFCCCFF",
-                    "FFCCCFF",
-                    "FFCCCFF",
-                    "~FFFFF~",
-                    "~~FFF~~")
-                .aisle(
-                    "~~~~~~~",
-                    "~~CCC~~",
-                    "~C~~~C~",
-                    "~C~~~C~",
-                    "~C~~~C~",
-                    "~~CCC~~",
-                    "~~~~~~~")
-                .aisle(
-                    "~~~~~~~",
-                    "~~CCC~~",
-                    "~C~~~C~",
-                    "~C~~~C~",
-                    "~C~~~C~",
-                    "~~CCC~~",
-                    "~~~~~~~")
-                .aisle(
-                    "~~FFF~~",
-                    "~FFFFF~",
-                    "FFCCCFF",
-                    "FFCCCFF",
-                    "FFCCCFF",
-                    "~FFFFF~",
-                    "~~FFF~~")
-                .aisle(
-                    "~~~~~~~",
-                    "~~CCC~~",
-                    "~C~~~C~",
-                    "~C~~~C~",
-                    "~C~~~C~",
-                    "~~CCC~~",
-                    "~~~~~~~")
-                .aisle(
-                    "~~~~~~~",
-                    "~~CCC~~",
-                    "~C~~~C~",
-                    "~C~~~C~",
-                    "~C~~~C~",
-                    "~~CCC~~",
-                    "~~~~~~~")
-                .aisle(
-                    "~~~~~~~",
-                    "~~~~~~~",
-                    "~~CCC~~",
-                    "~~CCC~~",
-                    "~~CCC~~",
-                    "~~~~~~~",
-                    "~~~~~~~")
+                .aisle("~~~~~~~","~~CCC~~","~CCCCC~","~CCCCC~","~CCCCC~","~~CSC~~","~~~~~~~")
+                .aisle("~~~~~~~","~~CCC~~","~C~~~C~","~C~~~C~","~C~~~C~","~~CCC~~","~~~~~~~")
+                .aisle("~~FFF~~","~FFFFF~","FFCCCFF","FFCCCFF","FFCCCFF","~FFFFF~","~~FFF~~")
+                .aisle("~~~~~~~","~~CCC~~","~C~~~C~","~C~~~C~","~C~~~C~","~~CCC~~","~~~~~~~")
+                .aisle("~~~~~~~","~~CCC~~","~C~~~C~","~C~~~C~","~C~~~C~","~~CCC~~","~~~~~~~")
+                .aisle("~~FFF~~","~FFFFF~","FFCCCFF","FFCCCFF","FFCCCFF","~FFFFF~","~~FFF~~")
+                .aisle("~~~~~~~","~~CCC~~","~C~~~C~","~C~~~C~","~C~~~C~","~~CCC~~","~~~~~~~")
+                .aisle("~~~~~~~","~~CCC~~","~C~~~C~","~C~~~C~","~C~~~C~","~~CCC~~","~~~~~~~")
+                .aisle("~~FFF~~","~FFFFF~","FFCCCFF","FFCCCFF","FFCCCFF","~FFFFF~","~~FFF~~")
+                .aisle("~~~~~~~","~~CCC~~","~C~~~C~","~C~~~C~","~C~~~C~","~~CCC~~","~~~~~~~")
+                .aisle("~~~~~~~","~~CCC~~","~C~~~C~","~C~~~C~","~C~~~C~","~~CCC~~","~~~~~~~")
+                .aisle("~~~~~~~","~~~~~~~","~~CCC~~","~~CCC~~","~~CCC~~","~~~~~~~","~~~~~~~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
                 .whereOr("C", 
@@ -139,97 +55,13 @@ val vis_breaker = Builder.start(loc, meta)
                 .build())
         .addDesign(
                 FactoryMultiblockShapeInfo.start()
-                .aisle(
-                    "       ",
-                    "       ",
-                    "  FFF  ",
-                    "       ",
-                    "       ",
-                    "  FFF  ",
-                    "       ",
-                    "       ",
-                    "  FFF  ",
-                    "       ",
-                    "       ",
-                    "       ")
-                .aisle(
-                    "  CCC  ",
-                    "  CCC  ",
-                    " FFFFF ",
-                    "  CCC  ",
-                    "  CCC  ",
-                    " FFFFF ",
-                    "  CCC  ",
-                    "  CCC  ",
-                    " FFFFF ",
-                    "  CCC  ",
-                    "  CCC  ",
-                    "       ")
-                .aisle(
-                    " CCCCC ",
-                    " C   X ",
-                    "FFCCCFF",
-                    " C   C ",
-                    " C   C ",
-                    "FFCCCFF",
-                    " C   C ",
-                    " C   C ",
-                    "FFCCCFF",
-                    " C   C ",
-                    " C   C ",
-                    "  CCC  ")
-                .aisle(
-                    " SCCCC ",
-                    " C   E ",
-                    "FFCCCFF",
-                    " C   C ",
-                    " C   C ",
-                    "FFCCCFF",
-                    " C   C ",
-                    " C   C ",
-                    "FFCCCFF",
-                    " C   C ",
-                    " C   C ",
-                    "  CCC  ")
-                .aisle(
-                    " CCCCC ",
-                    " C   L ",
-                    "FFCCCFF",
-                    " C   C ",
-                    " C   C ",
-                    "FFCCCFF",
-                    " C   C ",
-                    " C   C ",
-                    "FFCCCFF",
-                    " C   C ",
-                    " C   C ",
-                    "  CCC  ")
-                .aisle(
-                    "  CCC  ",
-                    "  CCC  ",
-                    " FFFFF ",
-                    "  CCC  ",
-                    "  CCC  ",
-                    " FFFFF ",
-                    "  CCC  ",
-                    "  CCC  ",
-                    " FFFFF ",
-                    "  CCC  ",
-                    "  CCC  ",
-                    "       ")
-                .aisle(
-                    "       ",
-                    "       ",
-                    "  FFF  ",
-                    "       ",
-                    "       ",
-                    "  FFF  ",
-                    "       ",
-                    "       ",
-                    "  FFF  ",
-                    "       ",
-                    "       ",
-                    "       ")
+                .aisle("       ","       ","  FFF  ","       ","       ","  FFF  ","       ","       ","  FFF  ","       ","       ","       ")
+                .aisle("  CCC  ","  CCC  "," FFFFF ","  CCC  ","  CCC  "," FFFFF ","  CCC  ","  CCC  "," FFFFF ","  CCC  ","  CCC  ","       ")
+                .aisle(" CCCCC "," C   X ","FFCCCFF"," C   C "," C   C ","FFCCCFF"," C   C "," C   C ","FFCCCFF"," C   C "," C   C ","  CCC  ")
+                .aisle(" SCCCC "," C   E ","FFCCCFF"," C   C "," C   C ","FFCCCFF"," C   C "," C   C ","FFCCCFF"," C   C "," C   C ","  CCC  ")
+                .aisle(" CCCCC "," C   L ","FFCCCFF"," C   C "," C   C ","FFCCCFF"," C   C "," C   C ","FFCCCFF"," C   C "," C   C ","  CCC  ")
+                .aisle("  CCC  ","  CCC  "," FFFFF ","  CCC  ","  CCC  "," FFFFF ","  CCC  ","  CCC  "," FFFFF ","  CCC  ","  CCC  ","       ")
+                .aisle("       ","       ","  FFF  ","       ","       ","  FFF  ","       ","       ","  FFF  ","       ","       ","       ")
                 .where("C", <metastate:gregtech:metal_casing:4>)
                 .where("S", IBlockInfo.controller(loc))
                 .where("F", <metastate:gregtech:frame_steel>)

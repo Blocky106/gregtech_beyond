@@ -28,18 +28,9 @@ var meta = 1006;
 val vulcanized_press = Builder.start(loc, meta)
     .withPattern(
             FactoryBlockPattern.start(RelativeDirection.RIGHT, RelativeDirection.BACK, RelativeDirection.UP)
-                .aisle(
-                    "PCP",
-                    "CCC",
-                    "PSP")
-                .aisle(
-                    "VVV",
-                    "V~V",
-                    "VVV")
-                .aisle(
-                    "PCP",
-                    "CCC",
-                    "PCP")
+                .aisle("PCP","CCC","PSP")
+                .aisle("VVV","V~V","VVV")
+                .aisle("PCP","CCC","PCP")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
                 .whereOr("C", 
@@ -56,18 +47,9 @@ val vulcanized_press = Builder.start(loc, meta)
                 .build())
         .addDesign(
                 FactoryMultiblockShapeInfo.start()
-                .aisle(
-                    "PCP",
-                    "VVV",
-                    "PCP")
-                .aisle(
-                    "SCC",
-                    "V V",
-                    "CLC")
-                .aisle(
-                    "PCP",
-                    "VVV",
-                    "PEP")
+                .aisle("PCP","VVV","PCP")
+                .aisle("SCC","V V","CLC")
+                .aisle("PCP","VVV","PEP")
                 .where("C", <metastate:gregtech:boiler_firebox_casing:1>)
                 .where("S", IBlockInfo.controller(loc))
                 .where("V", <metastate:gregtech:wire_coil>)

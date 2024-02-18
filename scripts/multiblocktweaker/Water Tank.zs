@@ -28,22 +28,10 @@ var meta = 1005;
 val water_tank = Builder.start(loc, meta)
     .withPattern(
             FactoryBlockPattern.start(RelativeDirection.RIGHT, RelativeDirection.BACK, RelativeDirection.UP)
-                .aisle(
-                    "F~F",
-                    "~~~",
-                    "F~F")
-                .aisle(
-                    "CCC",
-                    "CCC",
-                    "CSC")
-                .aisle(
-                    "CCC",
-                    "C~C",
-                    "CCC")
-                .aisle(
-                    "CCC",
-                    "CCC",
-                    "CCC")
+                .aisle("F~F","~~~","F~F")
+                .aisle("CCC","CCC","CSC")
+                .aisle("CCC","C~C","CCC")
+                .aisle("CCC","CCC","CCC")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
                 .whereOr("C", 
@@ -59,21 +47,9 @@ val water_tank = Builder.start(loc, meta)
                 .build())
         .addDesign(
                 FactoryMultiblockShapeInfo.start()
-                .aisle(
-                    "F F",
-                    "CCC",
-                    "CCC",
-                    "CCC")
-                .aisle(
-                    "   ",
-                    "SXC",
-                    "C C",
-                    "CLC")
-                .aisle(
-                    "F F",
-                    "CCC",
-                    "CCC",
-                    "CEC")
+                .aisle("F F","CCC","CCC","CCC")
+                .aisle("   ","SXC","C C","CLC")
+                .aisle("F F","CCC","CCC","CEC")
                 .where("C", <metastate:contenttweaker:steelborderedwoodencasing>)
                 .where("S", IBlockInfo.controller(loc))
                 .where("F", <metastate:gregtech:frame_steel>)
