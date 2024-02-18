@@ -2370,14 +2370,6 @@ assembler.recipeBuilder()
 assembler.findRecipe(2,[<minecraft:ender_pearl>,<minecraft:blaze_powder>],null).remove();
 assembler.findRecipe(2,[<minecraft:ender_pearl>*6,<minecraft:blaze_rod>],null).remove();
 
-
-cas.recipeBuilder()
-    .inputs(<qmd:semiconductor:4>,<contenttweaker:titansteelcoil>*2,<gregtech:meta_item_1:12304>*2,<gregtech:meta_item_1:14855>*2)
-    .outputs(<qmd:semiconductor:5>)
-    .duration(400)
-    .EUt(2000)
-    .buildAndRegister();
-
 assembler.recipeBuilder()
     .inputs(<contenttweaker:quantumcasing>,<gregtech:meta_item_1:32677>*2,<gregtech:meta_item_1:12031>*32,<gregtech:meta_item_2:16470>*8,<gregtech:meta_item_1:12111>*32)
     .outputs(<contenttweaker:fieldgeneratorcasing>)
