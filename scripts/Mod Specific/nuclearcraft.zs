@@ -993,7 +993,7 @@ assembler.recipeBuilder()
     .buildAndRegister();
 
 cas.recipeBuilder()
-    .inputs(<qmd:semiconductor:1>,<gregtech:cable:2966>*2,<gregtech:cable:2967>*4,<gregtech:cable:2968>*8,<gregtech:cable:2969>*16)
+    .inputs(<qmd:semiconductor:1>,<gregtech:cable:1966>,<gregtech:cable:1967>*2,<gregtech:cable:1968>*4,<gregtech:cable:1969>*8)
     .fluidInputs(<liquid:indalloy140>*1000)
     .outputs(<contenttweaker:unimprintedntypewafer>)
     .duration(400)
@@ -1028,41 +1028,12 @@ recipes.addShaped(<nuclearcraft:helm_hazmat>, [
 	[null, null, null]
 ]);
 
-recipes.addShaped(<nuclearcraft:legs_hazmat>, [
-	[<nuclearcraft:rad_shielding:2>, <ore:wool>, <nuclearcraft:rad_shielding:2>], 
-	[<gregtech:meta_item_1:12141>, null, <gregtech:meta_item_1:12141>], 
-	[<ore:plateSteel>, null, <ore:plateSteel>]
-]);
-
-recipes.addShaped(<nuclearcraft:legs_hazmat>, [
-	[<nuclearcraft:rad_shielding:2>, <ore:wool>, <nuclearcraft:rad_shielding:2>], 
-	[<ore:bioplastic>, null, <ore:bioplastic>], 
-	[<ore:plateSteel>, null, <ore:plateSteel>]
-]);
-
-recipes.addShaped(<nuclearcraft:chest_hazmat>, [
-	[<ore:bioplastic>, null, <ore:bioplastic>], 
-	[<nuclearcraft:rad_shielding:2>, <ore:plateSteel>, <nuclearcraft:rad_shielding:2>], 
-	[<ore:plateSteel>, <ore:wool>, <ore:plateSteel>]
-]);
-
-recipes.addShaped(<nuclearcraft:chest_hazmat>, [
-	[<gregtech:meta_item_1:12141>, null, <gregtech:meta_item_1:12141>], 
-	[<nuclearcraft:rad_shielding:2>, <ore:plateSteel>, <nuclearcraft:rad_shielding:2>], 
-	[<ore:plateSteel>, <ore:wool>, <ore:plateSteel>]
-]);
-
-recipes.addShaped(<nuclearcraft:boots_hazmat>, [
-	[null, null, null], 
-	[<nuclearcraft:rad_shielding:2>, null, <nuclearcraft:rad_shielding:2>], 
-	[<ore:bioplastic>, null, <ore:bioplastic>]
-]);
-
-recipes.addShaped(<nuclearcraft:boots_hazmat>, [
-	[null, null, null], 
-	[<nuclearcraft:rad_shielding:2>, null, <nuclearcraft:rad_shielding:2>], 
-	[<gregtech:meta_item_1:12141>, null, <gregtech:meta_item_1:12141>]
-]);
+recipes.addShaped(<nuclearcraft:legs_hazmat>, [	[<nuclearcraft:rad_shielding:2>, <ore:wool>, <nuclearcraft:rad_shielding:2>], 	[<gregtech:meta_item_1:12141>, null, <gregtech:meta_item_1:12141>], 	[<ore:plateSteel>, null, <ore:plateSteel>]]);
+recipes.addShaped(<nuclearcraft:legs_hazmat>, [	[<nuclearcraft:rad_shielding:2>, <ore:wool>, <nuclearcraft:rad_shielding:2>], 	[<ore:bioplastic>, null, <ore:bioplastic>], 	[<ore:plateSteel>, null, <ore:plateSteel>]]);
+recipes.addShaped(<nuclearcraft:chest_hazmat>, [	[<ore:bioplastic>, null, <ore:bioplastic>], 	[<nuclearcraft:rad_shielding:2>, <ore:plateSteel>, <nuclearcraft:rad_shielding:2>], 	[<ore:plateSteel>, <ore:wool>, <ore:plateSteel>]]);
+recipes.addShaped(<nuclearcraft:chest_hazmat>, [	[<gregtech:meta_item_1:12141>, null, <gregtech:meta_item_1:12141>], 	[<nuclearcraft:rad_shielding:2>, <ore:plateSteel>, <nuclearcraft:rad_shielding:2>], 	[<ore:plateSteel>, <ore:wool>, <ore:plateSteel>]]);
+recipes.addShaped(<nuclearcraft:boots_hazmat>, [	[null, null, null], 	[<nuclearcraft:rad_shielding:2>, null, <nuclearcraft:rad_shielding:2>], 	[<ore:bioplastic>, null, <ore:bioplastic>]]);
+recipes.addShaped(<nuclearcraft:boots_hazmat>, [	[null, null, null], 	[<nuclearcraft:rad_shielding:2>, null, <nuclearcraft:rad_shielding:2>], 	[<gregtech:meta_item_1:12141>, null, <gregtech:meta_item_1:12141>]]);
 
 assembler.recipeBuilder()
     .inputs(<nuclearcraft:rad_shielding:2>*2,<gregtech:meta_item_1:12141>*2)   
@@ -1127,3 +1098,36 @@ assembler.recipeBuilder()
     .duration(20)
     .EUt(12)
     .buildAndRegister();
+
+assembler.recipeBuilder()   
+    .inputs(<qmd:semiconductor:4>,<qmd:semiconductor>,<gtadditions:ga_dust:118>,<gregtech:meta_item_1:12235>,<ore:circuitExtreme>)
+    .outputs(<qmd:semiconductor:5>)
+    .duration(200)
+    .EUt(800)
+    .buildAndRegister();
+
+mixer.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2064>*2,<gregtech:meta_item_1:2008>*2,<gregtech:meta_item_1:2011>*2,<qmd:chemical_dust:4>*3)
+    .outputs(<gregtech:meta_item_1:2620>)
+    .duration(500)
+    .EUt(1200)
+    .buildAndRegister();
+
+ebf.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2620>)
+    .outputs(<gregtech:meta_item_1:10620>)
+    .duration(200)
+    .EUt(1200)
+    .property("temperature", 800)
+    .buildAndRegister();
+
+furnace.remove(<gregtech:meta_item_1:10620>);
+furnace.remove(<gregtech:meta_item_1:9620>);
+
+wiremill.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:10620>)
+    .outputs(<qmd:part:4>*2)
+    .EUt(1290)
+    .duration(50)
+    .buildAndRegister();
+
