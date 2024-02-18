@@ -1,3 +1,4 @@
+#loader gregtech
 import mods.devtech.machines.RegisterMachine;
 import mods.devtech.machines.Overlays;
 import mods.devtech.IRecipeMap;
@@ -10,17 +11,12 @@ import mods.gregtech.recipe.RecipeMaps;
 import mods.devtech.OverlayFace;
 import mods.devtech.OverlayRenderer;
 
+var water_collector_overlay = OverlayRenderer.newOverlay("machines/water_collector_overlay", OverlayFace.FRONT, OverlayFace.SIDE, OverlayFace.TOP);
+
 var water_collector = IRecipeMap.recipeMapBuilder("water_collector",1,1,0,0,0,0,1,1)
-    .setOverlaySlots(OverlaySlot.newOverlaySlot(false, false,false,GUITextures.get("hammer_overlay")))
+    .setOverlaySlots(OverlaySlot.newOverlaySlot(false, false, false,GUITextures.get("hammer_overlay")))
     .setProgressBar(GUITextures.get("progress_bar_bending"), MoveType.VERTICAL)
     .build();
 
-RegisterMachine.CreateSimpleMachine(1410, "water_collector",water_collector, Overlays.get("extractor"), 1);
+RegisterMachine.CreateSimpleMachine(1410, "water_collector", water_collector, water_collector_overlay, 1);
 
-
-water_collector.recipeBuilder()
-    .notConsumable(<forestry:crafting_material:3>)
-    .fluidOutputs(<liquid:solardistilledwater>*12)
-    .duration(6)
-    .EUt(2)
-    .buildAndRegister();
