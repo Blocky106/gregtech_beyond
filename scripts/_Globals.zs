@@ -3,7 +3,7 @@
 import mods.gregtech.recipe.RecipeMap;
 import crafttweaker.item.IIngredient;
 
-
+#Gregtech
 global packer           as RecipeMap = RecipeMap.getByName("packer");
 global unpacker           as RecipeMap = RecipeMap.getByName("unpacker");
 global brewery           as RecipeMap = RecipeMap.getByName("brewer");
@@ -60,3 +60,17 @@ global cluster_mill           as RecipeMap = RecipeMap.getByName("cluster_mill")
 global pyro           as RecipeMap = RecipeMap.getByName("pyro");
 global fermenter           as RecipeMap = RecipeMap.getByName("fermenter");
 global electromagnetic_separator           as RecipeMap = RecipeMap.getByName("electromagnetic_separator");
+
+#DevTech
+global rock_crusher        as RecipeMap = RecipeMap.getByName("rock_crusher");
+global rotary_evaporator      as RecipeMap = RecipeMap.getByName("rotary_evaporator");
+global microscope      as RecipeMap = RecipeMap.getByName("microscope");
+global water_collector      as RecipeMap = RecipeMap.getByName("water_collector");
+global vacuum_ejection_chamber      as RecipeMap = RecipeMap.getByName("vacuum_ejection_chamber");
+global scanner      as RecipeMap = RecipeMap.getByName("scanner");
+global induction_smelter      as RecipeMap = RecipeMap.getByName("induction_smelter");
+global beam_shrinking_device     as RecipeMap = RecipeMap.getByName("beam_shrinking_device");
+global fisher     as RecipeMap = RecipeMap.getByName("fisher");
+global roaster     as RecipeMap = RecipeMap.getByName("roaster");
+global inscriber     as RecipeMap = RecipeMap.getByName("inscriber");
+global componentassembler     as RecipeMap = RecipeMap.getByName("componentassembler");
