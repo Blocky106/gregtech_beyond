@@ -87,6 +87,10 @@ assembler.recipeBuilder()
 
 
 
+<advancedrocketry:jetpack>.addTooltip(format.white(format.bold("Hold Shift for more Information")));
+<advancedrocketry:jetpack>.addShiftTooltip(format.red(format.bold("Normal Mode: ")) + format.green("Used to Fly Upwards"));
+<advancedrocketry:jetpack>.addShiftTooltip(format.red(format.bold("Hover Mode: ")) + format.green("Creative Flight, needs Hover Module"));
+
 
 
 
