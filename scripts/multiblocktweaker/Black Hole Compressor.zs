@@ -28,37 +28,11 @@ var meta = 10021;
 val black_hole_compressor = Builder.start(loc, meta)
     .withPattern(
             FactoryBlockPattern.start(RelativeDirection.RIGHT, RelativeDirection.BACK, RelativeDirection.UP)
-                .aisle(
-                    "~DFD~",
-                    "DCCCD",
-                    "FCCCF",
-                    "DCCCD",
-                    "~DSD~")
-                .aisle(
-                    "~GGG~",
-                    "G~~~G",
-                    "G~O~G",
-                    "G~~~G",
-                    "~GGG~")
-                .aisle(
-                    "~GGG~",
-                    "G~~~G",
-                    "G~O~G",
-                    "G~~~G",
-                    "~GGG~")
-
-                .aisle(
-                    "~GGG~",
-                    "G~~~G",
-                    "G~O~G",
-                    "G~~~G",
-                    "~GGG~")
-                .aisle(
-                    "~DFD~",
-                    "DCCCD",
-                    "FCCCF",
-                    "DCCCD",
-                    "~DFD~")
+                .aisle("~DFD~","DCCCD","FCCCF","DCCCD","~DSD~")
+                .aisle("~GGG~","G~~~G","G~O~G","G~~~G","~GGG~")
+                .aisle("~GGG~","G~~~G","G~O~G","G~~~G","~GGG~")
+                .aisle("~GGG~","G~~~G","G~O~G","G~~~G","~GGG~")
+                .aisle("~DFD~","DCCCD","FCCCF","DCCCD","~DFD~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
                 .whereOr("C", 
@@ -77,36 +51,11 @@ val black_hole_compressor = Builder.start(loc, meta)
                 .build())
         .addDesign(
                 FactoryMultiblockShapeInfo.start()
-                .aisle(
-                    " DFD ",
-                    " GGG ",
-                    " GGG ",
-                    " GGG ",
-                    " DFD ")
-                .aisle(
-                    "DCCCD",
-                    "G   G",
-                    "G   G",
-                    "G   G",
-                    "DCCCD")
-                .aisle(
-                    "SCCCD",
-                    "G O G",
-                    "G O G",
-                    "G O G",
-                    "DCCCD")
-                .aisle(
-                    "DCCCD",
-                    "G   G",
-                    "G   G",
-                    "G   G",
-                    "DCCCD")
-                .aisle(
-                    " DFD ",
-                    " GGG ",
-                    " GGG ",
-                    " GGG ",
-                    " DFD ")
+                .aisle(" DFD "," GGG "," GGG "," GGG "," DFD ")
+                .aisle("DCCCD","G   G","G   G","G   G","DCCCD")
+                .aisle("SCCCD","G O G","G O G","G O G","DCCCD")
+                .aisle("DCCCD","G   G","G   G","G   G","DCCCD")
+                .aisle(" DFD "," GGG "," GGG "," GGG "," DFD ")
                 .where("D", <metastate:contenttweaker:dimensionalcasing>)
                 .where("F", <metastate:contenttweaker:fieldgeneratorcasing>)
                 .where("G", <metastate:contenttweaker:quantumglass>)

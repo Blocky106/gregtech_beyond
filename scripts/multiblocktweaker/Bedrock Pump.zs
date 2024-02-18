@@ -28,54 +28,14 @@ var meta = 10037;
 val bedrock_pump = Builder.start(loc, meta)
     .withPattern(
             FactoryBlockPattern.start(RelativeDirection.RIGHT, RelativeDirection.BACK, RelativeDirection.UP)
-                .aisle(
-                    "~~~~~",
-                    "~F~F~",
-                    "~~~~~",
-                    "~F~F~",
-                    "~~~~~")
-                .aisle(
-                    "~~~~~",
-                    "~F~F~",
-                    "~~~~~",
-                    "~F~F~",
-                    "~~~~~")
-                .aisle(
-                    "~~~~~",
-                    "~F~F~",
-                    "~~~~~",
-                    "~F~F~",
-                    "~~~~~")
-                .aisle(
-                    "~~C~~",
-                    "~HCH~",
-                    "CCCCC",
-                    "~HCH~",
-                    "~~S~~")
-                .aisle(
-                    "~CGC~",
-                    "C~~~C",
-                    "G~~~G",
-                    "C~~~C",
-                    "~CGC~")
-                .aisle(
-                    "~CGC~",
-                    "C~~~C",
-                    "G~~~G",
-                    "C~~~C",
-                    "~CGC~")
-                .aisle(
-                    "~CGC~",
-                    "C~~~C",
-                    "G~~~G",
-                    "C~~~C",
-                    "~CGC~")
-                .aisle(
-                    "~~C~~",
-                    "~HCH~",
-                    "CCCCC",
-                    "~HCH~",
-                    "~~C~~")
+                .aisle("~~~~~","~F~F~","~~~~~","~F~F~","~~~~~")
+                .aisle("~~~~~","~F~F~","~~~~~","~F~F~","~~~~~")
+                .aisle("~~~~~","~F~F~","~~~~~","~F~F~","~~~~~")
+                .aisle("~~C~~","~HCH~","CCCCC","~HCH~","~~S~~")
+                .aisle("~CGC~","C~~~C","G~~~G","C~~~C","~CGC~")
+                .aisle("~CGC~","C~~~C","G~~~G","C~~~C","~CGC~")
+                .aisle("~CGC~","C~~~C","G~~~G","C~~~C","~CGC~")
+                .aisle("~~C~~","~HCH~","CCCCC","~HCH~","~~C~~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
                 .whereOr("C", 
@@ -93,51 +53,11 @@ val bedrock_pump = Builder.start(loc, meta)
                 .build())
         .addDesign(
                 FactoryMultiblockShapeInfo.start()
-                .aisle(
-                    "     ",
-                    "     ",
-                    "     ",
-                    "  C  ",
-                    " CGC ",
-                    " CGC ",
-                    " CGC ",
-                    "  C  ")
-                .aisle(
-                    " F F ",
-                    " F F ",
-                    " F F ",
-                    " HCH ",
-                    "C   C",
-                    "C   C",
-                    "C   C",
-                    " HCH ")
-                .aisle(
-                    "     ",
-                    "     ",
-                    "     ",
-                    "SCCCE",
-                    "G   G",
-                    "G   G",
-                    "G   G",
-                    "CCCCC")
-                .aisle(
-                    " F F ",
-                    " F F ",
-                    " F F ",
-                    " HCH ",
-                    "C   C",
-                    "C   C",
-                    "C   C",
-                    " HCH ")
-                .aisle(
-                    "     ",
-                    "     ",
-                    "     ",
-                    "  C  ",
-                    " CGC ",
-                    " CGC ",
-                    " CGC ",
-                    "  C  ")
+                .aisle("     ","     ","     ","  C  "," CGC "," CGC "," CGC ","  C  ")
+                .aisle(" F F "," F F "," F F "," HCH ","C   C","C   C","C   C"," HCH ")
+                .aisle("     ","     ","     ","SCCCE","G   G","G   G","G   G","CCCCC")
+                .aisle(" F F "," F F "," F F "," HCH ","C   C","C   C","C   C"," HCH ")
+                .aisle("     ","     ","     ","  C  "," CGC "," CGC "," CGC ","  C  ")
                 .where("H", <metastate:gregtech:boiler_firebox_casing:3>)
                 .where("F", <metastate:gregtech:frame_steel>)
                 .where("G", <metastate:gtadditions:ga_transparent_casing:1>)

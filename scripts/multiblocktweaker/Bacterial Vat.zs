@@ -28,30 +28,10 @@ var meta = 10009;
 val bacterial_vat = Builder.start(loc, meta)
     .withPattern(
             FactoryBlockPattern.start(RelativeDirection.RIGHT, RelativeDirection.BACK, RelativeDirection.UP)
-                .aisle(
-                    "CCCCC",
-                    "CCCCC",
-                    "CCCCC",
-                    "CCCCC",
-                    "CCSCC")
-                .aisle(
-                    "GGGGG",
-                    "G~~~G",
-                    "G~~~G",
-                    "G~~~G",
-                    "GGGGG")
-                .aisle(
-                    "GGGGG",
-                    "G~~~G",
-                    "G~~~G",
-                    "G~~~G",
-                    "GGGGG")
-                .aisle(
-                    "CCCCC",
-                    "CCCCC",
-                    "CCCCC",
-                    "CCCCC",
-                    "CCCCC")
+                .aisle("CCCCC","CCCCC","CCCCC","CCCCC","CCSCC")
+                .aisle("GGGGG","G~~~G","G~~~G","G~~~G","GGGGG")
+                .aisle("GGGGG","G~~~G","G~~~G","G~~~G","GGGGG")
+                .aisle("CCCCC","CCCCC","CCCCC","CCCCC","CCCCC")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
                 .whereOr("C", 
@@ -67,31 +47,11 @@ val bacterial_vat = Builder.start(loc, meta)
                 .build())
         .addDesign(
                 FactoryMultiblockShapeInfo.start()
-                .aisle(
-                    "CCCCC",
-                    "GGGGG",
-                    "GGGGG",
-                    "CCCCC")
-                .aisle(
-                    "CCCCC",
-                    "G   G",
-                    "G   G",
-                    "CCCCC")
-                .aisle(
-                    "SCCCE",
-                    "G   G",
-                    "G   G",
-                    "CCCCC")
-                .aisle(
-                    "CCCCC",
-                    "G   G",
-                    "G   G",
-                    "CCCCC")
-                .aisle(
-                    "CCCCC",
-                    "GGGGG",
-                    "GGGGG",
-                    "CCCCC")
+                .aisle("CCCCC","GGGGG","GGGGG","CCCCC")
+                .aisle("CCCCC","G   G","G   G","CCCCC")
+                .aisle("SCCCE","G   G","G   G","CCCCC")
+                .aisle("CCCCC","G   G","G   G","CCCCC")
+                .aisle("CCCCC","GGGGG","GGGGG","CCCCC")
                 .where("G", <metastate:contenttweaker:soulariumreinforcedglass>)
                 .where("S", IBlockInfo.controller(loc))
                 .where("C", <metastate:gregtech:metal_casing:5>)
