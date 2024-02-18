@@ -1900,9 +1900,9 @@ ebf.recipeBuilder()
     .property("temperature", 1500)
     .buildAndRegister();
 
+furnace.remove(<gregtech:meta_item_1:10548>);
 
-
-
+#wiremill rework
 
 
 
