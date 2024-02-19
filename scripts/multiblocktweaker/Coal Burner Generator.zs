@@ -47,7 +47,7 @@ val coal_burner_generator = Builder.start(loc, meta)
                     IBlockMatcher.abilityPartPredicate(
                         MultiblockAbility.IMPORT_FLUIDS,
                         MultiblockAbility.IMPORT_ITEMS,
-                        MultiblockAbility.INPUT_ENERGY,
+                        MultiblockAbility.OUTPUT_ENERGY,
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
