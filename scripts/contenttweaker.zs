@@ -1872,3 +1872,11 @@ lq_steel_casing.setToolClass("pickaxe");
 lq_steel_casing.setToolLevel(1);
 lq_steel_casing.setBlockSoundType(<soundtype:metal>);
 lq_steel_casing.register();
+
+var machine_bronze_plated_bricks = VanillaFactory.createBlock("machine_bronze_plated_bricks", <blockmaterial:rock>);
+machine_bronze_plated_bricks.setBlockHardness(12.0);
+machine_bronze_plated_bricks.setBlockResistance(10.0);
+machine_bronze_plated_bricks.setToolClass("pickaxe");
+machine_bronze_plated_bricks.setToolLevel(1);
+machine_bronze_plated_bricks.setBlockSoundType(<soundtype:metal>);
+machine_bronze_plated_bricks.register();
