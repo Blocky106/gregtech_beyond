@@ -2495,5 +2495,10 @@ recipes.addShaped(<gregtech:machine:1401>, [	[<gregtech:meta_item_1:32604>, <min
 recipes.addShaped(<gregtech:machine:1402>, [	[<gregtech:meta_item_1:32605>, <minecraft:fishing_rod>, <gregtech:meta_item_1:32605>], 	[<ore:cableGtSingleAluminium>, <gregtech:machine:506>, <ore:cableGtSingleAluminium>], 	[<gregtech:meta_item_1:32645>, <ore:circuitMaster>, <gregtech:meta_item_1:32645>]]);
 recipes.addShaped(<gregtech:machine:1403>, [	[<gregtech:meta_item_1:32606>, <minecraft:fishing_rod>, <gregtech:meta_item_1:32606>], 	[<ore:cableGtSingleAluminium>, <gregtech:machine:507>, <ore:cableGtSingleAluminium>], 	[<gregtech:meta_item_1:32646>, <ore:circuitUltimate>, <gregtech:meta_item_1:32646>]]);
 
-
-
+centrifuge.recipeBuilder()
+    .fluidInputs(<liquid:sulfur_carbon_mixture>*1000)
+    .fluidOutputs(<liquid:carbon_dioxide>*1000)
+    .outputs(<gregtech:meta_item_1:2065>*2)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
