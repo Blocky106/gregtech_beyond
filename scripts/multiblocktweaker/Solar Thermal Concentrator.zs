@@ -1,3 +1,4 @@
+
 import crafttweaker.world.IFacing;
 import crafttweaker.block.IBlock;
 import crafttweaker.block.IBlockState;
@@ -60,20 +61,17 @@ val solar_thermal_concentrator = Builder.start(loc, meta)
                     "~GGG~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
-                .whereOr("B", 
-                <metastate:gregtech:boiler_casing>,
+                .whereOr("C", 
+                <metastate:gregtech:metal_casing>,
                     IBlockMatcher.abilityPartPredicate(
                         MultiblockAbility.IMPORT_FLUIDS,
                         MultiblockAbility.IMPORT_ITEMS,
+                        MultiblockAbility.INPUT_ENERGY,
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
-                .whereOr("P", 
-                <metastate:gregtech:boiler_casing:1>,
-                    IBlockMatcher.abilityPartPredicate(
-                        MultiblockAbility.INPUT_ENERGY
-                    ))
-                .where("C", <metastate:gregtech:metal_casing>)
+                .where("P", <metastate:gregtech:boiler_casing:1>)
+                .where("B", <metastate:gregtech:boiler_casing>)
                 .where("G", <metastate:minecraft:glass>)
                 .where("F", <metastate:gregtech:boiler_firebox_casing>)
                 .where("Z", <metastate:gregtech:frame_bronze>)
@@ -81,9 +79,9 @@ val solar_thermal_concentrator = Builder.start(loc, meta)
         .addDesign(
                 FactoryMultiblockShapeInfo.start()
                 .aisle("FFFF","CCCC","Z  Z","Z  Z","GGGG","    ")
-                .aisle("FCCF","LBBB","    ","    ","GGGG","GGGG")
-                .aisle("SCCF","EPPP","    ","    ","GGGG","GGGG")
-                .aisle("FCCF","UBBB","    ","    ","GGGG","GGGG")
+                .aisle("FCCF","BBBB","    ","    ","GGGG","GGGG")
+                .aisle("SCCF","PPPP","    ","    ","GGGG","GGGG")
+                .aisle("FCCF","BBBB","    ","    ","GGGG","GGGG")
                 .aisle("FFFF","CCCC","Z  Z","Z  Z","GGGG","    ")
                 .where("B", <metastate:gregtech:boiler_casing>)
                 .where("P", <metastate:gregtech:boiler_casing:1>)
@@ -92,15 +90,16 @@ val solar_thermal_concentrator = Builder.start(loc, meta)
                 .where("F", <metastate:gregtech:boiler_firebox_casing>)
                 .where("Z", <metastate:gregtech:frame_bronze>)
                 .where("S", IBlockInfo.controller(loc))
-                .where("E", MetaTileEntities.ENERGY_OUTPUT_HATCH[1], IFacing.west())
-                .where("L", MetaTileEntities.FLUID_EXPORT_HATCH[1], IFacing.west())
-                .where("U", MetaTileEntities.FLUID_IMPORT_HATCH[1], IFacing.west())
+                .where("L", MetaTileEntities.FLUID_IMPORT_HATCH[1], IFacing.south())
+                .where("X", MetaTileEntities.FLUID_EXPORT_HATCH[1], IFacing.north())
+                .where("E", MetaTileEntities.ENERGY_INPUT_HATCH[4], IFacing.east())
                 .build())
 .withRecipeMap(
         FactoryRecipeMap.start(loc)
                         .maxFluidInputs(1)
                         .maxFluidOutputs(1)
                         .build())
+                        .withTexture(ICubeRenderer.sided("contenttweaker:blocks/machine_bronze_plated_bricks"))
 .withZoom(0.5f)
 .buildAndRegister() as Multiblock;
 solar_thermal_concentrator.noEnergy = true;
