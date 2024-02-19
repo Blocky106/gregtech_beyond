@@ -30,22 +30,22 @@ var advanced_assembly_line = Builder.start(loc, meta)
     .withPattern(
             FactoryBlockPattern.start(RelativeDirection.RIGHT, RelativeDirection.BACK, RelativeDirection.UP)
             .aisle(
-            "CCC",
-            "CCC",
-            "CCC",
-            "CCC",
-            "CCC",  
-            "CCC",
-            "CCC",
-            "CCC",
-            "CCC",
-            "CCC",
-            "CCC",
-            "CCC",
-            "CCC",
-            "CCC",
-            "CCC",
-            "CCC")
+            "CRC",
+            "CRC",
+            "CRC",
+            "CRC",
+            "CRC",  
+            "CRC",
+            "CRC",
+            "CRC",
+            "CRC",
+            "CRC",
+            "CRC",
+            "CRC",
+            "CRC",
+            "CRC",
+            "CRC",
+            "CYC")
             .aisle(
             "GAG",
             "GAG",
@@ -64,7 +64,6 @@ var advanced_assembly_line = Builder.start(loc, meta)
             "GAG",
             "GAG")
             .aisle(
-            "LSL",
             "LML",
             "LML",
             "LML",
@@ -79,7 +78,8 @@ var advanced_assembly_line = Builder.start(loc, meta)
             "LML",
             "LML",
             "LML",
-            "LML")
+            "LML",
+            "LSL")
             .aisle(
             "~C~",
             "~C~",
@@ -96,24 +96,18 @@ var advanced_assembly_line = Builder.start(loc, meta)
             "~C~",
             "~C~",
             "~C~",
-            "~C~")
+            "~K~")
+            .where("K", <metastate:gregtech:machine:4016>)
+            .where("Y", <metastate:gregtech:machine:701>)
+            .where("R", <metastate:gregtech:machine:700>)
             .whereOr("C",
                 <metastate:gregtech:metal_casing:4>,
-                <metastate:gregtech:machine:4016>,
-                <metastate:gregtech:machine:700>,
                 IBlockMatcher.abilityPartPredicate(
                     MultiblockAbility.INPUT_ENERGY,
                     MultiblockAbility.IMPORT_FLUIDS,
                     MultiblockAbility.EXPORT_ITEMS,
                     MultiblockAbility.EXPORT_FLUIDS))
-            .whereOr("G",
-                <metastate:gtadditions:ga_transparent_casing>,
-                <metastate:gtadditions:ga_transparent_casing:1>,
-                <metastate:gtadditions:ga_transparent_casing:2>,
-                <metastate:gtadditions:ga_transparent_casing:3>,
-                <metastate:gtadditions:ga_transparent_casing:4>,
-                <metastate:gtadditions:ga_transparent_casing:5>,
-                <metastate:gtadditions:ga_transparent_casing:6>)
+            .where("G", <metastate:gtadditions:ga_transparent_casing>)
             .where("L", <metastate:gregtech:multiblock_casing:1>)
             .where("A", <metastate:gtadditions:ga_multiblock_casing>)
             .where("M", <metastate:gregtech:multiblock_casing:2>)
@@ -123,16 +117,17 @@ var advanced_assembly_line = Builder.start(loc, meta)
     .addDesign(
         FactoryMultiblockShapeInfo.start()
             .aisle("CCCCCCCCCCCCCCCC","GGGGGGGGGGGGGGGG","LLLLLLLLLLLLLLLL","                ")
-            .aisle("CCCCCCCCCCCCCCCC","AAAAAAAAAAAAAAAA","SMMMMMMMMMMMMMMM","CCCCCCCCCCCCCCCC")
+            .aisle("YRRRRRRRRRRRRRRR","AAAAAAAAAAAAAAAA","SMMMMMMMMMMMMMMM","CCCCCCCCCCCCCCCC")
             .aisle("CCCCCCCCCCCCCCCC","GGGGGGGGGGGGGGGG","LLLLLLLLLLLLLLLL","                ")
             .where("G", <metastate:gtadditions:ga_transparent_casing>)
             .where("C", <metastate:gregtech:metal_casing:4>)
+            .where("Y", MetaTileEntities.ITEM_EXPORT_BUS[1], IFacing.down())
+            .where("R", MetaTileEntities.ITEM_EXPORT_BUS[1], IFacing.down())
             .where("L", <metastate:gregtech:multiblock_casing:1>)
             .where("A", <metastate:gtadditions:ga_multiblock_casing>)
             .where("M", <metastate:gregtech:multiblock_casing:2>)
             .where("S", IBlockInfo.controller(loc))
             .where("E", MetaTileEntities.ENERGY_INPUT_HATCH[6], IFacing.west())
-            .where(" ", IBlockInfo.EMPTY)
             .build())
 .withRecipeMap(
         FactoryRecipeMap.start(loc)
@@ -145,3 +140,4 @@ var advanced_assembly_line = Builder.start(loc, meta)
 .buildAndRegister() as Multiblock;
 
 advanced_assembly_line.recipeMap.copyAll(RecipeMap.getByName("assembly_line"));
+
