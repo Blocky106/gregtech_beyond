@@ -71,6 +71,6 @@ global scanner      as RecipeMap = RecipeMap.getByName("scanner");
 global induction_smelter      as RecipeMap = RecipeMap.getByName("induction_smelter");
 global beam_shrinking_device     as RecipeMap = RecipeMap.getByName("beam_shrinking_device");
 global fisher     as RecipeMap = RecipeMap.getByName("fisher");
-global roaster     as RecipeMap = RecipeMap.getByName("roaster");
+global roasters     as RecipeMap = RecipeMap.getByName("roasters");
 global inscriber     as RecipeMap = RecipeMap.getByName("inscriber");
 global componentassembler     as RecipeMap = RecipeMap.getByName("componentassembler");
