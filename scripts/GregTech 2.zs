@@ -1585,36 +1585,6 @@ bio.recipeBuilder()
     .buildAndRegister();
 
 macerator.recipeBuilder()
-    .inputs(<appliedenergistics2:sky_stone_block>)
-    .outputs(<appliedenergistics2:material:45>)
-    .duration(40)
-    .EUt(12)
-    .buildAndRegister();
-
-assembler.recipeBuilder()
-    .inputs(<appliedenergistics2:sky_stone_block>*8,<gregtech:meta_item_1:17001>*2)
-    .fluidInputs(<liquid:refinedglue>*200)
-    .outputs(<appliedenergistics2:sky_stone_chest>)
-    .duration(10)
-    .EUt(6)
-    .buildAndRegister();
-
-assembler.recipeBuilder()
-    .inputs(<appliedenergistics2:interface>,<appliedenergistics2:material:28>,<appliedenergistics2:material:52>*4,<gregtech:meta_item_1:17235>*4)
-    .fluidInputs(<liquid:osmium>*144)
-    .outputs(<appliedenergistics2:material:58>)
-    .duration(400)
-    .EUt(1200)
-    .buildAndRegister();
-
-assembler.recipeBuilder()
-    .inputs(<appliedenergistics2:material:25>,<appliedenergistics2:interface>,<appliedenergistics2:molecular_assembler>)
-    .outputs(<appliedenergistics2:material:53>)
-    .duration(200)
-    .EUt(480)
-    .buildAndRegister();
-
-macerator.recipeBuilder()
     .inputs(<thermalfoundation:material:2052>)
     .outputs(<thermalfoundation:material:2053>*2)
     .duration(120)
