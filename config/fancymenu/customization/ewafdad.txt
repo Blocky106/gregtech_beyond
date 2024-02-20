@@ -28,6 +28,7 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
+  backgroundhovered = resources/custommainmenu/textures/gui/menu_text_box_selected.png
   backgroundnormal = resources/custommainmenu/textures/gui/menu_box.png
 }
 
@@ -36,6 +37,7 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
+  backgroundhovered = resources/custommainmenu/textures/gui/menu_text_box_selected.png
   backgroundnormal = resources/custommainmenu/textures/gui/menu_box.png
 }
 
@@ -44,6 +46,7 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
+  backgroundhovered = resources/custommainmenu/textures/gui/menu_text_box_selected.png
   backgroundnormal = resources/custommainmenu/textures/gui/menu_box.png
 }
 
@@ -52,6 +55,7 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
+  backgroundhovered = resources/custommainmenu/textures/gui/menu_text_box_selected.png
   backgroundnormal = resources/custommainmenu/textures/gui/menu_box.png
 }
 
@@ -60,6 +64,7 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
+  backgroundhovered = resources/custommainmenu/textures/gui/menu_text_box_selected.png
   backgroundnormal = resources/custommainmenu/textures/gui/menu_box.png
 }
 
@@ -68,6 +73,7 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
+  backgroundhovered = resources/custommainmenu/textures/gui/menu_text_box_selected.png
   backgroundnormal = resources/custommainmenu/textures/gui/menu_box.png
 }
 
@@ -76,6 +82,7 @@ customization {
   loopbackgroundanimations = false
   restartbackgroundanimations = true
   action = setbuttontexture
+  backgroundhovered = resources/custommainmenu/textures/gui/menu_text_box_selected.png
   backgroundnormal = resources/custommainmenu/textures/gui/menu_box.png
 }
 

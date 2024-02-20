@@ -21,9 +21,9 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   orientation = top-centered
-  x = -15
+  x = -25
   action = movebutton
-  y = 174
+  y = 175
 }
 
 customization {
@@ -54,22 +54,22 @@ customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   orientation = element
   orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button
-  x = 84
+  x = -85
   action = movebutton
-  y = 69
+  y = 99
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
-  width = 27
+  width = 168
   action = resizebutton
-  height = 23
+  height = 19
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   action = setbuttonlabel
-  value = 
+  value = Settings
 }
 
 customization {
@@ -77,8 +77,8 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = resources/custommainmenu/textures/gui/settings_v3_clicked.png
-  backgroundnormal = resources/custommainmenu/textures/gui/settings_v3.png
+  backgroundhovered = resources/custommainmenu/textures/gui/menu_text_box_selected.png
+  backgroundnormal = resources/custommainmenu/textures/gui/menu_box.png
 }
 
 customization {
@@ -87,7 +87,7 @@ customization {
   orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button
   x = -85
   action = movebutton
-  y = 100
+  y = 119
 }
 
 customization {
@@ -192,11 +192,11 @@ customization {
 customization {
   orientation = top-left
   hidden = false
-  x = 611
+  x = 491
   width = 228
   action = deep_customization_element:title_screen_forge_copyright
   actionid = 0025bd40-d671-42a2-a1c1-f2582dbf3a751696777493677
-  y = 505
+  y = 520
   height = 9
 }
 
@@ -237,23 +237,6 @@ customization {
 
 customization {
   orientation = element
-  restartbackgroundanimations = true
-  buttonaction = openlink;https://discord.gg/sG6NZ7NaeC%btnaction_splitter_fm%
-  backgroundhovered = resources/custommainmenu/textures/gui/discord_v1_clicked.png
-  label = 
-  loopbackgroundanimations = true
-  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button
-  x = 84
-  width = 30
-  action = addbutton
-  actionid = a8d215d1-7bbe-4bed-924a-9643cc4471231696779008027
-  y = 93
-  backgroundnormal = resources/custommainmenu/textures/gui/discord_v1.png
-  height = 27
-}
-
-customization {
-  orientation = element
   enable_scrolling = true
   shadow = true
   scale = 1.0
@@ -263,11 +246,11 @@ customization {
   source_mode = direct
   line_spacing = 1
   orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button
-  x = -75
+  x = -81
   width = 200
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = d6472250-37be-45f3-9dfa-e98b7aab9d901696783014363
-  y = -16
+  y = -15
   alignment = left
   height = 40
 }
@@ -283,11 +266,11 @@ customization {
   source_mode = direct
   line_spacing = 1
   orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button
-  x = 12
+  x = 10
   width = 139
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = b22c1955-0322-462f-bb7d-eebb4edc7c681696783014999
-  y = -16
+  y = -15
   alignment = left
   height = 15
 }
@@ -296,11 +279,45 @@ customization {
   path = resources/custommainmenu/textures/gui/gregtech.png
   orientation = element
   orientation_element = d6472250-37be-45f3-9dfa-e98b7aab9d901696783014363
-  x = -54
+  x = -25
   width = 257
   actionid = d70d239f-9cc0-4b75-b623-c8b98464fef41698086352963
   action = addtexture
-  y = -105
+  y = -103
   height = 100
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://discord.gg/Sc3AKNMWP5%btnaction_splitter_fm%
+  backgroundhovered = resources/custommainmenu/textures/gui/discord_clicked.png
+  label = 
+  loopbackgroundanimations = true
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button
+  x = 84
+  width = 52
+  action = addbutton
+  actionid = ca251a68-d5fc-4916-a6c4-7dfa605ed9bd1708202332027
+  y = 78
+  backgroundnormal = resources/custommainmenu/textures/gui/discord.png
+  height = 61
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://github.com/Blocky106/gregtech_beyond%btnaction_splitter_fm%
+  backgroundhovered = resources/custommainmenu/textures/gui/github_clicked.png
+  label = 
+  loopbackgroundanimations = true
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button
+  x = 83
+  width = 53
+  action = addbutton
+  actionid = 8cead4ef-4b1f-434f-b10b-c59e0c361cb01708202738769
+  y = 0
+  backgroundnormal = resources/custommainmenu/textures/gui/github.png
+  height = 76
 }
 

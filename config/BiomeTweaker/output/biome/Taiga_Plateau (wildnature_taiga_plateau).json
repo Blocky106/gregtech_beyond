@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
+    "PLAINS",
     "CONIFEROUS",
-    "FOREST",
-    "PLAINS"
+    "FOREST"
   ],
   "BiomeManager Entries": {
     "COOL Weights": [
