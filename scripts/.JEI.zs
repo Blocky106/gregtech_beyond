@@ -17,7 +17,9 @@ mods.jei.JEI.hideCategory("zmaster587.AR.arcFurnace");
 mods.jei.JEI.hideCategory("zmaster587.AR.chemicalReactor");
 mods.jei.JEI.hideCategory("zmaster587.AR.chemicalReactor");
 mods.jei.JEI.hideCategory("forestry.squeezer");
-mods.jei.JEI.hideCategory("gregtech:beam_shrinking_device");
+mods.jei.JEI.hideCategory("gregtech:solar_thermal_concentrator");
+mods.jei.JEI.hideCategory("gregtech:coal_burner_generator");
+mods.jei.JEI.hideCategory("gregtech:advanced_assembly_line");
 mods.jei.JEI.hideCategory("gregtech:componentassembler");
 mods.jei.JEI.hideCategory("gregtech:fisher");
 mods.jei.JEI.hideCategory("gregtech:induction_smelter");
@@ -939,6 +941,7 @@ val itemstoRemove =
 <advancedrocketry:satellitepowersource>,
 <libvulpes:coil0:10>,
 <advancedrocketry:arcfurnace>,
+<pneumaticcraft:refinery>,
 ]
  as IItemStack[];
 
