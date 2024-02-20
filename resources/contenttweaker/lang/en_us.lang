@@ -1513,6 +1513,6 @@ fluid.mithril_fluoride=Mithril Fluoride
 metaitem.precipitate_mithril_dust.name=Precipitate Mithril Dust
 metaitem.roughen_mithril_dust.name=Roughen Mithril Dust
 metaitem.excited_mithril_dust.name=Excited Mithril Dust
-recipemap.advanced_assembly_line=Advanced Assembly Line
+recipemap.advanced_assembly_line.name=Advanced Assembly Line
 multiblocktweaker.machine.advanced_assembly_line.name=Advanced Assembly Line
 
