@@ -146,9 +146,10 @@ cryogenic_distillation_plant.recipeMap.recipeBuilder()
     .buildAndRegister();
 
 cryogenic_distillation_plant.recipeMap.recipeBuilder()
-    .fluidinputs(<liquid:sulfur_carbon_mixture>*1000)
+    .fluidInputs(<liquid:sulfur_carbon_mixture>*1000)
     .fluidOutputs(<liquid:carbon_dioxide>*1000,<liquid:sulfur_dioxide>*1000)
     .duration(400)
     .EUt(300)
     .buildAndRegister();
 
+ 
