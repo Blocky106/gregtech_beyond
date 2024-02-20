@@ -177,6 +177,12 @@ neutron_accelerator.recipeMap.recipeBuilder()
     .duration(800)
     .buildAndRegister();
 
-
-
+neutron_accelerator.recipeMap.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:32199>)
+    .chancedOutput(<gregtech:meta_item_1:307>, 700, 0)
+    .chancedOutput(<gregtech:meta_item_1:54>, 1000, 0)
+    .outputs(<gtadditions:ga_dust:32200>)
+    .duration(400)
+    .EUt(1200)
+    .buildAndRegister();
 

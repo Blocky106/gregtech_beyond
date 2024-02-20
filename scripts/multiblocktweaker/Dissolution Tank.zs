@@ -213,3 +213,11 @@ dissolution_tank.recipeMap.recipeBuilder()
     .duration(200)
     .EUt(90000)
     .buildAndRegister();
+
+dissolution_tank.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2373>*3)
+    .fluidInputs(<liquid:lanthanum_leach_solution>*2000)
+    .outputs(<gregtech:meta_item_1:2063>,<gtadditions:ga_dust:8>*2,<gregtech:meta_item_1:2906>*2,<gtadditions:ga_dust:22>*2)
+    .duration(299)
+    .EUt(80)
+    .buildAndRegister();

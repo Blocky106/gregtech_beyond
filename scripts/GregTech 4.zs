@@ -2502,3 +2502,114 @@ centrifuge.recipeBuilder()
     .duration(200)
     .EUt(12)
     .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:5621>)
+    .fluidInputs(<liquid:sulfuric_acid>*250)
+    .fluidOutputs(<liquid:gadolinite_leach_solution>*1000)
+    .duration(200)
+    .EUt(120)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:5621>)
+    .fluidInputs(<liquid:sulfuric_acid>*250)
+    .fluidOutputs(<liquid:gadolinite_leach_solution>*1000)
+    .duration(200)
+    .EUt(120)
+    .buildAndRegister();
+
+centrifuge.recipeBuilder()
+    .fluidInputs(<liquid:gadolinite_leach_solution>*1000)
+    .fluidOutputs(<liquid:gadolinium_leach>*600,<liquid:ree_group_mud>*400)
+    .duration(200)
+    .EUt(900)
+    .buildAndRegister();
+
+centrifuge.recipeBuilder()
+    .fluidInputs(<liquid:gadolinium_leach>*1000)
+    .outputs(<gregtech:meta_item_1:2024>*2,<gregtech:meta_item_1:2065>)
+    .duration(200)
+    .EUt(900)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:ree_group_mud>*1000,<liquid:aqua_regia>*1000)
+    .fluidOutputs(<liquid:lanthanum_leach_solution>*500,<liquid:rarer_earth_concentrate>*500,<liquid:aqua_regia_solution>*1000)
+    .duration(299)
+    .EUt(80)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:ree_group_mud>*1000,<liquid:aqua_regia>*1000)
+    .fluidOutputs(<liquid:lanthanum_leach_solution>*500,<liquid:rarer_earth_concentrate>*500,<liquid:aqua_regia_solution>*2000)
+    .duration(299)
+    .EUt(80)
+    .buildAndRegister();
+
+ebf.recipeBuilder()
+    .fluidInputs(<liquid:neodymium_oxide_solution>*1000)
+    .fluidOutputs(<liquid:steam>*1000)
+    .outputs(<gtadditions:ga_dust:10>*2)
+    .EUt(120)
+    .property("temperature", 1500)
+    .duration(80)
+    .buildAndRegister();
+
+distillation_tower.recipeBuilder()
+    .fluidInputs(<liquid:aqua_regia_solution>*2000)
+    .fluidOutputs(<liquid:water>*1000,<liquid:aqua_regia>*1000)
+    .EUt(12)
+    .duration(200)
+    .buildAndRegister();
+
+
+distillation_tower.recipeBuilder()
+    .fluidInputs(<liquid:molten_adamantium_dioxide>*1000)
+    .fluidOutputs(<liquid:mithril_fluoride>*500,<liquid:adamantane_lubricant>*500)
+    .outputs(<gtadditions:ga_dust:32141>)
+    .EUt(20)
+    .duration(100)
+    .buildAndRegister();
+
+sifter.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:32196>)
+    .outputs(<gtadditions:ga_dust:32197>)
+    .chancedOutput(<gregtech:meta_item_1:35>, 5000, 0)
+    .chancedOutput(<gregtech:meta_item_1:62>, 2000, 0)
+    .chancedOutput(<gregtech:meta_item_1:51>, 1000, 0)
+    .chancedOutput(<gregtech:meta_item_1:307>, 500, 0)
+    .duration(140)
+    .EUt(200)
+    .buildAndRegister();
+
+engraver.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:32197>)
+    .notConsumable(<ore:craftingLensBlue>)
+    .outputs(<gtadditions:ga_dust:32199>)
+    .duration(400)
+    .EUt(120)
+    .buildAndRegister();
+
+lengraver.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:32197>)
+    .notConsumable(<ore:craftingLensBlue>)
+    .outputs(<gtadditions:ga_dust:32199>)
+    .duration(400)
+    .EUt(120)
+    .buildAndRegister();
+
+vacfreezer.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:32200>)
+    .outputs(<gregtech:meta_item_1:2548>)
+    .duration(400)
+    .EUt(2200)
+    .buildAndRegister();
+
+ebf.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2548>)
+    .outputs(<gregtech:meta_item_1:10548>)
+    .property("temperature", 6000)
+    .EUt(1200)
+    .duration(1200)
+    .buildAndRegister();
