@@ -177,3 +177,18 @@ roaster.recipeMap.recipeBuilder()
     .duration(200)
     .EUt(1000)
     .buildAndRegister();
+
+roaster.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:ree_group_mud>*1000,<liquid:oxygen>*2000)
+    .fluidOutputs(<liquid:rarest_earth_mixture>*200,<liquid:neodymium_oxide_solution>*800)
+    .duration(600)
+    .EUt(420)
+    .buildAndRegister();
+
+roaster.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:rarest_earth_mixture>*1000)
+    .outputs(<gtadditions:ga_dust:18>*2,<gtadditions:ga_dust:11>*3,<gtadditions:ga_dust:16>)
+    .fluidOutputs(<liquid:steam>*2000)
+    .duration(2000)
+    .EUt(12)
+    .buildAndRegister();
