@@ -283,6 +283,9 @@ low_quality_steel.addFlags(["GENERATE_PLATE","GENERATE_FRAME"]);
 val bscco = MaterialRegistry.createIngotMaterial(620,"bscco",0x575757,"DULL",3);
 bscco.addFlags(["GENERATE_PLATE"]);
 
+val gadolinite = MaterialRegistry.createDustMaterial(621,"gadolinite",0x4C4848,"DULL",3);
+gadolinite.addFlags(["GENERATE_ORE"]);
+
 
 
 
@@ -495,7 +498,15 @@ util.registerDust("excited_mithril_dust", 32200, 0xAED2F2, "SHINY");
 
 
 
-util.registerFluid("mithril_fluoride", 0x8C24A7);
+util.registerFluid("rarest_earth_mixture", 0x9C3D1F);
+util.registerFluid("ree_group_mud", 0x603D32);
+util.registerFluid("lanthanum_leach_solution", 0x9F8E89);
+util.registerFluid("rarer_earth_concentrate", 0x5A4A4A);
+util.registerFluid("aqua_regia_solution", 0xC4602A);
+util.registerFluid("gadolinium_leach", 0xD3C7C1);
+util.registerFluid("neodymium_oxide_solution", 0x586168);
+util.registerFluid("gadolinite_leach_solution", 0xA4A0A0);
+util.registerFluid("mithril_fluoride", 0x3f48cc);
 util.registerFluid("sulfur_carbon_mixture", 0x686853);
 util.registerFluid("paraffin_wax", 0x805e4e);
 util.registerFluid("silane", 0x574f57);
