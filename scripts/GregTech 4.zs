@@ -2613,3 +2613,71 @@ ebf.recipeBuilder()
     .EUt(1200)
     .duration(1200)
     .buildAndRegister();
+
+Utils.removeRecipeByOutput(assembly_line, [<gregtech:machine:4215>], [], false);
+
+assembly_line.recipeBuilder()
+    .fluidInputs(<liquid:adamantane_lubricant>*1000,<liquid:soldering_alloy>*1296)
+    .inputs(<gregtech:meta_item_1:13548>*2,<gregtech:meta_item_2:16742>*64,<gtadditions:ga_meta_item:32307>*64,<gtadditions:ga_meta_item:32307>*64,<ore:circuitSuperconductor>,<gregtech:meta_item_1:32657>,<gregtech:meta_item_1:32637>,<gregtech:meta_item_1:32617>,<gregtech:machine:4214>)
+    .outputs(<gregtech:machine:4215>)
+    .duration(1000)
+    .EUt(491000)
+    .buildAndRegister();
+
+Utils.removeRecipeByOutput(mixer, [<gregtech:meta_item_1:2230>*5], [], false);
+
+mixer.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2008>,<gregtech:meta_item_1:2094>*4)
+    .outputs(<gregtech:meta_item_1:2230>*5)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
+
+fluidExtractor.recipeBuilder()
+    .inputs(<minecraft:melon_seeds>)
+    .fluidOutputs(<liquid:seed_oil>*100)
+    .duration(20)
+    .EUt(6)
+    .buildAndRegister();
+
+fluidExtractor.recipeBuilder()
+    .inputs(<minecraft:wheat_seeds>)
+    .fluidOutputs(<liquid:seed_oil>*100)
+    .duration(20)
+    .EUt(6)
+    .buildAndRegister();
+
+fluidExtractor.recipeBuilder()
+    .inputs(<minecraft:pumpkin_seeds>)
+    .fluidOutputs(<liquid:seed_oil>*100)
+    .duration(20)
+    .EUt(6)
+    .buildAndRegister();
+
+fluidExtractor.recipeBuilder()
+    .inputs(<gregtechfoodoption:gtfo_oredict_item:1002>)
+    .fluidOutputs(<liquid:seed_oil>*100)
+    .duration(20)
+    .EUt(6)
+    .buildAndRegister();
+
+fluidExtractor.recipeBuilder()
+    .inputs(<randomthings:grassseeds>)
+    .fluidOutputs(<liquid:seed_oil>*100)
+    .duration(20)
+    .EUt(6)
+    .buildAndRegister();
+
+fluidExtractor.recipeBuilder()
+    .inputs(<randomthings:grassseeds>)
+    .fluidOutputs(<liquid:seed_oil>*100)
+    .duration(20)
+    .EUt(6)
+    .buildAndRegister();
+    
+fluidExtractor.recipeBuilder()
+    .inputs(<randomthings:lotusseeds>)
+    .fluidOutputs(<liquid:seed_oil>*100)
+    .duration(20)
+    .EUt(6)
+    .buildAndRegister();
