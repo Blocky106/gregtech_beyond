@@ -1509,3 +1509,10 @@ recipemap.solar_thermal_concentrator.name=Solar Thermal Concentration
 recipemap.coal_burner_generator.name=Coal Burner Generator
 multiblocktweaker.machine.coal_burner_generator.name=Coal Burner Generator
 fluid.sulfur_carbon_mixture=Sulfur Carbon Mixture
+fluid.mithril_fluoride=Mithril Fluoride
+metaitem.precipitate_mithril_dust.name=Precipitate Mithril Dust
+metaitem.roughen_mithril_dust.name=Roughen Mithril Dust
+metaitem.excited_mithril_dust.name=Excited Mithril Dust
+recipemap.advanced_assembly_line=Advanced Assembly Line
+multiblocktweaker.machine.advanced_assembly_line.name=Advanced Assembly Line
+
