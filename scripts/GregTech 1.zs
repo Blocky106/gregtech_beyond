@@ -290,7 +290,6 @@ chemReactor.recipeBuilder()
 	.inputs(<gregtech:meta_item_1:2216> * 3)
 	.fluidInputs(<liquid:sodium_persulfate> * 400,<liquid:chlorine>*1000)
 	.fluidOutputs(<liquid:ic2coolant> * 2000)
-	.outputs(<gregtech:meta_item_1:32762>)
 	.duration(480)
 	.EUt(120)
 	.buildAndRegister();
