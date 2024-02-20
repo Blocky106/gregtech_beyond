@@ -33,7 +33,6 @@ recipes.addShaped(<appliedenergistics2:inscriber>, [	[<enderio:item_basic_capaci
 recipes.addShaped(<appliedenergistics2:part:180>, [	[null, <appliedenergistics2:material:17>, <gtadditions:ga_transparent_casing:2>], 	[<ore:circuitAdvanced>, <gregtech:machine:2499>, <gtadditions:ga_transparent_casing:3>], 	[null, <appliedenergistics2:material:17>, <gtadditions:ga_transparent_casing:3>]]);
 recipes.addShaped(<appliedenergistics2:part:380>, [	[null, <appliedenergistics2:material:17>, null], 	[<appliedenergistics2:material:44>, <ore:itemIlluminatedPanel>, <appliedenergistics2:material:43>], 	[null, <enderio:item_basic_capacitor>, null]]);
 recipes.addShaped(<appliedenergistics2:part:460>, [	[null, <ore:circuitGood>, null], 	[<ore:componentArtificialMuscle>, <enderio:item_basic_capacitor>, <ore:componentArtificialMuscle>], 	[<ore:crystalPureFluix>, <ore:crystalPureFluix>, <ore:crystalPureFluix>]]);
-recipes.addShaped(<appliedenergistics2:part:360>, [	[null, <ore:circuitExtreme>, null], 	[<extendedcrafting:table_elite>, <appliedenergistics2:part:380>, <contenttweaker:hssgcircuit>], 	[null, <ore:circuitExtreme>, null]]);
 recipes.addShaped(<appliedenergistics2:controller>,[	[<ore:plateKanthal>, <gregtech:meta_item_1:2111>, <ore:plateKanthal>], 	[<ore:platePlastic>, <ore:circuitAdvanced>, <ore:platePlastic>], [<ore:plateKanthal>, <gregtech:meta_item_1:2111>, <ore:plateKanthal>]]);
 recipes.addShaped(<appliedenergistics2:condenser>, [[<ore:ingotPalladium>, <ore:pearlFluix>, <ore:ingotPalladium>], 	[<ore:pearlFluix>, <enderio:item_basic_capacitor>, <ore:pearlFluix>], 	[<ore:ingotPalladium>, <ore:pearlFluix>, <ore:ingotPalladium>]]);
 recipes.addShaped(<appliedenergistics2:part:470>, [	[<appliedenergistics2:part:36>, <appliedenergistics2:part:36>, <appliedenergistics2:part:36>], 	[<enderio:item_basic_capacitor>, <appliedenergistics2:part:460>, <enderio:item_basic_capacitor>], 	[<ore:itemInsulatedGlassCable>, <ore:itemInsulatedGlassCable>, <ore:itemInsulatedGlassCable>]]);
@@ -50,8 +49,7 @@ recipes.addShaped(<appliedenergistics2:material:28>, [	[null, <ore:plateAluminiu
 recipes.addShaped(<appliedenergistics2:memory_card>, [	[null, null, null], 	[<ore:plateTungsten>, <ore:plateTungsten>, <appliedenergistics2:material:23>], 	[<ore:plateGold>, <ore:plateRedstone>, <ore:crystalFluix>]]);
 recipes.addShaped(<appliedenergistics2:material:52>, [	[<gtadditions:ga_transparent_casing:2>, <ore:plateNichrome>, <gtadditions:ga_transparent_casing:2>], 	[<ore:plateNichrome>, <ore:crystalFluix>, <ore:plateNichrome>], 	[<ore:plateTitanium>, <ore:plateTitanium>, <ore:plateTitanium>]]);
 recipes.addShaped(<appliedenergistics2:material:39>, [	[<appliedenergistics2:quartz_glass>, <ore:plateAluminium>, <appliedenergistics2:quartz_glass>], 	[<ore:plateAluminium>, <ore:circuitGood>, <ore:plateAluminium>], 	[<ore:plateStainlessSteel>, <ore:plateStainlessSteel>, <ore:plateStainlessSteel>]]);
-
-
+recipes.addShaped(<appliedenergistics2:part:360>, [	[<ore:screwStainlessSteel>, <ore:circuitExtreme>, <ore:screwStainlessSteel>], 	[<extendedcrafting:table_advanced>, <appliedenergistics2:part:380>, <extendedcrafting:table_advanced>], 	[<ore:screwStainlessSteel>, <ore:circuitExtreme>, <ore:screwStainlessSteel>]]);
 
 
 
@@ -207,10 +205,13 @@ recipes.addShaped(<ae2stuff:wireless>, [	[<ore:crystalPureFluix>, <ore:plateTita
 
 
 
-
-
-
-
+assembler.recipeBuilder()
+    .fluidInputs(<liquid:soldering_alloy>*144)
+    .inputs(<appliedenergistics2:material:28>,<appliedenergistics2:material:52>*4,<appliedenergistics2:interface>,<gregtech:meta_item_1:17183>*2)
+    .outputs(<appliedenergistics2:material:58>)
+    .duration(40)
+    .EUt(120)
+    .buildAndRegister();
 
 assembler.recipeBuilder()
     .inputs(<enderio:item_material:15>,<gregtech:meta_item_1:2219>,<threng:material>)
@@ -305,3 +306,26 @@ alloy_smelter.recipeBuilder()
 
 recipes.remove(<threng:material:9>);
 recipes.addShaped(<threng:material:9>, [[null, null, null], 	[<threng:material:8>, <ore:plateSilicon>, <threng:material:8>], 	[null, null, null]]);
+
+
+macerator.recipeBuilder()
+    .inputs(<appliedenergistics2:sky_stone_block>)
+    .outputs(<appliedenergistics2:material:45>)
+    .duration(40)
+    .EUt(12)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs(<appliedenergistics2:sky_stone_block>*8,<gregtech:meta_item_1:17001>*2)
+    .fluidInputs(<liquid:refinedglue>*200)
+    .outputs(<appliedenergistics2:sky_stone_chest>)
+    .duration(10)
+    .EUt(6)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs(<appliedenergistics2:material:25>,<appliedenergistics2:interface>,<appliedenergistics2:molecular_assembler>)
+    .outputs(<appliedenergistics2:material:53>)
+    .duration(200)
+    .EUt(480)
+    .buildAndRegister();
