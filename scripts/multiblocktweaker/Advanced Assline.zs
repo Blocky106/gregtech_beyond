@@ -21,6 +21,8 @@ import mods.gregtech.render.ICubeRenderer;
 import mods.gregtech.render.Textures;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
+import mods.gregtech.recipe.functions.IUpdateFunction;
+import mods.gregtech.recipe.IRecipeLogic;
 
 
 
@@ -135,4 +137,9 @@ var advanced_assembly_line = Builder.start(loc, meta)
 .buildAndRegister() as Multiblock;
 
 advanced_assembly_line.recipeMap.copyAll(RecipeMap.getByName("assembly_line"));
+
+advanced_assembly_line.update = function(recipeLogic as IRecipeLogic) {
+    var oldProgress = recipeLogic.recipeProgress;
+    recipeLogic.recipeProgress = oldProgress + 1;
+} as IUpdateFunction;
 
