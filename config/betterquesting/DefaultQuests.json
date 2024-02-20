@@ -6539,9 +6539,9 @@
     },
     "114:10": {
       "preRequisites:11": [
-        118,
         120,
-        129
+        129,
+        121
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -6563,7 +6563,7 @@
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Ethylene Aquired",
-          "questlogic:8": "AND",
+          "questlogic:8": "OR",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
           "simultaneous:1": 0,
@@ -6788,8 +6788,7 @@
     },
     "118:10": {
       "preRequisites:11": [
-        97,
-        121
+        97
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -8465,7 +8464,25 @@
       },
       "questID:3": 148,
       "rewards:9": {},
-      "tasks:9": {}
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 1,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 32203,
+              "OreDict:8": "",
+              "id:8": "gtadditions:ga_meta_item"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     },
     "149:10": {
       "preRequisites:11": [
@@ -17941,7 +17958,6 @@
     },
     "321:10": {
       "preRequisites:11": [
-        762,
         322
       ],
       "properties:10": {
@@ -21145,20 +21161,13 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
+          "requiredFluids:9": {
             "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "forge:bucketfilled",
-              "tag:10": {
-                "Amount:3": 1000,
-                "FluidName:8": "sodium_tungstate"
-              }
+              "Amount:3": 1000,
+              "FluidName:8": "sodium_tungstate"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:fluid"
         }
       }
     },
@@ -27425,6 +27434,110 @@
     },
     "484:10": {
       "preRequisites:11": [
+        485
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 10307,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Nq Production",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 484,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 1,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 10307,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "485:10": {
+      "preRequisites:11": [
+        525
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 10002,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Neutron Acceleration for Naquadah",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 485,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 1,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 10002,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "486:10": {
+      "preRequisites:11": [
         410
       ],
       "properties:10": {
@@ -27475,7 +27588,7 @@
         }
       }
     },
-    "485:10": {
+    "487:10": {
       "preRequisites:11": [
         410
       ],
@@ -27535,7 +27648,7 @@
         }
       }
     },
-    "486:10": {
+    "488:10": {
       "preRequisites:11": [
         491
       ],
@@ -27595,7 +27708,7 @@
         }
       }
     },
-    "487:10": {
+    "489:10": {
       "preRequisites:11": [
         492
       ],
@@ -27655,7 +27768,7 @@
         }
       }
     },
-    "488:10": {
+    "490:10": {
       "preRequisites:11": [
         423
       ],
@@ -27707,7 +27820,7 @@
         }
       }
     },
-    "489:10": {
+    "491:10": {
       "preRequisites:11": [
         269
       ],
@@ -27759,7 +27872,7 @@
         }
       }
     },
-    "490:10": {
+    "492:10": {
       "preRequisites:11": [
         224
       ],
@@ -27811,7 +27924,7 @@
         }
       }
     },
-    "491:10": {
+    "493:10": {
       "preRequisites:11": [
         244
       ],
@@ -27863,7 +27976,7 @@
         }
       }
     },
-    "492:10": {
+    "494:10": {
       "preRequisites:11": [
         493
       ],
@@ -27923,7 +28036,7 @@
         }
       }
     },
-    "493:10": {
+    "495:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -27973,7 +28086,7 @@
         }
       }
     },
-    "494:10": {
+    "496:10": {
       "preRequisites:11": [
         506
       ],
@@ -28016,7 +28129,7 @@
         }
       }
     },
-    "495:10": {
+    "497:10": {
       "preRequisites:11": [
         507
       ],
@@ -28069,7 +28182,7 @@
         }
       }
     },
-    "496:10": {
+    "498:10": {
       "preRequisites:11": [
         508
       ],
@@ -28122,7 +28235,7 @@
         }
       }
     },
-    "497:10": {
+    "499:10": {
       "preRequisites:11": [
         637
       ],
@@ -28174,7 +28287,7 @@
         }
       }
     },
-    "498:10": {
+    "500:10": {
       "preRequisites:11": [
         509,
         578
@@ -28228,7 +28341,7 @@
         }
       }
     },
-    "499:10": {
+    "501:10": {
       "preRequisites:11": [
         212
       ],
@@ -28428,7 +28541,7 @@
         }
       }
     },
-    "500:10": {
+    "502:10": {
       "preRequisites:11": [
         452
       ],
@@ -28480,7 +28593,7 @@
         }
       }
     },
-    "501:10": {
+    "503:10": {
       "preRequisites:11": [
         452
       ],
@@ -28532,7 +28645,7 @@
         }
       }
     },
-    "502:10": {
+    "504:10": {
       "preRequisites:11": [
         452
       ],
@@ -28584,7 +28697,7 @@
         }
       }
     },
-    "503:10": {
+    "505:10": {
       "preRequisites:11": [
         452
       ],
@@ -28636,7 +28749,7 @@
         }
       }
     },
-    "504:10": {
+    "506:10": {
       "preRequisites:11": [
         193
       ],
@@ -28688,7 +28801,7 @@
         }
       }
     },
-    "505:10": {
+    "507:10": {
       "preRequisites:11": [
         193
       ],
@@ -28740,7 +28853,7 @@
         }
       }
     },
-    "506:10": {
+    "508:10": {
       "preRequisites:11": [
         452
       ],
@@ -28792,7 +28905,7 @@
         }
       }
     },
-    "507:10": {
+    "509:10": {
       "preRequisites:11": [
         527
       ],
@@ -28844,7 +28957,7 @@
         }
       }
     },
-    "508:10": {
+    "510:10": {
       "preRequisites:11": [
         527
       ],
@@ -28896,7 +29009,7 @@
         }
       }
     },
-    "509:10": {
+    "511:10": {
       "preRequisites:11": [
         525
       ],
@@ -28948,7 +29061,7 @@
         }
       }
     },
-    "510:10": {
+    "512:10": {
       "preRequisites:11": [
         527
       ],
@@ -29000,7 +29113,7 @@
         }
       }
     },
-    "511:10": {
+    "513:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -29050,7 +29163,7 @@
         }
       }
     },
-    "512:10": {
+    "514:10": {
       "preRequisites:11": [
         350
       ],
@@ -29102,7 +29215,7 @@
         }
       }
     },
-    "513:10": {
+    "515:10": {
       "preRequisites:11": [
         88
       ],
@@ -29154,7 +29267,7 @@
         }
       }
     },
-    "514:10": {
+    "516:10": {
       "preRequisites:11": [
         796,
         398
@@ -29207,7 +29320,7 @@
         }
       }
     },
-    "515:10": {
+    "517:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -29257,7 +29370,7 @@
         }
       }
     },
-    "516:10": {
+    "518:10": {
       "preRequisites:11": [
         525
       ],
@@ -29309,7 +29422,7 @@
         }
       }
     },
-    "517:10": {
+    "519:10": {
       "preRequisites:11": [
         23
       ],
@@ -29361,7 +29474,7 @@
         }
       }
     },
-    "518:10": {
+    "520:10": {
       "preRequisites:11": [
         525
       ],
@@ -29413,7 +29526,7 @@
         }
       }
     },
-    "519:10": {
+    "521:10": {
       "preRequisites:11": [
         324
       ],
@@ -29465,7 +29578,7 @@
         }
       }
     },
-    "520:10": {
+    "522:10": {
       "preRequisites:11": [
         452
       ],
@@ -29517,7 +29630,7 @@
         }
       }
     },
-    "521:10": {
+    "523:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -29567,7 +29680,7 @@
         }
       }
     },
-    "522:10": {
+    "524:10": {
       "preRequisites:11": [
         527
       ],
@@ -29619,7 +29732,7 @@
         }
       }
     },
-    "523:10": {
+    "525:10": {
       "preRequisites:11": [
         548
       ],
@@ -29671,7 +29784,7 @@
         }
       }
     },
-    "524:10": {
+    "526:10": {
       "preRequisites:11": [
         324
       ],
@@ -29723,7 +29836,7 @@
         }
       }
     },
-    "525:10": {
+    "527:10": {
       "preRequisites:11": [
         527
       ],
@@ -29775,7 +29888,7 @@
         }
       }
     },
-    "526:10": {
+    "528:10": {
       "preRequisites:11": [
         324
       ],
@@ -29827,7 +29940,7 @@
         }
       }
     },
-    "527:10": {
+    "529:10": {
       "preRequisites:11": [
         527
       ],
@@ -29879,7 +29992,7 @@
         }
       }
     },
-    "528:10": {
+    "530:10": {
       "preRequisites:11": [
         549
       ],
@@ -29931,7 +30044,7 @@
         }
       }
     },
-    "529:10": {
+    "531:10": {
       "preRequisites:11": [
         324
       ],
@@ -29983,7 +30096,7 @@
         }
       }
     },
-    "530:10": {
+    "532:10": {
       "preRequisites:11": [
         548
       ],
@@ -30035,7 +30148,7 @@
         }
       }
     },
-    "531:10": {
+    "533:10": {
       "preRequisites:11": [
         549
       ],
@@ -30087,7 +30200,7 @@
         }
       }
     },
-    "532:10": {
+    "534:10": {
       "preRequisites:11": [
         525
       ],
@@ -30139,7 +30252,7 @@
         }
       }
     },
-    "533:10": {
+    "535:10": {
       "preRequisites:11": [
         550
       ],
@@ -30191,7 +30304,7 @@
         }
       }
     },
-    "534:10": {
+    "536:10": {
       "preRequisites:11": [
         525
       ],
@@ -30243,7 +30356,7 @@
         }
       }
     },
-    "535:10": {
+    "537:10": {
       "preRequisites:11": [
         832,
         1077
@@ -30296,7 +30409,7 @@
         }
       }
     },
-    "536:10": {
+    "538:10": {
       "preRequisites:11": [
         957,
         1077
@@ -30349,7 +30462,7 @@
         }
       }
     },
-    "537:10": {
+    "539:10": {
       "preRequisites:11": [
         1114
       ],
@@ -30401,7 +30514,7 @@
         }
       }
     },
-    "538:10": {
+    "540:10": {
       "preRequisites:11": [
         1102
       ],
@@ -30453,7 +30566,7 @@
         }
       }
     },
-    "539:10": {
+    "541:10": {
       "preRequisites:11": [
         1241
       ],
@@ -30505,7 +30618,7 @@
         }
       }
     },
-    "540:10": {
+    "542:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -30555,7 +30668,7 @@
         }
       }
     },
-    "541:10": {
+    "543:10": {
       "preRequisites:11": [
         453,
         454,
@@ -30663,7 +30776,7 @@
         }
       }
     },
-    "542:10": {
+    "544:10": {
       "preRequisites:11": [
         454,
         556
@@ -30716,7 +30829,7 @@
         }
       }
     },
-    "543:10": {
+    "545:10": {
       "preRequisites:11": [
         323
       ],
@@ -30768,7 +30881,7 @@
         }
       }
     },
-    "544:10": {
+    "546:10": {
       "preRequisites:11": [
         509
       ],
@@ -30821,7 +30934,7 @@
         }
       }
     },
-    "545:10": {
+    "547:10": {
       "preRequisites:11": [
         563
       ],
@@ -30874,7 +30987,7 @@
         }
       }
     },
-    "546:10": {
+    "548:10": {
       "preRequisites:11": [
         564
       ],
@@ -30927,7 +31040,7 @@
         }
       }
     },
-    "547:10": {
+    "549:10": {
       "preRequisites:11": [
         564
       ],
@@ -30980,7 +31093,7 @@
         }
       }
     },
-    "548:10": {
+    "550:10": {
       "preRequisites:11": [
         566
       ],
@@ -31033,7 +31146,7 @@
         }
       }
     },
-    "549:10": {
+    "551:10": {
       "preRequisites:11": [
         567
       ],
@@ -31086,7 +31199,7 @@
         }
       }
     },
-    "550:10": {
+    "552:10": {
       "preRequisites:11": [
         565
       ],
@@ -31139,7 +31252,7 @@
         }
       }
     },
-    "551:10": {
+    "553:10": {
       "preRequisites:11": [
         565
       ],
@@ -31192,7 +31305,7 @@
         }
       }
     },
-    "552:10": {
+    "554:10": {
       "preRequisites:11": [
         565
       ],
@@ -31245,7 +31358,7 @@
         }
       }
     },
-    "553:10": {
+    "555:10": {
       "preRequisites:11": [
         565
       ],
@@ -31298,7 +31411,7 @@
         }
       }
     },
-    "554:10": {
+    "556:10": {
       "preRequisites:11": [
         569
       ],
@@ -31351,7 +31464,7 @@
         }
       }
     },
-    "555:10": {
+    "557:10": {
       "preRequisites:11": [
         570
       ],
@@ -31404,7 +31517,7 @@
         }
       }
     },
-    "556:10": {
+    "558:10": {
       "preRequisites:11": [
         571
       ],
@@ -31457,7 +31570,7 @@
         }
       }
     },
-    "557:10": {
+    "559:10": {
       "preRequisites:11": [
         572
       ],
@@ -31510,7 +31623,7 @@
         }
       }
     },
-    "558:10": {
+    "560:10": {
       "preRequisites:11": [
         511
       ],
@@ -31562,7 +31675,7 @@
         }
       }
     },
-    "559:10": {
+    "561:10": {
       "preRequisites:11": [
         184
       ],
@@ -31614,7 +31727,7 @@
         }
       }
     },
-    "560:10": {
+    "562:10": {
       "preRequisites:11": [
         511
       ],
@@ -31667,7 +31780,7 @@
         }
       }
     },
-    "561:10": {
+    "563:10": {
       "preRequisites:11": [
         579,
         581
@@ -31721,7 +31834,7 @@
         }
       }
     },
-    "562:10": {
+    "564:10": {
       "preRequisites:11": [
         193
       ],
@@ -31773,7 +31886,7 @@
         }
       }
     },
-    "563:10": {
+    "565:10": {
       "preRequisites:11": [
         580
       ],
@@ -31826,7 +31939,7 @@
         }
       }
     },
-    "564:10": {
+    "566:10": {
       "preRequisites:11": [
         580
       ],
@@ -31886,7 +31999,7 @@
         }
       }
     },
-    "565:10": {
+    "567:10": {
       "preRequisites:11": [
         580
       ],
@@ -31939,7 +32052,7 @@
         }
       }
     },
-    "566:10": {
+    "568:10": {
       "preRequisites:11": [
         580
       ],
@@ -31992,7 +32105,7 @@
         }
       }
     },
-    "567:10": {
+    "569:10": {
       "preRequisites:11": [
         585
       ],
@@ -32045,7 +32158,7 @@
         }
       }
     },
-    "568:10": {
+    "570:10": {
       "preRequisites:11": [
         577
       ],
@@ -32097,7 +32210,7 @@
         }
       }
     },
-    "569:10": {
+    "571:10": {
       "preRequisites:11": [
         511
       ],
@@ -32149,7 +32262,7 @@
         }
       }
     },
-    "570:10": {
+    "572:10": {
       "preRequisites:11": [
         588
       ],
@@ -32201,7 +32314,7 @@
         }
       }
     },
-    "571:10": {
+    "573:10": {
       "preRequisites:11": [
         589
       ],
@@ -32253,7 +32366,7 @@
         }
       }
     },
-    "572:10": {
+    "574:10": {
       "preRequisites:11": [
         193
       ],
@@ -32305,7 +32418,7 @@
         }
       }
     },
-    "573:10": {
+    "575:10": {
       "preRequisites:11": [
         586,
         591
@@ -32358,7 +32471,7 @@
         }
       }
     },
-    "574:10": {
+    "576:10": {
       "preRequisites:11": [
         588
       ],
@@ -32410,7 +32523,7 @@
         }
       }
     },
-    "575:10": {
+    "577:10": {
       "preRequisites:11": [
         324
       ],
@@ -32462,7 +32575,7 @@
         }
       }
     },
-    "576:10": {
+    "578:10": {
       "preRequisites:11": [
         594
       ],
@@ -32505,24 +32618,17 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
+          "requiredFluids:9": {
             "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "forge:bucketfilled",
-              "tag:10": {
-                "Amount:3": 1000,
-                "FluidName:8": "palladium_enriched_ammonia"
-              }
+              "Amount:3": 1000,
+              "FluidName:8": "palladium_enriched_ammonia"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:fluid"
         }
       }
     },
-    "577:10": {
+    "579:10": {
       "preRequisites:11": [
         595
       ],
@@ -32580,7 +32686,7 @@
         }
       }
     },
-    "578:10": {
+    "580:10": {
       "preRequisites:11": [
         576,
         575,
@@ -32626,7 +32732,7 @@
         }
       }
     },
-    "579:10": {
+    "581:10": {
       "preRequisites:11": [
         350
       ],
@@ -32678,7 +32784,7 @@
         }
       }
     },
-    "580:10": {
+    "582:10": {
       "preRequisites:11": [
         607
       ],
@@ -32730,7 +32836,7 @@
         }
       }
     },
-    "581:10": {
+    "583:10": {
       "preRequisites:11": [
         139
       ],
@@ -32773,24 +32879,17 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
+          "requiredFluids:9": {
             "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "forge:bucketfilled",
-              "tag:10": {
-                "Amount:3": 1000,
-                "FluidName:8": "polybenzimidazole"
-              }
+              "Amount:3": 1000,
+              "FluidName:8": "polybenzimidazole"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:fluid"
         }
       }
     },
-    "582:10": {
+    "584:10": {
       "preRequisites:11": [
         385
       ],
@@ -32842,7 +32941,7 @@
         }
       }
     },
-    "583:10": {
+    "585:10": {
       "preRequisites:11": [
         254
       ],
@@ -32894,7 +32993,7 @@
         }
       }
     },
-    "584:10": {
+    "586:10": {
       "preRequisites:11": [
         254
       ],
@@ -32946,7 +33045,7 @@
         }
       }
     },
-    "585:10": {
+    "587:10": {
       "preRequisites:11": [
         617
       ],
@@ -32998,7 +33097,7 @@
         }
       }
     },
-    "586:10": {
+    "588:10": {
       "preRequisites:11": [
         620
       ],
@@ -33050,7 +33149,7 @@
         }
       }
     },
-    "587:10": {
+    "589:10": {
       "preRequisites:11": [
         1018
       ],
@@ -33102,7 +33201,7 @@
         }
       }
     },
-    "588:10": {
+    "590:10": {
       "preRequisites:11": [
         618
       ],
@@ -33154,7 +33253,7 @@
         }
       }
     },
-    "589:10": {
+    "591:10": {
       "preRequisites:11": [
         287
       ],
@@ -33206,7 +33305,7 @@
         }
       }
     },
-    "590:10": {
+    "592:10": {
       "preRequisites:11": [
         649
       ],
@@ -33258,7 +33357,7 @@
         }
       }
     },
-    "591:10": {
+    "593:10": {
       "preRequisites:11": [
         650
       ],
@@ -33310,7 +33409,7 @@
         }
       }
     },
-    "592:10": {
+    "594:10": {
       "preRequisites:11": [
         651
       ],
@@ -33362,7 +33461,7 @@
         }
       }
     },
-    "593:10": {
+    "595:10": {
       "preRequisites:11": [
         525
       ],
@@ -33414,7 +33513,7 @@
         }
       }
     },
-    "594:10": {
+    "596:10": {
       "preRequisites:11": [
         660
       ],
@@ -33466,7 +33565,7 @@
         }
       }
     },
-    "595:10": {
+    "597:10": {
       "preRequisites:11": [
         660
       ],
@@ -33518,7 +33617,7 @@
         }
       }
     },
-    "596:10": {
+    "598:10": {
       "preRequisites:11": [
         660
       ],
@@ -33570,7 +33669,7 @@
         }
       }
     },
-    "597:10": {
+    "599:10": {
       "preRequisites:11": [
         660
       ],
@@ -33622,7 +33721,7 @@
         }
       }
     },
-    "598:10": {
+    "600:10": {
       "preRequisites:11": [
         525,
         673
@@ -33681,7 +33780,7 @@
         }
       }
     },
-    "599:10": {
+    "601:10": {
       "preRequisites:11": [
         525
       ],
@@ -33757,7 +33856,7 @@
         }
       }
     },
-    "600:10": {
+    "602:10": {
       "preRequisites:11": [
         350
       ],
@@ -33809,7 +33908,7 @@
         }
       }
     },
-    "601:10": {
+    "603:10": {
       "preRequisites:11": [
         525
       ],
@@ -33915,163 +34014,7 @@
         }
       }
     },
-    "602:10": {
-      "preRequisites:11": [
-        685
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "No Description",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 102,
-            "OreDict:8": "",
-            "id:8": "gtadditions:ga_meta_item2"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "Prospecting it all",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "ALWAYS"
-        }
-      },
-      "questID:3": 684,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 1,
-          "consume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 102,
-              "OreDict:8": "",
-              "id:8": "gtadditions:ga_meta_item2"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "603:10": {
-      "preRequisites:11": [
-        692
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "No Description",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 6,
-            "OreDict:8": "",
-            "id:8": "gtadditions:ga_meta_item2"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "Medium Lithium Ion Battery",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "ALWAYS"
-        }
-      },
-      "questID:3": 685,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 1,
-          "consume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 6,
-              "OreDict:8": "",
-              "id:8": "gtadditions:ga_meta_item2"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
     "604:10": {
-      "preRequisites:11": [
-        519
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "No Description",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 388,
-            "OreDict:8": "",
-            "id:8": "gtadditions:ga_dust"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "Lithium Triflate",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "ALWAYS"
-        }
-      },
-      "questID:3": 692,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 1,
-          "consume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 388,
-              "OreDict:8": "",
-              "id:8": "gtadditions:ga_dust"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "605:10": {
       "preRequisites:11": [
         1
       ],
@@ -34110,7 +34053,7 @@
         }
       }
     },
-    "606:10": {
+    "605:10": {
       "preRequisites:11": [
         696,
         697,
@@ -34198,7 +34141,7 @@
         }
       }
     },
-    "607:10": {
+    "606:10": {
       "preRequisites:11": [
         350
       ],
@@ -34250,7 +34193,7 @@
         }
       }
     },
-    "608:10": {
+    "607:10": {
       "preRequisites:11": [
         621
       ],
@@ -34302,7 +34245,7 @@
         }
       }
     },
-    "609:10": {
+    "608:10": {
       "preRequisites:11": [
         705,
         434
@@ -34355,7 +34298,7 @@
         }
       }
     },
-    "610:10": {
+    "609:10": {
       "preRequisites:11": [
         710
       ],
@@ -34407,7 +34350,7 @@
         }
       }
     },
-    "611:10": {
+    "610:10": {
       "preRequisites:11": [
         350
       ],
@@ -34459,7 +34402,7 @@
         }
       }
     },
-    "612:10": {
+    "611:10": {
       "preRequisites:11": [
         717
       ],
@@ -34511,7 +34454,7 @@
         }
       }
     },
-    "613:10": {
+    "612:10": {
       "preRequisites:11": [
         350
       ],
@@ -34563,7 +34506,7 @@
         }
       }
     },
-    "614:10": {
+    "613:10": {
       "preRequisites:11": [
         296
       ],
@@ -34615,7 +34558,7 @@
         }
       }
     },
-    "615:10": {
+    "614:10": {
       "preRequisites:11": [
         722
       ],
@@ -34667,7 +34610,7 @@
         }
       }
     },
-    "616:10": {
+    "615:10": {
       "preRequisites:11": [
         723
       ],
@@ -34719,7 +34662,7 @@
         }
       }
     },
-    "617:10": {
+    "616:10": {
       "preRequisites:11": [
         697
       ],
@@ -34771,7 +34714,7 @@
         }
       }
     },
-    "618:10": {
+    "617:10": {
       "preRequisites:11": [
         759
       ],
@@ -34823,59 +34766,7 @@
         }
       }
     },
-    "619:10": {
-      "preRequisites:11": [
-        296
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "No Description",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 2303,
-            "OreDict:8": "",
-            "id:8": "gregtech:meta_item_1"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "HSS-E Dust",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "ALWAYS"
-        }
-      },
-      "questID:3": 758,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 1,
-          "consume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 2303,
-              "OreDict:8": "",
-              "id:8": "gregtech:meta_item_1"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "620:10": {
+    "618:10": {
       "preRequisites:11": [
         350
       ],
@@ -34927,7 +34818,7 @@
         }
       }
     },
-    "621:10": {
+    "619:10": {
       "preRequisites:11": [
         1384,
         974,
@@ -35000,111 +34891,7 @@
         }
       }
     },
-    "622:10": {
-      "preRequisites:11": [
-        758
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "No Description",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 11303,
-            "OreDict:8": "",
-            "id:8": "gregtech:meta_item_1"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "HSS-E Hot Ingot",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "ALWAYS"
-        }
-      },
-      "questID:3": 761,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 1,
-          "consume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 11303,
-              "OreDict:8": "",
-              "id:8": "gregtech:meta_item_1"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "623:10": {
-      "preRequisites:11": [
-        761
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "No Description",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 10303,
-            "OreDict:8": "",
-            "id:8": "gregtech:meta_item_1"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "HSS-E Ingot",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "ALWAYS"
-        }
-      },
-      "questID:3": 762,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 1,
-          "consume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 10303,
-              "OreDict:8": "",
-              "id:8": "gregtech:meta_item_1"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "624:10": {
+    "620:10": {
       "preRequisites:11": [
         906
       ],
@@ -35156,7 +34943,7 @@
         }
       }
     },
-    "625:10": {
+    "621:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -35206,7 +34993,7 @@
         }
       }
     },
-    "626:10": {
+    "622:10": {
       "preRequisites:11": [
         764,
         766,
@@ -35261,7 +35048,7 @@
         }
       }
     },
-    "627:10": {
+    "623:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -35311,7 +35098,7 @@
         }
       }
     },
-    "628:10": {
+    "624:10": {
       "preRequisites:11": [
         795
       ],
@@ -35363,7 +35150,7 @@
         }
       }
     },
-    "629:10": {
+    "625:10": {
       "preRequisites:11": [
         769
       ],
@@ -35415,7 +35202,7 @@
         }
       }
     },
-    "630:10": {
+    "626:10": {
       "preRequisites:11": [
         221
       ],
@@ -35467,7 +35254,7 @@
         }
       }
     },
-    "631:10": {
+    "627:10": {
       "preRequisites:11": [
         771
       ],
@@ -35519,7 +35306,7 @@
         }
       }
     },
-    "632:10": {
+    "628:10": {
       "preRequisites:11": [
         772
       ],
@@ -35571,7 +35358,7 @@
         }
       }
     },
-    "633:10": {
+    "629:10": {
       "preRequisites:11": [
         800
       ],
@@ -35623,7 +35410,7 @@
         }
       }
     },
-    "634:10": {
+    "630:10": {
       "preRequisites:11": [
         394
       ],
@@ -35675,7 +35462,7 @@
         }
       }
     },
-    "635:10": {
+    "631:10": {
       "preRequisites:11": [
         621
       ],
@@ -35727,8 +35514,10 @@
         }
       }
     },
-    "636:10": {
-      "preRequisites:11": [],
+    "632:10": {
+      "preRequisites:11": [
+        484
+      ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
@@ -35777,7 +35566,7 @@
         }
       }
     },
-    "637:10": {
+    "633:10": {
       "preRequisites:11": [
         695,
         835
@@ -35838,7 +35627,7 @@
         }
       }
     },
-    "638:10": {
+    "634:10": {
       "preRequisites:11": [
         795
       ],
@@ -35890,7 +35679,7 @@
         }
       }
     },
-    "639:10": {
+    "635:10": {
       "preRequisites:11": [
         813,
         698,
@@ -35944,7 +35733,7 @@
         }
       }
     },
-    "640:10": {
+    "636:10": {
       "preRequisites:11": [
         132
       ],
@@ -35996,7 +35785,7 @@
         }
       }
     },
-    "641:10": {
+    "637:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -36046,7 +35835,7 @@
         }
       }
     },
-    "642:10": {
+    "638:10": {
       "preRequisites:11": [
         1290
       ],
@@ -36098,7 +35887,7 @@
         }
       }
     },
-    "643:10": {
+    "639:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -36150,7 +35939,7 @@
         }
       }
     },
-    "644:10": {
+    "640:10": {
       "preRequisites:11": [
         801
       ],
@@ -36204,7 +35993,7 @@
         }
       }
     },
-    "645:10": {
+    "641:10": {
       "preRequisites:11": [
         802
       ],
@@ -36258,7 +36047,7 @@
         }
       }
     },
-    "646:10": {
+    "642:10": {
       "preRequisites:11": [
         803
       ],
@@ -36312,7 +36101,7 @@
         }
       }
     },
-    "647:10": {
+    "643:10": {
       "preRequisites:11": [
         1034
       ],
@@ -36364,7 +36153,7 @@
         }
       }
     },
-    "648:10": {
+    "644:10": {
       "preRequisites:11": [
         1034
       ],
@@ -36416,7 +36205,7 @@
         }
       }
     },
-    "649:10": {
+    "645:10": {
       "preRequisites:11": [
         1040
       ],
@@ -36468,7 +36257,7 @@
         }
       }
     },
-    "650:10": {
+    "646:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -36520,7 +36309,7 @@
         }
       }
     },
-    "651:10": {
+    "647:10": {
       "preRequisites:11": [
         808
       ],
@@ -36574,7 +36363,7 @@
         }
       }
     },
-    "652:10": {
+    "648:10": {
       "preRequisites:11": [
         809
       ],
@@ -36628,7 +36417,7 @@
         }
       }
     },
-    "653:10": {
+    "649:10": {
       "preRequisites:11": [
         810
       ],
@@ -36682,7 +36471,7 @@
         }
       }
     },
-    "654:10": {
+    "650:10": {
       "preRequisites:11": [
         814
       ],
@@ -36734,7 +36523,7 @@
         }
       }
     },
-    "655:10": {
+    "651:10": {
       "preRequisites:11": [
         527,
         799
@@ -36787,7 +36576,7 @@
         }
       }
     },
-    "656:10": {
+    "652:10": {
       "preRequisites:11": [
         978
       ],
@@ -36847,7 +36636,7 @@
         }
       }
     },
-    "657:10": {
+    "653:10": {
       "preRequisites:11": [
         1237
       ],
@@ -36899,7 +36688,7 @@
         }
       }
     },
-    "658:10": {
+    "654:10": {
       "preRequisites:11": [
         815
       ],
@@ -36951,7 +36740,7 @@
         }
       }
     },
-    "659:10": {
+    "655:10": {
       "preRequisites:11": [
         213
       ],
@@ -37003,7 +36792,7 @@
         }
       }
     },
-    "660:10": {
+    "656:10": {
       "preRequisites:11": [
         212
       ],
@@ -37203,7 +36992,7 @@
         }
       }
     },
-    "661:10": {
+    "657:10": {
       "preRequisites:11": [
         212
       ],
@@ -37403,7 +37192,7 @@
         }
       }
     },
-    "662:10": {
+    "658:10": {
       "preRequisites:11": [
         824
       ],
@@ -37455,7 +37244,7 @@
         }
       }
     },
-    "663:10": {
+    "659:10": {
       "preRequisites:11": [
         826
       ],
@@ -37507,7 +37296,7 @@
         }
       }
     },
-    "664:10": {
+    "660:10": {
       "preRequisites:11": [
         1041
       ],
@@ -37559,7 +37348,7 @@
         }
       }
     },
-    "665:10": {
+    "661:10": {
       "preRequisites:11": [
         830
       ],
@@ -37611,7 +37400,7 @@
         }
       }
     },
-    "666:10": {
+    "662:10": {
       "preRequisites:11": [
         1036
       ],
@@ -37663,7 +37452,7 @@
         }
       }
     },
-    "667:10": {
+    "663:10": {
       "preRequisites:11": [
         798
       ],
@@ -37717,7 +37506,7 @@
         }
       }
     },
-    "668:10": {
+    "664:10": {
       "preRequisites:11": [
         828,
         1034
@@ -37772,7 +37561,7 @@
         }
       }
     },
-    "669:10": {
+    "665:10": {
       "preRequisites:11": [
         981
       ],
@@ -37824,7 +37613,7 @@
         }
       }
     },
-    "670:10": {
+    "666:10": {
       "preRequisites:11": [
         214
       ],
@@ -37884,7 +37673,7 @@
         }
       }
     },
-    "671:10": {
+    "667:10": {
       "preRequisites:11": [
         831
       ],
@@ -37936,7 +37725,7 @@
         }
       }
     },
-    "672:10": {
+    "668:10": {
       "preRequisites:11": [
         527
       ],
@@ -38012,7 +37801,7 @@
         }
       }
     },
-    "673:10": {
+    "669:10": {
       "preRequisites:11": [
         836
       ],
@@ -38064,7 +37853,7 @@
         }
       }
     },
-    "674:10": {
+    "670:10": {
       "preRequisites:11": [
         323
       ],
@@ -38124,7 +37913,7 @@
         }
       }
     },
-    "675:10": {
+    "671:10": {
       "preRequisites:11": [
         812,
         865
@@ -38189,7 +37978,7 @@
         }
       }
     },
-    "676:10": {
+    "672:10": {
       "preRequisites:11": [
         852
       ],
@@ -38259,7 +38048,7 @@
         }
       }
     },
-    "677:10": {
+    "673:10": {
       "preRequisites:11": [
         852
       ],
@@ -38321,7 +38110,7 @@
         }
       }
     },
-    "678:10": {
+    "674:10": {
       "preRequisites:11": [
         852
       ],
@@ -38389,7 +38178,7 @@
         }
       }
     },
-    "679:10": {
+    "675:10": {
       "preRequisites:11": [
         289
       ],
@@ -38459,7 +38248,7 @@
         }
       }
     },
-    "680:10": {
+    "676:10": {
       "preRequisites:11": [
         852
       ],
@@ -38529,7 +38318,7 @@
         }
       }
     },
-    "681:10": {
+    "677:10": {
       "preRequisites:11": [
         852
       ],
@@ -38599,7 +38388,7 @@
         }
       }
     },
-    "682:10": {
+    "678:10": {
       "preRequisites:11": [
         852
       ],
@@ -38669,7 +38458,7 @@
         }
       }
     },
-    "683:10": {
+    "679:10": {
       "preRequisites:11": [
         852
       ],
@@ -38737,7 +38526,7 @@
         }
       }
     },
-    "684:10": {
+    "680:10": {
       "preRequisites:11": [
         843,
         850
@@ -38808,7 +38597,7 @@
         }
       }
     },
-    "685:10": {
+    "681:10": {
       "preRequisites:11": [
         852
       ],
@@ -38876,7 +38665,7 @@
         }
       }
     },
-    "686:10": {
+    "682:10": {
       "preRequisites:11": [
         798
       ],
@@ -38928,7 +38717,7 @@
         }
       }
     },
-    "687:10": {
+    "683:10": {
       "preRequisites:11": [
         962,
         961
@@ -38989,7 +38778,7 @@
         }
       }
     },
-    "688:10": {
+    "684:10": {
       "preRequisites:11": [
         23
       ],
@@ -39041,7 +38830,7 @@
         }
       }
     },
-    "689:10": {
+    "685:10": {
       "preRequisites:11": [
         853
       ],
@@ -39093,7 +38882,7 @@
         }
       }
     },
-    "690:10": {
+    "686:10": {
       "preRequisites:11": [
         394
       ],
@@ -39145,7 +38934,7 @@
         }
       }
     },
-    "691:10": {
+    "687:10": {
       "preRequisites:11": [
         954
       ],
@@ -39197,7 +38986,7 @@
         }
       }
     },
-    "692:10": {
+    "688:10": {
       "preRequisites:11": [
         394
       ],
@@ -39249,7 +39038,7 @@
         }
       }
     },
-    "693:10": {
+    "689:10": {
       "preRequisites:11": [
         362
       ],
@@ -39301,7 +39090,7 @@
         }
       }
     },
-    "694:10": {
+    "690:10": {
       "preRequisites:11": [
         25
       ],
@@ -39353,7 +39142,7 @@
         }
       }
     },
-    "695:10": {
+    "691:10": {
       "preRequisites:11": [
         866
       ],
@@ -39405,7 +39194,7 @@
         }
       }
     },
-    "696:10": {
+    "692:10": {
       "preRequisites:11": [
         867
       ],
@@ -39457,7 +39246,7 @@
         }
       }
     },
-    "697:10": {
+    "693:10": {
       "preRequisites:11": [
         868
       ],
@@ -39509,7 +39298,7 @@
         }
       }
     },
-    "698:10": {
+    "694:10": {
       "preRequisites:11": [
         869
       ],
@@ -39561,7 +39350,7 @@
         }
       }
     },
-    "699:10": {
+    "695:10": {
       "preRequisites:11": [
         872
       ],
@@ -39631,7 +39420,7 @@
         }
       }
     },
-    "700:10": {
+    "696:10": {
       "preRequisites:11": [
         871
       ],
@@ -39683,7 +39472,7 @@
         }
       }
     },
-    "701:10": {
+    "697:10": {
       "preRequisites:11": [
         872
       ],
@@ -39735,7 +39524,7 @@
         }
       }
     },
-    "702:10": {
+    "698:10": {
       "preRequisites:11": [
         873
       ],
@@ -39787,7 +39576,7 @@
         }
       }
     },
-    "703:10": {
+    "699:10": {
       "preRequisites:11": [
         874
       ],
@@ -39839,7 +39628,7 @@
         }
       }
     },
-    "704:10": {
+    "700:10": {
       "preRequisites:11": [
         193
       ],
@@ -39909,7 +39698,7 @@
         }
       }
     },
-    "705:10": {
+    "701:10": {
       "preRequisites:11": [
         876
       ],
@@ -39961,7 +39750,7 @@
         }
       }
     },
-    "706:10": {
+    "702:10": {
       "preRequisites:11": [
         877
       ],
@@ -40013,7 +39802,7 @@
         }
       }
     },
-    "707:10": {
+    "703:10": {
       "preRequisites:11": [
         878
       ],
@@ -40065,7 +39854,7 @@
         }
       }
     },
-    "708:10": {
+    "704:10": {
       "preRequisites:11": [
         879
       ],
@@ -40117,7 +39906,7 @@
         }
       }
     },
-    "709:10": {
+    "705:10": {
       "preRequisites:11": [
         324
       ],
@@ -40187,7 +39976,7 @@
         }
       }
     },
-    "710:10": {
+    "706:10": {
       "preRequisites:11": [
         881
       ],
@@ -40239,7 +40028,7 @@
         }
       }
     },
-    "711:10": {
+    "707:10": {
       "preRequisites:11": [
         882
       ],
@@ -40291,7 +40080,7 @@
         }
       }
     },
-    "712:10": {
+    "708:10": {
       "preRequisites:11": [
         883
       ],
@@ -40343,7 +40132,7 @@
         }
       }
     },
-    "713:10": {
+    "709:10": {
       "preRequisites:11": [
         884
       ],
@@ -40395,7 +40184,7 @@
         }
       }
     },
-    "714:10": {
+    "710:10": {
       "preRequisites:11": [
         452
       ],
@@ -40465,7 +40254,7 @@
         }
       }
     },
-    "715:10": {
+    "711:10": {
       "preRequisites:11": [
         886
       ],
@@ -40517,7 +40306,7 @@
         }
       }
     },
-    "716:10": {
+    "712:10": {
       "preRequisites:11": [
         887
       ],
@@ -40569,7 +40358,7 @@
         }
       }
     },
-    "717:10": {
+    "713:10": {
       "preRequisites:11": [
         888
       ],
@@ -40621,7 +40410,7 @@
         }
       }
     },
-    "718:10": {
+    "714:10": {
       "preRequisites:11": [
         889
       ],
@@ -40673,7 +40462,7 @@
         }
       }
     },
-    "719:10": {
+    "715:10": {
       "preRequisites:11": [
         14
       ],
@@ -40725,7 +40514,7 @@
         }
       }
     },
-    "720:10": {
+    "716:10": {
       "preRequisites:11": [
         891
       ],
@@ -40777,7 +40566,7 @@
         }
       }
     },
-    "721:10": {
+    "717:10": {
       "preRequisites:11": [
         892
       ],
@@ -40829,7 +40618,7 @@
         }
       }
     },
-    "722:10": {
+    "718:10": {
       "preRequisites:11": [
         893
       ],
@@ -40881,7 +40670,7 @@
         }
       }
     },
-    "723:10": {
+    "719:10": {
       "preRequisites:11": [
         894
       ],
@@ -40933,7 +40722,7 @@
         }
       }
     },
-    "724:10": {
+    "720:10": {
       "preRequisites:11": [
         870
       ],
@@ -40985,7 +40774,7 @@
         }
       }
     },
-    "725:10": {
+    "721:10": {
       "preRequisites:11": [
         875
       ],
@@ -41037,7 +40826,7 @@
         }
       }
     },
-    "726:10": {
+    "722:10": {
       "preRequisites:11": [
         897
       ],
@@ -41089,7 +40878,7 @@
         }
       }
     },
-    "727:10": {
+    "723:10": {
       "preRequisites:11": [
         880
       ],
@@ -41141,7 +40930,7 @@
         }
       }
     },
-    "728:10": {
+    "724:10": {
       "preRequisites:11": [
         899
       ],
@@ -41193,7 +40982,7 @@
         }
       }
     },
-    "729:10": {
+    "725:10": {
       "preRequisites:11": [
         885
       ],
@@ -41245,7 +41034,7 @@
         }
       }
     },
-    "730:10": {
+    "726:10": {
       "preRequisites:11": [
         901
       ],
@@ -41297,7 +41086,7 @@
         }
       }
     },
-    "731:10": {
+    "727:10": {
       "preRequisites:11": [
         890
       ],
@@ -41349,7 +41138,7 @@
         }
       }
     },
-    "732:10": {
+    "728:10": {
       "preRequisites:11": [
         903
       ],
@@ -41401,7 +41190,7 @@
         }
       }
     },
-    "733:10": {
+    "729:10": {
       "preRequisites:11": [
         525
       ],
@@ -41471,7 +41260,7 @@
         }
       }
     },
-    "734:10": {
+    "730:10": {
       "preRequisites:11": [
         905
       ],
@@ -41523,7 +41312,7 @@
         }
       }
     },
-    "735:10": {
+    "731:10": {
       "preRequisites:11": [
         906
       ],
@@ -41575,7 +41364,7 @@
         }
       }
     },
-    "736:10": {
+    "732:10": {
       "preRequisites:11": [
         907
       ],
@@ -41627,7 +41416,7 @@
         }
       }
     },
-    "737:10": {
+    "733:10": {
       "preRequisites:11": [
         908
       ],
@@ -41679,7 +41468,7 @@
         }
       }
     },
-    "738:10": {
+    "734:10": {
       "preRequisites:11": [
         296
       ],
@@ -41749,7 +41538,7 @@
         }
       }
     },
-    "739:10": {
+    "735:10": {
       "preRequisites:11": [
         910
       ],
@@ -41801,7 +41590,7 @@
         }
       }
     },
-    "740:10": {
+    "736:10": {
       "preRequisites:11": [
         911
       ],
@@ -41853,7 +41642,7 @@
         }
       }
     },
-    "741:10": {
+    "737:10": {
       "preRequisites:11": [
         912
       ],
@@ -41905,7 +41694,7 @@
         }
       }
     },
-    "742:10": {
+    "738:10": {
       "preRequisites:11": [
         913
       ],
@@ -41957,7 +41746,7 @@
         }
       }
     },
-    "743:10": {
+    "739:10": {
       "preRequisites:11": [
         527
       ],
@@ -42027,7 +41816,7 @@
         }
       }
     },
-    "744:10": {
+    "740:10": {
       "preRequisites:11": [
         915
       ],
@@ -42079,7 +41868,7 @@
         }
       }
     },
-    "745:10": {
+    "741:10": {
       "preRequisites:11": [
         916
       ],
@@ -42131,7 +41920,7 @@
         }
       }
     },
-    "746:10": {
+    "742:10": {
       "preRequisites:11": [
         917
       ],
@@ -42183,7 +41972,7 @@
         }
       }
     },
-    "747:10": {
+    "743:10": {
       "preRequisites:11": [
         918
       ],
@@ -42235,7 +42024,7 @@
         }
       }
     },
-    "748:10": {
+    "744:10": {
       "preRequisites:11": [
         909
       ],
@@ -42287,7 +42076,7 @@
         }
       }
     },
-    "749:10": {
+    "745:10": {
       "preRequisites:11": [
         920
       ],
@@ -42339,7 +42128,7 @@
         }
       }
     },
-    "750:10": {
+    "746:10": {
       "preRequisites:11": [
         914
       ],
@@ -42391,7 +42180,7 @@
         }
       }
     },
-    "751:10": {
+    "747:10": {
       "preRequisites:11": [
         922
       ],
@@ -42443,7 +42232,7 @@
         }
       }
     },
-    "752:10": {
+    "748:10": {
       "preRequisites:11": [
         919
       ],
@@ -42495,7 +42284,7 @@
         }
       }
     },
-    "753:10": {
+    "749:10": {
       "preRequisites:11": [
         924
       ],
@@ -42547,7 +42336,7 @@
         }
       }
     },
-    "754:10": {
+    "750:10": {
       "preRequisites:11": [
         548
       ],
@@ -42617,7 +42406,7 @@
         }
       }
     },
-    "755:10": {
+    "751:10": {
       "preRequisites:11": [
         926
       ],
@@ -42669,7 +42458,7 @@
         }
       }
     },
-    "756:10": {
+    "752:10": {
       "preRequisites:11": [
         927
       ],
@@ -42721,7 +42510,7 @@
         }
       }
     },
-    "757:10": {
+    "753:10": {
       "preRequisites:11": [
         928
       ],
@@ -42773,7 +42562,7 @@
         }
       }
     },
-    "758:10": {
+    "754:10": {
       "preRequisites:11": [
         929
       ],
@@ -42825,7 +42614,7 @@
         }
       }
     },
-    "759:10": {
+    "755:10": {
       "preRequisites:11": [
         930
       ],
@@ -42877,7 +42666,7 @@
         }
       }
     },
-    "760:10": {
+    "756:10": {
       "preRequisites:11": [
         931
       ],
@@ -42929,7 +42718,7 @@
         }
       }
     },
-    "761:10": {
+    "757:10": {
       "preRequisites:11": [
         549
       ],
@@ -42999,7 +42788,7 @@
         }
       }
     },
-    "762:10": {
+    "758:10": {
       "preRequisites:11": [
         933
       ],
@@ -43051,7 +42840,7 @@
         }
       }
     },
-    "763:10": {
+    "759:10": {
       "preRequisites:11": [
         934
       ],
@@ -43103,7 +42892,7 @@
         }
       }
     },
-    "764:10": {
+    "760:10": {
       "preRequisites:11": [
         935
       ],
@@ -43155,7 +42944,7 @@
         }
       }
     },
-    "765:10": {
+    "761:10": {
       "preRequisites:11": [
         936
       ],
@@ -43207,7 +42996,7 @@
         }
       }
     },
-    "766:10": {
+    "762:10": {
       "preRequisites:11": [
         550
       ],
@@ -43277,7 +43066,7 @@
         }
       }
     },
-    "767:10": {
+    "763:10": {
       "preRequisites:11": [
         938
       ],
@@ -43329,7 +43118,7 @@
         }
       }
     },
-    "768:10": {
+    "764:10": {
       "preRequisites:11": [
         939
       ],
@@ -43381,7 +43170,7 @@
         }
       }
     },
-    "769:10": {
+    "765:10": {
       "preRequisites:11": [
         940
       ],
@@ -43433,7 +43222,7 @@
         }
       }
     },
-    "770:10": {
+    "766:10": {
       "preRequisites:11": [
         941
       ],
@@ -43485,7 +43274,7 @@
         }
       }
     },
-    "771:10": {
+    "767:10": {
       "preRequisites:11": [
         551
       ],
@@ -43537,7 +43326,7 @@
         }
       }
     },
-    "772:10": {
+    "768:10": {
       "preRequisites:11": [
         943
       ],
@@ -43607,7 +43396,7 @@
         }
       }
     },
-    "773:10": {
+    "769:10": {
       "preRequisites:11": [
         944
       ],
@@ -43659,7 +43448,7 @@
         }
       }
     },
-    "774:10": {
+    "770:10": {
       "preRequisites:11": [
         945
       ],
@@ -43711,7 +43500,7 @@
         }
       }
     },
-    "775:10": {
+    "771:10": {
       "preRequisites:11": [
         946
       ],
@@ -43763,7 +43552,7 @@
         }
       }
     },
-    "776:10": {
+    "772:10": {
       "preRequisites:11": [
         937
       ],
@@ -43815,7 +43604,7 @@
         }
       }
     },
-    "777:10": {
+    "773:10": {
       "preRequisites:11": [
         948
       ],
@@ -43867,7 +43656,7 @@
         }
       }
     },
-    "778:10": {
+    "774:10": {
       "preRequisites:11": [
         942
       ],
@@ -43919,7 +43708,7 @@
         }
       }
     },
-    "779:10": {
+    "775:10": {
       "preRequisites:11": [
         950
       ],
@@ -43971,7 +43760,7 @@
         }
       }
     },
-    "780:10": {
+    "776:10": {
       "preRequisites:11": [
         947
       ],
@@ -44023,7 +43812,7 @@
         }
       }
     },
-    "781:10": {
+    "777:10": {
       "preRequisites:11": [
         952
       ],
@@ -44075,7 +43864,7 @@
         }
       }
     },
-    "782:10": {
+    "778:10": {
       "preRequisites:11": [
         326
       ],
@@ -44135,7 +43924,7 @@
         }
       }
     },
-    "783:10": {
+    "779:10": {
       "preRequisites:11": [
         957
       ],
@@ -44187,7 +43976,7 @@
         }
       }
     },
-    "784:10": {
+    "780:10": {
       "preRequisites:11": [
         955,
         860
@@ -44240,7 +44029,7 @@
         }
       }
     },
-    "785:10": {
+    "781:10": {
       "preRequisites:11": [
         548
       ],
@@ -44292,7 +44081,7 @@
         }
       }
     },
-    "786:10": {
+    "782:10": {
       "preRequisites:11": [
         176
       ],
@@ -44344,7 +44133,7 @@
         }
       }
     },
-    "787:10": {
+    "783:10": {
       "preRequisites:11": [
         958
       ],
@@ -44378,7 +44167,7 @@
       "rewards:9": {},
       "tasks:9": {}
     },
-    "788:10": {
+    "784:10": {
       "preRequisites:11": [
         958
       ],
@@ -44412,7 +44201,7 @@
       "rewards:9": {},
       "tasks:9": {}
     },
-    "789:10": {
+    "785:10": {
       "preRequisites:11": [
         963
       ],
@@ -44470,7 +44259,7 @@
         }
       }
     },
-    "790:10": {
+    "786:10": {
       "preRequisites:11": [
         11,
         25,
@@ -44524,7 +44313,7 @@
         }
       }
     },
-    "791:10": {
+    "787:10": {
       "preRequisites:11": [
         964,
         965,
@@ -44584,7 +44373,7 @@
         }
       }
     },
-    "792:10": {
+    "788:10": {
       "preRequisites:11": [
         967
       ],
@@ -44636,7 +44425,7 @@
         }
       }
     },
-    "793:10": {
+    "789:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -44686,7 +44475,7 @@
         }
       }
     },
-    "794:10": {
+    "790:10": {
       "preRequisites:11": [
         123
       ],
@@ -44750,7 +44539,7 @@
         }
       }
     },
-    "795:10": {
+    "791:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -44800,7 +44589,7 @@
         }
       }
     },
-    "796:10": {
+    "792:10": {
       "preRequisites:11": [
         212
       ],
@@ -44852,7 +44641,7 @@
         }
       }
     },
-    "797:10": {
+    "793:10": {
       "preRequisites:11": [
         969
       ],
@@ -44904,7 +44693,7 @@
         }
       }
     },
-    "798:10": {
+    "794:10": {
       "preRequisites:11": [
         970
       ],
@@ -44956,7 +44745,7 @@
         }
       }
     },
-    "799:10": {
+    "795:10": {
       "preRequisites:11": [
         971
       ],
@@ -45008,7 +44797,7 @@
         }
       }
     },
-    "800:10": {
+    "796:10": {
       "preRequisites:11": [
         972
       ],
@@ -45060,10 +44849,8 @@
         }
       }
     },
-    "801:10": {
-      "preRequisites:11": [
-        975
-      ],
+    "797:10": {
+      "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
@@ -45079,7 +44866,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "Enriched Naquada Ingot",
+          "name:8": "Enriched Naquadah Ingot",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -45112,161 +44899,7 @@
         }
       }
     },
-    "802:10": {
-      "preRequisites:11": [
-        976
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "No Description",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 11309,
-            "OreDict:8": "",
-            "id:8": "gregtech:meta_item_1"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "Hot Enriched Naquada Ingot",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "ALWAYS"
-        }
-      },
-      "questID:3": 975,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 1,
-          "consume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 11309,
-              "OreDict:8": "",
-              "id:8": "gregtech:meta_item_1"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "803:10": {
-      "preRequisites:11": [
-        977
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "No Description",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 2309,
-            "OreDict:8": "",
-            "id:8": "gregtech:meta_item_1"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "Enriched Naquada Dust",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "ALWAYS"
-        }
-      },
-      "questID:3": 976,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 1,
-          "consume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 2309,
-              "OreDict:8": "",
-              "id:8": "gregtech:meta_item_1"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "804:10": {
-      "preRequisites:11": [],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "No Description",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 309,
-            "OreDict:8": "",
-            "id:8": "gregtech:meta_item_1"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "Tiny Pile of Enriched Naquada Dust",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "ALWAYS"
-        }
-      },
-      "questID:3": 977,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 1,
-          "consume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 309,
-              "OreDict:8": "",
-              "id:8": "gregtech:meta_item_1"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "805:10": {
+    "798:10": {
       "preRequisites:11": [
         979,
         983,
@@ -45353,7 +44986,7 @@
         }
       }
     },
-    "806:10": {
+    "799:10": {
       "preRequisites:11": [
         980
       ],
@@ -45405,7 +45038,7 @@
         }
       }
     },
-    "807:10": {
+    "800:10": {
       "preRequisites:11": [
         981
       ],
@@ -45457,7 +45090,7 @@
         }
       }
     },
-    "808:10": {
+    "801:10": {
       "preRequisites:11": [
         982
       ],
@@ -45509,7 +45142,7 @@
         }
       }
     },
-    "809:10": {
+    "802:10": {
       "preRequisites:11": [
         904
       ],
@@ -45561,7 +45194,7 @@
         }
       }
     },
-    "810:10": {
+    "803:10": {
       "preRequisites:11": [
         984
       ],
@@ -45613,7 +45246,7 @@
         }
       }
     },
-    "811:10": {
+    "804:10": {
       "preRequisites:11": [
         985
       ],
@@ -45665,7 +45298,7 @@
         }
       }
     },
-    "812:10": {
+    "805:10": {
       "preRequisites:11": [
         986
       ],
@@ -45725,7 +45358,7 @@
         }
       }
     },
-    "813:10": {
+    "806:10": {
       "preRequisites:11": [
         695
       ],
@@ -45785,7 +45418,7 @@
         }
       }
     },
-    "814:10": {
+    "807:10": {
       "preRequisites:11": [
         988
       ],
@@ -45837,7 +45470,7 @@
         }
       }
     },
-    "815:10": {
+    "808:10": {
       "preRequisites:11": [
         989
       ],
@@ -45889,7 +45522,7 @@
         }
       }
     },
-    "816:10": {
+    "809:10": {
       "preRequisites:11": [
         990
       ],
@@ -45941,7 +45574,7 @@
         }
       }
     },
-    "817:10": {
+    "810:10": {
       "preRequisites:11": [
         991
       ],
@@ -45993,7 +45626,7 @@
         }
       }
     },
-    "818:10": {
+    "811:10": {
       "preRequisites:11": [
         598
       ],
@@ -46045,7 +45678,7 @@
         }
       }
     },
-    "819:10": {
+    "812:10": {
       "preRequisites:11": [
         5
       ],
@@ -46105,7 +45738,7 @@
         }
       }
     },
-    "820:10": {
+    "813:10": {
       "preRequisites:11": [
         1475
       ],
@@ -46175,7 +45808,7 @@
         }
       }
     },
-    "821:10": {
+    "814:10": {
       "preRequisites:11": [
         1491,
         995
@@ -46242,7 +45875,7 @@
         }
       }
     },
-    "822:10": {
+    "815:10": {
       "preRequisites:11": [
         1486
       ],
@@ -46294,7 +45927,7 @@
         }
       }
     },
-    "823:10": {
+    "816:10": {
       "preRequisites:11": [
         23
       ],
@@ -46346,7 +45979,7 @@
         }
       }
     },
-    "824:10": {
+    "817:10": {
       "preRequisites:11": [
         391,
         998
@@ -46407,7 +46040,7 @@
         }
       }
     },
-    "825:10": {
+    "818:10": {
       "preRequisites:11": [
         407
       ],
@@ -46467,7 +46100,7 @@
         }
       }
     },
-    "826:10": {
+    "819:10": {
       "preRequisites:11": [
         403
       ],
@@ -46527,7 +46160,7 @@
         }
       }
     },
-    "827:10": {
+    "820:10": {
       "preRequisites:11": [
         404
       ],
@@ -46589,7 +46222,7 @@
         }
       }
     },
-    "828:10": {
+    "821:10": {
       "preRequisites:11": [
         1000
       ],
@@ -46651,7 +46284,7 @@
         }
       }
     },
-    "829:10": {
+    "822:10": {
       "preRequisites:11": [
         1001
       ],
@@ -46711,7 +46344,7 @@
         }
       }
     },
-    "830:10": {
+    "823:10": {
       "preRequisites:11": [
         1000
       ],
@@ -46771,7 +46404,7 @@
         }
       }
     },
-    "831:10": {
+    "824:10": {
       "preRequisites:11": [
         1000
       ],
@@ -46833,7 +46466,7 @@
         }
       }
     },
-    "832:10": {
+    "825:10": {
       "preRequisites:11": [
         1000
       ],
@@ -46893,7 +46526,7 @@
         }
       }
     },
-    "833:10": {
+    "826:10": {
       "preRequisites:11": [
         1004
       ],
@@ -46961,7 +46594,7 @@
         }
       }
     },
-    "834:10": {
+    "827:10": {
       "preRequisites:11": [
         1004
       ],
@@ -47023,7 +46656,7 @@
         }
       }
     },
-    "835:10": {
+    "828:10": {
       "preRequisites:11": [
         1008,
         1007
@@ -47084,7 +46717,7 @@
         }
       }
     },
-    "836:10": {
+    "829:10": {
       "preRequisites:11": [
         1004
       ],
@@ -47144,7 +46777,7 @@
         }
       }
     },
-    "837:10": {
+    "830:10": {
       "preRequisites:11": [
         1009,
         1010
@@ -47205,7 +46838,7 @@
         }
       }
     },
-    "838:10": {
+    "831:10": {
       "preRequisites:11": [
         1014,
         1042,
@@ -47277,7 +46910,7 @@
         }
       }
     },
-    "839:10": {
+    "832:10": {
       "preRequisites:11": [
         284
       ],
@@ -47337,7 +46970,7 @@
         }
       }
     },
-    "840:10": {
+    "833:10": {
       "preRequisites:11": [
         1043
       ],
@@ -47389,7 +47022,7 @@
         }
       }
     },
-    "841:10": {
+    "834:10": {
       "preRequisites:11": [
         1013
       ],
@@ -47441,7 +47074,7 @@
         }
       }
     },
-    "842:10": {
+    "835:10": {
       "preRequisites:11": [
         1017,
         607,
@@ -47514,7 +47147,7 @@
         }
       }
     },
-    "843:10": {
+    "836:10": {
       "preRequisites:11": [
         1018
       ],
@@ -47566,7 +47199,7 @@
         }
       }
     },
-    "844:10": {
+    "837:10": {
       "preRequisites:11": [
         695
       ],
@@ -47626,7 +47259,7 @@
         }
       }
     },
-    "845:10": {
+    "838:10": {
       "preRequisites:11": [
         1020
       ],
@@ -47678,7 +47311,7 @@
         }
       }
     },
-    "846:10": {
+    "839:10": {
       "preRequisites:11": [
         1021
       ],
@@ -47730,7 +47363,7 @@
         }
       }
     },
-    "847:10": {
+    "840:10": {
       "preRequisites:11": [
         211
       ],
@@ -47782,7 +47415,7 @@
         }
       }
     },
-    "848:10": {
+    "841:10": {
       "preRequisites:11": [
         1007
       ],
@@ -47842,7 +47475,7 @@
         }
       }
     },
-    "849:10": {
+    "842:10": {
       "preRequisites:11": [
         390
       ],
@@ -47902,7 +47535,7 @@
         }
       }
     },
-    "850:10": {
+    "843:10": {
       "preRequisites:11": [
         848
       ],
@@ -47966,7 +47599,7 @@
         }
       }
     },
-    "851:10": {
+    "844:10": {
       "preRequisites:11": [
         798
       ],
@@ -48018,7 +47651,7 @@
         }
       }
     },
-    "852:10": {
+    "845:10": {
       "preRequisites:11": [
         1035
       ],
@@ -48070,7 +47703,7 @@
         }
       }
     },
-    "853:10": {
+    "846:10": {
       "preRequisites:11": [
         848
       ],
@@ -48146,7 +47779,7 @@
         }
       }
     },
-    "854:10": {
+    "847:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -48196,7 +47829,7 @@
         }
       }
     },
-    "855:10": {
+    "848:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -48246,7 +47879,7 @@
         }
       }
     },
-    "856:10": {
+    "849:10": {
       "preRequisites:11": [
         1015
       ],
@@ -48298,7 +47931,7 @@
         }
       }
     },
-    "857:10": {
+    "850:10": {
       "preRequisites:11": [
         796
       ],
@@ -48350,7 +47983,7 @@
         }
       }
     },
-    "858:10": {
+    "851:10": {
       "preRequisites:11": [
         1052
       ],
@@ -48402,7 +48035,7 @@
         }
       }
     },
-    "859:10": {
+    "852:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -48452,7 +48085,7 @@
         }
       }
     },
-    "860:10": {
+    "853:10": {
       "preRequisites:11": [
         315
       ],
@@ -48504,7 +48137,7 @@
         }
       }
     },
-    "861:10": {
+    "854:10": {
       "preRequisites:11": [
         832,
         1065
@@ -48575,7 +48208,7 @@
         }
       }
     },
-    "862:10": {
+    "855:10": {
       "preRequisites:11": [
         1066
       ],
@@ -48627,7 +48260,7 @@
         }
       }
     },
-    "863:10": {
+    "856:10": {
       "preRequisites:11": [
         796
       ],
@@ -48679,7 +48312,7 @@
         }
       }
     },
-    "864:10": {
+    "857:10": {
       "preRequisites:11": [
         956,
         1068
@@ -48732,7 +48365,7 @@
         }
       }
     },
-    "865:10": {
+    "858:10": {
       "preRequisites:11": [
         1069
       ],
@@ -48784,7 +48417,7 @@
         }
       }
     },
-    "866:10": {
+    "859:10": {
       "preRequisites:11": [
         1070
       ],
@@ -48844,7 +48477,7 @@
         }
       }
     },
-    "867:10": {
+    "860:10": {
       "preRequisites:11": [
         831
       ],
@@ -48904,7 +48537,7 @@
         }
       }
     },
-    "868:10": {
+    "861:10": {
       "preRequisites:11": [
         548,
         1072,
@@ -48996,7 +48629,7 @@
         }
       }
     },
-    "869:10": {
+    "862:10": {
       "preRequisites:11": [
         826
       ],
@@ -49048,7 +48681,7 @@
         }
       }
     },
-    "870:10": {
+    "863:10": {
       "preRequisites:11": [
         1074
       ],
@@ -49100,7 +48733,7 @@
         }
       }
     },
-    "871:10": {
+    "864:10": {
       "preRequisites:11": [
         832
       ],
@@ -49152,7 +48785,7 @@
         }
       }
     },
-    "872:10": {
+    "865:10": {
       "preRequisites:11": [
         214
       ],
@@ -49212,7 +48845,7 @@
         }
       }
     },
-    "873:10": {
+    "866:10": {
       "preRequisites:11": [
         1072,
         1073
@@ -49265,7 +48898,7 @@
         }
       }
     },
-    "874:10": {
+    "867:10": {
       "preRequisites:11": [
         831
       ],
@@ -49317,7 +48950,7 @@
         }
       }
     },
-    "875:10": {
+    "868:10": {
       "preRequisites:11": [
         548
       ],
@@ -49369,7 +49002,7 @@
         }
       }
     },
-    "876:10": {
+    "869:10": {
       "preRequisites:11": [
         1078
       ],
@@ -49433,7 +49066,7 @@
         }
       }
     },
-    "877:10": {
+    "870:10": {
       "preRequisites:11": [
         1078
       ],
@@ -49509,7 +49142,7 @@
         }
       }
     },
-    "878:10": {
+    "871:10": {
       "preRequisites:11": [
         1080,
         1082
@@ -49562,7 +49195,7 @@
         }
       }
     },
-    "879:10": {
+    "872:10": {
       "preRequisites:11": [
         548
       ],
@@ -49614,7 +49247,7 @@
         }
       }
     },
-    "880:10": {
+    "873:10": {
       "preRequisites:11": [
         1077,
         1073
@@ -49667,7 +49300,7 @@
         }
       }
     },
-    "881:10": {
+    "874:10": {
       "preRequisites:11": [
         1083,
         1203
@@ -49738,7 +49371,7 @@
         }
       }
     },
-    "882:10": {
+    "875:10": {
       "preRequisites:11": [
         1071
       ],
@@ -49798,7 +49431,7 @@
         }
       }
     },
-    "883:10": {
+    "876:10": {
       "preRequisites:11": [
         1077,
         1088,
@@ -49870,7 +49503,7 @@
         }
       }
     },
-    "884:10": {
+    "877:10": {
       "preRequisites:11": [
         1086,
         1157
@@ -49923,7 +49556,7 @@
         }
       }
     },
-    "885:10": {
+    "878:10": {
       "preRequisites:11": [
         1089
       ],
@@ -49975,7 +49608,7 @@
         }
       }
     },
-    "886:10": {
+    "879:10": {
       "preRequisites:11": [
         832
       ],
@@ -50027,7 +49660,7 @@
         }
       }
     },
-    "887:10": {
+    "880:10": {
       "preRequisites:11": [
         832
       ],
@@ -50079,7 +49712,7 @@
         }
       }
     },
-    "888:10": {
+    "881:10": {
       "preRequisites:11": [
         1092
       ],
@@ -50135,7 +49768,7 @@
         }
       }
     },
-    "889:10": {
+    "882:10": {
       "preRequisites:11": [
         832
       ],
@@ -50195,7 +49828,7 @@
         }
       }
     },
-    "890:10": {
+    "883:10": {
       "preRequisites:11": [
         549
       ],
@@ -50271,7 +49904,7 @@
         }
       }
     },
-    "891:10": {
+    "884:10": {
       "preRequisites:11": [
         549
       ],
@@ -50323,7 +49956,7 @@
         }
       }
     },
-    "892:10": {
+    "885:10": {
       "preRequisites:11": [
         1096,
         1098
@@ -50376,7 +50009,7 @@
         }
       }
     },
-    "893:10": {
+    "886:10": {
       "preRequisites:11": [
         1085
       ],
@@ -50428,7 +50061,7 @@
         }
       }
     },
-    "894:10": {
+    "887:10": {
       "preRequisites:11": [
         549
       ],
@@ -50486,7 +50119,7 @@
         }
       }
     },
-    "895:10": {
+    "888:10": {
       "preRequisites:11": [
         1095,
         1096
@@ -50539,7 +50172,7 @@
         }
       }
     },
-    "896:10": {
+    "889:10": {
       "preRequisites:11": [
         1100,
         1098,
@@ -50593,7 +50226,7 @@
         }
       }
     },
-    "897:10": {
+    "890:10": {
       "preRequisites:11": [
         1103
       ],
@@ -50645,7 +50278,7 @@
         }
       }
     },
-    "898:10": {
+    "891:10": {
       "preRequisites:11": [
         1104
       ],
@@ -50697,7 +50330,7 @@
         }
       }
     },
-    "899:10": {
+    "892:10": {
       "preRequisites:11": [
         1085
       ],
@@ -50749,7 +50382,7 @@
         }
       }
     },
-    "900:10": {
+    "893:10": {
       "preRequisites:11": [
         1101,
         1106
@@ -50802,7 +50435,7 @@
         }
       }
     },
-    "901:10": {
+    "894:10": {
       "preRequisites:11": [
         1107
       ],
@@ -50854,7 +50487,7 @@
         }
       }
     },
-    "902:10": {
+    "895:10": {
       "preRequisites:11": [
         1085
       ],
@@ -50906,7 +50539,7 @@
         }
       }
     },
-    "903:10": {
+    "896:10": {
       "preRequisites:11": [
         1109
       ],
@@ -50958,7 +50591,7 @@
         }
       }
     },
-    "904:10": {
+    "897:10": {
       "preRequisites:11": [
         1110
       ],
@@ -51018,7 +50651,7 @@
         }
       }
     },
-    "905:10": {
+    "898:10": {
       "preRequisites:11": [
         1188
       ],
@@ -51070,7 +50703,7 @@
         }
       }
     },
-    "906:10": {
+    "899:10": {
       "preRequisites:11": [
         1085
       ],
@@ -51122,7 +50755,7 @@
         }
       }
     },
-    "907:10": {
+    "900:10": {
       "preRequisites:11": [
         1124,
         1183
@@ -51175,7 +50808,7 @@
         }
       }
     },
-    "908:10": {
+    "901:10": {
       "preRequisites:11": [
         1108
       ],
@@ -51227,7 +50860,7 @@
         }
       }
     },
-    "909:10": {
+    "902:10": {
       "preRequisites:11": [
         1113
       ],
@@ -51279,7 +50912,7 @@
         }
       }
     },
-    "910:10": {
+    "903:10": {
       "preRequisites:11": [
         1088
       ],
@@ -51331,7 +50964,7 @@
         }
       }
     },
-    "911:10": {
+    "904:10": {
       "preRequisites:11": [
         1115
       ],
@@ -51383,7 +51016,7 @@
         }
       }
     },
-    "912:10": {
+    "905:10": {
       "preRequisites:11": [
         1116
       ],
@@ -51435,7 +51068,7 @@
         }
       }
     },
-    "913:10": {
+    "906:10": {
       "preRequisites:11": [
         799
       ],
@@ -51487,7 +51120,7 @@
         }
       }
     },
-    "914:10": {
+    "907:10": {
       "preRequisites:11": [
         1118,
         1113,
@@ -51541,7 +51174,7 @@
         }
       }
     },
-    "915:10": {
+    "908:10": {
       "preRequisites:11": [
         1119
       ],
@@ -51593,7 +51226,7 @@
         }
       }
     },
-    "916:10": {
+    "909:10": {
       "preRequisites:11": [
         1120,
         550
@@ -51646,7 +51279,7 @@
         }
       }
     },
-    "917:10": {
+    "910:10": {
       "preRequisites:11": [
         549
       ],
@@ -51698,7 +51331,7 @@
         }
       }
     },
-    "918:10": {
+    "911:10": {
       "preRequisites:11": [
         1112
       ],
@@ -51750,7 +51383,7 @@
         }
       }
     },
-    "919:10": {
+    "912:10": {
       "preRequisites:11": [
         1125,
         1142
@@ -51821,7 +51454,7 @@
         }
       }
     },
-    "920:10": {
+    "913:10": {
       "preRequisites:11": [
         550
       ],
@@ -51873,7 +51506,7 @@
         }
       }
     },
-    "921:10": {
+    "914:10": {
       "preRequisites:11": [
         1123
       ],
@@ -51925,7 +51558,7 @@
         }
       }
     },
-    "922:10": {
+    "915:10": {
       "preRequisites:11": [
         1126
       ],
@@ -51977,7 +51610,7 @@
         }
       }
     },
-    "923:10": {
+    "916:10": {
       "preRequisites:11": [
         1129
       ],
@@ -52029,7 +51662,7 @@
         }
       }
     },
-    "924:10": {
+    "917:10": {
       "preRequisites:11": [
         1130
       ],
@@ -52081,7 +51714,7 @@
         }
       }
     },
-    "925:10": {
+    "918:10": {
       "preRequisites:11": [
         1131
       ],
@@ -52133,7 +51766,7 @@
         }
       }
     },
-    "926:10": {
+    "919:10": {
       "preRequisites:11": [
         1132
       ],
@@ -52185,7 +51818,7 @@
         }
       }
     },
-    "927:10": {
+    "920:10": {
       "preRequisites:11": [
         1114,
         1134,
@@ -52239,7 +51872,7 @@
         }
       }
     },
-    "928:10": {
+    "921:10": {
       "preRequisites:11": [
         1137
       ],
@@ -52291,7 +51924,7 @@
         }
       }
     },
-    "929:10": {
+    "922:10": {
       "preRequisites:11": [
         1135
       ],
@@ -52343,7 +51976,7 @@
         }
       }
     },
-    "930:10": {
+    "923:10": {
       "preRequisites:11": [
         1136
       ],
@@ -52395,7 +52028,7 @@
         }
       }
     },
-    "931:10": {
+    "924:10": {
       "preRequisites:11": [
         1186
       ],
@@ -52455,7 +52088,7 @@
         }
       }
     },
-    "932:10": {
+    "925:10": {
       "preRequisites:11": [
         1138
       ],
@@ -52507,7 +52140,7 @@
         }
       }
     },
-    "933:10": {
+    "926:10": {
       "preRequisites:11": [
         1085
       ],
@@ -52559,7 +52192,7 @@
         }
       }
     },
-    "934:10": {
+    "927:10": {
       "preRequisites:11": [
         1141,
         1140
@@ -52612,7 +52245,7 @@
         }
       }
     },
-    "935:10": {
+    "928:10": {
       "preRequisites:11": [
         1188
       ],
@@ -52672,7 +52305,7 @@
         }
       }
     },
-    "936:10": {
+    "929:10": {
       "preRequisites:11": [
         1188
       ],
@@ -52724,7 +52357,7 @@
         }
       }
     },
-    "937:10": {
+    "930:10": {
       "preRequisites:11": [
         1139
       ],
@@ -52776,7 +52409,7 @@
         }
       }
     },
-    "938:10": {
+    "931:10": {
       "preRequisites:11": [
         1144
       ],
@@ -52828,7 +52461,7 @@
         }
       }
     },
-    "939:10": {
+    "932:10": {
       "preRequisites:11": [
         1102
       ],
@@ -52880,7 +52513,7 @@
         }
       }
     },
-    "940:10": {
+    "933:10": {
       "preRequisites:11": [
         1143
       ],
@@ -52940,7 +52573,7 @@
         }
       }
     },
-    "941:10": {
+    "934:10": {
       "preRequisites:11": [
         550
       ],
@@ -53016,7 +52649,7 @@
         }
       }
     },
-    "942:10": {
+    "935:10": {
       "preRequisites:11": [
         550
       ],
@@ -53080,7 +52713,7 @@
         }
       }
     },
-    "943:10": {
+    "936:10": {
       "preRequisites:11": [
         1147,
         1149,
@@ -53134,7 +52767,7 @@
         }
       }
     },
-    "944:10": {
+    "937:10": {
       "preRequisites:11": [
         1150
       ],
@@ -53186,7 +52819,7 @@
         }
       }
     },
-    "945:10": {
+    "938:10": {
       "preRequisites:11": [
         799
       ],
@@ -53246,7 +52879,7 @@
         }
       }
     },
-    "946:10": {
+    "939:10": {
       "preRequisites:11": [
         1128
       ],
@@ -53298,7 +52931,7 @@
         }
       }
     },
-    "947:10": {
+    "940:10": {
       "preRequisites:11": [
         1151
       ],
@@ -53368,7 +53001,7 @@
         }
       }
     },
-    "948:10": {
+    "941:10": {
       "preRequisites:11": [
         852
       ],
@@ -53402,7 +53035,7 @@
       "rewards:9": {},
       "tasks:9": {}
     },
-    "949:10": {
+    "942:10": {
       "preRequisites:11": [
         852
       ],
@@ -53436,7 +53069,7 @@
       "rewards:9": {},
       "tasks:9": {}
     },
-    "950:10": {
+    "943:10": {
       "preRequisites:11": [
         852
       ],
@@ -53470,7 +53103,7 @@
       "rewards:9": {},
       "tasks:9": {}
     },
-    "951:10": {
+    "944:10": {
       "preRequisites:11": [
         852
       ],
@@ -53504,7 +53137,7 @@
       "rewards:9": {},
       "tasks:9": {}
     },
-    "952:10": {
+    "945:10": {
       "preRequisites:11": [
         1158
       ],
@@ -53556,7 +53189,7 @@
         }
       }
     },
-    "953:10": {
+    "946:10": {
       "preRequisites:11": [
         831
       ],
@@ -53608,7 +53241,7 @@
         }
       }
     },
-    "954:10": {
+    "947:10": {
       "preRequisites:11": [
         1086,
         99,
@@ -53662,7 +53295,7 @@
         }
       }
     },
-    "955:10": {
+    "948:10": {
       "preRequisites:11": [
         1159
       ],
@@ -53714,7 +53347,7 @@
         }
       }
     },
-    "956:10": {
+    "949:10": {
       "preRequisites:11": [
         1160
       ],
@@ -53766,7 +53399,7 @@
         }
       }
     },
-    "957:10": {
+    "950:10": {
       "preRequisites:11": [
         1099,
         1165,
@@ -53821,7 +53454,7 @@
         }
       }
     },
-    "958:10": {
+    "951:10": {
       "preRequisites:11": [
         1085
       ],
@@ -53873,7 +53506,7 @@
         }
       }
     },
-    "959:10": {
+    "952:10": {
       "preRequisites:11": [
         1099
       ],
@@ -53943,7 +53576,7 @@
         }
       }
     },
-    "960:10": {
+    "953:10": {
       "preRequisites:11": [
         1166,
         1167
@@ -53996,7 +53629,7 @@
         }
       }
     },
-    "961:10": {
+    "954:10": {
       "preRequisites:11": [
         1168
       ],
@@ -54048,7 +53681,7 @@
         }
       }
     },
-    "962:10": {
+    "955:10": {
       "preRequisites:11": [
         1085
       ],
@@ -54100,7 +53733,7 @@
         }
       }
     },
-    "963:10": {
+    "956:10": {
       "preRequisites:11": [
         1085
       ],
@@ -54152,7 +53785,7 @@
         }
       }
     },
-    "964:10": {
+    "957:10": {
       "preRequisites:11": [
         1188
       ],
@@ -54222,7 +53855,7 @@
         }
       }
     },
-    "965:10": {
+    "958:10": {
       "preRequisites:11": [
         1169
       ],
@@ -54274,7 +53907,7 @@
         }
       }
     },
-    "966:10": {
+    "959:10": {
       "preRequisites:11": [
         1170
       ],
@@ -54326,7 +53959,7 @@
         }
       }
     },
-    "967:10": {
+    "960:10": {
       "preRequisites:11": [
         551,
         1174
@@ -54391,7 +54024,7 @@
         }
       }
     },
-    "968:10": {
+    "961:10": {
       "preRequisites:11": [
         551,
         1174
@@ -54468,7 +54101,7 @@
         }
       }
     },
-    "969:10": {
+    "962:10": {
       "preRequisites:11": [
         1175
       ],
@@ -54520,7 +54153,7 @@
         }
       }
     },
-    "970:10": {
+    "963:10": {
       "preRequisites:11": [
         1102
       ],
@@ -54572,7 +54205,7 @@
         }
       }
     },
-    "971:10": {
+    "964:10": {
       "preRequisites:11": [
         1110,
         1177
@@ -54625,7 +54258,7 @@
         }
       }
     },
-    "972:10": {
+    "965:10": {
       "preRequisites:11": [
         1178
       ],
@@ -54677,7 +54310,7 @@
         }
       }
     },
-    "973:10": {
+    "966:10": {
       "preRequisites:11": [
         1179
       ],
@@ -54729,7 +54362,7 @@
         }
       }
     },
-    "974:10": {
+    "967:10": {
       "preRequisites:11": [
         799
       ],
@@ -54789,7 +54422,7 @@
         }
       }
     },
-    "975:10": {
+    "968:10": {
       "preRequisites:11": [
         1176
       ],
@@ -54849,7 +54482,7 @@
         }
       }
     },
-    "976:10": {
+    "969:10": {
       "preRequisites:11": [
         1180
       ],
@@ -54909,7 +54542,7 @@
         }
       }
     },
-    "977:10": {
+    "970:10": {
       "preRequisites:11": [
         1181,
         1152
@@ -54970,7 +54603,7 @@
         }
       }
     },
-    "978:10": {
+    "971:10": {
       "preRequisites:11": [
         1185
       ],
@@ -55022,7 +54655,7 @@
         }
       }
     },
-    "979:10": {
+    "972:10": {
       "preRequisites:11": [
         1148,
         1183
@@ -55083,7 +54716,7 @@
         }
       }
     },
-    "980:10": {
+    "973:10": {
       "preRequisites:11": [
         1182
       ],
@@ -55135,7 +54768,7 @@
         }
       }
     },
-    "981:10": {
+    "974:10": {
       "preRequisites:11": [
         799
       ],
@@ -55187,7 +54820,7 @@
         }
       }
     },
-    "982:10": {
+    "975:10": {
       "preRequisites:11": [
         1186
       ],
@@ -55243,7 +54876,7 @@
         }
       }
     },
-    "983:10": {
+    "976:10": {
       "preRequisites:11": [
         1187
       ],
@@ -55295,7 +54928,7 @@
         }
       }
     },
-    "984:10": {
+    "977:10": {
       "preRequisites:11": [
         1169,
         1111
@@ -55348,7 +54981,7 @@
         }
       }
     },
-    "985:10": {
+    "978:10": {
       "preRequisites:11": [
         1169
       ],
@@ -55400,7 +55033,7 @@
         }
       }
     },
-    "986:10": {
+    "979:10": {
       "preRequisites:11": [
         1190
       ],
@@ -55452,7 +55085,7 @@
         }
       }
     },
-    "987:10": {
+    "980:10": {
       "preRequisites:11": [
         1191
       ],
@@ -55504,7 +55137,7 @@
         }
       }
     },
-    "988:10": {
+    "981:10": {
       "preRequisites:11": [
         1145
       ],
@@ -55556,7 +55189,7 @@
         }
       }
     },
-    "989:10": {
+    "982:10": {
       "preRequisites:11": [
         1193
       ],
@@ -55608,7 +55241,7 @@
         }
       }
     },
-    "990:10": {
+    "983:10": {
       "preRequisites:11": [
         1194,
         1196,
@@ -55662,7 +55295,7 @@
         }
       }
     },
-    "991:10": {
+    "984:10": {
       "preRequisites:11": [
         1197
       ],
@@ -55714,7 +55347,7 @@
         }
       }
     },
-    "992:10": {
+    "985:10": {
       "preRequisites:11": [
         1102
       ],
@@ -55766,7 +55399,7 @@
         }
       }
     },
-    "993:10": {
+    "986:10": {
       "preRequisites:11": [
         391
       ],
@@ -55826,7 +55459,7 @@
         }
       }
     },
-    "994:10": {
+    "987:10": {
       "preRequisites:11": [
         1083
       ],
@@ -55878,7 +55511,7 @@
         }
       }
     },
-    "995:10": {
+    "988:10": {
       "preRequisites:11": [
         1199
       ],
@@ -55930,7 +55563,7 @@
         }
       }
     },
-    "996:10": {
+    "989:10": {
       "preRequisites:11": [
         1084
       ],
@@ -55982,7 +55615,7 @@
         }
       }
     },
-    "997:10": {
+    "990:10": {
       "preRequisites:11": [
         449
       ],
@@ -56046,7 +55679,7 @@
         }
       }
     },
-    "998:10": {
+    "991:10": {
       "preRequisites:11": [
         1083
       ],
@@ -56098,7 +55731,7 @@
         }
       }
     },
-    "999:10": {
+    "992:10": {
       "preRequisites:11": [
         1203
       ],
@@ -56150,7 +55783,7 @@
         }
       }
     },
-    "1000:10": {
+    "993:10": {
       "preRequisites:11": [
         1204
       ],
@@ -56202,7 +55835,7 @@
         }
       }
     },
-    "1001:10": {
+    "994:10": {
       "preRequisites:11": [
         1207,
         1205
@@ -56255,7 +55888,7 @@
         }
       }
     },
-    "1002:10": {
+    "995:10": {
       "preRequisites:11": [
         1177
       ],
@@ -56307,7 +55940,7 @@
         }
       }
     },
-    "1003:10": {
+    "996:10": {
       "preRequisites:11": [
         1201
       ],
@@ -56359,7 +55992,7 @@
         }
       }
     },
-    "1004:10": {
+    "997:10": {
       "preRequisites:11": [
         1208
       ],
@@ -56411,7 +56044,7 @@
         }
       }
     },
-    "1005:10": {
+    "998:10": {
       "preRequisites:11": [
         449,
         1209
@@ -56464,7 +56097,7 @@
         }
       }
     },
-    "1006:10": {
+    "999:10": {
       "preRequisites:11": [
         1201
       ],
@@ -56516,7 +56149,7 @@
         }
       }
     },
-    "1007:10": {
+    "1000:10": {
       "preRequisites:11": [
         1195,
         1222
@@ -56569,7 +56202,7 @@
         }
       }
     },
-    "1008:10": {
+    "1001:10": {
       "preRequisites:11": [
         1212,
         1223
@@ -56622,7 +56255,7 @@
         }
       }
     },
-    "1009:10": {
+    "1002:10": {
       "preRequisites:11": [
         1216,
         1215
@@ -56693,7 +56326,7 @@
         }
       }
     },
-    "1010:10": {
+    "1003:10": {
       "preRequisites:11": [
         1221
       ],
@@ -56745,7 +56378,7 @@
         }
       }
     },
-    "1011:10": {
+    "1004:10": {
       "preRequisites:11": [
         1102
       ],
@@ -56797,7 +56430,7 @@
         }
       }
     },
-    "1012:10": {
+    "1005:10": {
       "preRequisites:11": [
         1109
       ],
@@ -56849,7 +56482,7 @@
         }
       }
     },
-    "1013:10": {
+    "1006:10": {
       "preRequisites:11": [
         1217
       ],
@@ -56901,7 +56534,7 @@
         }
       }
     },
-    "1014:10": {
+    "1007:10": {
       "preRequisites:11": [
         1218
       ],
@@ -56953,7 +56586,7 @@
         }
       }
     },
-    "1015:10": {
+    "1008:10": {
       "preRequisites:11": [
         1219
       ],
@@ -57005,7 +56638,7 @@
         }
       }
     },
-    "1016:10": {
+    "1009:10": {
       "preRequisites:11": [
         1220
       ],
@@ -57057,7 +56690,7 @@
         }
       }
     },
-    "1017:10": {
+    "1010:10": {
       "preRequisites:11": [
         1188
       ],
@@ -57109,7 +56742,7 @@
         }
       }
     },
-    "1018:10": {
+    "1011:10": {
       "preRequisites:11": [
         1224
       ],
@@ -57161,7 +56794,7 @@
         }
       }
     },
-    "1019:10": {
+    "1012:10": {
       "preRequisites:11": [
         1225,
         1226
@@ -57214,7 +56847,7 @@
         }
       }
     },
-    "1020:10": {
+    "1013:10": {
       "preRequisites:11": [
         1217
       ],
@@ -57266,7 +56899,7 @@
         }
       }
     },
-    "1021:10": {
+    "1014:10": {
       "preRequisites:11": [
         1102
       ],
@@ -57318,7 +56951,7 @@
         }
       }
     },
-    "1022:10": {
+    "1015:10": {
       "preRequisites:11": [
         1216
       ],
@@ -57388,7 +57021,7 @@
         }
       }
     },
-    "1023:10": {
+    "1016:10": {
       "preRequisites:11": [
         1229,
         1211
@@ -57441,7 +57074,7 @@
         }
       }
     },
-    "1024:10": {
+    "1017:10": {
       "preRequisites:11": [
         1230
       ],
@@ -57493,7 +57126,7 @@
         }
       }
     },
-    "1025:10": {
+    "1018:10": {
       "preRequisites:11": [
         1083
       ],
@@ -57553,7 +57186,7 @@
         }
       }
     },
-    "1026:10": {
+    "1019:10": {
       "preRequisites:11": [
         1229
       ],
@@ -57605,7 +57238,7 @@
         }
       }
     },
-    "1027:10": {
+    "1020:10": {
       "preRequisites:11": [
         798
       ],
@@ -57663,7 +57296,7 @@
         }
       }
     },
-    "1028:10": {
+    "1021:10": {
       "preRequisites:11": [
         1233
       ],
@@ -57715,7 +57348,7 @@
         }
       }
     },
-    "1029:10": {
+    "1022:10": {
       "preRequisites:11": [
         1010,
         1033
@@ -57768,7 +57401,7 @@
         }
       }
     },
-    "1030:10": {
+    "1023:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -57818,7 +57451,7 @@
         }
       }
     },
-    "1031:10": {
+    "1024:10": {
       "preRequisites:11": [
         1143
       ],
@@ -57878,7 +57511,7 @@
         }
       }
     },
-    "1032:10": {
+    "1025:10": {
       "preRequisites:11": [
         1238
       ],
@@ -57930,7 +57563,7 @@
         }
       }
     },
-    "1033:10": {
+    "1026:10": {
       "preRequisites:11": [
         1239
       ],
@@ -57982,7 +57615,7 @@
         }
       }
     },
-    "1034:10": {
+    "1027:10": {
       "preRequisites:11": [
         1240
       ],
@@ -58034,7 +57667,7 @@
         }
       }
     },
-    "1035:10": {
+    "1028:10": {
       "preRequisites:11": [
         1213
       ],
@@ -58086,7 +57719,7 @@
         }
       }
     },
-    "1036:10": {
+    "1029:10": {
       "preRequisites:11": [
         1241
       ],
@@ -58138,7 +57771,7 @@
         }
       }
     },
-    "1037:10": {
+    "1030:10": {
       "preRequisites:11": [
         1246,
         1243,
@@ -58192,7 +57825,7 @@
         }
       }
     },
-    "1038:10": {
+    "1031:10": {
       "preRequisites:11": [
         1231,
         1207
@@ -58253,7 +57886,7 @@
         }
       }
     },
-    "1039:10": {
+    "1032:10": {
       "preRequisites:11": [
         1231
       ],
@@ -58305,7 +57938,7 @@
         }
       }
     },
-    "1040:10": {
+    "1033:10": {
       "preRequisites:11": [
         1244
       ],
@@ -58357,7 +57990,7 @@
         }
       }
     },
-    "1041:10": {
+    "1034:10": {
       "preRequisites:11": [
         1247
       ],
@@ -58409,7 +58042,7 @@
         }
       }
     },
-    "1042:10": {
+    "1035:10": {
       "preRequisites:11": [
         1242
       ],
@@ -58461,7 +58094,7 @@
         }
       }
     },
-    "1043:10": {
+    "1036:10": {
       "preRequisites:11": [
         1248,
         1249
@@ -58514,7 +58147,7 @@
         }
       }
     },
-    "1044:10": {
+    "1037:10": {
       "preRequisites:11": [
         1147
       ],
@@ -58574,7 +58207,7 @@
         }
       }
     },
-    "1045:10": {
+    "1038:10": {
       "preRequisites:11": [
         1251
       ],
@@ -58634,7 +58267,7 @@
         }
       }
     },
-    "1046:10": {
+    "1039:10": {
       "preRequisites:11": [
         1143
       ],
@@ -58686,7 +58319,7 @@
         }
       }
     },
-    "1047:10": {
+    "1040:10": {
       "preRequisites:11": [
         1254
       ],
@@ -58746,7 +58379,7 @@
         }
       }
     },
-    "1048:10": {
+    "1041:10": {
       "preRequisites:11": [
         1255
       ],
@@ -58798,7 +58431,7 @@
         }
       }
     },
-    "1049:10": {
+    "1042:10": {
       "preRequisites:11": [
         0
       ],
@@ -58850,7 +58483,7 @@
         }
       }
     },
-    "1050:10": {
+    "1043:10": {
       "preRequisites:11": [
         1256
       ],
@@ -58908,7 +58541,7 @@
         }
       }
     },
-    "1051:10": {
+    "1044:10": {
       "preRequisites:11": [
         1250,
         1258
@@ -58961,7 +58594,7 @@
         }
       }
     },
-    "1052:10": {
+    "1045:10": {
       "preRequisites:11": [
         1255
       ],
@@ -59013,7 +58646,7 @@
         }
       }
     },
-    "1053:10": {
+    "1046:10": {
       "preRequisites:11": [
         1260
       ],
@@ -59065,7 +58698,7 @@
         }
       }
     },
-    "1054:10": {
+    "1047:10": {
       "preRequisites:11": [
         552
       ],
@@ -59117,7 +58750,7 @@
         }
       }
     },
-    "1055:10": {
+    "1048:10": {
       "preRequisites:11": [
         1265,
         552,
@@ -59192,7 +58825,7 @@
         }
       }
     },
-    "1056:10": {
+    "1049:10": {
       "preRequisites:11": [
         1266
       ],
@@ -59257,7 +58890,7 @@
         }
       }
     },
-    "1057:10": {
+    "1050:10": {
       "preRequisites:11": [
         1143
       ],
@@ -59309,7 +58942,7 @@
         }
       }
     },
-    "1058:10": {
+    "1051:10": {
       "preRequisites:11": [
         1264
       ],
@@ -59409,7 +59042,7 @@
         }
       }
     },
-    "1059:10": {
+    "1052:10": {
       "preRequisites:11": [
         1249
       ],
@@ -59631,7 +59264,7 @@
         }
       }
     },
-    "1060:10": {
+    "1053:10": {
       "preRequisites:11": [
         1268
       ],
@@ -59683,7 +59316,7 @@
         }
       }
     },
-    "1061:10": {
+    "1054:10": {
       "preRequisites:11": [
         1391
       ],
@@ -59735,7 +59368,7 @@
         }
       }
     },
-    "1062:10": {
+    "1055:10": {
       "preRequisites:11": [
         1391
       ],
@@ -59787,7 +59420,7 @@
         }
       }
     },
-    "1063:10": {
+    "1056:10": {
       "preRequisites:11": [
         1391
       ],
@@ -59839,7 +59472,7 @@
         }
       }
     },
-    "1064:10": {
+    "1057:10": {
       "preRequisites:11": [
         1391
       ],
@@ -59891,7 +59524,7 @@
         }
       }
     },
-    "1065:10": {
+    "1058:10": {
       "preRequisites:11": [
         1391
       ],
@@ -59943,7 +59576,7 @@
         }
       }
     },
-    "1066:10": {
+    "1059:10": {
       "preRequisites:11": [
         1391
       ],
@@ -59995,7 +59628,7 @@
         }
       }
     },
-    "1067:10": {
+    "1060:10": {
       "preRequisites:11": [
         1391
       ],
@@ -60047,7 +59680,7 @@
         }
       }
     },
-    "1068:10": {
+    "1061:10": {
       "preRequisites:11": [
         1391
       ],
@@ -60099,7 +59732,7 @@
         }
       }
     },
-    "1069:10": {
+    "1062:10": {
       "preRequisites:11": [
         1391
       ],
@@ -60151,7 +59784,7 @@
         }
       }
     },
-    "1070:10": {
+    "1063:10": {
       "preRequisites:11": [
         1391
       ],
@@ -60203,7 +59836,7 @@
         }
       }
     },
-    "1071:10": {
+    "1064:10": {
       "preRequisites:11": [
         1271
       ],
@@ -60255,7 +59888,7 @@
         }
       }
     },
-    "1072:10": {
+    "1065:10": {
       "preRequisites:11": [
         1391
       ],
@@ -60307,7 +59940,7 @@
         }
       }
     },
-    "1073:10": {
+    "1066:10": {
       "preRequisites:11": [
         29
       ],
@@ -60359,7 +59992,7 @@
         }
       }
     },
-    "1074:10": {
+    "1067:10": {
       "preRequisites:11": [
         1391
       ],
@@ -60411,7 +60044,7 @@
         }
       }
     },
-    "1075:10": {
+    "1068:10": {
       "preRequisites:11": [
         1391
       ],
@@ -60488,7 +60121,7 @@
         }
       }
     },
-    "1076:10": {
+    "1069:10": {
       "preRequisites:11": [
         1391
       ],
@@ -60540,7 +60173,7 @@
         }
       }
     },
-    "1077:10": {
+    "1070:10": {
       "preRequisites:11": [
         1391
       ],
@@ -60592,7 +60225,7 @@
         }
       }
     },
-    "1078:10": {
+    "1071:10": {
       "preRequisites:11": [
         1391
       ],
@@ -60644,7 +60277,7 @@
         }
       }
     },
-    "1079:10": {
+    "1072:10": {
       "preRequisites:11": [
         1391
       ],
@@ -60696,7 +60329,7 @@
         }
       }
     },
-    "1080:10": {
+    "1073:10": {
       "preRequisites:11": [
         1391
       ],
@@ -60748,7 +60381,7 @@
         }
       }
     },
-    "1081:10": {
+    "1074:10": {
       "preRequisites:11": [
         1391
       ],
@@ -60800,7 +60433,7 @@
         }
       }
     },
-    "1082:10": {
+    "1075:10": {
       "preRequisites:11": [
         1391
       ],
@@ -60852,7 +60485,7 @@
         }
       }
     },
-    "1083:10": {
+    "1076:10": {
       "preRequisites:11": [
         1391
       ],
@@ -60904,7 +60537,7 @@
         }
       }
     },
-    "1084:10": {
+    "1077:10": {
       "preRequisites:11": [
         1391
       ],
@@ -60956,7 +60589,7 @@
         }
       }
     },
-    "1085:10": {
+    "1078:10": {
       "preRequisites:11": [
         1391
       ],
@@ -61008,7 +60641,7 @@
         }
       }
     },
-    "1086:10": {
+    "1079:10": {
       "preRequisites:11": [
         1391
       ],
@@ -61060,7 +60693,7 @@
         }
       }
     },
-    "1087:10": {
+    "1080:10": {
       "preRequisites:11": [
         1391
       ],
@@ -61112,7 +60745,7 @@
         }
       }
     },
-    "1088:10": {
+    "1081:10": {
       "preRequisites:11": [
         1391
       ],
@@ -61164,7 +60797,7 @@
         }
       }
     },
-    "1089:10": {
+    "1082:10": {
       "preRequisites:11": [
         1391
       ],
@@ -61216,7 +60849,7 @@
         }
       }
     },
-    "1090:10": {
+    "1083:10": {
       "preRequisites:11": [
         1391
       ],
@@ -61268,7 +60901,7 @@
         }
       }
     },
-    "1091:10": {
+    "1084:10": {
       "preRequisites:11": [
         1391
       ],
@@ -61320,7 +60953,7 @@
         }
       }
     },
-    "1092:10": {
+    "1085:10": {
       "preRequisites:11": [
         1391
       ],
@@ -61372,7 +61005,7 @@
         }
       }
     },
-    "1093:10": {
+    "1086:10": {
       "preRequisites:11": [
         1391
       ],
@@ -61424,7 +61057,7 @@
         }
       }
     },
-    "1094:10": {
+    "1087:10": {
       "preRequisites:11": [
         1391
       ],
@@ -61476,7 +61109,7 @@
         }
       }
     },
-    "1095:10": {
+    "1088:10": {
       "preRequisites:11": [
         1391
       ],
@@ -61528,7 +61161,7 @@
         }
       }
     },
-    "1096:10": {
+    "1089:10": {
       "preRequisites:11": [
         1391
       ],
@@ -61580,7 +61213,7 @@
         }
       }
     },
-    "1097:10": {
+    "1090:10": {
       "preRequisites:11": [
         1391
       ],
@@ -61632,7 +61265,7 @@
         }
       }
     },
-    "1098:10": {
+    "1091:10": {
       "preRequisites:11": [
         1391
       ],
@@ -61684,7 +61317,7 @@
         }
       }
     },
-    "1099:10": {
+    "1092:10": {
       "preRequisites:11": [
         1391
       ],
@@ -61736,7 +61369,7 @@
         }
       }
     },
-    "1100:10": {
+    "1093:10": {
       "preRequisites:11": [
         1391
       ],
@@ -61788,7 +61421,7 @@
         }
       }
     },
-    "1101:10": {
+    "1094:10": {
       "preRequisites:11": [
         1391
       ],
@@ -61840,7 +61473,7 @@
         }
       }
     },
-    "1102:10": {
+    "1095:10": {
       "preRequisites:11": [
         1391
       ],
@@ -61892,7 +61525,7 @@
         }
       }
     },
-    "1103:10": {
+    "1096:10": {
       "preRequisites:11": [
         1391
       ],
@@ -61944,7 +61577,7 @@
         }
       }
     },
-    "1104:10": {
+    "1097:10": {
       "preRequisites:11": [
         1391
       ],
@@ -61996,7 +61629,7 @@
         }
       }
     },
-    "1105:10": {
+    "1098:10": {
       "preRequisites:11": [
         1391
       ],
@@ -62048,7 +61681,7 @@
         }
       }
     },
-    "1106:10": {
+    "1099:10": {
       "preRequisites:11": [
         1391
       ],
@@ -62100,7 +61733,7 @@
         }
       }
     },
-    "1107:10": {
+    "1100:10": {
       "preRequisites:11": [
         1391
       ],
@@ -62152,7 +61785,7 @@
         }
       }
     },
-    "1108:10": {
+    "1101:10": {
       "preRequisites:11": [
         1391
       ],
@@ -62204,7 +61837,7 @@
         }
       }
     },
-    "1109:10": {
+    "1102:10": {
       "preRequisites:11": [
         1391
       ],
@@ -62256,7 +61889,7 @@
         }
       }
     },
-    "1110:10": {
+    "1103:10": {
       "preRequisites:11": [
         1391
       ],
@@ -62308,7 +61941,7 @@
         }
       }
     },
-    "1111:10": {
+    "1104:10": {
       "preRequisites:11": [
         1391
       ],
@@ -62342,7 +61975,7 @@
       "rewards:9": {},
       "tasks:9": {}
     },
-    "1112:10": {
+    "1105:10": {
       "preRequisites:11": [
         1391
       ],
@@ -62394,7 +62027,7 @@
         }
       }
     },
-    "1113:10": {
+    "1106:10": {
       "preRequisites:11": [
         1391
       ],
@@ -62446,7 +62079,7 @@
         }
       }
     },
-    "1114:10": {
+    "1107:10": {
       "preRequisites:11": [
         1391
       ],
@@ -62498,7 +62131,7 @@
         }
       }
     },
-    "1115:10": {
+    "1108:10": {
       "preRequisites:11": [
         1391
       ],
@@ -62550,7 +62183,7 @@
         }
       }
     },
-    "1116:10": {
+    "1109:10": {
       "preRequisites:11": [
         1391
       ],
@@ -62602,7 +62235,7 @@
         }
       }
     },
-    "1117:10": {
+    "1110:10": {
       "preRequisites:11": [
         1391
       ],
@@ -62654,7 +62287,7 @@
         }
       }
     },
-    "1118:10": {
+    "1111:10": {
       "preRequisites:11": [
         1391
       ],
@@ -62706,7 +62339,7 @@
         }
       }
     },
-    "1119:10": {
+    "1112:10": {
       "preRequisites:11": [
         1391
       ],
@@ -62758,7 +62391,7 @@
         }
       }
     },
-    "1120:10": {
+    "1113:10": {
       "preRequisites:11": [
         1391
       ],
@@ -62810,7 +62443,7 @@
         }
       }
     },
-    "1121:10": {
+    "1114:10": {
       "preRequisites:11": [
         1391
       ],
@@ -62862,7 +62495,7 @@
         }
       }
     },
-    "1122:10": {
+    "1115:10": {
       "preRequisites:11": [
         1391
       ],
@@ -62914,7 +62547,7 @@
         }
       }
     },
-    "1123:10": {
+    "1116:10": {
       "preRequisites:11": [
         1391
       ],
@@ -62974,7 +62607,7 @@
         }
       }
     },
-    "1124:10": {
+    "1117:10": {
       "preRequisites:11": [
         1391
       ],
@@ -63026,7 +62659,7 @@
         }
       }
     },
-    "1125:10": {
+    "1118:10": {
       "preRequisites:11": [
         1391
       ],
@@ -63078,7 +62711,7 @@
         }
       }
     },
-    "1126:10": {
+    "1119:10": {
       "preRequisites:11": [
         1391
       ],
@@ -63138,7 +62771,7 @@
         }
       }
     },
-    "1127:10": {
+    "1120:10": {
       "preRequisites:11": [
         1391
       ],
@@ -63190,7 +62823,7 @@
         }
       }
     },
-    "1128:10": {
+    "1121:10": {
       "preRequisites:11": [
         1391
       ],
@@ -63242,7 +62875,7 @@
         }
       }
     },
-    "1129:10": {
+    "1122:10": {
       "preRequisites:11": [
         1391
       ],
@@ -63294,7 +62927,7 @@
         }
       }
     },
-    "1130:10": {
+    "1123:10": {
       "preRequisites:11": [
         1391
       ],
@@ -63328,7 +62961,7 @@
       "rewards:9": {},
       "tasks:9": {}
     },
-    "1131:10": {
+    "1124:10": {
       "preRequisites:11": [
         1391
       ],
@@ -63380,7 +63013,7 @@
         }
       }
     },
-    "1132:10": {
+    "1125:10": {
       "preRequisites:11": [
         1391
       ],
@@ -63440,7 +63073,7 @@
         }
       }
     },
-    "1133:10": {
+    "1126:10": {
       "preRequisites:11": [
         1391
       ],
@@ -63500,7 +63133,7 @@
         }
       }
     },
-    "1134:10": {
+    "1127:10": {
       "preRequisites:11": [
         1391
       ],
@@ -63560,7 +63193,7 @@
         }
       }
     },
-    "1135:10": {
+    "1128:10": {
       "preRequisites:11": [
         1391
       ],
@@ -63612,7 +63245,7 @@
         }
       }
     },
-    "1136:10": {
+    "1129:10": {
       "preRequisites:11": [
         1391
       ],
@@ -63672,7 +63305,7 @@
         }
       }
     },
-    "1137:10": {
+    "1130:10": {
       "preRequisites:11": [
         1391
       ],
@@ -63724,7 +63357,7 @@
         }
       }
     },
-    "1138:10": {
+    "1131:10": {
       "preRequisites:11": [
         1391
       ],
@@ -63776,7 +63409,7 @@
         }
       }
     },
-    "1139:10": {
+    "1132:10": {
       "preRequisites:11": [
         1391
       ],
@@ -63836,7 +63469,7 @@
         }
       }
     },
-    "1140:10": {
+    "1133:10": {
       "preRequisites:11": [
         1391
       ],
@@ -63896,7 +63529,7 @@
         }
       }
     },
-    "1141:10": {
+    "1134:10": {
       "preRequisites:11": [
         1391
       ],
@@ -63948,7 +63581,7 @@
         }
       }
     },
-    "1142:10": {
+    "1135:10": {
       "preRequisites:11": [
         1391
       ],
@@ -64008,7 +63641,7 @@
         }
       }
     },
-    "1143:10": {
+    "1136:10": {
       "preRequisites:11": [
         1391
       ],
@@ -64068,7 +63701,7 @@
         }
       }
     },
-    "1144:10": {
+    "1137:10": {
       "preRequisites:11": [
         1391
       ],
@@ -64120,7 +63753,7 @@
         }
       }
     },
-    "1145:10": {
+    "1138:10": {
       "preRequisites:11": [
         1391
       ],
@@ -64180,7 +63813,7 @@
         }
       }
     },
-    "1146:10": {
+    "1139:10": {
       "preRequisites:11": [
         1391
       ],
@@ -64240,7 +63873,7 @@
         }
       }
     },
-    "1147:10": {
+    "1140:10": {
       "preRequisites:11": [
         1391
       ],
@@ -64292,7 +63925,7 @@
         }
       }
     },
-    "1148:10": {
+    "1141:10": {
       "preRequisites:11": [
         1391
       ],
@@ -64344,7 +63977,7 @@
         }
       }
     },
-    "1149:10": {
+    "1142:10": {
       "preRequisites:11": [
         1391
       ],
@@ -64396,7 +64029,7 @@
         }
       }
     },
-    "1150:10": {
+    "1143:10": {
       "preRequisites:11": [
         1391
       ],
@@ -64448,7 +64081,7 @@
         }
       }
     },
-    "1151:10": {
+    "1144:10": {
       "preRequisites:11": [
         1391
       ],
@@ -64500,7 +64133,7 @@
         }
       }
     },
-    "1152:10": {
+    "1145:10": {
       "preRequisites:11": [
         1391
       ],
@@ -64552,7 +64185,7 @@
         }
       }
     },
-    "1153:10": {
+    "1146:10": {
       "preRequisites:11": [
         1391
       ],
@@ -64604,7 +64237,7 @@
         }
       }
     },
-    "1154:10": {
+    "1147:10": {
       "preRequisites:11": [
         1391
       ],
@@ -64656,7 +64289,7 @@
         }
       }
     },
-    "1155:10": {
+    "1148:10": {
       "preRequisites:11": [
         1391
       ],
@@ -64708,7 +64341,7 @@
         }
       }
     },
-    "1156:10": {
+    "1149:10": {
       "preRequisites:11": [
         1391
       ],
@@ -64760,7 +64393,7 @@
         }
       }
     },
-    "1157:10": {
+    "1150:10": {
       "preRequisites:11": [
         1391
       ],
@@ -64812,7 +64445,7 @@
         }
       }
     },
-    "1158:10": {
+    "1151:10": {
       "preRequisites:11": [
         1391
       ],
@@ -64864,7 +64497,7 @@
         }
       }
     },
-    "1159:10": {
+    "1152:10": {
       "preRequisites:11": [
         1391
       ],
@@ -64916,7 +64549,7 @@
         }
       }
     },
-    "1160:10": {
+    "1153:10": {
       "preRequisites:11": [
         1391
       ],
@@ -64968,7 +64601,7 @@
         }
       }
     },
-    "1161:10": {
+    "1154:10": {
       "preRequisites:11": [
         1391
       ],
@@ -65020,7 +64653,7 @@
         }
       }
     },
-    "1162:10": {
+    "1155:10": {
       "preRequisites:11": [
         1391
       ],
@@ -65072,7 +64705,7 @@
         }
       }
     },
-    "1163:10": {
+    "1156:10": {
       "preRequisites:11": [
         1391
       ],
@@ -65124,7 +64757,7 @@
         }
       }
     },
-    "1164:10": {
+    "1157:10": {
       "preRequisites:11": [
         1391
       ],
@@ -65176,7 +64809,7 @@
         }
       }
     },
-    "1165:10": {
+    "1158:10": {
       "preRequisites:11": [
         1391
       ],
@@ -65228,7 +64861,7 @@
         }
       }
     },
-    "1166:10": {
+    "1159:10": {
       "preRequisites:11": [
         1391
       ],
@@ -65280,7 +64913,7 @@
         }
       }
     },
-    "1167:10": {
+    "1160:10": {
       "preRequisites:11": [
         1391
       ],
@@ -65332,7 +64965,7 @@
         }
       }
     },
-    "1168:10": {
+    "1161:10": {
       "preRequisites:11": [
         1391
       ],
@@ -65384,7 +65017,7 @@
         }
       }
     },
-    "1169:10": {
+    "1162:10": {
       "preRequisites:11": [
         1391
       ],
@@ -65436,7 +65069,7 @@
         }
       }
     },
-    "1170:10": {
+    "1163:10": {
       "preRequisites:11": [
         1391
       ],
@@ -65488,7 +65121,7 @@
         }
       }
     },
-    "1171:10": {
+    "1164:10": {
       "preRequisites:11": [
         1391
       ],
@@ -65540,7 +65173,7 @@
         }
       }
     },
-    "1172:10": {
+    "1165:10": {
       "preRequisites:11": [
         1391
       ],
@@ -65592,7 +65225,7 @@
         }
       }
     },
-    "1173:10": {
+    "1166:10": {
       "preRequisites:11": [
         1391
       ],
@@ -65644,7 +65277,7 @@
         }
       }
     },
-    "1174:10": {
+    "1167:10": {
       "preRequisites:11": [
         1391
       ],
@@ -65696,7 +65329,7 @@
         }
       }
     },
-    "1175:10": {
+    "1168:10": {
       "preRequisites:11": [
         1287,
         1343
@@ -65749,7 +65382,7 @@
         }
       }
     },
-    "1176:10": {
+    "1169:10": {
       "preRequisites:11": [
         1287
       ],
@@ -65801,7 +65434,7 @@
         }
       }
     },
-    "1177:10": {
+    "1170:10": {
       "preRequisites:11": [
         1
       ],
@@ -65840,7 +65473,7 @@
         }
       }
     },
-    "1178:10": {
+    "1171:10": {
       "preRequisites:11": [
         1391
       ],
@@ -65892,7 +65525,7 @@
         }
       }
     },
-    "1179:10": {
+    "1172:10": {
       "preRequisites:11": [
         1391
       ],
@@ -65944,7 +65577,7 @@
         }
       }
     },
-    "1180:10": {
+    "1173:10": {
       "preRequisites:11": [
         1391
       ],
@@ -65996,7 +65629,7 @@
         }
       }
     },
-    "1181:10": {
+    "1174:10": {
       "preRequisites:11": [
         1391
       ],
@@ -66048,7 +65681,7 @@
         }
       }
     },
-    "1182:10": {
+    "1175:10": {
       "preRequisites:11": [
         1287
       ],
@@ -66100,7 +65733,7 @@
         }
       }
     },
-    "1183:10": {
+    "1176:10": {
       "preRequisites:11": [
         1396,
         1398
@@ -66153,7 +65786,7 @@
         }
       }
     },
-    "1184:10": {
+    "1177:10": {
       "preRequisites:11": [
         301
       ],
@@ -66205,7 +65838,7 @@
         }
       }
     },
-    "1185:10": {
+    "1178:10": {
       "preRequisites:11": [
         1397
       ],
@@ -66263,7 +65896,7 @@
         }
       }
     },
-    "1186:10": {
+    "1179:10": {
       "preRequisites:11": [
         0
       ],
@@ -66333,7 +65966,7 @@
         }
       }
     },
-    "1187:10": {
+    "1180:10": {
       "preRequisites:11": [
         1400
       ],
@@ -66398,7 +66031,7 @@
         }
       }
     },
-    "1188:10": {
+    "1181:10": {
       "preRequisites:11": [
         1404
       ],
@@ -66450,7 +66083,7 @@
         }
       }
     },
-    "1189:10": {
+    "1182:10": {
       "preRequisites:11": [
         1404
       ],
@@ -66502,7 +66135,7 @@
         }
       }
     },
-    "1190:10": {
+    "1183:10": {
       "preRequisites:11": [
         1401
       ],
@@ -66554,7 +66187,7 @@
         }
       }
     },
-    "1191:10": {
+    "1184:10": {
       "preRequisites:11": [
         50
       ],
@@ -66606,7 +66239,7 @@
         }
       }
     },
-    "1192:10": {
+    "1185:10": {
       "preRequisites:11": [
         1036
       ],
@@ -66658,7 +66291,7 @@
         }
       }
     },
-    "1193:10": {
+    "1186:10": {
       "preRequisites:11": [
         1408
       ],
@@ -66710,7 +66343,7 @@
         }
       }
     },
-    "1194:10": {
+    "1187:10": {
       "preRequisites:11": [
         1404
       ],
@@ -66762,7 +66395,7 @@
         }
       }
     },
-    "1195:10": {
+    "1188:10": {
       "preRequisites:11": [
         432
       ],
@@ -66814,7 +66447,7 @@
         }
       }
     },
-    "1196:10": {
+    "1189:10": {
       "preRequisites:11": [
         1413
       ],
@@ -66866,7 +66499,7 @@
         }
       }
     },
-    "1197:10": {
+    "1190:10": {
       "preRequisites:11": [
         1414,
         1415
@@ -66919,7 +66552,7 @@
         }
       }
     },
-    "1198:10": {
+    "1191:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -66969,7 +66602,7 @@
         }
       }
     },
-    "1199:10": {
+    "1192:10": {
       "preRequisites:11": [
         1
       ],
@@ -67021,7 +66654,7 @@
         }
       }
     },
-    "1200:10": {
+    "1193:10": {
       "preRequisites:11": [
         1412
       ],
@@ -67073,7 +66706,7 @@
         }
       }
     },
-    "1201:10": {
+    "1194:10": {
       "preRequisites:11": [
         1402
       ],
@@ -67125,7 +66758,7 @@
         }
       }
     },
-    "1202:10": {
+    "1195:10": {
       "preRequisites:11": [
         1418
       ],
@@ -67177,7 +66810,7 @@
         }
       }
     },
-    "1203:10": {
+    "1196:10": {
       "preRequisites:11": [
         1414
       ],
@@ -67229,7 +66862,7 @@
         }
       }
     },
-    "1204:10": {
+    "1197:10": {
       "preRequisites:11": [
         853
       ],
@@ -67287,7 +66920,7 @@
         }
       }
     },
-    "1205:10": {
+    "1198:10": {
       "preRequisites:11": [
         1422
       ],
@@ -67345,7 +66978,7 @@
         }
       }
     },
-    "1206:10": {
+    "1199:10": {
       "preRequisites:11": [
         1422
       ],
@@ -67397,7 +67030,7 @@
         }
       }
     },
-    "1207:10": {
+    "1200:10": {
       "preRequisites:11": [
         1413
       ],
@@ -67449,7 +67082,7 @@
         }
       }
     },
-    "1208:10": {
+    "1201:10": {
       "preRequisites:11": [
         1426
       ],
@@ -67501,7 +67134,7 @@
         }
       }
     },
-    "1209:10": {
+    "1202:10": {
       "preRequisites:11": [
         1426,
         1429
@@ -67554,7 +67187,7 @@
         }
       }
     },
-    "1210:10": {
+    "1203:10": {
       "preRequisites:11": [
         1415
       ],
@@ -67606,7 +67239,7 @@
         }
       }
     },
-    "1211:10": {
+    "1204:10": {
       "preRequisites:11": [
         1287
       ],
@@ -67658,7 +67291,7 @@
         }
       }
     },
-    "1212:10": {
+    "1205:10": {
       "preRequisites:11": [
         1430
       ],
@@ -67710,7 +67343,7 @@
         }
       }
     },
-    "1213:10": {
+    "1206:10": {
       "preRequisites:11": [
         210
       ],
@@ -67762,7 +67395,7 @@
         }
       }
     },
-    "1214:10": {
+    "1207:10": {
       "preRequisites:11": [
         1432
       ],
@@ -67814,7 +67447,7 @@
         }
       }
     },
-    "1215:10": {
+    "1208:10": {
       "preRequisites:11": [
         817
       ],
@@ -67866,7 +67499,7 @@
         }
       }
     },
-    "1216:10": {
+    "1209:10": {
       "preRequisites:11": [
         1434
       ],
@@ -67918,7 +67551,7 @@
         }
       }
     },
-    "1217:10": {
+    "1210:10": {
       "preRequisites:11": [
         1262
       ],
@@ -67970,7 +67603,7 @@
         }
       }
     },
-    "1218:10": {
+    "1211:10": {
       "preRequisites:11": [
         525
       ],
@@ -68022,7 +67655,7 @@
         }
       }
     },
-    "1219:10": {
+    "1212:10": {
       "preRequisites:11": [
         1437
       ],
@@ -68074,7 +67707,7 @@
         }
       }
     },
-    "1220:10": {
+    "1213:10": {
       "preRequisites:11": [
         1438,
         126
@@ -68135,7 +67768,7 @@
         }
       }
     },
-    "1221:10": {
+    "1214:10": {
       "preRequisites:11": [
         1441
       ],
@@ -68195,7 +67828,7 @@
         }
       }
     },
-    "1222:10": {
+    "1215:10": {
       "preRequisites:11": [
         1439
       ],
@@ -68255,7 +67888,7 @@
         }
       }
     },
-    "1223:10": {
+    "1216:10": {
       "preRequisites:11": [
         1440
       ],
@@ -68315,7 +67948,7 @@
         }
       }
     },
-    "1224:10": {
+    "1217:10": {
       "preRequisites:11": [
         1442
       ],
@@ -68375,7 +68008,7 @@
         }
       }
     },
-    "1225:10": {
+    "1218:10": {
       "preRequisites:11": [
         1443
       ],
@@ -68427,7 +68060,7 @@
         }
       }
     },
-    "1226:10": {
+    "1219:10": {
       "preRequisites:11": [
         1443
       ],
@@ -68487,7 +68120,7 @@
         }
       }
     },
-    "1227:10": {
+    "1220:10": {
       "preRequisites:11": [
         1445
       ],
@@ -68547,7 +68180,7 @@
         }
       }
     },
-    "1228:10": {
+    "1221:10": {
       "preRequisites:11": [
         1445
       ],
@@ -68607,7 +68240,7 @@
         }
       }
     },
-    "1229:10": {
+    "1222:10": {
       "preRequisites:11": [
         1446
       ],
@@ -68667,7 +68300,7 @@
         }
       }
     },
-    "1230:10": {
+    "1223:10": {
       "preRequisites:11": [
         1448,
         1453
@@ -68728,7 +68361,7 @@
         }
       }
     },
-    "1231:10": {
+    "1224:10": {
       "preRequisites:11": [
         1449
       ],
@@ -68788,7 +68421,7 @@
         }
       }
     },
-    "1232:10": {
+    "1225:10": {
       "preRequisites:11": [
         1450
       ],
@@ -68848,7 +68481,7 @@
         }
       }
     },
-    "1233:10": {
+    "1226:10": {
       "preRequisites:11": [
         1451
       ],
@@ -68900,7 +68533,7 @@
         }
       }
     },
-    "1234:10": {
+    "1227:10": {
       "preRequisites:11": [
         126
       ],
@@ -68952,7 +68585,7 @@
         }
       }
     },
-    "1235:10": {
+    "1228:10": {
       "preRequisites:11": [
         1447
       ],
@@ -69012,7 +68645,7 @@
         }
       }
     },
-    "1236:10": {
+    "1229:10": {
       "preRequisites:11": [
         1454
       ],
@@ -69072,7 +68705,7 @@
         }
       }
     },
-    "1237:10": {
+    "1230:10": {
       "preRequisites:11": [
         1455
       ],
@@ -69132,7 +68765,7 @@
         }
       }
     },
-    "1238:10": {
+    "1231:10": {
       "preRequisites:11": [
         1456
       ],
@@ -69192,7 +68825,7 @@
         }
       }
     },
-    "1239:10": {
+    "1232:10": {
       "preRequisites:11": [
         1457
       ],
@@ -69252,7 +68885,7 @@
         }
       }
     },
-    "1240:10": {
+    "1233:10": {
       "preRequisites:11": [
         1458
       ],
@@ -69304,7 +68937,7 @@
         }
       }
     },
-    "1241:10": {
+    "1234:10": {
       "preRequisites:11": [
         1461
       ],
@@ -69356,7 +68989,7 @@
         }
       }
     },
-    "1242:10": {
+    "1235:10": {
       "preRequisites:11": [
         1462
       ],
@@ -69408,7 +69041,7 @@
         }
       }
     },
-    "1243:10": {
+    "1236:10": {
       "preRequisites:11": [
         287
       ],
@@ -69468,7 +69101,7 @@
         }
       }
     },
-    "1244:10": {
+    "1237:10": {
       "preRequisites:11": [
         1458
       ],
@@ -69528,7 +69161,7 @@
         }
       }
     },
-    "1245:10": {
+    "1238:10": {
       "preRequisites:11": [
         1463
       ],
@@ -69588,7 +69221,7 @@
         }
       }
     },
-    "1246:10": {
+    "1239:10": {
       "preRequisites:11": [
         1466
       ],
@@ -69648,7 +69281,7 @@
         }
       }
     },
-    "1247:10": {
+    "1240:10": {
       "preRequisites:11": [
         1464
       ],
@@ -69708,7 +69341,7 @@
         }
       }
     },
-    "1248:10": {
+    "1241:10": {
       "preRequisites:11": [
         1466
       ],
@@ -69760,7 +69393,7 @@
         }
       }
     },
-    "1249:10": {
+    "1242:10": {
       "preRequisites:11": [
         1233
       ],
@@ -69818,7 +69451,7 @@
         }
       }
     },
-    "1250:10": {
+    "1243:10": {
       "preRequisites:11": [
         1436
       ],
@@ -69870,7 +69503,7 @@
         }
       }
     },
-    "1251:10": {
+    "1244:10": {
       "preRequisites:11": [
         1472
       ],
@@ -69922,7 +69555,7 @@
         }
       }
     },
-    "1252:10": {
+    "1245:10": {
       "preRequisites:11": [
         1474
       ],
@@ -69974,7 +69607,7 @@
         }
       }
     },
-    "1253:10": {
+    "1246:10": {
       "preRequisites:11": [
         1470
       ],
@@ -70026,7 +69659,7 @@
         }
       }
     },
-    "1254:10": {
+    "1247:10": {
       "preRequisites:11": [
         1473
       ],
@@ -70078,7 +69711,7 @@
         }
       }
     },
-    "1255:10": {
+    "1248:10": {
       "preRequisites:11": [
         1470
       ],
@@ -70172,7 +69805,7 @@
         }
       }
     },
-    "1256:10": {
+    "1249:10": {
       "preRequisites:11": [
         1241
       ],
@@ -70266,7 +69899,7 @@
         }
       }
     },
-    "1257:10": {
+    "1250:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -70324,7 +69957,7 @@
         }
       }
     },
-    "1258:10": {
+    "1251:10": {
       "preRequisites:11": [
         1477
       ],
@@ -70376,7 +70009,7 @@
         }
       }
     },
-    "1259:10": {
+    "1252:10": {
       "preRequisites:11": [
         1478
       ],
@@ -70434,7 +70067,7 @@
         }
       }
     },
-    "1260:10": {
+    "1253:10": {
       "preRequisites:11": [
         1479
       ],
@@ -70506,7 +70139,7 @@
         }
       }
     },
-    "1261:10": {
+    "1254:10": {
       "preRequisites:11": [
         1480
       ],
@@ -70578,7 +70211,7 @@
         }
       }
     },
-    "1262:10": {
+    "1255:10": {
       "preRequisites:11": [
         1483
       ],
@@ -70630,7 +70263,7 @@
         }
       }
     },
-    "1263:10": {
+    "1256:10": {
       "preRequisites:11": [
         1484
       ],
@@ -70690,7 +70323,7 @@
         }
       }
     },
-    "1264:10": {
+    "1257:10": {
       "preRequisites:11": [
         1493
       ],
@@ -70750,7 +70383,7 @@
         }
       }
     },
-    "1265:10": {
+    "1258:10": {
       "preRequisites:11": [
         1486
       ],
@@ -70802,7 +70435,7 @@
         }
       }
     },
-    "1266:10": {
+    "1259:10": {
       "preRequisites:11": [
         1487
       ],
@@ -70874,7 +70507,7 @@
         }
       }
     },
-    "1267:10": {
+    "1260:10": {
       "preRequisites:11": [
         1488
       ],
@@ -70946,7 +70579,7 @@
         }
       }
     },
-    "1268:10": {
+    "1261:10": {
       "preRequisites:11": [
         1489
       ],
@@ -71004,7 +70637,7 @@
         }
       }
     },
-    "1269:10": {
+    "1262:10": {
       "preRequisites:11": [
         1490
       ],
@@ -71056,7 +70689,7 @@
         }
       }
     },
-    "1270:10": {
+    "1263:10": {
       "preRequisites:11": [
         724
       ],
@@ -71116,7 +70749,7 @@
         }
       }
     },
-    "1271:10": {
+    "1264:10": {
       "preRequisites:11": [
         1488
       ],
@@ -71168,7 +70801,7 @@
         }
       }
     },
-    "1272:10": {
+    "1265:10": {
       "preRequisites:11": [
         1491,
         1482
@@ -71247,7 +70880,7 @@
         }
       }
     },
-    "1273:10": {
+    "1266:10": {
       "preRequisites:11": [
         428
       ],
@@ -71307,7 +70940,7 @@
         }
       }
     },
-    "1274:10": {
+    "1267:10": {
       "preRequisites:11": [
         24,
         1495,
@@ -71374,7 +71007,7 @@
         }
       }
     },
-    "1275:10": {
+    "1268:10": {
       "preRequisites:11": [
         23
       ],
@@ -71426,7 +71059,7 @@
         }
       }
     },
-    "1276:10": {
+    "1269:10": {
       "preRequisites:11": [
         1471
       ],
@@ -71478,7 +71111,7 @@
         }
       }
     },
-    "1277:10": {
+    "1270:10": {
       "preRequisites:11": [
         1496
       ],
@@ -71530,7 +71163,7 @@
         }
       }
     },
-    "1278:10": {
+    "1271:10": {
       "preRequisites:11": [
         527
       ],
@@ -71588,7 +71221,7 @@
         }
       }
     },
-    "1279:10": {
+    "1272:10": {
       "preRequisites:11": [
         1498
       ],
@@ -71640,7 +71273,7 @@
         }
       }
     },
-    "1280:10": {
+    "1273:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -71677,7 +71310,7 @@
         }
       }
     },
-    "1281:10": {
+    "1274:10": {
       "preRequisites:11": [
         1067
       ],
@@ -71753,7 +71386,7 @@
         }
       }
     },
-    "1282:10": {
+    "1275:10": {
       "preRequisites:11": [
         1516
       ],
@@ -75354,258 +74987,251 @@
           "y:3": 0
         },
         "10:10": {
+          "id:3": 484,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -204,
+          "y:3": 24
+        },
+        "11:10": {
+          "id:3": 485,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -204,
+          "y:3": -12
+        },
+        "12:10": {
           "id:3": 510,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 24,
           "y:3": 36
         },
-        "11:10": {
+        "13:10": {
           "id:3": 525,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -72,
           "y:3": -12
         },
-        "12:10": {
+        "14:10": {
           "id:3": 601,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 108,
           "y:3": 0
         },
-        "13:10": {
+        "15:10": {
           "id:3": 637,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -36,
           "y:3": 36
         },
-        "14:10": {
+        "16:10": {
           "id:3": 660,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -72,
           "y:3": -132
         },
-        "15:10": {
+        "17:10": {
           "id:3": 661,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -180,
           "y:3": -132
         },
-        "16:10": {
+        "18:10": {
           "id:3": 662,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -72,
           "y:3": -168
         },
-        "17:10": {
+        "19:10": {
           "id:3": 663,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -180,
           "y:3": -168
         },
-        "18:10": {
+        "20:10": {
           "id:3": 664,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -180,
           "y:3": -96
         },
-        "19:10": {
+        "21:10": {
           "id:3": 671,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -96,
           "y:3": -60
         },
-        "20:10": {
+        "22:10": {
           "id:3": 672,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -48,
           "y:3": -60
         },
-        "21:10": {
+        "23:10": {
           "id:3": 673,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -156,
           "y:3": -60
         },
-        "22:10": {
+        "24:10": {
           "id:3": 683,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -120,
           "y:3": 24
         },
-        "23:10": {
-          "id:3": 684,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -180,
-          "y:3": 0
-        },
-        "24:10": {
-          "id:3": 685,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -180,
-          "y:3": 36
-        },
         "25:10": {
-          "id:3": 692,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -180,
-          "y:3": 72
-        },
-        "26:10": {
           "id:3": 695,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -72,
           "y:3": 108
         },
-        "27:10": {
+        "26:10": {
           "id:3": 696,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -72,
           "y:3": 48
         },
-        "28:10": {
+        "27:10": {
           "id:3": 697,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -108,
           "y:3": 84
         },
-        "29:10": {
+        "28:10": {
           "id:3": 698,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -108,
           "y:3": 132
         },
-        "30:10": {
+        "29:10": {
           "id:3": 705,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -144,
           "y:3": 132
         },
-        "31:10": {
+        "30:10": {
           "id:3": 710,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -144,
           "y:3": 168
         },
-        "32:10": {
+        "31:10": {
           "id:3": 716,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -36,
           "y:3": 108
         },
-        "33:10": {
+        "32:10": {
           "id:3": 717,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 0,
           "y:3": 108
         },
-        "34:10": {
+        "33:10": {
           "id:3": 755,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -144,
           "y:3": 84
         },
-        "35:10": {
+        "34:10": {
           "id:3": 756,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 108,
           "y:3": 72
         },
-        "36:10": {
+        "35:10": {
           "id:3": 759,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 144,
           "y:3": 72
         },
-        "37:10": {
+        "36:10": {
           "id:3": 778,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 24,
           "y:3": -12
         },
-        "38:10": {
+        "37:10": {
           "id:3": 793,
-          "sizeX:3": 36,
-          "sizeY:3": 36,
-          "x:3": -216,
-          "y:3": 120
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -204,
+          "y:3": 60
         },
-        "39:10": {
+        "38:10": {
           "id:3": 856,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 24,
           "y:3": -48
         },
-        "40:10": {
+        "39:10": {
           "id:3": 863,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 24,
           "y:3": -84
         },
-        "41:10": {
+        "40:10": {
           "id:3": 1016,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 72,
           "y:3": 108
         },
-        "42:10": {
+        "41:10": {
           "id:3": 1017,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 0,
           "y:3": 72
         },
-        "43:10": {
+        "42:10": {
           "id:3": 1018,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -36,
           "y:3": 72
         },
-        "44:10": {
+        "43:10": {
           "id:3": 1019,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 108,
           "y:3": 108
         },
-        "45:10": {
+        "44:10": {
           "id:3": 1020,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 108,
           "y:3": 144
         },
-        "46:10": {
+        "45:10": {
           "id:3": 1021,
           "sizeX:3": 24,
           "sizeY:3": 24,
@@ -75774,258 +75400,216 @@
           "y:3": -132
         },
         "20:10": {
-          "id:3": 758,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -120,
-          "y:3": -96
-        },
-        "21:10": {
           "id:3": 760,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 24,
           "y:3": -132
         },
-        "22:10": {
-          "id:3": 761,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -120,
-          "y:3": -132
-        },
-        "23:10": {
-          "id:3": 762,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -120,
-          "y:3": -168
-        },
-        "24:10": {
+        "21:10": {
           "id:3": 763,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 60,
           "y:3": -168
         },
-        "25:10": {
+        "22:10": {
           "id:3": 764,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -12,
           "y:3": -204
         },
-        "26:10": {
+        "23:10": {
           "id:3": 765,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 24,
           "y:3": -204
         },
-        "27:10": {
+        "24:10": {
           "id:3": 766,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 60,
           "y:3": -204
         },
-        "28:10": {
+        "25:10": {
           "id:3": 767,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 24,
           "y:3": -96
         },
-        "29:10": {
+        "26:10": {
           "id:3": 768,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 24,
           "y:3": -240
         },
-        "30:10": {
+        "27:10": {
           "id:3": 769,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -12,
           "y:3": -240
         },
-        "31:10": {
+        "28:10": {
           "id:3": 770,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -12,
           "y:3": -132
         },
-        "32:10": {
+        "29:10": {
           "id:3": 771,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -12,
           "y:3": -96
         },
-        "33:10": {
+        "30:10": {
           "id:3": 772,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -12,
           "y:3": -60
         },
-        "34:10": {
+        "31:10": {
           "id:3": 795,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -84,
           "y:3": -96
         },
-        "35:10": {
+        "32:10": {
           "id:3": 796,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -84,
           "y:3": -132
         },
-        "36:10": {
+        "33:10": {
           "id:3": 800,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -12,
           "y:3": -24
         },
-        "37:10": {
+        "34:10": {
           "id:3": 835,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -48,
           "y:3": -96
         },
-        "38:10": {
+        "35:10": {
           "id:3": 836,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -48,
           "y:3": -60
         },
-        "39:10": {
+        "36:10": {
           "id:3": 974,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -192,
+          "x:3": 60,
           "y:3": -132
         },
-        "40:10": {
-          "id:3": 975,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -192,
-          "y:3": -96
-        },
-        "41:10": {
-          "id:3": 976,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -192,
-          "y:3": -60
-        },
-        "42:10": {
-          "id:3": 977,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -192,
-          "y:3": -24
-        },
-        "43:10": {
+        "37:10": {
           "id:3": 978,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -84,
           "y:3": -204
         },
-        "44:10": {
+        "38:10": {
           "id:3": 979,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -84,
           "y:3": -240
         },
-        "45:10": {
+        "39:10": {
           "id:3": 980,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -84,
           "y:3": -276
         },
-        "46:10": {
+        "40:10": {
           "id:3": 981,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -84,
           "y:3": -312
         },
-        "47:10": {
+        "41:10": {
           "id:3": 982,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -132,
           "y:3": -312
         },
-        "48:10": {
+        "42:10": {
           "id:3": 983,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -120,
           "y:3": -240
         },
-        "49:10": {
+        "43:10": {
           "id:3": 984,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -120,
           "y:3": -276
         },
-        "50:10": {
+        "44:10": {
           "id:3": 985,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -156,
           "y:3": -276
         },
-        "51:10": {
+        "45:10": {
           "id:3": 986,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -192,
           "y:3": -276
         },
-        "52:10": {
+        "46:10": {
           "id:3": 987,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -120,
           "y:3": -204
         },
-        "53:10": {
+        "47:10": {
           "id:3": 988,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -156,
           "y:3": -204
         },
-        "54:10": {
+        "48:10": {
           "id:3": 989,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -192,
           "y:3": -204
         },
-        "55:10": {
+        "49:10": {
           "id:3": 990,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -192,
           "y:3": -240
         },
-        "56:10": {
+        "50:10": {
           "id:3": 991,
           "sizeX:3": 24,
           "sizeY:3": 24,
@@ -80110,11 +79694,7 @@
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": "",
-            "id:8": "betterquesting:placeholder",
-            "tag:10": {
-              "orig_id:8": "thaumicwands:item_wand",
-              "orig_meta:3": 0
-            }
+            "id:8": "thaumcraft:arcane_workbench"
           },
           "name:8": "Thaumcraft",
           "visibility:8": "NORMAL"
