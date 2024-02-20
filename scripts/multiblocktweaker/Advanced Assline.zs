@@ -30,22 +30,22 @@ var advanced_assembly_line = Builder.start(loc, meta)
     .withPattern(
             FactoryBlockPattern.start(RelativeDirection.RIGHT, RelativeDirection.BACK, RelativeDirection.UP)
             .aisle(
-            "CRC",
-            "CRC",
-            "CRC",
-            "CRC",
-            "CRC",  
-            "CRC",
-            "CRC",
-            "CRC",
-            "CRC",
-            "CRC",
-            "CRC",
-            "CRC",
-            "CRC",
-            "CRC",
-            "CRC",
-            "CYC")
+            "CCC",
+            "CCC",
+            "CCC",
+            "CCC",
+            "CCC",  
+            "CCC",
+            "CCC",
+            "CCC",
+            "CCC",
+            "CCC",
+            "CCC",
+            "CCC",
+            "CCC",
+            "CCC",
+            "CCC",
+            "CCC")
             .aisle(
             "GAG",
             "GAG",
@@ -96,10 +96,7 @@ var advanced_assembly_line = Builder.start(loc, meta)
             "~C~",
             "~C~",
             "~C~",
-            "~K~")
-            .where("K", <metastate:gregtech:machine:4016>)
-            .where("Y", <metastate:gregtech:machine:701>)
-            .where("R", <metastate:gregtech:machine:700>)
+            "~C~")
             .whereOr("C",
                 <metastate:gregtech:metal_casing:4>,
                 IBlockMatcher.abilityPartPredicate(
@@ -117,12 +114,10 @@ var advanced_assembly_line = Builder.start(loc, meta)
     .addDesign(
         FactoryMultiblockShapeInfo.start()
             .aisle("CCCCCCCCCCCCCCCC","GGGGGGGGGGGGGGGG","LLLLLLLLLLLLLLLL","                ")
-            .aisle("YRRRRRRRRRRRRRRR","AAAAAAAAAAAAAAAA","SMMMMMMMMMMMMMMM","CCCCCCCCCCCCCCCC")
+            .aisle("CCCCCCCCCCCCCCCC","AAAAAAAAAAAAAAAA","SMMMMMMMMMMMMMMM","CCCCCCCCCCCCCCCC")
             .aisle("CCCCCCCCCCCCCCCC","GGGGGGGGGGGGGGGG","LLLLLLLLLLLLLLLL","                ")
             .where("G", <metastate:gtadditions:ga_transparent_casing>)
             .where("C", <metastate:gregtech:metal_casing:4>)
-            .where("Y", MetaTileEntities.ITEM_EXPORT_BUS[1], IFacing.down())
-            .where("R", MetaTileEntities.ITEM_EXPORT_BUS[1], IFacing.down())
             .where("L", <metastate:gregtech:multiblock_casing:1>)
             .where("A", <metastate:gtadditions:ga_multiblock_casing>)
             .where("M", <metastate:gregtech:multiblock_casing:2>)

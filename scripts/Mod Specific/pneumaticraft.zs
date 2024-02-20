@@ -58,3 +58,4 @@ mods.pneumaticcraft.pressurechamber.addRecipe([<gtadditions:ga_meta_item:32406>*
 
  
 recipes.addShaped(<pneumaticcraft:liquid_hopper>, [ 	[<ore:plateSteel>, <minecraft:bucket>, <ore:plateSteel>],  	[<ore:plateSteel>, <ore:blockHopper>, <ore:plateSteel>],  	[null, <ore:plateSteel>, null] ]);
+
