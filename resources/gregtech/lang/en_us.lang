@@ -33,7 +33,7 @@ material.astralsilver=Astral Silver
 material.infusedgold=Infused Gold
 material.indalloy140=Indalloy 140
 material.orundum=Orundum
-material.mythril=Mythril
+material.mythril=Mithril
 material.vibrantalloy=Vibrant Alloy
 material.extrmelyunstablenaquadah=Extremly Unstable Naquadah
 material.tiberium=Tiberium
@@ -86,7 +86,7 @@ material.high_density_polyethylene=High Density Polyethylene
 material.cross_linked_polyethylene=Cross Linked Polyethylene
 material.low_quality_steel=Low Quality Steel
 
-
+ 
 
 
 gtadditions.machine.convert_forge.uxv.4.name=Forge Energy Converter (UXV)
