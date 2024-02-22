@@ -286,6 +286,9 @@ bscco.addFlags(["GENERATE_PLATE"]);
 val gadolinite = MaterialRegistry.createDustMaterial(621,"gadolinite",0x4C4848,"DULL",3);
 gadolinite.addFlags(["GENERATE_ORE"]);
 
+val xenotime = MaterialRegistry.createDustMaterial(622,"xenotime",0xF9A825,"SHINY",3);
+xenotime.addFlags(["GENERATE_ORE"]);
+
 
 
 
@@ -491,13 +494,14 @@ util.registerDust("precipitate_mithril_dust", 32196, 0xAED2F2, "DULL");
 util.registerDust("roughen_mithril_dust", 32197, 0xAED2F2, "DULL");
 util.registerDust("excited_roughen_mithril_dust", 32199, 0xAED2F2, "SHINY");
 util.registerDust("excited_mithril_dust", 32200, 0xAED2F2, "SHINY");
+util.registerDust("cobalt_60_dust", 32201, 0x091175, "DULL");
 
 
 
 
 
 
-
+util.registerFluid("treated_waste_water", 0x9499e0);
 util.registerFluid("rarest_earth_mixture", 0x9C3D1F);
 util.registerFluid("ree_group_mud", 0x603D32);
 util.registerFluid("lanthanum_leach_solution", 0x9F8E89);
