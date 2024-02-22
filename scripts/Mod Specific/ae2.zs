@@ -47,7 +47,6 @@ recipes.addShaped(<appliedenergistics2:quantum_ring>, [	[<ore:plateYttriumBarium
 recipes.addShaped(<appliedenergistics2:crank>, [	[<ore:itemNutritiousStick>, <ore:stickLongWood>, <ore:stickLongWood>], 	[null, null, <ore:stickLongWood>], 	[null, null, <ore:itemNutritiousStick>]]);
 recipes.addShaped(<appliedenergistics2:material:28>, [	[null, <ore:plateAluminium>, <contenttweaker:steel_item_casing>], 	[<appliedenergistics2:material:23>, <ore:plateAluminium>, <ore:plateIron>], 	[null, <ore:plateAluminium>, <contenttweaker:steel_item_casing>]]);recipes.addShaped(<appliedenergistics2:material:30>, [	[<ore:crystalFluix>, null, <ore:plateTungsten>], 	[<ore:plateTitanium>, <appliedenergistics2:material:28>, <appliedenergistics2:material:23>], 	[<ore:crystalFluix>, null, null]]);
 recipes.addShaped(<appliedenergistics2:memory_card>, [	[null, null, null], 	[<ore:plateTungsten>, <ore:plateTungsten>, <appliedenergistics2:material:23>], 	[<ore:plateGold>, <ore:plateRedstone>, <ore:crystalFluix>]]);
-recipes.addShaped(<appliedenergistics2:material:52>, [	[<gtadditions:ga_transparent_casing:2>, <ore:plateNichrome>, <gtadditions:ga_transparent_casing:2>], 	[<ore:plateNichrome>, <ore:crystalFluix>, <ore:plateNichrome>], 	[<ore:plateTitanium>, <ore:plateTitanium>, <ore:plateTitanium>]]);
 recipes.addShaped(<appliedenergistics2:material:39>, [	[<appliedenergistics2:quartz_glass>, <ore:plateAluminium>, <appliedenergistics2:quartz_glass>], 	[<ore:plateAluminium>, <ore:circuitGood>, <ore:plateAluminium>], 	[<ore:plateStainlessSteel>, <ore:plateStainlessSteel>, <ore:plateStainlessSteel>]]);
 recipes.addShaped(<appliedenergistics2:part:360>, [	[<ore:screwStainlessSteel>, <ore:circuitExtreme>, <ore:screwStainlessSteel>], 	[<extendedcrafting:table_advanced>, <appliedenergistics2:part:380>, <extendedcrafting:table_advanced>], 	[<ore:screwStainlessSteel>, <ore:circuitExtreme>, <ore:screwStainlessSteel>]]);
 
@@ -329,3 +328,6 @@ assembler.recipeBuilder()
     .duration(200)
     .EUt(480)
     .buildAndRegister();
+
+recipes.addShaped(<appliedenergistics2:material:52>, [	[<ore:screwStainlessSteel>, <appliedenergistics2:material:23>, <ore:screwStainlessSteel>], 	[<ore:plateStainlessSteel>, <ore:crystalFluix>, <ore:plateStainlessSteel>], 	[null, <ore:plateStainlessSteel>, null]]);
+
