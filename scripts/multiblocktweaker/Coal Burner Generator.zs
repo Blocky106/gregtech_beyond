@@ -74,6 +74,7 @@ val coal_burner_generator = Builder.start(loc, meta)
                         .maxFluidInputs(1)
                         .maxFluidOutputs(2)
                         .build())
+.withTexture(ICubeRenderer.sided("contenttweaker:blocks/lq_steel_casing"))
 .withZoom(0.5f)
 .buildAndRegister() as Multiblock;
 
