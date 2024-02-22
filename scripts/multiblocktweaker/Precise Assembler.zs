@@ -21,7 +21,8 @@ import mods.gregtech.render.ICubeRenderer;
 import mods.gregtech.render.Textures;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
-
+import mods.gregtech.recipe.functions.IUpdateFunction;
+import mods.gregtech.recipe.IRecipeLogic;
 
 var loc = "precise_assembler";
 var meta = 10000;
@@ -225,3 +226,9 @@ precise_assembler.recipeMap.recipeBuilder()
 
 
 
+precise_assembler.recipeMap.copyAll(RecipeMap.getByName("assembler"));
+
+precise_assembler.update = function(recipeLogic as IRecipeLogic) {
+    var oldProgress = recipeLogic.recipeProgress;
+    recipeLogic.recipeProgress = oldProgress + 1;
+} as IUpdateFunction;
