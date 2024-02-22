@@ -1515,4 +1515,15 @@ metaitem.roughen_mithril_dust.name=Roughen Mithril Dust
 metaitem.excited_mithril_dust.name=Excited Mithril Dust
 recipemap.advanced_assembly_line.name=Advanced Assembly Line
 multiblocktweaker.machine.advanced_assembly_line.name=Advanced Assembly Line
-
+multiblocktweaker.multiblock.advanced_assembly_line.description=Twice as fast as the normal assembly line, doesnt show up in JEI/HEI tho
+fluid.rarest_earth_mixture=Rarest Earth Mixture
+fluid.ree_group_mud=REE Group Mud
+fluid.lanthanum_leach_solution=Lanthanum Leach Solution
+fluid.rarer_earth_concentrate=Rarer Earth Concentrate
+fluid.aqua_regia_solution=Aqua Regia Solution
+fluid.gadolinium_leach=Gadolinium Leach
+fluid.neodymium_oxide_solution=Neodymium Oxide Solution
+fluid.gadolinite_leach_solution=Gadolinite Leach Solution
+item.contenttweaker.air_handling_unit.name=Air Handling Unit
+multiblocktweaker.machine.textile_factory.name=Textile Factory
+recipemap.textile_factory.name=Textile Factory
