@@ -2681,3 +2681,19 @@ fluidExtractor.recipeBuilder()
     .duration(20)
     .EUt(6)
     .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:wastewater>*1000)
+    .notConsumable(<gtadditions:ga_dust:32201>)
+    .fluidOutputs(<liquid:treated_waste_water>*1000)
+    .duration(200)
+    .EUt(120)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:wastewater>*1000)
+    .notConsumable(<gtadditions:ga_dust:32201>)
+    .fluidOutputs(<liquid:treated_waste_water>*1000)
+    .duration(200)
+    .EUt(120)
+    .buildAndRegister();

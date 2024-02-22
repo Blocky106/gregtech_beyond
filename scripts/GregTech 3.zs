@@ -2747,14 +2747,6 @@ bio.recipeBuilder()
     .EUt(5200)
     .buildAndRegister();
 
-assembler.recipeBuilder()
-    .fluidInputs(<liquid:polyurethaneresin>*288)
-    .outputs(<contenttweaker:reinfrocedkevlarcloth>)
-    .inputs(<contenttweaker:wovenkevlar>,<gregtech:meta_item_2:16301>*4)
-    .duration(800)
-    .EUt(920000)
-    .buildAndRegister();
-
 lcr.recipeBuilder()
     .fluidInputs(<liquid:bacterial_growth_medium>*8)
     .inputs(<gregtech:meta_item_1:2564>)
@@ -2865,12 +2857,7 @@ bio.recipeBuilder()
     .EUt(90000)
     .buildAndRegister();
 
-assembler.recipeBuilder()
-    .inputs(<gregtech:meta_item_1:19580>*16)
-    .outputs(<contenttweaker:wovenkevlar>)
-    .duration(512)
-    .EUt(9000)
-    .buildAndRegister();
+
 
 ebf.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2537>)
