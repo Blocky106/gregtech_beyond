@@ -179,7 +179,7 @@ roaster.recipeMap.recipeBuilder()
     .buildAndRegister();
 
 roaster.recipeMap.recipeBuilder()
-    .fluidInputs(<liquid:ree_group_mud>*1000,<liquid:oxygen>*2000)
+    .fluidInputs(<liquid:rarer_earth_concentrate>*1000,<liquid:oxygen>*2000)
     .fluidOutputs(<liquid:rarest_earth_mixture>*200,<liquid:neodymium_oxide_solution>*800)
     .duration(600)
     .EUt(420)
