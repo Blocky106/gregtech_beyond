@@ -17,6 +17,7 @@ mods.jei.JEI.hideCategory("zmaster587.AR.arcFurnace");
 mods.jei.JEI.hideCategory("zmaster587.AR.chemicalReactor");
 mods.jei.JEI.hideCategory("zmaster587.AR.chemicalReactor");
 mods.jei.JEI.hideCategory("forestry.squeezer");
+mods.jei.JEI.hideCategory("gregtech:textile_factory");
 mods.jei.JEI.hideCategory("gregtech:solar_thermal_concentrator");
 mods.jei.JEI.hideCategory("gregtech:coal_burner_generator");
 mods.jei.JEI.hideCategory("gregtech:advanced_assembly_line");
