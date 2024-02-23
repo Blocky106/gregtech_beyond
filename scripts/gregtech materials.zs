@@ -385,7 +385,6 @@ util.registerDust("oranorhodiumcatalystdust", 32087, 0x942942, "SHINY");
 util.registerDust("polyurethanecatalystbdust", 32088, 0x946f29, "DULL");
 util.registerDust("polyurethanecatalystadust", 32089, 0x946f29, "SHINY");
 util.registerDust("leadmetallicpowder", 32090, 0x75516e, "DULL");
-util.registerDust("kevlarmix", 32091, 0x756e09, "SHINY");
 util.registerDust("binap", 32092, 0x8b8c87, "DULL");
 util.registerDust("paraphenylenediamine", 32093, 0x317c87, "SHINY");
 util.registerDust("muddustresidues", 32095, 0x8c878b, "DULL");
