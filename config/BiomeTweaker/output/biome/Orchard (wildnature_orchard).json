@@ -23,8 +23,8 @@
     "FOREST",
     "RARE",
     "HOT",
-    "DENSE",
-    "WET"
+    "WET",
+    "DENSE"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [
