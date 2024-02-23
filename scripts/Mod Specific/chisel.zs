@@ -202,7 +202,6 @@ mods.chisel.Carving.addVariation("concrete", <gregtech:concrete:13>);
 mods.chisel.Carving.addVariation("concrete", <gregtech:concrete:12>);
 mods.chisel.Carving.addVariation("concrete", <gregtech:concrete:1>);
 mods.chisel.Carving.addVariation("concrete", <gregtech:concrete>);
-mods.chisel.Carving.addVariation("concrete", <advancedrocketry:concrete>);
 
 
 
