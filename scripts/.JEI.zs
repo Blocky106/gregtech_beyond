@@ -924,6 +924,9 @@ for item in itemstoRemove {
 
 val itemstoRemoveAndHide =
 [
+<thermalexpansion:machine:11>,
+<projectred-expansion:machine2:11>,
+<projectred-expansion:machine2:10>,
 <wildnature:amethyst_ore>,
 <wildnature:malachite_block>,
 <wildnature:ruby_block>,
