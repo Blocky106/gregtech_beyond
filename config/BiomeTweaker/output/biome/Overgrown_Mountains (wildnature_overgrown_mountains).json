@@ -1,6 +1,6 @@
 
 {
-  "ID": 89,
+  "ID": 77,
   "Name": "Overgrown Mountains",
   "Resource Location": "wildnature:overgrown_mountains",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeOvergrownMountains",

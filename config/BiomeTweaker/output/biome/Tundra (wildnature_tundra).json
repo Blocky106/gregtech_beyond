@@ -1,6 +1,6 @@
 
 {
-  "ID": 78,
+  "ID": 66,
   "Name": "Tundra",
   "Resource Location": "wildnature:tundra",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeTundra",
@@ -21,8 +21,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "PLAINS",
-    "WET",
-    "DEAD"
+    "DEAD",
+    "WET"
   ],
   "BiomeManager Entries": {
     "ICY Weights": [

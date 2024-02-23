@@ -20,12 +20,12 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
     "SPARSE",
+    "HOT",
+    "WASTELAND",
     "DRY",
-    "SAVANNA",
     "DEAD",
-    "WASTELAND"
+    "SAVANNA"
   ],
   "BiomeManager Entries": {
     "DESERT Weights": [

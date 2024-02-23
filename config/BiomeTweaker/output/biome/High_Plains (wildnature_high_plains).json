@@ -1,6 +1,6 @@
 
 {
-  "ID": 148,
+  "ID": 135,
   "Name": "High Plains",
   "Resource Location": "wildnature:high_plains",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeHighPlains",

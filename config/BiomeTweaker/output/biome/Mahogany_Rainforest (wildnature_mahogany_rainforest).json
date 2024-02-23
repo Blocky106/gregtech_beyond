@@ -1,6 +1,6 @@
 
 {
-  "ID": 135,
+  "ID": 116,
   "Name": "Mahogany Rainforest",
   "Resource Location": "wildnature:mahogany_rainforest",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeMahoganyRainforest",
@@ -20,12 +20,12 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
+    "FOREST",
     "LUSH",
-    "WET",
-    "JUNGLE",
+    "HOT",
     "DENSE",
-    "FOREST"
+    "WET",
+    "JUNGLE"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [

@@ -1,6 +1,6 @@
 
 {
-  "ID": 125,
+  "ID": 113,
   "Name": "Polar Plateau",
   "Resource Location": "wildnature:polar_plateau",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomePolarPlateau",

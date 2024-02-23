@@ -1,6 +1,6 @@
 
 {
-  "ID": 83,
+  "ID": 71,
   "Name": "Frozen Mountains",
   "Resource Location": "wildnature:frozen_mountains",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeFrozenMountains",

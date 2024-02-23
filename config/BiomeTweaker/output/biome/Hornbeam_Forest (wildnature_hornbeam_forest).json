@@ -1,6 +1,6 @@
 
 {
-  "ID": 100,
+  "ID": 88,
   "Name": "Hornbeam Forest",
   "Resource Location": "wildnature:hornbeam_forest",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeHornbeamForest",
@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DENSE",
-    "FOREST"
+    "FOREST",
+    "DENSE"
   ],
   "BiomeManager Entries": {
     "COOL Weights": [

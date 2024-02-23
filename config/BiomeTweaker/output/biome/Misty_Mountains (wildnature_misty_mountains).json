@@ -1,6 +1,6 @@
 
 {
-  "ID": 84,
+  "ID": 72,
   "Name": "Misty Mountains",
   "Resource Location": "wildnature:misty_mountains",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeMistyMountains",
@@ -21,10 +21,10 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "RARE",
-    "SPOOKY",
+    "COLD",
     "DEAD",
     "MOUNTAIN",
-    "COLD"
+    "SPOOKY"
   ],
   "BiomeManager Entries": {
     "COOL Weights": [

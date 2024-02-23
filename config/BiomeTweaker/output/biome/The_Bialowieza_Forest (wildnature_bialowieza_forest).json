@@ -1,6 +1,6 @@
 
 {
-  "ID": 65,
+  "ID": 53,
   "Name": "The Bialowieza Forest",
   "Resource Location": "wildnature:bialowieza_forest",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeBialowiezaForest",
@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "CONIFEROUS",
+    "FOREST",
     "RARE",
     "DENSE",
-    "FOREST"
+    "CONIFEROUS"
   ],
   "BiomeManager Entries": {
     "COOL Weights": [

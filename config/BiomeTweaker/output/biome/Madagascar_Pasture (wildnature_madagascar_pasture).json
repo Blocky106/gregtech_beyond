@@ -1,6 +1,6 @@
 
 {
-  "ID": 159,
+  "ID": 141,
   "Name": "Madagascar Pasture",
   "Resource Location": "wildnature:madagascar_pasture",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeMadagascarPasture",
@@ -20,12 +20,12 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
+    "RARE",
     "PLAINS",
     "LUSH",
+    "HOT",
     "WET",
-    "JUNGLE",
-    "RARE"
+    "JUNGLE"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [

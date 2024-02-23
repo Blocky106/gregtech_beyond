@@ -1,6 +1,6 @@
 
 {
-  "ID": 116,
+  "ID": 104,
   "Name": "Light Mesa",
   "Resource Location": "wildnature:light_mesa",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeLightMesa",
@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "MESA",
-    "HOT",
-    "HILLS",
     "RARE",
-    "SANDY"
+    "SANDY",
+    "HOT",
+    "MESA",
+    "HILLS"
   ],
   "BiomeManager Entries": {
     "DESERT Weights": [

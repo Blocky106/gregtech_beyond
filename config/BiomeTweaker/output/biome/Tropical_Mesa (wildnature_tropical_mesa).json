@@ -1,6 +1,6 @@
 
 {
-  "ID": 117,
+  "ID": 105,
   "Name": "Tropical Mesa",
   "Resource Location": "wildnature:tropical_mesa",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeTropicalMesa",

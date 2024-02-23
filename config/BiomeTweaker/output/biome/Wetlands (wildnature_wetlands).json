@@ -1,6 +1,6 @@
 
 {
-  "ID": 70,
+  "ID": 58,
   "Name": "Wetlands",
   "Resource Location": "wildnature:wetlands",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeWetlands",
@@ -21,8 +21,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "LUSH",
-    "WET",
-    "SWAMP"
+    "SWAMP",
+    "WET"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [

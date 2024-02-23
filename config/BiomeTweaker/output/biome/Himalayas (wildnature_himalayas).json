@@ -1,6 +1,6 @@
 
 {
-  "ID": 169,
+  "ID": 143,
   "Name": "Himalayas",
   "Resource Location": "wildnature:himalayas",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeHimalayas",
@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HILLS",
     "SNOWY",
     "DEAD",
-    "MOUNTAIN"
+    "MOUNTAIN",
+    "HILLS"
   ],
   "BiomeManager Entries": {
     "ICY Weights": [

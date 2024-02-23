@@ -1,6 +1,6 @@
 
 {
-  "ID": 71,
+  "ID": 59,
   "Name": "Orchard",
   "Resource Location": "wildnature:orchard",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeOrchard",
@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
-    "WET",
+    "FOREST",
     "RARE",
+    "HOT",
     "DENSE",
-    "FOREST"
+    "WET"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [

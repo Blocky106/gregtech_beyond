@@ -1,6 +1,6 @@
 
 {
-  "ID": 144,
+  "ID": 124,
   "Name": "Maple Taiga",
   "Resource Location": "wildnature:maple_taiga",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeMapleTaiga",
@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "CONIFEROUS",
     "FOREST",
-    "COLD"
+    "COLD",
+    "CONIFEROUS"
   ],
   "BiomeManager Entries": {
     "COOL Weights": [

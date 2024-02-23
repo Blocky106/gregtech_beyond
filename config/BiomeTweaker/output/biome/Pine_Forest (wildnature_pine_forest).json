@@ -1,6 +1,6 @@
 
 {
-  "ID": 67,
+  "ID": 55,
   "Name": "Pine Forest",
   "Resource Location": "wildnature:pine_forest",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomePineForest",

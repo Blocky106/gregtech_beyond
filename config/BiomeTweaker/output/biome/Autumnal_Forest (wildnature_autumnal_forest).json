@@ -1,6 +1,6 @@
 
 {
-  "ID": 123,
+  "ID": 111,
   "Name": "Autumnal Forest",
   "Resource Location": "wildnature:autumnal_forest",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeAutumnalForest",

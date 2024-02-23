@@ -1,6 +1,6 @@
 
 {
-  "ID": 121,
+  "ID": 109,
   "Name": "Tropics",
   "Resource Location": "wildnature:tropics",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeTropics",
@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
-    "WET",
-    "JUNGLE",
     "RARE",
-    "BEACH"
+    "HOT",
+    "BEACH",
+    "WET",
+    "JUNGLE"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [

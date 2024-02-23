@@ -1,6 +1,6 @@
 
 {
-  "ID": 87,
+  "ID": 75,
   "Name": "Eucalyptus Forest",
   "Resource Location": "wildnature:eucalyptus_forest",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeEucalyptusForest",

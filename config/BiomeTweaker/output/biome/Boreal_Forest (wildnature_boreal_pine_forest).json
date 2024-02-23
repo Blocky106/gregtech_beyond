@@ -1,6 +1,6 @@
 
 {
-  "ID": 69,
+  "ID": 57,
   "Name": "Boreal Forest",
   "Resource Location": "wildnature:boreal_pine_forest",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeBorealPineForest",

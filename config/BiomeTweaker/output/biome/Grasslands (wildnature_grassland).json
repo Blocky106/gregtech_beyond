@@ -1,6 +1,6 @@
 
 {
-  "ID": 95,
+  "ID": 83,
   "Name": "Grasslands",
   "Resource Location": "wildnature:grassland",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeGrassland",

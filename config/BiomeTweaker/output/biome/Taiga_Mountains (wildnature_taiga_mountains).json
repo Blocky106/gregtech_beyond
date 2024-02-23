@@ -1,6 +1,6 @@
 
 {
-  "ID": 79,
+  "ID": 67,
   "Name": "Taiga Mountains",
   "Resource Location": "wildnature:taiga_mountains",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeTaigaMountains",

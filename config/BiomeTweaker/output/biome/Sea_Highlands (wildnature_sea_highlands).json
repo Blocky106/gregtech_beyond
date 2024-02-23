@@ -1,6 +1,6 @@
 
 {
-  "ID": 142,
+  "ID": 122,
   "Name": "Sea Highlands",
   "Resource Location": "wildnature:sea_highlands",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeSeaHighlands",
@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "OCEAN",
-    "HILLS",
     "PLAINS",
     "WATER",
-    "MOUNTAIN"
+    "MOUNTAIN",
+    "OCEAN",
+    "HILLS"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [

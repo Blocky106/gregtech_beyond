@@ -1,6 +1,6 @@
 
 {
-  "ID": 120,
+  "ID": 108,
   "Name": "Land Of Rivers",
   "Resource Location": "wildnature:land_of_rivers",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeLandOfRivers",
@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "WET",
+    "FOREST",
     "WATER",
-    "FOREST"
+    "WET"
   ],
   "BiomeManager Entries": {
     "COOL Weights": [

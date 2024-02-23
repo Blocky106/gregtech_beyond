@@ -1,6 +1,6 @@
 
 {
-  "ID": 146,
+  "ID": 126,
   "Name": "Taiga Plateau",
   "Resource Location": "wildnature:taiga_plateau",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeTaigaPlateau",
@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
+    "FOREST",
     "PLAINS",
-    "CONIFEROUS",
-    "FOREST"
+    "CONIFEROUS"
   ],
   "BiomeManager Entries": {
     "COOL Weights": [

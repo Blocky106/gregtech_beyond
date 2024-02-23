@@ -1,6 +1,6 @@
 
 {
-  "ID": 68,
+  "ID": 56,
   "Name": "Pine Hill",
   "Resource Location": "wildnature:pine_hill",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomePineHill",
@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HILLS",
     "FOREST",
+    "COLD",
     "MOUNTAIN",
-    "COLD"
+    "HILLS"
   ],
   "BiomeManager Entries": {
     "COOL Weights": [

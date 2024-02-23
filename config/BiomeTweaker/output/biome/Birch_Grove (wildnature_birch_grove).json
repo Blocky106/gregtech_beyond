@@ -1,6 +1,6 @@
 
 {
-  "ID": 143,
+  "ID": 123,
   "Name": "Birch Grove",
   "Resource Location": "wildnature:birch_grove",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeBirchGrove",
@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DENSE",
-    "FOREST"
+    "FOREST",
+    "DENSE"
   ],
   "BiomeManager Entries": {
     "COOL Weights": [

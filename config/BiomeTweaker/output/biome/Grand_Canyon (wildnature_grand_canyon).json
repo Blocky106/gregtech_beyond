@@ -1,6 +1,6 @@
 
 {
-  "ID": 88,
+  "ID": 76,
   "Name": "Grand Canyon",
   "Resource Location": "wildnature:grand_canyon",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeGrandCanyon",
@@ -20,12 +20,12 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "MESA",
-    "HOT",
-    "HILLS",
-    "WATER",
     "RIVER",
-    "SANDY"
+    "SANDY",
+    "HOT",
+    "WATER",
+    "MESA",
+    "HILLS"
   ],
   "BiomeManager Entries": {
     "DESERT Weights": [

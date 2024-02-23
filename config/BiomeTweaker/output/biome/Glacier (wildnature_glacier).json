@@ -1,6 +1,6 @@
 
 {
-  "ID": 85,
+  "ID": 73,
   "Name": "Glacier",
   "Resource Location": "wildnature:glacier",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeGlacier",

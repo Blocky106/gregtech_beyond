@@ -1,6 +1,6 @@
 
 {
-  "ID": 73,
+  "ID": 61,
   "Name": "Highlands",
   "Resource Location": "wildnature:highlands",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeHighlands",
@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
+    "FOREST",
     "HILLS",
-    "WET",
-    "FOREST"
+    "WET"
   ],
   "BiomeManager Entries": {
     "COOL Weights": [

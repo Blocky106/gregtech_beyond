@@ -1,6 +1,6 @@
 
 {
-  "ID": 115,
+  "ID": 103,
   "Name": "Desert Desolation",
   "Resource Location": "wildnature:desert_desolation",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeDesertDesolation",
@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
     "SANDY",
+    "HOT",
     "DRY",
     "DEAD"
   ],

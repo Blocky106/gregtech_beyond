@@ -1,6 +1,6 @@
 
 {
-  "ID": 136,
+  "ID": 117,
   "Name": "Mahogany Cliffs",
   "Resource Location": "wildnature:mahogany_mountains",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeMahoganyMountains",
@@ -20,12 +20,12 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
+    "FOREST",
     "LUSH",
-    "WET",
-    "JUNGLE",
+    "HOT",
     "DENSE",
-    "FOREST"
+    "WET",
+    "JUNGLE"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [

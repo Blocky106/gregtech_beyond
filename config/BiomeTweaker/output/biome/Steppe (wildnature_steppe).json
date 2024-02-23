@@ -1,6 +1,6 @@
 
 {
-  "ID": 86,
+  "ID": 74,
   "Name": "Steppe",
   "Resource Location": "wildnature:steppe",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeSteppe",
@@ -22,8 +22,8 @@
   "Dictionary Types": [
     "HOT",
     "DRY",
-    "SAVANNA",
-    "DEAD"
+    "DEAD",
+    "SAVANNA"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [

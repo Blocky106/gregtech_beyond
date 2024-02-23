@@ -1,6 +1,6 @@
 
 {
-  "ID": 118,
+  "ID": 106,
   "Name": "Tropical Water Rocks",
   "Resource Location": "wildnature:tropical_water_rocks",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeTropicalWaterRocks",
@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
+    "WATER",
+    "MOUNTAIN",
     "OCEAN",
     "HILLS",
-    "JUNGLE",
-    "WATER",
-    "MOUNTAIN"
+    "JUNGLE"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [

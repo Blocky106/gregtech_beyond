@@ -1,6 +1,6 @@
 
 {
-  "ID": 104,
+  "ID": 92,
   "Name": "Outback",
   "Resource Location": "wildnature:outback",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeOutback",
@@ -21,8 +21,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "SANDY",
-    "SAVANNA",
-    "DEAD"
+    "DEAD",
+    "SAVANNA"
   ],
   "BiomeManager Entries": {
     "DESERT Weights": [

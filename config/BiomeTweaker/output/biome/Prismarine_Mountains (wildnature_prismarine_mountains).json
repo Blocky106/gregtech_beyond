@@ -1,6 +1,6 @@
 
 {
-  "ID": 82,
+  "ID": 70,
   "Name": "Prismarine Mountains",
   "Resource Location": "wildnature:prismarine_mountains",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomePrismarineMountains",
@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
-    "OCEAN",
-    "HILLS",
     "RARE",
     "WATER",
-    "MOUNTAIN"
+    "MOUNTAIN",
+    "OCEAN",
+    "HILLS"
   ],
   "BiomeManager Entries": {
     "COOL Weights": [

@@ -1,6 +1,6 @@
 
 {
-  "ID": 102,
+  "ID": 90,
   "Name": "Rainforest",
   "Resource Location": "wildnature:rainforest",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeRainforest",
@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HILLS",
-    "WET",
-    "JUNGLE",
+    "FOREST",
     "DENSE",
-    "FOREST"
+    "WET",
+    "HILLS",
+    "JUNGLE"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [
