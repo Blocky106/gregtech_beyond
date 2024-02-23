@@ -107,7 +107,7 @@ rocket_one.completeRecipe = function(recipeLogic as IRecipeLogic) {
 	var entities = tileEntity.getWorld().getEntitiesInArea(tileStartPos, tileEndPos);
 	for i in entities {
 		if i instanceof IPlayer {
-			i.setDimension(1);
+			i.setDimension(32000);
 		}
 	}
 } as ICompleteRecipeFunction;
