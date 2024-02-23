@@ -221,3 +221,11 @@ dissolution_tank.recipeMap.recipeBuilder()
     .duration(299)
     .EUt(80)
     .buildAndRegister();
+
+dissolution_tank.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2281>)
+    .fluidInputs(<liquid:water>*2000)
+    .outputs(<gtadditions:ga_dust:32022>)
+    .duration(200)
+    .EUt(120)
+    .buildAndRegister();
