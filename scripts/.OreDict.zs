@@ -114,7 +114,6 @@ mods.thermalexpansion.InductionSmelter.removeRecipe(<gregtech:ore_cobalt_0>, <th
 <ore:ingotIridium>.remove(<thermalfoundation:material:135>);
 <ore:dustIridium>.remove(<qmd:dust:9>);
 <ore:gearIridium>.remove(<thermalfoundation:material:263>);
-<ore:ingotCarbon>.remove(<advancedrocketry:misc:1>);
 
 
 furnace.remove(<thermalfoundation:material:135>);
@@ -357,68 +356,8 @@ mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:
 
 #AR
 <ore:circuitAdvanced>.remove(<energycontrol:item_component>);
-<ore:ingotAluminum>.remove(<libvulpes:productingot:9>);
-<ore:dustIron>.remove(<libvulpes:productdust:1>);
-<ore:dustGold>.remove(<libvulpes:productdust:2>);
-<ore:dustSilicon>.remove(<libvulpes:productdust:3>);
-<ore:dustCopper>.remove(<libvulpes:productdust:4>);
-<ore:dustTin>.remove(<libvulpes:productdust:5>);
-<ore:dustSteel>.remove(<libvulpes:productdust:6>);
-<ore:dustTitanium>.remove(<libvulpes:productdust:7>);
-<ore:dustAluminum>.remove(<libvulpes:productdust:9>);
-<ore:dustIridium>.remove(<libvulpes:productdust:10>);
-<ore:itemSilicon>.remove(<libvulpes:productingot:3>);
-<ore:ingotSilicon>.remove(<libvulpes:productingot:3>);
-<ore:ingotCopper>.remove(<libvulpes:productingot:4>);
-<ore:ingotTin>.remove(<libvulpes:productingot:5>);
-<ore:ingotSteel>.remove(<libvulpes:productingot:6>);
-<ore:ingotTitanium>.remove(<libvulpes:productingot:7>);
-<ore:ingotIridium>.remove(<libvulpes:productingot:10>);
-<ore:bouleSilicon>.remove(<libvulpes:productboule:3>);
-<ore:nuggetSilicon>.remove(<libvulpes:productnugget:3>);
-<ore:nuggetCopper>.remove(<libvulpes:productnugget:4>);
-<ore:nuggetTin>.remove(<libvulpes:productnugget:5>);
-<ore:nuggetSteel>.remove(<libvulpes:productnugget:6>);
-<ore:nuggetTitanium>.remove(<libvulpes:productnugget:7>);
-<ore:nuggetAluminum>.remove(<libvulpes:productnugget:9>);
-<ore:nuggetIridium>.remove(<libvulpes:productnugget:10>);
-<ore:plateIron>.remove(<libvulpes:productplate:1>);
-<ore:plateGold>.remove(<libvulpes:productplate:2>);
-<ore:plateSilicon>.remove(<libvulpes:productplate:3>);
-<ore:plateCopper>.remove(<libvulpes:productplate:4>);
-<ore:plateTin>.remove(<libvulpes:productplate:5>);
-<ore:plateSteel>.remove(<libvulpes:productplate:6>);
-<ore:plateTitanium>.remove(<libvulpes:productplate:7>);
-<ore:plateAluminum>.remove(<libvulpes:productplate:9>);
-<ore:plateIridium>.remove(<libvulpes:productplate:10>);
-<ore:stickIron>.remove(<libvulpes:productrod:1>);
-<ore:stickCopper>.remove(<libvulpes:productrod:4>);
-<ore:stickSteel>.remove(<libvulpes:productrod:6>);
-<ore:stickTitanium>.remove(<libvulpes:productrod:7>);
-<ore:stickIridium>.remove(<libvulpes:productrod:10>);
-<ore:fanSteel>.remove(<libvulpes:productfan:6>);
-<ore:sheetIron>.remove(<libvulpes:productsheet:1>);
-<ore:sheetCopper>.remove(<libvulpes:productsheet:4>);
-<ore:sheetSteel>.remove(<libvulpes:productsheet:6>);
-<ore:sheetTitanium>.remove(<libvulpes:productsheet:7>);
-<ore:sheetAluminum>.remove(<libvulpes:productsheet:9>);
-<ore:gearSteel>.remove(<libvulpes:productgear:6>);
-<ore:gearTitanium>.remove(<libvulpes:productgear:7>);
-<ore:oreCopper>.remove(<libvulpes:ore0:4>);
-<ore:oreTin>.remove(<libvulpes:ore0:5>);
-<ore:oreTitanium>.remove(<libvulpes:ore0:8>);
-<ore:oreRutile>.remove(<libvulpes:ore0:8>);
-<ore:oreAluminum>.remove(<libvulpes:ore0:9>);
-<ore:oreIridium>.remove(<libvulpes:ore0:10>);
-<ore:blockCopper>.remove(<libvulpes:metal0:4>);
-<ore:blockTin>.remove(<libvulpes:metal0:5>);
-<ore:blockSteel>.remove(<libvulpes:metal0:6>);
-<ore:blockTitanium>.remove(<libvulpes:metal0:7>);
-<ore:blockWarpCoreRim>.remove(<libvulpes:metal0:7>);
 <ore:blockWarpCoreRim>.add(<gregtech:meta_block_compressed_4:8>);
-<ore:blockAluminum>.remove(<libvulpes:metal0:9>);
-<ore:blockIridium>.remove(<libvulpes:metal0:10>);
-<ore:itemBattery>.remove(<libvulpes:battery>);
+
 
 
 
@@ -432,8 +371,6 @@ mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:
 <ore:blockManyullyn>.remove(<gregtech:meta_block_compressed_32:15>);
 <ore:ingotManyullyn>.remove(<gregtech:meta_item_1:10527>);
 <ore:pulpWood>.remove(<forestry:wood_pulp>);
-<ore:plateSteel>.remove(<libvulpes:productplate:6>);
-<ore:gearSteel>.remove(<libvulpes:productgear:6>);
 <ore:dustBarium>.remove(<trinity:barium>);
 <ore:circuitElite>.remove(<gregtech:meta_item_2:32495>);
 <ore:dustBorax>.remove(<nuclearcraft:compound:7>);
