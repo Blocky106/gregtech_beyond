@@ -1908,8 +1908,8 @@ fluidExtractor.recipeBuilder()
     .buildAndRegister();
 
 mixer.recipeBuilder()
-    .fluidInputs(<liquid:unrefinedkevlar>*144)
-    .outputs(<gtadditions:ga_dust:32091>)
+    .fluidInputs(<liquid:unrefinedkevlar>*1000)
+    .fluidOutputs(<liquid:crystalkevlar>*1000)
     .notConsumable(<contenttweaker:rotarryspinningwhisker>)
     .duration(6000)
     .EUt(12800)
@@ -1935,22 +1935,6 @@ lcr.recipeBuilder()
     .fluidOutputs(<liquid:metastableenergeticalalloy>*1000)
     .duration(8000)
     .EUt(2400000)
-    .buildAndRegister();
-
-mixer.recipeBuilder()
-    .fluidInputs(<liquid:unknowncrystal>*1000)
-    .inputs(<gtadditions:ga_dust:32091>*2)
-    .fluidOutputs(<liquid:crystalkevlar>*1000)
-    .duration(400)
-    .EUt(12000)
-    .buildAndRegister();
-
-lmixer.recipeBuilder()
-    .fluidInputs(<liquid:unknowncrystal>*1000)
-    .inputs(<gtadditions:ga_dust:32091>*2)
-    .fluidOutputs(<liquid:crystalkevlar>*1000)
-    .duration(400)
-    .EUt(12000)
     .buildAndRegister();
 
 chemReactor.recipeBuilder()

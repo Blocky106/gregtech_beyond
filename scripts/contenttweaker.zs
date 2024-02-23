@@ -1880,6 +1880,3 @@ machine_bronze_plated_bricks.setToolClass("pickaxe");
 machine_bronze_plated_bricks.setToolLevel(1);
 machine_bronze_plated_bricks.setBlockSoundType(<soundtype:metal>);
 machine_bronze_plated_bricks.register();
-
-var air_handling_unit = VanillaFactory.createItem("air_handling_unit");
-air_handling_unit.register();
