@@ -2307,7 +2307,7 @@ induction_smelter.recipeBuilder()
     .EUt(1)
     .buildAndRegister();
 
-recipes.addShaped(<gregtech:machine:1343>, [	[<ore:gearStone>, <ore:craftingFurnace>, <ore:gearStone>], 	[<ore:circuitPrimitive>, <gregtech:machine:500>, <ore:circuitPrimitive>], 	[<ore:plateSteel>, <ore:itemSimpleMachineChassi>, <ore:plateSteel>]]);
+recipes.addShaped(<gregtech:machine:1343>, [	[<ore:gearStone>, <ore:craftingFurnace>, <ore:gearStone>], 	[<ore:circuitPrimitive>, <gregtech:machine:500>, <ore:circuitPrimitive>], 	[<ore:plateIron>, <ore:itemSimpleMachineChassi>, <ore:plateIron>]]);
 recipes.addShapeless(<gregtech:machine:1343>, [<thermalexpansion:machine:3>]);
 
 induction_smelter.recipeBuilder()
