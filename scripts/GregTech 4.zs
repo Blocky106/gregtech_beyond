@@ -2713,3 +2713,19 @@ lmixer.recipeBuilder()
     .duration(200)
     .EUt(12)
     .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:hydrogen>*4000)
+    .fluidOutputs(<liquid:silane>*1000)
+    .inputs(<gregtech:meta_item_1:2061>)
+    .duration(80)
+    .EUt(12)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:hydrogen>*4000)
+    .fluidOutputs(<liquid:silane>*1000)
+    .inputs(<gregtech:meta_item_1:2061>)
+    .duration(80)
+    .EUt(12)
+    .buildAndRegister();

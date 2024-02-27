@@ -223,16 +223,5 @@ precise_assembler.recipeMap.recipeBuilder()
     .EUt(1500)
     .buildAndRegister();
 
-precise_assembler.recipeMap.copyAll(RecipeMap.getByName("assembler"));
-
-
-
-precise_assembler.update = function(recipeLogic as IRecipeLogic) {
-
-    var oldProgress = recipeLogic.recipeProgress;
-
-    recipeLogic.recipeProgress = oldProgress + 1;
-
-} as IUpdateFunction;
 
 
