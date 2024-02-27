@@ -2697,3 +2697,19 @@ lcr.recipeBuilder()
     .duration(200)
     .EUt(120)
     .buildAndRegister();
+
+mixer.recipeBuilder()
+    .fluidInputs(<liquid:glowstone>*144)
+    .inputs(<gregtech:meta_item_1:2071>*3,<gregtech:meta_item_1:2062>)
+    .outputs(<thermalfoundation:material:102>*5)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
+
+lmixer.recipeBuilder()
+    .fluidInputs(<liquid:glowstone>*144)
+    .inputs(<gregtech:meta_item_1:2071>*3,<gregtech:meta_item_1:2062>)
+    .outputs(<thermalfoundation:material:102>*5)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();

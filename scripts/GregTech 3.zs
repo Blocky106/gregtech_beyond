@@ -467,7 +467,6 @@ furnace.remove(<gregtech:meta_item_1:10573>);
 
 lcentrifuge.recipeBuilder()
     .fluidInputs(<liquid:distilled_water>*200)
-    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
     .chancedOutput(<gregtech:meta_item_1:2105>, 3333, 0)
     .chancedOutput(<gregtech:meta_item_1:2960>, 3333, 0)
     .fluidOutputs(<liquid:ic2distilled_water>*125)
@@ -477,7 +476,6 @@ lcentrifuge.recipeBuilder()
 
 centrifuge.recipeBuilder()
     .fluidInputs(<liquid:distilled_water>*200)
-    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
     .chancedOutput(<gregtech:meta_item_1:2105>, 3333, 0)
     .chancedOutput(<gregtech:meta_item_1:2960>, 3333, 0)
     .fluidOutputs(<liquid:ic2distilled_water>*125)
