@@ -239,7 +239,14 @@ fluid_solidifier.recipeBuilder()
 	.buildAndRegister();
 
 mixer.recipeBuilder()
-	.inputs(<gregtech:meta_item_1:2184> * 3,<thermalfoundation:material:770> * 6,<thermalfoundation:material:833>)
+	.inputs(<gregtech:meta_item_1:2184> * 3,<gregtech:meta_item_1:2138> * 6,<thermalfoundation:material:833>)
+	.outputs(<gtadditions:ga_dust:32004>)
+	.duration(150)
+	.EUt(12)
+	.buildAndRegister();
+
+lmixer.recipeBuilder()
+	.inputs(<gregtech:meta_item_1:2184> * 3,<gregtech:meta_item_1:2138> * 6,<thermalfoundation:material:833>)
 	.outputs(<gtadditions:ga_dust:32004>)
 	.duration(150)
 	.EUt(12)
