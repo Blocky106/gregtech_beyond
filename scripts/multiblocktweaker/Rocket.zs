@@ -64,7 +64,7 @@ val rocket_one = Builder.start(loc, meta)
                 FactoryMultiblockShapeInfo.start()
                 .aisle("     ","     ","     ","  F  ","     ","     ","     ","     ","     ","     ","     ")
                 .aisle(" T T "," R R "," CCC "," CCC "," CFC "," CCC ","  C  ","  G  ","  C  ","     ","     ")
-                .aisle("  T  ","  R  "," SCE ","FCCCF"," F F "," CQC "," G C "," G C "," GOC ","  C  ","  C  ")
+                .aisle("  T  ","  R  "," SCE ","FCCCF"," FCF "," CQC "," G C "," G C "," GOC ","  C  ","  C  ")
                 .aisle(" T T "," R R "," CCC "," CCC "," CFC "," CCC ","  C  ","  G  ","  C  ","     ","     ")
                 .aisle("     ","     ","     ","  F  ","     ","     ","     ","     ","     ","     ","     ")
                 .where("C", <blockstate:contenttweaker:protective_outer_wall>)
@@ -94,20 +94,3 @@ rocket_one.recipeMap.recipeBuilder()
     .duration(20)
     .EUt(120)
     .buildAndRegister();
-
-rocket_one.completeRecipe = function(recipeLogic as IRecipeLogic) {
-	var tileEntity = recipeLogic.metaTileEntity;
-	var tileStartPos as Position3f = tileEntity.getPos();
-	tileStartPos.x = tileStartPos.x - 3;
-	tileStartPos.z = tileStartPos.z - 3;
-	var tileEndPos as Position3f = tileEntity.getPos();
-	tileEndPos.x = tileEndPos.x + 3;
-	tileEndPos.y = tileEndPos.y + 3;
-	tileEndPos.z = tileEndPos.z + 3;
-	var entities = tileEntity.getWorld().getEntitiesInArea(tileStartPos, tileEndPos);
-	for i in entities {
-		if i instanceof IPlayer {
-			i.setDimension(32000);
-		}
-	}
-} as ICompleteRecipeFunction;
