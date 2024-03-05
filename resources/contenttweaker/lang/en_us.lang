@@ -309,7 +309,7 @@ item.contenttweaker.diona.name=Diona
 item.contenttweaker.chalos.name=Chalos
 item.contenttweaker.asteroids.name=Asteroids
 item.contenttweaker.fronos.name=Fronos
-item.contenttweaker.moon.name=Moon
+tile.contenttweaker.moon.name=Moon
 item.contenttweaker.venus.name=Venus
 multiblocktweaker.machine.interstellar_liquid_collector.name=Interstellar Liquid Collector
 multiblocktweaker.multiblock.interstellar_liquid_collector.description=The Interstellar Liquid Collector, it can collect atmospheric gasses / rain of other planets, the power consumption will be i=rocket tier voltage  r=rarity of gas (defined by wich is the most useful)   i * 2 * r
