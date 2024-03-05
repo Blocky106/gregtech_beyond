@@ -770,11 +770,45 @@ assembler.recipeBuilder()
 	.buildAndRegister();
 
 mixer.recipeBuilder()
-	.inputs(<gtadditions:ga_dust:32008> * 2, <minecraft:iron_ingot>)
-	.outputs(<gregtech:meta_item_1:10515>)
+	.inputs(<gtadditions:ga_dust:32008> * 2, <gregtech:meta_item_1:2033>)
+	.outputs(<gregtech:meta_item_1:2515>*2)
 	.duration(260)
 	.EUt(50)
 	.buildAndRegister();
+
+ebf.recipeBuilder()
+	.inputs(<gregtech:meta_item_1:2515>)
+	.outputs(<gregtech:meta_item_1:10515>)
+	.duration(400)
+	.fluidInputs(<liquid:hydrogen>*1000)
+	.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 11}))
+	.EUt(480)
+	.property("temperature", 1900)
+	.buildAndRegister();
+
+ebf.recipeBuilder()
+	.inputs(<gregtech:meta_item_1:2515>)
+	.outputs(<gregtech:meta_item_1:10515>)
+	.duration(300)
+	.fluidInputs(<liquid:neon>*1000)
+	.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 11}))
+	.EUt(460)
+	.property("temperature", 1900)
+	.buildAndRegister();
+
+ebf.recipeBuilder()
+	.inputs(<gregtech:meta_item_1:2515>)
+	.outputs(<gregtech:meta_item_1:10515>)
+	.duration(500)
+	.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+	.EUt(500)
+	.property("temperature", 1900)
+	.buildAndRegister();
+
+
+
+furnace.remove(<gregtech:meta_item_1:10515>);
+furnace.remove(<gregtech:meta_item_1:9515>);
 
 mixer.recipeBuilder()
 	.inputs(<appliedenergistics2:material:8> * 2, <appliedenergistics2:fluix_block>, <thermalfoundation:material:102>)
@@ -2752,17 +2786,6 @@ macerator.recipeBuilder()
 	.duration(300)
 	.EUt(12)
 	.buildAndRegister();
-
-lcr.recipeBuilder()
-	.inputs(<gregtech:meta_item_1:2281>)
-	.fluidInputs(<liquid:naphthylamine>*1000)
-	.fluidOutputs(<liquid:chlorine>*6000)
-	.notConsumable(<contenttweaker:ic2drill>)
-	.outputs(<contenttweaker:monazitecluster>)
-	.duration(200)
-	.EUt(1200)
-	.buildAndRegister();
-
 assembler.recipeBuilder()
 	.inputs(<thermalfoundation:material:656>,<contenttweaker:drill_handle>)
 	.outputs(<contenttweaker:ic2drill>)
