@@ -2729,3 +2729,17 @@ lcr.recipeBuilder()
     .duration(80)
     .EUt(12)
     .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs(<gregtech:frame_tungsten_steel>,<gregtech:meta_item_1:12235>*4,<ore:circuitMaster>*4)
+    .outputs(<gregtech:machine:10037>)
+    .duration(400)
+    .EUt(80)
+    .buildAndRegister();
+
+centrifuge.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:32146>*2)
+    .outputs(<gregtech:meta_item_1:2719>,<gregtech:meta_item_1:2065>)
+    .duration(400)
+    .EUt(480)
+    .buildAndRegister();

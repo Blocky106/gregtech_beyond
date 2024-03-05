@@ -1537,20 +1537,11 @@ lcr.recipeBuilder()
 recipes.addShaped(<gregtech:machine:714>, [	[<ore:cableGtSingleTin>, <ore:plateRubber>, <ore:cableGtSingleTin>], 	[<contenttweaker:cupronickelcoil>, <gregtech:machine:501>, <contenttweaker:cupronickelcoil>], 	[<ore:cableGtSingleTin>, <ore:plateRubber>, <ore:cableGtSingleTin>]]);
 furnace.remove(<gregtech:meta_item_1:10557>);
 furnace.remove(<gregtech:meta_item_1:9557>);
-furnace.remove(<gregtech:meta_item_1:10515>);
 furnace.remove(<gregtech:meta_item_1:9515>);
 
 ebf.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2557>)
     .outputs(<gregtech:meta_item_1:10557>)
-    .property("temperature", 6000)
-    .duration(490)
-    .EUt(9000)
-    .buildAndRegister();
-
-ebf.recipeBuilder()
-    .inputs(<gregtech:meta_item_1:2515>)
-    .outputs(<gregtech:meta_item_1:10515>)
     .property("temperature", 6000)
     .duration(490)
     .EUt(9000)
