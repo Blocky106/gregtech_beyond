@@ -1,0 +1,16 @@
+{
+    "dimensions": [
+        {
+            "dim": 32000,
+            "override": false,
+			"dimensiontype":
+            {
+                "id": 32000,
+                "name": "Moon",
+                "suffix": "_dim32000",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            }
+    }
+  ]
+}

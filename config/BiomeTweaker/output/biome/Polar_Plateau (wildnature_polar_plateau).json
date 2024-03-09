@@ -21,8 +21,8 @@
   "Enable Snow": true,
   "Dictionary Types": [
     "SNOWY",
-    "PLAINS",
-    "DEAD"
+    "DEAD",
+    "PLAINS"
   ],
   "BiomeManager Entries": {
     "ICY Weights": [

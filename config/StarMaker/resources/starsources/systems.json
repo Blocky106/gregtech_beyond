@@ -1,0 +1,14 @@
+{
+  "systems": [
+    {
+      "name": "random",
+      "galaxy": "milky_way",
+      "star_name": "sol",
+      "posX": 1.5,
+      "posY": 1.5,
+      "star_size": 0.8,
+      "star_class": 2,
+      "star_color": 6
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "build:8": "0.5.1",
+  "build:8": "4.1.0",
   "format:8": "2.0.0",
   "questDatabase:9": {
     "0:10": {
@@ -1303,23 +1303,9 @@
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 3,
+            "Damage:2": 1343,
             "OreDict:8": "",
-            "id:8": "thermalexpansion:machine",
-            "tag:10": {
-              "Energy:3": 0,
-              "Facing:1": 3,
-              "Level:1": 0,
-              "RSControl:1": 0,
-              "SideCache:7": [
-                3,
-                1,
-                2,
-                2,
-                2,
-                2
-              ]
-            }
+            "id:8": "gregtech:machine"
           },
           "ignoresview:1": 0,
           "ismain:1": 0,
@@ -1349,14 +1335,10 @@
               "id:8": "enderio:item_material"
             },
             "1:10": {
-              "Count:3": 2,
-              "Damage:2": 0,
+              "Count:3": 12,
+              "Damage:2": 32013,
               "OreDict:8": "",
-              "id:8": "betterquesting:placeholder",
-              "tag:10": {
-                "orig_id:8": "contenttweaker:bulatsteeldust",
-                "orig_meta:3": 0
-              }
+              "id:8": "gtadditions:ga_dust"
             }
           }
         }
@@ -1372,23 +1354,9 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 3,
+              "Damage:2": 1343,
               "OreDict:8": "",
-              "id:8": "thermalexpansion:machine",
-              "tag:10": {
-                "Energy:3": 0,
-                "Facing:1": 3,
-                "Level:1": 0,
-                "RSControl:1": 0,
-                "SideCache:7": [
-                  3,
-                  1,
-                  2,
-                  2,
-                  2,
-                  2
-                ]
-              }
+              "id:8": "gregtech:machine"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -6718,12 +6686,6 @@
               "id:8": "gregtech:machine"
             },
             "1:10": {
-              "Count:3": 1,
-              "Damage:2": 527,
-              "OreDict:8": "",
-              "id:8": "gregtech:machine"
-            },
-            "2:10": {
               "Count:3": 1,
               "Damage:2": 8,
               "OreDict:8": "",
@@ -16576,7 +16538,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Vanilla ore generation is overwritten by GregTech, while vanilla has random ore generations, GregTech uses \"Ore Chunks\", each of them including different ores, generating on different planets, being more dense, etc§r ....§6\n§c\n\nWith the Item give§cn by this Quest, you will be able to locate those veins more quickly, once the charge runs out, you can put it into the crafting grid and get a brand new, fully charged one again.\n\n§6When right-clicking it, you will be led to a menu showing you all veins in a 9x9 chunk radius (each chunk beinh 16x16 Blocks) and the ores containing it and to the right, you will see a list of all ores in the range.",
+          "desc:8": "Vanilla ore generation is overwritten by GregTech, while vanilla has random ore generations, GregTech uses \"Ore Chunks\", each of them including different ores, generating on different planets, being more dense, etc§r ....§6\n§c\n\nWith the Item give§cn by this Quest, you will be able to locate those veins more quickly, once the charge runs out, you can put it into the crafting grid and get a brand new, fully charged one again.\n\n§6When right-clicking it, you will be led to a menu showing you all veins in a 9x9 chunk radius (each chunk being 16x16 Blocks) and the ores containing it and to the right, you will see a list of all ores in the range.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -21834,7 +21796,7 @@
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": "",
-            "id:8": "contenttweaker:ganymede"
+            "id:8": "minecraft:nether_star"
           },
           "ignoresview:1": 0,
           "ismain:1": 0,
@@ -21852,32 +21814,8 @@
         }
       },
       "questID:3": 394,
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 2,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "contenttweaker:ganymede"
-            },
-            "1:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "contenttweaker:io"
-            }
-          }
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "index:3": 0,
-          "taskID:8": "bq_standard:checkbox"
-        }
-      }
+      "rewards:9": {},
+      "tasks:9": {}
     },
     "395:10": {
       "preRequisites:11": [

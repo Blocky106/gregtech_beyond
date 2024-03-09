@@ -21,9 +21,9 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "SANDY",
+    "DEAD",
     "DRY",
-    "HOT",
-    "DEAD"
+    "HOT"
   ],
   "BiomeManager Entries": {
     "DESERT Weights": [
