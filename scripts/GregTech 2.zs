@@ -424,10 +424,33 @@ assembler.recipeBuilder()
     .buildAndRegister();
 
 chemReactor.recipeBuilder()
-    .fluidInputs(<liquid:glue>*144,<liquid:chlorine>*144)
-    .fluidOutputs(<liquid:refinedglue>*144)
+    .fluidInputs(<liquid:glue>*144,<liquid:hydrochloric_acid>*144)
+    .fluidOutputs(<liquid:refined_glue_mixture>*288)
     .duration(200)
-    .EUt(1200)
+    .EUt(200)
+    .buildAndRegister();
+
+distillation_tower.recipeBuilder()
+    .fluidInputs(<liquid:refined_glue_mixture>*288)
+    .fluidOutputs(<liquid:refinedglue>*144,<liquid:gluey_residues>*144)
+    .duration(120)
+    .EUt(140)
+    .buildAndRegister();
+
+centrifuge.recipeBuilder()
+    .fluidInputs(<liquid:gluey_residues>*144)
+    .fluidOutputs(<liquid:water>*144)
+    .outputs(<gregtech:meta_item_1:2153>)
+    .duration(20)
+    .EUt(12)
+    .buildAndRegister();
+
+lcentrifuge.recipeBuilder()
+    .fluidInputs(<liquid:gluey_residues>*144)
+    .fluidOutputs(<liquid:water>*144)
+    .outputs(<gregtech:meta_item_1:2153>)
+    .duration(20)
+    .EUt(12)
     .buildAndRegister();
 
 fusion_reactor.recipeBuilder()
