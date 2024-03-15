@@ -294,7 +294,6 @@ xenotime.addFlags(["GENERATE_ORE"]);
 
 
 
-
 util.registerDust("kaminskycatalyst", 32000, 0x372927, "DULL");
 util.registerDust("philipscatalyst", 32001, 0xB45D83, "DULL");
 util.registerDust("zieglernattacatalyst", 32002, 0x8BC34A, "DULL");
@@ -494,6 +493,7 @@ util.registerDust("roughen_mithril_dust", 32197, 0xAED2F2, "DULL");
 util.registerDust("excited_roughen_mithril_dust", 32199, 0xAED2F2, "SHINY");
 util.registerDust("excited_mithril_dust", 32200, 0xAED2F2, "SHINY");
 util.registerDust("cobalt_60_dust", 32201, 0x091175, "DULL");
+util.registerDust("magnesiumtetrachloride", 32202, 0xBA68C8, "DULL");
 
 
 

@@ -583,12 +583,19 @@ ebf.recipeBuilder()
     .EUt(220)
     .buildAndRegister();
 
-electrolyzer.recipeBuilder()
+centrifuge.recipeBuilder()
     .inputs(<gtadditions:ga_dust:32019>)
-    .fluidOutputs(<liquid:chlorine>*4000)
-    .outputs(<gregtech:meta_item_1:2072>)
+    .outputs(<gregtech:meta_item_1:2072>,<gtadditions:ga_dust:32202>)
     .duration(200)
-    .EUt(520)
+    .EUt(120)
+    .buildAndRegister();
+
+electrolyzer.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:32202>)
+    .fluidOutputs(<liquid:chlorine>*4000)
+    .outputs(<gregtech:meta_item_1:2038>)
+    .duration(10)
+    .EUt(210)
     .buildAndRegister();
 
 ebf.recipeBuilder()
@@ -2744,3 +2751,4 @@ centrifuge.recipeBuilder()
     .EUt(480)
     .buildAndRegister();
 
+recipes.addShaped(<contenttweaker:astro_miner>, [	[<gregtech:meta_item_1:32602>, <gregtech:meta_item_1:32692>, <ore:craftingLensWhite>], 	[<gregtech:meta_item_1:32652>, <ore:plateStainlessSteel>, <ore:ringStainlessSteel>], 	[<ore:ringRubber>, <gregtech:meta_item_1:32602>, <ore:ringRubber>]]);
