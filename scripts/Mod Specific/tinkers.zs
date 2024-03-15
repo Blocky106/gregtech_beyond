@@ -87,7 +87,7 @@ mods.tconstruct.Melting.removeRecipe(<liquid:stainless_steel>);
 
 recipes.addShaped(<tconstruct:materials:14>, [	[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>], 	[<ore:plateSteel>, <ore:cast>, <ore:plateSteel>], 	[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
 recipes.addShapeless(<minecraft:stone_button>,[<minecraft:stone>,<gregtech:meta_tool:5>]);
-
-
+recipes.addShaped(<tconstruct:seared_tank>, [	[<ore:ingotBrickSeared>, <ore:ingotBrickSeared>, <ore:ingotBrickSeared>], 	[<ore:ingotBrickSeared>, <ore:dustGlass>, <ore:ingotBrickSeared>], 	[<ore:ingotBrickSeared>, <ore:ingotBrickSeared>, <ore:ingotBrickSeared>]]);
+recipes.remove(<tconstruct:seared_tank>);
 
 
