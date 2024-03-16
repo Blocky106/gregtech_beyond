@@ -2755,12 +2755,3 @@ roasters.recipeBuilder()
     .duration(20)
     .EUt(12)
     .buildAndRegister();
-
-roaster.recipeBuilder()
-    .fluidInputs(<liquid:sulfuric_acid>*1000)
-    .fluidOutputs(<liquid:hydrochloric_acid>*1000)
-    .inputs(<gregtech:meta_item_1:2155>*2)
-    .outputs(<gregtech:meta_item_1:2382>*7)
-    .duration(20)
-    .EUt(12)
-    .buildAndRegister();
