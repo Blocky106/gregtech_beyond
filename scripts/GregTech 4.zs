@@ -2744,3 +2744,23 @@ centrifuge.recipeBuilder()
     .buildAndRegister();
 
 recipes.addShaped(<contenttweaker:astro_miner>, [	[<gregtech:meta_item_1:32602>, <gregtech:meta_item_1:32692>, <ore:craftingLensWhite>], 	[<gregtech:meta_item_1:32652>, <ore:plateStainlessSteel>, <ore:ringStainlessSteel>], 	[<ore:ringRubber>, <gregtech:meta_item_1:32602>, <ore:ringRubber>]]);
+
+Utils.removeRecipeByOutput(chemReactor, [<gregtech:meta_item_1:2382>*7], [<liquid:hydrochloric_acid>*1000], false);
+
+roasters.recipeBuilder()
+    .fluidInputs(<liquid:sulfuric_acid>*1000)
+    .fluidOutputs(<liquid:hydrochloric_acid>*1000)
+    .inputs(<gregtech:meta_item_1:2155>*2)
+    .outputs(<gregtech:meta_item_1:2382>*7)
+    .duration(20)
+    .EUt(12)
+    .buildAndRegister();
+
+roaster.recipeBuilder()
+    .fluidInputs(<liquid:sulfuric_acid>*1000)
+    .fluidOutputs(<liquid:hydrochloric_acid>*1000)
+    .inputs(<gregtech:meta_item_1:2155>*2)
+    .outputs(<gregtech:meta_item_1:2382>*7)
+    .duration(20)
+    .EUt(12)
+    .buildAndRegister();
