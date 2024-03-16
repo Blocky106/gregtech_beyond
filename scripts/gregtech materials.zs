@@ -14,8 +14,6 @@ import mods.gregtech.material.RoughSolidMaterial;
 import mods.gregtech.material.MaterialIconSet;
 
 
-val desh = MaterialRegistry.createIngotMaterial(788, "desh", 0x333333, "SHINY", 2);
-desh.addFlags(["GENERATE_BOLT_SCREW","GENERATE_PLATE","GENERATE_DENSE","GENERATE_ROD","GENERATE_GEAR", "GENERATE_ORE"]);
 
 val energeticalloy = MaterialRegistry.createIngotMaterial(515, "energeticalloy", 0xDB9D0D, "SHINY", 2);
 energeticalloy.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_ROTOR"]);
@@ -289,6 +287,11 @@ gadolinite.addFlags(["GENERATE_ORE"]);
 val xenotime = MaterialRegistry.createDustMaterial(622,"xenotime",0xF9A825,"SHINY",3);
 xenotime.addFlags(["GENERATE_ORE"]);
 
+val deshite = MaterialRegistry.createDustMaterial(788,"deshite", 0x333333, "SHINY", 2);
+deshite.addFlags(["GENERATE_PLATE","GENERATE_ORE"]);
+
+val desh = MaterialRegistry.createIngotMaterial(623,"desh",0x333333,"SHINY",3);
+desh.addFlags(["GENERATE_PLATE"]);
 
 
 
