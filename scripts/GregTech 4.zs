@@ -599,14 +599,6 @@ electrolyzer.recipeBuilder()
     .buildAndRegister();
 
 ebf.recipeBuilder()
-    .inputs(<gregtech:meta_item_1:2900>)
-    .outputs(<gregtech:meta_item_1:9051>)
-    .duration(400)
-    .EUt(1200)
-    .property("temperature", 2600)
-    .buildAndRegister();
-
-ebf.recipeBuilder()
     .inputs(<gregtech:meta_item_1:10071>,<contenttweaker:silveralloyingot>)
     .outputs(<nuclearcraft:alloy:8>)
     .duration(400)
