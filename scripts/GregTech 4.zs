@@ -2730,7 +2730,7 @@ lcr.recipeBuilder()
     .buildAndRegister();
 
 assembler.recipeBuilder()
-    .inputs(<gregtech:frame_tungsten_steel>,<gregtech:meta_item_1:12235>*4,<ore:circuitMaster>*4)
+    .inputs(<gregtech:frame_tungsten_steel>,<gregtech:meta_item_1:12235>*4,<ore:circuitMaster>*4,<contenttweaker:ic2drill>)
     .outputs(<gregtech:machine:10037>)
     .duration(400)
     .EUt(80)
