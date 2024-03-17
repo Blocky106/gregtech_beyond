@@ -1989,3 +1989,6 @@ moon_stone.register();
 
 var vacuum_chamber = VanillaFactory.createItem("vacuum_chamber");
 vacuum_chamber.register();
+
+var sputtered_sapphire_substrate = VanillaFactory.createItem("sputtered_sapphire_substrate");
+sputtered_sapphire_substrate.register();
