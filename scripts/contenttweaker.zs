@@ -1986,3 +1986,6 @@ moon_stone.setToolClass("pickaxe");
 moon_stone.setToolLevel(1);
 moon_stone.setBlockSoundType(<soundtype:metal>);
 moon_stone.register();
+
+var vacuum_chamber = VanillaFactory.createItem("vacuum_chamber");
+vacuum_chamber.register();
