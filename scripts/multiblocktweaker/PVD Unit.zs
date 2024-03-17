@@ -23,9 +23,9 @@ import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 
 
-var loc = "cvd_unit";
-var meta = 10038;
-val cvd_unit = Builder.start(loc, meta)
+var loc = "pvd_unit";
+var meta = 10036;
+val pvd_unit = Builder.start(loc, meta)
     .withPattern(
             FactoryBlockPattern.start(RelativeDirection.RIGHT, RelativeDirection.BACK, RelativeDirection.UP)
                 .aisle(
@@ -84,7 +84,7 @@ val cvd_unit = Builder.start(loc, meta)
                 .build())
 .withRecipeMap(
         FactoryRecipeMap.start(loc)
-                        .maxInputs(2)
+                        .maxInputs(4)
                         .maxFluidInputs(1)
                         .maxOutputs(2)
                         .build())
@@ -94,11 +94,10 @@ val cvd_unit = Builder.start(loc, meta)
 .buildAndRegister() as Multiblock;
 
 pvd_unit.recipeMap.recipeBuilder()
-    .inputs(<gtadditions:ga_dust:358>)
+    .inputs(<gregtech:cable:968>*2,<gregtech:meta_item_1:19001>)
+    .fluidInputs(<liquid:methane>*1000)
     .notConsumable(<gregtech:meta_item_1:12157>)
     .notConsumable(<contenttweaker:vacuum_chamber>)
-    .fluidInputs(<liquid:methane>*1000)
-    .outputs(<gtadditions:ga_dust:357>)
     .duration(200)
     .EUt(2000)
     .buildAndRegister();
