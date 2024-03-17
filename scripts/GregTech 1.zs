@@ -3083,7 +3083,6 @@ metal_bender.findRecipe(24, [<gtadditions:ga_meta_item:18>, <gregtech:meta_item_
 metal_bender.findRecipe(24, [<gtadditions:ga_meta_item:184>, <gregtech:meta_item_1:32766>.withTag({Configuration: 0})], null).remove();
 metal_bender.findRecipe(24, [<gtadditions:ga_meta_item:95>, <gregtech:meta_item_1:32766>.withTag({Configuration: 0})], null).remove();
 metal_bender.findRecipe(24, [<gtadditions:ga_meta_item:33>, <gregtech:meta_item_1:32766>.withTag({Configuration: 0})], null).remove();
-metal_bender.findRecipe(24, [<gtadditions:ga_meta_item:788>, <gregtech:meta_item_1:32766>.withTag({Configuration: 0})], null).remove();
 metal_bender.findRecipe(24, [<gtadditions:ga_meta_item:72>, <gregtech:meta_item_1:32766>.withTag({Configuration: 0})], null).remove();
 metal_bender.findRecipe(24, [<gtadditions:ga_meta_item:17>, <gregtech:meta_item_1:32766>.withTag({Configuration: 0})], null).remove();
 metal_bender.findRecipe(24, [<gregtech:meta_item_1:10788>, <gregtech:meta_item_1:32766>.withTag({Configuration: 0})], null).remove();
