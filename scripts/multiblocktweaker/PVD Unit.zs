@@ -94,10 +94,10 @@ val pvd_unit = Builder.start(loc, meta)
 .buildAndRegister() as Multiblock;
 
 pvd_unit.recipeMap.recipeBuilder()
-    .inputs(<gregtech:cable:968>*2,<gregtech:meta_item_1:19001>)
+    .inputs(<gregtech:cable:968>*2,<gregtech:meta_item_1:19001>,<gregtech:meta_item_1:12157>)
     .fluidInputs(<liquid:methane>*1000)
-    .notConsumable(<gregtech:meta_item_1:12157>)
     .notConsumable(<contenttweaker:vacuum_chamber>)
+    .outputs(<contenttweaker:sputtered_sapphire_substrate>)
     .duration(200)
     .EUt(2000)
     .buildAndRegister();
