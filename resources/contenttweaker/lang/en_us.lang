@@ -1544,3 +1544,5 @@ multiblocktweaker.machine.rocket_one.name=Rocket T1
 recipemap.rocket_one.name=Rocket T1
 fluid.refined_glue_mixture=Refined Glue Mixture
 fluid.gluey_residues=Gluey Residues
+metaitem.magnesiumtetrachloride.name=Magnesium tetrachloride
+item.contenttweaker.sputtered_sapphire_substrate.name=Sputtered Sapphire Substrate
