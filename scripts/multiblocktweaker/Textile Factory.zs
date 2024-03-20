@@ -110,3 +110,17 @@ textile_factory.recipeMap.recipeBuilder()
     .duration(512)
     .EUt(9000)
     .buildAndRegister();
+
+textile_factory.recipeMap.recipeBuilder()
+    .inputs(<contenttweaker:cotton_sheet>)
+    .outputs(<contenttweaker:cheese_cloth>)
+    .duration(200)
+    .EUt(120)
+    .buildAndRegister();
+
+textile_factory.recipeMap.recipeBuilder()
+    .outputs(<contenttweaker:cotton_sheet>)
+    .inputs(<contenttweaker:cotton>)
+    .duration(200)
+    .EUt(120)
+    .buildAndRegister();
