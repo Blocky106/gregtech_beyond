@@ -2306,7 +2306,7 @@ induction_smelter.recipeBuilder()
     .EUt(1)
     .buildAndRegister();
 
-recipes.addShaped(<gregtech:machine:1343>, [	[<ore:gearStone>, <ore:craftingFurnace>, <ore:gearStone>], 	[<ore:circuitPrimitive>, <gregtech:machine_casing>, <ore:circuitPrimitive>], 	[<ore:plateIron>, <ore:itemSimpleMachineChassi>, <ore:plateIron>]]);
+recipes.addShaped(<gregtech:machine:1343>, [	[<ore:gearStone>, <ore:craftingFurnace>, <ore:gearStone>], 	[<gregtech:cable:237>, <gregtech:machine_casing>, <gregtech:cable:237>], 	[<ore:plateIron>, <ore:itemSimpleMachineChassi>, <ore:plateIron>]]);
 recipes.addShapeless(<gregtech:machine:1343>, [<thermalexpansion:machine:3>]);
 
 induction_smelter.recipeBuilder()
@@ -2754,4 +2754,26 @@ roasters.recipeBuilder()
     .outputs(<gregtech:meta_item_1:2382>*7)
     .duration(20)
     .EUt(12)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:12183>*4,<gregtech:meta_item_1:17183>*4,<gregtech:meta_item_1:12072>*4,<gregtech:meta_item_1:17072>*4)
+    .outputs(<contenttweaker:vacuum_chamber>)
+    .duration(120)
+    .EUt(120)
+    .buildAndRegister();
+
+ebf.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:697>)
+    .outputs(<contenttweaker:barium_titanate_seed_crystal>)
+    .duration(20)
+    .EUt(80)
+    .buildAndRegister();
+
+ebf.recipeBuilder()
+    .inputs(<contenttweaker:barium_titanate_seed_crystal>,<gregtech:meta_item_1:10697>*4)
+    .fluidInputs(<liquid:xenon>*1000)
+    .outputs(<contenttweaker:barium_titanate_boule>)
+    .duration(1000)
+    .EUt(720)
     .buildAndRegister();
