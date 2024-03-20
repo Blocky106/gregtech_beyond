@@ -1992,3 +1992,54 @@ vacuum_chamber.register();
 
 var sputtered_sapphire_substrate = VanillaFactory.createItem("sputtered_sapphire_substrate");
 sputtered_sapphire_substrate.register();
+
+var uhpic_base = VanillaFactory.createItem("uhpic_base");
+uhpic_base.register();
+
+var uhpic_base_wafer = VanillaFactory.createItem("uhpic_base_wafer");
+uhpic_base_wafer.register();
+
+var wired_substrate_wafer = VanillaFactory.createItem("wired_substrate_wafer");
+wired_substrate_wafer.register();
+
+var superconductor_coated_substrate_wafer = VanillaFactory.createItem("superconductor_coated_substrate_wafer");
+superconductor_coated_substrate_wafer.register();
+
+var engraved_barium_titanate_substrate_wafer = VanillaFactory.createItem("engraved_barium_titanate_substrate_wafer");
+engraved_barium_titanate_substrate_wafer.register();
+
+var barium_titanate_substrate_wafer = VanillaFactory.createItem("barium_titanate_substrate_wafer");
+barium_titanate_substrate_wafer.register();
+
+var uhpic_lithography_mask = VanillaFactory.createItem("uhpic_lithography_mask");
+uhpic_lithography_mask.register();
+
+var lithography_base_mask = VanillaFactory.createItem("lithography_base_mask");
+lithography_base_mask.register();
+
+var barium_titanate_boule = VanillaFactory.createItem("barium_titanate_boule");
+barium_titanate_boule.register();
+
+var barium_titanate_seed_crystal = VanillaFactory.createItem("barium_titanate_seed_crystal");
+barium_titanate_seed_crystal.register();
+
+var pic_lithography_mask = VanillaFactory.createItem("pic_lithography_mask");
+pic_lithography_mask.register();
+
+var single_josephson_junction = VanillaFactory.createItem("single_josephson_junction");
+single_josephson_junction.register();
+
+var manufactured_superconductor_circuit = VanillaFactory.createItem("manufactured_superconductor_circuit");
+manufactured_superconductor_circuit.register();
+
+var hadamard_gate = VanillaFactory.createItem("manufactured_supehadamard_gaterconductor_circuit");
+hadamard_gate.register();
+
+var pauli_x_gate = VanillaFactory.createItem("pauli_x_gate");
+pauli_x_gate.register();
+
+var pauli_y_gate = VanillaFactory.createItem("pauli_y_gate");
+pauli_y_gate.register();
+
+var pauli_z_gate = VanillaFactory.createItem("pauli_z_gate");
+pauli_z_gate.register();
