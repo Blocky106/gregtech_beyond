@@ -3085,7 +3085,6 @@ metal_bender.findRecipe(24, [<gtadditions:ga_meta_item:95>, <gregtech:meta_item_
 metal_bender.findRecipe(24, [<gtadditions:ga_meta_item:33>, <gregtech:meta_item_1:32766>.withTag({Configuration: 0})], null).remove();
 metal_bender.findRecipe(24, [<gtadditions:ga_meta_item:72>, <gregtech:meta_item_1:32766>.withTag({Configuration: 0})], null).remove();
 metal_bender.findRecipe(24, [<gtadditions:ga_meta_item:17>, <gregtech:meta_item_1:32766>.withTag({Configuration: 0})], null).remove();
-metal_bender.findRecipe(24, [<gregtech:meta_item_1:10788>, <gregtech:meta_item_1:32766>.withTag({Configuration: 0})], null).remove();
 metal_bender.findRecipe(24, [<gtadditions:ga_meta_item:44>, <gregtech:meta_item_1:32766>.withTag({Configuration: 0})], null).remove();
 metal_bender.findRecipe(24, [<gregtech:meta_item_1:10018>, <gregtech:meta_item_1:32766>.withTag({Configuration: 0})], null).remove();
 metal_bender.findRecipe(24, [<gregtech:meta_item_1:10071>, <gregtech:meta_item_1:32766>.withTag({Configuration: 0})], null).remove();
@@ -3098,7 +3097,7 @@ metal_bender.findRecipe(24, [<gregtech:meta_item_1:10044>, <gregtech:meta_item_1
 alloy_smelter.findRecipe(16, [<gregtech:meta_item_1:10044> * 2, <gregtech:meta_item_1:32301>], null).remove();
 alloy_smelter.findRecipe(16, [<gregtech:meta_item_1:10017>* 2, <gregtech:meta_item_1:32301>], null).remove();
 alloy_smelter.findRecipe(16, [<gregtech:meta_item_1:10072> * 2, <gregtech:meta_item_1:32301>], null).remove();
-alloy_smelter.findRecipe(16, [<gregtech:meta_item_1:10788> * 2, <gregtech:meta_item_1:32301>], null).remove();
+#alloy_smelter.findRecipe(16, [<gregtech:meta_item_1:10788> * 2, <gregtech:meta_item_1:32301>], null).remove();
 alloy_smelter.findRecipe(16, [<gregtech:meta_item_1:10095> * 2, <gregtech:meta_item_1:32301>], null).remove();
 alloy_smelter.findRecipe(16, [<minecraft:iron_ingot> * 2, <gregtech:meta_item_1:32301>], null).remove();
 alloy_smelter.findRecipe(16, [<gregtech:meta_item_1:10184> * 2, <gregtech:meta_item_1:32301>], null).remove();
@@ -3134,8 +3133,7 @@ cutting_saw.findRecipe(30, [<gregtech:meta_block_compressed_4:7>], [<liquid:lubr
 extruder.findRecipe(64, [<gregtech:meta_item_1:10044>, <gregtech:meta_item_1:32350>], null).remove();
 extruder.findRecipe(64, [<gregtech:meta_item_1:10788>, <gregtech:meta_item_1:32350>], null).remove();
 extruder.findRecipe(64, [<gregtech:meta_item_1:10017>, <gregtech:meta_item_1:32350>], null).remove();
-extruder.findRecipe(64, [<gregtech:meta_item_1:10072>, <gregtech:meta_item_1:32350>], null).remove();
-extruder.findRecipe(64, [<gregtech:meta_item_1:10788>, <gregtech:meta_item_1:32350>], null).remove();
+#extruder.findRecipe(64, [<gregtech:meta_item_1:10788>, <gregtech:meta_item_1:32350>], null).remove();
 extruder.findRecipe(64, [<minecraft:iron_ingot>, <gregtech:meta_item_1:32350>], null).remove();
 extruder.findRecipe(64, [<gregtech:meta_item_1:10095>, <gregtech:meta_item_1:32350>], null).remove();
 extruder.findRecipe(64, [<gregtech:meta_item_1:10184>, <gregtech:meta_item_1:32350>], null).remove();
