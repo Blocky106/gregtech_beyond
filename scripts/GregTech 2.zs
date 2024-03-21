@@ -54,7 +54,7 @@ lcr.recipeBuilder()
     .buildAndRegister();
 
 ebf.recipeBuilder()
-    .inputs(<gtadditions:ga_dust:32039>,<gregtech:meta_item_1:2848>)
+    .inputs(<gtadditions:ga_dust:32039>,<gregtech:meta_item_1:2848>*4)
     .outputs(<gtadditions:ga_dust:32040>,<gregtech:meta_item_1:2016>)
     .fluidOutputs(<liquid:samarium>*144)
     .property("temperature", 4900)
