@@ -1895,7 +1895,7 @@ Utils.removeRecipeByOutput(assembler, [<gregtech:cable:970>*3], [], false);
 
 
 assembler.recipeBuilder()
-    .inputs(<gregtech:cable:976>*3,<gregtech:fluid_pipe:183>*2,<gregtech:meta_item_1:32611>*2,<contenttweaker:superconducting_wire_insulation_base>)
+    .inputs(<gregtech:cable:976>*3,<gregtech:fluid_pipe:183>*2,<gregtech:meta_item_1:32611>*2)
     .fluidInputs(<liquid:nitrogen>*2000)
     .outputs(<gregtech:cable:970>*3)
     .duration(200)
