@@ -2788,3 +2788,25 @@ roasters.recipeBuilder()
     .duration(20)
     .EUt(10)
     .buildAndRegister();
+
+distillery.recipeBuilder()
+    .fluidInputs(<liquid:butene>*1000)
+    .fluidOutputs(<liquid:two_butene>*200)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .duration(12)
+    .EUt(80)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:water>*100,<liquid:two_butene>*100,<liquid:sulfuric_acid>*100)
+    .fluidOutputs(<liquid:two_butanol_solution>*200)
+    .duration(12)
+    .EUt(80)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:water>*100,<liquid:two_butene>*100,<liquid:sulfuric_acid>*100)
+    .fluidOutputs(<liquid:two_butanol_solution>*200)
+    .duration(12)
+    .EUt(80)
+    .buildAndRegister();
