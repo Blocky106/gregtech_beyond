@@ -2860,3 +2860,17 @@ lcr.recipeBuilder()
     .duration(400)
     .EUt(100)
     .buildAndRegister();
+
+distillation_tower.recipeBuilder()
+    .fluidInputs(<liquid:two_butanol_solution>*2000)
+    .fluidOutputs(<liquid:two_butanol>*1000,<liquid:water>*1000)
+    .duration(200)
+    .EUt(72)
+    .buildAndRegister();
+
+centrifuge.recipeBuilder()
+    .fluidInputs(<liquid:paraffin_wax>*1000)
+    .fluidOutputs(<liquid:creosote>*1000)
+    .EUt(129)
+    .duration(20)
+    .buildAndRegister();
