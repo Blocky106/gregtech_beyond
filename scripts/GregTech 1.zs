@@ -3180,7 +3180,7 @@ furnace.remove(<gregtech:meta_item_1:9550>);
 furnace.remove(<gregtech:meta_item_1:10069>);
 
 
-#recipes.addShaped(0, <>, [	[null, <ore:gemFlint>, null], [null, <gregtech:meta_tool:12>, null], [null, null, null]]);
+recipes.addShaped(<gregtech:meta_item_1:2220>, [	[null, <ore:gemFlint>, null], [null, <gregtech:meta_tool:12>, null], [null, null, null]]);
 recipes.addShaped(<gregtech:meta_item_1:14297>, [	[<ore:ingotIronMagnetic>, <gregtech:meta_tool:9>, null], 	[null, null, null], 	[null, null, null]]);
 recipes.addShaped(<gregtech:machine_casing:9>, [	[<ore:plateUltimate>, <ore:plateUltimate>, <ore:plateUltimate>], 	[<ore:plateUltimate>, <gregtech:meta_tool:8>, <ore:plateUltimate>], 	[<ore:plateUltimate>, <ore:plateUltimate>, <ore:plateUltimate>]]);
 recipes.addShaped(<gtadditions:ga_machine_casing:4>, [	[<ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>], 	[<ore:plateCosmicNeutronium>, <gregtech:meta_tool:8>, <ore:plateCosmicNeutronium>], 	[<ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>]]);
@@ -3233,3 +3233,5 @@ recipes.addShaped(<gregtech:machine:191>, [	[<gregtech:meta_item_1:32641>, <ore:
 recipes.addShaped(<gregtech:machine:2535>, [	[<gregtech:meta_item_1:32612>, <gregtech:meta_item_1:32612>, <gregtech:meta_item_1:32612>], 	[<ore:circuitExtreme>, <gregtech:metal_casing:3>, <ore:circuitExtreme>], 	[<ore:circuitExtreme>, <gregtech:machine:503>, <ore:circuitExtreme>]]);
 recipes.addShaped(<gregtech:machine:825>, [	[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 	[<ore:stickCopper>, <forestry:worktable>, <ore:stickCopper>], 	[<ore:plateCopper>, <ore:wireFineCopper>, <ore:plateCopper>]]);
 recipes.addShapeless(<gregtech:meta_item_1:2238>*9,[<gregtech:meta_item_1:2094>,<gregtech:meta_item_1:2094>,<gregtech:meta_item_1:2094>,<gregtech:meta_item_1:2094>,<gregtech:meta_item_1:2094>,<gregtech:meta_item_1:2094>,<gregtech:meta_item_1:2094>,<gregtech:meta_item_1:2017>,<gregtech:meta_item_1:2001>]);
+recipes.addShaped(<gregtech:machine:510>, [	[<gregtech:meta_item_1:12095>, null, <gregtech:meta_item_1:12095>], 	[<ore:stickBronze>, <gregtech:metal_casing:1>, <ore:stickBronze>], 	[<ore:screwBronze>, <ore:stickBronze>, <ore:screwBronze>]]);
+recipes.addShaped(<gregtech:metal_casing:1>*2, [	[null, <gregtech:meta_item_2:32015>, null], 	[<gregtech:meta_item_2:32015>, <gregtech:meta_item_1:12095>, <gregtech:meta_item_2:32015>], 	[null, <gregtech:meta_item_2:32015>, null]]);
