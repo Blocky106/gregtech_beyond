@@ -502,6 +502,7 @@ util.registerDust("magnesiumtetrachloride", 32202, 0xBA68C8, "DULL");
 
 
 
+util.registerFluid("sulfuric_acid_solution", 0xFBC02D);
 util.registerFluid("butanone", 0xFBC02D);
 util.registerFluid("two_butanol", 0xFBC02D);
 util.registerFluid("two_butanol_solution", 0xFBC02D);
