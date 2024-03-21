@@ -301,6 +301,14 @@ polymerization_tank.recipeMap.recipeBuilder()
     .buildAndRegister();
 
 polymerization_tank.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:plastic>*1000)
+    .notConsumable(<gtadditions:ga_dust:32001>)
+    .fluidOutputs(<liquid:high_density_polyethylene>*1000)
+    .duration(200)
+    .EUt(25)
+    .buildAndRegister();
+
+polymerization_tank.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:high_density_polyethylene>*1000,<liquid:silane>*1000)
     .fluidOutputs(<liquid:cross_linked_polyethylene>*1000)
     .duration(200)
