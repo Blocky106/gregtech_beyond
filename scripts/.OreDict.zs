@@ -35,7 +35,6 @@ val extruder = mods.gregtech.recipe.RecipeMap.getByName("extruder");
 
 
 <appliedenergistics2:controller>.addTooltip(format.red("Requires Research"));
-<avaritia:resource:4>.addTooltip(format.green("True Neutronium"));
 <liquid:obisdianinfuseddraconiummixture>.addTooltip(format.red("made in cells"));
 <liquid:draconiumrichsolution>.addTooltip(format.red("made in cells"));
 <contenttweaker:quantumcontrolcomputermk2>.addTooltip(format.red("WIP"));
@@ -54,7 +53,6 @@ val extruder = mods.gregtech.recipe.RecipeMap.getByName("extruder");
 <contenttweaker:elementtr>.addTooltip(format.red("WIP"));
 <contenttweaker:selementp>.addTooltip(format.red("WIP"));
 <contenttweaker:elementw>.addTooltip(format.red("WIP"));
-<eternalsingularity:combined_singularity>.addTooltip(format.red("Secret"));
 
 
 
@@ -493,7 +491,6 @@ mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:
 <ore:oreLead>.remove(<nuclearcraft:ore:2>);
 <ore:oreTin>.remove(<nuclearcraft:ore:1>);
 <ore:oreCopper>.remove(<nuclearcraft:ore>);
-<ore:nuggetCosmicNeutronium>.remove(<avaritia:resource:3>);
 <ore:nuggetStellaralloy>.add(<enderio:item_alloy_endergy_nugget:3>);
 <ore:nuggetStellaralloy>.remove(<gregtech:meta_item_1:9569>);
 <ore:ingotStellaralloy>.add(<enderio:item_alloy_endergy_ingot:3>);
@@ -537,7 +534,6 @@ mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:
 <ore:circuitMaster>.remove(<gtadditions:ga_meta_item:32226>);
 <ore:plateIron>.remove(<thaumcraft:plate:1>);
 <ore:plateBrass>.remove(<thaumcraft:plate>);
-<ore:ingotCosmicNeutronium>.remove(<avaritia:resource:4>);
 <ore:titaniumice>.add(<contenttweaker:titaniumcontainingice>);
 <ore:dustSulfur>.remove(<thermalfoundation:material:771>);
 <ore:nuggetLead>.remove(<thaumcraft:nugget:4>);

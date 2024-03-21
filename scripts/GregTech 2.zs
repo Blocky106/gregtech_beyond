@@ -345,13 +345,6 @@ lcr.recipeBuilder()
     .EUt(900000)
     .buildAndRegister();
 
-assembler.recipeBuilder()
-    .inputs(<deepmoblearning:trial_key>,<projectred-expansion:infused_ender_pearl>,<gtadditions:ga_meta_item:32395>,<gtadditions:ga_meta_item:32389>,<deepmoblearning:machine_casing>,<gtadditions:ga_meta_item:32395>)
-    .outputs(<deepmoblearning:trial_keystone>)
-    .duration(200)
-    .EUt(679999999)
-    .buildAndRegister();
-
 chemReactor.recipeBuilder()
     .inputs(<appliedenergistics2:material:9>)
     .fluidInputs(<liquid:plutoniumbasedliquidfuele>*288)
@@ -1050,13 +1043,6 @@ assembler.recipeBuilder()
     .inputs(<enderio:block_cap_bank>.withTag({"enderio:energy": 50000000}))
     .outputs(<enderio:block_buffer:3>)
     .duration(99999)
-    .EUt(2147000000)
-    .buildAndRegister();
-
-fluidExtractor.recipeBuilder()
-    .inputs(<eternalsingularity:eternal_singularity>)
-    .fluidOutputs(<liquid:molteninfnite>*5)
-    .duration(9999)
     .EUt(2147000000)
     .buildAndRegister();
 

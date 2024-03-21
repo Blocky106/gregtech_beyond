@@ -272,7 +272,6 @@ chemReactor.recipeBuilder()
 	.inputs(<gregtech:meta_item_1:1392> * 2)
 	.fluidInputs(<liquid:acetone> * 166,<liquid:bisphenol_a> * 1000)
 	.fluidOutputs(<liquid:bisphenolb> * 1000)
-	.outputs()
 	.duration(80)
 	.EUt(120)
 	.buildAndRegister();
@@ -1538,14 +1537,6 @@ assembly_line.recipeBuilder()
 	.duration(200)
 	.EUt(80232354)
 	.property("Qubit", 12)
-	.buildAndRegister();
-
-lcr.recipeBuilder()
-	.inputs(<enderio:block_reinforced_obsidian>,<gregtech:meta_item_1:12517>*2)
-	.fluidInputs(<liquid:pvtchs>*200)
-	.outputs(<deepmoblearning:soot_covered_plate>)
-	.duration(2000)
-	.EUt(363457474)
 	.buildAndRegister();
 
 assembler.recipeBuilder()

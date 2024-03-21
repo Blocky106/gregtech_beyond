@@ -3313,15 +3313,6 @@ centrifuge.recipeBuilder()
     .EUt(20000)
     .buildAndRegister();
 
-ebf.recipeBuilder()
-    .inputs(<avaritia:resource:2>)
-    .fluidInputs(<liquid:plasma.cosmic_neutronium>)
-    .outputs(<avaritia:resource:3>)
-    .property("temperature", 7000)
-    .duration(40000)
-    .EUt(222222)
-    .buildAndRegister();
-
 assembler.recipeBuilder()   
     .inputs(<gregtech:machine:2534>,<ore:circuitExtreme>*2,<gregtech:meta_item_2:26300>*2,<gregtech:meta_item_1:13905>*4,<ore:circuitMaster>*2,<gregtech:meta_item_2:19051>*4,<ore:circuitElite>*2,<gregtech:meta_item_1:13983>*2)
     .outputs(<gregtech:machine:2559>)

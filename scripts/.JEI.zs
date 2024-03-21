@@ -926,7 +926,6 @@ val itemstoRemoveAndHide =
 <wildnature:ruby_block>,
 <wildnature:ruby_ore>,
 <wildnature:silver_block>,
-<wildnature:silvedee_odeee>,
 <wildnature:malachite_ore>,
 <wildnature:sapphire_block>,
 <wildnature:sapphire_ore>,
