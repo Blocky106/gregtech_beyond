@@ -1424,23 +1424,8 @@ assembly_line.recipeBuilder()
 	.EUt(45635364)
 	.buildAndRegister();
 
-assembler.recipeBuilder()
-	.inputs(<extendedcrafting:material:48>,<gregtech:meta_item_2:25111>*8)
-	.outputs(<avaritia:resource>)
-	.duration(400)
-	.EUt(1200000)
-	.buildAndRegister();
-
-chemReactor.recipeBuilder()
-	.inputs(<gtadditions:ga_dust:385>,<avaritia:resource>)
-	.fluidInputs(<liquid:primalquarkdegeneratematterplasma>*800)
-	.outputs(<avaritia:resource:1>)
-	.duration(900)
-	.EUt(23520525)
-	.buildAndRegister();
-
 lcr.recipeBuilder()
-	.inputs(<extendedcrafting:material:16>,<extendedcrafting:material:7>,<avaritia:resource:1>)
+	.inputs(<extendedcrafting:material:16>,<extendedcrafting:material:7>)
 	.fluidInputs(<liquid:emerald>*2000)
 	.outputs(<extendedcrafting:material:17>)
 	.duration(8000)
@@ -1464,7 +1449,6 @@ stellar.recipeBuilder()
 	.EUt(80000000)
 	.buildAndRegister();
 
-
 lmixer.recipeBuilder()
 	.inputs(<gtadditions:ga_dust:149>,<gregtech:meta_item_1:12673>,<appliedenergistics2:material:48>)
 	.fluidOutputs(<liquid:highlycomplicatedcosmicrubber>*1000)
@@ -1472,7 +1456,6 @@ lmixer.recipeBuilder()
 	.duration(800)
 	.EUt(43343434)
 	.buildAndRegister();   
-
 
 assembly_line.recipeBuilder()
 	.inputs(<gregtech:meta_item_2:32436>*6,<gregtech:cable:4744>*4,<gregtech:meta_item_1:12854>*4,<gregtech:meta_item_1:12736>*2,<ore:circuitInfinite>,<gregtech:meta_item_1:32677>)
@@ -1549,7 +1532,7 @@ assembly_line.recipeBuilder()
 	.buildAndRegister();
 
 assembly_line.recipeBuilder()
-	.inputs(<gregtech:machine:3243>,<gregtech:meta_item_1:10517>*12,<contenttweaker:highpowercasing>,<extendedcrafting:material:12>,<gtadditions:ga_meta_item:32549>,<avaritia:resource:1>*4,<gregtech:frame_hg_alloy>,<gregtech:frame_hg_alloy>)
+	.inputs(<gregtech:machine:3243>,<gregtech:meta_item_1:10517>*12,<contenttweaker:highpowercasing>,<extendedcrafting:material:12>,<gtadditions:ga_meta_item:32549>,<gregtech:frame_hg_alloy>,<gregtech:frame_hg_alloy>)
 	.outputs(<contenttweaker:mattercasing>)
 	.fluidInputs(<liquid:highlycomplicatedcosmicrubber>*2000)
 	.duration(200)
