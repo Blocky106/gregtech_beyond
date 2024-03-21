@@ -269,10 +269,10 @@ metal_bender.recipeBuilder()
 	.buildAndRegister();
 
 chemReactor.recipeBuilder()
-	.inputs(<gregtech:meta_item_1:1392> * 2, <gregtech:meta_item_1:32762>.withTag({Fluid: {FluidName: "plastic", Amount: 1000}}))
+	.inputs(<gregtech:meta_item_1:1392> * 2)
 	.fluidInputs(<liquid:acetone> * 166,<liquid:bisphenol_a> * 1000)
-	.fluidOutputs(<liquid:bisphenolb> * 800)
-	.outputs(<gregtech:meta_item_1:32762>)
+	.fluidOutputs(<liquid:bisphenolb> * 1000)
+	.outputs()
 	.duration(80)
 	.EUt(120)
 	.buildAndRegister();
