@@ -1456,15 +1456,23 @@ assembler.recipeBuilder()
 
 chemReactor.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2061>)
-    .fluidInputs(<liquid:iron_chloride>*200)
-    .outputs(<gtadditions:ga_dust:32049>*2)
+    .fluidInputs(<liquid:chlorine>*4000)
+    .fluidOutputs(<liquid:silicontetrachloride>*1000)
     .duration(200)
     .EUt(12)
     .buildAndRegister();
 
+roasters.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2079>*2)
+    .fluidInputs(<liquid:silicontetrachloride>*1000)
+    .outputs(<gtadditions:ga_dust:130>*6,<gtadditions:ga_dust:32049>)
+    .EUt(8)
+    .duration(50)
+    .buildAndRegister();
+
 lcr.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2061>)
-    .fluidInputs(<liquid:iron_chloride>*200)
+    .fluidInputs(<liquid:chlorine>*2000)
     .outputs(<gtadditions:ga_dust:32049>*2)
     .duration(200)
     .EUt(12)
