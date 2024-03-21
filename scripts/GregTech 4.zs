@@ -2777,3 +2777,14 @@ ebf.recipeBuilder()
     .duration(1000)
     .EUt(720)
     .buildAndRegister();
+
+electrolyzer.findRecipe(60, [<gregtech:meta_item_1:2107>*3], null).remove();
+
+roasters.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2107>*2)
+    .fluidInputs(<liquid:oxygen>*4000)
+    .fluidOutputs(<liquid:sulfur_dioxide>*2000)
+    .outputs(<gregtech:meta_item_1:2956>*4,<gregtech:meta_item_1:2005>)
+    .duration(20)
+    .EUt(10)
+    .buildAndRegister();
