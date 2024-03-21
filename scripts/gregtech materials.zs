@@ -502,6 +502,7 @@ util.registerDust("magnesiumtetrachloride", 32202, 0xBA68C8, "DULL");
 
 
 
+util.registerFluid("butanone", 0xFBC02D);
 util.registerFluid("two_butanol", 0xFBC02D);
 util.registerFluid("two_butanol_solution", 0xFBC02D);
 util.registerFluid("two_butene", 0xFBC02D);
@@ -899,6 +900,8 @@ util.registerFluid("wolframiteslurry",0x355D38);
 
 
 
+
+<material:glass>.addFlags(["GENERATE_ROD"]);
 <material:emerald>.addFlags(["GENERATE_FLUID_BLOCK"]);
 <material:americium>.addFlags(["GENERATE_FINE_WIRE","GENERATE_BOLT_SCREW"]);
 <material:cosmic_neutronium>.addFlags(["GENERATE_PLASMA"]);

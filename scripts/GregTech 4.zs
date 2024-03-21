@@ -133,9 +133,21 @@ macerator.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:two_butanol>*1000)
+    .notConsumable(<gregtech:meta_item_1:2848>)
+    .fluidOutputs(<liquid:butanone>*1000)
+    .duration(200)
+    .EUt(100)
+    .buildAndRegister();
 
-
-
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:two_butanol>*1000)
+    .notConsumable(<gregtech:meta_item_1:2848>)
+    .fluidOutputs(<liquid:butanone>*1000)
+    .duration(200)
+    .EUt(100)
+    .buildAndRegister();
 
 Utils.removeRecipeByOutput(fermenter, [], [<liquid:fermented_biomass>*100], false);
 
@@ -2809,4 +2821,42 @@ lcr.recipeBuilder()
     .fluidOutputs(<liquid:two_butanol_solution>*200)
     .duration(12)
     .EUt(80)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:butanone>*100,<liquid:hydrogen_peroxide>*100)
+    .fluidOutputs(<liquid:hydrazine>*200)
+    .duration(200)
+    .EUt(120)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:butanone>*100,<liquid:hydrogen_peroxide>*100)
+    .fluidOutputs(<liquid:hydrazine>*200)
+    .duration(200)
+    .EUt(120)
+    .buildAndRegister();
+
+electrolyzer.recipeBuilder()
+    .notConsumable(<gregtech:meta_item_1:14035>)
+    .fluidInputs(<liquid:sulfuric_acid_solution>*1000)
+    .fluidOutputs(<liquid:water>*50,<liquid:hydrogen>*50,<liquid:chlorine>*100,<liquid:sulfuric_acid>*500,<liquid:oxygen>*100,<liquid:hydrogen_peroxide>*200)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:distilled_water>*1000,<liquid:sulfuric_acid>*1000)
+    .notConsumable(<gregtech:meta_item_1:14209>)
+    .fluidOutputs(<liquid:sulfuric_acid_solution>*2000)
+    .duration(400)
+    .EUt(100)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:distilled_water>*1000,<liquid:sulfuric_acid>*1000)
+    .notConsumable(<gregtech:meta_item_1:14209>)
+    .fluidOutputs(<liquid:sulfuric_acid_solution>*2000)
+    .duration(400)
+    .EUt(100)
     .buildAndRegister();
