@@ -3097,7 +3097,6 @@ metal_bender.findRecipe(24, [<gregtech:meta_item_1:10044>, <gregtech:meta_item_1
 alloy_smelter.findRecipe(16, [<gregtech:meta_item_1:10044> * 2, <gregtech:meta_item_1:32301>], null).remove();
 alloy_smelter.findRecipe(16, [<gregtech:meta_item_1:10017>* 2, <gregtech:meta_item_1:32301>], null).remove();
 alloy_smelter.findRecipe(16, [<gregtech:meta_item_1:10072> * 2, <gregtech:meta_item_1:32301>], null).remove();
-#alloy_smelter.findRecipe(16, [<gregtech:meta_item_1:10788> * 2, <gregtech:meta_item_1:32301>], null).remove();
 alloy_smelter.findRecipe(16, [<gregtech:meta_item_1:10095> * 2, <gregtech:meta_item_1:32301>], null).remove();
 alloy_smelter.findRecipe(16, [<minecraft:iron_ingot> * 2, <gregtech:meta_item_1:32301>], null).remove();
 alloy_smelter.findRecipe(16, [<gregtech:meta_item_1:10184> * 2, <gregtech:meta_item_1:32301>], null).remove();
@@ -3133,7 +3132,6 @@ cutting_saw.findRecipe(30, [<gregtech:meta_block_compressed_4:7>], [<liquid:lubr
 extruder.findRecipe(64, [<gregtech:meta_item_1:10044>, <gregtech:meta_item_1:32350>], null).remove();
 extruder.findRecipe(64, [<gregtech:meta_item_1:10788>, <gregtech:meta_item_1:32350>], null).remove();
 extruder.findRecipe(64, [<gregtech:meta_item_1:10017>, <gregtech:meta_item_1:32350>], null).remove();
-#extruder.findRecipe(64, [<gregtech:meta_item_1:10788>, <gregtech:meta_item_1:32350>], null).remove();
 extruder.findRecipe(64, [<minecraft:iron_ingot>, <gregtech:meta_item_1:32350>], null).remove();
 extruder.findRecipe(64, [<gregtech:meta_item_1:10095>, <gregtech:meta_item_1:32350>], null).remove();
 extruder.findRecipe(64, [<gregtech:meta_item_1:10184>, <gregtech:meta_item_1:32350>], null).remove();
@@ -3181,6 +3179,8 @@ furnace.remove(<gregtech:meta_item_1:10535>);
 furnace.remove(<gregtech:meta_item_1:9550>);
 furnace.remove(<gregtech:meta_item_1:10069>);
 
+
+#recipes.addShaped(0, <>, [	[null, <ore:gemFlint>, null], [null, <gregtech:meta_tool:12>, null], [null, null, null]]);
 recipes.addShaped(<gregtech:meta_item_1:14297>, [	[<ore:ingotIronMagnetic>, <gregtech:meta_tool:9>, null], 	[null, null, null], 	[null, null, null]]);
 recipes.addShaped(<gregtech:machine_casing:9>, [	[<ore:plateUltimate>, <ore:plateUltimate>, <ore:plateUltimate>], 	[<ore:plateUltimate>, <gregtech:meta_tool:8>, <ore:plateUltimate>], 	[<ore:plateUltimate>, <ore:plateUltimate>, <ore:plateUltimate>]]);
 recipes.addShaped(<gtadditions:ga_machine_casing:4>, [	[<ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>], 	[<ore:plateCosmicNeutronium>, <gregtech:meta_tool:8>, <ore:plateCosmicNeutronium>], 	[<ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>]]);
