@@ -256,7 +256,7 @@ mixer.recipeBuilder()
     .buildAndRegister();
 
 assembly_line.recipeBuilder()
-    .inputs(<gregtech:meta_item_1:10739>,<gregtech:meta_item_1:10737>,<gregtech:meta_item_1:10726>,<gregtech:meta_item_1:10724>,<gregtech:meta_item_1:10722>,<avaritia:resource:1>,<pneumaticcraft:ingot_iron_compressed>,<gregtech:meta_item_1:10856>,<gregtech:meta_item_1:10309>,<extendedcrafting:material:24>,<gregtech:meta_item_1:10775>,<gregtech:meta_item_1:10716>,<gregtech:meta_item_1:10720>,<gregtech:meta_item_1:10671>,<gregtech:meta_item_1:10672>,<contenttweaker:advancedradiationproofplate>*2)
+    .inputs(<gregtech:meta_item_1:10739>,<gregtech:meta_item_1:10737>,<gregtech:meta_item_1:10726>,<gregtech:meta_item_1:10724>,<gregtech:meta_item_1:10722>,<pneumaticcraft:ingot_iron_compressed>,<gregtech:meta_item_1:10856>,<gregtech:meta_item_1:10309>,<extendedcrafting:material:24>,<gregtech:meta_item_1:10775>,<gregtech:meta_item_1:10716>,<gregtech:meta_item_1:10720>,<gregtech:meta_item_1:10671>,<gregtech:meta_item_1:10672>,<contenttweaker:advancedradiationproofplate>*2)
     .outputs(<extendedcrafting:material:32>)
     .duration(2000)
     .EUt(120000)
@@ -271,13 +271,6 @@ fusion_reactor.recipeBuilder()
     .EUt(413423424)
     .buildAndRegister();
 
-assembler.recipeBuilder()
-    .inputs(<gtadditions:ga_meta_item:32383>,<gtadditions:ga_meta_item:32389>*2,<gregtech:meta_item_1:13558>*4,<gregtech:meta_item_1:13558>*4,<gregtech:machine:509>)
-    .outputs(<avaritia:neutronium_compressor>)
-    .fluidInputs(<liquid:neutronium>*4000)
-    .duration(400)
-    .EUt(2100000000)
-    .buildAndRegister();
 
 assembly_line.recipeBuilder()
     .inputs(<gregtech:meta_item_1:14523> * 2, <gregtech:meta_item_1:14523> * 2, <gregtech:meta_item_2:16671> * 64, <gregtech:meta_item_2:16671> * 64, <gregtech:meta_item_2:16671> * 64, <gregtech:meta_item_2:16671> * 64,<gtadditions:ga_meta_item:2558>*8,<gregtech:meta_item_1:18558>* 4,<gregtech:meta_item_1:14558>* 2,<gregtech:cable:8558>* 2)
@@ -548,22 +541,6 @@ assembler.recipeBuilder()
     .outputs(<betterbuilderswands:wandstone>)
     .duration(200)
     .EUt(400)
-    .buildAndRegister();
-
-assembly_line.recipeBuilder()
-    .inputs(<eternalsingularity:eternal_singularity>,<avaritia:resource:4>,<avaritia:resource:1>,<enderio:block_alloy:6>,<gregtech:meta_block_compressed_60:3>,<extendedcrafting:material:25>*4)
-    .outputs(<avaritia:resource:5>)
-    .fluidInputs(<liquid:pvtchs>*280)
-    .duration(200)
-    .EUt(999999999)
-    .buildAndRegister();
-
-lcr.recipeBuilder()
-    .inputs(<avaritia:resource:5>*2,<contenttweaker:infinityplatedplate>*2)
-    .outputs(<avaritia:resource:6>)
-    .fluidInputs(<liquid:uraniumbasedliquidfuele>*8000)
-    .duration(200)
-    .EUt(834253235)
     .buildAndRegister();
 
 forming_press.recipeBuilder()
@@ -989,14 +966,6 @@ lcr.recipeBuilder()
 	.outputs(<enderio:item_alloy_ingot:3>)
 	.duration(400)
 	.EUt(200)
-	.buildAndRegister();
-
-lcr.recipeBuilder()
-	.inputs(<gtadditions:ga_dust:385>,<avaritia:resource>)
-	.fluidInputs(<liquid:primalquarkdegeneratematterplasma>*800)
-	.outputs(<avaritia:resource:1>)
-	.duration(900)
-	.EUt(23520525)
 	.buildAndRegister();
 
 lcr.recipeBuilder()
