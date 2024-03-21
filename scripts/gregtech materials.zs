@@ -503,6 +503,7 @@ util.registerDust("magnesiumtetrachloride", 32202, 0xBA68C8, "DULL");
 
 
 
+util.registerFluid("silicontetrachloride", 0xFBC02D);
 util.registerFluid("gluey_residues", 0xFBC02D);
 util.registerFluid("refined_glue_mixture", 0xFBC02D);
 util.registerFluid("treated_waste_water", 0x9499e0);
