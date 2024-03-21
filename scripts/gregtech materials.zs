@@ -502,7 +502,9 @@ util.registerDust("magnesiumtetrachloride", 32202, 0xBA68C8, "DULL");
 
 
 
-
+util.registerFluid("two_butanol", 0xFBC02D);
+util.registerFluid("two_butanol_solution", 0xFBC02D);
+util.registerFluid("two_butene", 0xFBC02D);
 util.registerFluid("silicontetrachloride", 0xFBC02D);
 util.registerFluid("gluey_residues", 0xFBC02D);
 util.registerFluid("refined_glue_mixture", 0xFBC02D);
