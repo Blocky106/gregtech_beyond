@@ -87,7 +87,8 @@ material.cross_linked_polyethylene=Cross Linked Polyethylene
 material.low_quality_steel=Low Quality Steel
 material.gadolinite=Gadolinite
 material.xenotime=Xenotime
- 
+material.bscco=BSCCO
+material.deshite=Deshite
 
 
 gtadditions.machine.convert_forge.uxv.4.name=Forge Energy Converter (UXV)

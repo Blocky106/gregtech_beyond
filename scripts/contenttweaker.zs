@@ -681,12 +681,7 @@ overworld.register();
 var venus = VanillaFactory.createItem("venus");
 venus.register();
 
-var moon= VanillaFactory.createBlock("moon", <blockmaterial:rock>);
-moon.setBlockHardness(10.0);
-moon.setBlockResistance(10.0);
-moon.setToolClass("pickaxe");
-moon.setToolLevel(5);
-moon.setBlockSoundType(<soundtype:metal>);
+var moon = VanillaFactory.createItem("moon");
 moon.register();
 
 var asteroids = VanillaFactory.createItem("asteroids");
@@ -1955,38 +1950,6 @@ rocket_equipment.setToolLevel(1);
 rocket_equipment.setBlockSoundType(<soundtype:metal>);
 rocket_equipment.register();
 
-var moon_dirt = VanillaFactory.createBlock("moon_dirt", <blockmaterial:rock>);
-moon_dirt.setBlockHardness(12.0);
-moon_dirt.setBlockResistance(10.0);
-moon_dirt.setToolClass("pickaxe");
-moon_dirt.setToolLevel(1);
-moon_dirt.setBlockSoundType(<soundtype:metal>);
-moon_dirt.register();
-
-var moon_subsurface_block = VanillaFactory.createBlock("moon_subsurface_block", <blockmaterial:rock>);
-moon_subsurface_block.setBlockHardness(12.0);
-moon_subsurface_block.setBlockResistance(10.0);
-moon_subsurface_block.setToolClass("pickaxe");
-moon_subsurface_block.setToolLevel(1);
-moon_subsurface_block.setBlockSoundType(<soundtype:metal>);
-moon_subsurface_block.register();
-
-var moon_surface_block = VanillaFactory.createBlock("moon_surface_block", <blockmaterial:rock>);
-moon_surface_block.setBlockHardness(12.0);
-moon_surface_block.setBlockResistance(10.0);
-moon_surface_block.setToolClass("pickaxe");
-moon_surface_block.setToolLevel(1);
-moon_surface_block.setBlockSoundType(<soundtype:metal>);
-moon_surface_block.register();
-
-var moon_stone = VanillaFactory.createBlock("moon_stone", <blockmaterial:rock>);
-moon_stone.setBlockHardness(12.0);
-moon_stone.setBlockResistance(10.0);
-moon_stone.setToolClass("pickaxe");
-moon_stone.setToolLevel(1);
-moon_stone.setBlockSoundType(<soundtype:metal>);
-moon_stone.register();
-
 var vacuum_chamber = VanillaFactory.createItem("vacuum_chamber");
 vacuum_chamber.register();
 
@@ -2032,7 +1995,7 @@ single_josephson_junction.register();
 var manufactured_superconductor_circuit = VanillaFactory.createItem("manufactured_superconductor_circuit");
 manufactured_superconductor_circuit.register();
 
-var hadamard_gate = VanillaFactory.createItem("manufactured_supehadamard_gaterconductor_circuit");
+var hadamard_gate = VanillaFactory.createItem("hadamard_gate");
 hadamard_gate.register();
 
 var pauli_x_gate = VanillaFactory.createItem("pauli_x_gate");
