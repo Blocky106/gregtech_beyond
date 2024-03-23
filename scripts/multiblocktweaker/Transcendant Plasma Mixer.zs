@@ -88,13 +88,13 @@ val transcendant_plasma_mixer = Builder.start(loc, meta)
         .addDesign(
                 FactoryMultiblockShapeInfo.start()
                 .aisle(
-                    "~CCC~",
-                    "~MHM~",
-                    "~MHM~",
-                    "~MHM~",
-                    "~MHM~",
-                    "~MHM~",
-                    "~CCC~")
+                    " CCC ",
+                    " MHM ",
+                    " MHM ",
+                    " MHM ",
+                    " MHM ",
+                    " MHM ",
+                    " CCC ")
                 .aisle(
                     "CMMMC",
                     "M   M",
@@ -120,13 +120,13 @@ val transcendant_plasma_mixer = Builder.start(loc, meta)
                     "M   M",
                     "CMMMC")
                 .aisle(
-                    "~CCC~",
-                    "~MHM~",
-                    "~MHM~",
-                    "~MHM~",
-                    "~MHM~",
-                    "~MHM~",
-                    "~CCC~")
+                    " CCC ",
+                    " MHM ",
+                    " MHM ",
+                    " MHM ",
+                    " MHM ",
+                    " MHM ",
+                    " CCC ")
                 .where("C", <metastate:contenttweaker:dimensionalcasing>)
                 .where("S", IBlockInfo.controller(loc))
                 .where("M", <metastate:contenttweaker:quantumcasing>)
