@@ -22,7 +22,6 @@ import mods.gregtech.render.Textures;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 
-
 var loc = "cvd_unit";
 var meta = 10038;
 val cvd_unit = Builder.start(loc, meta)
@@ -84,7 +83,7 @@ val cvd_unit = Builder.start(loc, meta)
                 .build())
 .withRecipeMap(
         FactoryRecipeMap.start(loc)
-                        .maxInputs(2)
+                        .maxInputs(3)
                         .maxFluidInputs(1)
                         .maxOutputs(2)
                         .build())
@@ -113,8 +112,58 @@ cvd_unit.recipeMap.recipeBuilder()
 
 recipes.addShaped(<gregtech:machine:10038>, [	[<ore:plateHsss>, <gregtech:meta_item_1:32693>, <ore:plateHsss>], 	[<ore:circuitMaster>, <gregtech:machine:504>, <ore:circuitMaster>], 	[<ore:plateHsss>, <gregtech:meta_item_1:32673>, <ore:plateHsss>]]);
 
+cvd_unit.recipeMap.recipeBuilder()
+    .inputs(<contenttweaker:engraved_barium_titanate_substrate_wafer>,<gregtech:meta_item_1:2744>*2)
+    .fluidInputs(<liquid:silicon_carbide_vapor>*144)
+    .outputs(<contenttweaker:superconductor_coated_substrate_wafer>)
+    .duration(800)
+    .EUt(1800)
+    .buildAndRegister();
 
+var PDopant as IItemStack[] = [
+<gregtech:meta_item_1:2001>,
+<gregtech:meta_item_1:2009>,
+<gregtech:meta_item_1:2025>,
+<gregtech:meta_item_1:2031>,
+<gregtech:meta_item_1:2761>,
+<gregtech:meta_item_1:2678>,
+];
 
+var NDopant as IItemStack[] = [
+<gtadditions:ga_dust:32203>,
+<gregtech:meta_item_1:2005>,
+<gregtech:meta_item_1:2003>,
+<gregtech:meta_item_1:2008>,
+<gregtech:meta_item_1:2679>,
+];
+
+for i in NDopant {
+for I in PDopant {
+
+cvd_unit.recipeMap.recipeBuilder()
+    .inputs(<contenttweaker:engraved_power_ic_wafer>,i,I)
+    .outputs(<contenttweaker:raw_power_ic_wafer>)
+    .duration(800)
+    .EUt(1800)
+    .buildAndRegister();
+
+cvd_unit.recipeMap.recipeBuilder()
+    .inputs(<contenttweaker:engraved_ram_wafer>,i,I)
+    .outputs(<contenttweaker:raw_ram_wafer>)
+    .duration(800)
+    .EUt(1800)
+    .buildAndRegister();
+
+cvd_unit.recipeMap.recipeBuilder()
+    .inputs(<contenttweaker:engraved_cpu_wafer>,i,I)
+    .outputs(<contenttweaker:raw_cpu_wafer>)
+    .duration(800)
+    .EUt(1800)
+    .buildAndRegister();
+
+	}
+    }
+ 
 
 
 
