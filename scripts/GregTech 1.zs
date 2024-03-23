@@ -16,7 +16,7 @@ PBFRecipeBuilder.start()
     .input(<gregtech:meta_item_1:2095>)
     .output(<gregtech:meta_item_1:10095>)
     .duration(500)
-    .fuelAmount(11)
+    .fuelAmount(3)
     .buildAndRegister();
 	
 alloy_smelter.recipeBuilder()
