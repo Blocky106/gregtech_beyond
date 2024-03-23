@@ -165,7 +165,6 @@ electrolytic_cell.recipeMap.recipeBuilder()
     .EUt(590)
     .buildAndRegister();
 
-//Cobaltite --> Cobalt
 electrolytic_cell.recipeMap.recipeBuilder()
     .notConsumable(<contenttweaker:silver_electrode>)
     .fluidInputs(<liquid:red_vitriol>*1000,<liquid:distilled_water>*1000)
@@ -185,6 +184,13 @@ electrolytic_cell.recipeMap.recipeBuilder()
     .EUt(590)
     .buildAndRegister();
 
-
+electrolytic_cell.recipeMap.recipeBuilder()
+    .notConsumable(<gregtech:meta_item_1:14035>)
+    .notConsumable(<gregtech:meta_item_1:14051>)
+    .fluidInputs(<liquid:sulfuric_acid_solution>*1000)
+    .fluidOutputs(<liquid:water>*50,<liquid:hydrogen>*50,<liquid:chlorine>*100,<liquid:sulfuric_acid>*500,<liquid:oxygen>*100,<liquid:hydrogen_peroxide>*200)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
 
             
