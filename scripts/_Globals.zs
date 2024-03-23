@@ -74,3 +74,4 @@ global fisher     as RecipeMap = RecipeMap.getByName("fisher");
 global roasters     as RecipeMap = RecipeMap.getByName("roasters");
 global inscriber     as RecipeMap = RecipeMap.getByName("inscriber");
 global componentassembler     as RecipeMap = RecipeMap.getByName("componentassembler");
+global ion_implanter     as RecipeMap = RecipeMap.getByName("ion_implanter");
