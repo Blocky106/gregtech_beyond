@@ -497,11 +497,15 @@ util.registerDust("excited_roughen_mithril_dust", 32199, 0xAED2F2, "SHINY");
 util.registerDust("excited_mithril_dust", 32200, 0xAED2F2, "SHINY");
 util.registerDust("cobalt_60_dust", 32201, 0x091175, "DULL");
 util.registerDust("magnesiumtetrachloride", 32202, 0xBA68C8, "DULL");
+util.registerDust("white_phosporus", 32203, 0xBA68C8, "SHINY");
+util.registerDust("phosphorus_pentoxide", 32204, 0xBA68C8, "SHINY");
 
 
 
 
 
+util.registerFluid("very_hot_nitrogen", 0xFBC02D);
+util.registerFluid("silicon_carbide_vapor", 0xFBC02D);
 util.registerFluid("sulfuric_acid_solution", 0xFBC02D);
 util.registerFluid("butanone", 0xFBC02D);
 util.registerFluid("two_butanol", 0xFBC02D);
@@ -869,6 +873,7 @@ util.registerFluid("ic2coolant",0x2f6bb5);
 util.registerFluid("teflon",0xa1a1a1);
 util.registerFluid("wolframiteimpureslurry",0x39593C);
 util.registerFluid("wolframiteslurry",0x355D38);
+util.registerFluid("silicon_carbide",0x355D38);
 
 
 
