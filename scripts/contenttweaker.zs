@@ -2006,3 +2006,27 @@ pauli_y_gate.register();
 
 var pauli_z_gate = VanillaFactory.createItem("pauli_z_gate");
 pauli_z_gate.register();
+
+var raw_power_ic_wafer = VanillaFactory.createItem("raw_power_ic_wafer");
+raw_power_ic_wafer.register();
+
+var engraved_power_ic_wafer = VanillaFactory.createItem("engraved_power_ic_wafer");
+engraved_power_ic_wafer.register();
+
+var ram_lithography_mask = VanillaFactory.createItem("ram_lithography_mask");
+ram_lithography_mask.register();
+
+var engraved_ram_wafer = VanillaFactory.createItem("engraved_ram_wafer");
+engraved_ram_wafer.register();
+
+var raw_ram_wafer = VanillaFactory.createItem("raw_ram_wafer");
+raw_ram_wafer.register();
+
+var engraved_cpu_wafer = VanillaFactory.createItem("engraved_cpu_wafer");
+engraved_cpu_wafer.register();
+
+var raw_cpu_wafer = VanillaFactory.createItem("raw_cpu_wafer");
+raw_cpu_wafer.register();
+
+var cpu_lithography_mask = VanillaFactory.createItem("cpu_lithography_mask");
+cpu_lithography_mask.register();
