@@ -16,11 +16,6 @@ import mods.nuclearcraft.IngotFormer;
 
 
 
-val macerator = mods.gregtech.recipe.RecipeMap.getByName("macerator");
-val packer = mods.gregtech.recipe.RecipeMap.getByName("packer");
-val unpacker = mods.gregtech.recipe.RecipeMap.getByName("unpacker");
-val compressor = mods.gregtech.recipe.RecipeMap.getByName("compressor");
-val extruder = mods.gregtech.recipe.RecipeMap.getByName("extruder");
 
 
 <gregtech:meta_item_2:32454>.displayName="Silver Coated Glass Tube";
@@ -34,9 +29,6 @@ val extruder = mods.gregtech.recipe.RecipeMap.getByName("extruder");
 
 
 
-<appliedenergistics2:controller>.addTooltip(format.red("Requires Research"));
-<liquid:obisdianinfuseddraconiummixture>.addTooltip(format.red("made in cells"));
-<liquid:draconiumrichsolution>.addTooltip(format.red("made in cells"));
 <contenttweaker:quantumcontrolcomputermk2>.addTooltip(format.red("WIP"));
 <contenttweaker:quantumcontrolcomputermk3>.addTooltip(format.red("WIP"));
 <contenttweaker:stablestar>.addTooltip(format.red("WIP"));
