@@ -143,10 +143,3 @@ advanced_assembly_line.update = function(recipeLogic as IRecipeLogic) {
     recipeLogic.recipeProgress = oldProgress + 1;
 } as IUpdateFunction;
 
-advanced_assembly_line.recipeMap.recipeBuilder()
-    .inputs(<contenttweaker:uhpic_base>,<gregtech:meta_item_1:32677>,<gregtech:meta_item_1:12145>,<gregtech:meta_item_1:12312>,<gregtech:meta_item_2:16307>)
-    .fluidInputs(<liquid:naquadah_alloy>*1440)
-    .outputs(<gtadditions:ga_meta_item:32424>)
-    .duration(200)
-    .EUt(12000)
-    .buildAndRegister();
