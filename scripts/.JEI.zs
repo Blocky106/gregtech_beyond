@@ -90,8 +90,6 @@ mods.jei.JEI.hideCategory("xu2_machine_extrautils2:crusher");
 mods.jei.JEI.hideCategory("extrautils2.terraformer");
 mods.jei.JEI.hideCategory("EIOTank");
 mods.jei.JEI.hideCategory("forestry.bottler");
-mods.jei.JEI.hideCategory("thermalexpansion.smelter");
-mods.jei.JEI.hideCategory("thermalexpansion.smelter_pyrotheum");
 mods.jei.JEI.hideCategory("gtadditions:disassembler");
 
 
