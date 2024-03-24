@@ -2021,3 +2021,11 @@ cpu_lithography_mask.register();
 
 var lpic_lithography_mask = VanillaFactory.createItem("lpic_lithography_mask");
 lpic_lithography_mask.register();
+
+var naquadah_deposit_block = VanillaFactory.createBlock("naquadah_deposit_block", <blockmaterial:rock>);
+naquadah_deposit_block.setBlockHardness(12.0);
+naquadah_deposit_block.setBlockResistance(10.0);
+naquadah_deposit_block.setToolClass("pickaxe");
+naquadah_deposit_block.setToolLevel(1);
+naquadah_deposit_block.setBlockSoundType(<soundtype:metal>);
+naquadah_deposit_block.register();
