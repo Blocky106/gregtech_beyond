@@ -1596,3 +1596,4 @@ devtech.machine.ion_implanter.hv.name=Advanced Ion Implanter  II
 devtech.machine.ion_implanter.ev.name=Advanced Ion Implanter  III
 devtech.machine.ion_implanter.iv.name=Elite Ion Implanter 
 devtech.machine.ion_implanter.luv.name=Elite Ion Implanter II
+tile.contenttweaker.naquadah_deposit_block.name=Naquadah Deposit Block
