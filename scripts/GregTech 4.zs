@@ -3032,3 +3032,10 @@ fluidExtractor.recipeBuilder()
     .EUt(12)
     .duration(20)
     .buildAndRegister();
+
+cutting_saw.recipeBuilder()
+    .inputs(<contenttweaker:uhpic_base_wafer>)
+    .outputs(<contenttweaker:uhpic_base>*16)
+    .duration(200)
+    .EUt(80)
+    .buildAndRegister();
