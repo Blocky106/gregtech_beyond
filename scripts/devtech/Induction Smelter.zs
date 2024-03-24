@@ -18,5 +18,5 @@ var induction_smelter = IRecipeMap.recipeMapBuilder("induction_smelter",0,3,0,2,
     .setProgressBar(GUITextures.get("progress_bar_bending"), MoveType.VERTICAL)
     .build();
     
-RegisterMachine.CreateSimpleMachine(1343, "induction_smelter", induction_smelter, induction_smelter_overlay,0);
+RegisterMachine.CreateSimpleMachine(1343, "induction_smelter", induction_smelter, induction_smelter_overlay,1);
 
