@@ -173,7 +173,6 @@ astro_mining_station.recipeMap.recipeBuilder()
     .duration(300)
     .buildAndRegister();
 
-
 astro_mining_station.recipeMap.recipeBuilder()
     .notConsumable(<contenttweaker:astro_miner>)
     .notConsumable(<contenttweaker:ganymede>)

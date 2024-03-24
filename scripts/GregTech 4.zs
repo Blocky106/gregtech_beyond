@@ -3039,3 +3039,10 @@ cutting_saw.recipeBuilder()
     .duration(200)
     .EUt(80)
     .buildAndRegister();
+
+macerator.recipeBuilder()
+    .inputs(<contenttweaker:naquadah_deposit_block>)
+    .outputs(<gtadditions:ga_dust:3>*4)
+    .duration(40)
+    .EUt(12)
+    .buildAndRegister();
