@@ -504,15 +504,15 @@ util.registerDust("phosphorus_pentoxide", 32204, 0xBA68C8, "SHINY");
 
 
 
-util.registerFluid("very_hot_nitrogen", 0xFBC02D);
-util.registerFluid("silicon_carbide_vapor", 0xFBC02D);
-util.registerFluid("sulfuric_acid_solution", 0xFBC02D);
-util.registerFluid("butanone", 0xFBC02D);
-util.registerFluid("two_butanol", 0xFBC02D);
-util.registerFluid("two_butanol_solution", 0xFBC02D);
-util.registerFluid("two_butene", 0xFBC02D);
-util.registerFluid("silicontetrachloride", 0xFBC02D);
-util.registerFluid("gluey_residues", 0xFBC02D);
+util.registerFluid("very_hot_nitrogen", 0xE6BECC);
+util.registerFluid("silicon_carbide_vapor", 0x706866);
+util.registerFluid("sulfuric_acid_solution", 0xE64A19);
+util.registerFluid("butanone", 0x806A62);
+util.registerFluid("two_butanol", 0x6A544C);
+util.registerFluid("two_butanol_solution", 0x6D4C41);
+util.registerFluid("two_butene", 0x873F3F);
+util.registerFluid("silicontetrachloride", 0x4A4544);
+util.registerFluid("gluey_residues", 0xF9A825);
 util.registerFluid("refined_glue_mixture", 0xFBC02D);
 util.registerFluid("treated_waste_water", 0x9499e0);
 util.registerFluid("rarest_earth_mixture", 0x9C3D1F);
@@ -873,7 +873,7 @@ util.registerFluid("ic2coolant",0x2f6bb5);
 util.registerFluid("teflon",0xa1a1a1);
 util.registerFluid("wolframiteimpureslurry",0x39593C);
 util.registerFluid("wolframiteslurry",0x355D38);
-util.registerFluid("silicon_carbide",0x355D38);
+util.registerFluid("silicon_carbide",0x515151);
 
 
 
