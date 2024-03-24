@@ -1995,18 +1995,6 @@ single_josephson_junction.register();
 var manufactured_superconductor_circuit = VanillaFactory.createItem("manufactured_superconductor_circuit");
 manufactured_superconductor_circuit.register();
 
-var hadamard_gate = VanillaFactory.createItem("hadamard_gate");
-hadamard_gate.register();
-
-var pauli_x_gate = VanillaFactory.createItem("pauli_x_gate");
-pauli_x_gate.register();
-
-var pauli_y_gate = VanillaFactory.createItem("pauli_y_gate");
-pauli_y_gate.register();
-
-var pauli_z_gate = VanillaFactory.createItem("pauli_z_gate");
-pauli_z_gate.register();
-
 var raw_power_ic_wafer = VanillaFactory.createItem("raw_power_ic_wafer");
 raw_power_ic_wafer.register();
 
@@ -2030,3 +2018,6 @@ raw_cpu_wafer.register();
 
 var cpu_lithography_mask = VanillaFactory.createItem("cpu_lithography_mask");
 cpu_lithography_mask.register();
+
+var lpic_lithography_mask = VanillaFactory.createItem("lpic_lithography_mask");
+lpic_lithography_mask.register();
