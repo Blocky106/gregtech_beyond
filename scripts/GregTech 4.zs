@@ -3128,3 +3128,23 @@ mixer.recipeBuilder()
     .duration(80)
     .EUt(80)
     .buildAndRegister();
+
+centrifuge.findRecipe(120, null, [<liquid:neutralised_red_mud>*2000]).remove();
+
+centrifuge.recipeBuilder()
+    .fluidInputs(<liquid:neutralised_red_mud>*2000)
+    .fluidOutputs(<liquid:iron_chloride_solution>*1000,<liquid:red_slurry>*1000,<liquid:salt_water>*4000)
+    .duration(200)
+    .EUt(120)
+    .buildAndRegister();
+
+centrifuge.findRecipe(480, null, [<liquid:ferric_ree_chloride>*2000]).remove();
+
+centrifuge.recipeBuilder()
+    .fluidInputs(<liquid:iron_chloride_solution>*2000)
+    .fluidOutputs(<liquid:iron_chloride>*1000,<liquid:salt_water>*3000)
+    .EUt(480)
+    .duration(299)
+    .buildAndRegister();
+
+

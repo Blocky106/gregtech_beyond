@@ -506,6 +506,7 @@ util.registerDust("digested_andesite", 32206, 0x787575, "DULL");
 
 
 
+util.registerFluid("iron_chloride_solution", 0x848484);
 util.registerFluid("andesite_leach_slurry", 0x4F4F4F);
 util.registerFluid("andesite_slurry", 0x646464);
 util.registerFluid("muddy_andesite_slurry", 0x5D5D5D);
