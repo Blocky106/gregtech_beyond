@@ -107,3 +107,11 @@ val gravity_settler_tank = Builder.start(loc, meta)
 .withZoom(0.5f)
 
 .buildAndRegister() as Multiblock;
+
+gravity_settler_tank.recipeMap.recipeBuilder()
+    .inputs(<appliedenergistics2:charged_quartz_ore>)
+    .outputs(<appliedenergistics2:material:1>*2)
+    .fluidInputs(<liquid:lava>*200)
+    .duration(40)
+    .EUt(50)
+    .buildAndRegister();
