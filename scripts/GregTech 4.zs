@@ -3054,3 +3054,5 @@ assembler.recipeBuilder()
     .duration(200)
     .EUt(120)
     .buildAndRegister();
+
+recipes.addShaped(<gregtech:machine:10004>, [	[<ore:plateStainlessSteel>, <contenttweaker:nichromecoil>, <ore:plateStainlessSteel>], 	[<contenttweaker:nichromecoil>, <ore:circuitAdvanced>, <contenttweaker:nichromecoil>], 	[<ore:plateStainlessSteel>, <contenttweaker:nichromecoil>, <ore:plateStainlessSteel>]]);
