@@ -499,11 +499,17 @@ util.registerDust("cobalt_60_dust", 32201, 0x091175, "DULL");
 util.registerDust("magnesiumtetrachloride", 32202, 0xBA68C8, "DULL");
 util.registerDust("white_phosporus", 32203, 0xBA68C8, "SHINY");
 util.registerDust("phosphorus_pentoxide", 32204, 0xBA68C8, "SHINY");
+util.registerDust("floated_andesite", 32205, 0x787575, "SHINY");
+util.registerDust("digested_andesite", 32206, 0x787575, "DULL");
 
 
 
 
 
+util.registerFluid("andesite_leach_slurry", 0x4F4F4F);
+util.registerFluid("andesite_slurry", 0x646464);
+util.registerFluid("muddy_andesite_slurry", 0x5D5D5D);
+util.registerFluid("purified_andesite_slurry", 0x2F2F2F);
 util.registerFluid("very_hot_nitrogen", 0xE6BECC);
 util.registerFluid("silicon_carbide_vapor", 0x706866);
 util.registerFluid("sulfuric_acid_solution", 0xE64A19);

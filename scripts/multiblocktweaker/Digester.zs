@@ -170,3 +170,7 @@ digester.recipeMap.recipeBuilder()
     .duration(400)
     .EUt(1200)
     .buildAndRegister();
+
+digester.recipeMap.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:32205>)
+    .outputs(<gtadditions:ga_dust:32206>)

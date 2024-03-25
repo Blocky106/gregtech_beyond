@@ -417,3 +417,12 @@ froth_flotation_cell.recipeMap.recipeBuilder()
     .duration(280)
     .EUt(480)
     .buildAndRegister();
+
+froth_flotation_cell.recipeMap.recipeBuilder()
+    .outputs(<gtadditions:ga_dust:944>*2)
+    .fluidInputs(<liquid:froth_flotation_fluid>*1000,<liquid:andesite_slurry>*1000)
+    .notConsumable(<contenttweaker:osmiumsieve>)
+    .fluidOutputs(<liquid:muddy_andesite_slurry>*1000)
+    .duration(500)
+    .EUt(2000)
+    .buildAndRegister();
