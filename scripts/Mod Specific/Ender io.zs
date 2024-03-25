@@ -64,9 +64,9 @@ recipes.addShaped(<enderio:item_material:3>, [	[null, null, null], 	[null,null,n
 recipes.addShaped(<enderio:item_material:13>, [	[<ore:nuggetSteel>, <gregtech:meta_item_1:12550>, <ore:nuggetSteel>], 	[<gregtech:meta_item_1:12550>, null, <gregtech:meta_item_1:12550>], 	[<ore:nuggetSteel>, <gregtech:meta_item_1:12550>, <ore:nuggetSteel>]]);
 recipes.addShaped(<enderio:block_simple_wired_charger>, [	[<ore:compressed1xCobblestone>, <ore:compressed1xCobblestone>, <ore:compressed1xCobblestone>], 	[<ore:compressed1xCobblestone>, <ore:cableGtSingleTin>, <ore:compressed1xCobblestone>], 	[<ore:plateSteel>, <gregtech:machine:501>, <ore:plateSteel>]]);
 recipes.addShaped(<enderio:block_wired_charger>, [	[<ore:boltAluminium>, <gregtech:meta_item_1:32510>, <ore:boltAluminium>], 	[<ore:plateLead>, <enderio:block_simple_wired_charger>, <ore:plateLead>], 	[<ore:boltAluminium>, <ore:cableGtSingleIron>, <ore:boltAluminium>]]);
-
-
-
+recipes.addShapeless(<enderio:item_fluid_filter>,[<enderio:item_basic_item_filter>]);
+recipes.addShaped(<enderio:item_limited_item_filter>, [	[<ore:stickEmerald>, null, <ore:stickEmerald>], 	[<gregtech:meta_item_2:32477>, <enderio:item_advanced_item_filter>, <gregtech:meta_item_2:32477>], 	[<ore:stickEmerald>, null, <ore:stickEmerald>]]);
+recipes.addShaped(<enderio:item_extract_speed_upgrade>, [[null, <ore:wireGtSingleAluminium>, null], 	[<ore:ingotElectricalSteel>, <enderio:item_basic_item_filter>, <ore:ingotElectricalSteel>], 	[null, <ore:wireGtSingleAluminium>, null]]);
 
 
 recipes.addShaped(<enderio:block_reinforced_obsidian>, [	[<ore:stickLongNaquadriaticTaranium>, <ore:blockNaquadriaticCompound>, <ore:stickLongNaquadriaticTaranium>], 	[<ore:blockNaquadriaticCompound>, <ore:obsidian>, <ore:blockNaquadriaticCompound>], [<ore:stickLongNaquadriaticTaranium>, <ore:blockNaquadriaticCompound>, <ore:stickLongNaquadriaticTaranium>]]);
