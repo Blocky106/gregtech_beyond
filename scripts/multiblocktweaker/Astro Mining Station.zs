@@ -182,3 +182,13 @@ astro_mining_station.recipeMap.recipeBuilder()
     .EUt(1200)
     .duration(300)
     .buildAndRegister();
+    
+astro_mining_station.recipeMap.recipeBuilder()
+    .notConsumable(<contenttweaker:astro_miner>)
+    .notConsumable(<contenttweaker:ganymede>)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 3}))
+    .outputs(<gregtech:ore_naquadriatic_compound_0>)
+    .fluidInputs(<liquid:drilling_fluid>*32000)
+    .EUt(1200)
+    .duration(300)
+    .buildAndRegister();
