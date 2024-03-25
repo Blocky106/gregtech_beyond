@@ -325,7 +325,7 @@ slurry_clarifier.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:andesite_leach_slurry>*1000)
     .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
     .outputs(<gtadditions:ga_dust:105>*4,<gtadditions:ga_dust:28>*4)
-    .fluidOutpts(<liquid:wastewater>*100)
+    .fluidOutputs(<liquid:wastewater>*100)
     .duration(800)
     .EUt(240)
     .buildAndRegister();
