@@ -3081,3 +3081,50 @@ lcr.recipeBuilder()
     .duration(20)
     .EUt(800)
     .buildAndRegister();
+
+mixer.recipeBuilder()
+    .inputs(<thermalfoundation:material:892>,<gregtech:meta_item_1:2241>)
+    .outputs(<contenttweaker:asphalt>*2)
+    .duration(40)
+    .EUt(2)
+    .buildAndRegister();
+
+lmixer.recipeBuilder()
+    .inputs(<thermalfoundation:material:892>,<gregtech:meta_item_1:2241>)
+    .outputs(<contenttweaker:asphalt>*2)
+    .duration(40)
+    .EUt(2)
+    .buildAndRegister();
+
+mixer.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2241>)
+    .fluidInputs(<liquid:water>*1000)
+    .fluidOutputs(<liquid:andesite_slurry>*1000)
+    .duration(200)
+    .EUt(1800)
+    .buildAndRegister();
+
+centrifuge.recipeBuilder()
+    .fluidInputs(<liquid:muddy_andesite_slurry>*1000)
+    .fluidOutputs(<liquid:purified_andesite_slurry>*1000)
+    .outputs(<gtadditions:ga_dust:32095>)
+    .duration(20)
+    .EUt(120)
+    .buildAndRegister();
+
+recipes.addShaped(<gregtech:machine:1406>, [	[<gregtech:meta_item_1:32656>, <ore:circuitUltimate>, <gregtech:meta_item_1:32656>], [<ore:wireGtSingleLuvSuperconductor>, <gregtech:machine:507>, <ore:wireGtSingleLuvSuperconductor>], [<gregtech:meta_item_1:32646>, <ore:circuitUltimate>, <gregtech:meta_item_1:32646>]]);
+
+centrifuge.recipeBuilder()
+    .fluidInputs(<liquid:purified_andesite_slurry>*1000)
+    .outputs(<gtadditions:ga_dust:32205>*2)
+    .duration(200)
+    .EUt(900)
+    .buildAndRegister();
+
+mixer.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:32206>)
+    .fluidInputs(<liquid:sulfuric_acid>*1000)
+    .fluidOutputs(<liquid:andesite_leach_slurry>*1000)
+    .duration(80)
+    .EUt(80)
+    .buildAndRegister();
