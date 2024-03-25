@@ -3056,3 +3056,28 @@ assembler.recipeBuilder()
     .buildAndRegister();
 
 recipes.addShaped(<gregtech:machine:10004>, [	[<ore:plateStainlessSteel>, <contenttweaker:nichromecoil>, <ore:plateStainlessSteel>], 	[<contenttweaker:nichromecoil>, <ore:circuitAdvanced>, <contenttweaker:nichromecoil>], 	[<ore:plateStainlessSteel>, <contenttweaker:nichromecoil>, <ore:plateStainlessSteel>]]);
+
+roasters.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2006>)
+    .fluidInputs(<liquid:sulfur_trioxide>*1000)
+    .outputs(<gtadditions:ga_dust:93>)
+    .fluidOutputs(<liquid:oxygen>*1000)
+    .duration(20)
+    .EUt(12)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:hydrochloric_acid>*1000)
+    .inputs(<gregicalityoreaddon:gaoe_oredict_item:2060>*4)
+    .outputs(<gregicalityoreaddon:gaoe_oredict_item:2059>*2,<gtadditions:ga_dust:151>*2)
+    .duration(20)
+    .EUt(800)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:hydrochloric_acid>*1000)
+    .inputs(<gregicalityoreaddon:gaoe_oredict_item:2060>*4)
+    .outputs(<gregicalityoreaddon:gaoe_oredict_item:2059>*2,<gtadditions:ga_dust:151>*2)
+    .duration(20)
+    .EUt(800)
+    .buildAndRegister();
