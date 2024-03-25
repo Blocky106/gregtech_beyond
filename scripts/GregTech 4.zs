@@ -3046,3 +3046,11 @@ macerator.recipeBuilder()
     .duration(40)
     .EUt(12)
     .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs(<gregtech:machine:2198>,<contenttweaker:aluminium_item_casing>*2,<gregtech:meta_item_1:17001>*4)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 4}))
+    .outputs(<contenttweaker:propellant_tank>)
+    .duration(200)
+    .EUt(120)
+    .buildAndRegister();
