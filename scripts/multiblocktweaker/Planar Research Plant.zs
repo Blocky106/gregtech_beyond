@@ -101,7 +101,7 @@ val planar_research_plant = Builder.start(loc, meta)
                 .build())
 .withRecipeMap(
         FactoryRecipeMap.start(loc)
-                        .maxInputs(1)
+                        .maxInputs(2)
                         .maxOutputs(1)
                         .build())
 .withTexture(ICubeRenderer.sided("contenttweaker:blocks/bismuth_bronze"))
@@ -112,6 +112,7 @@ val planar_research_plant = Builder.start(loc, meta)
 
 
 planar_research_plant.recipeMap.recipeBuilder()
+    .inputs(<minecraft:paper>)
     .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
     .chancedOutput(<contenttweaker:researchpapermoon>, 100, 0)
     .duration(800)
@@ -119,6 +120,7 @@ planar_research_plant.recipeMap.recipeBuilder()
     .buildAndRegister();
 
 planar_research_plant.recipeMap.recipeBuilder()
+    .inputs(<minecraft:paper>)
     .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 2}))
     .chancedOutput(<contenttweaker:researchpapermars>, 100, 0)
     .duration(800)
@@ -126,6 +128,7 @@ planar_research_plant.recipeMap.recipeBuilder()
     .buildAndRegister();
 
 planar_research_plant.recipeMap.recipeBuilder()
+    .inputs(<minecraft:paper>)
     .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 3}))
     .chancedOutput(<contenttweaker:researchpaperasteroids>, 100, 0)
     .duration(800)
@@ -133,6 +136,7 @@ planar_research_plant.recipeMap.recipeBuilder()
     .buildAndRegister();
 
 planar_research_plant.recipeMap.recipeBuilder()
+    .inputs(<minecraft:paper>)
     .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 4}))
     .chancedOutput(<contenttweaker:researchpaperceres>, 100, 0)
     .duration(800)
@@ -140,6 +144,7 @@ planar_research_plant.recipeMap.recipeBuilder()
     .buildAndRegister();
 
 planar_research_plant.recipeMap.recipeBuilder()
+    .inputs(<minecraft:paper>)
     .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 5}))
     .chancedOutput(<contenttweaker:researchpaperhaumea>, 100, 0)
     .duration(800)
@@ -147,6 +152,7 @@ planar_research_plant.recipeMap.recipeBuilder()
     .buildAndRegister();
 
 planar_research_plant.recipeMap.recipeBuilder()
+    .inputs(<minecraft:paper>)
     .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 6}))
     .chancedOutput(<contenttweaker:researchpapermercury>, 100, 0)
     .duration(800)
@@ -154,6 +160,7 @@ planar_research_plant.recipeMap.recipeBuilder()
     .buildAndRegister();
 
 planar_research_plant.recipeMap.recipeBuilder()
+    .inputs(<minecraft:paper>)
     .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 7}))
     .chancedOutput(<contenttweaker:researchpapereris>, 100, 0)
     .duration(800)
@@ -161,6 +168,7 @@ planar_research_plant.recipeMap.recipeBuilder()
     .buildAndRegister();
 
 planar_research_plant.recipeMap.recipeBuilder()
+    .inputs(<minecraft:paper>)
     .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 8}))
     .chancedOutput(<contenttweaker:researchpaperjupiter>, 100, 0)
     .duration(800)
