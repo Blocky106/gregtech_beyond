@@ -81,6 +81,7 @@ val rocket_one = Builder.start(loc, meta)
                 .build())
 .withRecipeMap(
             FactoryRecipeMap.start(loc)
+                        .maxInputs(1)
                         .maxFluidInputs(1)
                         .maxOutputs(1)
                         .build())
