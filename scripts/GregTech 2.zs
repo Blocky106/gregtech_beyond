@@ -1429,7 +1429,7 @@ lcr.recipeBuilder()
     .fluidInputs(<liquid:chlorine>*2000)
     .outputs(<gtadditions:ga_dust:32049>*2)
     .duration(200)
-    .EUt(12)
+    .EUt(80000)
     .buildAndRegister();
 
 assembly_line.recipeBuilder()
@@ -2710,3 +2710,23 @@ recipes.addShaped(<gregtech:meta_item_2:32713>, [	[<ore:platePolybenzimidazole>,
 mods.extendedcrafting.TableCrafting.addShaped(0, <gregtech:meta_item_2:32714>, [	[<ore:plateFullerenePolymerMatrix>, <ore:plateFullerenePolymerMatrix>, <ore:circuitSuperconductor>, <ore:plateFullerenePolymerMatrix>, <ore:plateFullerenePolymerMatrix>], 	[<ore:plateFullerenePolymerMatrix>, <gregtech:meta_item_2:32713>, <gregtech:meta_item_2:32713>, <gregtech:meta_item_2:32713>, <ore:plateFullerenePolymerMatrix>], 	[<ore:circuitSuperconductor>, <gregtech:meta_item_2:32713>, <gregtech:meta_item_2:32713>, <ore:circuitSuperconductor>], 	[<ore:plateFullerenePolymerMatrix>, <gregtech:meta_item_2:32713>, <gregtech:meta_item_2:32713>, <gregtech:meta_item_2:32713>, <ore:plateFullerenePolymerMatrix>], 	[<ore:plateFullerenePolymerMatrix>, <ore:plateFullerenePolymerMatrix>, <ore:circuitSuperconductor>, <ore:plateFullerenePolymerMatrix>, <ore:plateFullerenePolymerMatrix>]]);
 
 
+assembler.recipeBuilder()
+    .inputs(<gregtech:fluid_pipe:184>,<gregtech:meta_item_1:12209>*2)
+    .outputs(<contenttweaker:oxygen_mask>)
+    .duration(200)
+    .EUt(600)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs(<minecraft:string>*2,<contenttweaker:stretchedwool>*4)
+    .outputs(<contenttweaker:parachute>)
+    .duration(200)
+    .EUt(600)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs(<gregtech:machine:2197>,<gregtech:fluid_pipe:184>*4,<ore:circuitBasic>)
+    .outputs(<contenttweaker:rebreather>)
+    .duration(40)
+    .EUt(20)
+    .buildAndRegister();
