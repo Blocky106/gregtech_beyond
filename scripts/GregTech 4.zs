@@ -3220,7 +3220,7 @@ implosion.recipeBuilder()
     .outputs(<contenttweaker:heavydutyplatet1>)
     .duration(40)
     .EUt(48)
-    .property("explosive", 2)
+    .property("explosives", 2)
     .buildAndRegister();
 
 implosion.recipeBuilder()
@@ -3228,7 +3228,7 @@ implosion.recipeBuilder()
     .outputs(<contenttweaker:heavydutyplatet2>)
     .duration(40)
     .EUt(192)
-    .property("explosive", 4)
+    .property("explosives", 4)
     .buildAndRegister();
 
 implosion.recipeBuilder()
@@ -3236,7 +3236,7 @@ implosion.recipeBuilder()
     .outputs(<contenttweaker:heavydutyplatet3>)
     .duration(40)
     .EUt(768)
-    .property("explosive", 8)
+    .property("explosives", 8)
     .buildAndRegister();
 
 implosion.recipeBuilder()
@@ -3244,7 +3244,7 @@ implosion.recipeBuilder()
     .outputs(<contenttweaker:heavydutyplatet4>)
     .duration(40)
     .EUt(3072)
-    .property("explosive", 16)
+    .property("explosives", 16)
     .buildAndRegister();
 
 implosion.recipeBuilder()
@@ -3252,7 +3252,7 @@ implosion.recipeBuilder()
     .outputs(<contenttweaker:heavydutyplatet5>)
     .duration(40)
     .EUt(12288)
-    .property("explosive", 32)
+    .property("explosives", 32)
     .buildAndRegister();
 
 implosion.recipeBuilder()
@@ -3260,7 +3260,7 @@ implosion.recipeBuilder()
     .outputs(<contenttweaker:heavydutyplatet6>)
     .duration(40)
     .EUt(49152)
-    .property("explosive", 64)
+    .property("explosives", 64)
     .buildAndRegister();
 
 assembler.recipeBuilder()
@@ -3273,3 +3273,42 @@ assembler.recipeBuilder()
 
 recipes.addShaped(<gregtech:machine:10060>, [[<ore:platePlastic>, <gregtech:machine:503>, <ore:platePlastic>], 	[<ore:circuitExtreme>, <gregtech:meta_item_1:32602>, <ore:circuitExtreme>], 	[<ore:platePlastic>, <ore:frameGtStainlessSteel>, <ore:platePlastic>]]);
 
+roasters.recipeBuilder()
+    .fluidInputs(<liquid:hydrogen_chloride>*3000)
+    .fluidOutputs(<liquid:trichlorosilane>*3000,<liquid:hydrogen>*1000)
+    .inputs(<gregtech:meta_item_1:2061>)
+    .duration(200)
+    .EUt(90)
+    .buildAndRegister();
+
+roasters.recipeBuilder()
+    .fluidInputs(<liquid:hydrogen_chloride>*3000)
+    .fluidOutputs(<liquid:trichlorosilane>*3000,<liquid:hydrogen>*1000)
+    .inputs(<gregtech:meta_item_1:2061>)
+    .duration(200)
+    .EUt(90)
+    .buildAndRegister();
+
+roasters.recipeBuilder()
+    .fluidInputs(<liquid:trichlorosilane>*1000)
+    .inputs(<gregtech:meta_item_1:2079>)
+    .outputs(<gtadditions:ga_dust:130>*3,<gtadditions:ga_dust:32049>)
+    .duration(200)
+    .EUt(80)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:hydrogen>*1000,<liquid:chlorine>*1000)
+    .fluidOutputs(<liquid:hydrogen_chloride>*1000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 2}))
+    .EUt(200)
+    .duration(80)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:hydrogen>*1000,<liquid:chlorine>*1000)
+    .fluidOutputs(<liquid:hydrogen_chloride>*1000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 2}))
+    .EUt(200)
+    .duration(80)
+    .buildAndRegister();
