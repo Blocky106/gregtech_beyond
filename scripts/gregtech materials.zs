@@ -914,6 +914,7 @@ util.registerFluid("silicon_carbide",0x515151);
 
 
 
+<material:cupronickel>.addFlags(["GENERATE_FRAME"]);
 <material:glass>.addFlags(["GENERATE_ROD"]);
 <material:emerald>.addFlags(["GENERATE_FLUID_BLOCK"]);
 <material:americium>.addFlags(["GENERATE_FINE_WIRE","GENERATE_BOLT_SCREW"]);
