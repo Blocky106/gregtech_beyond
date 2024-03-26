@@ -2029,3 +2029,30 @@ naquadah_deposit_block.setToolClass("pickaxe");
 naquadah_deposit_block.setToolLevel(1);
 naquadah_deposit_block.setBlockSoundType(<soundtype:metal>);
 naquadah_deposit_block.register();
+
+var parachute = VanillaFactory.createItem("parachute");
+parachute.register();
+
+var oxygen_mask = VanillaFactory.createItem("oxygen_mask");
+oxygen_mask.register();
+
+var rebreather = VanillaFactory.createItem("rebreather");
+rebreather.register();
+
+var heavydutyplatet1 = VanillaFactory.createItem("heavydutyplatet1");
+heavydutyplatet1.register();
+
+var heavydutyplatet2 = VanillaFactory.createItem("heavydutyplatet2");
+heavydutyplatet2.register();
+
+var heavydutyplatet3 = VanillaFactory.createItem("heavydutyplatet3");
+heavydutyplatet3.register();
+
+var heavydutyplatet4 = VanillaFactory.createItem("heavydutyplatet4");
+heavydutyplatet4.register();
+
+var heavydutyplatet5 = VanillaFactory.createItem("heavydutyplatet5");
+heavydutyplatet5.register();
+
+var heavydutyplatet6 = VanillaFactory.createItem("heavydutyplatet6");
+heavydutyplatet6.register();
