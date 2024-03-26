@@ -2712,6 +2712,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <gregtech:meta_item_2:32714>, [
 
 assembler.recipeBuilder()
     .inputs(<gregtech:fluid_pipe:184>,<gregtech:meta_item_1:12209>*2)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 5}))
     .outputs(<contenttweaker:oxygen_mask>)
     .duration(200)
     .EUt(600)
@@ -2719,6 +2720,7 @@ assembler.recipeBuilder()
 
 assembler.recipeBuilder()
     .inputs(<minecraft:string>*2,<contenttweaker:stretchedwool>*4)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 5}))
     .outputs(<contenttweaker:parachute>)
     .duration(200)
     .EUt(600)
@@ -2727,6 +2729,7 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .inputs(<gregtech:machine:2197>,<gregtech:fluid_pipe:184>*4,<ore:circuitBasic>)
     .outputs(<contenttweaker:rebreather>)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 5}))
     .duration(40)
     .EUt(20)
     .buildAndRegister();
