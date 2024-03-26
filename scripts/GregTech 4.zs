@@ -3270,3 +3270,6 @@ assembler.recipeBuilder()
     .duration(40)
     .EUt(222)
     .buildAndRegister();
+
+recipes.addShaped(<gregtech:machine:10060>, [[<ore:platePlastic>, <gregtech:machine:503>, <ore:platePlastic>], 	[<ore:circuitExtreme>, <gregtech:meta_item_1:32602>, <ore:circuitExtreme>], 	[<ore:platePlastic>, <ore:frameGtStainlessSteel>, <ore:platePlastic>]]);
+
