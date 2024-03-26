@@ -2067,3 +2067,11 @@ t2_rocket_engine.setToolClass("pickaxe");
 t2_rocket_engine.setToolLevel(1);
 t2_rocket_engine.setBlockSoundType(<soundtype:metal>);
 t2_rocket_engine.register();
+
+var intermediate_protective_outer_wall = VanillaFactory.createBlock("intermediate_protective_outer_wall", <blockmaterial:rock>);
+intermediate_protective_outer_wall.setBlockHardness(12.0);
+intermediate_protective_outer_wall.setBlockResistance(10.0);
+intermediate_protective_outer_wall.setToolClass("pickaxe");
+intermediate_protective_outer_wall.setToolLevel(1);
+intermediate_protective_outer_wall.setBlockSoundType(<soundtype:metal>);
+intermediate_protective_outer_wall.register();
