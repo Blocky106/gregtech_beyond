@@ -26,9 +26,9 @@ import crafttweaker.util.Position3f;
 import mods.gregtech.recipe.functions.ICompleteRecipeFunction;
 import mods.gregtech.recipe.IRecipeLogic;
 
-var loc = "rocket_one";
-var meta = 10060;
-val rocket_one = Builder.start(loc, meta)
+var loc = "rocket_two";
+var meta = 10061;
+val rocket_two = Builder.start(loc, meta)
     .withPattern(
             FactoryBlockPattern.start(RelativeDirection.RIGHT, RelativeDirection.BACK, RelativeDirection.UP)
                 .aisle("~~~~~","~T~T~","~~T~~","~T~T~","~~~~~")
@@ -45,7 +45,7 @@ val rocket_one = Builder.start(loc, meta)
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
                 .whereOr("C", 
-                <blockstate:contenttweaker:protective_outer_wall>,
+                <blockstate:contenttweaker:intermediate_protective_outer_wall>,
                     IBlockMatcher.abilityPartPredicate(
                         MultiblockAbility.IMPORT_FLUIDS,
                         MultiblockAbility.IMPORT_ITEMS,
@@ -58,7 +58,7 @@ val rocket_one = Builder.start(loc, meta)
                 .where("Q", <blockstate:contenttweaker:rocket_equipment>)
                 .where("F", <blockstate:contenttweaker:stabilization_fin>)
                 .where("T", <blockstate:contenttweaker:rocket_thruster>)
-                .where("R", <blockstate:contenttweaker:t1_rocket_engine>)
+                .where("R", <blockstate:contenttweaker:t2_rocket_engine>)
                 .build())
         .addDesign(
                 FactoryMultiblockShapeInfo.start()
@@ -67,14 +67,14 @@ val rocket_one = Builder.start(loc, meta)
                 .aisle("  T  ","  R  "," SCE ","FCCCF"," FCF "," CQC "," G C "," G C "," GOC ","  C  ","  C  ")
                 .aisle(" T T "," R R "," CCC "," CCC "," CFC "," CCC ","  C  ","  G  ","  C  ","     ","     ")
                 .aisle("     ","     ","     ","  F  ","     ","     ","     ","     ","     ","     ","     ")
-                .where("C", <blockstate:contenttweaker:protective_outer_wall>)
+                .where("C", <blockstate:contenttweaker:intermediate_protective_outer_wall>)
                 .where("S", IBlockInfo.controller(loc))
                 .where("O", <blockstate:contenttweaker:guidance_system>)
                 .where("Q", <blockstate:contenttweaker:rocket_equipment>)
                 .where("G", <blockstate:extrautils2:decorativeglass>)
                 .where("F", <blockstate:contenttweaker:stabilization_fin>)
                 .where("T", <blockstate:contenttweaker:rocket_thruster>)
-                .where("R", <blockstate:contenttweaker:t1_rocket_engine>)
+                .where("R", <blockstate:contenttweaker:t2_rocket_engine>)
                 .where("L", MetaTileEntities.FLUID_IMPORT_HATCH[1], IFacing.south())
                 .where("X", MetaTileEntities.FLUID_EXPORT_HATCH[1], IFacing.north())
                 .where("E", MetaTileEntities.ENERGY_INPUT_HATCH[3], IFacing.east())
@@ -84,13 +84,22 @@ val rocket_one = Builder.start(loc, meta)
                         .maxFluidInputs(1)
                         .maxOutputs(1)
                         .build())
-.withTexture(ICubeRenderer.sided("contenttweaker:blocks/protective_outer_wall"))
+.withTexture(ICubeRenderer.sided("contenttweaker:blocks/intermediate_protective_outer_wall"))
 .withZoom(0.5f)
 .buildAndRegister() as Multiblock;
 
-rocket_one.recipeMap.recipeBuilder()
+rocket_two.recipeMap.recipeBuilder()
+    .inputs(<contenttweaker:researchpapermoon>)
     .fluidInputs(<liquid:rocket_fuel>*1000)
     .outputs(<contenttweaker:moon>)
+    .duration(20)
+    .EUt(120)
+    .buildAndRegister();
+
+rocket_two.recipeMap.recipeBuilder()
+    .inputs(<contenttweaker:researchpapermars>)
+    .fluidInputs(<liquid:rocket_fuel_c>*1000)
+    .outputs(<contenttweaker:mars>)
     .duration(20)
     .EUt(120)
     .buildAndRegister();
