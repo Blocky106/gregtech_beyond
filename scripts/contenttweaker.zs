@@ -2056,3 +2056,14 @@ heavydutyplatet5.register();
 
 var heavydutyplatet6 = VanillaFactory.createItem("heavydutyplatet6");
 heavydutyplatet6.register();
+
+var nozzle_t2 = VanillaFactory.createItem("nozzle_t2");
+nozzle_t2.register();
+
+var t2_rocket_engine = VanillaFactory.createBlock("t2_rocket_engine", <blockmaterial:rock>);
+t2_rocket_engine.setBlockHardness(12.0);
+t2_rocket_engine.setBlockResistance(10.0);
+t2_rocket_engine.setToolClass("pickaxe");
+t2_rocket_engine.setToolLevel(1);
+t2_rocket_engine.setBlockSoundType(<soundtype:metal>);
+t2_rocket_engine.register();
