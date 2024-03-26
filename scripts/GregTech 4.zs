@@ -3164,3 +3164,109 @@ distillation_tower.recipeBuilder()
     .EUt(20000)
     .buildAndRegister();
 
+assembler.recipeBuilder()
+    .inputs(<contenttweaker:nozzle>,<contenttweaker:propellant_tank>,<contenttweaker:rocket_combustion_chamber>,<contenttweaker:aluminium_item_casing>*2,<gregtech:meta_item_1:12183>*2)
+    .outputs(<contenttweaker:t1_rocket_engine>)
+    .duration(20)
+    .EUt(120)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs(<contenttweaker:aluminium_item_casing>*2,<gregtech:meta_item_1:12041>*2)
+    .outputs(<contenttweaker:nozzle>)
+    .duration(20)
+    .EUt(120)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs(<contenttweaker:aluminium_item_casing>*2,<gregtech:meta_item_1:12183>*2,<gregtech:meta_item_1:17183>*2,<contenttweaker:bulatsteelrod>*2)
+    .outputs(<contenttweaker:rocket_combustion_chamber>)
+    .duration(20)
+    .EUt(120)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:12183>*4,<contenttweaker:parachute>,<contenttweaker:oxygen_mask>,<contenttweaker:rebreather>)
+    .outputs(<contenttweaker:rocket_equipment>)
+    .duration(200)
+    .EUt(90)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs(<ore:circuitAdvanced>*4,<gregtech:meta_item_1:12183>*4,<gtadditions:ga_meta_item:32578>*2,<minecraft:lever>*2,<contenttweaker:keyboard>)
+    .outputs(<contenttweaker:guidance_system>)
+    .duration(200)
+    .EUt(180)
+    .buildAndRegister();
+
+metal_bender.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:12184>*4)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 32}))
+    .outputs(<contenttweaker:stabilization_fin>)
+    .duration(800)
+    .EUt(20)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:12109>,<gregtech:meta_item_1:12184>*2)
+    .outputs(<contenttweaker:heavydutyalloyt1>)
+    .duration(400)
+    .fluidInputs(<liquid:tin_alloy>*144)
+    .EUt(12)
+    .buildAndRegister();
+
+implosion.recipeBuilder()
+    .inputs(<contenttweaker:heavydutyalloyt1>)
+    .outputs(<contenttweaker:heavydutyplatet1>)
+    .duration(40)
+    .EUt(48)
+    .property("explosive", 2)
+    .buildAndRegister();
+
+implosion.recipeBuilder()
+    .inputs(<contenttweaker:heavydutyalloyt2>)
+    .outputs(<contenttweaker:heavydutyplatet2>)
+    .duration(40)
+    .EUt(192)
+    .property("explosive", 4)
+    .buildAndRegister();
+
+implosion.recipeBuilder()
+    .inputs(<contenttweaker:heavydutyalloyt3>)
+    .outputs(<contenttweaker:heavydutyplatet3>)
+    .duration(40)
+    .EUt(768)
+    .property("explosive", 8)
+    .buildAndRegister();
+
+implosion.recipeBuilder()
+    .inputs(<contenttweaker:heavydutyalloyt4>)
+    .outputs(<contenttweaker:heavydutyplatet4>)
+    .duration(40)
+    .EUt(3072)
+    .property("explosive", 16)
+    .buildAndRegister();
+
+implosion.recipeBuilder()
+    .inputs(<contenttweaker:heavydutyalloyt5>)
+    .outputs(<contenttweaker:heavydutyplatet5>)
+    .duration(40)
+    .EUt(12288)
+    .property("explosive", 32)
+    .buildAndRegister();
+
+implosion.recipeBuilder()
+    .inputs(<contenttweaker:heavydutyalloyt6>)
+    .outputs(<contenttweaker:heavydutyplatet6>)
+    .duration(40)
+    .EUt(49152)
+    .property("explosive", 64)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs(<contenttweaker:heavydutyplatet1>*6,<gregtech:frame_cupronickel>)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 6}))
+    .outputs(<contenttweaker:protective_outer_wall>)
+    .duration(40)
+    .EUt(222)
+    .buildAndRegister();
