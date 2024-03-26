@@ -168,3 +168,10 @@ cstr.recipeMap.recipeBuilder()
     .duration(820)
     .EUt(1490)
     .buildAndRegister();
+
+cstr.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:hydrogen>*1000,<liquid:chlorine>*1000)
+    .fluidOutputs(<liquid:hydrogen_chloride>*1000)
+    .duration(200)
+    .EUt(80)
+    .buildAndRegister();
