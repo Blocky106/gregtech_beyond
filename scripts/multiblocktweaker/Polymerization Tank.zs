@@ -314,4 +314,27 @@ polymerization_tank.recipeMap.recipeBuilder()
     .duration(200)
     .EUt(25)
     .buildAndRegister();
-    
+
+polymerization_tank.recipeMap.recipeBuilder()
+    .notConsumable(<gtadditions:ga_dust:32001>)
+    .fluidInputs(<liquid:propene>*1000)
+    .fluidOutputs(<liquid:polypropelene>*1000)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
+
+polymerization_tank.recipeMap.recipeBuilder()
+    .notConsumable(<gtadditions:ga_dust:32002>)
+    .fluidInputs(<liquid:propene>*1000)
+    .fluidOutputs(<liquid:polypropelene>*1000)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
+
+polymerization_tank.recipeMap.recipeBuilder()
+    .notConsumable(<gtadditions:ga_dust:32000>)
+    .fluidInputs(<liquid:propene>*1000)
+    .fluidOutputs(<liquid:polypropelene>*1000)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
