@@ -2733,3 +2733,24 @@ assembler.recipeBuilder()
     .duration(40)
     .EUt(20)
     .buildAndRegister();
+
+chemReactor.findRecipe(480, null,[<liquid:hydrochloric_acid>*1000,<liquid:aniline>*2000]).remove();
+lcr.findRecipe(480, null,[<liquid:hydrochloric_acid>*1000,<liquid:aniline>*2000]).remove();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:hydrochloric_acid>*1000,<liquid:aniline>*2000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 2}))
+    .fluidOutputs(<liquid:ammonium_chloride>*1000)
+    .outputs(<gregtechfoodoption:gtfo_oredict_item:1097>*24)
+    .duration(299)
+    .EUt(480)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:hydrochloric_acid>*1000,<liquid:aniline>*2000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 2}))
+    .fluidOutputs(<liquid:ammonium_chloride>*1000)
+    .outputs(<gregtechfoodoption:gtfo_oredict_item:1097>*24)
+    .duration(299)
+    .EUt(480)
+    .buildAndRegister();
