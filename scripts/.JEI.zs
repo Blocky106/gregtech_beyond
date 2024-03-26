@@ -91,6 +91,7 @@ mods.jei.JEI.hideCategory("extrautils2.terraformer");
 mods.jei.JEI.hideCategory("EIOTank");
 mods.jei.JEI.hideCategory("forestry.bottler");
 mods.jei.JEI.hideCategory("gtadditions:disassembler");
+mods.jei.JEI.hideCategory("gregtech:rocket_one");
 
 
 
