@@ -110,65 +110,59 @@ val planar_research_plant = Builder.start(loc, meta)
 .buildAndRegister() as Multiblock;
 
 
-recipes.addShapeless(<contenttweaker:researchpapermoon>,[<minecraft:paper>,<minecraft:dye>]);
-recipes.addShapeless(<contenttweaker:researchpapermars>,[<contenttweaker:researchpapermoon>,<gregtech:meta_item_1:14072>.transformDamage(0)]);
-recipes.addShapeless(<contenttweaker:researchpapermercury>,[<contenttweaker:researchpapermoon>,<gregtech:meta_item_1:14788>.transformDamage(0)]);
-recipes.addShapeless(<contenttweaker:researchpaperasteroids>,[<contenttweaker:researchpapermercury>]);
-
-
 
 planar_research_plant.recipeMap.recipeBuilder()
-    .inputs(<contenttweaker:researchpapermoon>)
-    .chancedOutput(<contenttweaker:moon>, 100, 0)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .chancedOutput(<contenttweaker:researchpapermoon>, 100, 0)
     .duration(800)
     .EUt(250)
     .buildAndRegister();
 
 planar_research_plant.recipeMap.recipeBuilder()
-    .inputs(<contenttweaker:researchpapermars>)
-    .chancedOutput(<contenttweaker:mars>, 100, 0)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 2}))
+    .chancedOutput(<contenttweaker:researchpapermars>, 100, 0)
     .duration(800)
     .EUt(250)
     .buildAndRegister();
 
 planar_research_plant.recipeMap.recipeBuilder()
-    .inputs(<contenttweaker:researchpaperasteroids>)
-    .chancedOutput(<contenttweaker:asteroids>, 100, 0)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 3}))
+    .chancedOutput(<contenttweaker:researchpaperasteroids>, 100, 0)
     .duration(800)
     .EUt(250)
     .buildAndRegister();
 
 planar_research_plant.recipeMap.recipeBuilder()
-    .inputs(<contenttweaker:researchpaperceres>)
-    .chancedOutput(<contenttweaker:ceres>, 100, 0)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 4}))
+    .chancedOutput(<contenttweaker:researchpaperceres>, 100, 0)
     .duration(800)
     .EUt(250)
     .buildAndRegister();
 
 planar_research_plant.recipeMap.recipeBuilder()
-    .inputs(<contenttweaker:researchpaperhaumea>)
-    .chancedOutput(<contenttweaker:haumea>, 100, 0)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 5}))
+    .chancedOutput(<contenttweaker:researchpaperhaumea>, 100, 0)
     .duration(800)
     .EUt(250)
     .buildAndRegister();
 
 planar_research_plant.recipeMap.recipeBuilder()
-    .inputs(<contenttweaker:researchpapermercury>)
-    .chancedOutput(<contenttweaker:mercury>, 100, 0)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 6}))
+    .chancedOutput(<contenttweaker:researchpapermercury>, 100, 0)
     .duration(800)
     .EUt(250)
     .buildAndRegister();
 
 planar_research_plant.recipeMap.recipeBuilder()
-    .inputs(<contenttweaker:researchpapereris>)
-    .chancedOutput(<contenttweaker:eris>, 100, 0)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 7}))
+    .chancedOutput(<contenttweaker:researchpapereris>, 100, 0)
     .duration(800)
     .EUt(250)
     .buildAndRegister();
 
 planar_research_plant.recipeMap.recipeBuilder()
-    .inputs(<contenttweaker:researchpaperjupiter>)
-    .chancedOutput(<contenttweaker:jupiter>, 100, 0)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 8}))
+    .chancedOutput(<contenttweaker:researchpaperjupiter>, 100, 0)
     .duration(800)
     .EUt(250)
     .buildAndRegister();
