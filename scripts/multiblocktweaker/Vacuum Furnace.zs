@@ -68,18 +68,9 @@ val vacuum_furnace = Builder.start(loc, meta)
                 .build())
         .addDesign(
                 FactoryMultiblockShapeInfo.start()
-                .aisle(
-                    "WW  FP",
-                    "CPGGPW",
-                    "WW  FP")
-                .aisle(
-                    "ICCCCA",
-                    "S    A",
-                    "OCCCEA")
-                .aisle(
-                    "WW  FP",
-                    "CPGGPW",
-                    "WW  FP")
+                .aisle("WW  FP","CPGGPW","WW  FP")
+                .aisle("ICCCCA","S    A","OCCCEA")
+                .aisle("WW  FP","CPGGPW","WW  FP")
 
                 .where("C", <metastate:contenttweaker:vacuumfurnacecasing>)
                 .where("S", IBlockInfo.controller(loc))
