@@ -43,7 +43,6 @@ recipes.addShaped(<contenttweaker:motor>*2, [	[<ore:plateIronMagnetic>, <content
 recipes.addShaped(<contenttweaker:coolantcontainmentcell>, [	[<ore:plateBlackSteel>, <ore:plateNickelZincFerrite>, <ore:plateBlackSteel>], 	[<ore:plateBlackSteel>, <gregtech:meta_item_1:32406>, <ore:plateBlackSteel>], 	[<ore:plateBlackSteel>, <ore:plateNickelZincFerrite>, <ore:plateBlackSteel>]]);
 recipes.addShaped(<contenttweaker:pbistrengthenedtetrixcasing>, [	[<ore:platePolybenzimidazole>, <ore:plateFullerenePolymerMatrix>, <ore:platePolybenzimidazole>], 	[<ore:platePolybenzimidazole>, <ore:frameGtFullerenepolymertetrix>, <ore:platePolybenzimidazole>], 	[<ore:platePolybenzimidazole>, <ore:plateFullerenePolymerMatrix>, <ore:platePolybenzimidazole>]]);
 recipes.addShapeless(<contenttweaker:tinyoranorhodiumcatalystdust>*9,[<gtadditions:ga_dust:32087>]);
-//recipes.addShaped(<contenttweaker:astro_miner>, [	[<advancedrocketry:ic:2>, <advancedrocketry:satelliteprimaryfunction:3>, <gregtech:meta_item_1:32692>], 	[<advancedrocketry:satellitepowersource>, <advancedrocketry:satelliteprimaryfunction>, <thermalfoundation:material:656>], 	[<advancedrocketry:ic:2>, <ore:plateSteel>, null]]);
 recipes.addShaped(<contenttweaker:obsidianrod>, [	[null, null, null], 	[null, <ore:obsidian>, null], 	[null, <ore:obsidian>, null]]);
 recipes.addShaped(<contenttweaker:obsidianrod>, [ 	[null, <ore:obsidian>, null], 	[null, <ore:obsidian>, null], [null, null, null]]);
 recipes.addShaped(<contenttweaker:space_warper_core>, [	[<contenttweaker:bulatsteelplate>, <ore:plateBlackSteel>, <contenttweaker:bulatsteelplate>], 	[<ore:plateBlackSteel>, <ore:craftingLensBlue>, <ore:plateBlackSteel>], 	[<contenttweaker:bulatsteelplate>, <ore:plateBlackSteel>, <contenttweaker:bulatsteelplate>]]);
@@ -51,14 +50,11 @@ recipes.addShaped(<contenttweaker:climateproofcasing>, [	[<contenttweaker:bulats
 recipes.addShaped(<contenttweaker:lightlytreatedwoodplanks>*4, [	[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], 	[<ore:plankWood>, <forge:bucketfilled>.withTag({FluidName: "creosote", Amount: 1000}), <ore:plankWood>], 	[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]);
 recipes.addShaped(<contenttweaker:steelborderedwoodencasing>*2, [	[<ore:boltSteel>, <ore:stickLongWood>, <ore:boltSteel>], 	[<ore:stickIron>, <contenttweaker:lightlytreatedwoodplanks>, <ore:stickIron>], 	[<ore:boltSteel>, <ore:stickLongWood>, <ore:boltSteel>]]);
 recipes.addShaped(<contenttweaker:detectiondevice>, [[<minecraft:comparator>, <ore:plateRedAlloy>, <minecraft:comparator>], [<ore:plateRedAlloy>, <ore:stoneSmooth>, <ore:plateRedAlloy>], 	[<minecraft:comparator>, <ore:plateRedAlloy>, <minecraft:comparator>]]);
-
 furnace.addRecipe(<contenttweaker:blockgraphite>,<gregtech:meta_block_compressed_6:5>);
 furnace.addRecipe(<contenttweaker:rubyingot>,<gregtech:meta_item_1:2154>);
 furnace.addRecipe(<gtadditions:ga_dust:32007>, <contenttweaker:cryoliteore>);
-
 recipes.addShaped(<contenttweaker:treatedwoodplanks>*8, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], 	[<ore:plankWood>, <contenttweaker:paraffinwax>, <ore:plankWood>], 	[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]);
 recipes.addShaped(<contenttweaker:steel_plated_workbench>,[[<ore:plateSteel>,null,<ore:plateSteel>],[null,<minecraft:crafting_table>,null],[<ore:plateSteel>,null,<ore:plateSteel>]]);
-recipes.addShaped(<contenttweaker:lq_steel_casing>*6,[[<gregtech:meta_item_1:12619>,null,<gregtech:meta_item_1:12619>],[<gregtech:meta_item_1:12619>,<gregtech:frame_low_quality_steel>,<gregtech:meta_item_1:12619>],[<gregtech:meta_item_1:12619>,null,<gregtech:meta_item_1:12619>]]);
 
 
 
