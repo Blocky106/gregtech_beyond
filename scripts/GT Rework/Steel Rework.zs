@@ -53,13 +53,12 @@ var carbonSource as IItemStack[] = [
 <gregtech:meta_item_1:2101>,
 <gregtech:meta_item_1:2211>,
 <gregtech:meta_item_1:2106>,
-<gregtech:meta_item_1:2012>,
 ];
 
 for i in carbonSource {
 
 ebf.recipeBuilder()
-    .inputs(<minecraft:iron_ingot>, carbonSource)
+    .inputs(<minecraft:iron_ingot>, i * 2)
     .outputs(<gregtech:meta_item_1:10184>,<gregtech:meta_item_1:1110>)
     .property("temperature", 1800)
     .duration(200)
@@ -67,7 +66,7 @@ ebf.recipeBuilder()
     .buildAndRegister();
 
 ebf.recipeBuilder()
-    .inputs(<gregtech:meta_item_1:10140>, carbonSource)
+    .inputs(<gregtech:meta_item_1:10140>, i * 2)
     .outputs(<gregtech:meta_item_1:10184>,<gregtech:meta_item_1:1110>)
     .property("temperature", 1800)
     .duration(50)
@@ -75,7 +74,7 @@ ebf.recipeBuilder()
     .buildAndRegister();
 
 ebf.recipeBuilder()
-    .inputs(<gregtech:meta_item_1:10197>, carbonSource)
+    .inputs(<gregtech:meta_item_1:10197>, i* 2)
     .outputs(<gregtech:meta_item_1:10184>,<gregtech:meta_item_1:1110>)
     .property("temperature", 1800)
     .duration(50)
@@ -87,3 +86,37 @@ ebf.recipeBuilder()
 recipes.addShapeless(<gregtech:meta_item_1:2619>*2,[<gregtech:meta_item_1:2033>,<gregtech:meta_item_1:2106>]);
 
 recipes.addShaped(<contenttweaker:lq_steel_casing>*6,[[<gregtech:meta_item_1:12619>,null,<gregtech:meta_item_1:12619>],[<gregtech:meta_item_1:12619>,<gregtech:frame_low_quality_steel>,<gregtech:meta_item_1:12619>],[<gregtech:meta_item_1:12619>,null,<gregtech:meta_item_1:12619>]]);
+
+
+var HighPuritycarbonSource as IItemStack[] = [
+<gtadditions:ga_dust:32184>,
+<gregtech:meta_item_1:2012>,
+];
+
+for i in HighPuritycarbonSource {
+    
+ebf.recipeBuilder()
+    .inputs(<minecraft:iron_ingot>, i)
+    .outputs(<gregtech:meta_item_1:10184>,<gregtech:meta_item_1:1110>)
+    .property("temperature", 1800)
+    .duration(200)
+    .EUt(80)
+    .buildAndRegister();
+
+ebf.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:10140>, i)
+    .outputs(<gregtech:meta_item_1:10184>,<gregtech:meta_item_1:1110>)
+    .property("temperature", 1800)
+    .duration(50)
+    .EUt(80)
+    .buildAndRegister();
+
+ebf.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:10197>, i)
+    .outputs(<gregtech:meta_item_1:10184>,<gregtech:meta_item_1:1110>)
+    .property("temperature", 1800)
+    .duration(50)
+    .EUt(80)
+    .buildAndRegister();
+
+}
