@@ -433,6 +433,7 @@ chemical_bath.recipeBuilder()
 	.buildAndRegister();
 
 mixer.recipeBuilder()
+	.fluidInputs(<liquid:oxygen>*1000)
 	.inputs(<gregtech:meta_item_1:2044> * 4,<gregtech:meta_item_1:2016>,<gregtech:meta_item_1:2018>)  
 	.outputs(<gtadditions:ga_dust:32005>*6)
 	.duration(180)

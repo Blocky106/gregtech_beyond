@@ -588,7 +588,7 @@ ebf.recipeBuilder()
 
 ebf.recipeBuilder() 
     .inputs(<gtadditions:ga_dust:32005>)
-    .outputs(<gregtech:meta_item_1:2110>)
+    .outputs(<gregtech:meta_item_1:2110>,<qmd:chemical_dust:4>)
     .fluidOutputs(<liquid:moltennichromerichblend>*144)
     .property("temperature", 2700)
     .duration(200)
@@ -3330,3 +3330,26 @@ cas.recipeBuilder()
     .EUt(244)
     .buildAndRegister();
 
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:oxygen>*1000)
+    .inputs(<gregtech:meta_item_1:2018>)
+    .outputs(<qmd:chemical_dust:4>)
+    .duration(80)
+    .EUt(12)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:oxygen>*1000)
+    .inputs(<gregtech:meta_item_1:2018>)
+    .outputs(<qmd:chemical_dust:4>)
+    .duration(80)
+    .EUt(12)
+    .buildAndRegister();
+
+roasters.recipeBuilder()
+    .inputs(<qmd:chemical_dust:4>)
+    .outputs(<gregtech:meta_item_1:2018>)
+    .duration(80)
+    .fluidOutputs(<liquid:steam>*1000)
+    .EUt(12)
+    .buildAndRegister();
