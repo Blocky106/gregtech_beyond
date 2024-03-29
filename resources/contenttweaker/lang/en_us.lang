@@ -1611,3 +1611,6 @@ fluid.hot_treated_wastewater=Hot Treated Wastewater
 fluid.trichlorosilane=Trichlorosilane
 fluid.hydrogen_chloride=Hydrogen Chloride
 fluid.iron_chloride_solution=Iron Chloride Solution
+multiblocktweaker.machine.pvd_unit.name=PVD Unit
+recipemap.pvd_unit.name=Plasma Vapor Deposition
+
