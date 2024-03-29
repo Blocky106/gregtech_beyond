@@ -883,6 +883,7 @@ util.registerFluid("teflon",0xa1a1a1);
 util.registerFluid("wolframiteimpureslurry",0x39593C);
 util.registerFluid("wolframiteslurry",0x355D38);
 util.registerFluid("silicon_carbide",0x515151);
+util.registerFluid("hot_treated_wastewater",0x515151);
 
 
 
