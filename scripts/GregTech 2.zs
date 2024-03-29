@@ -2754,3 +2754,45 @@ lcr.recipeBuilder()
     .duration(299)
     .EUt(480)
     .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:12072>,<gregtech:meta_item_2:32433>*2,<gregtech:meta_item_1:12184>*4)
+    .outputs(<contenttweaker:heavydutyalloyt2>)
+    .fluidInputs(<liquid:soldering_alloy>*72)
+    .duration(200)
+    .EUt(1800)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs(<gregtech:frame_titanium>,<contenttweaker:heavydutyplatet2>*6)
+    .outputs(<contenttweaker:intermediate_protective_outer_wall>)
+    .duration(90)
+    .EUt(1800)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 6}))
+    .buildAndRegister();
+    
+assembler.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:32612>*2,<gregtech:metal_casing:4>,<gtadditions:ga_meta_item:32304>)
+    .fluidInputs(<liquid:plastic>*144)
+    .outputs(<contenttweaker:rocket_thruster>)
+    .duration(90)
+    .EUt(90)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:12041>*2,<gregtech:meta_item_1:12072>*4,<gregtech:meta_item_2:26072>,<gregtech:meta_item_1:17072>*4)
+    .outputs(<contenttweaker:nozzle_t2>)
+    .fluidInputs(<liquid:stainless_steel>*144)
+    .duration(2000)
+    .EUt(50)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs(<contenttweaker:nozzle_t2>,<gregtech:meta_item_1:12072>*4,<gregtech:frame_titanium>,<contenttweaker:propellant_tank>,<contenttweaker:rocket_combustion_chamber>,<gregtech:meta_item_2:26072>)
+    .outputs(<contenttweaker:t2_rocket_engine>)
+    .fluidInputs(<liquid:plastic>*900)
+    .duration(299)
+    .EUt(90)
+    .buildAndRegister();
+
+recipes.addShaped(<gregtech:machine:10061>, [[<contenttweaker:bulatsteelplate>, <gregtech:machine:504>, <contenttweaker:bulatsteelplate>], [<ore:circuitElite>, <gregtech:meta_item_1:32603>, <ore:circuitElite>], [<contenttweaker:bulatsteelplate>, <ore:frameGtTitanium>, <contenttweaker:bulatsteelplate>]]);
