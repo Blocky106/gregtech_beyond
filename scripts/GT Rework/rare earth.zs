@@ -324,7 +324,7 @@ lcr.findRecipe(480,null,[<liquid:hydrochloric_acid>*3000,<liquid:rare_earth_nitr
 
 chemReactor.findRecipe(480,null,[<liquid:hydrochloric_acid>*6000,<liquid:rare_earth_sulfate_solution>*2000]).remove();
 
-dehydrator.findRecipe(500,[<gregtech:meta_item_1:2610>*40],[<liquid:hydrogen_peroxide>*1000,<liquid:sulfuric_acid>*24000])
+dehydrator.findRecipe(500,[<gregtech:meta_item_1:2610>*40],[<liquid:hydrogen_peroxide>*1000,<liquid:sulfuric_acid>*24000]).remove();
 
 dehydrator.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2610>*40)
