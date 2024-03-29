@@ -8,6 +8,8 @@ import crafttweaker.block.IBlock;
 import mods.jei.JEI.removeAndHide;
 import mods.jei.JEI.hideCategory;
 
+
+mods.jei.JEI.hideCategory("gregtech:manufactory");
 mods.jei.JEI.hideCategory("gregtech:fischer_tropsch_reactor");
 mods.jei.JEI.hideCategory("forestry.squeezer");
 mods.jei.JEI.hideCategory("gregtech:textile_factory");
@@ -92,6 +94,8 @@ mods.jei.JEI.hideCategory("EIOTank");
 mods.jei.JEI.hideCategory("forestry.bottler");
 mods.jei.JEI.hideCategory("gtadditions:disassembler");
 mods.jei.JEI.hideCategory("gregtech:rocket_one");
+mods.jei.JEI.hideCategory("gregtech:rocket_two");
+mods.jei.JEI.hideCategory("gregtech:pvd_unit");
 
 
 
