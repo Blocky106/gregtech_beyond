@@ -1980,7 +1980,6 @@ assembler.recipeBuilder()
     .EUt(120)
     .buildAndRegister();
 
-recipes.addShapeless(<gregtech:meta_item_1:2619>*2,[<gregtech:meta_item_1:2033>,<gregtech:meta_item_1:2106>]);
 
 mixer.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2180>*2,<gregtech:meta_item_1:2521>*2)
@@ -3353,3 +3352,6 @@ roasters.recipeBuilder()
     .fluidOutputs(<liquid:steam>*1000)
     .EUt(12)
     .buildAndRegister();
+
+electrolyzer.findRecipe(30, null,[<liquid:methane>*1000]).remove();
+
