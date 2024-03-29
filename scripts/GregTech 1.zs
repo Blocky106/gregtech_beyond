@@ -11,6 +11,10 @@ import crafttweaker.block.IBlock;
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Block;
 import crafttweaker.item.IItemCondition;
+import mods.gtadditions.recipe.GARecipeMaps.ADV_FUSION_RECIPES;
+import mods.gregtech.recipe.CokeOvenRecipeBuilder;
+import mods.gtadditions.recipe.Utils;
+
 
 PBFRecipeBuilder.start()
     .input(<gregtech:meta_item_1:2095>)
