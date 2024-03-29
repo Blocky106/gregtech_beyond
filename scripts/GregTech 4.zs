@@ -3140,6 +3140,16 @@ centrifuge.recipeBuilder()
 
 centrifuge.findRecipe(480, null, [<liquid:ferric_ree_chloride>*2000]).remove();
 
+lcentrifuge.recipeBuilder()
+    .fluidInputs(<liquid:neutralised_red_mud>*2000)
+    .fluidOutputs(<liquid:iron_chloride_solution>*1000,<liquid:red_slurry>*1000,<liquid:salt_water>*4000)
+    .duration(200)
+    .EUt(120)
+    .buildAndRegister();
+
+lcentrifuge.findRecipe(480, null, [<liquid:ferric_ree_chloride>*2000]).remove();
+
+
 centrifuge.recipeBuilder()
     .fluidInputs(<liquid:iron_chloride_solution>*2000)
     .fluidOutputs(<liquid:iron_chloride>*1000,<liquid:salt_water>*3000)
@@ -3312,3 +3322,11 @@ lcr.recipeBuilder()
     .EUt(200)
     .duration(80)
     .buildAndRegister();
+
+cas.recipeBuilder()
+    .inputs(<qmd:semiconductor:5>,<gregtech:meta_item_1:12201>*4,<ore:circuitElite>,<qmd:part:4>*2)
+    .outputs(<qmd:semiconductor:6>)
+    .duration(400)
+    .EUt(244)
+    .buildAndRegister();
+
