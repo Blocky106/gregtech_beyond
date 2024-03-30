@@ -511,6 +511,23 @@ lcr.recipeBuilder()
 
 //Peptone
 
+mixer.recipeBuilder()
+    .fluidInputs(<liquid:water>*1000)
+    .inputs(<contenttweaker:pancreas>)
+    .notConsumable(<gtadditions:ga_meta_item:32396>)
+    .fluidOutputs(<liquid:homogenized_pancreas_mixture>*1000)
+    .duration(200)
+    .EUt(800)
+    .buildAndRegister();
+
+centrifuge.recipeBuilder()
+    .fluidInputs(<liquid:homogenized_pancreas_mixture>*1000)
+    .notConsumable(<liquid:nonylphenol>)
+    .fluidOutputs(<liquid:trypsin>*50)
+    .duration(20)
+    .EUt(80)
+    .buildAndRegister();
+
 chemReactor.recipeBuilder()
     .fluidInputs(<liquid:liquid_crystal_detector>*1000,<liquid:mutatedlivingsolder>*1000)
     .fluidOutputs(<liquid:living_mutation_medium>*2000)
@@ -523,4 +540,32 @@ lcr.recipeBuilder()
     .fluidOutputs(<liquid:living_mutation_medium>*2000)
     .duration(200)
     .EUt(12000000)
+    .buildAndRegister();
+
+bio.findRecipe(120,[<gtadditions:ga_dust:42>],[<liquid:bacterial_growth_medium>*250]).remove();
+
+bio.recipeBuilder()
+    .fluidInputs(<liquid:bacterial_growth_medium>*250)
+    .fluidOutputs(<liquid:depleted_growth_medium>*250)
+    .notConsumable(<liquid:yeem_solution>)
+    .inputs(<gtadditions:ga_dust:42>)
+    .outputs(<gtadditions:ga_dust:42>*2)
+    .duration(100)
+    .EUt(120)
+    .buildAndRegister();
+
+mixer.recipeBuilder()  
+    .fluidInputs(<liquid:distilled_water>*1000)
+    .fluidOutputs(<liquid:yeem_solution>*1000)
+    .inputs(<gtadditions:ga_dust:32185>)
+    .duration(200)
+    .EUt(120)
+    .buildAndRegister();
+
+lmixer.recipeBuilder()  
+    .fluidInputs(<liquid:distilled_water>*1000)
+    .fluidOutputs(<liquid:yeem_solution>*1000)
+    .inputs(<gtadditions:ga_dust:32185>)
+    .duration(200)
+    .EUt(120)
     .buildAndRegister();
