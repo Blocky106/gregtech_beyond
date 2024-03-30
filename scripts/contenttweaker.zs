@@ -2079,9 +2079,6 @@ intermediate_protective_outer_wall.register();
 var twilight_forest = VanillaFactory.createItem("twilight_forest");
 twilight_forest.register();
 
-var overworld = VanillaFactory.createItem("overworld");
-overworld.register();
-
 var aether = VanillaFactory.createItem("aether");
 aether.register();
 
@@ -2093,3 +2090,6 @@ end.register();
 
 var nether = VanillaFactory.createItem("nether");
 nether.register();
+
+var pancreas = VanillaFactory.createItem("pancreas");
+pancreas.register();
