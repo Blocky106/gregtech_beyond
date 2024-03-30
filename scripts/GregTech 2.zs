@@ -362,7 +362,7 @@ assembler.recipeBuilder()
     .buildAndRegister();
 
 assembler.recipeBuilder()
-	.inputs(<gregtech:cable:964>*16)
+	.inputs(<gregtech:cable:964>*8)
     .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 4}))
 	.outputs(<contenttweaker:superconductingcoil>)
 	.duration(80)
@@ -370,7 +370,7 @@ assembler.recipeBuilder()
 	.buildAndRegister();
 
 assembler.recipeBuilder()
-	.inputs(<gregtech:cable:966>*32)
+	.inputs(<gregtech:cable:966>*16)
     .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 4}))
 	.outputs(<contenttweaker:superconductingcoil>)
 	.duration(80)
@@ -811,7 +811,7 @@ assembly_line.recipeBuilder()
 
 engraver.recipeBuilder()
     .inputs(<contenttweaker:computationcomponent>)
-    .notConsumable(<ore:craftingLensLime>)
+    .notConsumable(<contenttweaker:biologically_approved_lense>)
     .outputs(<contenttweaker:unimprintedcrystalcpu>)
     .duration(400)
     .EUt(1200)
@@ -2797,3 +2797,12 @@ assembler.recipeBuilder()
     .buildAndRegister();
 
 recipes.addShaped(<gregtech:machine:10061>, [[<contenttweaker:bulatsteelplate>, <gregtech:machine:504>, <contenttweaker:bulatsteelplate>], [<ore:circuitElite>, <gregtech:meta_item_1:32603>, <ore:circuitElite>], [<contenttweaker:bulatsteelplate>, <ore:frameGtTitanium>, <contenttweaker:bulatsteelplate>]]);
+
+Utils.removeRecipeByOutput(assembler,[<gregtech:meta_item_1:32680>],[], false);
+
+assembler.recipeBuilder()
+    .inputs(<ore:circuitBasic>*2,<gregtech:meta_item_1:14094>*4,<gtadditions:ga_meta_item:109>*2,<contenttweaker:luminated_quartzite>)
+    .outputs(<gregtech:meta_item_1:32680>)
+    .duration(20)
+    .EUt(12)
+    .buildAndRegister();
