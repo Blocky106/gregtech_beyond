@@ -501,23 +501,35 @@ util.registerDust("white_phosporus", 32203, 0xBA68C8, "SHINY");
 util.registerDust("phosphorus_pentoxide", 32204, 0xBA68C8, "SHINY");
 util.registerDust("floated_andesite", 32205, 0x787575, "SHINY");
 util.registerDust("digested_andesite", 32206, 0x787575, "DULL");
+util.registerDust("iriditus", 32207, 0x00BCD4, "SHINY");
 
 
 
 
-
-util.registerFluid("alkylated_nonylphenol_mixture", 0xAFA6C2);
-util.registerFluid("alkylated_nonylphenol_mixture", 0xAFA6C2);
-util.registerFluid("nonylphenol", 0xAFA6C2);
-util.registerFluid("nonene", 0xAFA6C2);
-util.registerFluid("yeem_solution", 0xAFA6C2);
-util.registerFluid("homogenized_pancreas_mixture", 0xAFA6C2);
-util.registerFluid("sulfuric_oil_residues", 0xAFA6C2);
-util.registerFluid("kerosine", 0xAFA6C2);
-util.registerFluid("sulfuric_kerosine", 0xAFA6C2);
-util.registerFluid("sulfuric_gasoline", 0xAFA6C2);
-util.registerFluid("sulfuric_diesel", 0xAFA6C2);
-util.registerFluid("alkylated_natural_gas", 0xAFA6C2);
+util.registerFluid("ethoxylated_nonylphenol", 0x43A047);
+util.registerFluid("nonoxynol-9_solution", 0x43A047);
+util.registerFluid("nonoxynol-9", 0x43A047);
+util.registerFluid("xerizin", 0x43A047);
+util.registerFluid("fermented_superlubricenttincture_solution", 0xEF6C00);
+util.registerFluid("fermented_superlubricenttincture", 0x864109);
+util.registerFluid("steam_cracked_kerosene", 0xB89E61);
+util.registerFluid("hydro_cracked_kerosene", 0xB89E61);
+util.registerFluid("hexane", 0xEDE7F6);
+util.registerFluid("pentane", 0xEDE7F6);
+util.registerFluid("propylene", 0xC6B58E);
+util.registerFluid("trypsin", 0xEDCC3C);
+util.registerFluid("alkylated_nonylphenol_mixture", 0xA87C6E);
+util.registerFluid("nonylphenol", 0x796E69);
+util.registerFluid("nonene", 0x634F4B);
+util.registerFluid("yeem_solution", 0x6A1B9A);
+util.registerFluid("homogenized_pancreas_mixture", 0x004D40);
+util.registerFluid("fuel_oil", 0x827717);
+util.registerFluid("sulfuric_oil_residues", 0x827717);
+util.registerFluid("sulfuric_fuel_oil", 0xB89E61);
+util.registerFluid("sulfuric_kerosene", 0xB89E61);
+util.registerFluid("sulfuric_gasoline", 0xA8A374);
+util.registerFluid("sulfuric_diesel", 0xA19355);
+util.registerFluid("alkylated_natural_gas", 0xE6BFBD);
 util.registerFluid("syngas", 0xAFA6C2);
 util.registerFluid("trichlorosilane", 0x646464);
 util.registerFluid("hydrogen_chloride", 0x43A047);
@@ -761,8 +773,6 @@ util.registerFluid("tar",0x222121);
 util.registerFluid("oilgas",0x121010);
 util.registerFluid("vacuumflashedtar",0x121010);
 util.registerFluid("heavyoilresidues",0x181816);
-util.registerFluid("sulfuricbyproducts",0x2C2C2C);
-util.registerFluid("sulfuricoilresidues",0xFFEE58);
 util.registerFluid("desaltedoil",0x2C2C2C);
 util.registerFluid("dilutedoil",0x141414);
 util.registerFluid("hexanoldehyde",0xB71C1C);
