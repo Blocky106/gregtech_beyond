@@ -139,7 +139,7 @@ val enzymatic_hydrolisis_tank = Builder.start(loc, meta)
 
 enzymatic_hydrolisis_tank.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:milk>*1000,<liquid:hydrochloric_acid>*100)
-    .notConsumable(<liquid:trypsin>)
+    .notConsumable(<liquid:nonoxynol-9>)
     .fluidOutputs(<liquid:peptone>*1000)
     .duration(800)
     .EUt(24)
