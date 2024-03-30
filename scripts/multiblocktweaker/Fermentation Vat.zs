@@ -194,3 +194,11 @@ fermentation_vat.recipeMap.recipeBuilder()
     .duration(8000)
     .EUt(12)
     .buildAndRegister();
+
+fermentation_vat.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:superlubricenttincture>*25,<liquid:water>*1000)
+    .fluidOutputs(<liquid:fermented_superlubricenttincture_solution>*1000)
+    .duration(200)
+    .EUt(120)
+    .buildAndRegister();
+
