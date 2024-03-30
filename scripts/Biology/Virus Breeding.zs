@@ -639,13 +639,6 @@ lcr.recipeBuilder()
     .EUt(299)
     .buildAndRegister();
 
-chemReactor.recipeBuilder()
-    .fluidInputs(<liquid:ethoxylated_nonylphenol>*1000,<liquid:water>*1000)
-    .fluidOutputs(<liquid:nonylphenol>*800,<liquid:ethylene_glycol>*800,<liquid:nonoxynol-9_solution>*200,<liquid:hydrogen>*200)
-    .duration(299)
-    .EUt(100)
-    .buildAndRegister();
-
 lcr.recipeBuilder()
     .fluidInputs(<liquid:ethoxylated_nonylphenol>*1000,<liquid:water>*1000)
     .fluidOutputs(<liquid:nonylphenol>*800,<liquid:ethylene_glycol>*800,<liquid:nonoxynol-9_solution>*200,<liquid:hydrogen>*200)
@@ -659,3 +652,4 @@ distillation_tower.recipeBuilder()
     .duration(800)
     .EUt(1200)
     .buildAndRegister();
+
