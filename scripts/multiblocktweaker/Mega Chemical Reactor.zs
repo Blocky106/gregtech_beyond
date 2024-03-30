@@ -96,9 +96,9 @@ val mega_chemical_reactor = Builder.start(loc, meta)
         .addDesign(
                 FactoryMultiblockShapeInfo.start()
                 .aisle("CCCCCCCCC","CGGGGGGGC","CGGGGGGGC","CGGGGGGGC","CCCCCCCCC")
-                .aisle("CCCCCCCCC","C~~~~~~~C","C~~~~~~~C","C~~~~~~~C","CCCCCCCCC")
-                .aisle("CCCCCCCCC","C~~~~~~~C","SHHHHHHHE","C~~~~~~~C","CCCCCCCCC")
-                .aisle("CCCCCCCCC","C~~~~~~~C","C~~~~~~~C","C~~~~~~~C","CCCCCCCCC")
+                .aisle("CCCCCCCCC","C       C","C       C","C       C","CCCCCCCCC")
+                .aisle("CCCCCCCCC","C       C","SHHHHHHHC","C       C","CCCCCCCCC")
+                .aisle("CCCCCCCCC","C       C","C       C","C       C","CCCCCCCCC")
                 .aisle("CCCCCCCCC","CGGGGGGGC","CGGGGGGGC","CGGGGGGGC","CCCCCCCCC")
                 .where("H", <metastate:gregtech:wire_coil:8>)
                 .where("C", <metastate:gtadditions:ga_multiblock_casing:1>)
@@ -124,4 +124,5 @@ mega_chemical_reactor.update = function(recipeLogic as IRecipeLogic) {
     var oldProgress = recipeLogic.recipeProgress;
     recipeLogic.recipeProgress = oldProgress + 1;
 } as IUpdateFunction;
+
 
