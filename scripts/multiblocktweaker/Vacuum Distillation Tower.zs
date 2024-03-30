@@ -309,7 +309,7 @@ val vacuum_distillation_tower = Builder.start(loc, meta)
         FactoryRecipeMap.start(loc)
                         .maxInputs(1)
                         .maxFluidInputs(1)
-                        .maxFluidOutputs(3)
+                        .maxFluidOutputs(5)
                         .maxOutputs(3)
                         .build())
 .withTexture(ICubeRenderer.sided("contenttweaker:blocks/machine_casing_clean_stainless_steel"))
@@ -320,11 +320,11 @@ val vacuum_distillation_tower = Builder.start(loc, meta)
 
 
 vacuum_distillation_tower.recipeMap.recipeBuilder()
-    .fluidInputs(<liquid:sulfuricoilresidues>*1000)
-    .outputs(<contenttweaker:bitominousresidue>*3,<contenttweaker:stackwax>)
+    .fluidInputs(<liquid:sulfuric_oil_residues>*1000)
+    .outputs(<contenttweaker:bitominousresidue>)
     .duration(200)
     .EUt(240)
-    .fluidOutputs(<liquid:lubricant>*50,<liquid:sulfuricbyproducts>*200,<liquid:heavyoilresidues>*200)
+    .fluidOutputs(<liquid:lubricant>*400,<liquid:sulfuric_fuel_oil>*200,<liquid:sulfuric_diesel>*200,<liquid:sulfuric_kerosene>*100,<liquid:sulfuric_naphtha>*100)
     .buildAndRegister();
 
 vacuum_distillation_tower.recipeMap.recipeBuilder()
