@@ -1530,9 +1530,10 @@ chemical_plant.recipeBuilder()
     .EUt(22000)
     .buildAndRegister();
 
-mixer.recipeBuilder()
+lmixer.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2002>*2,<gregtech:meta_item_1:2207>*3,<gregtech:meta_item_1:2307>,<gregtech:meta_item_1:2074>*2)
     .outputs(<gregtech:meta_item_1:2565>*6)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
     .duration(400)
     .EUt(24000)
     .buildAndRegister();
