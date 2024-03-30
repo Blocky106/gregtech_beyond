@@ -3354,4 +3354,27 @@ roasters.recipeBuilder()
     .buildAndRegister();
 
 electrolyzer.findRecipe(30, null,[<liquid:methane>*1000]).remove();
+Utils.removeRecipeByOutput(chemReactor, null, [<liquid:methane>*1000], false);
+Utils.removeRecipeByOutput(lcr, null, [<liquid:methane>*1000], false);
+electrolyzer.findRecipe(60, [<gregtech:meta_item_1:2604>*16],null).remove();
 
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:phenol>*1000,<liquid:sulfuric_acid>*1000,<liquid:nonene>*1000)
+    .fluidOutputs(<liquid:alkylated_nonylphenol_mixture>*3000)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:phenol>*1000,<liquid:sulfuric_acid>*1000,<liquid:nonene>*1000)
+    .fluidOutputs(<liquid:alkylated_nonylphenol_mixture>*3000)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
+
+distillation_tower.recipeBuilder()
+    .fluidInputs(<liquid:alkylated_nonylphenol_mixture>*3000)
+    .fluidOutputs(<liquid:hydrogen_sulfide>*1000,<liquid:nonylphenol>*2000)
+    .duration(200)
+    .EUt(80)
+    .buildAndRegister();
