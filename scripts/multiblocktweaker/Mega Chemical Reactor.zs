@@ -50,7 +50,7 @@ val mega_chemical_reactor = Builder.start(loc, meta)
                     "G~~~G",
                     "CCCCC")
                 .aisle(
-                    "CCSCC",
+                    "CCCCC",
                     "G~H~G",
                     "G~H~G",
                     "G~H~G",
@@ -58,7 +58,7 @@ val mega_chemical_reactor = Builder.start(loc, meta)
                     "G~H~G",
                     "G~H~G",
                     "G~H~G",
-                    "CCCCC")
+                    "CCSCC")
                 .aisle(
                     "CCCCC",
                     "G~~~G",
@@ -118,10 +118,10 @@ val mega_chemical_reactor = Builder.start(loc, meta)
 
 .buildAndRegister() as Multiblock;
 
-mega_chemical_reactor.recipeMap.copyAll(RecipeMap.getByName("lcr"));
+mega_chemical_reactor.recipeMap.copyAll(RecipeMap.getByName("large_chemical_reactor"));
 
 mega_chemical_reactor.update = function(recipeLogic as IRecipeLogic) {
     var oldProgress = recipeLogic.recipeProgress;
-    recipeLogic.recipeProgress = oldProgress + 3;
+    recipeLogic.recipeProgress = oldProgress + 1;
 } as IUpdateFunction;
 
