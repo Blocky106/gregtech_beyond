@@ -2093,3 +2093,6 @@ nether.register();
 
 var pancreas = VanillaFactory.createItem("pancreas");
 pancreas.register();
+
+var biologically_approved_lense = VanillaFactory.createItem("biologically_approved_lense");
+biologically_approved_lense.register();
