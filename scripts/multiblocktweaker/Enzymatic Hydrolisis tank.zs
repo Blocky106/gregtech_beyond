@@ -129,10 +129,18 @@ val enzymatic_hydrolisis_tank = Builder.start(loc, meta)
 .withRecipeMap(
         FactoryRecipeMap.start(loc)
                         .maxInputs(2)
-                        .maxFluidInputs(2)
+                        .maxFluidInputs(3)
                         .maxFluidOutputs(1)
-                        .maxOutputs(32)
+                        .maxOutputs(4)
                         .build())
 .withZoom(0.5f)
 
 .buildAndRegister() as Multiblock;
+
+enzymatic_hydrolisis_tank.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:milk>*1000,<liquid:hydrochloric_acid>*100)
+    .notConsumable(<liquid:trypsin>)
+    .fluidOutputs(<liquid:peptone>*1000)
+    .duration(800)
+    .EUt(24)
+    .buildAndRegister();
