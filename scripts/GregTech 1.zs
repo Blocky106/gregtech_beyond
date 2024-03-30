@@ -2095,7 +2095,7 @@ assembler.recipeBuilder()
 	.buildAndRegister();
 
 assembler.recipeBuilder()
-	.inputs(<gregtech:cable:744>*8)
+	.inputs(<gregtech:cable:744>*4)
 	.outputs(<contenttweaker:superconductingcoil>)
 	.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 4}))
 	.duration(20)
@@ -2103,7 +2103,7 @@ assembler.recipeBuilder()
 	.buildAndRegister();
 
 assembler.recipeBuilder()
-	.inputs(<gregtech:cable:354>*4)
+	.inputs(<gregtech:cable:354>*2)
 	.outputs(<contenttweaker:superconductingcoil>)
 	.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 4}))
 	.duration(20)
