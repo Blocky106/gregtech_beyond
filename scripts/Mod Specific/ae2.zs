@@ -331,3 +331,7 @@ assembler.recipeBuilder()
 
 recipes.addShaped(<appliedenergistics2:material:52>, [	[<ore:screwStainlessSteel>, <appliedenergistics2:material:23>, <ore:screwStainlessSteel>], 	[<ore:plateStainlessSteel>, <ore:crystalFluix>, <ore:plateStainlessSteel>], 	[null, <ore:plateStainlessSteel>, null]]);
 
+recipes.remove(<appliedenergistics2:part:220>);
+recipes.addShaped(<appliedenergistics2:part:220>, [	[<ore:screwCupronickel>, <ore:craftingPiston>, <ore:screwCupronickel>], 	[<ore:plateAluminium>, <appliedenergistics2:interface>, <ore:plateAluminium>], 	[<ore:screwCupronickel>, <ore:craftingPiston>, <ore:screwCupronickel>]]);
+
+
