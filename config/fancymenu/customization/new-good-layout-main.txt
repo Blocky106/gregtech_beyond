@@ -56,12 +56,12 @@ customization {
   orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button
   x = -85
   action = movebutton
-  y = 99
+  y = 100
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
-  width = 168
+  width = 167
   action = resizebutton
   height = 19
 }
@@ -87,12 +87,12 @@ customization {
   orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button
   x = -85
   action = movebutton
-  y = 119
+  y = 173
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
-  width = 168
+  width = 167
   action = resizebutton
   height = 20
 }
@@ -115,7 +115,7 @@ customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   orientation = element
   orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button
-  x = -84
+  x = -85
   action = movebutton
   y = 0
 }
@@ -153,7 +153,7 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
-  width = 168
+  width = 167
   action = resizebutton
   height = 20
 }
@@ -279,11 +279,11 @@ customization {
   path = resources/custommainmenu/textures/gui/gregtech.png
   orientation = element
   orientation_element = d6472250-37be-45f3-9dfa-e98b7aab9d901696783014363
-  x = -25
+  x = -48
   width = 257
   actionid = d70d239f-9cc0-4b75-b623-c8b98464fef41698086352963
   action = addtexture
-  y = -103
+  y = -108
   height = 100
 }
 
@@ -295,13 +295,13 @@ customization {
   label = 
   loopbackgroundanimations = true
   orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button
-  x = 84
-  width = 52
+  x = -85
+  width = 50
   action = addbutton
   actionid = ca251a68-d5fc-4916-a6c4-7dfa605ed9bd1708202332027
-  y = 78
+  y = 121
   backgroundnormal = resources/custommainmenu/textures/gui/discord.png
-  height = 61
+  height = 50
 }
 
 customization {
@@ -312,12 +312,43 @@ customization {
   label = 
   loopbackgroundanimations = true
   orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button
-  x = 83
-  width = 53
+  x = -34
+  width = 50
   action = addbutton
   actionid = 8cead4ef-4b1f-434f-b10b-c59e0c361cb01708202738769
-  y = 0
+  y = 121
   backgroundnormal = resources/custommainmenu/textures/gui/github.png
-  height = 76
+  height = 50
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = openfile;config/fancymenu/changelog.txt%btnaction_splitter_fm%
+  backgroundhovered = resources/custommainmenu/textures/gui/menu_text_box_selected.png
+  label = Open Folder
+  loopbackgroundanimations = true
+  x = 352
+  width = 65
+  action = addbutton
+  actionid = 1af4aeab-d8d8-4400-a1b5-cbb5f8fef25f1711682120851
+  y = 296
+  backgroundnormal = resources/custommainmenu/textures/gui/menu_box.png
+  height = 24
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  x = 352
+  width = 65
+  action = addbutton
+  actionid = 23002a47-0b18-4551-87ac-9715c2aae46c1711682462652
+  y = 322
+  backgroundhovered = resources/custommainmenu/textures/gui/menu_text_box_selected.png
+  label = Refresh
+  backgroundnormal = resources/custommainmenu/textures/gui/menu_box.png
+  height = 24
 }
 

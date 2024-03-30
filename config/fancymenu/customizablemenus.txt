@@ -33,3 +33,9 @@ net.minecraft.client.gui.GuiWorldSelection {
 net.minecraft.client.gui.GuiYesNo {
 }
 
+net.minecraft.client.gui.GuiVideoSettings {
+}
+
+mod.acgaming.universaltweaks.util.compat.UTCompatScreen {
+}
+
