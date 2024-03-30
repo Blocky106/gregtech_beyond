@@ -506,6 +506,19 @@ util.registerDust("digested_andesite", 32206, 0x787575, "DULL");
 
 
 
+util.registerFluid("alkylated_nonylphenol_mixture", 0xAFA6C2);
+util.registerFluid("alkylated_nonylphenol_mixture", 0xAFA6C2);
+util.registerFluid("nonylphenol", 0xAFA6C2);
+util.registerFluid("nonene", 0xAFA6C2);
+util.registerFluid("yeem_solution", 0xAFA6C2);
+util.registerFluid("homogenized_pancreas_mixture", 0xAFA6C2);
+util.registerFluid("sulfuric_oil_residues", 0xAFA6C2);
+util.registerFluid("kerosine", 0xAFA6C2);
+util.registerFluid("sulfuric_kerosine", 0xAFA6C2);
+util.registerFluid("sulfuric_gasoline", 0xAFA6C2);
+util.registerFluid("sulfuric_diesel", 0xAFA6C2);
+util.registerFluid("alkylated_natural_gas", 0xAFA6C2);
+util.registerFluid("syngas", 0xAFA6C2);
 util.registerFluid("trichlorosilane", 0x646464);
 util.registerFluid("hydrogen_chloride", 0x43A047);
 util.registerFluid("iron_chloride_solution", 0x848484);
