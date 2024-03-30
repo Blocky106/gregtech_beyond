@@ -1131,3 +1131,4 @@ wiremill.recipeBuilder()
     .duration(50)
     .buildAndRegister();
 
+furnace.remove(<qmd:ingot2:1>);
