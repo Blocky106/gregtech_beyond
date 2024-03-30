@@ -493,7 +493,7 @@ lcr.recipeBuilder()
 
 
 recipes.addShaped(<enderio:block_inventory_panel>, [	[<ore:plateAluminium>, <gregtech:meta_item_2:32433>, <ore:plateAluminium>], 	[<appliedenergistics2:material:24>, <ore:circuitAdvanced>, <appliedenergistics2:material:24>], 	[<ore:plateAluminium>, <gregtech:meta_item_2:32433>, <ore:plateAluminium>]]);
-
+recipes.addShapeless(<enderio:item_extract_speed_downgrade>,[<enderio:item_extract_speed_upgrade>]);
 
 
 
