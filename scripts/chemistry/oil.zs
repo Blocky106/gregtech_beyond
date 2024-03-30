@@ -245,104 +245,121 @@ distillation_tower.recipeBuilder()
     .duration(180)
     .buildAndRegister();
 
-chemReactor.recipeBuilder()
-    .fluidInputs(<liquid:steam>*2000,<liquid:naphtha>*1000)
-    .fluidOutputs(<liquid:steamcracked_naphtha>*500)
-    .duration(80)
-    .EUt(22)
+centrifuge.recipeBuilder()
+    .inputs(<contenttweaker:paraffinwax>)
+    .fluidOutputs(<liquid:resin>*1000)
+    .duration(200)
+    .EUt(12)
     .buildAndRegister();
 
 chemReactor.recipeBuilder()
-    .fluidInputs(<liquid:hydrogen>*2000,<liquid:naphtha>*1000)
-    .fluidOutputs(<liquid:hydrocracked_naphtha>*500)
-    .duration(80)
-    .EUt(22)
+    .fluidInputs(<liquid:oilgas>*10000,<liquid:water>*1000)
+    .fluidOutputs(<liquid:syngas>*10000,<liquid:ammonia>*1000)
+    .duration(20)
+    .EUt(80)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:oilgas>*10000,<liquid:water>*1000)
+    .fluidOutputs(<liquid:syngas>*10000,<liquid:ammonia>*1000)
+    .duration(20)
+    .EUt(80)
     .buildAndRegister();
 
 chemReactor.recipeBuilder()
-    .fluidInputs(<liquid:steam>*2000,<liquid:light_fuel>*1000)
-    .fluidOutputs(<liquid:cracked_light_fuel>*500)
+    .fluidInputs(<liquid:natural_gas>*500,<liquid:sulfuric_acid>*2500)
+    .fluidOutputs(<liquid:alkylated_natural_gas>*3000)
+    .duration(200)
+    .EUt(120)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:natural_gas>*500,<liquid:sulfuric_acid>*2500)
+    .fluidOutputs(<liquid:alkylated_natural_gas>*3000)
+    .duration(200)
+    .EUt(120)
+    .buildAndRegister();
+
+distillation_tower.recipeBuilder()
+    .fluidInputs(<liquid:alkylated_natural_gas>*3000)
+    .fluidOutputs(<liquid:sulfuric_acid>*2500,<liquid:gasoline>*500)
     .duration(80)
-    .EUt(22)
+    .EUt(400)
+    .buildAndRegister();
+
+distillation_tower.recipeBuilder()
+    .fluidInputs(<liquid:desaltedoil>*1000)
+    .fluidOutputs(<liquid:sulfuric_gas>*500,<liquid:sulfuric_kerosine>*100,<liquid:sulfuric_naphtha>*200,<liquid:sulfuric_gasoline>*100,<liquid:sulfuric_oil_residues>*150,<liquid:sulfuric_diesel>*200)
+    .duration(200)
+    .EUt(12)
     .buildAndRegister();
 
 chemReactor.recipeBuilder()
-    .fluidInputs(<liquid:hydrogen>*2000,<liquid:light_fuel>*1000)
-    .fluidOutputs(<liquid:hydrocracked_light_fuel>*500)
-    .duration(80)
-    .EUt(22)
+    .fluidInputs(<liquid:hydrogen>*2000,<liquid:sulfuric_kerosine>*12000)
+    .fluidInputs(<liquid:hydrogen_sulfide>*1000,<liquid:kerosine>*12000)
+    .duration(200)
+    .EUt(200)
     .buildAndRegister();
 
 chemReactor.recipeBuilder()
-    .fluidInputs(<liquid:steam>*2000,<liquid:heavy_fuel>*1000)
-    .fluidOutputs(<liquid:cracked_heavy_fuel>*500)
-    .duration(80)
-    .EUt(22)
+    .fluidInputs(<liquid:hydrogen>*2000,<liquid:sulfuric_gasoline>*12000)
+    .fluidInputs(<liquid:hydrogen_sulfide>*1000,<liquid:gasoline>*12000)
+    .duration(200)
+    .EUt(200)
     .buildAndRegister();
 
 chemReactor.recipeBuilder()
-    .fluidInputs(<liquid:hydrogen>*2000,<liquid:heavy_fuel>*1000)
-    .fluidOutputs(<liquid:hydrocracked_heavy_fuel>*500)
-    .duration(80)
-    .EUt(22)
+    .fluidInputs(<liquid:hydrogen>*2000,<liquid:sulfuric_diesel>*12000)
+    .fluidInputs(<liquid:hydrogen_sulfide>*1000,<liquid:diesel>*12000)
+    .duration(200)
+    .EUt(200)
     .buildAndRegister();
 
 lcr.recipeBuilder()
-    .fluidInputs(<liquid:steam>*2000,<liquid:naphtha>*1000)
-    .fluidOutputs(<liquid:steamcracked_naphtha>*500)
-    .duration(80)
-    .EUt(22)
+    .fluidInputs(<liquid:hydrogen>*2000,<liquid:sulfuric_kerosine>*12000)
+    .fluidInputs(<liquid:hydrogen_sulfide>*1000,<liquid:kerosine>*12000)
+    .duration(200)
+    .EUt(200)
     .buildAndRegister();
 
 lcr.recipeBuilder()
-    .fluidInputs(<liquid:hydrogen>*2000,<liquid:naphtha>*1000)
-    .fluidOutputs(<liquid:hydrocracked_naphtha>*500)
-    .duration(80)
-    .EUt(22)
+    .fluidInputs(<liquid:hydrogen>*2000,<liquid:sulfuric_gasoline>*12000)
+    .fluidInputs(<liquid:hydrogen_sulfide>*1000,<liquid:gasoline>*12000)
+    .duration(200)
+    .EUt(200)
     .buildAndRegister();
 
 lcr.recipeBuilder()
-    .fluidInputs(<liquid:steam>*2000,<liquid:light_fuel>*1000)
-    .fluidOutputs(<liquid:cracked_light_fuel>*500)
-    .duration(80)
-    .EUt(22)
+    .fluidInputs(<liquid:hydrogen>*2000,<liquid:sulfuric_diesel>*12000)
+    .fluidInputs(<liquid:hydrogen_sulfide>*1000,<liquid:diesel>*12000)
+    .duration(200)
+    .EUt(200)
     .buildAndRegister();
 
-lcr.recipeBuilder()
-    .fluidInputs(<liquid:hydrogen>*2000,<liquid:light_fuel>*1000)
-    .fluidOutputs(<liquid:hydrocracked_light_fuel>*500)
-    .duration(80)
-    .EUt(22)
+distillation_tower.recipeBuilder()
+    .fluidInputs(<liquid:gasoline>*1000)
+    .fluidOutputs(<liquid:propane>*200,<liquid:ethane>*300,<liquid:methane>*350,<liquid:butane>*150)
+    .duration(200)
+    .EUt(70)
     .buildAndRegister();
 
-lcr.recipeBuilder()
-    .fluidInputs(<liquid:steam>*2000,<liquid:heavy_fuel>*1000)
-    .fluidOutputs(<liquid:cracked_heavy_fuel>*500)
-    .duration(80)
-    .EUt(22)
+distillation_tower.findRecipe(120,null,[<liquid:steamcracked_butane>*2000]).remove();
+
+distillation_tower.recipeBuilder()
+    .fluidInputs(<liquid:steamcracked_butane>*1000)
+    .fluidOutputs(<liquid:propene>*250,<liquid:ethylene>*350,<liquid:methane>*150,<liquid:hydrogen>*100,<liquid:butadiene>*150)
+    .duration(200)
+    .EUt(70)
     .buildAndRegister();
 
-lcr.recipeBuilder()
-    .fluidInputs(<liquid:hydrogen>*2000,<liquid:heavy_fuel>*1000)
-    .fluidOutputs(<liquid:hydrocracked_heavy_fuel>*500)
-    .duration(80)
-    .EUt(22)
+distillation_tower.findRecipe(120, null, [<liquid:steamcracked_ethane>*1000]).remove();
+
+distillation_tower.recipeBuilder()
+    .fluidInputs(<liquid:steamcracked_ethane>*2000)
+    .fluidOutputs(<liquid:ethylene>*500,<liquid:propylene>*200,<liquid:butene>*100,<liquid:hydrogen>*200,<liquid:methane>*500,<liquid:ethane>*300,<liquid:nonene>*200)
+    .duration(200)
+    .EUt(800)
     .buildAndRegister();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
