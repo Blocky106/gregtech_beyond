@@ -2096,3 +2096,11 @@ pancreas.register();
 
 var biologically_approved_lense = VanillaFactory.createItem("biologically_approved_lense");
 biologically_approved_lense.register();
+
+var drone_pad = VanillaFactory.createBlock("drone_pad", <blockmaterial:rock>);
+drone_pad.setBlockHardness(12.0);
+drone_pad.setBlockResistance(10.0);
+drone_pad.setToolClass("pickaxe");
+drone_pad.setToolLevel(1);
+drone_pad.setBlockSoundType(<soundtype:metal>);
+drone_pad.register();
