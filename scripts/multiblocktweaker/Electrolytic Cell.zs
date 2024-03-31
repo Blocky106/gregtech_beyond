@@ -194,3 +194,10 @@ electrolytic_cell.recipeMap.recipeBuilder()
     .buildAndRegister();
 
             
+electrolytic_cell.recipeMap.recipeBuilder()
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .fluidInputs(<liquid:ethoxylated_nonylphenol>*1000,<liquid:water>*1000)
+    .fluidOutputs(<liquid:nonylphenol>*800,<liquid:ethylene_glycol>*800,<liquid:nonoxynol-9_solution>*200,<liquid:hydrogen>*200)
+    .duration(299)
+    .EUt(100)
+    .buildAndRegister();

@@ -14,3 +14,5 @@ recipes.addShaped(<simplybackpacks:commonbackpack>.withTag({inv: {Size: 18, Item
 
 
 <ore:circuitBasic>.remove(<energycontrol:item_component:1>);
+recipes.addShaped(<superfactorymanager:cable>, [[<ore:plateIron>, <ore:plateGlass>, <ore:plateIron>], [<minecraft:light_weighted_pressure_plate>, <ore:plateRedstone>, <minecraft:light_weighted_pressure_plate>], 	[<ore:plateIron>, <ore:plateGlass>, <ore:plateIron>]]);
+recipes.remove(<superfactorymanager:cable>);
