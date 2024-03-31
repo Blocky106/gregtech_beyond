@@ -3224,54 +3224,6 @@ assembler.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
-implosion.recipeBuilder()
-    .inputs(<contenttweaker:heavydutyalloyt1>)
-    .outputs(<contenttweaker:heavydutyplatet1>)
-    .duration(40)
-    .EUt(48)
-    .property("explosives", 2)
-    .buildAndRegister();
-
-implosion.recipeBuilder()
-    .inputs(<contenttweaker:heavydutyalloyt2>)
-    .outputs(<contenttweaker:heavydutyplatet2>)
-    .duration(40)
-    .EUt(192)
-    .property("explosives", 4)
-    .buildAndRegister();
-
-implosion.recipeBuilder()
-    .inputs(<contenttweaker:heavydutyalloyt3>)
-    .outputs(<contenttweaker:heavydutyplatet3>)
-    .duration(40)
-    .EUt(768)
-    .property("explosives", 8)
-    .buildAndRegister();
-
-implosion.recipeBuilder()
-    .inputs(<contenttweaker:heavydutyalloyt4>)
-    .outputs(<contenttweaker:heavydutyplatet4>)
-    .duration(40)
-    .EUt(3072)
-    .property("explosives", 16)
-    .buildAndRegister();
-
-implosion.recipeBuilder()
-    .inputs(<contenttweaker:heavydutyalloyt5>)
-    .outputs(<contenttweaker:heavydutyplatet5>)
-    .duration(40)
-    .EUt(12288)
-    .property("explosives", 32)
-    .buildAndRegister();
-
-implosion.recipeBuilder()
-    .inputs(<contenttweaker:heavydutyalloyt6>)
-    .outputs(<contenttweaker:heavydutyplatet6>)
-    .duration(40)
-    .EUt(49152)
-    .property("explosives", 64)
-    .buildAndRegister();
-
 assembler.recipeBuilder()
     .inputs(<contenttweaker:heavydutyplatet1>*6,<gregtech:frame_cupronickel>)
     .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 6}))
@@ -3378,3 +3330,33 @@ distillation_tower.recipeBuilder()
     .duration(200)
     .EUt(80)
     .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .fluidInputs(<liquid:moltencompressediron>*1440)
+    .inputs(<ore:circuitSuperconductor>*2,<gregtech:machine:2502>,<gregtech:machine:508>,<gregtech:meta_item_1:12311>*4,<gregtech:cable:744>*16,<gregtech:meta_item_1:32657>*4,<gregtech:meta_item_1:32608>*16,<gregtech:meta_item_1:32647>*4,<gregtech:meta_item_1:12786>*4,<gregtech:meta_item_1:32677>*4)
+    .outputs(<gregtech:machine:10056>)
+    .duration(40000)
+    .EUt(1000000)
+    .buildAndRegister();
+
+recipes.addShaped(<gregtech:machine:10036>, [	[<gregtech:meta_item_1:32674>, <ore:plateHssg>, <gregtech:meta_item_1:32674>], 	[<ore:circuitMaster>, <gregtech:machine:505>, <ore:circuitMaster>], 	[<ore:wireGtDoubleIvSuperconductor>, <ore:plateHssg>, <ore:wireGtDoubleIvSuperconductor>]]);
+recipes.addShaped(<gregtech:machine:10059>, [	[<gregtech:meta_item_1:32652>, <gregtech:meta_item_1:32602>, <gregtech:meta_item_1:32652>], 	[<ore:circuitAdvanced>, <gregtech:machine:503>, <ore:circuitAdvanced>], 	[<gregtech:meta_item_1:32652>, <gregtech:meta_item_1:32602>, <gregtech:meta_item_1:32652>]]);
+
+recipes.remove(<packagedauto:package_component>);
+
+assembler.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:12026>*4,<minecraft:ender_eye>,<gregtech:meta_item_1:12196>*4,<gregtech:meta_item_1:12001>*4)
+    .outputs(<packagedauto:package_component>)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
+
+roasters.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2788>)
+    .fluidInputs(<liquid:oxygen>*1000)
+    .outputs(<gtadditions:ga_dust:32208>)
+    .duration(900)
+    .EUt(80)
+    .buildAndRegister();
+
+furnace.remove(<gregtech:meta_item_1:10623>);
