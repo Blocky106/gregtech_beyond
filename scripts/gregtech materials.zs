@@ -502,11 +502,13 @@ util.registerDust("phosphorus_pentoxide", 32204, 0xBA68C8, "SHINY");
 util.registerDust("floated_andesite", 32205, 0x787575, "SHINY");
 util.registerDust("digested_andesite", 32206, 0x787575, "DULL");
 util.registerDust("iriditus", 32207, 0x00BCD4, "SHINY");
+util.registerDust("roasted_deshite", 32208, 0x00BCD4, "SHINY");
 
 
 
 
-util.registerFluid("ethoxylated_nonylphenol", 0x43A047);
+util.registerFluid("desulfurized_deshite_compound", 0x746D4C);
+util.registerFluid("ethoxylated_nonylphenol", 0x42322E);
 util.registerFluid("nonoxynol-9_solution", 0x43A047);
 util.registerFluid("nonoxynol-9", 0x43A047);
 util.registerFluid("xerizin", 0x43A047);
