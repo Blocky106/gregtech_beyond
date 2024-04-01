@@ -61,13 +61,68 @@ val drone_pad = Builder.start(loc, meta)
                 .where("E", MetaTileEntities.ENERGY_INPUT_HATCH[4], IFacing.east())
                 .build())
 .withRecipeMap(
-            FactoryRecipeMap.start(loc)
-                        .maxFluidInputs(1)
+            FactoryRecipeMap.start(loc)+
+                        .maxInputs(2)
+                        .maxOutputs(4)
                         .build())
-.withTexture(ICubeRenderer.sided("contenttweaker:blocks/thaumic_casing"))
+.withTexture(ICubeRenderer.sided("contenttweaker:blocks/machine_casing_solid_steel"))
 .withZoom(0.5f)
 .buildAndRegister() as Multiblock;
 
 
-#drone_pad.recipeMap.recipeBuilder()
- #   .inputs()
+drone_pad.recipeMap.recipeBuilder()
+    .notConsumable(<contenttweaker:drone>)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .chancedOutput(<minecraft:mutton>*2, 5000, 0)
+    .chancedOutput(<minecraft:wool>*2, 5000, 0)
+    .duration(400)
+    .EUt(12)
+    .buildAndRegister();
+
+drone_pad.recipeMap.recipeBuilder()
+    .notConsumable(<contenttweaker:drone>)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 2}))
+    .chancedOutput(<minecraft:leather>*2, 5000, 0)
+    .chancedOutput(<minecraft:beef>*2, 5000, 0)
+    .duration(400)
+    .EUt(12)
+    .buildAndRegister();
+
+drone_pad.recipeMap.recipeBuilder()
+    .notConsumable(<contenttweaker:drone>)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 3}))
+    .chancedOutput(<minecraft:bone>*2, 5000, 0)
+    .chancedOutput(<minecraft:rotten_flesh>*2, 5000, 0)
+    .duration(400)
+    .EUt(12)
+    .buildAndRegister();
+
+drone_pad.recipeMap.recipeBuilder()
+    .notConsumable(<contenttweaker:drone>)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 4}))
+    .chancedOutput(<minecraft:chicken>*2, 5000, 0)
+    .chancedOutput(<minecraft:feather>*2, 5000, 0)
+    .duration(400)
+    .EUt(12)
+    .buildAndRegister();
+
+drone_pad.recipeMap.recipeBuilder()
+    .notConsumable(<contenttweaker:drone>)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 5}))
+    .chancedOutput(<minecraft:rabbit>*2, 5000, 0)
+    .chancedOutput(<minecraft:rabbit_hide>*2, 5000, 0)
+    .chancedOutput(<minecraft:rabbit_foot>*2, 5000, 0)
+    .duration(400)
+    .EUt(12)
+    .buildAndRegister();
+
+drone_pad.recipeMap.recipeBuilder()
+    .notConsumable(<contenttweaker:drone>)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 6}))
+    .chancedOutput(<minecraft:rabbit>*2, 5000, 0)
+    .chancedOutput(<minecraft:rabbit_hide>*2, 5000, 0)
+    .duration(400)
+    .EUt(12)
+    .buildAndRegister();
+
+
