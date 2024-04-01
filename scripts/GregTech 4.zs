@@ -3360,3 +3360,71 @@ roasters.recipeBuilder()
     .buildAndRegister();
 
 furnace.remove(<gregtech:meta_item_1:10623>);
+
+ebf.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2623>)
+    .outputs(<gregtech:meta_item_1:10623>)
+    .property("temperature", 2700)
+    .duration(300)
+    .EUt(900)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:32208>*2)
+    .fluidInputs(<liquid:hydrogen>*2000)
+    .fluidOutputs(<liquid:desulfurized_deshite_compound>*288,<liquid:hydrogen_sulfide>*2000)
+    .outputs(<gregtech:meta_item_1:1110>*2)
+    .EUt(2000)
+    .duration(800)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:32208>*2)
+    .fluidInputs(<liquid:hydrogen>*2000)
+    .fluidOutputs(<liquid:desulfurized_deshite_compound>*288,<liquid:hydrogen_sulfide>*2000)
+    .outputs(<gregtech:meta_item_1:1110>*2)
+    .EUt(2000)
+    .duration(800)
+    .buildAndRegister();
+
+rotary_evaporator.recipeBuilder()
+    .fluidInputs(<liquid:desulfurized_deshite_compound>*144)
+    .outputs(<gtadditions:ga_dust:32209>)
+    .duration(200)
+    .EUt(480)
+    .buildAndRegister();
+
+recipes.addShaped(<gregtech:machine:1440>, [	[<gregtech:meta_item_1:32612>, <ore:rotorSteel>, <gregtech:meta_item_1:32612>], 	[<ore:circuitAdvanced>, <gregtech:machine:503>, <ore:circuitAdvanced>], 	[<gregtech:meta_item_1:32612>, <ore:rotorSteel>, <gregtech:meta_item_1:32612>]]);
+recipes.addShaped(<gregtech:machine:1441>, [	[<gregtech:meta_item_1:32613>, <ore:rotorSteel>, <gregtech:meta_item_1:32613>], 	[<ore:circuitExtreme>, <gregtech:machine:504>, <ore:circuitExtreme>], 	[<gregtech:meta_item_1:32613>, <ore:rotorSteel>, <gregtech:meta_item_1:32613>]]);
+recipes.addShaped(<gregtech:machine:1442>, [    [<gregtech:meta_item_1:32614>, <ore:rotorSteel>, <gregtech:meta_item_1:32614>],     [<ore:circuitElite>, <gregtech:machine:505>, <ore:circuitElite>], 	[<gregtech:meta_item_1:32614>, <ore:rotorSteel>, <gregtech:meta_item_1:32614>]]);
+
+engraver.recipeBuilder()
+    .notConsumable(<contenttweaker:single_josephson_junction_lithography_mask>)
+    .inputs(<contenttweaker:sputtered_sapphire_substrate>)
+    .outputs(<contenttweaker:patterned_sapphire_substrate>)
+    .duration(800)
+    .EUt(12)
+    .buildAndRegister();
+    
+lengraver.recipeBuilder()
+    .notConsumable(<contenttweaker:single_josephson_junction_lithography_mask>)
+    .inputs(<contenttweaker:sputtered_sapphire_substrate>)
+    .outputs(<contenttweaker:patterned_sapphire_substrate>)
+    .duration(800)
+    .EUt(12)
+    .buildAndRegister();
+
+chemical_bath.recipeBuilder()
+    .inputs(<contenttweaker:patterned_sapphire_substrate>)
+    .fluidInputs(<liquid:hydrofluoric_acid>*1000)
+    .outputs(<contenttweaker:etched_sapphire_substrate>)
+    .duration(190)
+    .EUt(90)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:14184>,<gregtech:meta_item_2:16577>*8)
+    .outputs(<contenttweaker:copperalloycoil>)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
