@@ -634,8 +634,8 @@ chemReactor.recipeBuilder()
 lcr.recipeBuilder()
     .notConsumable(<gtadditions:ga_dust:246>)
     .fluidInputs(<liquid:ethylene_oxide>*25,<liquid:nonylphenol>*25)
-    .fluidOutputs(<liquid:ethoxylated_nonylphenol>*50)
-    .duration(200)
+    .fluidOutputs(<liquid:ethoxylated_nonylphenol>*25)
+    .duration(20)
     .EUt(299)
     .buildAndRegister();
 
