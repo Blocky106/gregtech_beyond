@@ -87,3 +87,11 @@ vis_breaker.recipeMap.recipeBuilder()
     .duration(250)
     .EUt(80)
     .buildAndRegister();
+
+vis_breaker.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:fuel_oil>*1000)
+    .fluidOutputs(<liquid:heavyoilresidues>*400)
+    .outputs(<contenttweaker:stackwax>)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
