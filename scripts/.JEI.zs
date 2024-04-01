@@ -97,6 +97,9 @@ mods.jei.JEI.hideCategory("gregtech:rocket_one");
 mods.jei.JEI.hideCategory("gregtech:rocket_two");
 mods.jei.JEI.hideCategory("gregtech:pvd_unit");
 mods.jei.JEI.hideCategory("gregtech:mega_chemical_reactor");
+mods.jei.JEI.hideCategory("gregtech:bacterial_vat");
+mods.jei.JEI.hideCategory("gregtech:gravity_settler_tank");
+mods.jei.JEI.hideCategory("gregtech:enzymatic_hydrolisis_tank");
 
 
 
