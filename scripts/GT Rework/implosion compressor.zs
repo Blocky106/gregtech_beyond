@@ -269,32 +269,32 @@ implosion.recipeBuilder()
 
 //Tanzanite
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_1:8817>*3,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_1:8871>*3,<gregtech:meta_item_1:110>*2],[],false);
 
 implosion.recipeBuilder()
-    .inputs(<gregtech:meta_item_1:2817>*4)
+    .inputs(<gregtech:meta_item_1:2871>*4)
     .property("explosives", 24)
-    .outputs(<gregtech:meta_item_1:8817>*3)
+    .outputs(<gregtech:meta_item_1:8871>*3)
     .duration(200)
     .EUt(12)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:24817>,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:24871>,<gregtech:meta_item_1:110>*2],[],false);
 
 implosion.recipeBuilder()
-    .inputs(<gregtech:meta_item_1:8817>*3)
+    .inputs(<gregtech:meta_item_1:8871>*3)
     .property("explosives", 24)
-    .outputs(<gregtech:meta_item_2:24817>)
+    .outputs(<gregtech:meta_item_2:24871>)
     .duration(200)
     .EUt(12)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:25817>,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:25871>,<gregtech:meta_item_1:110>*2],[],false);
 
 implosion.recipeBuilder()
-    .inputs(<gregtech:meta_item_2:24817>*3)
+    .inputs(<gregtech:meta_item_2:24871>*3)
     .property("explosives", 24)
-    .outputs(<gregtech:meta_item_2:25817>)
+    .outputs(<gregtech:meta_item_2:25871>)
     .duration(200)
     .EUt(12)
     .buildAndRegister();
@@ -400,7 +400,7 @@ implosion.recipeBuilder()
 Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_1:8584>*3,<gregtech:meta_item_1:110>*2],[],false);
 
 implosion.recipeBuilder()
-    .inputs(<gregtech:meta_item_2:2584>*4)
+    .inputs(<gregtech:meta_item_1:2584>*4)
     .property("explosives", 24)
     .outputs(<gregtech:meta_item_1:8584>*3)
     .duration(200)
@@ -464,7 +464,7 @@ implosion.recipeBuilder()
 Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_1:8562>*3,<gregtech:meta_item_1:110>*2],[],false);
 
 implosion.recipeBuilder()
-    .inputs(<gregtech:meta_item_2:2562>*4)
+    .inputs(<gregtech:meta_item_1:2562>*4)
     .property("explosives", 24)
     .outputs(<gregtech:meta_item_1:8562>*3)
     .duration(200)
