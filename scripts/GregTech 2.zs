@@ -2814,3 +2814,11 @@ centrifuge.recipeBuilder()
     .duration(200)
     .EUt(800)
     .buildAndRegister();
+
+fluid_solidifier.recipeBuilder()
+    .fluidInputs(<liquid:mercury>*1000)
+    .notConsumable(<gregtech:meta_item_1:32306>)
+    .outputs(<thaumcraft:quicksilver>)
+    .duration(40)
+    .EUt(12)
+    .buildAndRegister();
