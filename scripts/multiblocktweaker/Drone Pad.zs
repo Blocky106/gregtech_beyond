@@ -61,7 +61,7 @@ val drone_pad = Builder.start(loc, meta)
                 .where("E", MetaTileEntities.ENERGY_INPUT_HATCH[4], IFacing.east())
                 .build())
 .withRecipeMap(
-            FactoryRecipeMap.start(loc)+
+            FactoryRecipeMap.start(loc)
                         .maxInputs(2)
                         .maxOutputs(4)
                         .build())
