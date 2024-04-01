@@ -2822,3 +2822,17 @@ fluid_solidifier.recipeBuilder()
     .duration(40)
     .EUt(12)
     .buildAndRegister();
+
+mixer.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:206>,<gtadditions:ga_dust:207>*2,<gtadditions:ga_dust:254>*3)
+    .outputs(<gtadditions:ga_dust:208>*6)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
+
+alloy_smelter.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2138>*4,<gregtech:meta_item_1:2035>)
+    .outputs(<thermalfoundation:glass:3>*2)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
