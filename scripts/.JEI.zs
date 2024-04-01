@@ -192,7 +192,6 @@ val itemstoRemove =
 <gregtech:machine:712>,
 <gregtech:machine:713>,
 <gregtech:machine:724>,
-<gregtech:frame_invar>,
 <gregtech:machine:511>,
 <gregtech:meta_item_1:2238>,
 <gregtech:meta_item_1:32680>,
