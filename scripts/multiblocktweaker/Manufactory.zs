@@ -84,15 +84,8 @@ val manufactory = Builder.start(loc, meta)
 
 
 manufactory.recipeMap.recipeBuilder()
-    .inputs(<gregtech:meta_item_1:14135>,<gregtech:meta_item_1:12001>)
-    .outputs(<contenttweaker:single_josephson_junction>*16)
+    .inputs(<contenttweaker:etched_sapphire_substrate>,<gregtech:meta_item_1:14135>,<gregtech:meta_item_1:12001>)
+    .outputs(<contenttweaker:manufactured_superconductor_circuit>)
     .duration(20)
     .EUt(120)
-    .buildAndRegister();
-
-manufactory.recipeMap.recipeBuilder()
-    .inputs(<contenttweaker:sputtered_sapphire_substrate>,<contenttweaker:single_josephson_junction>*4)
-    .outputs(<contenttweaker:manufactured_superconductor_circuit>)
-    .duration(100)
-    .EUt(800)
     .buildAndRegister();

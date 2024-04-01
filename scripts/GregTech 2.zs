@@ -2807,4 +2807,10 @@ assembler.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
-
+centrifuge.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:32209>)
+    .chancedOutput(<gregtech:meta_item_1:2623>, 5000, 0)
+    .outputs(<gregtech:meta_item_1:2328>)
+    .duration(200)
+    .EUt(800)
+    .buildAndRegister();

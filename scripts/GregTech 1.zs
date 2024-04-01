@@ -1864,15 +1864,6 @@ assembler.recipeBuilder()
 	.EUt(12000)
 	.buildAndRegister();
 
-ebf.recipeBuilder()
-	.inputs(<gregtech:meta_item_1:2788>)
-	.outputs(<gregtech:meta_item_1:10788>)
-	.fluidInputs(<liquid:oxygen>*200)
-	.property("temperature", 2700)
-	.duration(400)
-	.EUt(2000)
-	.buildAndRegister();
-
 extruder.recipeBuilder()
 	.inputs(<gregtech:meta_item_1:10797>)
 	.outputs(<gtadditions:ga_meta_item:17797>)
@@ -3175,7 +3166,6 @@ recipes.addShaped(<gregtech:meta_item_2:32455>, [	[<ore:wireFineCopper>, <ore:pa
 recipes.addShaped(<gregtech:machine:510>, [	[<gregtech:meta_item_1:12033>, null, <gregtech:meta_item_1:12033>], 	[<ore:stickIron>, <gregtech:metal_casing:1>, <ore:stickIron>], 	[<ore:screwIron>, <ore:stickIron>, <ore:screwIron>]]);
 recipes.addShaped(<gregtech:metal_casing:1>*2, [	[null, <gregtech:meta_item_2:32015>, null], 	[<gregtech:meta_item_2:32015>, <gregtech:meta_item_1:12033>, <gregtech:meta_item_2:32015>], 	[null, <gregtech:meta_item_2:32015>, null]]);
 recipes.addShaped(<gregtech:machine:70>, [	[<ore:circuitBasic>, <gregtech:machine:1343>, <ore:circuitBasic>], 	[<ore:wireGtSingleSilver>, <gregtech:machine:501>, <ore:wireGtSingleSilver>], 	[<ore:ingotConductiveIron>, <ore:ingotConductiveIron>, <ore:ingotConductiveIron>]]);
-recipes.addShaped(<gregtech:frame_invar>, [	[<ore:plateInvar>, <ore:ringInvar>, <ore:plateInvar>], 	[<ore:plateCurvedInvar>, <ore:stickInvar>, <ore:plateCurvedInvar>], 	[<ore:foilInvar>, <ore:stickInvar>, <ore:foilInvar>]]);
 recipes.addShaped(<gregtech:meta_item_1:9297>, [	[<ore:nuggetIron>,<ore:dustRegularRedstone>], 	[null, null]]);
 recipes.addShaped(<gregtech:machine:420>, [	[<ore:circuitBasic>, <gregtech:meta_item_1:32640>, <ore:circuitBasic>], 	[<ore:plateIronMagnetic>, <gregtech:machine:501>, <ore:plateIronMagnetic>], 	[<contenttweaker:electricalsteelplate>, <ore:frameGtIron>, <contenttweaker:electricalsteelplate>]]);
 recipes.addShaped(<gregtech:machine:190>, [	[<gregtech:meta_item_1:32640>, <ore:rotorBronze>, <gregtech:meta_item_1:32640>], 	[<ore:ringIron>, <gregtech:machine:501>, <ore:ringIron>], 	[<ore:circuitBasic>, <gregtech:meta_item_1:32600>, <ore:circuitBasic>]]);

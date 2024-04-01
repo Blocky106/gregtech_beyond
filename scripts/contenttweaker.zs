@@ -2104,3 +2104,12 @@ drone_pad.setToolClass("pickaxe");
 drone_pad.setToolLevel(1);
 drone_pad.setBlockSoundType(<soundtype:metal>);
 drone_pad.register();
+
+var single_josephson_junction_lithography_mask = VanillaFactory.createItem("single_josephson_junction_lithography_mask");
+single_josephson_junction_lithography_mask.register();
+
+var patterned_sapphire_substrate = VanillaFactory.createItem("patterned_sapphire_substrate");
+patterned_sapphire_substrate.register();
+
+var etched_sapphire_substrate = VanillaFactory.createItem("etched_sapphire_substrate");
+etched_sapphire_substrate.register();
