@@ -2113,3 +2113,6 @@ patterned_sapphire_substrate.register();
 
 var etched_sapphire_substrate = VanillaFactory.createItem("etched_sapphire_substrate");
 etched_sapphire_substrate.register();
+
+var drone = VanillaFactory.createItem("drone");
+drone.register();
