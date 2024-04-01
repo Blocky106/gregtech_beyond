@@ -3151,7 +3151,7 @@ lcentrifuge.findRecipe(480, null, [<liquid:ferric_ree_chloride>*2000]).remove();
 
 centrifuge.recipeBuilder()
     .fluidInputs(<liquid:iron_chloride_solution>*2000)
-    .fluidOutputs(<liquid:iron_chloride>*1000,<liquid:salt_water>*3000)
+    .fluidOutputs(<liquid:iron_chloride>*1000,<liquid:iron_ii_chloride>*1000,<liquid:hydrogen>*1000)
     .EUt(480)
     .duration(299)
     .buildAndRegister();
@@ -3427,4 +3427,20 @@ assembler.recipeBuilder()
     .outputs(<contenttweaker:copperalloycoil>)
     .duration(200)
     .EUt(12)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:hydrochloric_acid>*2000)
+    .inputs(<ore:dustIron>)
+    .fluidOutputs(<liquid:iron_chloride_solution>*1000)
+    .duration(200)
+    .EUt(1200)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:hydrochloric_acid>*2000)
+    .inputs(<ore:dustIron>)
+    .fluidOutputs(<liquid:iron_chloride_solution>*3000)
+    .duration(200)
+    .EUt(1200)
     .buildAndRegister();
