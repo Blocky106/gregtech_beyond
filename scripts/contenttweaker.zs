@@ -2116,3 +2116,50 @@ etched_sapphire_substrate.register();
 
 var drone = VanillaFactory.createItem("drone");
 drone.register();
+
+var t3_rocket_engine = VanillaFactory.createBlock("t3_rocket_engine", <blockmaterial:rock>);
+t3_rocket_engine.setBlockHardness(12.0);
+t3_rocket_engine.setBlockResistance(10.0);
+t3_rocket_engine.setToolClass("pickaxe");
+t3_rocket_engine.setToolLevel(1);
+t3_rocket_engine.setBlockSoundType(<soundtype:metal>);
+t3_rocket_engine.register();
+
+var advanced_stabilization_fin = VanillaFactory.createBlock("advanced_stabilization_fin", <blockmaterial:rock>);
+advanced_stabilization_fin.setBlockHardness(12.0);
+advanced_stabilization_fin.setBlockResistance(10.0);
+advanced_stabilization_fin.setToolClass("pickaxe");
+advanced_stabilization_fin.setToolLevel(1);
+advanced_stabilization_fin.setBlockSoundType(<soundtype:metal>);
+advanced_stabilization_fin.register();
+
+var advanced_rocket_thruster = VanillaFactory.createBlock("advanced_rocket_thruster", <blockmaterial:rock>);
+advanced_rocket_thruster.setBlockHardness(12.0);
+advanced_rocket_thruster.setBlockResistance(10.0);
+advanced_rocket_thruster.setToolClass("pickaxe");
+advanced_rocket_thruster.setToolLevel(1);
+advanced_rocket_thruster.setBlockSoundType(<soundtype:metal>);
+advanced_rocket_thruster.register();
+
+var advanced_outer_protective_wall = VanillaFactory.createBlock("advanced_outer_protective_wall", <blockmaterial:rock>);
+advanced_outer_protective_wall.setBlockHardness(12.0);
+advanced_outer_protective_wall.setBlockResistance(10.0);
+advanced_outer_protective_wall.setToolClass("pickaxe");
+advanced_outer_protective_wall.setToolLevel(1);
+advanced_outer_protective_wall.setBlockSoundType(<soundtype:metal>);
+advanced_outer_protective_wall.register();
+
+var platinum_desh_tungstensteel_compressed_plate = VanillaFactory.createItem("platinum_desh_tungstensteel_compressed_plate");
+platinum_desh_tungstensteel_compressed_plate.register();
+
+var raw_high_power_ic_wafer = VanillaFactory.createItem("raw_high_power_ic_wafer");
+raw_high_power_ic_wafer.register();
+
+var engraved_ic_wafer = VanillaFactory.createItem("engraved_ic_wafer");
+engraved_ic_wafer.register();
+
+var raw_ic_wafer = VanillaFactory.createItem("raw_ic_wafer");
+raw_ic_wafer.register();
+
+var integrated_circuit_photolithography_mask = VanillaFactory.createItem("integrated_circuit_photolithography_mask");
+integrated_circuit_photolithography_mask.register();
