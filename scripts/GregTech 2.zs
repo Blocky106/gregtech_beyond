@@ -817,13 +817,6 @@ engraver.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-alloy_smelter.recipeBuilder()
-    .inputs(<contenttweaker:unimprintedcrystalcpu>,<gregtech:meta_item_2:32502>)
-    .outputs(<gregtech:meta_item_2:32474>)
-    .duration(400)
-    .EUt(3600)
-    .buildAndRegister();
-
 ebf.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2743>)
     .outputs(<gregtech:meta_item_1:10743>)
@@ -833,7 +826,7 @@ ebf.recipeBuilder()
     .buildAndRegister();
 
 assembler.recipeBuilder()
-    .inputs(<gregtech:meta_item_1:12032>*4,<gregtech:meta_item_1:17047>*4)
+    .inputs(<gregtech:meta_item_1:12032>*4,<gregtech:meta_item_1:17047>*4,<contenttweaker:manufactured_superconductor_circuit>)
     .outputs(<contenttweaker:computationcomponent>*4)
     .fluidInputs(<liquid:grisium>*80)
     .duration(400)
@@ -1316,38 +1309,6 @@ assembly_line.recipeBuilder()
     .EUt(60000)
     .buildAndRegister();
 
-cutting_saw.recipeBuilder()
-    .inputs(<contenttweaker:hppicwafer>)
-    .outputs(<contenttweaker:hppic>*2)
-    .fluidInputs(<liquid:water>*90)
-    .duration(48)
-    .EUt(800)
-    .buildAndRegister();
-
-cutting_saw.recipeBuilder()
-    .inputs(<contenttweaker:hppicwafer>)
-    .outputs(<contenttweaker:hppic>*2)
-    .fluidInputs(<liquid:distilled_water>*67)
-    .duration(48)
-    .EUt(600)
-    .buildAndRegister();
-
-cutting_saw.recipeBuilder()
-    .inputs(<contenttweaker:hppicwafer>)
-    .outputs(<contenttweaker:hppic>*2)
-    .fluidInputs(<liquid:lubricant>*22)
-    .duration(48)
-    .EUt(400)
-    .buildAndRegister();
-
-lcr.recipeBuilder()
-    .inputs(<gregtech:meta_item_1:2421>*16,<gregtech:meta_item_1:2743>*2,<gregtech:meta_item_2:32465>)
-    .fluidInputs(<liquid:plutonium>*200)
-    .outputs(<contenttweaker:hppicwafer>)
-    .duration(300)
-    .EUt(9000)
-    .buildAndRegister();
-
 ebf.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2237>)
     .property("temperature", 1800)
@@ -1797,84 +1758,6 @@ lcr.recipeBuilder()
 	.outputs(<gregtech:meta_item_2:32010>*18)
 	.duration(200)
     .EUt(192)
-    .buildAndRegister();
-
-engraver.recipeBuilder()
-	.inputs(<gregtech:meta_item_2:32440>)
-	.notConsumable(<ore:craftingLensMagenta>)
-	.outputs(<contenttweaker:ulpicwafer>)
-    .duration(900)
-    .EUt(120)
-    .buildAndRegister();
-
-lengraver.recipeBuilder()
-    .inputs(<gregtech:meta_item_2:32440>)
-	.notConsumable(<ore:craftingLensMagenta>)
-	.outputs(<contenttweaker:ulpicwafer>)
-	.duration(900)
-    .EUt(120)
-    .buildAndRegister();
-
-engraver.recipeBuilder()
-	.inputs(<gregtech:meta_item_2:32441>)
-	.notConsumable(<ore:craftingLensMagenta>)
-	.outputs(<contenttweaker:ulpicwafer>*4)
-	.duration(900)
-    .EUt(120)
-    .buildAndRegister();
-
-lengraver.recipeBuilder()
-	.inputs(<gregtech:meta_item_2:32441>)
-	.notConsumable(<ore:craftingLensMagenta>)
-	.outputs(<contenttweaker:ulpicwafer>*4)
-	.duration(900)
-    .EUt(120)
-    .buildAndRegister();
-
-cutting_saw.recipeBuilder()
-	.inputs(<contenttweaker:ulpicwafer>)
-	.outputs(<contenttweaker:ulpic>*6)
-	.duration(900)
-    .EUt(120)
-    .buildAndRegister();
-
-engraver.recipeBuilder()
-	.inputs(<gregtech:meta_item_2:32440>)
-	.notConsumable(<ore:craftingLensOrange>)
-	.outputs(<contenttweaker:lpicwafer>)
-	.duration(900)
-    .EUt(480)
-    .buildAndRegister();
-
-lengraver.recipeBuilder()
-	.inputs(<gregtech:meta_item_2:32440>)
-	.notConsumable(<ore:craftingLensOrange>)
-	.outputs(<contenttweaker:lpicwafer>)
-	.duration(900)
-    .EUt(480)
-    .buildAndRegister();
-
-engraver.recipeBuilder()
-	.inputs(<gregtech:meta_item_2:32441>)
-	.notConsumable(<ore:craftingLensOrange>)
-	.outputs(<contenttweaker:lpicwafer>*4)
-	.duration(900)
-    .EUt(480)
-    .buildAndRegister();
-
-lengraver.recipeBuilder()
-	.inputs(<gregtech:meta_item_2:32441>)
-	.notConsumable(<ore:craftingLensOrange>)
-	.outputs(<contenttweaker:lpicwafer>*4)
-	.duration(900)
-    .EUt(480)
-    .buildAndRegister();
-
-cutting_saw.recipeBuilder()
-	.inputs(<contenttweaker:lpicwafer>)
-	.outputs(<contenttweaker:lpic>*4)
-	.duration(900)
-    .EUt(480)
     .buildAndRegister();
 
 ebf.recipeBuilder()
@@ -2820,13 +2703,6 @@ fluid_solidifier.recipeBuilder()
     .notConsumable(<gregtech:meta_item_1:32306>)
     .outputs(<thaumcraft:quicksilver>)
     .duration(40)
-    .EUt(12)
-    .buildAndRegister();
-
-mixer.recipeBuilder()
-    .inputs(<gtadditions:ga_dust:206>,<gtadditions:ga_dust:207>*2,<gtadditions:ga_dust:254>*3)
-    .outputs(<gtadditions:ga_dust:208>*6)
-    .duration(200)
     .EUt(12)
     .buildAndRegister();
 
