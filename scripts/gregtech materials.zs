@@ -504,10 +504,12 @@ util.registerDust("digested_andesite", 32206, 0x787575, "DULL");
 util.registerDust("iriditus", 32207, 0x00BCD4, "SHINY");
 util.registerDust("roasted_deshite", 32208, 0x6D6666, "SHINY");
 util.registerDust("evaporated_deshite_compound", 32209, 0x4B4A4A, "DULL");
+util.registerDust("silver_bromide", 32210, 0x4B4A4A, "DULL");
 
 
 
 
+util.registerFluid("very_hot_argon", 0x746D4C);
 util.registerFluid("desulfurized_deshite_compound", 0x746D4C);
 util.registerFluid("ethoxylated_nonylphenol", 0x42322E);
 util.registerFluid("nonoxynol-9_solution", 0x43A047);
