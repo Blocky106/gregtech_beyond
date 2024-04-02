@@ -13,91 +13,6 @@ import mods.contenttweaker.Block;
 import crafttweaker.item.IItemCondition;
 
 
-#------Desulfurization with CoMoAl(CMA) catalyst---------- thanks to @RailGun
-
-chemReactor.findRecipe(30,[<gregtech:meta_item_1:2132>,<gtadditions:ga_dust:292>],[<liquid:hydrogen>*2000,<liquid:sulfuric_gas>*8000]).remove();
-chemReactor.findRecipe(30,[<gregtech:meta_item_1:2132>,<gtadditions:ga_dust:292>],[<liquid:hydrogen>*2000,<liquid:sulfuric_naphtha>*8000]).remove();
-chemReactor.findRecipe(30,[<gregtech:meta_item_1:2132>,<gtadditions:ga_dust:292>],[<liquid:hydrogen>*2000,<liquid:sulfuric_light_fuel>*8000]).remove();
-chemReactor.findRecipe(30,[<gregtech:meta_item_1:2132>,<gtadditions:ga_dust:292>],[<liquid:hydrogen>*2000,<liquid:sulfuric_heavy_fuel>*8000]).remove();
-lcr.findRecipe(30,[<gregtech:meta_item_1:2132>,<gtadditions:ga_dust:292>],[<liquid:hydrogen>*2000,<liquid:sulfuric_heavy_fuel>*8000]).remove();
-lcr.findRecipe(30,[<gregtech:meta_item_1:2132>,<gtadditions:ga_dust:292>],[<liquid:hydrogen>*2000,<liquid:sulfuric_gas>*8000]).remove();
-lcr.findRecipe(30,[<gregtech:meta_item_1:2132>,<gtadditions:ga_dust:292>],[<liquid:hydrogen>*2000,<liquid:sulfuric_naphtha>*8000]).remove();
-lcr.findRecipe(30,[<gregtech:meta_item_1:2132>,<gtadditions:ga_dust:292>],[<liquid:hydrogen>*2000,<liquid:sulfuric_light_fuel>*8000]).remove();
-
-chemReactor.recipeBuilder()
-    .notConsumable(<gregtech:meta_item_1:2132>)
-    .notConsumable(<gtadditions:ga_dust:292>)
-    .fluidInputs(<liquid:hydrogen>*2000,<liquid:sulfuric_gas>*8000)
-    .fluidOutputs(<liquid:gas>*8000,<liquid:hydrogen_sulfide>*1000)
-    .duration(60)
-    .EUt(20)
-    .buildAndRegister();
-
-chemReactor.recipeBuilder()
-    .notConsumable(<gregtech:meta_item_1:2132>)
-    .notConsumable(<gtadditions:ga_dust:292>)
-    .fluidInputs(<liquid:hydrogen>*2000,<liquid:sulfuric_naphtha>*8000)
-    .fluidOutputs(<liquid:naphtha>*8000,<liquid:hydrogen_sulfide>*1000)
-    .duration(60)
-    .EUt(20)
-    .buildAndRegister();
-
-chemReactor.recipeBuilder()
-    .notConsumable(<gregtech:meta_item_1:2132>)
-    .notConsumable(<gtadditions:ga_dust:292>)
-    .fluidInputs(<liquid:hydrogen>*2000,<liquid:sulfuric_light_fuel>*8000)
-    .fluidOutputs(<liquid:light_fuel>*8000,<liquid:hydrogen_sulfide>*1000)
-    .duration(60)
-    .EUt(20)
-    .buildAndRegister();
-    
-chemReactor.recipeBuilder()
-    .notConsumable(<gregtech:meta_item_1:2132>)
-    .notConsumable(<gtadditions:ga_dust:292>)
-    .fluidInputs(<liquid:hydrogen>*2000,<liquid:sulfuric_heavy_fuel>*8000)
-    .fluidOutputs(<liquid:heavy_fuel>*8000,<liquid:hydrogen_sulfide>*1000)
-    .duration(60)
-    .EUt(20)
-    .buildAndRegister();
-
-lcr.recipeBuilder()
-    .notConsumable(<gregtech:meta_item_1:2132>)
-    .notConsumable(<gtadditions:ga_dust:292>)
-    .fluidInputs(<liquid:hydrogen>*2000,<liquid:sulfuric_gas>*8000)
-    .fluidOutputs(<liquid:gas>*8000,<liquid:hydrogen_sulfide>*1000)
-    .duration(60)
-    .EUt(20)
-    .buildAndRegister();
-
-lcr.recipeBuilder()
-    .notConsumable(<gregtech:meta_item_1:2132>)
-    .notConsumable(<gtadditions:ga_dust:292>)
-    .fluidInputs(<liquid:hydrogen>*2000,<liquid:sulfuric_naphtha>*8000)
-    .fluidOutputs(<liquid:naphtha>*8000,<liquid:hydrogen_sulfide>*1000)
-    .duration(60)
-    .EUt(20)
-    .buildAndRegister();
-
-lcr.recipeBuilder()
-    .notConsumable(<gregtech:meta_item_1:2132>)
-    .notConsumable(<gtadditions:ga_dust:292>)
-    .fluidInputs(<liquid:hydrogen>*2000,<liquid:sulfuric_light_fuel>*8000)
-    .fluidOutputs(<liquid:light_fuel>*8000,<liquid:hydrogen_sulfide>*1000)
-    .duration(60)
-    .EUt(20)
-    .buildAndRegister();
-    
-lcr.recipeBuilder()
-    .notConsumable(<gregtech:meta_item_1:2132>)
-    .notConsumable(<gtadditions:ga_dust:292>)
-    .fluidInputs(<liquid:hydrogen>*2000,<liquid:sulfuric_heavy_fuel>*8000)
-    .fluidOutputs(<liquid:heavy_fuel>*8000,<liquid:hydrogen_sulfide>*1000)
-    .duration(60)
-    .EUt(20)
-    .buildAndRegister();
-
-
-#------------------End------------------------------
 
 #------------------Wrap Start-----------------------
 assembler.recipeBuilder()
@@ -1903,7 +1818,6 @@ ebf.recipeBuilder()
 furnace.remove(<gregtech:meta_item_1:10548>);
 
 #wiremill rework
-
 
 
 

@@ -289,7 +289,7 @@ chemReactor.recipeBuilder()
 
 chemReactor.recipeBuilder()
     .fluidInputs(<liquid:hydrogen>*2000,<liquid:sulfuric_diesel>*12000)
-    .fluidOutputs(<liquid:hydrogen_sulfide>*1000,<liquid:diesel>*12000)
+    .fluidOutputs(<liquid:hydrogen_sulfide>*1000,<liquid:fuel>*12000)
     .duration(200)
     .EUt(200)
     .buildAndRegister();
@@ -318,7 +318,7 @@ lcr.recipeBuilder()
 
 lcr.recipeBuilder()
     .fluidInputs(<liquid:hydrogen>*2000,<liquid:sulfuric_diesel>*12000)
-    .fluidInputs(<liquid:hydrogen_sulfide>*1000,<liquid:diesel>*12000)
+    .fluidOutputs(<liquid:hydrogen_sulfide>*1000,<liquid:fuel>*12000)
     .duration(200)
     .EUt(200)
     .buildAndRegister();
@@ -393,7 +393,88 @@ distillation_tower.recipeBuilder()
 electrolyzer.findRecipe(30,null,[<liquid:propane>*1000]).remove();
 electrolyzer.findRecipe(30,null,[<liquid:propene>*1000]).remove();
 
+#------Desulfurization with CoMoAl(CMA) catalyst---------- thanks to @RailGun
 
+chemReactor.findRecipe(30,[<gregtech:meta_item_1:2132>,<gtadditions:ga_dust:292>],[<liquid:hydrogen>*2000,<liquid:sulfuric_gas>*8000]).remove();
+chemReactor.findRecipe(30,[<gregtech:meta_item_1:2132>,<gtadditions:ga_dust:292>],[<liquid:hydrogen>*2000,<liquid:sulfuric_naphtha>*8000]).remove();
+chemReactor.findRecipe(30,[<gregtech:meta_item_1:2132>,<gtadditions:ga_dust:292>],[<liquid:hydrogen>*2000,<liquid:sulfuric_light_fuel>*8000]).remove();
+chemReactor.findRecipe(30,[<gregtech:meta_item_1:2132>,<gtadditions:ga_dust:292>],[<liquid:hydrogen>*2000,<liquid:sulfuric_heavy_fuel>*8000]).remove();
+lcr.findRecipe(30,[<gregtech:meta_item_1:2132>,<gtadditions:ga_dust:292>],[<liquid:hydrogen>*2000,<liquid:sulfuric_heavy_fuel>*8000]).remove();
+lcr.findRecipe(30,[<gregtech:meta_item_1:2132>,<gtadditions:ga_dust:292>],[<liquid:hydrogen>*2000,<liquid:sulfuric_gas>*8000]).remove();
+lcr.findRecipe(30,[<gregtech:meta_item_1:2132>,<gtadditions:ga_dust:292>],[<liquid:hydrogen>*2000,<liquid:sulfuric_naphtha>*8000]).remove();
+lcr.findRecipe(30,[<gregtech:meta_item_1:2132>,<gtadditions:ga_dust:292>],[<liquid:hydrogen>*2000,<liquid:sulfuric_light_fuel>*8000]).remove();
+
+chemReactor.recipeBuilder()
+    .notConsumable(<gregtech:meta_item_1:2132>)
+    .notConsumable(<gtadditions:ga_dust:292>)
+    .fluidInputs(<liquid:hydrogen>*2000,<liquid:sulfuric_gas>*8000)
+    .fluidOutputs(<liquid:gas>*8000,<liquid:hydrogen_sulfide>*1000)
+    .duration(60)
+    .EUt(20)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .notConsumable(<gregtech:meta_item_1:2132>)
+    .notConsumable(<gtadditions:ga_dust:292>)
+    .fluidInputs(<liquid:hydrogen>*2000,<liquid:sulfuric_naphtha>*8000)
+    .fluidOutputs(<liquid:naphtha>*8000,<liquid:hydrogen_sulfide>*1000)
+    .duration(60)
+    .EUt(20)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .notConsumable(<gregtech:meta_item_1:2132>)
+    .notConsumable(<gtadditions:ga_dust:292>)
+    .fluidInputs(<liquid:hydrogen>*2000,<liquid:sulfuric_light_fuel>*8000)
+    .fluidOutputs(<liquid:light_fuel>*8000,<liquid:hydrogen_sulfide>*1000)
+    .duration(60)
+    .EUt(20)
+    .buildAndRegister();
+    
+chemReactor.recipeBuilder()
+    .notConsumable(<gregtech:meta_item_1:2132>)
+    .notConsumable(<gtadditions:ga_dust:292>)
+    .fluidInputs(<liquid:hydrogen>*2000,<liquid:sulfuric_heavy_fuel>*8000)
+    .fluidOutputs(<liquid:heavy_fuel>*8000,<liquid:hydrogen_sulfide>*1000)
+    .duration(60)
+    .EUt(20)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .notConsumable(<gregtech:meta_item_1:2132>)
+    .notConsumable(<gtadditions:ga_dust:292>)
+    .fluidInputs(<liquid:hydrogen>*2000,<liquid:sulfuric_gas>*8000)
+    .fluidOutputs(<liquid:gas>*8000,<liquid:hydrogen_sulfide>*1000)
+    .duration(60)
+    .EUt(20)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .notConsumable(<gregtech:meta_item_1:2132>)
+    .notConsumable(<gtadditions:ga_dust:292>)
+    .fluidInputs(<liquid:hydrogen>*2000,<liquid:sulfuric_naphtha>*8000)
+    .fluidOutputs(<liquid:naphtha>*8000,<liquid:hydrogen_sulfide>*1000)
+    .duration(60)
+    .EUt(20)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .notConsumable(<gregtech:meta_item_1:2132>)
+    .notConsumable(<gtadditions:ga_dust:292>)
+    .fluidInputs(<liquid:hydrogen>*2000,<liquid:sulfuric_light_fuel>*8000)
+    .fluidOutputs(<liquid:light_fuel>*8000,<liquid:hydrogen_sulfide>*1000)
+    .duration(60)
+    .EUt(20)
+    .buildAndRegister();
+    
+lcr.recipeBuilder()
+    .notConsumable(<gregtech:meta_item_1:2132>)
+    .notConsumable(<gtadditions:ga_dust:292>)
+    .fluidInputs(<liquid:hydrogen>*2000,<liquid:sulfuric_heavy_fuel>*8000)
+    .fluidOutputs(<liquid:heavy_fuel>*8000,<liquid:hydrogen_sulfide>*1000)
+    .duration(60)
+    .EUt(20)
+    .buildAndRegister();
 
 
 
