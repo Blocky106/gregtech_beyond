@@ -92,7 +92,7 @@ val rocket_two = Builder.start(loc, meta)
 
 rocket_two.recipeMap.recipeBuilder()
     .inputs(<contenttweaker:researchpapermoon>)
-    .fluidInputs(<liquid:rocket_fuel>*1000)
+    .fluidInputs(<liquid:rocket_fuel_c>*750)
     .outputs(<contenttweaker:moon>)
     .duration(20)
     .EUt(120)
