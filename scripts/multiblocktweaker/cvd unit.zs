@@ -163,8 +163,11 @@ cvd_unit.recipeMap.recipeBuilder()
 
 	}
     }
- 
 
 
-
-
+cvd_unit.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2421>,<gtadditions:ga_dust:32210>,<gregtech:meta_item_2:32469>)
+    .outputs(<contenttweaker:raw_high_power_ic_wafer>)
+    .duration(400)
+    .EUt(200)
+    .buildAndRegister();
