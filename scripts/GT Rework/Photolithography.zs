@@ -573,6 +573,19 @@ cvd_unit_s.recipeBuilder()
     .EUt(180)
     .buildAndRegister();
 
+<<<<<<< Updated upstream
+=======
+
+ion_implanter.recipeBuilder()
+    .inputs(<contenttweaker:engraved_nanocpu_wafer>, i, I) 
+    .fluidInputs(<liquid:very_hot_argon>*1000)
+    .outputs(<contenttweaker:doped_nanocpu_wafer>)
+    .duration(200)
+    .EUt(60)
+    .buildAndRegister();
+
+
+>>>>>>> Stashed changes
 	}
     }
 
@@ -662,6 +675,7 @@ engraver.recipeBuilder()    .inputs(<gtadditions:ga_meta_item:32333>)    .notCon
 engraver.recipeBuilder()    .inputs(<gtadditions:ga_meta_item:32334>)    .notConsumable(<contenttweaker:integrated_circuit_photolithography_mask>)   .outputs(<contenttweaker:engraved_ic_wafer>*16)    .duration(400).EUt(12).buildAndRegister();
 engraver.recipeBuilder()    .inputs(<gtadditions:ga_meta_item:32335>)    .notConsumable(<contenttweaker:integrated_circuit_photolithography_mask>)   .outputs(<contenttweaker:engraved_ic_wafer>*20)    .duration(400).EUt(12).buildAndRegister();
 
+<<<<<<< Updated upstream
 levngraver.recipeBuilder()    .inputs(<gregtech:meta_item_2:32440>)    .notConsumable(<contenttweaker:integrated_circuit_photolithography_mask>)   .outputs(<contenttweaker:engraved_ic_wafer>)    .duration(400).EUt(12).buildAndRegister();
 levngraver.recipeBuilder()    .inputs(<gregtech:meta_item_2:32441>)    .notConsumable(<contenttweaker:integrated_circuit_photolithography_mask>)   .outputs(<contenttweaker:engraved_ic_wafer>*4)    .duration(400).EUt(12).buildAndRegister();
 levngraver.recipeBuilder()    .inputs(<gregtech:meta_item_2:32442>)    .notConsumable(<contenttweaker:integrated_circuit_photolithography_mask>)   .outputs(<contenttweaker:engraved_ic_wafer>*8)    .duration(400).EUt(12).buildAndRegister();
@@ -670,3 +684,62 @@ levngraver.recipeBuilder()    .inputs(<gtadditions:ga_meta_item:32334>)    .notC
 levngraver.recipeBuilder()    .inputs(<gtadditions:ga_meta_item:32335>)    .notConsumable(<contenttweaker:integrated_circuit_photolithography_mask>)   .outputs(<contenttweaker:engraved_ic_wafer>*20)    .duration(400).EUt(12).buildAndRegister();
 
 
+=======
+lengraver.recipeBuilder()    .inputs(<gregtech:meta_item_2:32440>)    .notConsumable(<contenttweaker:integrated_circuit_photolithography_mask>)   .outputs(<contenttweaker:engraved_ic_wafer>)    .duration(400).EUt(12).buildAndRegister();
+lengraver.recipeBuilder()    .inputs(<gregtech:meta_item_2:32441>)    .notConsumable(<contenttweaker:integrated_circuit_photolithography_mask>)   .outputs(<contenttweaker:engraved_ic_wafer>*4)    .duration(400).EUt(12).buildAndRegister();
+lengraver.recipeBuilder()    .inputs(<gregtech:meta_item_2:32442>)    .notConsumable(<contenttweaker:integrated_circuit_photolithography_mask>)   .outputs(<contenttweaker:engraved_ic_wafer>*8)    .duration(400).EUt(12).buildAndRegister();
+lengraver.recipeBuilder()    .inputs(<gtadditions:ga_meta_item:32333>)    .notConsumable(<contenttweaker:integrated_circuit_photolithography_mask>)   .outputs(<contenttweaker:engraved_ic_wafer>*12)    .duration(400).EUt(12).buildAndRegister();
+lengraver.recipeBuilder()    .inputs(<gtadditions:ga_meta_item:32334>)    .notConsumable(<contenttweaker:integrated_circuit_photolithography_mask>)   .outputs(<contenttweaker:engraved_ic_wafer>*16)    .duration(400).EUt(12).buildAndRegister();
+lengraver.recipeBuilder()    .inputs(<gtadditions:ga_meta_item:32335>)    .notConsumable(<contenttweaker:integrated_circuit_photolithography_mask>)   .outputs(<contenttweaker:engraved_ic_wafer>*20)    .duration(400).EUt(12).buildAndRegister();
+
+engraver.recipeBuilder()    .inputs(<gregtech:meta_item_2:32440>)    .notConsumable(<contenttweaker:nanocpu_lithography_mask>)   .outputs(<contenttweaker:engraved_nanocpu_wafer>)    .duration(400).EUt(480).buildAndRegister();
+engraver.recipeBuilder()    .inputs(<gregtech:meta_item_2:32441>)    .notConsumable(<contenttweaker:nanocpu_lithography_mask>)   .outputs(<contenttweaker:engraved_nanocpu_wafer>*4)    .duration(400).EUt(480).buildAndRegister();
+engraver.recipeBuilder()    .inputs(<gregtech:meta_item_2:32442>)    .notConsumable(<contenttweaker:nanocpu_lithography_mask>)   .outputs(<contenttweaker:engraved_nanocpu_wafer>*8)    .duration(400).EUt(480).buildAndRegister();
+engraver.recipeBuilder()    .inputs(<gtadditions:ga_meta_item:32333>)    .notConsumable(<contenttweaker:nanocpu_lithography_mask>)   .outputs(<contenttweaker:engraved_nanocpu_wafer>*12)    .duration(400).EUt(480).buildAndRegister();
+engraver.recipeBuilder()    .inputs(<gtadditions:ga_meta_item:32334>)    .notConsumable(<contenttweaker:nanocpu_lithography_mask>)   .outputs(<contenttweaker:engraved_nanocpu_wafer>*16)    .duration(400).EUt(480).buildAndRegister();
+engraver.recipeBuilder()    .inputs(<gtadditions:ga_meta_item:32335>)    .notConsumable(<contenttweaker:nanocpu_lithography_mask>)   .outputs(<contenttweaker:engraved_nanocpu_wafer>*20)    .duration(400).EUt(480).buildAndRegister();
+
+lengraver.recipeBuilder()    .inputs(<gregtech:meta_item_2:32440>)    .notConsumable(<contenttweaker:nanocpu_lithography_mask>)   .outputs(<contenttweaker:engraved_nanocpu_wafer>)    .duration(400).EUt(480).buildAndRegister();
+lengraver.recipeBuilder()    .inputs(<gregtech:meta_item_2:32441>)    .notConsumable(<contenttweaker:nanocpu_lithography_mask>)   .outputs(<contenttweaker:engraved_nanocpu_wafer>*4)    .duration(400).EUt(480).buildAndRegister();
+lengraver.recipeBuilder()    .inputs(<gregtech:meta_item_2:32442>)    .notConsumable(<contenttweaker:nanocpu_lithography_mask>)   .outputs(<contenttweaker:engraved_nanocpu_wafer>*8)    .duration(400).EUt(480).buildAndRegister();
+lengraver.recipeBuilder()    .inputs(<gtadditions:ga_meta_item:32333>)    .notConsumable(<contenttweaker:nanocpu_lithography_mask>)   .outputs(<contenttweaker:engraved_nanocpu_wafer>*12)    .duration(400).EUt(480).buildAndRegister();
+lengraver.recipeBuilder()    .inputs(<gtadditions:ga_meta_item:32334>)    .notConsumable(<contenttweaker:nanocpu_lithography_mask>)   .outputs(<contenttweaker:engraved_nanocpu_wafer>*16)    .duration(400).EUt(480).buildAndRegister();
+lengraver.recipeBuilder()    .inputs(<gtadditions:ga_meta_item:32335>)    .notConsumable(<contenttweaker:nanocpu_lithography_mask>)   .outputs(<contenttweaker:engraved_nanocpu_wafer>*20)    .duration(400).EUt(480).buildAndRegister();
+
+cvd_unit_s.recipeBuilder()
+    .inputs(<contenttweaker:doped_nanocpu_wafer>)
+    .fluidInputs(<liquid:trichlorosilane>*1000)
+    .outputs(<contenttweaker:gated_nanocpu_wafer>)
+    .duration(499)
+    .EUt(80)
+    .buildAndRegister();
+
+cvd_unit_s.recipeBuilder()
+    .inputs(<contenttweaker:gated_nanocpu_wafer>)
+    .fluidInputs(<liquid:trichlorosilane>*1000,<liquid:oxygen>*1000)
+    .outputs(<contenttweaker:insulated_nanocpu_wafer>)
+    .duration(499)
+    .EUt(80)
+    .buildAndRegister();
+
+engraver.recipeBuilder()    .inputs(<contenttweaker:insulated_nanocpu_wafer>)   .notConsumable(<ore:craftingLensRed>)    .outputs(<contenttweaker:trenched_insulated_nanocpu_wafer>)    .duration(200)    .EUt(12)    .buildAndRegister();
+lengraver.recipeBuilder()    .inputs(<contenttweaker:insulated_nanocpu_wafer>)   .notConsumable(<ore:craftingLensRed>)    .outputs(<contenttweaker:trenched_insulated_nanocpu_wafer>)    .duration(200)    .EUt(12)    .buildAndRegister();
+
+cvd_unit_s.recipeBuilder()
+    .inputs(<contenttweaker:trenched_insulated_nanocpu_wafer>,<gregtech:meta_item_1:2018>)
+    .outputs(<contenttweaker:unplanarized_nanocpu_wafer>)
+    .duration(20)
+    .EUt(900)
+    .buildAndRegister();
+
+chemical_bath.recipeBuilder()
+    .inputs(<contenttweaker:unplanarized_nanocpu_wafer>)
+    .fluidInputs(<liquid:diluted_sulfuric_acid>*1000)
+    .outputs(<gregtech:meta_item_2:32467>)
+    .duration(200)
+    .EUt(700)
+    .buildAndRegister();
+
+Utils.removeRecipeByOutput(lcr, [<gregtech:meta_item_2:32467>], [], false);
+Utils.removeRecipeByOutput(chemReactor, [<gregtech:meta_item_2:32467>], [], false);
+>>>>>>> Stashed changes
