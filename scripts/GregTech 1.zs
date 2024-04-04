@@ -3013,6 +3013,55 @@ macerator.recipeBuilder()
 	.EUt(12)
 	.buildAndRegister();
 
+autoclave.recipeBuilder()
+	.fluidInputs(<liquid:distilled_water>*1000)
+	.inputs(<gregtech:meta_item_1:8157>)
+	.outputs(<wildnature:sapphire>)
+	.duration(80)
+	.EUt(8)
+	.buildAndRegister();
+
+assembler.recipeBuilder()
+	.fluidInputs(<liquid:stainless_steel>*144)
+	.inputs(<gregtech:meta_item_1:12623>,<gregtech:meta_item_1:12051>,<gregtech:meta_item_1:12235>)
+	.outputs(<contenttweaker:platinum_desh_tungstensteel_compressed_plate>)
+	.duration(400)
+	.EUt(900)
+	.buildAndRegister();
+
+assembler.recipeBuilder()
+	.inputs(<contenttweaker:heavydutyplatet3>*6,<gregtech:frame_tungsten_steel>)
+	.outputs(<contenttweaker:advanced_outer_protective_wall>)
+	.duration(220)
+	.EUt(60)
+	.buildAndRegister();
+
+assembler.recipeBuilder()
+	.inputs(<contenttweaker:nozzle_t2>*16,<contenttweaker:propellant_tank>,<contenttweaker:rocket_combustion_chamber>,<contenttweaker:heavydutyplatet3>*4,<gregtech:meta_item_1:12235>*4,<gregtech:meta_item_1:14302>*4,<contenttweaker:electricalsteelgear>*2)
+	.outputs(<contenttweaker:t3_rocket_engine>)
+	.duration(900)
+	.EUt(2000)
+	.buildAndRegister();
+
+assembler.recipeBuilder()
+	.inputs(<gtadditions:ga_meta_item:32304>*2,<contenttweaker:hafnium_platinum_titanium_plate>*2,<contenttweaker:heavydutyplatet3>*4,<gregtech:meta_item_1:12061>*4,)
+	.outputs(<contenttweaker:advanced_rocket_thruster>)
+	.duration(80)
+	.EUt(90)
+	.buildAndRegister();
+
+metal_bender.recipeBuilder()
+	.inputs(<contenttweaker:hafnium_platinum_titanium_plate>*4)
+	.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 32}))
+	.outputs(<contenttweaker:advanced_stabilization_fin>)
+	.EUt(480)
+	.duration(900)
+	.buildAndRegister();
+
+
+
+
+
 
 
 ebf.findRecipe(480, [<gtadditions:ga_dust:19>*10,<gregtech:meta_item_1:2012>*3], null).remove();
