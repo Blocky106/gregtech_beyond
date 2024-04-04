@@ -24,6 +24,7 @@ mods.jei.JEI.hideCategory("gregtech:microscope");
 mods.jei.JEI.hideCategory("gregtech:roasters");
 mods.jei.JEI.hideCategory("gregtech:rock_crusher");
 mods.jei.JEI.hideCategory("gregtech:rotary_evaporator");
+mods.jei.JEI.hideCategory("gregtech:drone_pad");
 mods.jei.JEI.hideCategory("gregtech:scanner");
 mods.jei.JEI.hideCategory("gregtech:vacuum_ejection_chamber");
 mods.jei.JEI.hideCategory("gregtech:water_collector");
@@ -947,9 +948,6 @@ val itemstoRemoveAndHide =
 <energycontrol:item_component:1>,
 <energycontrol:item_component>,
 <energycontrol:kit_assembler>,
-<gregtech:meta_item_1:10527>,
-<gregtech:meta_item_1:9527>,
-<gregtech:meta_block_compressed_32:15>,
 <nuclearcraft:fluid_sulfuric_acid>,
 <forestry:wood_pulp>,
 <nuclearcraft:compound:7>,
