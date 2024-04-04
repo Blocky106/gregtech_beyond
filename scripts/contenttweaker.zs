@@ -585,10 +585,9 @@ callisto.register();
 var ceres = VanillaFactory.createItem("ceres");
 ceres.register();
 
-<<<<<<< Updated upstream
 var diona = VanillaFactory.createItem("diona");
 diona.register();
-=======
+
 var items = [
 "steel_item_casing",
 "enhancedenderiumlense",
@@ -1030,9 +1029,13 @@ var items = [
 "highdensityuraniumnugget",
 "greensteelrod",
 "hotresonantseaborgiumingot",
-"containment_plating"
+"containment_plating",
+"nor_photolithography_mask",
+"nand_photolithography_mask",
+"nickel_nitride_wafer",
+"engraved_nor_wafer",
+"engraved_nand_wafer",
 ] as string[];
->>>>>>> Stashed changes
 
 var enceladus = VanillaFactory.createItem("enceladus");
 enceladus.register();

@@ -293,7 +293,7 @@ deshite.addFlags(["GENERATE_PLATE","GENERATE_ORE"]);
 val desh = MaterialRegistry.createIngotMaterial(623,"desh",0x333333,"SHINY",3);
 desh.addFlags(["GENERATE_PLATE"]);
 
-
+val nickel_nitride = MaterialRegistry.createDustMaterial(624,"nickel_nitride",0x2F4F4F,"DULL",3);
 
 
 
