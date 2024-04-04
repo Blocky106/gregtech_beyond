@@ -489,3 +489,19 @@ chemical_bath.recipeBuilder()
 
 Utils.removeRecipeByOutput(chemReactor, [<gregtech:meta_item_2:32465>],[],false);
 Utils.removeRecipeByOutput(lcr, [<gregtech:meta_item_2:32465>],[],false);
+
+engraver.recipeBuilder()
+    .inputs(<gregtech:meta_item_2:32440>)
+    .notConsumable(<contenttweaker:integrated_circuit_photolithography_mask>)
+    .outputs(<contenttweaker:engraved_ic_wafer>)
+    .duration(400)
+    .EUt(12)
+    .buildAndRegister();
+
+lengraver.recipeBuilder()
+    .inputs(<gregtech:meta_item_2:32440>)
+    .notConsumable(<contenttweaker:integrated_circuit_photolithography_mask>)
+    .outputs(<contenttweaker:engraved_ic_wafer>)
+    .duration(400)
+    .EUt(12)
+    .buildAndRegister();
