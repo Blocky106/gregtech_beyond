@@ -3341,3 +3341,16 @@ chemReactor.recipeBuilder()
     .duration(1200)
     .EUt(800)
     .buildAndRegister();
+
+furnace.remove(<gregtech:meta_item_1:10760>);
+furnace.remove(<gregtech:meta_item_1:9760>);
+
+ebf.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2760>)
+    .outputs(<gregtech:meta_item_1:10760>)
+    .fluidInputs(<liquid:oxygen>*1000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 11}))
+    .property("temperature", 1800)
+    .duration(200)
+    .EUt(80)
+    .buildAndRegister();

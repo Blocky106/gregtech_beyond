@@ -2163,3 +2163,4 @@ raw_ic_wafer.register();
 
 var integrated_circuit_photolithography_mask = VanillaFactory.createItem("integrated_circuit_photolithography_mask");
 integrated_circuit_photolithography_mask.register();
+
