@@ -171,7 +171,10 @@ cvd_unit.recipeMap.recipeBuilder()
 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 cvd_unit.recipeMap.recipeBuilder()
@@ -182,6 +185,9 @@ cvd_unit.recipeMap.recipeBuilder()
     .buildAndRegister();
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
