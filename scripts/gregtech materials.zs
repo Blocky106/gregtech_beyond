@@ -295,6 +295,7 @@ desh.addFlags(["GENERATE_PLATE"]);
 
 val nickel_nitride = MaterialRegistry.createDustMaterial(624,"nickel_nitride",0x2F4F4F,"DULL",3);
 
+val naquadah_dioxide = MaterialRegistry.createDustMaterial(625,"naquadah_dioxide",0x4B0082,"DULL",3) [<material:naquadah>*1 , <material:oxygen>*2];
 
 
 util.registerDust("kaminskycatalyst", 32000, 0x372927, "DULL");
@@ -912,6 +913,8 @@ util.registerFluid("wolframiteimpureslurry",0x39593C);
 util.registerFluid("wolframiteslurry",0x355D38);
 util.registerFluid("silicon_carbide",0x515151);
 util.registerFluid("hot_treated_wastewater",0x515151);
+util.registerFluid("very_hot_aqua_regia",0xFFFFE0);
+util.registerFluid("chloronaquadic_acid",0x111111);
 
 
 
