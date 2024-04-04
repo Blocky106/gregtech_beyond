@@ -2485,7 +2485,7 @@ engraver.recipeBuilder()
 
 ebf.recipeBuilder()	
 	.inputs(<gregtech:meta_item_1:10518>,<gregtech:meta_item_1:10017>)
-	.outputs(<contenttweaker:hotmanyullyningot>)
+	.outputs(<gregtech:meta_item_1:11527>)
 	.duration(400)
 	.property("temperature", 4000)
 	.EUt(1200)

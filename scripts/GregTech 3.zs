@@ -907,13 +907,6 @@ ebf.recipeBuilder()
 furnace.remove(<gregtech:meta_item_1:10527>);
 furnace.remove(<gregtech:meta_item_1:9527>);
 
-vacfreezer.recipeBuilder()
-    .inputs(<contenttweaker:hotmanyullyningot>)
-    .outputs(<tconstruct:ingots:2>)
-    .duration(400)
-    .EUt(1200)
-    .buildAndRegister();
-
 chemReactor.recipeBuilder()
     .inputs(<gregtech:meta_item_1:12840>,<gregtech:meta_item_1:19018>)
     .outputs(<gregtech:meta_item_2:32448>*8)

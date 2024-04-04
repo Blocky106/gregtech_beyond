@@ -172,14 +172,6 @@ mixer.recipeBuilder()
     .buildAndRegister();
 
 ebf.recipeBuilder()
-    .inputs(<gregtech:meta_item_1:2527>)
-    .outputs(<contenttweaker:hotmanyullyningot>)
-    .duration(400)
-    .EUt(2700)
-    .property("temperature", 4000)
-    .buildAndRegister();
-
-ebf.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2550>)
     .outputs(<contenttweaker:hotvibrantalloyingot>)
     .duration(400)
