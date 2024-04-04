@@ -3354,3 +3354,12 @@ ebf.recipeBuilder()
     .duration(200)
     .EUt(80)
     .buildAndRegister();
+
+recipes.addShaped(<gregtech:machine:10062>, [	[<ore:circuitBasic>, <gregtech:meta_item_1:32600>, <ore:circuitBasic>], 	[<gregtech:meta_item_1:32650>, <gregtech:machine:501>, <gregtech:meta_item_1:32650>], [<ore:circuitBasic>, <gregtech:meta_item_1:32600>, <ore:circuitBasic>]]);
+
+assembler.recipeBuilder()
+    .inputs(<gregtech:meta_item_2:17184>*2,<gregtech:meta_item_2:18184>*4,<ore:circuitBasic>*2,<gregtech:meta_item_1:12001>*2,<gregtech:cable:5071>*2)
+    .outputs(<contenttweaker:drone>)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
