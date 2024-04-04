@@ -33,16 +33,7 @@ import mods.nuclearcraft.IngotFormer;
 <contenttweaker:quantumcontrolcomputermk3>.addTooltip(format.red("WIP"));
 <contenttweaker:stablestar>.addTooltip(format.red("WIP"));
 <contenttweaker:spacetimecontainingcomputationalunit>.addTooltip(format.red("WIP"));
-<contenttweaker:elementdr>.addTooltip(format.red("WIP"));
 <contenttweaker:heavydutyalloyt6>.addTooltip(format.red("WIP"));
-<contenttweaker:elementds>.addTooltip(format.red("WIP"));
-<contenttweaker:selementts>.addTooltip(format.red("WIP"));
-<contenttweaker:elementfm>.addTooltip(format.red("WIP"));
-<contenttweaker:elementlu>.addTooltip(format.red("WIP"));
-<contenttweaker:elementti>.addTooltip(format.red("WIP"));
-<contenttweaker:elementtr>.addTooltip(format.red("WIP"));
-<contenttweaker:selementp>.addTooltip(format.red("WIP"));
-<contenttweaker:elementw>.addTooltip(format.red("WIP"));
 
 
 
