@@ -809,3 +809,30 @@ ebf.recipeBuilder()
     .duration(200)
     .EUt(100)
     .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs(<contenttweaker:lithography_base_mask>,<ore:dyeBlack>)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 7}))
+    .outputs(<contenttweaker:nor_photolithography_mask>)
+    .duration(50)
+    .EUt(12)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs(<contenttweaker:lithography_base_mask>,<ore:dyeBlack>)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 8}))
+    .outputs(<contenttweaker:nand_photolithography_mask>)
+    .duration(50)
+    .EUt(12)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:13309> , <gregtech:meta_item_1:15209>)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .outputs(<contenttweaker:enriched_naquadah_photolithography_mask>)
+    .duration(50)
+    .EUt(12)
+    .buildAndRegister();
+
+engraver.recipeBuilder()    .inputs(<contenttweaker:nickel_nitride_wafer>)    .notConsumable(<contenttweaker:nor_photolithography_mask>)   .outputs(<contenttweaker:engraved_nor_wafer>)    .duration(400).EUt(12).buildAndRegister();
+engraver.recipeBuilder()    .inputs(<contenttweaker:nickel_nitride_wafer>)    .notConsumable(<contenttweaker:nand_photolithography_mask>)   .outputs(<contenttweaker:engraved_nand_wafer>)    .duration(400).EUt(12).buildAndRegister();
