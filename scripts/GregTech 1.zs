@@ -3044,7 +3044,7 @@ assembler.recipeBuilder()
 	.buildAndRegister();
 
 assembler.recipeBuilder()
-	.inputs(<gtadditions:ga_meta_item:32304>*2,<contenttweaker:hafnium_platinum_titanium_plate>*2,<contenttweaker:heavydutyplatet3>*4,<gregtech:meta_item_1:12061>*4,)
+	.inputs(<gtadditions:ga_meta_item:32304>*2,<contenttweaker:hafnium_platinum_titanium_plate>*2,<contenttweaker:heavydutyplatet3>*4,<gregtech:meta_item_1:12061>*4)
 	.outputs(<contenttweaker:advanced_rocket_thruster>)
 	.duration(80)
 	.EUt(90)
