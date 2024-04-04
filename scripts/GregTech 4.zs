@@ -1485,17 +1485,17 @@ distillation_tower.recipeBuilder()
     .buildAndRegister();
 
 chemReactor.recipeBuilder()
-    .inputs(<contenttweaker:femtopicw>,<contenttweaker:treated_photocoated_hassium_wafer>)
+    .inputs(<contenttweaker:pikopic>,<contenttweaker:treated_photocoated_hassium_wafer>)
     .fluidInputs(<liquid:vibrantalloy>*14400)
-    .outputs(<contenttweaker:attopicw>)
+    .outputs(<contenttweaker:femtopic>)
     .duration(2000)
     .EUt(12000000)
     .buildAndRegister();
 
 lcr.recipeBuilder()
-    .inputs(<contenttweaker:femtopicw>,<contenttweaker:treated_photocoated_hassium_wafer>)
+    .inputs(<contenttweaker:pikopic>,<contenttweaker:treated_photocoated_hassium_wafer>)
     .fluidInputs(<liquid:vibrantalloy>*14400)
-    .outputs(<contenttweaker:attopicw>)
+    .outputs(<contenttweaker:femtopic>)
     .duration(2000)
     .EUt(12000000)
     .buildAndRegister();
@@ -2439,8 +2439,8 @@ componentassembler.recipeBuilder()
 	.buildAndRegister();
 
 beam_shrinking_device.recipeBuilder()
-    .inputs(<contenttweaker:zeptopicw>)
-    .outputs(<contenttweaker:yoctopicw>)
+    .inputs(<contenttweaker:femtopic>)
+    .outputs(<contenttweaker:xontopic>)
     .duration(200)
     .EUt(50000)
     .buildAndRegister();
@@ -3362,4 +3362,23 @@ assembler.recipeBuilder()
     .outputs(<contenttweaker:drone>)
     .duration(200)
     .EUt(12)
+    .buildAndRegister();
+
+mixer.recipeBuilder().inputs(<gtadditions:ga_dust:118>,<gregtech:meta_item_1:2521>*2).outputs(<gtadditions:ga_dust:32211>*3).duration(290).EUt(800).buildAndRegister();
+lmixer.recipeBuilder().inputs(<gtadditions:ga_dust:118>,<gregtech:meta_item_1:2521>*2).outputs(<gtadditions:ga_dust:32211>*3).duration(290).EUt(800).buildAndRegister();
+
+arc_furnace.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:32211>)
+    .fluidInputs(<liquid:oxygen>*1000)
+    .outputs(<contenttweaker:hafnium_platinum_titanium_ingot>)
+    .duration(800)
+    .EUt(90)
+    .buildAndRegister();
+
+metal_bender.recipeBuilder()
+    .inputs(<contenttweaker:hafnium_platinum_titanium_ingot>)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .outputs(<contenttweaker:hafnium_platinum_titanium_plate>)
+    .duration(120)
+    .EUt(70)
     .buildAndRegister();
