@@ -505,10 +505,19 @@ util.registerDust("iriditus", 32207, 0x00BCD4, "SHINY");
 util.registerDust("roasted_deshite", 32208, 0x6D6666, "SHINY");
 util.registerDust("evaporated_deshite_compound", 32209, 0x4B4A4A, "DULL");
 util.registerDust("silver_bromide", 32210, 0x4B4A4A, "DULL");
+util.registerDust("hafnium_platinum_titanium_composite", 32211, 0x4B4A4A, "DULL");
 
 
 
 
+util.registerFluid("platinum_solution", 0xC7C18E);
+util.registerFluid("palladium_extract", 0x3A3B3B);
+util.registerFluid("platinum_extraction_mixture", 0x009688);
+util.registerFluid("platinum_extract", 0xDEC587);
+util.registerFluid("palladium_mother_liqour", 0x6B7271);
+util.registerFluid("draconium_mother_liqour", 0x6A1B9A);
+util.registerFluid("draconium_extract", 0x6A1B9A);
+util.registerFluid("draconium_extraction_mixture", 0x4527A0);
 util.registerFluid("very_hot_argon", 0x746D4C);
 util.registerFluid("desulfurized_deshite_compound", 0x746D4C);
 util.registerFluid("ethoxylated_nonylphenol", 0x42322E);
