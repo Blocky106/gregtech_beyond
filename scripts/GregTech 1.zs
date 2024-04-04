@@ -3059,7 +3059,7 @@ metal_bender.recipeBuilder()
 	.buildAndRegister();
 
 distillation_tower.findRecipe(70,null,[<liquid:gasoline>*1000]).remove();
-ebf.findRecipe(120,[<gregtech:meta_item_1:2310>,null]).remove();
+ebf.findRecipe(120,[<gregtech:meta_item_1:2310>],null).remove();
 
 ebf.recipeBuilder()
 	.inputs(<gregtech:meta_item_1:2310>)
