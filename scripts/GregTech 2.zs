@@ -2712,3 +2712,20 @@ alloy_smelter.recipeBuilder()
     .duration(200)
     .EUt(12)
     .buildAndRegister();
+
+recipes.addShaped(<gregtech:machine:1470>, [	[<ore:circuitBasic>, <gtadditions:ga_transparent_casing:1>, <gtadditions:ga_transparent_casing:1>], 	[<ore:cableGtSingleTin>, <gregtech:meta_item_1:32600>, <gregtech:meta_item_1:32610>], 	[<ore:circuitBasic>, <gregtech:machine:501>, <gregtech:meta_item_1:32610>]]);
+recipes.addShaped(<gregtech:machine:1471>, [	[<ore:circuitGood>, <gtadditions:ga_transparent_casing:1>, <gtadditions:ga_transparent_casing:1>], 	[<ore:cableGtSingleCopper>, <gregtech:meta_item_1:32601>, <gregtech:meta_item_1:32611>], 	[<ore:circuitGood>, <gregtech:machine:502>, <gregtech:meta_item_1:32611>]]);
+recipes.addShaped(<gregtech:machine:1472>, [	[<ore:circuitAdvanced>, <gtadditions:ga_transparent_casing:1>, <gtadditions:ga_transparent_casing:1>], 	[<ore:cableGtSingleGold>, <gregtech:meta_item_1:32602>, <gregtech:meta_item_1:32612>], 	[<ore:circuitAdvanced>, <gregtech:machine:503>, <gregtech:meta_item_1:32612>]]);
+recipes.addShaped(<gregtech:machine:1473>, [	[<ore:circuitExtreme>, <gtadditions:ga_transparent_casing:1>, <gtadditions:ga_transparent_casing:1>], 	[<ore:cableGtSingleAluminium>, <gregtech:meta_item_1:32603>, <gregtech:meta_item_1:32613>], 	[<ore:circuitExtreme>, <gregtech:machine:504>, <gregtech:meta_item_1:32613>]]);
+recipes.addShaped(<gregtech:machine:1474>, [	[<ore:circuitElite>, <gtadditions:ga_transparent_casing:1>, <gtadditions:ga_transparent_casing:1>], 	[<ore:cableGtSingleTungsten>, <gregtech:meta_item_1:32604>, <gregtech:meta_item_1:32614>], 	[<ore:circuitElite>, <gregtech:machine:505>, <gregtech:meta_item_1:32614>]]);
+recipes.addShaped(<gregtech:machine:1475>, [	[<ore:circuitMaster>, <gtadditions:ga_transparent_casing:1>, <gtadditions:ga_transparent_casing:1>], 	[<ore:cableGtSingleVanadiumGallium>, <gregtech:meta_item_1:32606>, <gregtech:meta_item_1:32615>], 	[<ore:circuitMaster>, <gregtech:machine:506>, <gregtech:meta_item_1:32615>]]);
+recipes.addShaped(<gregtech:machine:1476>, [	[<ore:circuitUltimate>, <gtadditions:ga_transparent_casing:1>, <gtadditions:ga_transparent_casing:1>], 	[<ore:cableGtSingleNaquadah>, <gregtech:meta_item_1:32607>, <gregtech:meta_item_1:32616>], 	[<ore:circuitUltimate>, <gregtech:machine:507>, <gregtech:meta_item_1:32616>]]);
+recipes.addShaped(<gregtech:machine:1477>, [	[<ore:circuitSuperconductor>, <gtadditions:ga_transparent_casing:1>, <gtadditions:ga_transparent_casing:1>], 	[<ore:cableGtSingleNaquadahAlloy>, <gregtech:meta_item_1:32608>, <gregtech:meta_item_1:32617>], 	[<ore:circuitSuperconductor>, <gregtech:machine:508>, <gregtech:meta_item_1:32617>]]);
+
+
+
+
+
+
+
+
