@@ -18,7 +18,7 @@ import mods.gtadditions.recipe.Utils;
 
 lcentrifuge.recipeBuilder()
     .fluidInputs(<liquid:ammonium_chloride>*200,<liquid:platinum_solution>*2000)
-    .outputs(<gregtech:meta_item_1:1902>*10,<gregtech:meta_item_1:2900>*2)
+    .outputs(<gregtech:meta_item_1:1902>*10,<gregtech:meta_item_1:2896>*2)
     .fluidOutputs(<liquid:nitric_acid>*2000,<liquid:hydrogen>*1200)
     .EUt(30)
     .duration(1200)
@@ -39,7 +39,6 @@ lcr.recipeBuilder()
     .duration(200)
     .EUt(12)
     .buildAndRegister();
-
 
 lcentrifuge.recipeBuilder()
     .fluidInputs(<liquid:platinum_extraction_mixture>*4000,<liquid:platinum_concentrate>*4000)
