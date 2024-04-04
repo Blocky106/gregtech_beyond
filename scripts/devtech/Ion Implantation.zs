@@ -13,7 +13,7 @@ import mods.devtech.OverlayRenderer;
 
 var ion_implantation_overlay = OverlayRenderer.newOverlay("machines/ion_implantation_overlay", OverlayFace.FRONT, OverlayFace.SIDE, OverlayFace.TOP);
 
-var ion_implanter = IRecipeMap.recipeMapBuilder("ion_implanter",0,2,0,1,0,0,0,0)
+var ion_implanter = IRecipeMap.recipeMapBuilder("ion_implanter",0,2,0,1,0,1,0,0)
     .setOverlaySlots(OverlaySlot.newOverlaySlot(false, false,false,GUITextures.get("hammer_overlay")))
     .setProgressBar(GUITextures.get("progress_bar_bending"), MoveType.VERTICAL)
     .build();
