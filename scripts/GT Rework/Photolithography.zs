@@ -502,8 +502,11 @@ lengraver.recipeBuilder()
     .duration(400)
     .EUt(12)
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     .buildAndRegister();
 =======
+=======
+>>>>>>> Stashed changes
     .buildAndRegister();
 
 cvd_unit_s.recipeBuilder()
@@ -669,5 +672,9 @@ Utils.removeRecipeByOutput(lengraver,[<gregtech:meta_item_2:32463>*8],[],false);
 Utils.removeRecipeByOutput(lengraver,[<gregtech:meta_item_2:32463>*4],[],false);
 Utils.removeRecipeByOutput(lengraver,[<gregtech:meta_item_2:32463>*12],[],false);
 Utils.removeRecipeByOutput(lengraver,[<gregtech:meta_item_2:32463>*16],[],false);
+<<<<<<< Updated upstream
+Utils.removeRecipeByOutput(lengraver,[<gregtech:meta_item_2:32463>*20],[],false);
+>>>>>>> Stashed changes
+=======
 Utils.removeRecipeByOutput(lengraver,[<gregtech:meta_item_2:32463>*20],[],false);
 >>>>>>> Stashed changes

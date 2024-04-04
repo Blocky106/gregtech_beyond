@@ -170,7 +170,10 @@ cvd_unit.recipeMap.recipeBuilder()
     .buildAndRegister();
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 cvd_unit.recipeMap.recipeBuilder()
     .inputs(<contenttweaker:silicon_dioxide_wafer>,i)
     .outputs(<contenttweaker:n_doped_silicon_dioxide_wafer>)
@@ -178,6 +181,9 @@ cvd_unit.recipeMap.recipeBuilder()
     .EUt(1800)
     .buildAndRegister();
 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	}
     }
