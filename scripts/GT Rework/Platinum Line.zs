@@ -16,9 +16,8 @@ import mods.gregtech.recipe.CokeOvenRecipeBuilder;
 import mods.gtadditions.recipe.Utils;
 
 
-lcr.recipeBuilder()
+lcentrifuge.recipeBuilder()
     .fluidInputs(<liquid:ammonium_chloride>*200,<liquid:platinum_solution>*2000)
-    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
     .outputs(<gregtech:meta_item_1:1902>*10,<gregtech:meta_item_1:2900>*2)
     .fluidOutputs(<liquid:nitric_acid>*2000,<liquid:hydrogen>*1200)
     .EUt(30)
