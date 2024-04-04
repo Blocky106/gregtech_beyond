@@ -25,13 +25,22 @@ lcr.recipeBuilder()
     .duration(1200)
     .buildAndRegister();
 
-mixer.recipeBuilder()
+chemReactor.recipeBuilder()
     .fluidInputs(<liquid:benzene>*1000,<liquid:kerosene>*1000,<liquid:methyl_isobutyl_ketone>*1000)
     .fluidOutputs(<liquid:platinum_extraction_mixture>*3000)
     .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
     .duration(200)
     .EUt(12)
     .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:benzene>*1000,<liquid:kerosene>*1000,<liquid:methyl_isobutyl_ketone>*1000)
+    .fluidOutputs(<liquid:platinum_extraction_mixture>*3000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
+
 
 lcentrifuge.recipeBuilder()
     .fluidInputs(<liquid:platinum_extraction_mixture>*4000,<liquid:platinum_concentrate>*4000)
