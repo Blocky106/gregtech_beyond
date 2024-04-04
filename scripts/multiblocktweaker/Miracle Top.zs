@@ -712,7 +712,7 @@ miracle_top.recipeMap.recipeBuilder()
 
 #Space Time Circuit
 miracle_top.recipeMap.recipeBuilder()
-    .inputs(<contenttweaker:yoctopic>*16,<gregtech:cable:1354>*8,<contenttweaker:spacetime_bending_processing_core>*4,<contenttweaker:spacetimebendingsmdcapacitor>*16,<contenttweaker:xontopic>*16,<contenttweaker:spacetimebendingsmdtransistor>*16,<contenttweaker:cosmic_circuit_board>*4)
+    .inputs(<gregtech:cable:1354>*8,<contenttweaker:spacetime_bending_processing_core>*4,<contenttweaker:spacetimebendingsmdcapacitor>*16,<contenttweaker:xontopic>*16,<contenttweaker:spacetimebendingsmdtransistor>*16,<contenttweaker:cosmic_circuit_board>*4)
     .fluidInputs(<liquid:radoxpolymer>*5000)
     .outputs(<contenttweaker:spacetimebendingprocessor>*4)
     .duration(2400)
