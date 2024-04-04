@@ -3058,6 +3058,7 @@ metal_bender.recipeBuilder()
 	.duration(900)
 	.buildAndRegister();
 
+distillation_tower.findRecipe(70,null,[<liquid:gasoline>*1000]).remove();
 
 
 
