@@ -738,6 +738,22 @@ chemical_bath.recipeBuilder()
     .EUt(700)
     .buildAndRegister();
 
+chemical_bath.recipeBuilder()
+    .inputs(<contenttweaker:engraved_nand_wafer>)
+    .fluidInputs(<liquid:diluted_sulfuric_acid>*1000)
+    .outputs(<gregtech:meta_item_2:32466>)
+    .duration(200)
+    .EUt(700)
+    .buildAndRegister();
+
+chemical_bath.recipeBuilder()
+    .inputs(<contenttweaker:engraved_nor_wafer>)
+    .fluidInputs(<liquid:diluted_sulfuric_acid>*1000)
+    .outputs(<gregtech:meta_item_2:32468>)
+    .duration(200)
+    .EUt(700)
+    .buildAndRegister();
+
 Utils.removeRecipeByOutput(lcr, [<gregtech:meta_item_2:32467>], [], false);
 Utils.removeRecipeByOutput(chemReactor, [<gregtech:meta_item_2:32467>], [], false);
 Utils.removeRecipeByOutput(lengraver,[<gregtech:meta_item_2:32463>],[],false);
