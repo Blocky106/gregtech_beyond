@@ -487,27 +487,7 @@ chemical_bath.recipeBuilder()
 Utils.removeRecipeByOutput(chemReactor, [<gregtech:meta_item_2:32465>],[],false);
 Utils.removeRecipeByOutput(lcr, [<gregtech:meta_item_2:32465>],[],false);
 
-engraver.recipeBuilder()
-    .inputs(<gregtech:meta_item_2:32440>)
-    .notConsumable(<contenttweaker:integrated_circuit_photolithography_mask>)
-    .outputs(<contenttweaker:engraved_ic_wafer>)
-    .duration(400)
-    .EUt(12)
-    .buildAndRegister();
 
-lengraver.recipeBuilder()
-    .inputs(<gregtech:meta_item_2:32440>)
-    .notConsumable(<contenttweaker:integrated_circuit_photolithography_mask>)
-    .outputs(<contenttweaker:engraved_ic_wafer>)
-    .duration(400)
-    .EUt(12)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-    .buildAndRegister();
-=======
-=======
->>>>>>> Stashed changes
-    .buildAndRegister();
 
 cvd_unit_s.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2204>*3)
@@ -672,9 +652,21 @@ Utils.removeRecipeByOutput(lengraver,[<gregtech:meta_item_2:32463>*8],[],false);
 Utils.removeRecipeByOutput(lengraver,[<gregtech:meta_item_2:32463>*4],[],false);
 Utils.removeRecipeByOutput(lengraver,[<gregtech:meta_item_2:32463>*12],[],false);
 Utils.removeRecipeByOutput(lengraver,[<gregtech:meta_item_2:32463>*16],[],false);
-<<<<<<< Updated upstream
 Utils.removeRecipeByOutput(lengraver,[<gregtech:meta_item_2:32463>*20],[],false);
->>>>>>> Stashed changes
-=======
-Utils.removeRecipeByOutput(lengraver,[<gregtech:meta_item_2:32463>*20],[],false);
->>>>>>> Stashed changes
+
+
+engraver.recipeBuilder()    .inputs(<gregtech:meta_item_2:32440>)    .notConsumable(<contenttweaker:integrated_circuit_photolithography_mask>)   .outputs(<contenttweaker:engraved_ic_wafer>)    .duration(400).EUt(12).buildAndRegister();
+engraver.recipeBuilder()    .inputs(<gregtech:meta_item_2:32441>)    .notConsumable(<contenttweaker:integrated_circuit_photolithography_mask>)   .outputs(<contenttweaker:engraved_ic_wafer>*4)    .duration(400).EUt(12).buildAndRegister();
+engraver.recipeBuilder()    .inputs(<gregtech:meta_item_2:32442>)    .notConsumable(<contenttweaker:integrated_circuit_photolithography_mask>)   .outputs(<contenttweaker:engraved_ic_wafer>*8)    .duration(400).EUt(12).buildAndRegister();
+engraver.recipeBuilder()    .inputs(<gtadditions:ga_meta_item:32333>)    .notConsumable(<contenttweaker:integrated_circuit_photolithography_mask>)   .outputs(<contenttweaker:engraved_ic_wafer>*12)    .duration(400).EUt(12).buildAndRegister();
+engraver.recipeBuilder()    .inputs(<gtadditions:ga_meta_item:32334>)    .notConsumable(<contenttweaker:integrated_circuit_photolithography_mask>)   .outputs(<contenttweaker:engraved_ic_wafer>*16)    .duration(400).EUt(12).buildAndRegister();
+engraver.recipeBuilder()    .inputs(<gtadditions:ga_meta_item:32335>)    .notConsumable(<contenttweaker:integrated_circuit_photolithography_mask>)   .outputs(<contenttweaker:engraved_ic_wafer>*20)    .duration(400).EUt(12).buildAndRegister();
+
+levngraver.recipeBuilder()    .inputs(<gregtech:meta_item_2:32440>)    .notConsumable(<contenttweaker:integrated_circuit_photolithography_mask>)   .outputs(<contenttweaker:engraved_ic_wafer>)    .duration(400).EUt(12).buildAndRegister();
+levngraver.recipeBuilder()    .inputs(<gregtech:meta_item_2:32441>)    .notConsumable(<contenttweaker:integrated_circuit_photolithography_mask>)   .outputs(<contenttweaker:engraved_ic_wafer>*4)    .duration(400).EUt(12).buildAndRegister();
+levngraver.recipeBuilder()    .inputs(<gregtech:meta_item_2:32442>)    .notConsumable(<contenttweaker:integrated_circuit_photolithography_mask>)   .outputs(<contenttweaker:engraved_ic_wafer>*8)    .duration(400).EUt(12).buildAndRegister();
+levngraver.recipeBuilder()    .inputs(<gtadditions:ga_meta_item:32333>)    .notConsumable(<contenttweaker:integrated_circuit_photolithography_mask>)   .outputs(<contenttweaker:engraved_ic_wafer>*12)    .duration(400).EUt(12).buildAndRegister();
+levngraver.recipeBuilder()    .inputs(<gtadditions:ga_meta_item:32334>)    .notConsumable(<contenttweaker:integrated_circuit_photolithography_mask>)   .outputs(<contenttweaker:engraved_ic_wafer>*16)    .duration(400).EUt(12).buildAndRegister();
+levngraver.recipeBuilder()    .inputs(<gtadditions:ga_meta_item:32335>)    .notConsumable(<contenttweaker:integrated_circuit_photolithography_mask>)   .outputs(<contenttweaker:engraved_ic_wafer>*20)    .duration(400).EUt(12).buildAndRegister();
+
+
