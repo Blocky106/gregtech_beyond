@@ -47,7 +47,6 @@ mods.jei.JEI.hideCategory("gregtech:froth_flotation_cell");
 mods.jei.JEI.hideCategory("gregtech:gravity_separator");
 mods.jei.JEI.hideCategory("gregtech:heat_exchanger");
 mods.jei.JEI.hideCategory("gregtech:hyper_chemical_plant");
-mods.jei.JEI.hideCategory("gregtech:matter_dissolver");
 mods.jei.JEI.hideCategory("gregtech:miracle_top");
 mods.jei.JEI.hideCategory("gregtech:molecular_transformer");
 mods.jei.JEI.hideCategory("gregtech:naquadah_fuel_refinery");
@@ -1498,7 +1497,7 @@ mods.jei.JEI.addDescription(<contenttweaker:nibiru>,"Planet Properties:         
 mods.jei.JEI.addDescription(<contenttweaker:chalos>,"Planet Properties:      Rocket Requirement:   T6 + Sublight   Breathable: No, Corrosive: No, No Atmosphere   Temperature: 30.0 C, Gravity: 73%   Type : Planet, Class: Comfort Selena   Day Lenght: 48h   Has Dungeon: Yes");
 mods.jei.JEI.addDescription(<contenttweaker:diona>,"Planet Properties:         Rocket Requirement:   T6 + Sublight   Breathable: No, Corrosive: No, No Atmosphere   Temperature: 30.0 C, Gravity: 35%   Type : Planet, Class: Comfort Selena   Day Lenght: 96h   Has Dungeon: Yes");
 mods.jei.JEI.addDescription(<contenttweaker:proximab>,"Planet Properties:          Rocket Requirement:   T6 + Sublight   Breathable: No, Corrosive: No,Atmosphere: CO2, Oxygen   Temperature: -15.0 C, Gravity: 84%   Type : Planet, Class: Comfort Selena   Day Lenght: 175h   Has Dungeon: No");
-mods.jei.JEI.addDescription(<contenttweaker:taucetif>,"Planet Properties:         Rocket Requirement:T6 + Sublight   Breathable: No, Corrosive: No, No Atmosphere   Temperature: -6.0 C, Gravity: 83%   Type : Planet, Class: Comfort Selena   Day Lenght: 36h   Has Dungeon: No");
+mods.jei.JEI.addDescription(<contenttweaker:taucetif>,"Planet Properties:         Rocket Requirement:	T6 + Sublight   Breathable: No, Corrosive: No, No Atmosphere   Temperature: -6.0 C, Gravity: 83%   Type : Planet, Class: Comfort Selena   Day Lenght: 36h   Has Dungeon: No");
 mods.jei.JEI.addDescription(<contenttweaker:trappist1c>,"Planet Properties:         Rocket Requirement:   T6 + Sublight   Breathable: No, Corrosive: No, No Atmosphere   Temperature: 60.0 C, Gravity: 35%   Type : Planet, Class: Hot Selena   Day Lenght: 32h   Has Dungeon: No");
 mods.jei.JEI.addDescription(<contenttweaker:trappist1e>,"Planet Properties:        Rocket Requirement:   T6 + Sublight   Breathable: No, Corrosive: No, No Atmosphere   Temperature: 150.0 C, Gravity: 35%   Type : Planet, Class: Hot Selena   Day Lenght: 24h   Has Dungeon: No");
 mods.jei.JEI.addDescription(<contenttweaker:yzcetib>,"Planet Properties:       Rocket Requirement:   T6 + Sublight   Breathable: No, Corrosive: No, No Atmosphere   Temperature: 60.0 C, Gravity: 70%   Type : Planet, Class: Hot Selena   Day Lenght: 23h   Has Dungeon: Yes");
