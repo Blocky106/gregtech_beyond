@@ -777,6 +777,7 @@ fluid_solidifier.recipeBuilder()
     .duration(500)
     .EUt(240)
     .buildAndRegister();
+    
 
 vacfreezer.findRecipe(120, [<gregtech:meta_item_1:11032>],null).remove();
 vacfreezer.findRecipe(120, [<gregtech:meta_item_1:11858>],null).remove();
@@ -906,13 +907,6 @@ ebf.recipeBuilder()
 
 furnace.remove(<gregtech:meta_item_1:10527>);
 furnace.remove(<gregtech:meta_item_1:9527>);
-
-vacfreezer.recipeBuilder()
-    .inputs(<contenttweaker:hotmanyullyningot>)
-    .outputs(<tconstruct:ingots:2>)
-    .duration(400)
-    .EUt(1200)
-    .buildAndRegister();
 
 chemReactor.recipeBuilder()
     .inputs(<gregtech:meta_item_1:12840>,<gregtech:meta_item_1:19018>)
@@ -3069,7 +3063,7 @@ lcr.recipeBuilder()
     .buildAndRegister();
 
 cas.recipeBuilder()
-    .inputs(<ore:circuitSuperconductor>*16,<contenttweaker:yoctopic>*64,<contenttweaker:xontopic>*64,<contenttweaker:cosmic_circuit_board>*16,<contenttweaker:spacetimebendingsmdtransistor>*64,<contenttweaker:spacetimebendingsmdcapacitor>*64)
+    .inputs(<ore:circuitSuperconductor>*16,<contenttweaker:xontopic>*64,<contenttweaker:cosmic_circuit_board>*16,<contenttweaker:spacetimebendingsmdtransistor>*64,<contenttweaker:spacetimebendingsmdcapacitor>*64)
     .fluidInputs(<liquid:radoxpolymer>*50000)
     .outputs(<contenttweaker:spacetimebendingprocessor>)
     .duration(4000)

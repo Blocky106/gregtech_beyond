@@ -172,14 +172,6 @@ mixer.recipeBuilder()
     .buildAndRegister();
 
 ebf.recipeBuilder()
-    .inputs(<gregtech:meta_item_1:2527>)
-    .outputs(<contenttweaker:hotmanyullyningot>)
-    .duration(400)
-    .EUt(2700)
-    .property("temperature", 4000)
-    .buildAndRegister();
-
-ebf.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2550>)
     .outputs(<contenttweaker:hotvibrantalloyingot>)
     .duration(400)
@@ -2722,10 +2714,19 @@ recipes.addShaped(<gregtech:machine:1475>, [	[<ore:circuitMaster>, <gtadditions:
 recipes.addShaped(<gregtech:machine:1476>, [	[<ore:circuitUltimate>, <gtadditions:ga_transparent_casing:1>, <gtadditions:ga_transparent_casing:1>], 	[<ore:cableGtSingleNaquadah>, <gregtech:meta_item_1:32607>, <gregtech:meta_item_1:32616>], 	[<ore:circuitUltimate>, <gregtech:machine:507>, <gregtech:meta_item_1:32616>]]);
 recipes.addShaped(<gregtech:machine:1477>, [	[<ore:circuitSuperconductor>, <gtadditions:ga_transparent_casing:1>, <gtadditions:ga_transparent_casing:1>], 	[<ore:cableGtSingleNaquadahAlloy>, <gregtech:meta_item_1:32608>, <gregtech:meta_item_1:32617>], 	[<ore:circuitSuperconductor>, <gregtech:machine:508>, <gregtech:meta_item_1:32617>]]);
 
+mixer.recipeBuilder()
+    .fluidInputs(<liquid:kerosene>*1000,<liquid:water>*1000,<liquid:methyl_isobutyl_ketone>*1000)
+    .fluidOutputs(<liquid:draconium_extraction_mixture>*1000)
+    .duration(40)
+    .EUt(120)
+    .buildAndRegister();
 
+distillation_tower.recipeBuilder()
+    .fluidInputs(<liquid:draconium_extract>*1000)
+    .fluidOutputs(<liquid:draconium_extraction_mixture>*1000,<liquid:draconium_mother_liqour>*1000)
+    .duration(200)
+    .EUt(200)
+    .buildAndRegister();
 
-
-
-
-
-
+#distillation_tower.recipeBuilder()
+   # .fluidInputs(<liquid:draconium_mother_liqour>*1000)

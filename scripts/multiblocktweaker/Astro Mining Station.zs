@@ -107,9 +107,30 @@ astro_mining_station.recipeMap.recipeBuilder()
 
 astro_mining_station.recipeMap.recipeBuilder()
     .notConsumable(<contenttweaker:astro_miner>)
+    .notConsumable(<contenttweaker:moon>)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .outputs(<gregtech:ore_calcite_0>*16,<gregtech:ore_fluorite_0>*16)
+    .fluidInputs(<liquid:drilling_fluid>*16000)
+    .EUt(1200)
+    .duration(200)
+    .buildAndRegister();
+
+astro_mining_station.recipeMap.recipeBuilder()
+    .notConsumable(<contenttweaker:astro_miner>)
     .notConsumable(<contenttweaker:asteroids>)
     .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 0}))
     .outputs(<contenttweaker:dense_ice>*4,<contenttweaker:titaniumcontainingice>*2)
+    .fluidInputs(<liquid:drilling_fluid>*16000)
+    .EUt(1200)
+    .duration(200)
+    .buildAndRegister();
+
+
+astro_mining_station.recipeMap.recipeBuilder()
+    .notConsumable(<contenttweaker:astro_miner>)
+    .notConsumable(<contenttweaker:ceres>)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 0}))
+    .outputs(<gregtech:ore_blackopal_0>*4,<gregtech:ore_sapphire_0>*4)
     .fluidInputs(<liquid:drilling_fluid>*16000)
     .EUt(1200)
     .duration(200)
