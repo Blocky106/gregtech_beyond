@@ -15,162 +15,162 @@ import mods.gregtech.material.MaterialIconSet;
 
 
 
-val energeticalloy = MaterialRegistry.createIngotMaterial(515, "energeticalloy", 0xDB9D0D, "SHINY", 2);
+val energeticalloy = MaterialRegistry.createIngotMaterial(515, "energeticalloy", 0xDB9D0D, "SHINY",  10, null, 30.0f, 6, 1280, 3000);
 energeticalloy.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_ROTOR"]);
 
-val draconium = MaterialRegistry.createIngotMaterial(517, "draconium", 0x8F07AD, "SHINY", 2);
+val draconium = MaterialRegistry.createIngotMaterial(517, "draconium", 0x8F07AD, "SHINY",  10, null, 30.0f, 6, 1280,8000);
 draconium.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_FRAME","GENERATE_PLASMA","GENERATE_FLUID_BLOCK"]);
 
-val ardite = MaterialRegistry.createIngotMaterial(518, "ardite", 0xab661b, "SHINY", 2);
+val ardite = MaterialRegistry.createIngotMaterial(518, "ardite", 0xab661b, "SHINY",  10, null, 30.0f, 6, 1280,2700);
 ardite.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_FRAME","GENERATE_FLUID_BLOCK","GENERATE_ORE"]);
 
-val nobelium = MaterialRegistry.createIngotMaterial(519, "nobelium", 0x7022BA, "SHINY", 2);
+val nobelium = MaterialRegistry.createIngotMaterial(519, "nobelium", 0x7022BA, "SHINY",  10, null, 30.0f, 6, 1280,4300);
 nobelium.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_FLUID_BLOCK"]);
 
-val lawrencium = MaterialRegistry.createIngotMaterial(520, "lawrencium", 0x78516C, "SHINY", 2);
+val lawrencium = MaterialRegistry.createIngotMaterial(520, "lawrencium", 0x78516C, "SHINY",  10, null, 30.0f, 6, 1280,1200);
 lawrencium.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_FLUID_BLOCK"]);
 
-val einsteinium2 = MaterialRegistry.createIngotMaterial(516, "einsteinium2", 0xC2B71D, "SHINY", 2);
+val einsteinium2 = MaterialRegistry.createIngotMaterial(516, "einsteinium2", 0xC2B71D, "SHINY",  10, null, 30.0f, 6, 1280,800);
 einsteinium2.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_FLUID_BLOCK"]);
 einsteinium2.setCableProperties(8192, 4, 0);
 
-val titaniumplatinum = MaterialRegistry.createIngotMaterial(521, "titaniumplatinum", 0xBC5EF2, "SHINY", 2);
+val titaniumplatinum = MaterialRegistry.createIngotMaterial(521, "titaniumplatinum", 0xBC5EF2, "SHINY",  10, null, 30.0f, 6, 1280,3400);
 titaniumplatinum.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_FLUID_BLOCK"]);
 titaniumplatinum.setCableProperties(32768, 4, 1);
 
-val soularium = MaterialRegistry.createIngotMaterial(522, "soularium", 0x302003, "SHINY", 2);
+val soularium = MaterialRegistry.createIngotMaterial(522, "soularium", 0x302003, "SHINY",  10, null, 30.0f, 6, 1280,1965);
 soularium.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_FLUID_BLOCK"]);
 
-val ultimate = MaterialRegistry.createIngotMaterial(523, "ultimate", 0xE01040, "SHINY", 2);
+val ultimate = MaterialRegistry.createIngotMaterial(523, "ultimate", 0xE01040, "SHINY",  10, null, 30.0f, 6, 1280,9999);
 ultimate.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_FLUID_BLOCK","GENERATE_FRAME"]);
 
-val alumina = MaterialRegistry.createIngotMaterial(524, "alumina", 0xB3B3B3, "DULL", 2);
+val alumina = MaterialRegistry.createIngotMaterial(524, "alumina", 0xB3B3B3, "DULL",  2, null, 30.0f, 6, 1280, 120);
 alumina.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_FLUID_BLOCK","GENERATE_ORE"]);
 
-val aluminiumsalt = MaterialRegistry.createDustMaterial(525, "aluminiumsalt", 0xB3B3C7, "DULL", 2);
+val aluminiumsalt = MaterialRegistry.createDustMaterial(525, "aluminiumsalt", 0xB3B3C7, "DULL",  2, null, 30.0f, 6, 1280,900);
 aluminiumsalt.addFlags(["GENERATE_ORE"]);
 
-val manyullyn = MaterialRegistry.createIngotMaterial(527, "manyullyn", 0x590580, "SHINY", 2);
-manyullyn.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_DENSE","GENERATE_FINE_WIRE"]);
+val manyullyn = MaterialRegistry.createIngotMaterial(527, "manyullyn", 0x590580, "SHINY",  10, null, 30.0f, 6, 1280,1900);
+manyullyn.addFlags(["GENERATE_PLATE","GENERATE_ROD","SMELT_INTO_FLUID","GENERATE_GEAR","GENERATE_DENSE","GENERATE_FINE_WIRE"]);
 
-val atomicseperationcatalyst = MaterialRegistry.createIngotMaterial(528, "atomicseperationcatalyst", 0xD4720B, "SHINY", 2);
+val atomicseperationcatalyst = MaterialRegistry.createIngotMaterial(528, "atomicseperationcatalyst", 0xD4720B, "SHINY",  10, null, 30.0f, 6, 1280,1560);
 atomicseperationcatalyst.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_DENSE"]);
 
-val adamantiumalloy = MaterialRegistry.createIngotMaterial(529, "adamantiumalloy", 0x595959, "SHINY", 2);
+val adamantiumalloy = MaterialRegistry.createIngotMaterial(529, "adamantiumalloy", 0x595959, "SHINY",  10, null, 30.0f, 6, 1280,5400);
 adamantiumalloy.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_DENSE"]);
 
-val marcem200steel = MaterialRegistry.createIngotMaterial(530, "marcem200steel", 0x292929, "DULL", 2);
+val marcem200steel = MaterialRegistry.createIngotMaterial(530, "marcem200steel", 0x292929, "DULL",  2, null, 30.0f, 6, 1280,2400);
 marcem200steel.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_DENSE","GENERATE_LONG_ROD"]);
 
-val hikarium = MaterialRegistry.createIngotMaterial(531, "hikarium", 0xFA8EEC, "SHINY", 2);
+val hikarium = MaterialRegistry.createIngotMaterial(531, "hikarium", 0xFA8EEC, "SHINY",  10, null, 30.0f, 6, 1280,1900);
 hikarium.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_DENSE"]);
 
-val lumium = MaterialRegistry.createIngotMaterial(532, "lumium", 0xD3F20A, "SHINY", 2);
+val lumium = MaterialRegistry.createIngotMaterial(532, "lumium", 0xD3F20A, "SHINY",  10, null, 30.0f, 6, 1280,1220);
 lumium.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_DENSE","GENERATE_BOLT_SCREW"]);
 lumium.setCableProperties(32768, 4, 1);
 
-val fluxedelectrum = MaterialRegistry.createIngotMaterial(533, "fluxedelectrum", 0xE8D635, "SHINY", 2);
+val fluxedelectrum = MaterialRegistry.createIngotMaterial(533, "fluxedelectrum", 0xE8D635, "SHINY",  10, null, 30.0f, 6, 1280,7000);
 fluxedelectrum.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_DENSE"]);
 
-val naquadriatictritanium = MaterialRegistry.createIngotMaterial(534, "naquadriatictritanium", 0x666666, "SHINY", 2);
+val naquadriatictritanium = MaterialRegistry.createIngotMaterial(534, "naquadriatictritanium", 0x666666, "SHINY",  10, null, 30.0f, 6, 1280,6000);
 naquadriatictritanium.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_DENSE","GENERATE_FLUID_BLOCK"]);
 
-val sunnarium = MaterialRegistry.createIngotMaterial(535, "sunnarium", 0xFFEA00, "SHINY", 2);
+val sunnarium = MaterialRegistry.createIngotMaterial(535, "sunnarium", 0xFFEA00, "SHINY",  10, null, 30.0f, 6, 1280,3700);
 sunnarium.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_DENSE","GENERATE_FLUID_BLOCK"]);
 
-val diamandine = MaterialRegistry.createIngotMaterial(536, "diamandine", 0xBAD453, "SHINY", 2);
+val diamandine = MaterialRegistry.createIngotMaterial(536, "diamandine", 0xBAD453, "SHINY",  10, null, 30.0f, 6, 1280,3300);
 diamandine.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_DENSE","GENERATE_FLUID_BLOCK","GENERATE_ORE"]);
 
-val platinumsalt = MaterialRegistry.createIngotMaterial(537, "platinumsalt", 0xBFBE91, "SHINY", 2);
+val platinumsalt = MaterialRegistry.createIngotMaterial(537, "platinumsalt", 0xBFBE91, "SHINY",  10, null, 30.0f, 6, 1280,1200);
 platinumsalt.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_FLUID_BLOCK","GENERATE_ORE"]);
 
-val tellurite = MaterialRegistry.createIngotMaterial(538, "tellurite", 0x919FBF, "DULL", 2);
+val tellurite = MaterialRegistry.createIngotMaterial(538, "tellurite", 0x919FBF, "DULL",  2, null, 30.0f, 6, 1280,2000);
 tellurite.addFlags(["GENERATE_PLATE","GENERATE_ORE","GENERATE_FLUID_BLOCK"]);
 
-var signalum = MaterialRegistry.createIngotMaterial(539, "signalum", 0xb86a0b, "DULL", 2);
+var signalum = MaterialRegistry.createIngotMaterial(539, "signalum", 0xb86a0b, "DULL",  2, null, 30.0f, 6, 1280,3900);
 signalum.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_DENSE","GENERATE_FLUID_BLOCK"]);
 
-var artheriumsn = MaterialRegistry.createIngotMaterial(540, "artheriumsn", 0x153094, "SHINY", 2);
+var artheriumsn = MaterialRegistry.createIngotMaterial(540, "artheriumsn", 0x153094, "SHINY",  10, null, 30.0f, 6, 1280,3100);
 artheriumsn.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_DENSE","GENERATE_FLUID_BLOCK"]);
 
-var dalisenite = MaterialRegistry.createIngotMaterial(541, "dalisenite", 0x8f8d17, "SHINY", 2);
+var dalisenite = MaterialRegistry.createIngotMaterial(541, "dalisenite", 0x8f8d17, "SHINY",  10, null, 30.0f, 6, 1280,4200);
 dalisenite.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_DENSE","GENERATE_FLUID_BLOCK"]);
 
-var tanmolyiumbetac = MaterialRegistry.createIngotMaterial(542, "tanmolyiumbetac", 0xa10bb8, "SHINY", 2);
+var tanmolyiumbetac = MaterialRegistry.createIngotMaterial(542, "tanmolyiumbetac", 0xa10bb8, "SHINY",  10, null, 30.0f, 6, 4180,3200);
 tanmolyiumbetac.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_DENSE","GENERATE_FLUID_BLOCK"]);
 
-var quantium = MaterialRegistry.createIngotMaterial(543, "quantium", 0x2FAB1F, "SHINY", 2);
+var quantium = MaterialRegistry.createIngotMaterial(543, "quantium", 0x2FAB1F, "SHINY",  10, null, 30.0f, 6, 1280,2200);
 quantium.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_DENSE","GENERATE_FLUID_BLOCK","GENERATE_ORE"]);
 
-var blackplutonium = MaterialRegistry.createIngotMaterial(544, "blackplutonium", 0x242424, "SHINY", 2);
+var blackplutonium = MaterialRegistry.createIngotMaterial(544, "blackplutonium", 0x242424, "SHINY",  10, null, 30.0f, 6, 1280,7200);
 blackplutonium.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_DENSE","GENERATE_FLUID_BLOCK","GENERATE_FOIL"]);
 
-var astralsilver = MaterialRegistry.createIngotMaterial(545, "astralsilver", 0x959695, "SHINY", 2);
+var astralsilver = MaterialRegistry.createIngotMaterial(545, "astralsilver", 0x959695, "SHINY",  10, null, 30.0f, 6, 1280,1200);
 astralsilver.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_DENSE","GENERATE_FLUID_BLOCK"]);
 
-var infusedgold = MaterialRegistry.createIngotMaterial(546, "infusedgold", 0x9C9227, "SHINY", 2);
+var infusedgold = MaterialRegistry.createIngotMaterial(546, "infusedgold", 0x9C9227, "SHINY",  10, null, 30.0f, 6, 1280,2200);
 infusedgold.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_DENSE","GENERATE_FLUID_BLOCK","GENERATE_ORE"]);
 
-var indalloy140 = MaterialRegistry.createIngotMaterial(547, "indalloy140", 0x5A405E, "SHINY", 2);
+var indalloy140 = MaterialRegistry.createIngotMaterial(547, "indalloy140", 0x5A405E, "SHINY",  10, null, 30.0f, 6, 1280,1900);
 indalloy140.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_DENSE","GENERATE_FLUID_BLOCK"]);
 
-var mythril = MaterialRegistry.createIngotMaterial(548, "mythril", 0x2E87C7, "SHINY", 2);
+var mythril = MaterialRegistry.createIngotMaterial(548, "mythril", 0x2E87C7, "SHINY",  10, null, 30.0f, 6, 1280,3400);
 mythril.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_DENSE","GENERATE_FLUID_BLOCK","GENERATE_ORE"]);
 
-var orundum = MaterialRegistry.createIngotMaterial(549, "orundum", 0xF600FA, "SHINY", 2);
+var orundum = MaterialRegistry.createIngotMaterial(549, "orundum", 0xF600FA, "SHINY",  10, null, 30.0f, 6, 1280,3600);
 orundum.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_DENSE","GENERATE_FLUID_BLOCK"]);
 
-var vibrantalloy = MaterialRegistry.createIngotMaterial(550, "vibrantalloy", 0x10C236, "SHINY", 2);
+var vibrantalloy = MaterialRegistry.createIngotMaterial(550, "vibrantalloy", 0x10C236, "SHINY",  10, null, 30.0f, 6, 1280,1800);
 vibrantalloy.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_DENSE","GENERATE_FLUID_BLOCK"]);
 
-var extrmelyunstablenaquadah = MaterialRegistry.createIngotMaterial(551, "extrmelyunstablenaquadah", 0x4C594D, "SHINY", 2);
+var extrmelyunstablenaquadah = MaterialRegistry.createIngotMaterial(551, "extrmelyunstablenaquadah", 0x4C594D, "SHINY",  10, null, 30.0f, 6, 1280, 5200);
 extrmelyunstablenaquadah.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_DENSE","GENERATE_FLUID_BLOCK"]);
 
-var tiberium = MaterialRegistry.createIngotMaterial(552, "tiberium", 0x16B526, "SHINY", 2);
+var tiberium = MaterialRegistry.createIngotMaterial(552, "tiberium", 0x16B526, "SHINY",  10, null, 30.0f, 6, 1280,1200);
 tiberium.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_DENSE","GENERATE_FLUID_BLOCK"]);
 
-var rutheniumtritaniumcarbite = MaterialRegistry.createIngotMaterial(554, "rutheniumtritaniumcarbite", 0x5E5E5E, "SHINY", 2);
+var rutheniumtritaniumcarbite = MaterialRegistry.createIngotMaterial(554, "rutheniumtritaniumcarbite", 0x5E5E5E, "SHINY",  10, null, 30.0f, 6, 1280,2200);
 rutheniumtritaniumcarbite.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_DENSE","GENERATE_FRAME"]);
 
-var runtherfordium = MaterialRegistry.createIngotMaterial(555, "runtherfordium", 0x827d39, "SHINY", 2);
+var runtherfordium = MaterialRegistry.createIngotMaterial(555, "runtherfordium", 0x827d39, "SHINY",  10, null, 30.0f, 6, 1280,1200);
 runtherfordium.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_DENSE"]);
 
-var yellorium = MaterialRegistry.createIngotMaterial(556, "yellorium", 0xfff200, "SHINY", 2);
+var yellorium = MaterialRegistry.createIngotMaterial(556, "yellorium", 0xfff200, "SHINY",  10, null, 30.0f, 6, 1280,6190);
 yellorium.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_DENSE","GENERATE_FRAME"]);
 
-var energeticsilver = MaterialRegistry.createIngotMaterial(557, "energeticsilver", 0x51B2DB, "SHINY", 2);
+var energeticsilver = MaterialRegistry.createIngotMaterial(557, "energeticsilver", 0x51B2DB, "SHINY",  10, null, 30.0f, 6, 1280,2800);
 energeticsilver.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_DENSE"]);
 energeticsilver.setCableProperties(10240, 4, 1);
 
-var infinitycatalyst = MaterialRegistry.createIngotMaterial(558, "infinitycatalyst", 0xB5B5B5, "SHINY", 2);
+var infinitycatalyst = MaterialRegistry.createIngotMaterial(558, "infinitycatalyst", 0xB5B5B5, "SHINY",  10, null, 30.0f, 6, 1280,7000);
 infinitycatalyst.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_FRAME","GENERATE_DENSE","GENERATE_ROUND","GENERATE_GEAR","GENERATE_FOIL","GENERATE_BOLT_SCREW","GENERATE_ROTOR"]);
 infinitycatalyst.setCableProperties(2147483647, 4, 4);
 
-var maxsuperconductor = MaterialRegistry.createIngotMaterial(559, "maxsuperconductor", 0xB5B5B5, "SHINY", 2);
+var maxsuperconductor = MaterialRegistry.createIngotMaterial(559, "maxsuperconductor", 0xB5B5B5, "SHINY",  10, null, 30.0f, 6, 1280,5200);
 maxsuperconductor.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_DENSE"]);
 maxsuperconductor.setCableProperties(2147483647, 4, 0);
 
-var maxsuperconductorbase = MaterialRegistry.createIngotMaterial(560, "maxsuperconductorbase", 0xB5B5B5, "SHINY", 2);
+var maxsuperconductorbase = MaterialRegistry.createIngotMaterial(560, "maxsuperconductorbase", 0xB5B5B5, "SHINY",  10, null, 30.0f, 6, 1280,5200);
 maxsuperconductorbase.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_DENSE"]);
 maxsuperconductorbase.setCableProperties(2147483647, 4, 4);
 
-var infinity = MaterialRegistry.createIngotMaterial(561, "infinity", 0xC47DDB, "SHINY", 2);
+var infinity = MaterialRegistry.createIngotMaterial(561, "infinity", 0xC47DDB, "SHINY",  10, null, 30.0f, 6, 1280,9900);
 infinity.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_FRAME","GENERATE_DENSE"]);
 infinity.setCableProperties(2147483647, 4, 0);
 
 var blackopal = MaterialRegistry.createGemMaterial(562, "blackopal", 0x141212, "OPAL", 2, [<material:opal>*1]);
 blackopal.addFlags(["GENERATE_LENSE","GENERATE_PLATE","GENERATE_ORE"]);
 
-var activatednaquadah = MaterialRegistry.createIngotMaterial(563, "activatednaquadah", 0x141212, "SHINY", 2);
+var activatednaquadah = MaterialRegistry.createIngotMaterial(563, "activatednaquadah", 0x141212, "SHINY",  10, null, 30.0f, 6, 1280,1900);
 activatednaquadah.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_DENSE"]);
 
-var unknowncrystal = MaterialRegistry.createIngotMaterial(564, "unknowncrystal", 0x0F754B, "SHINY", 2);
+var unknowncrystal = MaterialRegistry.createIngotMaterial(564, "unknowncrystal", 0x0F754B, "SHINY",  10, null, 30.0f, 6, 1280,3600);
 unknowncrystal.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_DENSE"]);
 
 var anto = MaterialRegistry.createIngotMaterial(565, "anto", 0x1e2e2c, "SHINY", 2, [<material:osmiridium>*3,<material:americium>*2,<material:tungsten>*2,<material:naquadah>*1]);
 anto.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_DENSE"]);
 
-var incoloy945x = MaterialRegistry.createIngotMaterial(567, "incoloy945x", 0x7CABAD, "SHINY", 2);
+var incoloy945x = MaterialRegistry.createIngotMaterial(567, "incoloy945x", 0x7CABAD, "SHINY",  10, null, 30.0f, 6, 1280,2690);
 incoloy945x.addFlags(["GENERATE_PLATE","GENERATE_GEAR","GENERATE_DENSE"]);
 
 val magneticsamarium = MaterialRegistry.createIngotMaterial(568,"magneticsamarium",0xFDD835,"MAGNETIC",0, [<material:samarium>*1]);
@@ -254,40 +254,40 @@ sodiumethylxantate.addFlags(["GENERATE_PLATE"]);
 val potassiumethylxantate = MaterialRegistry.createDustMaterial(526,"potassiumethylxantate",0xB7AA33,"DULL",2);
 potassiumethylxantate.addFlags(["GENERATE_PLATE"]);
 
-val kaptonk = MaterialRegistry.createIngotMaterial(578,"kaptonk",0x372927,"DULL",3);
+val kaptonk = MaterialRegistry.createIngotMaterial(578,"kaptonk",0x372927, "SHINY", 3, null, 30.0f, 6, 1280,1200);
 kaptonk.addFlags(["GENERATE_PLATE","GENERATE_FLUID_BLOCK"]);
 
-val modularium = MaterialRegistry.createIngotMaterial(596,"modularium",0xFFFFFF,"DULL",3);
+val modularium = MaterialRegistry.createIngotMaterial(596,"modularium",0xFFFFFF, "SHINY", 3, null, 30.0f, 6, 1280,5200);
 modularium.addFlags(["GENERATE_PLATE"]);
 
-val awakened_draconium = MaterialRegistry.createIngotMaterial(598,"awakened_draconium",0xFF6F00,"DULL",3);
+val awakened_draconium = MaterialRegistry.createIngotMaterial(598,"awakened_draconium",0xFF6F00, "SHINY", 3, null, 30.0f, 6, 1280,7200);
 awakened_draconium.addFlags(["GENERATE_PLATE"]);
 
-val chaos = MaterialRegistry.createIngotMaterial(599,"chaos",0x000000,"DULL",3);
+val chaos = MaterialRegistry.createIngotMaterial(599,"chaos",0x000000, "SHINY", 3, null, 30.0f, 6, 1280,3200);
 chaos.addFlags(["GENERATE_PLATE"]);
 
-val highly_strained_polyethylene = MaterialRegistry.createIngotMaterial(616,"highly_strained_polyethylene",0xC3C0C1,"DULL",3);
+val highly_strained_polyethylene = MaterialRegistry.createIngotMaterial(616,"highly_strained_polyethylene",0xC3C0C1, "SHINY", 3, null, 30.0f, 6, 1280 , 800);
 highly_strained_polyethylene.addFlags(["GENERATE_PLATE"]);
 
-val high_density_polyethylene = MaterialRegistry.createIngotMaterial(617,"high_density_polyethylene",0xe0e0e0,"DULL",3);
+val high_density_polyethylene = MaterialRegistry.createIngotMaterial(617,"high_density_polyethylene",0xe0e0e0, "SHINY", 3, null, 30.0f, 6, 1280,500);
 high_density_polyethylene.addFlags(["GENERATE_PLATE"]);
 
-val cross_linked_polyethylene = MaterialRegistry.createIngotMaterial(618,"cross_linked_polyethylene",0xf5dff5,"DULL",3);
+val cross_linked_polyethylene = MaterialRegistry.createIngotMaterial(618,"cross_linked_polyethylene",0xf5dff5, "SHINY", 3, null, 30.0f, 6, 1280,600);
 cross_linked_polyethylene.addFlags(["GENERATE_PLATE"]);
 
-val low_quality_steel = MaterialRegistry.createIngotMaterial(619,"low_quality_steel",0x575757,"DULL",3);
+val low_quality_steel = MaterialRegistry.createIngotMaterial(619,"low_quality_steel",0x575757, "SHINY", 3, null, 30.0f, 6, 1280,200);
 low_quality_steel.addFlags(["GENERATE_PLATE","GENERATE_FRAME"]);
 
-val bscco = MaterialRegistry.createIngotMaterial(620,"bscco",0x575757,"DULL",3);
+val bscco = MaterialRegistry.createIngotMaterial(620,"bscco",0x575757, "SHINY", 3, null, 30.0f, 6, 1280,1600);
 bscco.addFlags(["GENERATE_PLATE"]);
 
-val gadolinite = MaterialRegistry.createDustMaterial(621,"gadolinite",0x4C4848,"DULL",3);
+val gadolinite = MaterialRegistry.createDustMaterial(621,"gadolinite",0x4C4848, "SHINY", 3, null, 30.0f, 6, 1280,2200);
 gadolinite.addFlags(["GENERATE_ORE"]);
 
-val xenotime = MaterialRegistry.createDustMaterial(622,"xenotime",0xF9A825,"SHINY",3);
+val xenotime = MaterialRegistry.createDustMaterial(622,"xenotime",0xF9A825, "SHINY",  10, null, 30.0f, 6, 1280,1200);
 xenotime.addFlags(["GENERATE_ORE"]);
 
-val deshite = MaterialRegistry.createDustMaterial(788,"deshite", 0x333333, "SHINY", 2);
+val deshite = MaterialRegistry.createDustMaterial(788,"deshite", 0x333333, "SHINY",  10, null, 30.0f, 6, 1280,2200);
 deshite.addFlags(["GENERATE_PLATE","GENERATE_ORE"]);
 
 val desh = MaterialRegistry.createIngotMaterial(623,"desh",0x333333,"SHINY",3);
