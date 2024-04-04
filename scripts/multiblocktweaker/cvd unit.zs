@@ -161,6 +161,21 @@ cvd_unit.recipeMap.recipeBuilder()
     .EUt(1800)
     .buildAndRegister();
 
+cvd_unit.recipeMap.recipeBuilder()
+    .inputs(<contenttweaker:engraved_ic_wafer>,i,I)
+    .fluidInputs(<liquid:very_hot_nitrogen>*1000)
+    .outputs(<gregtech:meta_item_2:32463>)
+    .duration(800)
+    .EUt(1800)
+    .buildAndRegister();
+
+cvd_unit.recipeMap.recipeBuilder()
+    .inputs(<contenttweaker:silicon_dioxide_wafer>,i)
+    .outputs(<contenttweaker:n_doped_silicon_dioxide_wafer>)
+    .duration(800)
+    .EUt(1800)
+    .buildAndRegister();
+
 	}
     }
 
