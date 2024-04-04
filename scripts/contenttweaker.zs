@@ -613,7 +613,8 @@ var items = [
 "nand_photolithography_mask",
 "nickel_nitride_wafer",
 "engraved_nor_wafer",
-"engraved_nand_wafer"
+"engraved_nand_wafer",
+"pre_engraved_nqo2_wafer"
 ] as string[];
 
 for item in items {
