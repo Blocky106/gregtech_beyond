@@ -125,8 +125,18 @@ gravity_separator.recipeMap.recipeBuilder()
     .buildAndRegister();
 
 gravity_separator.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:draconium_extraction_mixture>*4000)
+    .fluidOutputs(<liquid:draconium_extract>*4000)
     .inputs(<gtadditions:ga_dust:32187>)
     .outputs(<gtadditions:ga_dust:32188>)
     .duration(200)
     .EUt(7800)
+    .buildAndRegister();
+
+gravity_separator.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2701>*6)
+    .outputs(<gtadditions:ga_dust:186>*6)
+    .fluidOutputs(<liquid:reethu_sulfate_solution>*1000,<liquid:alkalineearth_sulfate>*16000)
+    .duration(100)
+    .EUt(600)
     .buildAndRegister();
