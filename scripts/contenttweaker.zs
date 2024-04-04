@@ -1035,6 +1035,13 @@ var items = [
 "nickel_nitride_wafer",
 "engraved_nor_wafer",
 "engraved_nand_wafer",
+"enriched_naquadah_photolithography_mask",
+"engraved_asoc_wafer",
+"raw_asoc_wafer",
+"naquadah_dioxide_seed_crystal",
+"naquadah_dioxide_boule",
+"naquadah_dioxide_wafer",
+"pre_engraved_naquadah_dioxide_wafer"
 ] as string[];
 
 var enceladus = VanillaFactory.createItem("enceladus");

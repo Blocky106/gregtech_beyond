@@ -416,6 +416,14 @@ assembler.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
+assembler.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:13309> , <gregtech:meta_item_1:15209>)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .outputs(<contenttweaker:enriched_naquadah_photolithography_mask>)
+    .duration(50)
+    .EUt(12)
+    .buildAndRegister();
+
 Utils.removeRecipeByOutput(engraver,[<gregtech:meta_item_2:32471>],[],false);
 Utils.removeRecipeByOutput(engraver,[<gregtech:meta_item_2:32471>*8],[],false);
 Utils.removeRecipeByOutput(engraver,[<gregtech:meta_item_2:32471>*4],[],false);
@@ -778,5 +786,41 @@ levngraver.recipeBuilder()    .inputs(<gtadditions:ga_meta_item:32333>)    .notC
 levngraver.recipeBuilder()    .inputs(<gtadditions:ga_meta_item:32334>)    .notConsumable(<contenttweaker:integrated_circuit_photolithography_mask>)   .outputs(<contenttweaker:engraved_ic_wafer>*16)    .duration(400).EUt(12).buildAndRegister();
 levngraver.recipeBuilder()    .inputs(<gtadditions:ga_meta_item:32335>)    .notConsumable(<contenttweaker:integrated_circuit_photolithography_mask>)   .outputs(<contenttweaker:engraved_ic_wafer>*20)    .duration(400).EUt(12).buildAndRegister();
 
+engraver.recipeBuilder()    .inputs(<contenttweaker:nickel_nitride_wafer>)    .notConsumable(<contenttweaker:nor_photolithography_mask>)   .outputs(<contenttweaker:engraved_nor_wafer>)    .duration(400).EUt(12).buildAndRegister();
+engraver.recipeBuilder()    .inputs(<contenttweaker:nickel_nitride_wafer>)    .notConsumable(<contenttweaker:nand_photolithography_mask>)   .outputs(<contenttweaker:engraved_nand_wafer>)    .duration(400).EUt(12).buildAndRegister();
+
 lengraver.recipeBuilder()    .inputs(<contenttweaker:nickel_nitride_wafer>)    .notConsumable(<contenttweaker:nor_photolithography_mask>)   .outputs(<contenttweaker:engraved_nor_wafer>)    .duration(400).EUt(12).buildAndRegister();
 lengraver.recipeBuilder()    .inputs(<contenttweaker:nickel_nitride_wafer>)    .notConsumable(<contenttweaker:nand_photolithography_mask>)   .outputs(<contenttweaker:engraved_nand_wafer>)    .duration(400).EUt(12).buildAndRegister();
+
+
+//ASOC chain
+
+    //Chloronaquadic acid
+
+chemReactor.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2307>)
+    .fluidInputs(<liquid:very_hot_aqua_regia>*1000)
+    .fluidOutputs(<liquid:chloronaquadic_acid>*1000)
+    .duration(200)
+    .EUt(100)
+    .buildAndRegister();
+
+    //Naquadah Dioxide
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:chloronaquadic_acid>*1000)
+    .inputs(<gregtech:meta_item_1:2865>)
+    .outputs(<gregtech:meta_item_1:2625>)
+    .fluidOutputs(<liquid:salt_water>*1000 , <liquid:nitrogen_dioxide>*1000)
+    .duration(200)
+    .EUt(100)
+    .buildAndRegister();
+
+    //Naquadah Dioxide Seed Crystal
+
+ebf.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:697>)
+    .outputs(<contenttweaker:barium_titanate_seed_crystal>)
+    .duration(200)
+    .EUt(100)
+    .buildAndRegister();
