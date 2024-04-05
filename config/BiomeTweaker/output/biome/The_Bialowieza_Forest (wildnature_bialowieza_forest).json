@@ -21,9 +21,9 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "RARE",
-    "FOREST",
     "CONIFEROUS",
-    "DENSE"
+    "DENSE",
+    "FOREST"
   ],
   "BiomeManager Entries": {
     "COOL Weights": [
