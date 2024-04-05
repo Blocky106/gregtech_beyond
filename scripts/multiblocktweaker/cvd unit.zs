@@ -176,6 +176,20 @@ cvd_unit.recipeMap.recipeBuilder()
     .EUt(1800)
     .buildAndRegister();
 
+cvd_unit.recipeMap.recipeBuilder()
+    .inputs(<contenttweaker:silicon_dioxide_wafer>,i)
+    .outputs(<contenttweaker:n_doped_silicon_dioxide_wafer>)
+    .duration(800)
+    .EUt(1800)
+    .buildAndRegister();
+
+cvd_unit.recipeMap.recipeBuilder()
+    .inputs(<contenttweaker:engraved_asoc_wafer>,i,I)
+    .outputs(<contenttweaker:raw_asoc_wafer>)
+    .duration(800)
+    .EUt(1800)
+    .buildAndRegister();
+
 	}
     }
 
