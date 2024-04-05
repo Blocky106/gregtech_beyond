@@ -3382,3 +3382,4 @@ metal_bender.recipeBuilder()
     .duration(120)
     .EUt(70)
     .buildAndRegister();
+

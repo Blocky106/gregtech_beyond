@@ -789,6 +789,14 @@ engraver.recipeBuilder()    .inputs(<contenttweaker:nickel_nitride_wafer>)    .n
 
     //Chloronaquadic acid
 
+fluidheater.recipeBuilder()
+    .fluidInputs(<liquid:aqua_regia>*1000)
+    .fluidOutputs(<liquid:very_hot_aqua_regia>*1000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .duration(200)
+    .EUt(80)
+    .buildAndRegister();
+
 chemReactor.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2307>)
     .fluidInputs(<liquid:very_hot_aqua_regia>*1000)
