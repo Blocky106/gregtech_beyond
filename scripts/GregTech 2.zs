@@ -2657,3 +2657,7 @@ distillation_tower.recipeBuilder()
 
 #distillation_tower.recipeBuilder()
    # .fluidInputs(<liquid:draconium_mother_liqour>*1000)
+
+
+recipes.addShaped(<gregtech:machine:10064>, [	[<contenttweaker:heavydutyplatet3>, <ore:circuitMaster>, <contenttweaker:heavydutyplatet3>], 	[<ore:circuitMaster>, <gregtech:machine:505>, <ore:circuitMaster>], 	[<contenttweaker:heavydutyplatet3>, <ore:circuitMaster>, <contenttweaker:heavydutyplatet3>]]);
+
