@@ -595,6 +595,7 @@ var items = [
 "containment_plating",
 "nor_photolithography_mask",
 "nand_photolithography_mask",
+"hotrawneutroniumingot",
 "nickel_nitride_wafer",
 "engraved_nor_wafer",
 "engraved_nand_wafer",
