@@ -510,6 +510,10 @@ util.registerDust("hafnium_platinum_titanium_composite", 32211, 0x4B4A4A, "DULL"
 
 
 
+util.registerFluid("trichloroflerane", 0x6E5DA1);
+util.registerFluid("chloronaquadic_acid", 0x32302D);
+util.registerFluid("very_hot_aqua_regia", 0xFFA000);
+util.registerFluid("very_hot_krypton", 0x9FAD90);
 util.registerFluid("platinum_solution", 0xC7C18E);
 util.registerFluid("palladium_extract", 0x3A3B3B);
 util.registerFluid("platinum_extraction_mixture", 0x009688);
