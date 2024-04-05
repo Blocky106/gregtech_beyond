@@ -905,4 +905,3 @@ engraver.findRecipe(1966080,[<gtadditions:ga_meta_item:32335>,<gregicalityoreadd
 lengraver.findRecipe(122880,[<gtadditions:ga_meta_item:32334>,<gregtech:meta_item_1:15913>],null).remove();
 lengraver.findRecipe(491520,[<gtadditions:ga_meta_item:32333>,<gregtech:meta_item_1:15913>],null).remove();
 lengraver.findRecipe(1966080,[<gtadditions:ga_meta_item:32335>,<gregtech:meta_item_1:15913>],null).remove();
-
