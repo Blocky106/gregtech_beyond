@@ -777,6 +777,7 @@ fluid_solidifier.recipeBuilder()
     .duration(500)
     .EUt(240)
     .buildAndRegister();
+    
 
 vacfreezer.findRecipe(120, [<gregtech:meta_item_1:11032>],null).remove();
 vacfreezer.findRecipe(120, [<gregtech:meta_item_1:11858>],null).remove();

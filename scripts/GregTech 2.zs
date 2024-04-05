@@ -171,14 +171,6 @@ mixer.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ebf.recipeBuilder()
-    .inputs(<gregtech:meta_item_1:2550>)
-    .outputs(<contenttweaker:hotvibrantalloyingot>)
-    .duration(400)
-    .property("temperature", 1700)
-    .EUt(15698)
-    .buildAndRegister();
-
 assembler.recipeBuilder()
     .inputs(<appliedenergistics2:part:120>,<extendedcrafting:material:2>,<gregtech:meta_block_compressed_12:5>)
     .outputs(<enderio:item_conduit_facade:1>)
@@ -1009,21 +1001,6 @@ lcr.recipeBuilder()
     .EUt(20)
     .buildAndRegister();
 
-ebf.recipeBuilder()
-    .inputs(<gregtech:meta_item_1:2563>)
-    .outputs(<contenttweaker:hotactivatednaquadahingot>)
-    .duration(400)
-    .EUt(40000)
-    .property("temperature", 7600)
-    .buildAndRegister();
-
-vacfreezer.recipeBuilder()
-    .inputs(<contenttweaker:hotactivatednaquadahingot>)
-    .outputs(<gregtech:meta_item_1:10563>)
-    .duration(400)
-    .EUt(24000)
-    .buildAndRegister();
-
 assembler.recipeBuilder()
     .inputs(<enderio:block_cap_bank>.withTag({"enderio:energy": 50000000}))
     .outputs(<enderio:block_buffer:3>)
@@ -1491,22 +1468,6 @@ lmixer.recipeBuilder()
     .EUt(24000)
     .buildAndRegister();
 
-vacfreezer.recipeBuilder()
-    .inputs(<contenttweaker:hotantoingot>)
-    .outputs(<gregtech:meta_item_1:10565>)
-    .duration(200)
-    .EUt(480)
-    .buildAndRegister();
-
-ebf.recipeBuilder()
-    .inputs(<gregtech:meta_item_1:2565>)
-    .fluidInputs(<liquid:plutonium247>*144)
-    .outputs(<contenttweaker:hotantoingot>)
-    .duration(400)
-    .property("temperature", 7600)
-    .EUt(55555)
-    .buildAndRegister();
-
 assembler.recipeBuilder()
     .inputs(<appliedenergistics2:smooth_sky_stone_block>*8,<minecraft:chest>,<gregtech:meta_item_1:17033>*4)
     .fluidInputs(<liquid:coal>*144)
@@ -1566,23 +1527,6 @@ ebf.recipeBuilder()
     .outputs(<gregtech:meta_item_1:10556>)
     .duration(400)
     .EUt(1200)
-    .buildAndRegister();
-
-ebf.recipeBuilder()
-    .inputs(<gregtech:meta_item_1:2523>)
-    .fluidInputs(<liquid:neon>*2000)
-    .property("temperature", 14200)
-    .outputs(<contenttweaker:hotultimateingot>)
-    .duration(800)
-    .EUt(1200000)
-    .buildAndRegister();
-
-vacfreezer.recipeBuilder()
-    .inputs(<contenttweaker:hotultimateingot>)
-    .outputs(<extendedcrafting:material:32>)
-    .fluidInputs(<liquid:cryogeniccoolant>*1000)
-    .duration(1200)
-    .EUt(900000)
     .buildAndRegister();
 
 mixer.recipeBuilder()
@@ -1694,23 +1638,6 @@ metal_bender.recipeBuilder()
     .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 0}))
     .duration(40)
     .EUt(12)
-    .buildAndRegister();
-
-ebf.recipeBuilder()
-    .inputs(<gregtech:meta_item_1:2567>)
-    .outputs(<contenttweaker:hotincoloy945xingot>)
-    .property("temperature", 6000)
-    .fluidInputs(<liquid:neon>*2000)
-    .duration(40)
-    .EUt(12000)
-    .buildAndRegister();
-
-
-vacfreezer.recipeBuilder()
-    .inputs(<contenttweaker:hotincoloy945xingot>)
-    .outputs(<gregtech:meta_item_1:10567>)
-    .duration(800)
-    .EUt(2400)
     .buildAndRegister();
 
 fusion_reactor.recipeBuilder()
