@@ -1485,17 +1485,17 @@ distillation_tower.recipeBuilder()
     .buildAndRegister();
 
 chemReactor.recipeBuilder()
-    .inputs(<contenttweaker:pikopic>,<contenttweaker:treated_photocoated_hassium_wafer>)
+    .inputs(<contenttweaker:pikopicw>,<contenttweaker:treated_photocoated_hassium_wafer>)
     .fluidInputs(<liquid:vibrantalloy>*14400)
-    .outputs(<contenttweaker:femtopic>)
+    .outputs(<contenttweaker:femtopicw>)
     .duration(2000)
     .EUt(12000000)
     .buildAndRegister();
 
 lcr.recipeBuilder()
-    .inputs(<contenttweaker:pikopic>,<contenttweaker:treated_photocoated_hassium_wafer>)
+    .inputs(<contenttweaker:pikopicw>,<contenttweaker:treated_photocoated_hassium_wafer>)
     .fluidInputs(<liquid:vibrantalloy>*14400)
-    .outputs(<contenttweaker:femtopic>)
+    .outputs(<contenttweaker:femtopicw>)
     .duration(2000)
     .EUt(12000000)
     .buildAndRegister();
@@ -2439,7 +2439,7 @@ componentassembler.recipeBuilder()
 	.buildAndRegister();
 
 beam_shrinking_device.recipeBuilder()
-    .inputs(<contenttweaker:femtopic>)
+    .inputs(<contenttweaker:femtopicw>)
     .outputs(<contenttweaker:xontopic>)
     .duration(200)
     .EUt(50000)
