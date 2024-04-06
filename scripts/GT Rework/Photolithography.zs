@@ -583,7 +583,7 @@ ion_implanter.recipeBuilder()
     .buildAndRegister();
 
 ion_implanter.recipeBuilder()
-    .inputs(<contenttweaker:spinorial_memory_wafer>, i, I) 
+    .inputs(<contenttweaker:engraved_spinorial_memory_wafer>, i, I) 
     .outputs(<contenttweaker:doped_aram_wafer>)
     .duration(200)
     .EUt(600)
@@ -913,3 +913,8 @@ engraver.findRecipe(1966080,[<gtadditions:ga_meta_item:32335>,<gregicalityoreadd
 lengraver.findRecipe(122880,[<gtadditions:ga_meta_item:32334>,<gregtech:meta_item_1:15913>],null).remove();
 lengraver.findRecipe(491520,[<gtadditions:ga_meta_item:32333>,<gregtech:meta_item_1:15913>],null).remove();
 lengraver.findRecipe(1966080,[<gtadditions:ga_meta_item:32335>,<gregtech:meta_item_1:15913>],null).remove();
+
+engraver.recipeBuilder()    .inputs(<contenttweaker:spinorial_memory_wafer>)    .notConsumable(<gregicalityoreaddon:gaoe_meta_item:12>)    .outputs(<contenttweaker:engraved_spinorial_memory_wafer>)    .duration(800)   .EUt(7270)    .buildAndRegister();
+engraver.recipeBuilder()    .inputs(<contenttweaker:spinorial_memory_wafer>)    .notConsumable(<gregtech:meta_item_1:15913>)    .outputs(<contenttweaker:engraved_spinorial_memory_wafer>)    .duration(800)    .EUt(7270)    .buildAndRegister();
+lengraver.recipeBuilder()    .inputs(<contenttweaker:spinorial_memory_wafer>)    .notConsumable(<gregicalityoreaddon:gaoe_meta_item:12>)    .outputs(<contenttweaker:engraved_spinorial_memory_wafer>)    .duration(800)   .EUt(7270)    .buildAndRegister();
+lengraver.recipeBuilder()    .inputs(<contenttweaker:spinorial_memory_wafer>)    .notConsumable(<gregtech:meta_item_1:15913>)    .outputs(<contenttweaker:engraved_spinorial_memory_wafer>)    .duration(800)    .EUt(7270)    .buildAndRegister();
