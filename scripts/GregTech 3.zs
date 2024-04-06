@@ -1588,7 +1588,7 @@ assembler.recipeBuilder()
     .EUt(1000)
     .buildAndRegister();
 
-recipes.addShaped(<gregtech:machine:3>,[	[<ore:blockGlassColorless>, <ore:blockGlassColorless>, <ore:blockGlassColorless>], 	[<ore:plateSteel>, <ore:plateDenseSilver>, <ore:plateSteel>], 	[<ore:plateSteel>, <gregtech:machine_casing:10>, <ore:plateSteel>]]);
+recipes.addShaped(<gregtech:machine:3>,[	[<ore:blockGlassColorless>, <ore:blockGlassColorless>, <ore:blockGlassColorless>], 	[<ore:plateSteel>, <ore:plateSilver>, <ore:plateSteel>], 	[<ore:plateSteel>, <gregtech:machine_casing:10>, <ore:plateSteel>]]);
 recipes.addShaped(<gregtech:machine:2>, [	[<ore:plateSteel>, <gregtech:machine_casing>, <ore:plateSteel>],	[<ore:plateSteel>, <gregtech:machine:1>, <ore:plateSteel>], 	[<ore:blockBrick>, <ore:blockBrick>, <ore:blockBrick>]]);
 recipes.addShaped(<gregtech:machine:6>, [	[<ore:plateSteel>, <gregtech:machine_casing>, <ore:plateSteel>], 	[<ore:plateSteel>, <gregtech:machine:5>, <ore:plateSteel>], 	[<ore:blockBrick>, <ore:blockBrick>, <ore:blockBrick>]]);
 
