@@ -2930,6 +2930,7 @@ ebf.findRecipe(120,[<gregtech:meta_item_1:2310>],null).remove();
 ebf.recipeBuilder()
 	.inputs(<gregtech:meta_item_1:2310>)
 	.outputs(<gregtech:meta_item_1:11310>)
+	.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 0}))
 	.property("temperature", 9000)
 	.duration(800)
 	.EUt(32000)
