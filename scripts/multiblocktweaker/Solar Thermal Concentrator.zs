@@ -106,6 +106,6 @@ solar_thermal_concentrator.noEnergy = true;
 
 solar_thermal_concentrator.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*2)
-    .fluidOutputs(<liquid:steam>*320)
-    .duration(200)
+    .fluidOutputs(<liquid:steam>*640)
+    .duration(20)
     .buildAndRegister();
