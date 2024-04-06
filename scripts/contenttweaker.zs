@@ -604,6 +604,7 @@ var items = [
 "enriched_naquadah_photolithography_mask",
 "raw_asoc_wafer",
 "engraved_asoc_wafer",
+"engraved_spinorial_memory_wafer",
 "doped_aram_wafer"
 ] as string[];
 
