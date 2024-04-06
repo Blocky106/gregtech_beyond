@@ -506,6 +506,7 @@ util.registerDust("roasted_deshite", 32208, 0x6D6662, "SHINY");
 util.registerDust("evaporated_deshite_compound", 32209, 0x4B4A4A, "DULL");
 util.registerDust("silver_bromide", 32210, 0x4B4A4A, "DULL");
 util.registerDust("hafnium_platinum_titanium_composite", 32211, 0x4B4A4A, "DULL");
+util.registerDust("muddy_monazite_ore_byproducts", 32212, 0x514442, "SHINY");
 
 
 
