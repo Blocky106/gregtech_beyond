@@ -330,8 +330,14 @@ slurry_clarifier.recipeMap.recipeBuilder()
     .EUt(240)
     .buildAndRegister();
 
-
-
-
+slurry_clarifier.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:monazite_ore_byproduct_slurry>*1000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .fluidOutputs(<liquid:wastewater>*100)
+    .outputs(<gtadditions:ga_dust:32070>*2,<gtadditions:ga_dust:32070>*2,<gregtech:meta_item_1:2743>*2)
+    .chancedOutput(<gtadditions:ga_dust:32065>*2, 5000, 0)
+    .duration(200)
+    .EUt(1200)
+    .buildAndRegister();
 
 

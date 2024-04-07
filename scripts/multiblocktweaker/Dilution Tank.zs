@@ -125,3 +125,10 @@ dilution_tank.recipeMap.recipeBuilder()
     .buildAndRegister();
 
 recipes.addShaped(<gregtech:machine:1008>, [	[<gregtech:meta_item_1:32613>, <gregtech:meta_item_1:32603>, <gregtech:meta_item_1:32613>], 	[<gregtech:machine:1021>, <gregtech:machine:504>, <gregtech:machine:1021>], 	[<ore:circuitElite>, <ore:circuitMaster>, <ore:circuitElite>]]);
+
+dilution_tank.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:neodymium_rich_monazite_solution>*1000,<liquid:water>*3000)
+    .fluidOutputs(<liquid:diluted_neodymium_rich_monazite_solution>*4000)
+    .duration(80)
+    .EUt(2000)
+    .buildAndRegister();

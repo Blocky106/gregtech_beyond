@@ -426,3 +426,12 @@ froth_flotation_cell.recipeMap.recipeBuilder()
     .duration(500)
     .EUt(2000)
     .buildAndRegister();
+
+froth_flotation_cell.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:impure_monazite_ore_byproduct_slurry>*1000,<liquid:froth_flotation_fluid>*1000)
+    .notConsumable(<liquid:methyl_isobutyl_carbonyl>)
+    .notConsumable(<liquid:1_amidol_ethyl_2_alkyl_2_imidazoline>)
+    .fluidOutputs(<liquid:monazite_ore_byproduct_slurry>*1000,<liquid:used_froth_flotation_fluid>*1000)
+    .duration(800)
+    .EUt(70)
+    .buildAndRegister();
