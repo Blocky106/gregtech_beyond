@@ -327,12 +327,8 @@ util.registerDust("monazitenitride", 32027, 0x0C6624, "SHINY");
 util.registerDust("monaziteoxide", 32028, 0x0C6624, "SHINY");
 util.registerDust("siftedmonazite", 32029, 0x094B1A, "SHINY");
 util.registerDust("thoriadust", 32030, 0x004B1A, "DULL");
-util.registerDust("naquadahdopedmonazite", 32031, 0xA8A049, "DULL");
-util.registerDust("sunnariumenrichedmonazite", 32032, 0xB9B272, "DULL");
-util.registerDust("rutherfordiumcontainingnaqdopedmonazite", 32033, 0x585858, "DULL");
 util.registerDust("sunnariumoxide", 32035, 0xB4AD6A, "DULL");
 util.registerDust("sunnariumdioxide", 32034, 0xB4AD6A, "DULL");
-util.registerDust("rutherfordiumcarbideoxide", 32036, 0xE0D9B8, "DULL");
 util.registerDust("vanadiumtitaniumconentratedust", 32037, 0x3C3C3C, "DULL");
 util.registerDust("sunaricoreresiduedust", 32038, 0xB9B272, "DULL");
 util.registerDust("samaricinfusedresiduedust", 32039, 0xE5E5E4, "DULL");
@@ -507,10 +503,30 @@ util.registerDust("evaporated_deshite_compound", 32209, 0x4B4A4A, "DULL");
 util.registerDust("silver_bromide", 32210, 0x4B4A4A, "DULL");
 util.registerDust("hafnium_platinum_titanium_composite", 32211, 0x4B4A4A, "DULL");
 util.registerDust("muddy_monazite_ore_byproducts", 32212, 0x514442, "SHINY");
+util.registerDust("high_purity_arsenic", 32213, 0x514442, "SHINY");
 
 
 
 
+
+
+
+
+util.registerFluid("monazite_ore_byproduct_slurry", 0x67824C);
+util.registerFluid("impure_monazite_ore_byproduct_slurry", 0x7F936B);
+util.registerFluid("neodymium_pre_extract_emulsion", 0x474746);
+util.registerFluid("palmatic_acid", 0xB6D2D5);
+util.registerFluid("caprylic_acid", 0xFEF9CC);
+util.registerFluid("ziegler_alfol_mixture", 0xC07259);
+util.registerFluid("neodymium_rich_monazite_solution", 0x388E3C);
+util.registerFluid("diluted_neodymium_rich_monazite_solution", 0x59605A);
+util.registerFluid("n-decanol", 0x987F77);
+util.registerFluid("n-tetradecanol", 0x866E66);
+util.registerFluid("n-dodecanol", 0x7E6D68);
+util.registerFluid("n-hexadecanol", 0x735E57);
+util.registerFluid("methyl_isobutyl_carbonyl", 0x7C9AB2);
+util.registerFluid("1_amidol_ethyl_2_alkyl_2_imidazoline", 0x705195);
+util.registerFluid("arsenic_trichloride", 0x631531);
 util.registerFluid("trichloroflerane", 0x6E5DA1);
 util.registerFluid("chloronaquadic_acid", 0x32302D);
 util.registerFluid("very_hot_aqua_regia", 0xFFA000);
