@@ -293,8 +293,11 @@ deshite.addFlags(["GENERATE_PLATE","GENERATE_ORE"]);
 val desh = MaterialRegistry.createIngotMaterial(623,"desh",0x333333,"SHINY",3);
 desh.addFlags(["GENERATE_PLATE"]);
 
+val nickel_nitride = MaterialRegistry.createDustMaterial(624,"nickel_nitride",0x2F4F4F,"DULL",3 [<material:nickel>*3 , <material:nitrogen>*2]);
+nickel_nitride.register();
 
-
+val naquadah_dioxide = MaterialRegistry.createDustMaterial(625,"naquadah_dioxide",0x4B0082,"DULL",3 [<material:naquadah> , <material:oxygen>*2]);
+naquadah_dioxide.register();
 
 
 util.registerDust("kaminskycatalyst", 32000, 0x372927, "DULL");
@@ -925,6 +928,9 @@ util.registerFluid("wolframiteimpureslurry",0x39593C);
 util.registerFluid("wolframiteslurry",0x355D38);
 util.registerFluid("silicon_carbide",0x515151);
 util.registerFluid("hot_treated_wastewater",0x515151);
+util.registerFluid("superfluid_helium_4",0xE0FFFF);
+util.registerFluid("liquid_enriched_helium_4",0xADFF2F);
+util.registerFluid("very_hot_xenon",0x00008B);
 
 
 

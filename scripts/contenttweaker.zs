@@ -614,7 +614,15 @@ var items = [
 "nickel_nitride_wafer",
 "engraved_nor_wafer",
 "engraved_nand_wafer",
-"pre_engraved_nqo2_wafer"
+"pre_engraved_nqo2_wafer",
+"naquadah_dioxide_seed_crystal",
+"naquadah_dioxide_boule",
+"naquadah_dioxide_wafer",
+"enriched_naquadah_photolithography_mask",
+"incolony_photolithography_mask",
+"raw_soc_wafer",
+"raw_asoc_wafer",
+"engraved_asoc_wafer"
 ] as string[];
 
 for item in items {

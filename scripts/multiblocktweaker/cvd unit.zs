@@ -83,7 +83,7 @@ val cvd_unit = Builder.start(loc, meta)
                 .build())
 .withRecipeMap(
         FactoryRecipeMap.start(loc)
-                        .maxInputs(3)
+                        .maxInputs(6)
                         .maxFluidInputs(1)
                         .maxOutputs(2)
                         .build())
@@ -186,6 +186,24 @@ cvd_unit.recipeMap.recipeBuilder()
 cvd_unit.recipeMap.recipeBuilder()
     .inputs(<contenttweaker:engraved_asoc_wafer>,i,I)
     .outputs(<contenttweaker:raw_asoc_wafer>)
+    .duration(800)
+    .EUt(1800)
+    .buildAndRegister();
+
+cvd_unit.recipeMap.recipeBuilder()
+    .inputs(<contenttweaker:pre_engraved_nqo2_wafer>,i,I)
+    .notConsumable(<contenttweaker:incolony_photolithography_mask>)
+    .outputs(<contenttweaker:raw_soc_wafer>)   
+    .fluidOutputs(<liquid:helium>*1000)
+    .duration(800)
+    .EUt(1800)
+    .buildAndRegister();
+
+cvd_unit.recipeMap.recipeBuilder()
+    .inputs(<contenttweaker:engraved_asoc_wafer>,i,I)
+    .fluidInputs(<liquid:very_hot_xenon>*1000)
+    .outputs(<contenttweaker:raw_asoc_wafer>)
+    .fluidOutputs(<liquid:xenon>*1000)
     .duration(800)
     .EUt(1800)
     .buildAndRegister();
