@@ -214,7 +214,7 @@ chemReactor.recipeBuilder()
 
 macerator.recipeBuilder()
 	.inputs(<enderio:item_alloy_ingot>)
-	.outputs(<gtadditions:ga_dust:32016>)
+	.outputs(<gtadditions:ga_dust:32012>)
 	.duration(80)
 	.EUt(20)
 	.buildAndRegister();
@@ -883,7 +883,7 @@ mixer.recipeBuilder()
 
 mixer.recipeBuilder()
 	.inputs(<gregtech:meta_item_1:2061>, <gregtech:meta_item_1:2184>)
-	.outputs(<gtadditions:ga_dust:32016>)
+	.outputs(<gtadditions:ga_dust:32012>)
 	.duration(80)
 	.EUt(60)
 	.buildAndRegister();
@@ -1482,13 +1482,13 @@ fusion_reactor.recipeBuilder()
 
 mixer.recipeBuilder()
 	.inputs(<gregtech:meta_item_1:2061>*3,<gregtech:meta_item_1:2012>*2,<gregtech:meta_item_1:2033>*3)
-	.outputs(<gtadditions:ga_dust:32016>*8)
+	.outputs(<gtadditions:ga_dust:32012>*8)
 	.EUt(12)
 	.duration(200)
 	.buildAndRegister();
 
 ebf.recipeBuilder()
-	.inputs(<gtadditions:ga_dust:32016>)
+	.inputs(<gtadditions:ga_dust:32012>)
 	.fluidInputs(<liquid:hydrogen>*200)
 	.outputs(<enderio:item_alloy_ingot>)
 	.property("temperature", 900)
@@ -2643,117 +2643,6 @@ assembler.recipeBuilder()
 	.outputs(<contenttweaker:drill_handle>)
 	.duration(150)
 	.EUt(8000)
-	.buildAndRegister();
-
-lcr.recipeBuilder()
-	.inputs(<gtadditions:ga_dust:32022>)
-	.fluidInputs(<liquid:nitric_oxide>*200)
-	.outputs(<gtadditions:ga_dust:32027>)
-	.duration(200)
-	.EUt(4000)
-	.buildAndRegister();
-
-lcr.recipeBuilder()
-	.inputs(<gtadditions:ga_dust:32028>)
-	.notConsumable(<contenttweaker:osmiumsieve>)
-	.outputs(<gtadditions:ga_dust:32029>)
-	.EUt(29000)
-	.duration(233)
-	.buildAndRegister();
-
-lcr.recipeBuilder()
-	.inputs(<gtadditions:ga_dust:32027>)
-	.outputs(<gtadditions:ga_dust:32028>)
-	.fluidInputs(<liquid:liquid_oxygen>*2000)
-	.EUt(12000)
-	.duration(200)
-	.buildAndRegister();
-
-lcr.recipeBuilder()
-	.inputs(<gtadditions:ga_dust:32029>)
-	.fluidInputs(<liquid:nitric_acid>*1000)
-	.fluidOutputs(<liquid:monazitefilteredsolution>*144,<liquid:nitrogen_dioxide>*750,<liquid:hydrogen>*250)
-	.duration(200)
-	.EUt(12345)
-	.buildAndRegister();
-
-electrolyzer.recipeBuilder()
-	.fluidInputs(<liquid:monazitefilteredsolution>*2000)
-	.outputs(<gregtech:meta_item_1:42>*3,<gregtech:meta_item_1:5281>)
-	.EUt(12000)
-	.duration(300)
-	.buildAndRegister();
-
-bio.recipeBuilder()
-	.inputs(<gtadditions:ga_meta_item:32475>)
-	.outputs(<gtadditions:ga_dust:32026>)
-	.fluidInputs(<liquid:fermented_biomass>*1000,<liquid:monazitefilteredsolution>*1000)
-	.duration(120)
-	.EUt(24009)
-	.buildAndRegister();
-
-ebf.recipeBuilder()
-	.inputs(<gtadditions:ga_dust:32026>,<gtadditions:ga_dust:141>)
-	.outputs(<gregtech:meta_item_1:2525>)
-	.fluidOutputs(<liquid:monazitefilteredcakesolution>*2000)
-	.property("temperature", 3600)
-	.duration(300)
-	.EUt(31000)
-	.buildAndRegister();
-
-vacfreezer.recipeBuilder()
-	.fluidInputs(<liquid:monazitefilteredcakesolution>*1500)
-	.fluidOutputs(<liquid:monazitecakesolution>*1000)
-	.duration(400)
-	.EUt(12999)
-	.buildAndRegister();
-
-lcr.recipeBuilder()
-	.fluidInputs(<liquid:monazitecakesolution>*200)
-	.outputs(<gtadditions:ga_dust:32031>)
-	.inputs(<gregtech:meta_item_2:16307>)
-	.duration(500)
-	.EUt(19000)
-	.buildAndRegister();
-
-centrifuge.recipeBuilder()
-	.inputs(<gtadditions:ga_dust:32030>*3)
-	.outputs(<gregtech:meta_item_1:2075>*2,<gregtech:meta_item_1:2069>)
-	.duration(200)
-	.EUt(1900)
-	.buildAndRegister();
-
-ebf.recipeBuilder()
-	.inputs(<gtadditions:ga_dust:32026>)
-	.outputs(<gtadditions:ga_dust:32024>)
-	.fluidInputs(<liquid:nitrogen>*1000)
-	.duration(500)
-	.EUt(12000)
-	.property("temperature", 2800)
-	.buildAndRegister();
-
-ebf.recipeBuilder()
-	.inputs(<gtadditions:ga_dust:32031>,<gregtech:meta_item_1:1555>*2)
-	.outputs(<gtadditions:ga_dust:32033>)
-	.property("temperature", 4000)
-	.EUt(9000)
-	.duration(400)
-	.buildAndRegister();
-
-lcr.recipeBuilder()
-	.inputs(<gtadditions:ga_dust:32033>,<gregtech:meta_item_1:2012>*2)
-	.outputs(<gtadditions:ga_dust:32036>,<gregtech:meta_item_1:307>)
-	.fluidInputs(<liquid:oxygen>*1000)
-	.duration(300)
-	.EUt(1200)
-	.buildAndRegister();
-
-lcr.recipeBuilder()
-	.inputs(<gtadditions:ga_dust:32036>)
-	.fluidInputs(<liquid:sulfuric_acid>*400)
-	.outputs(<gregtech:meta_item_1:2743>)
-	.duration(400)
-	.EUt(2400)
 	.buildAndRegister();
 
 macerator.recipeBuilder()
