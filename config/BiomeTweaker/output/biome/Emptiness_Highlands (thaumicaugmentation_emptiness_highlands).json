@@ -22,10 +22,10 @@
   "Dictionary Types": [
     "VOID",
     "SPOOKY",
+    "SPARSE",
     "HILLS",
     "COLD",
-    "MOUNTAIN",
-    "SPARSE"
+    "MOUNTAIN"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

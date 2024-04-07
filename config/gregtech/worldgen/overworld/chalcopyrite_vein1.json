@@ -1,14 +1,14 @@
 {
-  "weight": 50,
+  "weight": 80,
   "density": 0.4,
-  "max_height": 45,
-  "min_height": 10,
-  "dimension_filter": ["is_nether"],
-  "surface_stone_material": "nickel",
-
+  "min_height": 180,
+  "vein_populator": {
+    "type": "surface_rock",
+    "material": "chalcopyrite"
+  },
   "generator": {
     "type": "ellipsoid",
-    "radius": [7, 9]
+    "radius": [13, 15]
   },
   "filler": {
     "type": "simple",
@@ -17,19 +17,19 @@
       "values": [
         {
           "weight": 30,
-          "value": "ore:garnierite"
+          "value": "ore:chalcopyrite"
         },
         {
           "weight": 30,
-          "value": "ore:nickel"
+          "value": "ore:vermiculite"
         },
-		{
+        {
           "weight": 30,
-          "value": "ore:cobaltite"
+          "value": "ore:cassiterite"
         },
-		{
+        {
           "weight": 10,
-          "value": "ore:pentlandite"
+          "value": "ore:alunite"
         }
       ]
     }

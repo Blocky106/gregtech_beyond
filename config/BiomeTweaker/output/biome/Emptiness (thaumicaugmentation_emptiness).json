@@ -22,8 +22,8 @@
   "Dictionary Types": [
     "VOID",
     "SPOOKY",
-    "COLD",
-    "SPARSE"
+    "SPARSE",
+    "COLD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],
