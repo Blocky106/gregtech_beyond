@@ -30,7 +30,7 @@ recipes.addShaped(<gregtech:machine:10054>, [	[<ore:plateLowQualitySteel>, <ore:
 recipes.addShaped(<gregtech:machine:10055>, [	[<ore:plateBronze>, <gregtech:machine:3>, <ore:plateBronze>], 	[<ore:pipeMediumSteel>, <ore:frameGtBronze>, <ore:pipeMediumSteel>], 	[<ore:plateBronze>, <ore:pipeMediumSteel>, <ore:plateBronze>]]);
 recipes.addShaped(<gregtech:machine:10049>, [	[<gregtech:meta_item_1:32617>, <contenttweaker:superconductingcoil>, <gregtech:meta_item_1:32617>], 	[<gtadditions:ga_meta_item:32463>, <ore:circuitSuperconductor>, <gtadditions:ga_meta_item:32463>], 	[<gregtech:meta_item_1:32617>, <gregtech:machine:508>, <gregtech:meta_item_1:32617>]]);
 recipes.addShaped(<gregtech:machine:10052>, [	[<contenttweaker:aluminium_item_casing>, <gregtech:meta_item_1:32628>, <contenttweaker:aluminium_item_casing>], 	[<gregtech:meta_item_1:32611>, <gregtech:machine:502>, <gregtech:meta_item_1:32611>], 	[<contenttweaker:aluminium_item_casing>, <gregtech:meta_item_1:32628>, <contenttweaker:aluminium_item_casing>]]);
-
+recipes.addShaped(<gregtech:machine:10063>, [	[<ore:circuitGood>, <gregtech:machine:501>, <ore:circuitGood>], 	[<gregtech:meta_item_1:32610>, <ore:stickSteel>, <gregtech:meta_item_1:32610>], 	[<ore:circuitGood>, <ore:toolHeadDrillSteel>, <ore:circuitGood>]]);
 
 
 
