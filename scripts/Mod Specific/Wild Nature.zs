@@ -11,6 +11,7 @@ import crafttweaker.block.IBlock;
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Block;
 import crafttweaker.item.IItemCondition;
+import crafttweaker.entity.IEntityDropFunction;
 
 recipes.addShaped(<wildnature:steel_ladder>*7, [	[<ore:stickSteel>, null, <ore:stickSteel>], 	[<ore:stickSteel>, <ore:stickSteel>, <ore:stickSteel>], 	[<ore:stickSteel>, null, <ore:stickSteel>]]);
 
@@ -65,8 +66,8 @@ macerator.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
-game.getEntity("wildnature:cow_male").removeDrop(<wildnature:duck_male_feather>);
-game.getEntity("wildnature:cow_male").removeDrop(<minecraft:chicken>);
-
 game.getEntity("wildnature:cow_male").addDrop(<minecraft:leather>,0,1);
 game.getEntity("wildnature:cow_male").addDrop(<minecraft:beef>,0,1);
+
+<entity:wildnature:cow_male>.removeDrop(<wildnature:duck_male_feather>);
+<entity:wildnature:cow_male>.removeDrop(<minecraft:chicken>);
