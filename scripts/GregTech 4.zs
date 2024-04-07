@@ -2346,7 +2346,7 @@ induction_smelter.recipeBuilder()
     .buildAndRegister();
 
 induction_smelter.recipeBuilder()
-    .inputs(<gtadditions:ga_dust:32016>,<gregtech:meta_item_1:2071>* 2)
+    .inputs(<gtadditions:ga_dust:32012>,<gregtech:meta_item_1:2071>* 2)
     .outputs(<enderio:item_alloy_ingot>)
     .duration(10)
     .EUt(1)
@@ -3383,3 +3383,70 @@ metal_bender.recipeBuilder()
     .EUt(70)
     .buildAndRegister();
 
+recipes.addShaped(<gregtech:machine:10063>, [	[<ore:plateSteel>, <ore:circuitGood>, <ore:plateSteel>], 	[<gregtech:meta_item_1:32610>, <gregtech:machine:501>, <gregtech:meta_item_1:32610>], 	[<ore:plateSteel>, <ore:circuitGood>, <ore:plateSteel>]]);
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:ether>*1000,<liquid:ethylene>*6000,<liquid:triethylaluminium>*1000)
+    .fluidOutputs(<liquid:ziegler_alfol_mixture>*1000)
+    .outputs(<gtadditions:ga_dust:105>*7)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:ether>*1000,<liquid:ethylene>*6000,<liquid:triethylaluminium>*1000)
+    .fluidOutputs(<liquid:ziegler_alfol_mixture>*1000)
+    .outputs(<gtadditions:ga_dust:105>*7)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
+
+distillation_tower.recipeBuilder()
+    .fluidInputs(<liquid:ziegler_alfol_mixture>*1000)
+    .fluidOutputs(<liquid:nbutanol>*200,<liquid:ethanol>*300,<liquid:n-decanol>*100,<liquid:octanol>*100,<liquid:hexanol>*150,<liquid:n-tetradecanol>*45,<liquid:n-dodecanol>*60,<liquid:n-hexadecanol>*30)
+    .duration(80)
+    .EUt(70)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:acetone>*500,<liquid:octanol>*1500)
+    .fluidOutputs(<liquid:caprylic_acid>*1500)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:acetone>*500,<liquid:octanol>*1500)
+    .fluidOutputs(<liquid:caprylic_acid>*1500)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:n-hexadecanol>*3000,<liquid:distilled_water>*15000,<liquid:acetone>*1000)
+    .fluidOutputs(<liquid:palmatic_acid>*3000)
+    .duration(300)
+    .EUt(40)
+    .buildAndRegister();
+
+roasters.recipeBuilder()
+    .fluidInputs(<liquid:palmatic_acid>*1000,<liquid:ethylene>*1000)
+    .fluidOutputs(<liquid:1_amidol_ethyl_2_alkyl_2_imidazoline>*1000,<liquid:steam>*1000)
+    .duration(200)
+    .EUt(300)
+    .buildAndRegister();
+
+roasters.recipeBuilder()
+    .fluidInputs(<liquid:caprylic_acid>*1000,<liquid:ethylene>*1000)
+    .fluidOutputs(<liquid:1_amidol_ethyl_2_alkyl_2_imidazoline>*1000,<liquid:steam>*1000)
+    .duration(200)
+    .EUt(300)
+    .buildAndRegister();
+
+centrifuge.recipeBuilder()
+    .fluidInputs(<liquid:diluted_neodymium_rich_monazite_solution>*4000)
+    .fluidOutputs(<liquid:wastewater>*3000,<liquid:neodymium_pre_extract_emulsion>*1000)
+    .outputs(<gtadditions:ga_dust:32065>)
+    .duration(800)
+    .EUt(190)
+    .buildAndRegister();
