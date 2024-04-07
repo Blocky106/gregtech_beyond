@@ -359,9 +359,30 @@ chemReactor.findRecipe(96,[<gregtech:meta_item_1:2061>],[<liquid:methanol>*2000,
 lcr.findRecipe(96,[<gregtech:meta_item_1:2061>,<gregtech:meta_item_1:32766>.withTag({Configuration: 2})],[<liquid:methane>*2000,<liquid:water>*1000,<liquid:chlorine>*4000]).remove();
 
 
+centrifuge.recipeBuilder()
+	.inputs(<gtadditions:ga_dust:32030>*3)
+	.outputs(<gregtech:meta_item_1:2075>*2,<gregtech:meta_item_1:2069>)
+	.duration(200)
+	.EUt(1900)
+	.buildAndRegister();
 
+mixer.recipeBuilder()
+    .fluidInputs(<liquid:distilled_water>*1000)
+    .inputs(<gtadditions:ga_dust:32212>)
+    .fluidOutputs(<liquid:impure_monazite_ore_byproduct_slurry>*1000)
+    .duration(200)
+    .EUt(120)
+    .buildAndRegister();
 
+electrolyzer.findRecipe(60,[<gregtech:meta_item_1:2606>*6],null).remove();
 
+mixer.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2606>*6)
+    .fluidInputs(<liquid:water>*2000)
+    .fluidOutputs(<liquid:neodymium_rich_monazite_solution>*2000)
+    .EUt(1200)
+    .duration(700)
+    .buildAndRegister();
 
 
 
