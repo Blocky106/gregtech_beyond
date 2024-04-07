@@ -2661,3 +2661,104 @@ distillation_tower.recipeBuilder()
 
 recipes.addShaped(<gregtech:machine:10064>, [	[<contenttweaker:heavydutyplatet3>, <ore:circuitMaster>, <contenttweaker:heavydutyplatet3>], 	[<ore:circuitMaster>, <gregtech:machine:505>, <ore:circuitMaster>], 	[<contenttweaker:heavydutyplatet3>, <ore:circuitMaster>, <contenttweaker:heavydutyplatet3>]]);
 
+assembler.recipeBuilder()
+    .inputs(<gregtech:concrete>,<ore:dyeYellow>*2,<gregtech:meta_item_1:14184>*4)
+    .outputs(<contenttweaker:drone_pad>)
+    .duration(2000)
+    .EUt(2)
+    .buildAndRegister();
+
+roasters.recipeBuilder()
+    .fluidInputs(<liquid:hydrogen_chloride>*1000,<liquid:hydrogen>*200)
+    .inputs(<gregtech:meta_item_1:2955>*5)
+    .fluidOutputs(<liquid:arsenic_trichloride>*1000)
+    .duration(200)
+    .EUt(79)
+    .buildAndRegister();
+
+distillation_tower.recipeBuilder()
+    .fluidInputs(<liquid:arsenic_trichloride>*1000)
+    .fluidOutputs(<liquid:hydrogen_chloride>*1000,<liquid:hydrogen_sulfide>*200)
+    .outputs(<gtadditions:ga_dust:32212>*2)
+    .EUt(12)
+    .duration(200)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:hydrogen_chloride>*1500,<liquid:nitric_acid>*500)
+    .fluidOutputs(<liquid:aqua_regia>*2000)
+    .duration(80)
+    .EUt(120)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:hydrogen_chloride>*1500,<liquid:nitric_acid>*500)
+    .fluidOutputs(<liquid:aqua_regia>*2000)
+    .duration(80)
+    .EUt(120)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:ethylene>*1000,<liquid:hydrogen_chloride>*1000,<liquid:oxygen>*1000)
+    .fluidOutputs(<liquid:vinyl_chloride>*1000,<liquid:water>*1000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 0}))
+    .duration(900)
+    .EUt(12)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:ethylene>*1000,<liquid:hydrogen_chloride>*1000,<liquid:oxygen>*1000)
+    .fluidOutputs(<liquid:vinyl_chloride>*1000,<liquid:water>*1000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 0}))
+    .duration(900)
+    .EUt(12)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:ethane>*1000,<liquid:hydrogen_chloride>*1000,<liquid:oxygen>*1000)
+    .fluidOutputs(<liquid:vinyl_chloride>*1000,<liquid:water>*1000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 0}))
+    .duration(900)
+    .EUt(12)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:ethane>*1000,<liquid:hydrogen_chloride>*1000,<liquid:oxygen>*1000)
+    .fluidOutputs(<liquid:vinyl_chloride>*1000,<liquid:water>*1000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 0}))
+    .duration(900)
+    .EUt(12)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:ethane>*1000,<liquid:hydrochloric_acid>*1000,<liquid:oxygen>*1000)
+    .fluidOutputs(<liquid:vinyl_chloride>*1000,<liquid:water>*1000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 0}))
+    .duration(900)
+    .EUt(12)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:ethane>*1000,<liquid:hydrochloric_acid>*1000,<liquid:oxygen>*1000)
+    .fluidOutputs(<liquid:vinyl_chloride>*1000,<liquid:water>*1000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 0}))
+    .duration(900)
+    .EUt(12)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .fluidInputs(<liquid:hydrogen_chloride>*1000,<liquid:water>*1000)
+    .fluidOutputs(<liquid:hydrochloric_acid>*1000)
+    .duration(900)
+    .EUt(12)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .fluidInputs(<liquid:hydrogen_chloride>*1000,<liquid:water>*1000)
+    .fluidOutputs(<liquid:hydrochloric_acid>*1000)
+    .duration(900)
+    .EUt(12)
+    .buildAndRegister();
+
