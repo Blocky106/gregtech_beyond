@@ -24,36 +24,36 @@ centrifuge.recipeBuilder()
 mixer.recipeBuilder()
     .fluidInputs(<liquid:water>*1500,<liquid:oil_heavy>*500)
     .fluidOutputs(<liquid:dilutedoil>*2000)
-    .duration(40)
-    .EUt(340)
+    .duration(400)
+    .EUt(20)
     .buildAndRegister();
 
 mixer.recipeBuilder()
     .fluidInputs(<liquid:water>*1000,<liquid:oil_medium>*1000)
     .fluidOutputs(<liquid:dilutedoil>*2000)
-    .duration(40)
-    .EUt(340)
+    .duration(400)
+    .EUt(20)
     .buildAndRegister();
     
 mixer.recipeBuilder()
     .fluidInputs(<liquid:water>*800,<liquid:oil_light>*1200)
     .fluidOutputs(<liquid:dilutedoil>*2000)
-    .duration(40)
-    .EUt(340)
+    .duration(400)
+    .EUt(20)
     .buildAndRegister();
 
 lcentrifuge.recipeBuilder()
     .fluidInputs(<liquid:dilutedoil>*1000)
     .fluidOutputs(<liquid:salt_water>*600,<liquid:desaltedoil>*400)
-    .duration(80)
+    .duration(280)
     .EUt(220)
     .buildAndRegister();
 
 centrifuge.recipeBuilder()
     .fluidInputs(<liquid:dilutedoil>*1000)
     .fluidOutputs(<liquid:salt_water>*600,<liquid:desaltedoil>*400)
-    .duration(80)
-    .EUt(220)
+    .duration(280)
+    .EUt(20)
     .buildAndRegister();
 
 distillation_tower.recipeBuilder()
