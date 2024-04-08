@@ -2299,70 +2299,70 @@ recipes.addShapeless(<gregtech:machine:1343>, [<thermalexpansion:machine:3>]);
 induction_smelter.recipeBuilder()
     .inputs(<enderio:item_material>,<enderio:item_material:51>)
     .outputs(<enderio:item_material:1>)
-    .duration(10)
+    .duration(160)
     .EUt(1)
     .buildAndRegister();
 
 induction_smelter.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2095>)
     .outputs(<gregtech:meta_item_1:10095>)
-    .duration(10)
+    .duration(160)
     .EUt(1)
     .buildAndRegister();
 
 induction_smelter.recipeBuilder()
     .inputs(<enderio:item_material:1>,<enderio:item_material:67>)
     .outputs(<enderio:item_material:54>)
-    .duration(10)
+    .duration(160)
     .EUt(1)
     .buildAndRegister();
 
 induction_smelter.recipeBuilder()
     .inputs(<gtadditions:ga_dust:32014>)
     .outputs(<contenttweaker:silversteel>)
-    .duration(10)
+    .duration(160)
     .EUt(1)
     .buildAndRegister();
 
 induction_smelter.recipeBuilder()
     .inputs(<gregtech:meta_item_1:10184>,<gregtech:meta_item_1:2061>)
     .outputs(<enderio:item_alloy_ingot>)
-    .duration(10)
+    .duration(160)
     .EUt(1)
     .buildAndRegister();
 
 induction_smelter.recipeBuilder()
     .inputs(<minecraft:iron_ingot>, <minecraft:redstone> * 2)
     .outputs(<enderio:item_alloy_ingot:4>)
-    .duration(10)
+    .duration(160)
     .EUt(1)
     .buildAndRegister();
 
 induction_smelter.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2033>, <minecraft:redstone> * 2)
     .outputs(<enderio:item_alloy_ingot:4>)
-    .duration(10)
+    .duration(160)
     .EUt(1)
     .buildAndRegister();
 
 induction_smelter.recipeBuilder()
     .inputs(<gtadditions:ga_dust:32012>,<gregtech:meta_item_1:2071>* 2)
     .outputs(<enderio:item_alloy_ingot>)
-    .duration(10)
+    .duration(160)
     .EUt(1)
     .buildAndRegister();
 
 induction_smelter.recipeBuilder()
     .inputs(<ore:sand>)
     .outputs(<gregtech:meta_item_1:2061>)
-    .duration(10)
+    .duration(160)
     .EUt(1)
     .buildAndRegister();
 
 induction_smelter.recipeBuilder()
     .inputs(<minecraft:coal>, <minecraft:sand>*4)
     .outputs(<projectred-core:resource_item:250>)
-    .duration(10)
+    .duration(160)
     .EUt(1)
     .buildAndRegister();
 
