@@ -68,6 +68,5 @@ macerator.recipeBuilder()
 
 game.getEntity("wildnature:cow_male").addDrop(<minecraft:leather>,0,1);
 game.getEntity("wildnature:cow_male").addDrop(<minecraft:beef>,0,1);
-
-<entity:wildnature:cow_male>.removeDrop(<wildnature:duck_male_feather>);
-<entity:wildnature:cow_male>.removeDrop(<minecraft:chicken>);
+game.getEntity("wildnature:cow_male").removeDrop(<wildnature:duck_male_feather>);
+game.getEntity("wildnature:cow_male").removeDrop(<minecraft:chicken>);
