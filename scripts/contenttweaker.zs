@@ -605,6 +605,11 @@ var items = [
 "raw_asoc_wafer",
 "engraved_asoc_wafer",
 "engraved_spinorial_memory_wafer",
+"naquadah_dioxide_seed_crystal",
+"naquadah_dioxide_boule",
+"naquadah_dioxide_wafer",
+"incolony_photolithography_mask",
+"raw_soc_wafer",
 "doped_aram_wafer"
 ] as string[];
 

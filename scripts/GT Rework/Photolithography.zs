@@ -918,3 +918,90 @@ engraver.recipeBuilder()    .inputs(<contenttweaker:spinorial_memory_wafer>)    
 engraver.recipeBuilder()    .inputs(<contenttweaker:spinorial_memory_wafer>)    .notConsumable(<gregtech:meta_item_1:15913>)    .outputs(<contenttweaker:engraved_spinorial_memory_wafer>)    .duration(800)    .EUt(7270)    .buildAndRegister();
 lengraver.recipeBuilder()    .inputs(<contenttweaker:spinorial_memory_wafer>)    .notConsumable(<gregicalityoreaddon:gaoe_meta_item:12>)    .outputs(<contenttweaker:engraved_spinorial_memory_wafer>)    .duration(800)   .EUt(7270)    .buildAndRegister();
 lengraver.recipeBuilder()    .inputs(<contenttweaker:spinorial_memory_wafer>)    .notConsumable(<gregtech:meta_item_1:15913>)    .outputs(<contenttweaker:engraved_spinorial_memory_wafer>)    .duration(800)    .EUt(7270)    .buildAndRegister();
+
+ebf.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:625>)
+    .outputs(<contenttweaker:naquadah_dioxide_seed_crystal>)
+    .property("temperature", 1800)
+    .duration(200)
+    .EUt(100)
+    .buildAndRegister();
+
+    //Naquadah Dioxide Boule
+
+ebf.recipeBuilder()
+    .inputs(<contenttweaker:naquadah_dioxide_seed_crystal> , <gregtech:meta_item_1:2625>*4)
+    .property("temperature", 1800)
+    .outputs(<contenttweaker:naquadah_dioxide_boule>)
+    .duration(200)
+    .EUt(100)
+    .buildAndRegister();
+
+    //Naquadah Dioxide Wafer
+
+cutting_saw.recipeBuilder()
+    .inputs(<contenttweaker:naquadah_dioxide_boule>)
+    .outputs(<contenttweaker:naquadah_dioxide_wafer>*16 , <contenttweaker:naquadah_dioxide_seed_crystal>)
+    .duration(200)
+    .EUt(100)
+    .buildAndRegister();
+
+    //Pre-engraved Naquadah Dioxide Wafer
+
+engraver.recipeBuilder()
+    .inputs(<contenttweaker:naquadah_dioxide_wafer>)
+    .notConsumable(<contenttweaker:incolony_photolithography_mask>)
+    .fluidInputs(<liquid:superfluid_helium_4>*1000)
+    .fluidOutputs(<liquid:helium_4>*1000)
+    .outputs(<contenttweaker:pre_engraved_nqo2_wafer>)
+    .duration(200)
+    .EUt(100)
+    .buildAndRegister();
+
+    //Superfluid helium 4
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:liquid_enriched_helium_4>*1000 , <liquid:liquid_nitrogen>*1000)
+    .fluidOutputs(<liquid:superfluid_helium_4>*1000 , <liquid:helium_3>*1000)
+    .duration(200)
+    .EUt(100)
+    .buildAndRegister();
+
+    //Liquid Enriched Helium 4
+
+mixer.recipeBuilder()
+    .fluidInputs(<liquid:helium_4>*1000 , <liquid:helium>*1000)
+    .fluidOutputs(<liquid:liquid_enriched_helium_4>*1000)
+    .duration(200)
+    .EUt(100)
+    .buildAndRegister();
+
+    //SOC wafer
+
+chemical_bath.recipeBuilder()
+    .inputs(<contenttweaker:raw_soc_wafer>)
+    .fluidInputs(<liquid:very_hot_krypton>)
+    .outputs(<gregtech:meta_item_2:32472>)
+    .duration(200)
+    .EUt(100)
+    .buildAndRegister();
+
+    //Engraved ASOC wafer
+
+engraver.recipeBuilder()
+    .inputs(<contenttweaker:pre_engraved_nqo2_wafer>)
+    .notConsumable(<contenttweaker:enriched_naquadah_photolithography_mask>)
+    .outputs(<contenttweaker:engraved_asoc_wafer>)
+    .duration(200)
+    .EUt(100)
+    .buildAndRegister();
+
+    //ASOC wafer
+
+chemical_bath.recipeBuilder()
+    .inputs(<contenttweaker:raw_asoc_wafer>)
+    .fluidInputs(<liquid:very_hot_xenon>*1000)
+    .outputs(<gregtech:meta_item_2:32462>)
+    .duration(200)
+    .EUt(100)
+    .buildAndRegister();

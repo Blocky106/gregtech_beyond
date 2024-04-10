@@ -12,6 +12,11 @@ import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Block;
 import crafttweaker.item.IItemCondition;
 import crafttweaker.entity.IEntityDropFunction;
+import loottweaker.LootTweaker;
+import loottweaker.vanilla.loot.LootTable;
+import loottweaker.vanilla.loot.LootPool;
+import loottweaker.vanilla.loot.Conditions;
+import loottweaker.vanilla.loot.Functions;
 
 recipes.addShaped(<wildnature:steel_ladder>*7, [	[<ore:stickSteel>, null, <ore:stickSteel>], 	[<ore:stickSteel>, <ore:stickSteel>, <ore:stickSteel>], 	[<ore:stickSteel>, null, <ore:stickSteel>]]);
 
@@ -66,7 +71,18 @@ macerator.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
-game.getEntity("wildnature:cow_male").addDrop(<minecraft:leather>,0,1);
-game.getEntity("wildnature:cow_male").addDrop(<minecraft:beef>,0,1);
-game.getEntity("wildnature:cow_male").removeDrop(<wildnature:duck_male_feather>);
-game.getEntity("wildnature:cow_male").removeDrop(<minecraft:chicken>);
+recipes.addShapeless(<minecraft:stick>,[<wildnature:corn_bush>]);
+
+//Get the male_cow loot table and store it for later use
+val male_cow = LootTweaker.getTable("wildnature/duck_male_loot");
+
+//Get main from the male_cow loot table and store it for later use
+val main = male_cow.getPool("main");
+
+//Remove the entry named "minecraft:mutton" from "main"
+main.removeEntry("minecraft:chicken");
+main.removeEntry("wildnature:duck_male_feather");
+
+main.addItemEntry(<minecraft:leather>, 20, 1,[],[]);
+main.addItemEntry(<minecraft:beef>, 20, 1,[],[]);
+main.addItemEntry(<contenttweaker:pancreas>, 20, 1,[],[]);

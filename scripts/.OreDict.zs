@@ -17,10 +17,6 @@ import mods.nuclearcraft.IngotFormer;
 
 
 
-
-<gregtech:meta_item_2:32454>.displayName="Silver Coated Glass Tube";
-<gregtech:meta_item_1:32725>.displayName="Quantum Star";
-<gregtech:meta_item_1:32724>.displayName="Quantum Eye";
 <pneumaticcraft:turbine_blade>.displayName="Metastable Oganesson Plated Naquadah Alloy Turbine Blade";
 <forestry:apatite>.displayName="Apatite Gemstone";
 <forestry:ash>.displayName="Ash Nanoparticles";
@@ -341,7 +337,7 @@ mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:
 
 
 
-
+<ore:ingotSignalum>.remove(<thermalfoundation:material:165>);
 <ore:IngotSilver>.remove(<wildnature:silver_ingot>);
 <ore:dustPotassiumFluoride>.remove(<nuclearcraft:compound:4>);
 <ore:plateLead>.remove(<thermalfoundation:material:323>);
@@ -478,10 +474,6 @@ mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:
 <ore:ingotStellaralloy>.remove(<gregtech:meta_item_1:10569>);
 <ore:dustAsh>.remove(<forestry:ash>);
 <ore:gemApatite>.remove(<forestry:apatite>);
-<ore:ingotSignalum>.remove(<gregtech:meta_item_1:10539>);
-<ore:nuggetSignalum>.remove(<gregtech:meta_item_1:9539>);
-<ore:dustSignalum>.remove(<gregtech:meta_item_1:2539>);
-<ore:dustRegularSignalum>.remove(<gregtech:meta_item_1:2539>);
 <ore:gemRuby>.remove(<projectred-core:resource_item:200>);
 <ore:gemSapphire>.remove(<projectred-core:resource_item:201>);
 <ore:blockNetherStar>.remove(<extendedcrafting:storage:2>);

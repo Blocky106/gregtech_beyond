@@ -1031,22 +1031,6 @@ ebf.recipeBuilder()
 	.buildAndRegister();
 
 metal_bender.recipeBuilder()
-	.inputs(<thermalfoundation:material:166>)
-	.outputs(<thermalfoundation:material:358>)
-	.property("circuit", 0)
-	.duration(40)
-	.EUt(200)
-	.buildAndRegister();
-
-metal_bender.recipeBuilder()
-	.inputs(<thermalfoundation:material:165>)
-	.outputs(<thermalfoundation:material:357>)
-	.property("circuit", 0)
-	.duration(40)
-	.EUt(200)
-	.buildAndRegister();
-
-metal_bender.recipeBuilder()
 	.inputs(<thermalfoundation:material:136>)
 	.outputs(<thermalfoundation:material:328>)
 	.property("circuit", 0)

@@ -115,7 +115,7 @@ val froth_flotation_cell = Builder.start(loc, meta)
 .withRecipeMap(
         FactoryRecipeMap.start(loc)
                         .maxInputs(4)
-                        .maxFluidInputs(3)
+                        .maxFluidInputs(4)
                         .maxFluidOutputs(2)
                         .maxOutputs(6)
                         .build())

@@ -504,14 +504,18 @@ util.registerDust("silver_bromide", 32210, 0x4B4A4A, "DULL");
 util.registerDust("hafnium_platinum_titanium_composite", 32211, 0x4B4A4A, "DULL");
 util.registerDust("muddy_monazite_ore_byproducts", 32212, 0x514442, "SHINY");
 util.registerDust("high_purity_arsenic", 32213, 0x514442, "SHINY");
+util.registerDust("naquadah_dioxide", 32214, 0x4B0082, "DULL");
+util.registerDust("nickel_nitride", 32215, 0x2F4F4F, "DULL");
 
 
 
 
 
 
-
-
+util.registerFluid("helium_4",0xE0FFFF);
+util.registerFluid("superfluid_helium_4",0xE0FFFF);
+util.registerFluid("liquid_enriched_helium_4",0xADFF2F);
+util.registerFluid("very_hot_xenon",0x00008B);
 util.registerFluid("monazite_ore_byproduct_slurry", 0x67824C);
 util.registerFluid("impure_monazite_ore_byproduct_slurry", 0x7F936B);
 util.registerFluid("neodymium_pre_extract_emulsion", 0x474746);

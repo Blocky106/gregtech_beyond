@@ -96,6 +96,7 @@ val solar_thermal_concentrator = Builder.start(loc, meta)
                 .build())
 .withRecipeMap(
         FactoryRecipeMap.start(loc)
+                        .maxInputs(1)
                         .maxFluidInputs(1)
                         .maxFluidOutputs(1)
                         .build())
@@ -108,4 +109,11 @@ solar_thermal_concentrator.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*2)
     .fluidOutputs(<liquid:steam>*640)
     .duration(20)
+    .buildAndRegister();
+
+solar_thermal_concentrator.recipeMap.recipeBuilder()
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .fluidInputs(<liquid:water>*10)
+    .fluidOutputs(<liquid:steam>*4000)
+    .duration(40)
     .buildAndRegister();
