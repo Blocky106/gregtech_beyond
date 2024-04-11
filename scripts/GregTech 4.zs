@@ -521,11 +521,34 @@ Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:11127>], [], false);
 
 ebf.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2127>)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 0}))
     .outputs(<gregtech:meta_item_1:11127>)
-    .EUt(300)
-    .duration(80)
+    .EUt(100)
+    .duration(280)
     .property("temperature", 1800)
     .buildAndRegister();
+
+ebf.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2127>)
+    .fluidInputs(<liquid:oxygen>*1000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .outputs(<gregtech:meta_item_1:11127>)
+    .EUt(100)
+    .duration(160)
+    .property("temperature", 1800)
+    .buildAndRegister();
+
+
+ebf.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2127>)
+    .fluidInputs(<liquid:nitrogen>*1000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .outputs(<gregtech:meta_item_1:11127>)
+    .EUt(100)
+    .duration(110)
+    .property("temperature", 1800)
+    .buildAndRegister();
+
 
 
 electrolyzer.findRecipe(1920,[<gregtech:meta_item_1:2615>*12],null).remove();
@@ -3384,8 +3407,6 @@ metal_bender.recipeBuilder()
     .duration(120)
     .EUt(70)
     .buildAndRegister();
-
-recipes.addShaped(<gregtech:machine:10063>, [	[<ore:plateSteel>, <ore:circuitGood>, <ore:plateSteel>], 	[<gregtech:meta_item_1:32610>, <gregtech:machine:501>, <gregtech:meta_item_1:32610>], 	[<ore:plateSteel>, <ore:circuitGood>, <ore:plateSteel>]]);
 
 chemReactor.recipeBuilder()
     .fluidInputs(<liquid:ether>*1000,<liquid:ethylene>*6000,<liquid:triethylaluminium>*1000)
