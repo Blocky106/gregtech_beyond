@@ -2370,7 +2370,7 @@ cas.recipeBuilder()
 ebf.findRecipe(120,[<gregtech:meta_item_1:2061>*32,<gregtech:meta_item_1:1410>],null).remove();
 
 ebf.recipeBuilder()
-    .inputs(<gregtech:meta_item_1:2061>*32,<gregtech:meta_item_1:2410>,<contenttweaker:monocrystalline_seed_crystal>)
+    .inputs(<contenttweaker:unbaked_monocrystalline_silicon_boule>)
     .outputs(<gregtech:meta_item_2:32439>)
     .property("temperature", 1784)
     .duration(9000)
@@ -2378,7 +2378,7 @@ ebf.recipeBuilder()
     .buildAndRegister();
 
 ebf.recipeBuilder()
-    .inputs(<gregtech:meta_item_1:2061>*32,<gregtech:meta_item_1:2410>,<contenttweaker:monocrystalline_seed_crystal>)
+    .inputs(<contenttweaker:unbaked_monocrystalline_silicon_boule>)
     .fluidInputs(<liquid:nitrogen>*1000)
     .outputs(<gregtech:meta_item_2:32439>)
     .property("temperature", 1784)
@@ -2387,7 +2387,7 @@ ebf.recipeBuilder()
     .buildAndRegister();
 
 ebf.recipeBuilder()
-    .inputs(<gregtech:meta_item_1:2061>*32,<gregtech:meta_item_1:2410>,<contenttweaker:monocrystalline_seed_crystal>)
+    .inputs(<contenttweaker:unbaked_monocrystalline_silicon_boule>)
     .fluidInputs(<liquid:argon>*1000)
     .outputs(<gregtech:meta_item_2:32439>)
     .property("temperature", 1784)
@@ -2575,6 +2575,13 @@ lcr.recipeBuilder()
 fluid_solidifier.findRecipe(24,[<gregtech:meta_item_1:32313>],[<liquid:polystyrene>*36]).remove();
 fluid_solidifier.findRecipe(24,[<gregtech:meta_item_1:32313>],[<liquid:polytetrafluoroethylene>*36]).remove();
 
+forming_press.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2061>*32,<gregtech:meta_item_1:2410>,<contenttweaker:monocrystalline_seed_crystal>)
+    .outputs(<contenttweaker:unbaked_monocrystalline_silicon_boule>)
+    .duration(200)
+    .EUt(2)
+    .buildAndRegister();
+    
 chemReactor.recipeBuilder()
     .inputs(<gtadditions:ga_dust:34>,<gtadditions:ga_dust:33>,<gtadditions:ga_dust:32>)
     .fluidInputs(<liquid:sterilized_growth_medium>*1000)
