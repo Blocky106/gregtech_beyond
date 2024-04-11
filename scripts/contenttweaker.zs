@@ -610,7 +610,8 @@ var items = [
 "naquadah_dioxide_wafer",
 "incolony_photolithography_mask",
 "raw_soc_wafer",
-"doped_aram_wafer"
+"doped_aram_wafer",
+"unbaked_monocrystalline_silicon_boule"
 ] as string[];
 
 for item in items {

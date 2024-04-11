@@ -541,21 +541,21 @@ cvd_unit_s.recipeBuilder()
     .inputs(<contenttweaker:engraved_power_ic_wafer>,i,I)
     .outputs(<contenttweaker:raw_power_ic_wafer>)
     .duration(800)
-    .EUt(1800)
+    .EUt(100)
     .buildAndRegister();
 
 cvd_unit_s.recipeBuilder()
     .inputs(<contenttweaker:engraved_ram_wafer>,i,I)
     .outputs(<contenttweaker:raw_ram_wafer>)
     .duration(800)
-    .EUt(1800)
+    .EUt(100)
     .buildAndRegister();
 
 cvd_unit_s.recipeBuilder()
     .inputs(<contenttweaker:engraved_cpu_wafer>,i,I)
     .outputs(<contenttweaker:raw_cpu_wafer>)
     .duration(800)
-    .EUt(1800)
+    .EUt(100)
     .buildAndRegister();
 
 cvd_unit_s.recipeBuilder()
@@ -563,7 +563,7 @@ cvd_unit_s.recipeBuilder()
     .fluidInputs(<liquid:very_hot_nitrogen>*1000)
     .outputs(<gregtech:meta_item_2:32463>)
     .duration(800)
-    .EUt(1800)
+    .EUt(100)
     .buildAndRegister();
 
 cvd_unit_s.recipeBuilder()
@@ -1002,6 +1002,34 @@ chemical_bath.recipeBuilder()
     .inputs(<contenttweaker:raw_asoc_wafer>)
     .fluidInputs(<liquid:very_hot_xenon>*1000)
     .outputs(<gregtech:meta_item_2:32462>)
-    .duration(200)
+    .duration(200)<gregtech:meta_item_1:2061>*32,<gregtech:meta_item_1:2410>,<contenttweaker:monocrystalline_seed_crystal>
     .EUt(100)
+    .buildAndRegister();
+
+cutting_saw.findRecipe(8,[<gregtech:meta_item_2:32439>],[<liquid:water>*5]).remove();
+cutting_saw.findRecipe(8,[<gregtech:meta_item_2:32439>],[<liquid:distilled_water>*3]).remove();
+cutting_saw.findRecipe(8,[<gregtech:meta_item_2:32439>],[<liquid:lubricant>*1]).remove();
+
+cutting_saw.recipeBuilder()
+    .inputs(<gregtech:meta_item_2:32439>)
+    .outputs(<gregtech:meta_item_2:32440>*16,<contenttweaker:monocrystalline_seed_crystal>)
+    .fluidInputs(<liquid:water>*5)
+    .duration(300)
+    .EUt(8)
+    .buildAndRegister();
+
+cutting_saw.recipeBuilder()
+    .inputs(<gregtech:meta_item_2:32439>)
+    .outputs(<gregtech:meta_item_2:32440>*16,<contenttweaker:monocrystalline_seed_crystal>)
+    .fluidInputs(<liquid:distilled_water>*5)
+    .duration(150)
+    .EUt(8)
+    .buildAndRegister();
+
+cutting_saw.recipeBuilder()
+    .inputs(<gregtech:meta_item_2:32439>)
+    .outputs(<gregtech:meta_item_2:32440>*16,<contenttweaker:monocrystalline_seed_crystal>)
+    .fluidInputs(<liquid:lubricant>*5)
+    .duration(50)
+    .EUt(8)
     .buildAndRegister();
