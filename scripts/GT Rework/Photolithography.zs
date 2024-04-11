@@ -1002,7 +1002,7 @@ chemical_bath.recipeBuilder()
     .inputs(<contenttweaker:raw_asoc_wafer>)
     .fluidInputs(<liquid:very_hot_xenon>*1000)
     .outputs(<gregtech:meta_item_2:32462>)
-    .duration(200)<gregtech:meta_item_1:2061>*32,<gregtech:meta_item_1:2410>,<contenttweaker:monocrystalline_seed_crystal>
+    .duration(200)
     .EUt(100)
     .buildAndRegister();
 
