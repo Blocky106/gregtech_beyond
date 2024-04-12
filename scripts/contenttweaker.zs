@@ -611,6 +611,7 @@ var items = [
 "incolony_photolithography_mask",
 "raw_soc_wafer",
 "doped_aram_wafer",
+"hot_silicon_ingot",
 "unbaked_monocrystalline_silicon_boule"
 ] as string[];
 

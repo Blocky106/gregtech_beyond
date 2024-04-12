@@ -116,7 +116,7 @@ macerator.recipeBuilder()
 	
 chemReactor.recipeBuilder()
 	.inputs(<enderio:item_material:76> * 2)
-	.fluidInputs(<liquid:nutrient_distillation> * 600,<liquid:cloud_seed> * 1300)
+	.fluidInputs(<liquid:nutrient_distillation> * 500,<liquid:cloud_seed> *500)
 	.fluidOutputs(<liquid:lumin> * 1152)
 	.duration(80)
 	.EUt(15)
@@ -306,7 +306,8 @@ chemReactor.recipeBuilder()
 
 chemical_bath.recipeBuilder()
 	.inputs(<gregtech:meta_item_1:11127>)
-	.fluidInputs(<liquid:ic2coolant> * 1000)
+	.fluidInputs(<liquid:ic2coolant> * 200)
+	.fluidOutputs(<liquid:hotic2coolant>*200)
 	.outputs(<gregtech:meta_item_1:10127>)
 	.duration(260)
 	.EUt(125)
@@ -419,7 +420,8 @@ ebf.recipeBuilder()
 
 chemical_bath.recipeBuilder()
 	.inputs(<gregtech:meta_item_1:11550>)
-	.fluidInputs(<liquid:ic2coolant> * 1000)
+	.fluidInputs(<liquid:ic2coolant> * 200)
+	.fluidOutputs(<liquid:hotic2coolant>*200)
 	.outputs(<gregtech:meta_item_1:10550>)
 	.duration(900)
 	.EUt(100)
@@ -1712,7 +1714,7 @@ assembler.recipeBuilder()
 	.buildAndRegister();
 
 chemReactor.recipeBuilder()
-	.inputs(<minecraft:clay_ball>,<minecraft:snow>)
+	.inputs(<minecraft:clay_ball>,<minecraft:snowball>)
 	.fluidInputs(<liquid:water>*1000)
 	.fluidOutputs(<liquid:cloud_seed>*1000)
 	.duration(400)
@@ -2809,8 +2811,31 @@ ebf.recipeBuilder()
 	.EUt(32000)
 	.buildAndRegister();
 
+ebf.recipeBuilder()
+	.inputs(<gregtech:meta_item_1:2016>)
+	.outputs(<contenttweaker:hot_silicon_ingot>)
+	.property("temperature", 1687)
+	.duration(200)
+	.EUt(80)
+	.buildAndRegister();
 
+chemical_bath.recipeBuilder()
+	.fluidInputs(<liquid:ic2coolant>*200)
+	.inputs(<contenttweaker:hot_silicon_ingot>)
+	.outputs(<gregtech:meta_item_1:10016>)
+	.fluidOutputs(<liquid:hotic2coolant>*200)
+	.duration(200)
+	.EUt(7)
+	.buildAndRegister();
 
+vacfreezer.recipeBuilder()
+	.fluidInputs(<liquid:hotic2coolant>*1000)
+	.fluidOutputs(<liquid:ic2coolant>*1000)
+	.duration(200)
+	.EUt(120)
+	.buildAndRegister();
+
+ebf.findRecipe(120, [<gregtech:meta_item_1:2016>,<gregtech:meta_item_1:32766>.withTag({Configuration: 0})],null).remove();
 ebf.findRecipe(480, [<gtadditions:ga_dust:19>*10,<gregtech:meta_item_1:2012>*3], null).remove();
 assembler.findRecipe(20,[<gregtech:meta_item_1:19018>*4,<gregtech:meta_item_1:12196>],[<liquid:glue>*72]).remove();
 assembly_line.findRecipe(30000, [<gregtech:meta_item_2:32479>*32,<gregtech:cable:966>*32,<gregtech:meta_item_1:12002>*4,<gregtech:meta_item_1:12331>*4,<gregtech:wire_coil:8>,<gregtech:meta_item_1:32674>*2,<gtadditions:ga_meta_item:32214>,<gtadditions:ga_meta_item:32214>,<gtadditions:ga_meta_item:32214>,<gtadditions:ga_meta_item:32214>],[<liquid:soldering_alloy>*2880]).remove();
