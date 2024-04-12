@@ -39,3 +39,5 @@ game.getEntity("chicken").addDrop(<contenttweaker:pancreas>,0,1);
 
 recipes.remove(<minecraft:paper>);
 recipes.remove(<minecraft:chest>);
+
+recipes.addShaped(<minecraft:fermented_spider_eye>, [[<minecraft:spider_eye>, <minecraft:red_mushroom>, null], [<ore:dustSugar>, null, null], 	[null, null, null]]);
