@@ -506,12 +506,14 @@ util.registerDust("muddy_monazite_ore_byproducts", 32212, 0x514442, "SHINY");
 util.registerDust("high_purity_arsenic", 32213, 0x514442, "SHINY");
 util.registerDust("naquadah_dioxide", 32214, 0x4B0082, "DULL");
 util.registerDust("nickel_nitride", 32215, 0x2F4F4F, "DULL");
+util.registerDust("ruby_leach", 32216, 0xF5C9C8, "SHINY");
 
 
 
 
 
 
+util.registerFluid("ruby_slurry",0xEF5350);
 util.registerFluid("helium_4",0xE0FFFF);
 util.registerFluid("superfluid_helium_4",0xE0FFFF);
 util.registerFluid("liquid_enriched_helium_4",0xADFF2F);

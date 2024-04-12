@@ -2762,3 +2762,46 @@ lcr.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:water>*1000)
+    .inputs(<gregtech:meta_item_1:2154>*6)
+    .fluidOutputs(<liquid:ruby_slurry>*1000)
+    .duration(20)
+    .EUt(9)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:water>*1000)
+    .inputs(<gregtech:meta_item_1:2154>*6)
+    .fluidOutputs(<liquid:ruby_slurry>*1000)
+    .duration(20)
+    .EUt(9)
+    .buildAndRegister();
+
+centrifuge.recipeBuilder()
+    .fluidInputs(<liquid:ruby_slurry>*1000)
+    .outputs(<gregtech:meta_item_1:2524>,<gtadditions:ga_dust:32216>*2)
+    .duration(120)
+    .EUt(12)
+    .buildAndRegister();
+
+centrifuge.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:32216>)
+    .outputs(<gregtech:meta_item_1:2090>,<gregtech:meta_item_1:2848>)
+    .duration(20)
+    .EUt(8)
+    .buildAndRegister();
+
+lcentrifuge.recipeBuilder()
+    .fluidInputs(<liquid:ruby_slurry>*1000)
+    .outputs(<gregtech:meta_item_1:2524>,<gtadditions:ga_dust:32216>*2)
+    .duration(120)
+    .EUt(12)
+    .buildAndRegister();
+
+lcentrifuge.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:32216>)
+    .outputs(<gregtech:meta_item_1:2090>,<gregtech:meta_item_1:2848>)
+    .duration(20)
+    .EUt(8)
+    .buildAndRegister();

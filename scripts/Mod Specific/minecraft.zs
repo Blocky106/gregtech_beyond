@@ -37,3 +37,5 @@ game.getEntity("sheep").addDrop(<contenttweaker:pancreas>,0,1);
 game.getEntity("chicken").addDrop(<contenttweaker:pancreas>,0,1);
 
 
+recipes.remove(<minecraft:paper>);
+recipes.remove(<minecraft:chest>);

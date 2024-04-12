@@ -3473,3 +3473,5 @@ centrifuge.recipeBuilder()
     .duration(800)
     .EUt(190)
     .buildAndRegister();
+
+electrolyzer.findRecipe(60, [<gregtech:meta_item_1:2154>*6], null).remove();
