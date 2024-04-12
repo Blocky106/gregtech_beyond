@@ -2805,3 +2805,5 @@ lcentrifuge.recipeBuilder()
     .duration(20)
     .EUt(8)
     .buildAndRegister();
+
+recipes.addShaped(<gregtech:machine:1410>, [[<ore:circuitBasic>, <minecraft:bowl>, <ore:circuitBasic>], 	[<gregtech:meta_item_1:32610>, <gregtech:machine:501>, <gregtech:meta_item_1:32610>], 	[<ore:circuitBasic>, <ore:pipeMediumSteel>, <ore:circuitBasic>]]);
