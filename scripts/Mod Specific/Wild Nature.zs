@@ -72,17 +72,3 @@ macerator.recipeBuilder()
     .buildAndRegister();
 
 recipes.addShapeless(<minecraft:stick>,[<wildnature:corn_bush>]);
-
-//Get the male_cow loot table and store it for later use
-val male_cow = LootTweaker.getTable("wildnature/duck_male_loot");
-
-//Get main from the male_cow loot table and store it for later use
-val main = male_cow.getPool("main");
-
-//Remove the entry named "minecraft:mutton" from "main"
-main.removeEntry("minecraft:chicken");
-main.removeEntry("wildnature:duck_male_feather");
-
-main.addItemEntry(<minecraft:leather>, 20, 1,[],[]);
-main.addItemEntry(<minecraft:beef>, 20, 1,[],[]);
-main.addItemEntry(<contenttweaker:pancreas>, 20, 1,[],[]);
