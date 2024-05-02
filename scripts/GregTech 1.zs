@@ -116,7 +116,7 @@ macerator.recipeBuilder()
 	
 chemReactor.recipeBuilder()
 	.inputs(<enderio:item_material:76> * 2)
-	.fluidInputs(<liquid:nutrient_distillation> * 600,<liquid:cloud_seed> * 1300)
+	.fluidInputs(<liquid:nutrient_distillation> * 500,<liquid:cloud_seed> *500)
 	.fluidOutputs(<liquid:lumin> * 1152)
 	.duration(80)
 	.EUt(15)
@@ -214,7 +214,7 @@ chemReactor.recipeBuilder()
 
 macerator.recipeBuilder()
 	.inputs(<enderio:item_alloy_ingot>)
-	.outputs(<gtadditions:ga_dust:32016>)
+	.outputs(<gtadditions:ga_dust:32012>)
 	.duration(80)
 	.EUt(20)
 	.buildAndRegister();
@@ -300,13 +300,22 @@ chemReactor.recipeBuilder()
 	.inputs(<gregtech:meta_item_1:2216> * 3)
 	.fluidInputs(<liquid:sodium_persulfate> * 400,<liquid:chlorine>*1000)
 	.fluidOutputs(<liquid:ic2coolant> * 2000)
-	.duration(480)
-	.EUt(120)
+	.duration(48)
+	.EUt(80)
+	.buildAndRegister();
+
+lcr.recipeBuilder()
+	.inputs(<gregtech:meta_item_1:2216> * 3)
+	.fluidInputs(<liquid:sodium_persulfate> * 400,<liquid:chlorine>*1000)
+	.fluidOutputs(<liquid:ic2coolant> * 2000)
+	.duration(48)
+	.EUt(80)
 	.buildAndRegister();
 
 chemical_bath.recipeBuilder()
 	.inputs(<gregtech:meta_item_1:11127>)
-	.fluidInputs(<liquid:ic2coolant> * 1000)
+	.fluidInputs(<liquid:ic2coolant> * 200)
+	.fluidOutputs(<liquid:hotic2coolant>*200)
 	.outputs(<gregtech:meta_item_1:10127>)
 	.duration(260)
 	.EUt(125)
@@ -411,22 +420,16 @@ mixer.recipeBuilder()
 
 ebf.recipeBuilder()
 	.inputs(<enderio:item_alloy_nugget:2> * 9)
-	.outputs(<contenttweaker:hotvibrantalloyingot>)
+	.outputs(<gregtech:meta_item_1:11550>)
 	.duration(1800)
 	.EUt(120)
 	.property("temperature", 1700)
 	.buildAndRegister();
 
-vacfreezer.recipeBuilder()
-	.inputs(<contenttweaker:hotvibrantalloyingot>)
-	.outputs(<gregtech:meta_item_1:10550>)
-	.duration(600)
-	.EUt(80)
-	.buildAndRegister();
-
 chemical_bath.recipeBuilder()
-	.inputs(<contenttweaker:hotvibrantalloyingot>)
-	.fluidInputs(<liquid:ic2coolant> * 1000)
+	.inputs(<gregtech:meta_item_1:11550>)
+	.fluidInputs(<liquid:ic2coolant> * 200)
+	.fluidOutputs(<liquid:hotic2coolant>*200)
 	.outputs(<gregtech:meta_item_1:10550>)
 	.duration(900)
 	.EUt(100)
@@ -474,21 +477,6 @@ ebf.recipeBuilder()
 	.duration(600)
 	.EUt(1024)
 	.property("temperature", 3600)
-	.buildAndRegister();
-	
-ebf.recipeBuilder()
-	.inputs(<gregtech:meta_item_1:2051>)
-	.outputs(<contenttweaker:hotplatinumingot>)
-	.duration(600)
-	.EUt(1524)
-	.property("temperature", 2100)
-	.buildAndRegister();
-
-vacfreezer.recipeBuilder()
-	.inputs(<contenttweaker:hotplatinumingot>)
-	.outputs(<gregtech:meta_item_1:10051>)
-	.duration(400)
-	.EUt(1300)
 	.buildAndRegister();
 
 assembler.recipeBuilder()
@@ -905,7 +893,7 @@ mixer.recipeBuilder()
 
 mixer.recipeBuilder()
 	.inputs(<gregtech:meta_item_1:2061>, <gregtech:meta_item_1:2184>)
-	.outputs(<gtadditions:ga_dust:32016>)
+	.outputs(<gtadditions:ga_dust:32012>)
 	.duration(80)
 	.EUt(60)
 	.buildAndRegister();
@@ -1050,22 +1038,6 @@ ebf.recipeBuilder()
 	.property("temperature", 3600)
 	.duration(221)
 	.EUt(400)
-	.buildAndRegister();
-
-metal_bender.recipeBuilder()
-	.inputs(<thermalfoundation:material:166>)
-	.outputs(<thermalfoundation:material:358>)
-	.property("circuit", 0)
-	.duration(40)
-	.EUt(200)
-	.buildAndRegister();
-
-metal_bender.recipeBuilder()
-	.inputs(<thermalfoundation:material:165>)
-	.outputs(<thermalfoundation:material:357>)
-	.property("circuit", 0)
-	.duration(40)
-	.EUt(200)
 	.buildAndRegister();
 
 metal_bender.recipeBuilder()
@@ -1504,13 +1476,13 @@ fusion_reactor.recipeBuilder()
 
 mixer.recipeBuilder()
 	.inputs(<gregtech:meta_item_1:2061>*3,<gregtech:meta_item_1:2012>*2,<gregtech:meta_item_1:2033>*3)
-	.outputs(<gtadditions:ga_dust:32016>*8)
+	.outputs(<gtadditions:ga_dust:32012>*8)
 	.EUt(12)
 	.duration(200)
 	.buildAndRegister();
 
 ebf.recipeBuilder()
-	.inputs(<gtadditions:ga_dust:32016>)
+	.inputs(<gtadditions:ga_dust:32012>)
 	.fluidInputs(<liquid:hydrogen>*200)
 	.outputs(<enderio:item_alloy_ingot>)
 	.property("temperature", 900)
@@ -1720,22 +1692,6 @@ chemReactor.recipeBuilder()
 	.EUt(1600)
 	.buildAndRegister();
 
-ebf.recipeBuilder()
-	.inputs(<gregtech:meta_item_1:2522>)
-	.fluidInputs(<liquid:nitrogen>*1000)
-	.outputs(<contenttweaker:hotsoulariumingot>)
-	.property("temperature", 2700)
-	.duration(200)
-	.EUt(400)
-	.buildAndRegister();
-
-vacfreezer.recipeBuilder()
-	.inputs(<contenttweaker:hotsoulariumingot>)
-	.outputs(<gregtech:meta_item_1:10522>)
-	.duration(400)
-	.EUt(1980)
-	.buildAndRegister();
-
 assembler.recipeBuilder()
 	.inputs(<minecraft:stone_button> * 64, <minecraft:stone_button> * 44, <gregtech:meta_item_1:12061> * 6)
 	.outputs(<contenttweaker:keyboard>)
@@ -1748,21 +1704,6 @@ assembler.recipeBuilder()
 	.outputs(<gregtech:machine_casing:9>)
 	.duration(50)
 	.EUt(16)
-	.buildAndRegister();
-
-ebf.recipeBuilder()
-	.inputs(<gregtech:meta_item_1:2521>)
-	.property("temperature", 4500)
-	.outputs(<contenttweaker:hotplatinumtitaniumingot>)
-	.duration(200)
-	.EUt(2500)
-	.buildAndRegister();
-
-vacfreezer.recipeBuilder()
-	.inputs(<contenttweaker:hotplatinumtitaniumingot>)
-	.outputs(<gregtech:meta_item_1:10521>)
-	.duration(200)
-	.EUt(1200)
 	.buildAndRegister();
 
 macerator.recipeBuilder()
@@ -1781,7 +1722,7 @@ assembler.recipeBuilder()
 	.buildAndRegister();
 
 chemReactor.recipeBuilder()
-	.inputs(<minecraft:clay_ball>,<minecraft:snow>)
+	.inputs(<minecraft:clay_ball>,<minecraft:snowball>)
 	.fluidInputs(<liquid:water>*1000)
 	.fluidOutputs(<liquid:cloud_seed>*1000)
 	.duration(400)
@@ -1796,10 +1737,12 @@ chemReactor.recipeBuilder()
 	.EUt(6)
 	.buildAndRegister();
 
+ebf.findRecipe(120,[<gregtech:meta_item_1:2528>], null).remove();
+
 ebf.recipeBuilder()
 	.inputs(<gtadditions:ga_dust:32151>)
 	.fluidInputs(<liquid:metastable_oganesson>*2000)
-	.outputs(<contenttweaker:hotatomicseperationcatalyst>)
+	.outputs(<gregtech:meta_item_1:11528>)
 	.property("temperature", 8000)
 	.duration(200)
 	.EUt(80000)
@@ -1924,37 +1867,6 @@ ebf.recipeBuilder()
 	.duration(300)
 	.property("temperature", 1627)
 	.EUt(1200)
-	.buildAndRegister();
-
-ebf.recipeBuilder()
-	.inputs(<gregtech:meta_item_1:2530>)
-	.fluidInputs(<liquid:cerium>*144)
-	.outputs(<contenttweaker:hotmarcem200steelingot>)
-	.duration(400)
-	.EUt(12000)
-	.property("temperature", 5000)
-	.buildAndRegister();
-
-vacfreezer.recipeBuilder()
-	.inputs(<contenttweaker:hotmarcem200steelingot>)
-	.outputs(<gregtech:meta_item_1:10530>)
-	.duration(800)
-	.EUt(2000)
-	.buildAndRegister();
-
-ebf.recipeBuilder()
-	.inputs(<gregtech:meta_item_1:2531>)
-	.outputs(<contenttweaker:hothikariumingot>)
-	.duration(400)
-	.EUt(12000)
-	.property("temperature", 5000)
-	.buildAndRegister();
-
-vacfreezer.recipeBuilder()
-	.inputs(<contenttweaker:hothikariumingot>)
-	.outputs(<gregtech:meta_item_1:10531>)
-	.duration(800)
-	.EUt(2000)
 	.buildAndRegister();
 
 mixer.recipeBuilder()
@@ -2325,13 +2237,6 @@ lcr.recipeBuilder()
 	.EUt(12000)
 	.buildAndRegister();
 
-vacfreezer.recipeBuilder()
-	.inputs(<contenttweaker:hotatomicseperationcatalyst>)
-	.outputs(<gregtech:meta_item_1:10528>)
-	.duration(490)
-	.EUt(40000)
-	.buildAndRegister();
-
 centrifuge.recipeBuilder()
 	.inputs(<gregtech:meta_item_1:2537>)
 	.outputs(<gregtech:meta_item_1:2902>,<gregtech:meta_item_1:902>*2)
@@ -2547,21 +2452,6 @@ mixer.recipeBuilder()
 	.EUt(5000)
 	.buildAndRegister();
 
-ebf.recipeBuilder()
-	.inputs(<gregtech:meta_item_1:2529>)
-	.outputs(<contenttweaker:hotadamantiumalloyingot>)
-	.property("temperature", 7000)
-	.duration(400)
-	.EUt(12000)
-	.buildAndRegister();
-
-vacfreezer.recipeBuilder()
-	.inputs(<contenttweaker:hotadamantiumalloyingot>)
-	.outputs(<gregtech:meta_item_1:10529>)
-	.duration(800)
-	.EUt(12)
-	.buildAndRegister();
-
 stellar.recipeBuilder()
 	.inputs(<contenttweaker:highdensityplutonium>,<gtadditions:ga_explosive:2>)
 	.fluidInputs([<liquid:uumatter>*288])
@@ -2579,41 +2469,11 @@ distillery.recipeBuilder()
 	.EUt(8120)
 	.buildAndRegister();
 
-ebf.recipeBuilder()
-	.inputs(<gregtech:meta_item_1:2544>)
-	.outputs(<contenttweaker:hotblackplutoniumingot>)
-	.property("temperature", 9000)
-	.duration(400)
-	.EUt(1200)
-	.buildAndRegister();
-
 lmixer.recipeBuilder()
 	.inputs(<gregtech:meta_item_1:2545>*2,<gregtech:meta_item_1:2228>,<gregtech:meta_item_1:2546>*3,<gregtech:meta_item_1:2180>,<gregtech:meta_item_1:2232>*2,<gregtech:meta_item_1:2233>*4,<gtadditions:ga_dust:32013>*2,<gtadditions:ga_dust:32014>,<gregtech:meta_item_1:2308>)
 	.outputs(<gregtech:meta_item_1:2533>*17)
 	.duration(200)
 	.EUt(24000)
-	.buildAndRegister();
-
-ebf.recipeBuilder()
-	.inputs(<gregtech:meta_item_1:2533>)
-	.outputs(<contenttweaker:hotfluxedelectrumingot>)
-	.property("temperature", 9000)
-	.duration(400)
-	.EUt(22200)
-	.buildAndRegister();
-
-vacfreezer.recipeBuilder()
-	.inputs(<contenttweaker:hotfluxedelectrumingot>)
-	.outputs(<gregtech:meta_item_1:10533>)
-	.duration(20)
-	.EUt(4096)
-	.buildAndRegister();
-
-vacfreezer.recipeBuilder()
-	.inputs(<contenttweaker:hotblackplutoniumingot>)
-	.outputs(<gregtech:meta_item_1:10544>)
-	.duration(20)
-	.EUt(4096)
 	.buildAndRegister();
 
 assembly_line.recipeBuilder()
@@ -2777,117 +2637,6 @@ assembler.recipeBuilder()
 	.outputs(<contenttweaker:drill_handle>)
 	.duration(150)
 	.EUt(8000)
-	.buildAndRegister();
-
-lcr.recipeBuilder()
-	.inputs(<gtadditions:ga_dust:32022>)
-	.fluidInputs(<liquid:nitric_oxide>*200)
-	.outputs(<gtadditions:ga_dust:32027>)
-	.duration(200)
-	.EUt(4000)
-	.buildAndRegister();
-
-lcr.recipeBuilder()
-	.inputs(<gtadditions:ga_dust:32028>)
-	.notConsumable(<contenttweaker:osmiumsieve>)
-	.outputs(<gtadditions:ga_dust:32029>)
-	.EUt(29000)
-	.duration(233)
-	.buildAndRegister();
-
-lcr.recipeBuilder()
-	.inputs(<gtadditions:ga_dust:32027>)
-	.outputs(<gtadditions:ga_dust:32028>)
-	.fluidInputs(<liquid:liquid_oxygen>*2000)
-	.EUt(12000)
-	.duration(200)
-	.buildAndRegister();
-
-lcr.recipeBuilder()
-	.inputs(<gtadditions:ga_dust:32029>)
-	.fluidInputs(<liquid:nitric_acid>*1000)
-	.fluidOutputs(<liquid:monazitefilteredsolution>*144,<liquid:nitrogen_dioxide>*750,<liquid:hydrogen>*250)
-	.duration(200)
-	.EUt(12345)
-	.buildAndRegister();
-
-electrolyzer.recipeBuilder()
-	.fluidInputs(<liquid:monazitefilteredsolution>*2000)
-	.outputs(<gregtech:meta_item_1:42>*3,<gregtech:meta_item_1:5281>)
-	.EUt(12000)
-	.duration(300)
-	.buildAndRegister();
-
-bio.recipeBuilder()
-	.inputs(<gtadditions:ga_meta_item:32475>)
-	.outputs(<gtadditions:ga_dust:32026>)
-	.fluidInputs(<liquid:fermented_biomass>*1000,<liquid:monazitefilteredsolution>*1000)
-	.duration(120)
-	.EUt(24009)
-	.buildAndRegister();
-
-ebf.recipeBuilder()
-	.inputs(<gtadditions:ga_dust:32026>,<gtadditions:ga_dust:141>)
-	.outputs(<gregtech:meta_item_1:2525>)
-	.fluidOutputs(<liquid:monazitefilteredcakesolution>*2000)
-	.property("temperature", 3600)
-	.duration(300)
-	.EUt(31000)
-	.buildAndRegister();
-
-vacfreezer.recipeBuilder()
-	.fluidInputs(<liquid:monazitefilteredcakesolution>*1500)
-	.fluidOutputs(<liquid:monazitecakesolution>*1000)
-	.duration(400)
-	.EUt(12999)
-	.buildAndRegister();
-
-lcr.recipeBuilder()
-	.fluidInputs(<liquid:monazitecakesolution>*200)
-	.outputs(<gtadditions:ga_dust:32031>)
-	.inputs(<gregtech:meta_item_2:16307>)
-	.duration(500)
-	.EUt(19000)
-	.buildAndRegister();
-
-centrifuge.recipeBuilder()
-	.inputs(<gtadditions:ga_dust:32030>*3)
-	.outputs(<gregtech:meta_item_1:2075>*2,<gregtech:meta_item_1:2069>)
-	.duration(200)
-	.EUt(1900)
-	.buildAndRegister();
-
-ebf.recipeBuilder()
-	.inputs(<gtadditions:ga_dust:32026>)
-	.outputs(<gtadditions:ga_dust:32024>)
-	.fluidInputs(<liquid:nitrogen>*1000)
-	.duration(500)
-	.EUt(12000)
-	.property("temperature", 2800)
-	.buildAndRegister();
-
-ebf.recipeBuilder()
-	.inputs(<gtadditions:ga_dust:32031>,<gregtech:meta_item_1:1555>*2)
-	.outputs(<gtadditions:ga_dust:32033>)
-	.property("temperature", 4000)
-	.EUt(9000)
-	.duration(400)
-	.buildAndRegister();
-
-lcr.recipeBuilder()
-	.inputs(<gtadditions:ga_dust:32033>,<gregtech:meta_item_1:2012>*2)
-	.outputs(<gtadditions:ga_dust:32036>,<gregtech:meta_item_1:307>)
-	.fluidInputs(<liquid:oxygen>*1000)
-	.duration(300)
-	.EUt(1200)
-	.buildAndRegister();
-
-lcr.recipeBuilder()
-	.inputs(<gtadditions:ga_dust:32036>)
-	.fluidInputs(<liquid:sulfuric_acid>*400)
-	.outputs(<gregtech:meta_item_1:2743>)
-	.duration(400)
-	.EUt(2400)
 	.buildAndRegister();
 
 macerator.recipeBuilder()
@@ -3064,13 +2813,37 @@ ebf.findRecipe(120,[<gregtech:meta_item_1:2310>],null).remove();
 ebf.recipeBuilder()
 	.inputs(<gregtech:meta_item_1:2310>)
 	.outputs(<gregtech:meta_item_1:11310>)
+	.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 0}))
 	.property("temperature", 9000)
 	.duration(800)
 	.EUt(32000)
 	.buildAndRegister();
 
+ebf.recipeBuilder()
+	.inputs(<gregtech:meta_item_1:2061>)
+	.outputs(<contenttweaker:hot_silicon_ingot>)
+	.property("temperature", 1687)
+	.duration(200)
+	.EUt(80)
+	.buildAndRegister();
 
+chemical_bath.recipeBuilder()
+	.fluidInputs(<liquid:ic2coolant>*200)
+	.inputs(<contenttweaker:hot_silicon_ingot>)
+	.outputs(<gregtech:meta_item_1:10061>)
+	.fluidOutputs(<liquid:hotic2coolant>*200)
+	.duration(200)
+	.EUt(7)
+	.buildAndRegister();
 
+vacfreezer.recipeBuilder()
+	.fluidInputs(<liquid:hotic2coolant>*1000)
+	.fluidOutputs(<liquid:ic2coolant>*1000)
+	.duration(200)
+	.EUt(120)
+	.buildAndRegister();
+
+ebf.findRecipe(120, [<gregtech:meta_item_1:2016>,<gregtech:meta_item_1:32766>.withTag({Configuration: 0})],null).remove();
 ebf.findRecipe(480, [<gtadditions:ga_dust:19>*10,<gregtech:meta_item_1:2012>*3], null).remove();
 assembler.findRecipe(20,[<gregtech:meta_item_1:19018>*4,<gregtech:meta_item_1:12196>],[<liquid:glue>*72]).remove();
 assembly_line.findRecipe(30000, [<gregtech:meta_item_2:32479>*32,<gregtech:cable:966>*32,<gregtech:meta_item_1:12002>*4,<gregtech:meta_item_1:12331>*4,<gregtech:wire_coil:8>,<gregtech:meta_item_1:32674>*2,<gtadditions:ga_meta_item:32214>,<gtadditions:ga_meta_item:32214>,<gtadditions:ga_meta_item:32214>,<gtadditions:ga_meta_item:32214>],[<liquid:soldering_alloy>*2880]).remove();

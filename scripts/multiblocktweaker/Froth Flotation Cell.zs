@@ -115,7 +115,7 @@ val froth_flotation_cell = Builder.start(loc, meta)
 .withRecipeMap(
         FactoryRecipeMap.start(loc)
                         .maxInputs(4)
-                        .maxFluidInputs(3)
+                        .maxFluidInputs(4)
                         .maxFluidOutputs(2)
                         .maxOutputs(6)
                         .build())
@@ -425,4 +425,13 @@ froth_flotation_cell.recipeMap.recipeBuilder()
     .fluidOutputs(<liquid:muddy_andesite_slurry>*1000)
     .duration(500)
     .EUt(2000)
+    .buildAndRegister();
+
+froth_flotation_cell.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:impure_monazite_ore_byproduct_slurry>*1000,<liquid:froth_flotation_fluid>*1000)
+    .notConsumable(<liquid:methyl_isobutyl_carbonyl>)
+    .notConsumable(<liquid:1_amidol_ethyl_2_alkyl_2_imidazoline>)
+    .fluidOutputs(<liquid:monazite_ore_byproduct_slurry>*1000,<liquid:used_froth_flotation_fluid>*1000)
+    .duration(800)
+    .EUt(70)
     .buildAndRegister();

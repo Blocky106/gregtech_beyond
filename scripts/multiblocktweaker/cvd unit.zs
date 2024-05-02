@@ -144,21 +144,21 @@ cvd_unit.recipeMap.recipeBuilder()
     .inputs(<contenttweaker:engraved_power_ic_wafer>,i,I)
     .outputs(<contenttweaker:raw_power_ic_wafer>)
     .duration(800)
-    .EUt(1800)
+    .EUt(200)
     .buildAndRegister();
 
 cvd_unit.recipeMap.recipeBuilder()
     .inputs(<contenttweaker:engraved_ram_wafer>,i,I)
     .outputs(<contenttweaker:raw_ram_wafer>)
     .duration(800)
-    .EUt(1800)
+    .EUt(50)
     .buildAndRegister();
 
 cvd_unit.recipeMap.recipeBuilder()
     .inputs(<contenttweaker:engraved_cpu_wafer>,i,I)
     .outputs(<contenttweaker:raw_cpu_wafer>)
     .duration(800)
-    .EUt(1800)
+    .EUt(200)
     .buildAndRegister();
 
 cvd_unit.recipeMap.recipeBuilder()
@@ -166,12 +166,19 @@ cvd_unit.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:very_hot_nitrogen>*1000)
     .outputs(<gregtech:meta_item_2:32463>)
     .duration(800)
-    .EUt(1800)
+    .EUt(200)
     .buildAndRegister();
 
 cvd_unit.recipeMap.recipeBuilder()
     .inputs(<contenttweaker:silicon_dioxide_wafer>,i)
     .outputs(<contenttweaker:n_doped_silicon_dioxide_wafer>)
+    .duration(800)
+    .EUt(120)
+    .buildAndRegister();
+
+cvd_unit.recipeMap.recipeBuilder()
+    .inputs(<contenttweaker:engraved_asoc_wafer>,i,I)
+    .outputs(<contenttweaker:raw_asoc_wafer>)
     .duration(800)
     .EUt(1800)
     .buildAndRegister();

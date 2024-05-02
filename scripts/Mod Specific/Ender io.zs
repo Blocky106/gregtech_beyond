@@ -1,3 +1,5 @@
+
+
 import mods.enderio.AlloySmelter;
 import mods.gregtech.recipe.PBFRecipeBuilder;
 import crafttweaker.item.IItemStack;
@@ -53,7 +55,7 @@ recipes.addShapeless(<enderio:item_alloy_nugget:9> * 9, [<enderio:item_alloy_ing
 recipes.addShapeless(<enderio:item_alloy_ingot:9> * 9, [<enderio:block_alloy:9>]);
 recipes.addShaped(<enderio:block_exit_rail>, [	[null, <ore:dustRegularRedstone>, null], 	[null, <ore:rail>, null], 	[null, <ore:craftingPiston>, null]]);
 recipes.addShaped(<enderio:block_dark_steel_ladder>*7, [	[<ore:ingotDarkSteel>, null, <ore:ingotDarkSteel>], 	[<ore:ingotDarkSteel>, <ore:ingotDarkSteel>, <ore:ingotDarkSteel>], 	[<ore:ingotDarkSteel>, null, <ore:ingotDarkSteel>]]);
-recipes.addShapeless(<gtadditions:ga_dust:32016>*3, [<ore:dustSilicon>, <ore:dustRegularIron>, <ore:dustRegularIron>,<ore:dustCoal>]);
+recipes.addShapeless(<gtadditions:ga_dust:32012>*3, [<ore:dustSilicon>, <ore:dustRegularIron>, <ore:dustRegularIron>,<ore:dustCoal>]);
 recipes.addShapeless(<enderio:item_redstone_nor_filter>, [<minecraft:redstone_torch>, <enderio:item_redstone_or_filter>]);
 recipes.addShapeless(<enderio:item_redstone_nand_filter>, [<minecraft:redstone_torch>, <enderio:item_redstone_and_filter>]);
 recipes.addShapeless(<enderio:item_redstone_xnor_filter>, [<minecraft:redstone_torch>, <enderio:item_redstone_xor_filter>]);

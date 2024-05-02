@@ -20,10 +20,11 @@ customization {
 
 customization {
   identifier = %id=345280%
-  orientation = top-right
-  x = -515
+  orientation = element
+  orientation_element = vanillabtn:345208
+  x = 0
   action = movebutton
-  y = 204
+  y = 73
 }
 
 customization {
@@ -58,7 +59,7 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = resources/custommainmenu/textures/gui/multiplayer.png
+  backgroundhovered = resources/custommainmenu/textures/gui/menu_text_box_selected.png
   backgroundnormal = resources/custommainmenu/textures/gui/menu_box.png
 }
 

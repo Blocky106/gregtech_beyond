@@ -322,32 +322,34 @@ customization {
 }
 
 customization {
-  orientation = top-left
+  orientation = element
   restartbackgroundanimations = true
   buttonaction = openfile;config/fancymenu/changelog.txt%btnaction_splitter_fm%
   backgroundhovered = resources/custommainmenu/textures/gui/menu_text_box_selected.png
   label = Open Folder
   loopbackgroundanimations = true
-  x = 352
+  orientation_element = 23002a47-0b18-4551-87ac-9715c2aae46c1711682462652
+  x = 0
   width = 65
   action = addbutton
   actionid = 1af4aeab-d8d8-4400-a1b5-cbb5f8fef25f1711682120851
-  y = 296
+  y = -26
   backgroundnormal = resources/custommainmenu/textures/gui/menu_box.png
   height = 24
 }
 
 customization {
-  orientation = top-left
-  loopbackgroundanimations = true
+  orientation = element
   restartbackgroundanimations = true
-  x = 352
+  backgroundhovered = resources/custommainmenu/textures/gui/menu_text_box_selected.png
+  label = Refresh
+  loopbackgroundanimations = true
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button
+  x = 17
   width = 65
   action = addbutton
   actionid = 23002a47-0b18-4551-87ac-9715c2aae46c1711682462652
-  y = 322
-  backgroundhovered = resources/custommainmenu/textures/gui/menu_text_box_selected.png
-  label = Refresh
+  y = 147
   backgroundnormal = resources/custommainmenu/textures/gui/menu_box.png
   height = 24
 }

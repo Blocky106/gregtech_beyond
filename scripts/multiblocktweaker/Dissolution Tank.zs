@@ -202,6 +202,7 @@ dissolution_tank.recipeMap.recipeBuilder()
 
 dissolution_tank.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:muddy_monazite_solution>*1000,<liquid:water>*1000)
+    .outputs(<gtadditions:ga_dust:32212>)
     .fluidOutputs(<liquid:monazite_solution>*2000)
     .duration(400)
     .EUt(2180)
@@ -220,12 +221,4 @@ dissolution_tank.recipeMap.recipeBuilder()
     .outputs(<gregtech:meta_item_1:2063>,<gtadditions:ga_dust:8>*2,<gregtech:meta_item_1:2906>*2,<gtadditions:ga_dust:22>*2)
     .duration(299)
     .EUt(80)
-    .buildAndRegister();
-
-dissolution_tank.recipeMap.recipeBuilder()
-    .inputs(<gregtech:meta_item_1:2281>)
-    .fluidInputs(<liquid:water>*2000)
-    .outputs(<gtadditions:ga_dust:32022>)
-    .duration(200)
-    .EUt(120)
     .buildAndRegister();

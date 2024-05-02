@@ -22,9 +22,9 @@
   "Dictionary Types": [
     "RARE",
     "OCEAN",
-    "MOUNTAIN",
     "WATER",
-    "HILLS"
+    "HILLS",
+    "MOUNTAIN"
   ],
   "BiomeManager Entries": {
     "COOL Weights": [

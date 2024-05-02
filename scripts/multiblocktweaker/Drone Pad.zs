@@ -28,11 +28,11 @@ var meta = 10062;
 val drone_pad = Builder.start(loc, meta)
     .withPattern(
             FactoryBlockPattern.start(RelativeDirection.RIGHT, RelativeDirection.BACK, RelativeDirection.UP)
-                .aisle("~CSC~")
-                .aisle("CFFFC")
-                .aisle("CFFFC")
-                .aisle("CFFFC")
                 .aisle("~CCC~")
+                .aisle("CFFFC")
+                .aisle("CFFFC")
+                .aisle("CFFFC")
+                .aisle("~CSC~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
                 .whereOr("C", 

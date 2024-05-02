@@ -521,11 +521,34 @@ Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:11127>], [], false);
 
 ebf.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2127>)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 0}))
     .outputs(<gregtech:meta_item_1:11127>)
-    .EUt(300)
-    .duration(80)
+    .EUt(100)
+    .duration(280)
     .property("temperature", 1800)
     .buildAndRegister();
+
+ebf.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2127>)
+    .fluidInputs(<liquid:oxygen>*1000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .outputs(<gregtech:meta_item_1:11127>)
+    .EUt(100)
+    .duration(160)
+    .property("temperature", 1800)
+    .buildAndRegister();
+
+
+ebf.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2127>)
+    .fluidInputs(<liquid:nitrogen>*1000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .outputs(<gregtech:meta_item_1:11127>)
+    .EUt(100)
+    .duration(110)
+    .property("temperature", 1800)
+    .buildAndRegister();
+
 
 
 electrolyzer.findRecipe(1920,[<gregtech:meta_item_1:2615>*12],null).remove();
@@ -1485,17 +1508,17 @@ distillation_tower.recipeBuilder()
     .buildAndRegister();
 
 chemReactor.recipeBuilder()
-    .inputs(<contenttweaker:pikopic>,<contenttweaker:treated_photocoated_hassium_wafer>)
+    .inputs(<contenttweaker:pikopicw>,<contenttweaker:treated_photocoated_hassium_wafer>)
     .fluidInputs(<liquid:vibrantalloy>*14400)
-    .outputs(<contenttweaker:femtopic>)
+    .outputs(<contenttweaker:femtopicw>)
     .duration(2000)
     .EUt(12000000)
     .buildAndRegister();
 
 lcr.recipeBuilder()
-    .inputs(<contenttweaker:pikopic>,<contenttweaker:treated_photocoated_hassium_wafer>)
+    .inputs(<contenttweaker:pikopicw>,<contenttweaker:treated_photocoated_hassium_wafer>)
     .fluidInputs(<liquid:vibrantalloy>*14400)
-    .outputs(<contenttweaker:femtopic>)
+    .outputs(<contenttweaker:femtopicw>)
     .duration(2000)
     .EUt(12000000)
     .buildAndRegister();
@@ -2346,7 +2369,7 @@ induction_smelter.recipeBuilder()
     .buildAndRegister();
 
 induction_smelter.recipeBuilder()
-    .inputs(<gtadditions:ga_dust:32016>,<gregtech:meta_item_1:2071>* 2)
+    .inputs(<gtadditions:ga_dust:32012>,<gregtech:meta_item_1:2071>* 2)
     .outputs(<enderio:item_alloy_ingot>)
     .duration(10)
     .EUt(1)
@@ -2439,7 +2462,7 @@ componentassembler.recipeBuilder()
 	.buildAndRegister();
 
 beam_shrinking_device.recipeBuilder()
-    .inputs(<contenttweaker:femtopic>)
+    .inputs(<contenttweaker:femtopicw>)
     .outputs(<contenttweaker:xontopic>)
     .duration(200)
     .EUt(50000)
@@ -2753,6 +2776,7 @@ assembler.recipeBuilder()
 ebf.recipeBuilder()
     .inputs(<gregtech:meta_item_1:697>)
     .outputs(<contenttweaker:barium_titanate_seed_crystal>)
+    .property("temperature", 2700)
     .duration(20)
     .EUt(80)
     .buildAndRegister();
@@ -2760,6 +2784,7 @@ ebf.recipeBuilder()
 ebf.recipeBuilder()
     .inputs(<contenttweaker:barium_titanate_seed_crystal>,<gregtech:meta_item_1:10697>*4)
     .fluidInputs(<liquid:xenon>*1000)
+    .property("temperature", 2700)
     .outputs(<contenttweaker:barium_titanate_boule>)
     .duration(1000)
     .EUt(720)
@@ -3382,3 +3407,71 @@ metal_bender.recipeBuilder()
     .duration(120)
     .EUt(70)
     .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:ether>*1000,<liquid:ethylene>*6000,<liquid:triethylaluminium>*1000)
+    .fluidOutputs(<liquid:ziegler_alfol_mixture>*1000)
+    .outputs(<gtadditions:ga_dust:105>*7)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:ether>*1000,<liquid:ethylene>*6000,<liquid:triethylaluminium>*1000)
+    .fluidOutputs(<liquid:ziegler_alfol_mixture>*1000)
+    .outputs(<gtadditions:ga_dust:105>*7)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
+
+distillation_tower.recipeBuilder()
+    .fluidInputs(<liquid:ziegler_alfol_mixture>*1000)
+    .fluidOutputs(<liquid:nbutanol>*200,<liquid:ethanol>*300,<liquid:n-decanol>*100,<liquid:octanol>*100,<liquid:hexanol>*150,<liquid:n-tetradecanol>*45,<liquid:n-dodecanol>*60,<liquid:n-hexadecanol>*30)
+    .duration(80)
+    .EUt(70)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:acetone>*500,<liquid:octanol>*1500)
+    .fluidOutputs(<liquid:caprylic_acid>*1500)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:acetone>*500,<liquid:octanol>*1500)
+    .fluidOutputs(<liquid:caprylic_acid>*1500)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:n-hexadecanol>*3000,<liquid:distilled_water>*15000,<liquid:acetone>*1000)
+    .fluidOutputs(<liquid:palmatic_acid>*3000)
+    .duration(300)
+    .EUt(40)
+    .buildAndRegister();
+
+roasters.recipeBuilder()
+    .fluidInputs(<liquid:palmatic_acid>*1000,<liquid:ethylene>*1000)
+    .fluidOutputs(<liquid:1_amidol_ethyl_2_alkyl_2_imidazoline>*1000,<liquid:steam>*1000)
+    .duration(200)
+    .EUt(300)
+    .buildAndRegister();
+
+roasters.recipeBuilder()
+    .fluidInputs(<liquid:caprylic_acid>*1000,<liquid:ethylene>*1000)
+    .fluidOutputs(<liquid:1_amidol_ethyl_2_alkyl_2_imidazoline>*1000,<liquid:steam>*1000)
+    .duration(200)
+    .EUt(300)
+    .buildAndRegister();
+
+centrifuge.recipeBuilder()
+    .fluidInputs(<liquid:diluted_neodymium_rich_monazite_solution>*4000)
+    .fluidOutputs(<liquid:wastewater>*3000,<liquid:neodymium_pre_extract_emulsion>*1000)
+    .outputs(<gtadditions:ga_dust:32065>)
+    .duration(800)
+    .EUt(190)
+    .buildAndRegister();
+
+electrolyzer.findRecipe(60, [<gregtech:meta_item_1:2154>*6], null).remove();

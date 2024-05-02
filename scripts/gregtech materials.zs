@@ -15,162 +15,162 @@ import mods.gregtech.material.MaterialIconSet;
 
 
 
-val energeticalloy = MaterialRegistry.createIngotMaterial(515, "energeticalloy", 0xDB9D0D, "SHINY",  10, null, 30.0f, 6, 1280, 3000);
+val energeticalloy = MaterialRegistry.createIngotMaterial(515, "energeticalloy", 0xDB9D0D, "SHINY",  10, null, 30.0f, 2, 1280, 3000);
 energeticalloy.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_ROTOR"]);
 
-val draconium = MaterialRegistry.createIngotMaterial(517, "draconium", 0x8F07AD, "SHINY",  10, null, 30.0f, 6, 1280,8000);
+val draconium = MaterialRegistry.createIngotMaterial(517, "draconium", 0x8F07AD, "SHINY",  10, null, 30.0f, 2, 1280,8000);
 draconium.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_FRAME","GENERATE_PLASMA","GENERATE_FLUID_BLOCK"]);
 
-val ardite = MaterialRegistry.createIngotMaterial(518, "ardite", 0xab661b, "SHINY",  10, null, 30.0f, 6, 1280,2700);
+val ardite = MaterialRegistry.createIngotMaterial(518, "ardite", 0xab661b, "SHINY",  10, null, 30.0f, 2, 1280,2700);
 ardite.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_FRAME","GENERATE_FLUID_BLOCK","GENERATE_ORE"]);
 
-val nobelium = MaterialRegistry.createIngotMaterial(519, "nobelium", 0x7022BA, "SHINY",  10, null, 30.0f, 6, 1280,4300);
+val nobelium = MaterialRegistry.createIngotMaterial(519, "nobelium", 0x7022BA, "SHINY",  10, null, 30.0f, 2, 1280,4300);
 nobelium.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_FLUID_BLOCK"]);
 
-val lawrencium = MaterialRegistry.createIngotMaterial(520, "lawrencium", 0x78516C, "SHINY",  10, null, 30.0f, 6, 1280,1200);
+val lawrencium = MaterialRegistry.createIngotMaterial(520, "lawrencium", 0x78516C, "SHINY",  10, null, 30.0f, 2, 1280,1200);
 lawrencium.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_FLUID_BLOCK"]);
 
-val einsteinium2 = MaterialRegistry.createIngotMaterial(516, "einsteinium2", 0xC2B71D, "SHINY",  10, null, 30.0f, 6, 1280,800);
+val einsteinium2 = MaterialRegistry.createIngotMaterial(512, "einsteinium2", 0xC2B71D, "SHINY",  10, null, 30.0f, 2, 1280,800);
 einsteinium2.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_FLUID_BLOCK"]);
 einsteinium2.setCableProperties(8192, 4, 0);
 
-val titaniumplatinum = MaterialRegistry.createIngotMaterial(521, "titaniumplatinum", 0xBC5EF2, "SHINY",  10, null, 30.0f, 6, 1280,3400);
+val titaniumplatinum = MaterialRegistry.createIngotMaterial(521, "titaniumplatinum", 0xBC5EF2, "SHINY",  10, null, 30.0f, 2, 1280,3400);
 titaniumplatinum.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_FLUID_BLOCK"]);
 titaniumplatinum.setCableProperties(32768, 4, 1);
 
-val soularium = MaterialRegistry.createIngotMaterial(522, "soularium", 0x302003, "SHINY",  10, null, 30.0f, 6, 1280,1965);
+val soularium = MaterialRegistry.createIngotMaterial(522, "soularium", 0x302003, "SHINY",  10, null, 30.0f, 2, 1280,1965);
 soularium.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_FLUID_BLOCK"]);
 
-val ultimate = MaterialRegistry.createIngotMaterial(523, "ultimate", 0xE01040, "SHINY",  10, null, 30.0f, 6, 1280,9999);
+val ultimate = MaterialRegistry.createIngotMaterial(523, "ultimate", 0xE01040, "SHINY",  10, null, 30.0f, 2, 1280,9999);
 ultimate.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_FLUID_BLOCK","GENERATE_FRAME"]);
 
-val alumina = MaterialRegistry.createIngotMaterial(524, "alumina", 0xB3B3B3, "DULL",  2, null, 30.0f, 6, 1280, 120);
+val alumina = MaterialRegistry.createIngotMaterial(524, "alumina", 0xB3B3B3, "DULL",  2, null, 30.0f, 2, 1280, 120);
 alumina.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_FLUID_BLOCK","GENERATE_ORE"]);
 
-val aluminiumsalt = MaterialRegistry.createDustMaterial(525, "aluminiumsalt", 0xB3B3C7, "DULL",  2, null, 30.0f, 6, 1280,900);
+val aluminiumsalt = MaterialRegistry.createDustMaterial(525, "aluminiumsalt", 0xB3B3C7, "DULL", 2);
 aluminiumsalt.addFlags(["GENERATE_ORE"]);
 
-val manyullyn = MaterialRegistry.createIngotMaterial(527, "manyullyn", 0x590580, "SHINY",  10, null, 30.0f, 6, 1280,1900);
+val manyullyn = MaterialRegistry.createIngotMaterial(527, "manyullyn", 0x590580, "SHINY",  10, null, 30.0f, 2, 1280, 1900);
 manyullyn.addFlags(["GENERATE_PLATE","GENERATE_ROD","SMELT_INTO_FLUID","GENERATE_GEAR","GENERATE_DENSE","GENERATE_FINE_WIRE"]);
 
-val atomicseperationcatalyst = MaterialRegistry.createIngotMaterial(528, "atomicseperationcatalyst", 0xD4720B, "SHINY",  10, null, 30.0f, 6, 1280,1560);
+val atomicseperationcatalyst = MaterialRegistry.createIngotMaterial(528, "atomicseperationcatalyst", 0xD4720B, "SHINY",  10, null, 30.0f, 2, 1280, 4560);
 atomicseperationcatalyst.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_DENSE"]);
 
-val adamantiumalloy = MaterialRegistry.createIngotMaterial(529, "adamantiumalloy", 0x595959, "SHINY",  10, null, 30.0f, 6, 1280,5400);
+val adamantiumalloy = MaterialRegistry.createIngotMaterial(529, "adamantiumalloy", 0x595959, "SHINY",  10, null, 30.0f, 2, 1280, 5400);
 adamantiumalloy.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_DENSE"]);
 
-val marcem200steel = MaterialRegistry.createIngotMaterial(530, "marcem200steel", 0x292929, "DULL",  2, null, 30.0f, 6, 1280,2400);
+val marcem200steel = MaterialRegistry.createIngotMaterial(530, "marcem200steel", 0x292929, "DULL",  2, null, 30.0f, 2, 1280, 2400);
 marcem200steel.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_DENSE","GENERATE_LONG_ROD"]);
 
-val hikarium = MaterialRegistry.createIngotMaterial(531, "hikarium", 0xFA8EEC, "SHINY",  10, null, 30.0f, 6, 1280,1900);
+val hikarium = MaterialRegistry.createIngotMaterial(531, "hikarium", 0xFA8EEC, "SHINY",  10, null, 30.0f, 2, 1280,1900);
 hikarium.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_DENSE"]);
 
-val lumium = MaterialRegistry.createIngotMaterial(532, "lumium", 0xD3F20A, "SHINY",  10, null, 30.0f, 6, 1280,1220);
+val lumium = MaterialRegistry.createIngotMaterial(532, "lumium", 0xD3F20A, "SHINY",  10, null, 30.0f, 2, 1280,1220);
 lumium.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_DENSE","GENERATE_BOLT_SCREW"]);
 lumium.setCableProperties(32768, 4, 1);
 
-val fluxedelectrum = MaterialRegistry.createIngotMaterial(533, "fluxedelectrum", 0xE8D635, "SHINY",  10, null, 30.0f, 6, 1280,7000);
+val fluxedelectrum = MaterialRegistry.createIngotMaterial(533, "fluxedelectrum", 0xE8D635, "SHINY",  10, null, 30.0f, 2, 1280,7000);
 fluxedelectrum.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_DENSE"]);
 
-val naquadriatictritanium = MaterialRegistry.createIngotMaterial(534, "naquadriatictritanium", 0x666666, "SHINY",  10, null, 30.0f, 6, 1280,6000);
+val naquadriatictritanium = MaterialRegistry.createIngotMaterial(534, "naquadriatictritanium", 0x666662, "SHINY",  10, null, 30.0f, 2, 1280,6000);
 naquadriatictritanium.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_DENSE","GENERATE_FLUID_BLOCK"]);
 
-val sunnarium = MaterialRegistry.createIngotMaterial(535, "sunnarium", 0xFFEA00, "SHINY",  10, null, 30.0f, 6, 1280,3700);
+val sunnarium = MaterialRegistry.createIngotMaterial(535, "sunnarium", 0xFFEA00, "SHINY",  10, null, 30.0f, 2, 1280,3700);
 sunnarium.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_DENSE","GENERATE_FLUID_BLOCK"]);
 
-val diamandine = MaterialRegistry.createIngotMaterial(536, "diamandine", 0xBAD453, "SHINY",  10, null, 30.0f, 6, 1280,3300);
+val diamandine = MaterialRegistry.createIngotMaterial(566, "diamandine", 0xBAD453, "SHINY",  10, null, 30.0f, 2, 1280,3300);
 diamandine.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_DENSE","GENERATE_FLUID_BLOCK","GENERATE_ORE"]);
 
-val platinumsalt = MaterialRegistry.createIngotMaterial(537, "platinumsalt", 0xBFBE91, "SHINY",  10, null, 30.0f, 6, 1280,1200);
+val platinumsalt = MaterialRegistry.createIngotMaterial(537, "platinumsalt", 0xBFBE91, "SHINY",  10, null, 30.0f, 2, 1280,1200);
 platinumsalt.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_FLUID_BLOCK","GENERATE_ORE"]);
 
-val tellurite = MaterialRegistry.createIngotMaterial(538, "tellurite", 0x919FBF, "DULL",  2, null, 30.0f, 6, 1280,2000);
+val tellurite = MaterialRegistry.createIngotMaterial(538, "tellurite", 0x919FBF, "DULL",  2, null, 30.0f, 2, 1280,2000);
 tellurite.addFlags(["GENERATE_PLATE","GENERATE_ORE","GENERATE_FLUID_BLOCK"]);
 
-var signalum = MaterialRegistry.createIngotMaterial(539, "signalum", 0xb86a0b, "DULL",  2, null, 30.0f, 6, 1280,3900);
+var signalum = MaterialRegistry.createIngotMaterial(539, "signalum", 0xb86a0b, "DULL",  2, null, 30.0f, 2, 1280,3900);
 signalum.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_DENSE","GENERATE_FLUID_BLOCK"]);
 
-var artheriumsn = MaterialRegistry.createIngotMaterial(540, "artheriumsn", 0x153094, "SHINY",  10, null, 30.0f, 6, 1280,3100);
+var artheriumsn = MaterialRegistry.createIngotMaterial(540, "artheriumsn", 0x153094, "SHINY",  10, null, 30.0f, 2, 1280,3100);
 artheriumsn.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_DENSE","GENERATE_FLUID_BLOCK"]);
 
-var dalisenite = MaterialRegistry.createIngotMaterial(541, "dalisenite", 0x8f8d17, "SHINY",  10, null, 30.0f, 6, 1280,4200);
+var dalisenite = MaterialRegistry.createIngotMaterial(541, "dalisenite", 0x8f8d17, "SHINY",  10, null, 30.0f, 2, 1280,4200);
 dalisenite.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_DENSE","GENERATE_FLUID_BLOCK"]);
 
-var tanmolyiumbetac = MaterialRegistry.createIngotMaterial(542, "tanmolyiumbetac", 0xa10bb8, "SHINY",  10, null, 30.0f, 6, 4180,3200);
+var tanmolyiumbetac = MaterialRegistry.createIngotMaterial(542, "tanmolyiumbetac", 0xa10bb8, "SHINY",  10, null, 30.0f, 2, 4180,3200);
 tanmolyiumbetac.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_DENSE","GENERATE_FLUID_BLOCK"]);
 
-var quantium = MaterialRegistry.createIngotMaterial(543, "quantium", 0x2FAB1F, "SHINY",  10, null, 30.0f, 6, 1280,2200);
+var quantium = MaterialRegistry.createIngotMaterial(543, "quantium", 0x2FAB1F, "SHINY",  10, null, 30.0f, 2, 1280,2200);
 quantium.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_DENSE","GENERATE_FLUID_BLOCK","GENERATE_ORE"]);
 
-var blackplutonium = MaterialRegistry.createIngotMaterial(544, "blackplutonium", 0x242424, "SHINY",  10, null, 30.0f, 6, 1280,7200);
+var blackplutonium = MaterialRegistry.createIngotMaterial(544, "blackplutonium", 0x242424, "SHINY",  10, null, 30.0f, 2, 1280,7200);
 blackplutonium.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_DENSE","GENERATE_FLUID_BLOCK","GENERATE_FOIL"]);
 
-var astralsilver = MaterialRegistry.createIngotMaterial(545, "astralsilver", 0x959695, "SHINY",  10, null, 30.0f, 6, 1280,1200);
+var astralsilver = MaterialRegistry.createIngotMaterial(545, "astralsilver", 0x959695, "SHINY",  10, null, 30.0f, 2, 1280,1200);
 astralsilver.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_DENSE","GENERATE_FLUID_BLOCK"]);
 
-var infusedgold = MaterialRegistry.createIngotMaterial(546, "infusedgold", 0x9C9227, "SHINY",  10, null, 30.0f, 6, 1280,2200);
+var infusedgold = MaterialRegistry.createIngotMaterial(578, "infusedgold", 0x9C9227, "SHINY",  10, null, 30.0f, 2, 1280,2200);
 infusedgold.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_DENSE","GENERATE_FLUID_BLOCK","GENERATE_ORE"]);
 
-var indalloy140 = MaterialRegistry.createIngotMaterial(547, "indalloy140", 0x5A405E, "SHINY",  10, null, 30.0f, 6, 1280,1900);
+var indalloy140 = MaterialRegistry.createIngotMaterial(547, "indalloy140", 0x5A405E, "SHINY",  10, null, 30.0f, 2, 1280,1900);
 indalloy140.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_DENSE","GENERATE_FLUID_BLOCK"]);
 
-var mythril = MaterialRegistry.createIngotMaterial(548, "mythril", 0x2E87C7, "SHINY",  10, null, 30.0f, 6, 1280,3400);
+var mythril = MaterialRegistry.createIngotMaterial(548, "mythril", 0x2E87C7, "SHINY",  10, null, 30.0f, 2, 1280,3400);
 mythril.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_DENSE","GENERATE_FLUID_BLOCK","GENERATE_ORE"]);
 
-var orundum = MaterialRegistry.createIngotMaterial(549, "orundum", 0xF600FA, "SHINY",  10, null, 30.0f, 6, 1280,3600);
+var orundum = MaterialRegistry.createIngotMaterial(549, "orundum", 0xF600FA, "SHINY",  10, null, 30.0f, 2, 1280,3600);
 orundum.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_DENSE","GENERATE_FLUID_BLOCK"]);
 
-var vibrantalloy = MaterialRegistry.createIngotMaterial(550, "vibrantalloy", 0x10C236, "SHINY",  10, null, 30.0f, 6, 1280,1800);
+var vibrantalloy = MaterialRegistry.createIngotMaterial(550, "vibrantalloy", 0x10C232, "SHINY",  10, null, 30.0f, 2, 1280,1800);
 vibrantalloy.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_DENSE","GENERATE_FLUID_BLOCK"]);
 
-var extrmelyunstablenaquadah = MaterialRegistry.createIngotMaterial(551, "extrmelyunstablenaquadah", 0x4C594D, "SHINY",  10, null, 30.0f, 6, 1280, 5200);
+var extrmelyunstablenaquadah = MaterialRegistry.createIngotMaterial(551, "extrmelyunstablenaquadah", 0x4C594D, "SHINY",  10, null, 30.0f, 2, 1280, 5200);
 extrmelyunstablenaquadah.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_DENSE","GENERATE_FLUID_BLOCK"]);
 
-var tiberium = MaterialRegistry.createIngotMaterial(552, "tiberium", 0x16B526, "SHINY",  10, null, 30.0f, 6, 1280,1200);
+var tiberium = MaterialRegistry.createIngotMaterial(552, "tiberium", 0x16B522, "SHINY",  10, null, 30.0f, 2, 1280,1200);
 tiberium.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_DENSE","GENERATE_FLUID_BLOCK"]);
 
-var rutheniumtritaniumcarbite = MaterialRegistry.createIngotMaterial(554, "rutheniumtritaniumcarbite", 0x5E5E5E, "SHINY",  10, null, 30.0f, 6, 1280,2200);
+var rutheniumtritaniumcarbite = MaterialRegistry.createIngotMaterial(554, "rutheniumtritaniumcarbite", 0x5E5E5E, "SHINY",  10, null, 30.0f, 2, 1280,2200);
 rutheniumtritaniumcarbite.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_DENSE","GENERATE_FRAME"]);
 
-var runtherfordium = MaterialRegistry.createIngotMaterial(555, "runtherfordium", 0x827d39, "SHINY",  10, null, 30.0f, 6, 1280,1200);
+var runtherfordium = MaterialRegistry.createIngotMaterial(555, "runtherfordium", 0x827d39, "SHINY",  10, null, 30.0f, 2, 1280,1200);
 runtherfordium.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_DENSE"]);
 
-var yellorium = MaterialRegistry.createIngotMaterial(556, "yellorium", 0xfff200, "SHINY",  10, null, 30.0f, 6, 1280,6190);
+var yellorium = MaterialRegistry.createIngotMaterial(556, "yellorium", 0xfff200, "SHINY",  10, null, 30.0f, 2, 1280,6190);
 yellorium.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_DENSE","GENERATE_FRAME"]);
 
-var energeticsilver = MaterialRegistry.createIngotMaterial(557, "energeticsilver", 0x51B2DB, "SHINY",  10, null, 30.0f, 6, 1280,2800);
+var energeticsilver = MaterialRegistry.createIngotMaterial(557, "energeticsilver", 0x51B2DB, "SHINY",  10, null, 30.0f, 2, 1280,2800);
 energeticsilver.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_DENSE"]);
 energeticsilver.setCableProperties(10240, 4, 1);
 
-var infinitycatalyst = MaterialRegistry.createIngotMaterial(558, "infinitycatalyst", 0xB5B5B5, "SHINY",  10, null, 30.0f, 6, 1280,7000);
+var infinitycatalyst = MaterialRegistry.createIngotMaterial(558, "infinitycatalyst", 0xB5B5B5, "SHINY",  10, null, 30.0f, 2, 1280,7000);
 infinitycatalyst.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_FRAME","GENERATE_DENSE","GENERATE_ROUND","GENERATE_GEAR","GENERATE_FOIL","GENERATE_BOLT_SCREW","GENERATE_ROTOR"]);
 infinitycatalyst.setCableProperties(2147483647, 4, 4);
 
-var maxsuperconductor = MaterialRegistry.createIngotMaterial(559, "maxsuperconductor", 0xB5B5B5, "SHINY",  10, null, 30.0f, 6, 1280,5200);
+var maxsuperconductor = MaterialRegistry.createIngotMaterial(559, "maxsuperconductor", 0xB5B5B5, "SHINY",  10, null, 30.0f, 2, 1280,5200);
 maxsuperconductor.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_DENSE"]);
 maxsuperconductor.setCableProperties(2147483647, 4, 0);
 
-var maxsuperconductorbase = MaterialRegistry.createIngotMaterial(560, "maxsuperconductorbase", 0xB5B5B5, "SHINY",  10, null, 30.0f, 6, 1280,5200);
+var maxsuperconductorbase = MaterialRegistry.createIngotMaterial(560, "maxsuperconductorbase", 0xB5B5B5, "SHINY",  10, null, 30.0f, 2, 1280,5200);
 maxsuperconductorbase.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_DENSE"]);
 maxsuperconductorbase.setCableProperties(2147483647, 4, 4);
 
-var infinity = MaterialRegistry.createIngotMaterial(561, "infinity", 0xC47DDB, "SHINY",  10, null, 30.0f, 6, 1280,9900);
+var infinity = MaterialRegistry.createIngotMaterial(561, "infinity", 0xC47DDB, "SHINY",  10, null, 30.0f, 2, 1280,9900);
 infinity.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_FRAME","GENERATE_DENSE"]);
 infinity.setCableProperties(2147483647, 4, 0);
 
 var blackopal = MaterialRegistry.createGemMaterial(562, "blackopal", 0x141212, "OPAL", 2, [<material:opal>*1]);
 blackopal.addFlags(["GENERATE_LENSE","GENERATE_PLATE","GENERATE_ORE"]);
 
-var activatednaquadah = MaterialRegistry.createIngotMaterial(563, "activatednaquadah", 0x141212, "SHINY",  10, null, 30.0f, 6, 1280,1900);
+var activatednaquadah = MaterialRegistry.createIngotMaterial(563, "activatednaquadah", 0x141212, "SHINY",  10, null, 30.0f, 2, 1280,1900);
 activatednaquadah.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_DENSE"]);
 
-var unknowncrystal = MaterialRegistry.createIngotMaterial(564, "unknowncrystal", 0x0F754B, "SHINY",  10, null, 30.0f, 6, 1280,3600);
+var unknowncrystal = MaterialRegistry.createIngotMaterial(564, "unknowncrystal", 0x0F754B, "SHINY",  10, null, 30.0f, 2, 1280,3600);
 unknowncrystal.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_DENSE"]);
 
 var anto = MaterialRegistry.createIngotMaterial(565, "anto", 0x1e2e2c, "SHINY", 2, [<material:osmiridium>*3,<material:americium>*2,<material:tungsten>*2,<material:naquadah>*1]);
 anto.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_DENSE"]);
 
-var incoloy945x = MaterialRegistry.createIngotMaterial(567, "incoloy945x", 0x7CABAD, "SHINY",  10, null, 30.0f, 6, 1280,2690);
+var incoloy945x = MaterialRegistry.createIngotMaterial(567, "incoloy945x", 0x7CABAD, "SHINY",  10, null, 30.0f, 2, 1280,2690);
 incoloy945x.addFlags(["GENERATE_PLATE","GENERATE_GEAR","GENERATE_DENSE"]);
 
 val magneticsamarium = MaterialRegistry.createIngotMaterial(568,"magneticsamarium",0xFDD835,"MAGNETIC",0, [<material:samarium>*1]);
@@ -195,7 +195,7 @@ tgtalloy.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_DEN
 val plutonium247 = MaterialRegistry.createIngotMaterial(574,"plutonium247",0xC62828,"SHINY",2,[<material:plutonium>*1]);
 plutonium247.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_DENSE"]);
 
-val fullerenepolymertetrix = MaterialRegistry.createIngotMaterial(575,"fullerenepolymertetrix",0x171616,"DULL",2,[<material:carbon>*60,<material:rhodium>*2,<material:hydrogen>*33,<material:sulfur>*12,<material:oxygen>*40]);
+val fullerenepolymertetrix = MaterialRegistry.createIngotMaterial(575,"fullerenepolymertetrix",0x171612,"DULL",2,[<material:carbon>*60,<material:rhodium>*2,<material:hydrogen>*33,<material:sulfur>*12,<material:oxygen>*40]);
 fullerenepolymertetrix.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GENERATE_DENSE","GENERATE_FRAME"]);
 
 val endiron = MaterialRegistry.createIngotMaterial(576,"endiron",0x1a4d2c,"SHINY",2);
@@ -251,43 +251,43 @@ titaniumaluminide.addFlags(["GENERATE_PLATE","GENERATE_ROD","GENERATE_GEAR","GEN
 val sodiumethylxantate = MaterialRegistry.createDustMaterial(595,"sodiumethylxantate",0xB7AA33,"DULL",2);
 sodiumethylxantate.addFlags(["GENERATE_PLATE"]);
 
-val potassiumethylxantate = MaterialRegistry.createDustMaterial(526,"potassiumethylxantate",0xB7AA33,"DULL",2);
+val potassiumethylxantate = MaterialRegistry.createDustMaterial(624,"potassiumethylxantate",0xB7AA33,"DULL",2);
 potassiumethylxantate.addFlags(["GENERATE_PLATE"]);
 
-val kaptonk = MaterialRegistry.createIngotMaterial(578,"kaptonk",0x372927, "SHINY", 3, null, 30.0f, 6, 1280,1200);
+val kaptonk = MaterialRegistry.createIngotMaterial(625,"kaptonk",0x372927, "SHINY", 3, null, 30.0f, 2, 1280,1200);
 kaptonk.addFlags(["GENERATE_PLATE","GENERATE_FLUID_BLOCK"]);
 
-val modularium = MaterialRegistry.createIngotMaterial(596,"modularium",0xFFFFFF, "SHINY", 3, null, 30.0f, 6, 1280,5200);
+val modularium = MaterialRegistry.createIngotMaterial(626,"modularium",0xFFFFFF, "SHINY", 3, null, 30.0f, 2, 1280,5200);
 modularium.addFlags(["GENERATE_PLATE"]);
 
-val awakened_draconium = MaterialRegistry.createIngotMaterial(598,"awakened_draconium",0xFF6F00, "SHINY", 3, null, 30.0f, 6, 1280,7200);
+val awakened_draconium = MaterialRegistry.createIngotMaterial(598,"awakened_draconium",0xFF6F00, "SHINY", 3, null, 30.0f, 2, 1280,7200);
 awakened_draconium.addFlags(["GENERATE_PLATE"]);
 
-val chaos = MaterialRegistry.createIngotMaterial(599,"chaos",0x000000, "SHINY", 3, null, 30.0f, 6, 1280,3200);
+val chaos = MaterialRegistry.createIngotMaterial(599,"chaos",0x000000, "SHINY", 3, null, 30.0f, 2, 1280,3200);
 chaos.addFlags(["GENERATE_PLATE"]);
 
-val highly_strained_polyethylene = MaterialRegistry.createIngotMaterial(616,"highly_strained_polyethylene",0xC3C0C1, "SHINY", 3, null, 30.0f, 6, 1280 , 800);
+val highly_strained_polyethylene = MaterialRegistry.createIngotMaterial(627,"highly_strained_polyethylene",0xC3C0C1, "SHINY", 3, null, 30.0f, 2, 1280 , 800);
 highly_strained_polyethylene.addFlags(["GENERATE_PLATE"]);
 
-val high_density_polyethylene = MaterialRegistry.createIngotMaterial(617,"high_density_polyethylene",0xe0e0e0, "SHINY", 3, null, 30.0f, 6, 1280,500);
+val high_density_polyethylene = MaterialRegistry.createIngotMaterial(617,"high_density_polyethylene",0xe0e0e0, "SHINY", 3, null, 30.0f, 2, 1280,500);
 high_density_polyethylene.addFlags(["GENERATE_PLATE"]);
 
-val cross_linked_polyethylene = MaterialRegistry.createIngotMaterial(618,"cross_linked_polyethylene",0xf5dff5, "SHINY", 3, null, 30.0f, 6, 1280,600);
+val cross_linked_polyethylene = MaterialRegistry.createIngotMaterial(618,"cross_linked_polyethylene",0xf5dff5, "SHINY", 3, null, 30.0f, 2, 1280,600);
 cross_linked_polyethylene.addFlags(["GENERATE_PLATE"]);
 
-val low_quality_steel = MaterialRegistry.createIngotMaterial(619,"low_quality_steel",0x575757, "SHINY", 3, null, 30.0f, 6, 1280,200);
+val low_quality_steel = MaterialRegistry.createIngotMaterial(619,"low_quality_steel",0x575757, "SHINY", 3, null, 30.0f, 2, 1280,200);
 low_quality_steel.addFlags(["GENERATE_PLATE","GENERATE_FRAME"]);
 
-val bscco = MaterialRegistry.createIngotMaterial(620,"bscco",0x575757, "SHINY", 3, null, 30.0f, 6, 1280,1600);
+val bscco = MaterialRegistry.createIngotMaterial(620,"bscco",0x575757, "SHINY", 3);
 bscco.addFlags(["GENERATE_PLATE"]);
 
-val gadolinite = MaterialRegistry.createDustMaterial(621,"gadolinite",0x4C4848, "SHINY", 3, null, 30.0f, 6, 1280,2200);
+val gadolinite = MaterialRegistry.createDustMaterial(621,"gadolinite",0x4C4848, "SHINY", 3);
 gadolinite.addFlags(["GENERATE_ORE"]);
 
-val xenotime = MaterialRegistry.createDustMaterial(622,"xenotime",0xF9A825, "SHINY",  10, null, 30.0f, 6, 1280,1200);
+val xenotime = MaterialRegistry.createDustMaterial(622,"xenotime",0xF9A825, "SHINY",  2);
 xenotime.addFlags(["GENERATE_ORE"]);
 
-val deshite = MaterialRegistry.createDustMaterial(788,"deshite", 0x333333, "SHINY",  10, null, 30.0f, 6, 1280,2200);
+val deshite = MaterialRegistry.createDustMaterial(788,"deshite", 0x333333, "SHINY",  1);
 deshite.addFlags(["GENERATE_PLATE","GENERATE_ORE"]);
 
 val desh = MaterialRegistry.createIngotMaterial(623,"desh",0x333333,"SHINY",3);
@@ -311,8 +311,8 @@ util.registerDust("uraniumconcentrate", 32010, 0x299912, "DULL");
 util.registerDust("uraniumfiltrate", 32011, 0x3d9e29, "DULL");
 util.registerDust("bulatsteeldust", 32013, 0x736D62, "SHINY");
 util.registerDust("silversteeldust", 32014, 0x828180, "SHINY");
-util.registerDust("silveralloydust", 32015, 0xD6D3D6, "SHINY");
-util.registerDust("electricalsteeldust", 32016, 0x757473, "DULL");
+util.registerDust("silveralloydust", 32015, 0xD6D3D2, "SHINY");
+util.registerDust("electricalsteeldust", 32012, 0x757473, "DULL");
 util.registerDust("supercooleddust", 32017, 0x0F5C6E, "DULL");
 util.registerDust("bisphenolbdust", 32018, 0x59330D, "DULL");
 util.registerDust("titaniumtetrachloridedust", 32019, 0x701a31, "SHINY");
@@ -327,20 +327,16 @@ util.registerDust("monazitenitride", 32027, 0x0C6624, "SHINY");
 util.registerDust("monaziteoxide", 32028, 0x0C6624, "SHINY");
 util.registerDust("siftedmonazite", 32029, 0x094B1A, "SHINY");
 util.registerDust("thoriadust", 32030, 0x004B1A, "DULL");
-util.registerDust("naquadahdopedmonazite", 32031, 0xA8A049, "DULL");
-util.registerDust("sunnariumenrichedmonazite", 32032, 0xB9B276, "DULL");
-util.registerDust("rutherfordiumcontainingnaqdopedmonazite", 32033, 0x585858, "DULL");
 util.registerDust("sunnariumoxide", 32035, 0xB4AD6A, "DULL");
 util.registerDust("sunnariumdioxide", 32034, 0xB4AD6A, "DULL");
-util.registerDust("rutherfordiumcarbideoxide", 32036, 0xE0D9B8, "DULL");
 util.registerDust("vanadiumtitaniumconentratedust", 32037, 0x3C3C3C, "DULL");
-util.registerDust("sunaricoreresiduedust", 32038, 0xB9B276, "DULL");
+util.registerDust("sunaricoreresiduedust", 32038, 0xB9B272, "DULL");
 util.registerDust("samaricinfusedresiduedust", 32039, 0xE5E5E4, "DULL");
 util.registerDust("infusedgoldtrioxide", 32040, 0xA8801B, "SHINY");
 util.registerDust("plutoniumoxideuraniummixturedust", 32041, 0xC40424, "SHINY");
 util.registerDust("boronnanoparticles", 32042, 0x6593FF, "SHINY");
 util.registerDust("tungsticnaquadah", 32043, 0x1F1F1F, "DULL");
-util.registerDust("endsteelconcentrate", 32044, 0xC9C176, "DULL");
+util.registerDust("endsteelconcentrate", 32044, 0xC9C172, "DULL");
 util.registerDust("protoadamantiumalloycatalystdust", 32045, 0x333AA4, "DULL");
 util.registerDust("circuitcompundmk1", 32046, 0x0E000B, "DULL");
 util.registerDust("circuitcompundmk2", 32047, 0x0E000B, "DULL");
@@ -361,7 +357,7 @@ util.registerDust("enhancedenderiumdust", 32063, 0x184229, "DULL");
 util.registerDust("compressedmetaldust", 32064, 0x1A1A1A, "DULL");
 util.registerDust("bastnasiterarerearthoxidemixturedust", 32061, 0xB97A57, "DULL");
 util.registerDust("fourdiphenylmethanediiscocyanatedust", 32062, 0xB576B8, "DULL");
-util.registerDust("monazite_sulfate", 32065, 0x145926, "DULL");
+util.registerDust("monazite_sulfate", 32065, 0x145922, "DULL");
 util.registerDust("thorium_phosphate_cake", 32066, 0x20452a, "DULL");
 util.registerDust("thorium_phosphate_concentrate", 32067, 0x223b29, "DULL");
 util.registerDust("rare_earth_filtrate", 32068, 0x3b2d22, "DULL");
@@ -370,7 +366,7 @@ util.registerDust("uranium_filtrate_dust", 32070, 0x274d0a, "DULL");
 util.registerDust("uranium_concentrate_dust", 32071, 0x214703, "DULL");
 util.registerDust("zircalloydust", 32072, 0xB5B5B5, "SHINY");
 util.registerDust("neodymiumrareearthconcentrate", 32073, 0x3C3C3C, "DULL");
-util.registerDust("samaricrareearthconcentrate", 32074, 0xB9B276, "DULL");
+util.registerDust("samaricrareearthconcentrate", 32074, 0xB9B272, "DULL");
 util.registerDust("fluorinatedsamariccompound", 32075, 0xB5B5B5, "SHINY");
 util.registerDust("calciumfluoride", 32076, 0x5f7f87, "DULL");
 util.registerDust("samariumterbiumconcentrate", 32077, 0x82875f, "DULL");
@@ -378,21 +374,21 @@ util.registerDust("samaricresidues", 32078, 0x82875f, "SHINY");
 util.registerDust("bastnasiteoxidecomposite", 32079, 0x8a643a, "SHINY");
 util.registerDust("ferrocene", 32080, 0xa6a39f, "SHINY");
 util.registerDust("dirtdust", 32081, 0x79553A, "DULL");
-util.registerDust("hydrogeniodide", 32082, 0x3e2f47, "DULL");
+util.registerDust("hydrogeniodide", 32086, 0x3e2f47, "DULL");
 util.registerDust("calcinatedbastnasite", 32083, 0x473c2f, "DULL");
 util.registerDust("roastedbastnasite", 32084, 0x3d2a14, "SHINY");
 util.registerDust("crackingcatalystpreparation", 32085, 0x7d7d3c, "DULL");
-util.registerDust("pentaerythritoldust", 32086, 0xd61542, "DULL");
+util.registerDust("pentaerythritoldust", 32082, 0xd61542, "DULL");
 util.registerDust("oranorhodiumcatalystdust", 32087, 0x942942, "SHINY");
 util.registerDust("polyurethanecatalystbdust", 32088, 0x946f29, "DULL");
 util.registerDust("polyurethanecatalystadust", 32089, 0x946f29, "SHINY");
 util.registerDust("leadmetallicpowder", 32090, 0x75516e, "DULL");
-util.registerDust("binap", 32092, 0x8b8c87, "DULL");
+util.registerDust("binap", 32096, 0x8b8c87, "DULL");
 util.registerDust("paraphenylenediamine", 32093, 0x317c87, "SHINY");
 util.registerDust("muddustresidues", 32095, 0x8c878b, "DULL");
 util.registerDust("terephthaloylchloride", 32094, 0x5e240c, "DULL");
 util.registerDust("lapotrondust", 32126, 0x392d75, "DULL");
-util.registerDust("radium_202_dust", 32096, 0x75412d, "DULL");
+util.registerDust("radium_202_dust", 32092, 0x75412d, "DULL");
 util.registerDust("radium_cake_dust", 32097, 0x94914a, "SHINY");
 util.registerDust("radium_metallic_powder", 32127, 0xab7141, "DULL");
 util.registerDust("thorium_233_dust", 32098, 0x7a4920, "SHINY");
@@ -449,7 +445,7 @@ util.registerDust("terephthalic_acid", 32150, 0xB0583E, "DULL");
 util.registerDust("raw_atomic_seperation_catalyst", 32151, 0xBF360C, "DULL");
 util.registerDust("soularium_metallic_powder", 32152, 0x665653, "DULL");
 util.registerDust("refined_soularium_powder", 32153, 0x665653, "SHINY");
-util.registerDust("bronze_blend", 32154, 0xD56C16, "DULL");
+util.registerDust("bronze_blend", 32154, 0xD56C12, "DULL");
 util.registerDust("enhancedenderiumrefinedmetalresidues", 32155, 0x004D40, "SHINY");
 util.registerDust("hmx", 32156, 0xB3B5B5, "SHINY");
 util.registerDust("sodium_isobutyl_xanthate", 32157, 0x86987A, "DULL");
@@ -474,7 +470,7 @@ util.registerDust("papic_digest_of_soybean_meal", 32175, 0xFDD835, "DULL");
 util.registerDust("pancreatic_digest_of_casein", 32176, 0xBFBCAF, "DULL");
 util.registerDust("caesin", 32177, 0xCDDC39, "DULL");
 util.registerDust("solidified_sterile_defibrinated_sheep_blood", 32178, 0x572828, "DULL");
-util.registerDust("phenylethyl_alcohol_agar", 32179, 0xA37676, "SHINY");
+util.registerDust("phenylethyl_alcohol_agar", 32179, 0xA37672, "SHINY");
 util.registerDust("neodymium_alloy", 32180, 0x605F5F, "SHINY");
 util.registerDust("supra_fertilizer", 32181, 0xB3929E, "SHINY");
 util.registerDust("grist_powder", 32182, 0x886054, "DULL");
@@ -502,14 +498,48 @@ util.registerDust("phosphorus_pentoxide", 32204, 0xBA68C8, "SHINY");
 util.registerDust("floated_andesite", 32205, 0x787575, "SHINY");
 util.registerDust("digested_andesite", 32206, 0x787575, "DULL");
 util.registerDust("iriditus", 32207, 0x00BCD4, "SHINY");
-util.registerDust("roasted_deshite", 32208, 0x6D6666, "SHINY");
+util.registerDust("roasted_deshite", 32208, 0x6D6662, "SHINY");
 util.registerDust("evaporated_deshite_compound", 32209, 0x4B4A4A, "DULL");
 util.registerDust("silver_bromide", 32210, 0x4B4A4A, "DULL");
 util.registerDust("hafnium_platinum_titanium_composite", 32211, 0x4B4A4A, "DULL");
+util.registerDust("muddy_monazite_ore_byproducts", 32212, 0x514442, "SHINY");
+util.registerDust("high_purity_arsenic", 32213, 0x514442, "SHINY");
+util.registerDust("naquadah_dioxide", 32214, 0x4B0082, "DULL");
+util.registerDust("nickel_nitride", 32215, 0x2F4F4F, "DULL");
+util.registerDust("ruby_leach", 32216, 0xF5C9C8, "SHINY");
 
 
 
 
+
+
+util.registerFluid("liquid_salt",0xD3D4D5);
+util.registerFluid("liquid_cryolite",0x42A5F5);
+util.registerFluid("hotic2coolant",0xF0CFCF);
+util.registerFluid("ruby_solution",0xEF5350);
+util.registerFluid("helium_4",0xE0FFFF);
+util.registerFluid("superfluid_helium_4",0xE0FFFF);
+util.registerFluid("liquid_enriched_helium_4",0xADFF2F);
+util.registerFluid("very_hot_xenon",0x00008B);
+util.registerFluid("monazite_ore_byproduct_slurry", 0x67824C);
+util.registerFluid("impure_monazite_ore_byproduct_slurry", 0x7F936B);
+util.registerFluid("neodymium_pre_extract_emulsion", 0x474746);
+util.registerFluid("palmatic_acid", 0xB6D2D5);
+util.registerFluid("caprylic_acid", 0xFEF9CC);
+util.registerFluid("ziegler_alfol_mixture", 0xC07259);
+util.registerFluid("neodymium_rich_monazite_solution", 0x388E3C);
+util.registerFluid("diluted_neodymium_rich_monazite_solution", 0x59605A);
+util.registerFluid("n-decanol", 0x987F77);
+util.registerFluid("n-tetradecanol", 0x866E66);
+util.registerFluid("n-dodecanol", 0x7E6D68);
+util.registerFluid("n-hexadecanol", 0x735E57);
+util.registerFluid("methyl_isobutyl_carbonyl", 0x7C9AB2);
+util.registerFluid("1_amidol_ethyl_2_alkyl_2_imidazoline", 0x705195);
+util.registerFluid("arsenic_trichloride", 0x631531);
+util.registerFluid("trichloroflerane", 0x6E5DA1);
+util.registerFluid("chloronaquadic_acid", 0x32302D);
+util.registerFluid("very_hot_aqua_regia", 0xFFA000);
+util.registerFluid("very_hot_krypton", 0x9FAD90);
 util.registerFluid("platinum_solution", 0xC7C18E);
 util.registerFluid("palladium_extract", 0x3A3B3B);
 util.registerFluid("platinum_extraction_mixture", 0x009688);

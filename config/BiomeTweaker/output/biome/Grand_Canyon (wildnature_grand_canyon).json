@@ -21,9 +21,9 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "HOT",
-    "SANDY",
-    "RIVER",
     "WATER",
+    "RIVER",
+    "SANDY",
     "HILLS",
     "MESA"
   ],

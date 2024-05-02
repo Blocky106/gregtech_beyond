@@ -21,8 +21,8 @@
   "Enable Snow": true,
   "Dictionary Types": [
     "RARE",
-    "MOUNTAIN",
-    "FOREST"
+    "FOREST",
+    "MOUNTAIN"
   ],
   "BiomeManager Entries": {
     "COOL Weights": [

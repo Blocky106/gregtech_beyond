@@ -134,3 +134,12 @@ engraving_unit.recipeMap.recipeBuilder()
     .duration(200)
     .EUt(9000)
     .buildAndRegister();
+
+engraving_unit.recipeMap.recipeBuilder()
+    .inputs(<contenttweaker:flerovium_layered_wafer>)
+    .fluidInputs(<liquid:superfluid_helium>*1000)
+    .fluidOutputs(<liquid:helium>*1000)
+    .outputs(<contenttweaker:spinorial_memory_wafer>)
+    .duration(900)
+    .EUt(8000)
+    .buildAndRegister();

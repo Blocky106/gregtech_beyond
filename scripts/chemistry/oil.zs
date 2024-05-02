@@ -254,7 +254,7 @@ lcr.recipeBuilder()
 
 distillation_tower.recipeBuilder()
     .fluidInputs(<liquid:alkylated_natural_gas>*3000)
-    .fluidOutputs(<liquid:sulfuric_acid>*2500,<liquid:raw_gasoline>*500)
+    .fluidOutputs(<liquid:sulfuric_acid>*2500,<liquid:gasoline>*500)
     .duration(80)
     .EUt(400)
     .buildAndRegister();
