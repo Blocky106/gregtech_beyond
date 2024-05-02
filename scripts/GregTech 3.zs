@@ -2372,6 +2372,7 @@ ebf.findRecipe(120,[<gregtech:meta_item_1:2061>*32,<gregtech:meta_item_1:1410>],
 ebf.recipeBuilder()
     .inputs(<contenttweaker:unbaked_monocrystalline_silicon_boule>)
     .outputs(<gregtech:meta_item_2:32439>)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
     .property("temperature", 1784)
     .duration(9000)
     .EUt(120)
@@ -2380,6 +2381,7 @@ ebf.recipeBuilder()
 ebf.recipeBuilder()
     .inputs(<contenttweaker:unbaked_monocrystalline_silicon_boule>)
     .fluidInputs(<liquid:nitrogen>*1000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 2}))
     .outputs(<gregtech:meta_item_2:32439>)
     .property("temperature", 1784)
     .duration(4000)
@@ -2415,14 +2417,14 @@ lcr.recipeBuilder()
     .EUt(2500)
     .buildAndRegister();
 
-lcr.recipeBuilder() 
+lcr.recipeBuilder()
     .fluidInputs(<liquid:water>*5000,<liquid:dimethyldichlorosilane>*4000,<liquid:ethylene_oxide>*1000)
     .fluidOutputs(<liquid:siliconoil>*5000)
     .EUt(1800)
     .duration(200)
     .buildAndRegister();
 
-chemReactor.recipeBuilder() 
+chemReactor.recipeBuilder()
     .fluidInputs(<liquid:water>*5000,<liquid:dimethyldichlorosilane>*4000,<liquid:ethylene_oxide>*1000)
     .fluidOutputs(<liquid:siliconoil>*5000)
     .EUt(1800)
@@ -2437,9 +2439,9 @@ distillation_tower.recipeBuilder()
     .EUt(250)
     .buildAndRegister();
 
-lcr.recipeBuilder() 
+lcr.recipeBuilder()
     .fluidInputs(<liquid:diaminodiphenylmethanemixture>*1000,<liquid:phosgene>*1000)
-    .fluidOutputs(<liquid:diphenylmethanediiscocyanatemixture>*2000) 
+    .fluidOutputs(<liquid:diphenylmethanediiscocyanatemixture>*2000)
     .duration(500)
     .EUt(24000)
     .buildAndRegister();
@@ -2452,9 +2454,9 @@ lcr.recipeBuilder()
     .EUt(7200)
     .buildAndRegister();
 
-chemReactor.recipeBuilder() 
+chemReactor.recipeBuilder()
     .fluidInputs(<liquid:diaminodiphenylmethanemixture>*1000,<liquid:phosgene>*1000)
-    .fluidOutputs(<liquid:diphenylmethanediiscocyanatemixture>*2000) 
+    .fluidOutputs(<liquid:diphenylmethanediiscocyanatemixture>*2000)
     .duration(500)
     .EUt(24000)
     .buildAndRegister();
@@ -2467,7 +2469,7 @@ chemReactor.recipeBuilder()
     .EUt(7200)
     .buildAndRegister();
 
-lcr.recipeBuilder() 
+lcr.recipeBuilder()
     .fluidInputs(<liquid:iron_chloride>*100,<liquid:propionicacid>*1000,<liquid:pentanol>*2000)
     .outputs(<gtadditions:ga_dust:32089>)
     .inputs(<gregtech:meta_item_1:2071>)
@@ -2475,7 +2477,7 @@ lcr.recipeBuilder()
     .EUt(25000)
     .buildAndRegister();
 
-chemReactor.recipeBuilder() 
+chemReactor.recipeBuilder()
     .fluidInputs(<liquid:iron_chloride>*100,<liquid:propionicacid>*1000,<liquid:pentanol>*2000)
     .outputs(<gtadditions:ga_dust:32089>)
     .inputs(<gregtech:meta_item_1:2071>)
@@ -2581,7 +2583,7 @@ forming_press.recipeBuilder()
     .duration(200)
     .EUt(2)
     .buildAndRegister();
-    
+
 chemReactor.recipeBuilder()
     .inputs(<gtadditions:ga_dust:34>,<gtadditions:ga_dust:33>,<gtadditions:ga_dust:32>)
     .fluidInputs(<liquid:sterilized_growth_medium>*1000)
@@ -2936,7 +2938,7 @@ compressor.recipeBuilder()
     .EUt(200)
     .buildAndRegister();
 
-extractor.recipeBuilder()   
+extractor.recipeBuilder()
     .inputs(<gregtech:concrete:10>)
     .outputs(<gregtech:concrete:6>)
     .duration(49)
@@ -2988,7 +2990,7 @@ lcr.recipeBuilder()
     .EUt(2400)
     .buildAndRegister();
 
-lcr.recipeBuilder() 
+lcr.recipeBuilder()
     .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 10}))
     .fluidInputs(<liquid:impureferrocenemixture>*7500,<liquid:ether>*1000)
     .fluidOutputs(<liquid:ferrocenewaste>*7500,<liquid:ferrocenesolution>*1000)
@@ -2996,7 +2998,7 @@ lcr.recipeBuilder()
     .EUt(120)
     .buildAndRegister();
 
-chemReactor.recipeBuilder() 
+chemReactor.recipeBuilder()
     .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 10}))
     .fluidInputs(<liquid:impureferrocenemixture>*7500,<liquid:ether>*1000)
     .fluidOutputs(<liquid:ferrocenewaste>*7500,<liquid:ferrocenesolution>*1000)
@@ -3049,7 +3051,7 @@ macerator.recipeBuilder()
     .outputs(<contenttweaker:asphalt>*9)
     .duration(40)
     .EUt(12)
-    .buildAndRegister(); 
+    .buildAndRegister();
 
 chemical_bath.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2326>)
@@ -3108,7 +3110,7 @@ centrifuge.recipeBuilder()
     .EUt(20000)
     .buildAndRegister();
 
-assembler.recipeBuilder()   
+assembler.recipeBuilder()
     .inputs(<gregtech:machine:2534>,<ore:circuitExtreme>*2,<gregtech:meta_item_2:26300>*2,<gregtech:meta_item_1:13905>*4,<ore:circuitMaster>*2,<gregtech:meta_item_2:19051>*4,<ore:circuitElite>*2,<gregtech:meta_item_1:13983>*2)
     .outputs(<gregtech:machine:2559>)
     .duration(800)
@@ -3155,11 +3157,11 @@ recipes.addShaped(<gregtech:meta_item_1:32631>, [	[<ore:plateRubber>, <ore:plate
 
 
 
-assembler.recipeBuilder()  
-     .inputs(<gregtech:cable:5018>*2,<gregtech:cable:1109>*4,<gregtech:meta_item_1:14001>*2,<gregtech:meta_item_1:14298>)   
-     .outputs(<gregtech:meta_item_1:32601>)   
-     .duration(40)    
-     .EUt(120)   
+assembler.recipeBuilder()
+     .inputs(<gregtech:cable:5018>*2,<gregtech:cable:1109>*4,<gregtech:meta_item_1:14001>*2,<gregtech:meta_item_1:14298>)
+     .outputs(<gregtech:meta_item_1:32601>)
+     .duration(40)
+     .EUt(120)
      .buildAndRegister();
 
 assembler.recipeBuilder()
@@ -3171,14 +3173,14 @@ assembler.recipeBuilder()
     .EUt(120)
     .buildAndRegister();
 
-assembler.recipeBuilder()    
+assembler.recipeBuilder()
     .inputs(<ore:circuitExtreme>*4,<ore:plateEnderEye>)
     .outputs(<gregtech:meta_item_1:32671>)
     .fluidInputs(<liquid:osmium>*1412)
     .duration(80)
     .EUt(120)
     .buildAndRegister();
-    
+
 recipes.addShaped(<gregtech:meta_item_1:32671>, [	[<ore:plateDoubleOsmium>, <ore:circuitExtreme>, <ore:plateDoubleOsmium>], 	[<ore:circuitExtreme>, <ore:plateEnderEye>, <ore:circuitExtreme>], 	[<ore:plateDoubleOsmium>, <ore:circuitExtreme>, <ore:plateDoubleOsmium>]]);
 assembler.findRecipe(120,[<gregtech:meta_item_1:32601>*2,<gregtech:cable:5018>,<gregtech:meta_item_1:32766>.withTag({Configuration: 1})], [<liquid:rubber>*864]).remove();
 assembler.findRecipe(120,[<gregtech:cable:5018>*2,<gregtech:cable:1018>*4,<gregtech:meta_item_1:14001>*2,<gregtech:meta_item_1:14298>], null).remove();
@@ -3189,7 +3191,7 @@ assembler.recipeBuilder()
     .inputs(<ore:stickElectrum>,<ore:plateAluminium>*4,<ore:gemFlawedDiamond>,<ore:circuitGood>)
     .outputs(<gregtech:meta_item_1:32691>)
     .duration(80)
-    .EUt(120) 
+    .EUt(120)
     .buildAndRegister();
 recipes.addShaped(<gregtech:meta_item_1:32681>, [	[<ore:stickElectrum>, <ore:stickElectrum>, <ore:circuitGood>], 	[<ore:cableGtSingleCopper>, <ore:gemFlawedEmerald>, <ore:stickElectrum>], 	[<ore:circuitGood>, <ore:cableGtSingleCopper>, <ore:stickElectrum>]]);
 assembler.findRecipe(120,[<gtadditions:ga_meta_item:32200>*2,<minecraft:quartz>,<gregtech:cable:5018>,<gregtech:meta_item_1:32766>.withTag({Configuration: 1}),<gregtech:meta_item_1:14112>*4], null).remove();
