@@ -513,8 +513,6 @@ util.registerDust("ruby_leach", 32216, 0xF5C9C8, "SHINY");
 
 
 
-util.registerFluid("liquid_salt",0xD3D4D5);
-util.registerFluid("liquid_cryolite",0x42A5F5);
 util.registerFluid("hotic2coolant",0xF0CFCF);
 util.registerFluid("ruby_solution",0xEF5350);
 util.registerFluid("helium_4",0xE0FFFF);

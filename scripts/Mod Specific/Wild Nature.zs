@@ -12,11 +12,7 @@ import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Block;
 import crafttweaker.item.IItemCondition;
 import crafttweaker.entity.IEntityDropFunction;
-import loottweaker.LootTweaker;
-import loottweaker.vanilla.loot.LootTable;
-import loottweaker.vanilla.loot.LootPool;
-import loottweaker.vanilla.loot.Conditions;
-import loottweaker.vanilla.loot.Functions;
+
 
 recipes.addShaped(<wildnature:steel_ladder>*7, [	[<ore:stickSteel>, null, <ore:stickSteel>], 	[<ore:stickSteel>, <ore:stickSteel>, <ore:stickSteel>], 	[<ore:stickSteel>, null, <ore:stickSteel>]]);
 
