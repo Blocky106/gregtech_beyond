@@ -2371,6 +2371,7 @@ ebf.findRecipe(120,[<gregtech:meta_item_1:2061>*32,<gregtech:meta_item_1:1410>],
 
 ebf.recipeBuilder()
     .inputs(<contenttweaker:unbaked_monocrystalline_silicon_boule>)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
     .outputs(<gregtech:meta_item_2:32439>)
     .property("temperature", 1784)
     .duration(9000)
@@ -2379,6 +2380,7 @@ ebf.recipeBuilder()
 
 ebf.recipeBuilder()
     .inputs(<contenttweaker:unbaked_monocrystalline_silicon_boule>)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 2}))
     .fluidInputs(<liquid:nitrogen>*1000)
     .outputs(<gregtech:meta_item_2:32439>)
     .property("temperature", 1784)
@@ -2388,6 +2390,7 @@ ebf.recipeBuilder()
 
 ebf.recipeBuilder()
     .inputs(<contenttweaker:unbaked_monocrystalline_silicon_boule>)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 3}))
     .fluidInputs(<liquid:argon>*1000)
     .outputs(<gregtech:meta_item_2:32439>)
     .property("temperature", 1784)
