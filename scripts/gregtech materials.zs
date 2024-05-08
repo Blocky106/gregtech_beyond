@@ -293,6 +293,9 @@ deshite.addFlags(["GENERATE_PLATE","GENERATE_ORE"]);
 val desh = MaterialRegistry.createIngotMaterial(623,"desh",0x333333,"SHINY",3);
 desh.addFlags(["GENERATE_PLATE"]);
 
+val naquadah_dioxide = MaterialRegistry.createIngotMaterial(628,"naquadah_dioxide",0x7308a1,"SHINY",3);
+naquadah_dioxide.addFlags(["GENERATE_PLATE"]);
+
 
 
 
@@ -503,8 +506,7 @@ util.registerDust("evaporated_deshite_compound", 32209, 0x4B4A4A, "DULL");
 util.registerDust("silver_bromide", 32210, 0x4B4A4A, "DULL");
 util.registerDust("hafnium_platinum_titanium_composite", 32211, 0x4B4A4A, "DULL");
 util.registerDust("muddy_monazite_ore_byproducts", 32212, 0x514442, "SHINY");
-util.registerDust("high_purity_arsenic", 32213, 0x514442, "SHINY");
-util.registerDust("naquadah_dioxide", 32214, 0x4B0082, "DULL");
+util.registerDust("high_purity_arsenic", 32213, 0xB0B0B1, "SHINY");
 util.registerDust("nickel_nitride", 32215, 0x2F4F4F, "DULL");
 util.registerDust("ruby_leach", 32216, 0xF5C9C8, "SHINY");
 
@@ -949,7 +951,8 @@ util.registerFluid("wolframiteimpureslurry",0x39593C);
 util.registerFluid("wolframiteslurry",0x355D38);
 util.registerFluid("silicon_carbide",0x515151);
 util.registerFluid("hot_treated_wastewater",0x515151);
-
+util.registerFluid("liquid_salt",0xD3D4D5);
+util.registerFluid("liquid_cryolite",0x42A5F5);
 
 
 
