@@ -20,12 +20,12 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
-    "WATER",
     "RIVER",
-    "SANDY",
+    "WATER",
+    "MESA",
     "HILLS",
-    "MESA"
+    "SANDY",
+    "HOT"
   ],
   "BiomeManager Entries": {
     "DESERT Weights": [
