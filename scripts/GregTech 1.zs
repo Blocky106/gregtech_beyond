@@ -300,10 +300,18 @@ chemReactor.recipeBuilder()
 	.inputs(<gregtech:meta_item_1:2216> * 3)
 	.fluidInputs(<liquid:sodium_persulfate> * 400,<liquid:chlorine>*1000)
 	.fluidOutputs(<liquid:ic2coolant> * 2000)
-	.duration(480)
-	.EUt(120)
+	.duration(48)
+	.EUt(80)
 	.buildAndRegister();
 
+lcr.recipeBuilder()
+	.inputs(<gregtech:meta_item_1:2216> * 3)
+	.fluidInputs(<liquid:sodium_persulfate> * 400,<liquid:chlorine>*1000)
+	.fluidOutputs(<liquid:ic2coolant> * 2000)
+	.duration(48)
+	.EUt(80)
+	.buildAndRegister();
+	
 chemical_bath.recipeBuilder()
 	.inputs(<gregtech:meta_item_1:11127>)
 	.fluidInputs(<liquid:ic2coolant> * 200)
@@ -2801,6 +2809,7 @@ metal_bender.recipeBuilder()
 
 distillation_tower.findRecipe(70,null,[<liquid:gasoline>*1000]).remove();
 ebf.findRecipe(120,[<gregtech:meta_item_1:2310>],null).remove();
+ebf.findRecipe(120,[<gregtech:meta_item_1:2061>,<gregtech:meta_item_1:32766>.withTag({Configuration: 0})],null).remove();
 
 ebf.recipeBuilder()
 	.inputs(<gregtech:meta_item_1:2310>)
@@ -2813,6 +2822,7 @@ ebf.recipeBuilder()
 
 ebf.recipeBuilder()
 	.inputs(<gregtech:meta_item_1:2061>)
+	.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 0}))
 	.outputs(<contenttweaker:hot_silicon_ingot>)
 	.property("temperature", 1687)
 	.duration(200)
@@ -2822,7 +2832,6 @@ ebf.recipeBuilder()
 chemical_bath.recipeBuilder()
 	.fluidInputs(<liquid:ic2coolant>*200)
 	.inputs(<contenttweaker:hot_silicon_ingot>)
-	.inputs(<gregtech:meta_item_1:2061>)
 	.fluidOutputs(<liquid:hotic2coolant>*200)
 	.duration(200)
 	.EUt(7)
