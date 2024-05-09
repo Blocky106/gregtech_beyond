@@ -1102,3 +1102,8 @@ Utils.removeRecipeByOutput(lengraver,[<gregtech:meta_item_2:32468>*4],[],false);
 Utils.removeRecipeByOutput(lengraver,[<gregtech:meta_item_2:32468>*12],[],false);
 Utils.removeRecipeByOutput(lengraver,[<gregtech:meta_item_2:32468>*16],[],false);
 Utils.removeRecipeByOutput(lengraver,[<gregtech:meta_item_2:32468>*20],[],false);
+
+chemReactor.recipeBuilder().fluidInputs(<liquid:nitrogen>*1000).inputs(<gregtech:meta_item_1:2044>).outputs(<gtadditions:ga_dust:32215>).duration(200).EUt(12).buildAndRegister();
+lcr.recipeBuilder().fluidInputs(<liquid:nitrogen>*1000).inputs(<gregtech:meta_item_1:2044>).outputs(<gtadditions:ga_dust:32215>).duration(200).EUt(12).buildAndRegister();
+
+electrolyzer.recipeBuilder().fluidOutputs(<liquid:nitrogen>*1000).outputs(<gregtech:meta_item_1:2044>).inputs(<gtadditions:ga_dust:32215>).duration(200).EUt(12).buildAndRegister();
