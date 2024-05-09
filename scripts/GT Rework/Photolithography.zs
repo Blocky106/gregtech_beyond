@@ -560,6 +560,13 @@ cvd_unit_s.recipeBuilder()
     .buildAndRegister();
 
 cvd_unit_s.recipeBuilder()
+    .inputs(<contenttweaker:polysilicon_wafer>,i,I)
+    .outputs(<contenttweaker:doped_polysilicon_wafer>)
+    .duration(800)
+    .EUt(100)
+    .buildAndRegister();
+
+cvd_unit_s.recipeBuilder()
     .inputs(<contenttweaker:engraved_ram_wafer>,i,I)
     .outputs(<contenttweaker:raw_ram_wafer>)
     .duration(800)
@@ -1105,5 +1112,14 @@ Utils.removeRecipeByOutput(lengraver,[<gregtech:meta_item_2:32468>*20],[],false)
 
 chemReactor.recipeBuilder().fluidInputs(<liquid:nitrogen>*1000).inputs(<gregtech:meta_item_1:2044>).outputs(<gtadditions:ga_dust:32215>).duration(200).EUt(12).buildAndRegister();
 lcr.recipeBuilder().fluidInputs(<liquid:nitrogen>*1000).inputs(<gregtech:meta_item_1:2044>).outputs(<gtadditions:ga_dust:32215>).duration(200).EUt(12).buildAndRegister();
-
 electrolyzer.recipeBuilder().fluidOutputs(<liquid:nitrogen>*1000).outputs(<gregtech:meta_item_1:2044>).inputs(<gtadditions:ga_dust:32215>).duration(200).EUt(12).buildAndRegister();
+
+
+roasters.recipeBuilder()
+    .fluidInputs(<liquid:oxygen>*1000)
+    .inputs(<gtadditions:ga_dust:32215>,<contenttweaker:doped_polysilicon_wafer>)
+    .outputs(<contenttweaker:nickel_nitride_wafer>)
+    .duration(80)
+    .EUt(90)
+    .buildAndRegister();
+
