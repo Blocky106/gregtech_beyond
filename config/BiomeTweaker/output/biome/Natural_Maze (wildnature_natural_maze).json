@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "RARE",
+    "SPOOKY",
     "PLAINS",
-    "SPOOKY"
+    "RARE"
   ],
   "BiomeManager Entries": {
     "COOL Weights": [

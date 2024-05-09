@@ -21,9 +21,9 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "WET",
+    "MOUNTAIN",
     "JUNGLE",
     "RARE",
-    "MOUNTAIN",
     "DENSE",
     "HOT"
   ],
