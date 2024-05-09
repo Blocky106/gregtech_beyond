@@ -604,6 +604,14 @@ ion_implanter.recipeBuilder()
     .EUt(600)
     .buildAndRegister();
 
+ion_implanter.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2307>,<contenttweaker:engraved_hasoc_wafer>, i, I) 
+    .outputs(<contenttweaker:unpolarized_hasoc_wafer>)
+    .duration(200)
+    .EUt(600)
+    .buildAndRegister();
+
+
 
 	}
     }
@@ -1307,9 +1315,9 @@ cutting_saw.recipeBuilder().inputs(<contenttweaker:oganesson_boule>).outputs(<co
 cutting_saw.recipeBuilder().inputs(<contenttweaker:oganesson_boule>).outputs(<contenttweaker:monocrystalline_oganesson_ingot>).fluidInputs(<liquid:distilled_water>*8).duration(1000).EUt(80000).buildAndRegister();
 cutting_saw.recipeBuilder().inputs(<contenttweaker:oganesson_boule>).outputs(<contenttweaker:monocrystalline_oganesson_ingot>).fluidInputs(<liquid:lubricant>*6).duration(600).EUt(60000).buildAndRegister();
 
-cutting_saw.recipeBuilder().outputs(<contenttweaker:oganesson_wafer>).inputs(<contenttweaker:monocrystalline_oganesson_ingot>).fluidInputs(<liquid:water>*12).duration(2000).EUt(80000).buildAndRegister();
-cutting_saw.recipeBuilder().outputs(<contenttweaker:oganesson_wafer>).inputs(<contenttweaker:monocrystalline_oganesson_ingot>).fluidInputs(<liquid:distilled_water>*8).duration(1000).EUt(80000).buildAndRegister();
-cutting_saw.recipeBuilder().outputs(<contenttweaker:oganesson_wafer>).inputs(<contenttweaker:monocrystalline_oganesson_ingot>).fluidInputs(<liquid:lubricant>*6).duration(600).EUt(60000).buildAndRegister();
+cutting_saw.recipeBuilder().outputs(<contenttweaker:oganesson_wafer>,<contenttweaker:oganesson_seed_crystal>).inputs(<contenttweaker:monocrystalline_oganesson_ingot>).fluidInputs(<liquid:water>*12).duration(2000).EUt(80000).buildAndRegister();
+cutting_saw.recipeBuilder().outputs(<contenttweaker:oganesson_wafer>,<contenttweaker:oganesson_seed_crystal>).inputs(<contenttweaker:monocrystalline_oganesson_ingot>).fluidInputs(<liquid:distilled_water>*8).duration(1000).EUt(80000).buildAndRegister();
+cutting_saw.recipeBuilder().outputs(<contenttweaker:oganesson_wafer>,<contenttweaker:oganesson_seed_crystal>).inputs(<contenttweaker:monocrystalline_oganesson_ingot>).fluidInputs(<liquid:lubricant>*6).duration(600).EUt(60000).buildAndRegister();
 
 cvd_unit_s.recipeBuilder()
     .fluidInputs(<liquid:trichloroflerane>*1000)
@@ -1352,8 +1360,91 @@ ion_implanter.recipeBuilder()
     .buildAndRegister();
 
 polarizer.recipeBuilder()
-    .inputs(<contenttweaker:raw_oganesson_wafer>)
-    .outputs(<contenttweaker:doped_oganesson_wafer>)
+    .inputs(<contenttweaker:unpolarized_hasoc_wafer>)
+    .outputs(<gtadditions:ga_meta_item:32421>)
     .duration(7000)
     .EUt(8112)
+    .buildAndRegister();
+
+cutting_saw.recipeBuilder().inputs(<gtadditions:ga_meta_item:32421>).outputs(<contenttweaker:hasoc_die>*6).fluidInputs(<liquid:water>*12).duration(2000).EUt(80000).buildAndRegister();
+cutting_saw.recipeBuilder().inputs(<gtadditions:ga_meta_item:32421>).outputs(<contenttweaker:hasoc_die>*6).fluidInputs(<liquid:distilled_water>*8).duration(1000).EUt(80000).buildAndRegister();
+cutting_saw.recipeBuilder().inputs(<gtadditions:ga_meta_item:32421>).outputs(<contenttweaker:hasoc_die>*6).fluidInputs(<liquid:lubricant>*6).duration(600).EUt(60000).buildAndRegister();
+
+Utils.removeRecipeByOutput(cutting_saw, [<gtadditions:ga_meta_item:32420>*6],[],false);
+
+assembly_line.recipeBuilder()
+    .inputs(<contenttweaker:hasoc_die>,<contenttweaker:neurological_life_support_unit>,<gregtech:meta_item_2:16308>*4,<gregtech:meta_item_1:12840>,<gtadditions:ga_meta_item:32018>)
+    .fluidInputs(<liquid:sterilized_growth_medium>*144)
+    .outputs(<contenttweaker:neural_implanted_hasoc_die>)
+    .duration(200)
+    .EUt(280000)
+    .buildAndRegister();
+
+mixer.recipeBuilder()
+    .fluidInputs(<liquid:sterilized_growth_medium>*1000)
+    .inputs(<gregtech:meta_item_1:2309>)
+    .fluidOutputs(<liquid:naquadah_rich_sterile_growth_medium>*1000)
+    .duration(80)
+    .EUt(120000)
+    .buildAndRegister();
+
+lmixer.recipeBuilder()
+    .fluidInputs(<liquid:sterilized_growth_medium>*1000)
+    .inputs(<gregtech:meta_item_1:2309>)
+    .fluidOutputs(<liquid:naquadah_rich_sterile_growth_medium>*1000)
+    .duration(80)
+    .EUt(120000)
+    .buildAndRegister();
+
+chemical_bath.recipeBuilder()
+    .fluidInputs(<liquid:distilled_water>*1000)
+    .inputs(<contenttweaker:grown_hasoc_die>)
+    .outputs(<contenttweaker:clean_hasoc_die>)
+    .duration(800)
+    .EUt(90080)
+    .buildAndRegister();
+
+chemical_bath.recipeBuilder()
+    .fluidInputs(<liquid:naquadah_rich_sterile_growth_medium>*144)
+    .inputs(<contenttweaker:neural_implanted_hasoc_die>)
+    .outputs(<contenttweaker:grown_hasoc_die>)
+    .duration(120)
+    .EUt(80)
+    .buildAndRegister();
+
+forming_press.recipeBuilder()
+    .inputs(<contenttweaker:biosafe_protective_plating>,<contenttweaker:clean_hasoc_die>)
+    .outputs(<gtadditions:ga_meta_item:32420>)
+    .duration(8000)
+    .EUt(1200)
+    .buildAndRegister();
+
+engraver.recipeBuilder()
+    .inputs(<contenttweaker:doped_oganesson_wafer>)
+    .notConsumable(<contenttweaker:hasoc_lithography_mask>)
+    .outputs(<contenttweaker:engraved_hasoc_wafer>)
+    .duration(800)
+    .EUt(90120)
+    .buildAndRegister();
+
+lengraver.recipeBuilder()
+    .inputs(<contenttweaker:doped_oganesson_wafer>)
+    .notConsumable(<contenttweaker:hasoc_lithography_mask>)
+    .outputs(<contenttweaker:engraved_hasoc_wafer>)
+    .duration(800)
+    .EUt(90120)
+    .buildAndRegister();
+
+forming_press.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:12617>,<gregtech:meta_item_1:12311>,<gregtech:meta_item_1:12308>,<gregtech:meta_item_2:32435>,<gregtech:meta_item_1:12047>)
+    .outputs(<contenttweaker:biosafe_protective_plating>)
+    .duration(129)
+    .EUt(80)
+    .buildAndRegister();
+
+polarizer.recipeBuilder()
+    .inputs(<contenttweaker:raw_oganesson_wafer>)
+    .outputs(<contenttweaker:doped_oganesson_wafer>)
+    .duration(800)
+    .EUt(90)
     .buildAndRegister();

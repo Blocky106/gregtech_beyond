@@ -143,3 +143,13 @@ engraving_unit.recipeMap.recipeBuilder()
     .duration(900)
     .EUt(8000)
     .buildAndRegister();
+
+engraving_unit.recipeMap.recipeBuilder()
+    .notConsumable(<contenttweaker:hasoc_lithography_mask>)
+    .inputs(<contenttweaker:doped_oganesson_wafer>)
+    .fluidInputs(<liquid:superfluid_helium>*1000)
+    .fluidOutputs(<liquid:helium>*1000)
+    .outputs(<contenttweaker:engraved_hasoc_wafer>)
+    .duration(900)
+    .EUt(8000)
+    .buildAndRegister();
