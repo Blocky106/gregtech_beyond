@@ -16,6 +16,8 @@ import mods.gregtech.recipe.CokeOvenRecipeBuilder;
 import mods.gtadditions.recipe.Utils;
 
 
+
+    
 ebf.recipeBuilder()
 	.inputs(<gregtech:meta_item_1:2535>)
 	.outputs(<gregtech:meta_item_1:10535>)
@@ -870,6 +872,14 @@ lcr.recipeBuilder()
 	.fluidInputs(<liquid:acetone> * 166,<liquid:bisphenol_a> * 1000)
 	.fluidOutputs(<liquid:bisphenolb> * 800)
 	.duration(80)
+	.EUt(120)
+	.buildAndRegister();
+
+lcr.recipeBuilder()
+	.inputs(<gregtech:meta_item_1:2216> * 3)
+	.fluidInputs(<liquid:sodium_persulfate> * 400,<liquid:chlorine>*1000)
+	.fluidOutputs(<liquid:ic2coolant> * 2000)
+	.duration(480)
 	.EUt(120)
 	.buildAndRegister();
 
@@ -2799,17 +2809,3 @@ lcentrifuge.recipeBuilder()
     .buildAndRegister();
 
 recipes.addShaped(<gregtech:machine:1410>, [[<ore:circuitBasic>, <minecraft:bowl>, <ore:circuitBasic>], 	[<gregtech:meta_item_1:32610>, <gregtech:machine:501>, <gregtech:meta_item_1:32610>], 	[<ore:circuitBasic>, <ore:pipeMediumSteel>, <ore:circuitBasic>]]);
-
-fluidExtractor.recipeBuilder()
-    .inputs(<gtadditions:ga_dust:32007>)
-    .fluidOutputs(<liquid:liquid_cryolite>*144)
-    .duration(200)
-    .EUt(12)
-    .buildAndRegister();
-
-fluidExtractor.recipeBuilder()
-    .inputs(<gregtech:meta_item_1:2155>)
-    .fluidOutputs(<liquid:liquid_salt>*144)
-    .duration(200)
-    .EUt(12)
-    .buildAndRegister();

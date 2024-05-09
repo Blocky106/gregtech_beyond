@@ -28,36 +28,11 @@ var meta = 10002;
 val neutron_accelerator = Builder.start(loc, meta)
     .withPattern(
             FactoryBlockPattern.start(RelativeDirection.RIGHT, RelativeDirection.BACK, RelativeDirection.UP)
-                .aisle(
-                    "CNMNC",
-                    "CCCCC",
-                    "CCCCC",
-                    "CCCCC",
-                    "CCSCC")
-                .aisle(
-                    "F~~~F",
-                    "~~~~~",
-                    "~~P~~",
-                    "~~~~~",
-                    "F~~~F")
-                .aisle(
-                    "F~~~F",
-                    "~~~~~",
-                    "~~P~~",
-                    "~~~~~",
-                    "F~~~F")
-                .aisle(
-                    "F~~~F",
-                    "~~~~~",
-                    "~~P~~",
-                    "~~~~~",
-                    "F~~~F")
-                .aisle(
-                    "CCCCC",
-                    "CCCCC",
-                    "CCCCC",
-                    "CCCCC",
-                    "CCCCC")
+                .aisle("CNMNC","CCCCC","CCCCC","CCCCC","CCSCC")
+                .aisle("F~~~F","~~~~~","~~P~~","~~~~~","F~~~F")
+                .aisle("F~~~F","~~~~~","~~P~~","~~~~~","F~~~F")
+                .aisle("F~~~F","~~~~~","~~P~~","~~~~~","F~~~F")
+                .aisle("CCCCC","CCCCC","CCCCC","CCCCC","CCCCC")
 
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
@@ -78,35 +53,35 @@ val neutron_accelerator = Builder.start(loc, meta)
         .addDesign(
                 FactoryMultiblockShapeInfo.start()
                 .aisle(
-                    "CCCCC",
-                    "F   F",
-                    "F   F",
-                    "F   F",
-                    "CCCCC")
+"CCCCC",
+"F   F",
+"F   F",
+"F   F",
+"CCCCC")
                 .aisle(
-                    "CCCCN",
-                    "     ",
-                    "     ",
-                    "     ",
-                    "CCCCC")
+"CCCCN",
+"     ",
+"     ",
+"     ",
+"CCCCC")
                 .aisle(
-                    "SCCCM",
-                    "  P  ",
-                    "  P  ",
-                    "  P  ",
-                    "CCCCC")
+"SCCCM",
+"  P  ",
+"  P  ",
+"  P  ",
+"CCCCC")
                 .aisle(
-                    "CCCCN",
-                    "     ",
-                    "     ",
-                    "     ",
-                    "CCCCC")
+"CCCCN",
+"     ",
+"     ",
+"     ",
+"CCCCC")
                 .aisle(
-                    "CCCCC",
-                    "F   F",
-                    "F   F",
-                    "F   F",
-                    "CCCCC")
+"CCCCC",
+"F   F",
+"F   F",
+"F   F",
+"CCCCC")
                                    
                 .where("C", <metastate:gregtech:metal_casing:5>)
                 .where("S", IBlockInfo.controller(loc))

@@ -28,22 +28,10 @@ var meta = 10053;
 val fischer_tropsch_reactor = Builder.start(loc, meta)
     .withPattern(
             FactoryBlockPattern.start(RelativeDirection.RIGHT, RelativeDirection.BACK, RelativeDirection.UP)
-                .aisle(
-                    "F~F",
-                    "~~~",
-                    "F~F")
-                .aisle(
-                    "CCC",
-                    "CCC",
-                    "CSC")
-                .aisle(
-                    "CCC",
-                    "C~C",
-                    "CCC")
-                .aisle(
-                    "CCC",
-                    "CCC",
-                    "CCC")
+                .aisle("F~F","~~~","F~F")
+                .aisle("CCC","CCC","CSC")
+                .aisle("CCC","C~C","CCC")
+                .aisle("CCC","CCC","CCC")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
                 .whereOr("C", 
@@ -60,20 +48,20 @@ val fischer_tropsch_reactor = Builder.start(loc, meta)
         .addDesign(
                 FactoryMultiblockShapeInfo.start()
                 .aisle(
-                    "F F",
-                    "CCC",
-                    "CCC",
-                    "CCC")
+"F F",
+"CCC",
+"CCC",
+"CCC")
                 .aisle(
-                    "   ",
-                    "SCE",
-                    "C C",
-                    "CCC")
+"   ",
+"SCE",
+"C C",
+"CCC")
                 .aisle(
-                    "F F",
-                    "CCC",
-                    "CCC",
-                    "CCC")
+"F F",
+"CCC",
+"CCC",
+"CCC")
                 .where("F", <metastate:gregtech:frame_titanium>)
                 .where("C", <metastate:gregtech:metal_casing:4>)
                 .where("S", IBlockInfo.controller(loc))
