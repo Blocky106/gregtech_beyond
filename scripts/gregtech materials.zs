@@ -507,14 +507,17 @@ util.registerDust("silver_bromide", 32210, 0x4B4A4A, "DULL");
 util.registerDust("hafnium_platinum_titanium_composite", 32211, 0x4B4A4A, "DULL");
 util.registerDust("muddy_monazite_ore_byproducts", 32212, 0x514442, "SHINY");
 util.registerDust("high_purity_arsenic", 32213, 0xB0B0B1, "SHINY");
+util.registerDust("indium_chloride", 32214, 0xF5C9C8, "SHINY");
 util.registerDust("nickel_nitride", 32215, 0x2F4F4F, "DULL");
 util.registerDust("ruby_leach", 32216, 0xF5C9C8, "SHINY");
+util.registerDust("vanadium_trichloride", 32217, 0xF5C9C8, "SHINY");
 
 
 
 
 
 
+util.registerFluid("liquid_helium_4",0xF0CFCF);
 util.registerFluid("hotic2coolant",0xF0CFCF);
 util.registerFluid("ruby_solution",0xEF5350);
 util.registerFluid("helium_4",0xEBB630);
@@ -536,6 +539,7 @@ util.registerFluid("n-hexadecanol", 0x735E57);
 util.registerFluid("methyl_isobutyl_carbonyl", 0x7C9AB2);
 util.registerFluid("1_amidol_ethyl_2_alkyl_2_imidazoline", 0x705195);
 util.registerFluid("arsenic_trichloride", 0x631531);
+util.registerFluid("vanadium_tetrochloride", 0x6E5DA1);
 util.registerFluid("trichloroflerane", 0x6E5DA1);
 util.registerFluid("chloronaquadic_acid", 0x32302D);
 util.registerFluid("very_hot_aqua_regia", 0xFFA000);
