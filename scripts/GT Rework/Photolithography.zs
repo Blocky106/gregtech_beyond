@@ -1062,16 +1062,6 @@ mixer.recipeBuilder()
     .EUt(100)
     .buildAndRegister();
 
-    //SOC wafer
-
-chemical_bath.recipeBuilder()
-    .inputs(<contenttweaker:raw_soc_wafer>)
-    .fluidInputs(<liquid:very_hot_krypton>)
-    .outputs(<gregtech:meta_item_2:32472>)
-    .duration(200)
-    .EUt(100)
-    .buildAndRegister();
-
     //Engraved ASOC wafer
 
 engraver.recipeBuilder()
@@ -1728,3 +1718,68 @@ ion_implanter.recipeBuilder()
 
 Utils.removeRecipeByOutput(lcr,[<gtadditions:ga_meta_item:32498>],[],false);
 
+mixer.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2584>)
+    .fluidInputs(<liquid:xenon>*1000,<liquid:seaborgium_doped_nanotubes>*1000)
+    .outputs(<gtadditions:ga_dust:32219>)
+    .duration(400)
+    .EUt(52450)
+    .buildAndRegister();
+
+lmixer.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2584>)
+    .fluidInputs(<liquid:xenon>*1000,<liquid:seaborgium_doped_nanotubes>*1000)
+    .outputs(<gtadditions:ga_dust:32219>)
+    .duration(400)
+    .EUt(52450)
+    .buildAndRegister();
+
+mixer.recipeBuilder()
+    .inputs(<gregtech:meta_item_2:16709>)
+    .fluidInputs(<liquid:xenon>*1000)
+    .outputs(<gtadditions:ga_dust:32218>)
+    .duration(400)
+    .EUt(52450)
+    .buildAndRegister();
+
+lmixer.recipeBuilder()
+    .inputs(<gregtech:meta_item_2:16709>)
+    .fluidInputs(<liquid:xenon>*1000)
+    .outputs(<gtadditions:ga_dust:32218>)
+    .duration(400)
+    .EUt(52450)
+    .buildAndRegister();
+
+mixer.recipeBuilder()
+    .inputs(<gregtech:meta_item_2:16709>)
+    .fluidInputs(<liquid:krypton>*1000)
+    .outputs(<gtadditions:ga_dust:32220>)
+    .duration(400)
+    .EUt(52450)
+    .buildAndRegister();
+
+lmixer.recipeBuilder()
+    .inputs(<gregtech:meta_item_2:16709>)
+    .fluidInputs(<liquid:krypton>*1000)
+    .outputs(<gtadditions:ga_dust:32220>)
+    .duration(400)
+    .EUt(52450)
+    .buildAndRegister();
+
+
+
+engraver.recipeBuilder()
+    .inputs(<gregtech:meta_item_2:25209>)
+    .notConsumable(<gregicalityoreaddon:gaoe_meta_item:9>)
+    .outputs(<gregtech:meta_item_1:8584>)
+    .duration(800)
+    .EUt(901275)
+    .buildAndRegister();
+
+lengraver.recipeBuilder()
+    .inputs(<gregtech:meta_item_2:25209>)
+    .notConsumable(<gregicalityoreaddon:gaoe_meta_item:9>)
+    .outputs(<gregtech:meta_item_1:8584>)
+    .duration(800)
+    .EUt(901275)
+    .buildAndRegister();
