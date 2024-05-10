@@ -296,7 +296,7 @@ desh.addFlags(["GENERATE_PLATE"]);
 val naquadah_dioxide = MaterialRegistry.createIngotMaterial(628,"naquadah_dioxide",0x7308a1,"SHINY",3);
 naquadah_dioxide.addFlags(["GENERATE_PLATE"]);
 
-val electron_degenerate_rhenium = MaterialRegistry.createIngotMaterial(629,"electron_degenerate_rhenium",0x7308a1,"SHINY",3);
+val electron_degenerate_rhenium = MaterialRegistry.createIngotMaterial(629,"electron_degenerate_rhenium",0x3746A4,"SHINY",3);
 electron_degenerate_rhenium.addFlags(["GENERATE_PLATE"]);
 
 
@@ -499,7 +499,7 @@ util.registerDust("excited_roughen_mithril_dust", 32199, 0xAED2F2, "SHINY");
 util.registerDust("excited_mithril_dust", 32200, 0xAED2F2, "SHINY");
 util.registerDust("cobalt_60_dust", 32201, 0x091175, "DULL");
 util.registerDust("magnesiumtetrachloride", 32202, 0xBA68C8, "DULL");
-util.registerDust("white_phosporus", 32203, 0xBA68C8, "SHINY");
+util.registerDust("white_phosporus", 32203, 0xfffbc7, "SHINY");
 util.registerDust("phosphorus_pentoxide", 32204, 0xBA68C8, "SHINY");
 util.registerDust("floated_andesite", 32205, 0x787575, "SHINY");
 util.registerDust("digested_andesite", 32206, 0x787575, "DULL");
