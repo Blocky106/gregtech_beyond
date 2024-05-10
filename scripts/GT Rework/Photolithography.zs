@@ -1048,7 +1048,7 @@ engraver.recipeBuilder()
 
 lcr.recipeBuilder()
     .fluidInputs(<liquid:liquid_enriched_helium_4>*1000 , <liquid:liquid_nitrogen>*1000)
-    .fluidOutputs(<liquid:superfluid_helium_4>*1000 , <liquid:helium_3>*1000)
+    .fluidOutputs(<liquid:superfluid_helium_4>*1000 , <liquid:helium3>*1000)
     .duration(200)
     .EUt(100)
     .buildAndRegister();
