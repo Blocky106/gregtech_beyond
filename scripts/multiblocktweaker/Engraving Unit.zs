@@ -165,8 +165,8 @@ engraving_unit.recipeMap.recipeBuilder()
     .buildAndRegister();
 
 engraving_unit.recipeMap.recipeBuilder()
-    .notConsumable(<contenttweaker:soc_lithography_mask>)
-    .inputs(<contenttweaker:uhasoc_lithography_mask>)
+    .notConsumable(<contenttweaker:uhasoc_lithography_mask>)
+    .inputs(<contenttweaker:doped_oganesson_wafer>)
     .outputs(<contenttweaker:pre_engraved_uhasoc_wafer>)
     .fluidInputs(<liquid:superfluid_helium>*1000)
     .fluidOutputs(<liquid:helium>*1000)
