@@ -296,6 +296,9 @@ desh.addFlags(["GENERATE_PLATE"]);
 val naquadah_dioxide = MaterialRegistry.createIngotMaterial(628,"naquadah_dioxide",0x7308a1,"SHINY",3);
 naquadah_dioxide.addFlags(["GENERATE_PLATE"]);
 
+val electron_degenerate_rhenium = MaterialRegistry.createIngotMaterial(629,"electron_degenerate_rhenium",0x7308a1,"SHINY",3);
+electron_degenerate_rhenium.addFlags(["GENERATE_PLATE"]);
+
 
 
 
@@ -511,6 +514,13 @@ util.registerDust("indium_chloride", 32214, 0x311B92, "SHINY");
 util.registerDust("nickel_nitride", 32215, 0x2F4F4F, "DULL");
 util.registerDust("ruby_leach", 32216, 0xF5C9C8, "SHINY");
 util.registerDust("vanadium_trichloride", 32217, 0xFB8C00, "SHINY");
+util.registerDust("nanotube_deposition_mix", 32218, 0x2F4F4F, "SHINY");
+util.registerDust("doped_nanotube_deposition_mix", 32219, 0xF5C9C8, "SHINY");
+util.registerDust("nanotube_insulation_deposition_mix", 32220, 0xFB8C00, "SHINY");
+util.registerDust("dielectric_mirror_formation_mix", 32221, 0xFB8C00, "SHINY");
+util.registerDust("doped_carbon_nanotubes", 32222, 0x2F4F4F, "SHINY");
+
+
 
 
 

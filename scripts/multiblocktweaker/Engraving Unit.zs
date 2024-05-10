@@ -163,3 +163,61 @@ engraving_unit.recipeMap.recipeBuilder()
     .duration(900)
     .EUt(800)
     .buildAndRegister();
+
+engraving_unit.recipeMap.recipeBuilder()
+    .notConsumable(<contenttweaker:soc_lithography_mask>)
+    .inputs(<contenttweaker:uhasoc_lithography_mask>)
+    .outputs(<contenttweaker:pre_engraved_uhasoc_wafer>)
+    .fluidInputs(<liquid:superfluid_helium>*1000)
+    .fluidOutputs(<liquid:helium>*1000)
+    .duration(900)
+    .EUt(800)
+    .buildAndRegister();
+
+engraving_unit.recipeMap.recipeBuilder()
+    .notConsumable(<contenttweaker:relayered_uhasoc_wafer>)
+    .inputs(<contenttweaker:uhasoc_post_engraving_mask>)
+    .outputs(<contenttweaker:fully_connected_uhasoc_wafer>)
+    .fluidInputs(<liquid:superfluid_helium>*1000)
+    .fluidOutputs(<liquid:helium>*1000)
+    .duration(900)
+    .EUt(800)
+    .buildAndRegister();
+
+engraving_unit.recipeMap.recipeBuilder()
+    .notConsumable(<contenttweaker:optical_lithography_mask>)
+    .inputs(<contenttweaker:zblan_layered_inp_wafer>)
+    .outputs(<contenttweaker:interconnected_inp_wafer>)
+    .fluidInputs(<liquid:superfluid_helium>*1000)
+    .fluidOutputs(<liquid:helium>*1000)
+    .duration(900)
+    .EUt(800)
+    .buildAndRegister();
+
+engraving_unit.recipeMap.recipeBuilder()
+    .notConsumable(<contenttweaker:optical_lithography_mask>)
+    .inputs(<contenttweaker:insulated_inp_wafer>)
+    .outputs(<contenttweaker:re_exposed_inp_wafer>)
+    .fluidInputs(<liquid:superfluid_helium>*1000)
+    .fluidOutputs(<liquid:helium>*1000)
+    .duration(900)
+    .EUt(800)
+    .buildAndRegister();
+
+engraving_unit.recipeMap.recipeBuilder()
+    .inputs(<contenttweaker:recoated_inp_wafer>)
+    .outputs(<contenttweaker:contact_ready_inp_wafer>)
+    .fluidInputs(<liquid:superfluid_helium>*1000)
+    .fluidOutputs(<liquid:helium>*1000)
+    .duration(900)
+    .EUt(800)
+    .buildAndRegister();
+
+engraving_unit.recipeMap.recipeBuilder()
+    .inputs(<contenttweaker:insulated_optical_soc>)
+    .outputs(<contenttweaker:contactless_optical_soc>)
+    .fluidInputs(<liquid:superfluid_helium>*1000)
+    .fluidOutputs(<liquid:helium>*1000)
+    .duration(900)
+    .EUt(800)
+    .buildAndRegister();
