@@ -668,7 +668,6 @@ var items = [
 "naquadah_dioxide_seed_crystal",
 "naquadah_dioxide_boule",
 "naquadah_dioxide_wafer",
-"raw_soc_wafer",
 "doped_aram_wafer",
 "hot_silicon_ingot",
 "unbaked_monocrystalline_silicon_boule"
