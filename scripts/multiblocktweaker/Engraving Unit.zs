@@ -153,3 +153,13 @@ engraving_unit.recipeMap.recipeBuilder()
     .duration(900)
     .EUt(8000)
     .buildAndRegister();
+
+engraving_unit.recipeMap.recipeBuilder()
+    .notConsumable(<contenttweaker:soc_lithography_mask>)
+    .inputs(<contenttweaker:soc_wafer_base>)
+    .outputs(<contenttweaker:engraved_soc_wafer>)
+    .fluidInputs(<liquid:superfluid_helium>*1000)
+    .fluidOutputs(<liquid:helium>*1000)
+    .duration(900)
+    .EUt(800)
+    .buildAndRegister();
