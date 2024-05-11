@@ -3508,9 +3508,41 @@ lcr.recipeBuilder()
     .EUt(128)
     .buildAndRegister();
 
-stellar_forge.recipeBuilder()
+stellar.recipeBuilder()
     .inputs(<gregtech:meta_block_compressed_47:11>,<gtadditions:ga_explosive:1>)
     .fluidOutputs(<liquid:electron_degenerate_rhenium_plasma>*1296)
     .duration(12000)
     .EUt(128414)
+    .buildAndRegister();
+
+stellar.recipeBuilder()
+    .notConsumable(<gtadditions:ga_meta_item:32431>)
+    .fluidOutputs(<liquid:helium>*16000)
+    .fluidInputs(<liquid:electron_degenerate_rhenium_plasma>*144,<liquid:liquid_helium>*16000)
+    .outputs(<gregtech:meta_item_1:12629>)
+    .duration(89000)
+    .EUt(123409)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .fluidInputs(<liquid:tritanium>*1200)
+    .inputs(<gregtech:meta_item_1:12629>,<gregtech:meta_item_1:12575>*8,<gregtech:meta_item_1:12630>*16,<gregtech:meta_item_1:12572>*2,<gregtech:cable:744>*4,<gregtech:meta_item_1:32677>,<ore:circuitMaster>,<gregtech:meta_item_1:12311>)
+    .outputs(<contenttweaker:controlled_shaped_naquadah_charge_casing>)
+    .duration(8900)
+    .EUt(125723)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs(<contenttweaker:controlled_shaped_naquadah_charge_casing>,<gtadditions:ga_explosive:1>)
+    .outputs(<contenttweaker:controlled_shaped_naquadah_charge>)
+    .duration(120)
+    .EUt(780)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2822>,<gregtech:meta_item_1:12184>*4,<gregtech:meta_item_1:12840>*2)
+    .outputs(<contenttweaker:u240_electron_source>)
+    .fluidInputs(<liquid:soldering_alloy>*1296)
+    .duration(120)
+    .EUt(7012)
     .buildAndRegister();
