@@ -124,3 +124,11 @@ textile_factory.recipeMap.recipeBuilder()
     .duration(200)
     .EUt(120)
     .buildAndRegister();
+
+textile_factory.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:pre_nylon_mix>*1000)
+    .notConsumable(<gregtech:meta_item_1:32301>)
+    .outputs(<gregtech:material:12630>)
+    .duration(700)
+    .EUt(180)
+    .buildAndRegister();
