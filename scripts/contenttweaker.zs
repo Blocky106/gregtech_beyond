@@ -158,11 +158,14 @@ registerMetalBlock("t2_rocket_engine", 12.0, 10.0, 1);
 registerMetalBlock("naquadah_deposit_block", 12.0, 10.0, 1);
 registerMetalBlock("rocket_equipment", 12.0, 10.0, 1);
 registerMetalBlock("protective_outer_wall", 12.0, 10.0, 1);
+registerMetalBlock("extreme_protective_outer_wall", 12.0, 10.0, 1);
 registerMetalBlock("stabilization_fin", 12.0, 10.0, 1);
 registerMetalBlock("guidance_system", 12.0, 10.0, 1);
 registerMetalBlock("rocket_thruster", 12.0, 10.0, 1);
 registerMetalBlock("t1_rocket_engine", 12.0, 10.0, 1);
+registerMetalBlock("t4_rocket_engine", 12.0, 10.0, 1);
 registerMetalBlock("highpowercasing", 12.0, 10.0, 1);
+registerMetalBlock("extreme_rocket_thruster", 12.0, 10.0, 1);
 
 
 
