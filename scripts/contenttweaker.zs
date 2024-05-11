@@ -235,6 +235,7 @@ var items = [
 "engraved_cpu_wafer",
 "engraved_barium_titanate_substrate_wafer",
 "engraved_ram_wafer",
+"controlled_shaped_naquadah_charge",
 "ram_lithography_mask",
 "cpu_lithography_mask",
 "lpic_lithography_mask",
