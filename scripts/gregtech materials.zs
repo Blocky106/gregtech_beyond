@@ -299,6 +299,10 @@ naquadah_dioxide.addFlags(["GENERATE_PLATE"]);
 val electron_degenerate_rhenium = MaterialRegistry.createIngotMaterial(629,"electron_degenerate_rhenium",0x3746A4,"SHINY",3);
 electron_degenerate_rhenium.addFlags(["GENERATE_PLATE"]);
 
+val nylon = MaterialRegistry.createIngotMaterial(630,"nylon",0xE5AF58,"DULL",3);
+nylon.addFlags(["GENERATE_PLATE"]);
+
+
 
 
 
@@ -527,6 +531,7 @@ util.registerDust("doped_carbon_nanotubes", 32222, 0x2F4F4F, "SHINY");
 
 
 
+util.registerFluid("electron_degenerate_rhenium_plasma",0x4A148C);
 util.registerFluid("naquadah_rich_sterile_growth_medium",0x7D7878);
 util.registerFluid("liquid_helium_4",0xFBC02D);
 util.registerFluid("hotic2coolant",0xF0CFCF);
@@ -968,7 +973,7 @@ util.registerFluid("silicon_carbide",0x515151);
 util.registerFluid("hot_treated_wastewater",0x515151);
 util.registerFluid("liquid_salt",0xD3D4D5);
 util.registerFluid("liquid_cryolite",0x42A5F5);
-
+util.registerFluid("pre_nylon_mix",0xE5AF58);
 
 
 
