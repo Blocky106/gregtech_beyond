@@ -48,7 +48,7 @@ val rocket_four = Builder.start(loc, meta)
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
                 .whereOr("C", 
-                <blockstate:contenttweaker:extreme_outer_protective_wall>,
+                <blockstate:contenttweaker:extreme_protective_outer_wall>,
                     IBlockMatcher.abilityPartPredicate(
                         MultiblockAbility.IMPORT_FLUIDS,
                         MultiblockAbility.IMPORT_ITEMS,
@@ -69,7 +69,7 @@ val rocket_four = Builder.start(loc, meta)
                 .aisle("  T  ","  R  "," SCE ","FCCCF","FCCCF"," FCF "," CQC "," C C "," C C "," C C "," C C "," COC ","  C  ","  C  ")
                 .aisle(" T T "," R R "," CCC "," CCC "," CCC "," CFC "," CCC "," CCC "," CCC ","  C  ","  C  ","  C  ","     ","     ")
                 .aisle("     ","     ","     ","  F  ","  F  ","     ","     ","     ","     ","     ","     ","     ","     ","     ")
-                .where("C", <blockstate:contenttweaker:extreme_outer_protective_wall>)
+                .where("C", <blockstate:contenttweaker:extreme_protective_outer_wall>)
                 .where("S", IBlockInfo.controller(loc))
                 .where("O", <blockstate:contenttweaker:guidance_system>)
                 .where("Q", <blockstate:contenttweaker:rocket_equipment>)

@@ -365,7 +365,7 @@ var items = [
 "pre_engraved_uhasoc_wafer",
 "superconductor_layered_uhasoc_wafer",
 "degenerate_uhasoc_wafer",
-"controlled_shaped_naquadah_charge",
+"controlled_shaped_naquadah_charge_casing",
 "celled_uhasoc_wafer",
 "spin_aligned_celled_uhasoc_wafer",
 "uhasoc_post_engraving_mask",
