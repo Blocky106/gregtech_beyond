@@ -2025,7 +2025,7 @@ assembly_line.recipeBuilder()
 
 assembly_line.recipeBuilder()
     .fluidInputs(<liquid:soldering_alloy>*16384,<liquid:osmiridium>*1400)
-    .inputs(<gregtech:machine:3239>,<gtadditions:ga_meta_item:32424>*16,<gtadditions:ga_meta_item:32423>*32,<contenttweaker:titansteelcoil>*10,<contenttweaker:twocryogeniccoolant>,<contenttweaker:twocryogeniccoolant>,<gregtech:cable:312>*16,<ore:circuitInfinite>,<ore:circuitInfinite>)
+    .inputs(<gregtech:machine:3239>,<gtadditions:ga_meta_item:32424>*16,<gtadditions:ga_meta_item:32422>*32,<contenttweaker:titansteelcoil>*10,<contenttweaker:twocryogeniccoolant>,<contenttweaker:twocryogeniccoolant>,<gregtech:cable:312>*16,<ore:circuitInfinite>,<ore:circuitInfinite>)
     .outputs(<gregtech:machine:4025>)
     .duration(400)
     .EUt(2009700)

@@ -171,6 +171,7 @@ registerMetalBlock("extreme_rocket_thruster", 12.0, 10.0, 1);
 
 
 var items = [
+"trenched_superconductor_layered_uhasoc_wafer",
 "steel_item_casing",
 "enhancedenderiumlense",
 "alumino_silicate_wool_sheet",
