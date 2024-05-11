@@ -1853,6 +1853,9 @@ item.contenttweaker.flerovium_layered_wafer.name=Flerovium Layered Wafer
 item.contenttweaker.naquadah_dioxide_wafer.name=Naquadah Dioxide Wafer
 item.contenttweaker.naquadah_dioxide_boule.name=Naquadah Dioxide Boule
 item.contenttweaker.enriched_naquadah_photolithography_mask.name=Enriched Naquadah Photolithography Mask
+tile.contenttweaker.extreme_outer_protective_wall.name=Extreme Outer Protective Wall
+tile.contenttweaker.t4_rocket_engine.name=T4 Rocket Engine
+tile.contenttweaker.extreme_rocket_thruster.name=Extreme Rocket Thruster
 
 
 
