@@ -3475,3 +3475,42 @@ centrifuge.recipeBuilder()
     .buildAndRegister();
 
 electrolyzer.findRecipe(60, [<gregtech:meta_item_1:2154>*6], null).remove();
+
+assembler.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:12184>*2,<gregtech:meta_item_1:12741>,<gregtech:meta_item_1:12527>,<gregtech:meta_item_1:12973>)
+    .outputs(<contenttweaker:heavydutyalloyt4>)
+    .EUt(700)
+    .duration(120)
+    .buildAndRegister();
+
+chemical_plant.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:911>*66,<gregtech:meta_item_1:2063>*6,<gregtech:meta_item_1:2155>*12)
+    .fluidInputs(<liquid:hydroxylamine_hydrochloride>*6000,<liquid:toluene>*6000,<liquid:methanol>*4000)
+    .outputs(<gtadditions:ga_dust:915>*13)
+    .fluidOutputs(<liquid:water>*6000,<liquid:hydrogen>*6000)
+    .EUt(1920)
+    .duration(400)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:hexamethylenediamine>*1000,<liquid:water>*2000)
+    .inputs(<gtadditions:ga_dust:347>*2)
+    .fluidOutputs(<liquid:pre_nylon_mix>*2000)
+    .duration(200)
+    .EUt(128)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:hexamethylenediamine>*1000,<liquid:water>*2000)
+    .inputs(<gtadditions:ga_dust:347>*2)
+    .fluidOutputs(<liquid:pre_nylon_mix>*2000)
+    .duration(200)
+    .EUt(128)
+    .buildAndRegister();
+
+stellar_forge.recipeBuilder()
+    .inputs(<gregtech:meta_block_compressed_47:11>,<gtadditions:ga_explosive:1>)
+    .fluidOutputs(<liquid:electron_degenerate_rhenium_plasma>*1296)
+    .duration(12000)
+    .EUt(128414)
+    .buildAndRegister();
