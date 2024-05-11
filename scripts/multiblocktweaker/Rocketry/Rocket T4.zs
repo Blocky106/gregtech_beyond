@@ -59,7 +59,7 @@ val rocket_four = Builder.start(loc, meta)
                 .where("O", <blockstate:contenttweaker:guidance_system>)
                 .where("Q", <blockstate:contenttweaker:rocket_equipment>)
                 .where("F", <blockstate:contenttweaker:advanced_stabilization_fin>)
-                .where("T", <blockstate:contenttweaker:advanced_rocket_thruster>)
+                .where("T", <blockstate:contenttweaker:extreme_rocket_thruster>)
                 .where("R", <blockstate:contenttweaker:t4_rocket_engine>)
                 .build())
         .addDesign(
@@ -90,26 +90,3 @@ val rocket_four = Builder.start(loc, meta)
 .withZoom(0.5f)
 .buildAndRegister() as Multiblock;
 
-rocket_three.recipeMap.recipeBuilder()
-    .inputs(<contenttweaker:researchpapermoon>)
-    .fluidInputs(<liquid:dense_hydrazine_fuel_mixture>*500)
-    .outputs(<contenttweaker:moon>)
-    .duration(20)
-    .EUt(120)
-    .buildAndRegister();
-
-rocket_three.recipeMap.recipeBuilder()
-    .inputs(<contenttweaker:researchpapermars>)
-    .fluidInputs(<liquid:dense_hydrazine_fuel_mixture>*750)
-    .outputs(<contenttweaker:mars>)
-    .duration(20)
-    .EUt(120)
-    .buildAndRegister();
-
-rocket_three.recipeMap.recipeBuilder()
-    .inputs(<contenttweaker:researchpapermercury>)
-    .fluidInputs(<liquid:dense_hydrazine_fuel_mixture>*1000)
-    .outputs(<contenttweaker:mercury>)
-    .duration(40)
-    .EUt(240)
-    .buildAndRegister();
