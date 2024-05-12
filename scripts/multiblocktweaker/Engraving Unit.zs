@@ -143,3 +143,81 @@ engraving_unit.recipeMap.recipeBuilder()
     .duration(900)
     .EUt(8000)
     .buildAndRegister();
+
+engraving_unit.recipeMap.recipeBuilder()
+    .notConsumable(<contenttweaker:hasoc_lithography_mask>)
+    .inputs(<contenttweaker:doped_oganesson_wafer>)
+    .fluidInputs(<liquid:superfluid_helium>*1000)
+    .fluidOutputs(<liquid:helium>*1000)
+    .outputs(<contenttweaker:engraved_hasoc_wafer>)
+    .duration(900)
+    .EUt(8000)
+    .buildAndRegister();
+
+engraving_unit.recipeMap.recipeBuilder()
+    .notConsumable(<contenttweaker:soc_lithography_mask>)
+    .inputs(<contenttweaker:soc_wafer_base>)
+    .outputs(<contenttweaker:engraved_soc_wafer>)
+    .fluidInputs(<liquid:superfluid_helium>*1000)
+    .fluidOutputs(<liquid:helium>*1000)
+    .duration(900)
+    .EUt(800)
+    .buildAndRegister();
+
+engraving_unit.recipeMap.recipeBuilder()
+    .notConsumable(<contenttweaker:uhasoc_lithography_mask>)
+    .inputs(<contenttweaker:doped_oganesson_wafer>)
+    .outputs(<contenttweaker:pre_engraved_uhasoc_wafer>)
+    .fluidInputs(<liquid:superfluid_helium>*1000)
+    .fluidOutputs(<liquid:helium>*1000)
+    .duration(900)
+    .EUt(800)
+    .buildAndRegister();
+
+engraving_unit.recipeMap.recipeBuilder()
+    .notConsumable(<contenttweaker:relayered_uhasoc_wafer>)
+    .inputs(<contenttweaker:uhasoc_post_engraving_mask>)
+    .outputs(<contenttweaker:fully_connected_uhasoc_wafer>)
+    .fluidInputs(<liquid:superfluid_helium>*1000)
+    .fluidOutputs(<liquid:helium>*1000)
+    .duration(900)
+    .EUt(800)
+    .buildAndRegister();
+
+engraving_unit.recipeMap.recipeBuilder()
+    .notConsumable(<contenttweaker:optical_lithography_mask>)
+    .inputs(<contenttweaker:zblan_layered_inp_wafer>)
+    .outputs(<contenttweaker:interconnected_inp_wafer>)
+    .fluidInputs(<liquid:superfluid_helium>*1000)
+    .fluidOutputs(<liquid:helium>*1000)
+    .duration(900)
+    .EUt(800)
+    .buildAndRegister();
+
+engraving_unit.recipeMap.recipeBuilder()
+    .notConsumable(<contenttweaker:optical_lithography_mask>)
+    .inputs(<contenttweaker:insulated_inp_wafer>)
+    .outputs(<contenttweaker:re_exposed_inp_wafer>)
+    .fluidInputs(<liquid:superfluid_helium>*1000)
+    .fluidOutputs(<liquid:helium>*1000)
+    .duration(900)
+    .EUt(800)
+    .buildAndRegister();
+
+engraving_unit.recipeMap.recipeBuilder()
+    .inputs(<contenttweaker:recoated_inp_wafer>)
+    .outputs(<contenttweaker:contact_ready_inp_wafer>)
+    .fluidInputs(<liquid:superfluid_helium>*1000)
+    .fluidOutputs(<liquid:helium>*1000)
+    .duration(900)
+    .EUt(800)
+    .buildAndRegister();
+
+engraving_unit.recipeMap.recipeBuilder()
+    .inputs(<contenttweaker:insulated_optical_soc>)
+    .outputs(<contenttweaker:contactless_optical_soc>)
+    .fluidInputs(<liquid:superfluid_helium>*1000)
+    .fluidOutputs(<liquid:helium>*1000)
+    .duration(900)
+    .EUt(800)
+    .buildAndRegister();

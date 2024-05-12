@@ -3475,3 +3475,74 @@ centrifuge.recipeBuilder()
     .buildAndRegister();
 
 electrolyzer.findRecipe(60, [<gregtech:meta_item_1:2154>*6], null).remove();
+
+assembler.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:12184>*2,<gregtech:meta_item_1:12741>,<gregtech:meta_item_1:12527>,<gregtech:meta_item_1:12973>)
+    .outputs(<contenttweaker:heavydutyalloyt4>)
+    .EUt(700)
+    .duration(120)
+    .buildAndRegister();
+
+chemical_plant.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:911>*66,<gregtech:meta_item_1:2063>*6,<gregtech:meta_item_1:2155>*12)
+    .fluidInputs(<liquid:hydroxylamine_hydrochloride>*6000,<liquid:toluene>*6000,<liquid:methanol>*4000)
+    .outputs(<gtadditions:ga_dust:915>*13)
+    .fluidOutputs(<liquid:water>*6000,<liquid:hydrogen>*6000)
+    .EUt(1920)
+    .duration(400)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:hexamethylenediamine>*1000,<liquid:water>*2000)
+    .inputs(<gtadditions:ga_dust:347>*2)
+    .fluidOutputs(<liquid:pre_nylon_mix>*2000)
+    .duration(200)
+    .EUt(128)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:hexamethylenediamine>*1000,<liquid:water>*2000)
+    .inputs(<gtadditions:ga_dust:347>*2)
+    .fluidOutputs(<liquid:pre_nylon_mix>*2000)
+    .duration(200)
+    .EUt(128)
+    .buildAndRegister();
+
+stellar.recipeBuilder()
+    .inputs(<gregtech:meta_block_compressed_47:11>,<gtadditions:ga_explosive:1>)
+    .fluidOutputs(<liquid:electron_degenerate_rhenium_plasma>*1296)
+    .duration(12000)
+    .EUt(128414)
+    .buildAndRegister();
+
+stellar.recipeBuilder()
+    .notConsumable(<gtadditions:ga_meta_item:32431>)
+    .fluidOutputs(<liquid:helium>*16000)
+    .fluidInputs(<liquid:electron_degenerate_rhenium_plasma>*144,<liquid:liquid_helium>*16000)
+    .outputs(<gregtech:meta_item_1:12629>)
+    .duration(89000)
+    .EUt(123409)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .fluidInputs(<liquid:tritanium>*1200)
+    .inputs(<gregtech:meta_item_1:12629>,<gregtech:meta_item_1:12575>*8,<gregtech:meta_item_1:12630>*16,<gregtech:meta_item_1:12572>*2,<gregtech:cable:744>*4,<gregtech:meta_item_1:32677>,<ore:circuitMaster>,<gregtech:meta_item_1:12311>)
+    .outputs(<contenttweaker:controlled_shaped_naquadah_charge_casing>)
+    .duration(8900)
+    .EUt(125723)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs(<contenttweaker:controlled_shaped_naquadah_charge_casing>,<gtadditions:ga_explosive:1>)
+    .outputs(<contenttweaker:controlled_shaped_naquadah_charge>)
+    .duration(120)
+    .EUt(780)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2822>,<gregtech:meta_item_1:12184>*4,<gregtech:meta_item_1:12840>*2)
+    .outputs(<contenttweaker:u240_electron_source>)
+    .fluidInputs(<liquid:soldering_alloy>*1296)
+    .duration(120)
+    .EUt(7012)
+    .buildAndRegister();

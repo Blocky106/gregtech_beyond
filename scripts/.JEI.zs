@@ -95,6 +95,7 @@ mods.jei.JEI.hideCategory("forestry.bottler");
 mods.jei.JEI.hideCategory("gtadditions:disassembler");
 mods.jei.JEI.hideCategory("gregtech:rocket_one");
 mods.jei.JEI.hideCategory("gregtech:rocket_two");
+mods.jei.JEI.hideCategory("gregtech:rocket_three");
 mods.jei.JEI.hideCategory("gregtech:pvd_unit");
 mods.jei.JEI.hideCategory("gregtech:mega_chemical_reactor");
 mods.jei.JEI.hideCategory("gregtech:bacterial_vat");

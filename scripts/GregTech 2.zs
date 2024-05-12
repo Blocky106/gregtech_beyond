@@ -125,7 +125,21 @@ metal_bender.recipeBuilder()
     .duration(300)
     .EUt(12)
     .buildAndRegister();
+recipes.addShaped(<gregtech:machine:1410>, [[<ore:circuitBasic>, <minecraft:bowl>, <ore:circuitBasic>], 	[<gregtech:meta_item_1:32610>, <gregtech:machine:501>, <gregtech:meta_item_1:32610>], 	[<ore:circuitBasic>, <ore:pipeMediumSteel>, <ore:circuitBasic>]]);
 
+fluidExtractor.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:32007>)
+    .fluidOutputs(<liquid:liquid_cryolite>*144)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
+
+fluidExtractor.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2155>)
+    .fluidOutputs(<liquid:liquid_salt>*144)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
 metal_bender.recipeBuilder()
     .inputs(<gregtech:meta_item_1:10018>)
     .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 0}))
@@ -2011,7 +2025,7 @@ assembly_line.recipeBuilder()
 
 assembly_line.recipeBuilder()
     .fluidInputs(<liquid:soldering_alloy>*16384,<liquid:osmiridium>*1400)
-    .inputs(<gregtech:machine:3239>,<gtadditions:ga_meta_item:32424>*16,<gtadditions:ga_meta_item:32423>*32,<contenttweaker:titansteelcoil>*10,<contenttweaker:twocryogeniccoolant>,<contenttweaker:twocryogeniccoolant>,<gregtech:cable:312>*16,<ore:circuitInfinite>,<ore:circuitInfinite>)
+    .inputs(<gregtech:machine:3239>,<gtadditions:ga_meta_item:32424>*16,<gtadditions:ga_meta_item:32422>*32,<contenttweaker:titansteelcoil>*10,<contenttweaker:twocryogeniccoolant>,<contenttweaker:twocryogeniccoolant>,<gregtech:cable:312>*16,<ore:circuitInfinite>,<ore:circuitInfinite>)
     .outputs(<gregtech:machine:4025>)
     .duration(400)
     .EUt(2009700)
@@ -2809,3 +2823,4 @@ lcentrifuge.recipeBuilder()
     .buildAndRegister();
 
 recipes.addShaped(<gregtech:machine:1410>, [[<ore:circuitBasic>, <minecraft:bowl>, <ore:circuitBasic>], 	[<gregtech:meta_item_1:32610>, <gregtech:machine:501>, <gregtech:meta_item_1:32610>], 	[<ore:circuitBasic>, <ore:pipeMediumSteel>, <ore:circuitBasic>]]);
+

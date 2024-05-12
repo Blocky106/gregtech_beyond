@@ -293,6 +293,16 @@ deshite.addFlags(["GENERATE_PLATE","GENERATE_ORE"]);
 val desh = MaterialRegistry.createIngotMaterial(623,"desh",0x333333,"SHINY",3);
 desh.addFlags(["GENERATE_PLATE"]);
 
+val naquadah_dioxide = MaterialRegistry.createIngotMaterial(628,"naquadah_dioxide",0x7308a1,"SHINY",3);
+naquadah_dioxide.addFlags(["GENERATE_PLATE"]);
+
+val electron_degenerate_rhenium = MaterialRegistry.createIngotMaterial(629,"electron_degenerate_rhenium",0x3746A4,"SHINY",3);
+electron_degenerate_rhenium.addFlags(["GENERATE_PLATE"]);
+
+val nylon = MaterialRegistry.createIngotMaterial(630,"nylon",0xE5AF58,"DULL",3);
+nylon.addFlags(["GENERATE_PLATE"]);
+
+
 
 
 
@@ -493,7 +503,7 @@ util.registerDust("excited_roughen_mithril_dust", 32199, 0xAED2F2, "SHINY");
 util.registerDust("excited_mithril_dust", 32200, 0xAED2F2, "SHINY");
 util.registerDust("cobalt_60_dust", 32201, 0x091175, "DULL");
 util.registerDust("magnesiumtetrachloride", 32202, 0xBA68C8, "DULL");
-util.registerDust("white_phosporus", 32203, 0xBA68C8, "SHINY");
+util.registerDust("white_phosporus", 32203, 0xfffbc7, "SHINY");
 util.registerDust("phosphorus_pentoxide", 32204, 0xBA68C8, "SHINY");
 util.registerDust("floated_andesite", 32205, 0x787575, "SHINY");
 util.registerDust("digested_andesite", 32206, 0x787575, "DULL");
@@ -503,20 +513,31 @@ util.registerDust("evaporated_deshite_compound", 32209, 0x4B4A4A, "DULL");
 util.registerDust("silver_bromide", 32210, 0x4B4A4A, "DULL");
 util.registerDust("hafnium_platinum_titanium_composite", 32211, 0x4B4A4A, "DULL");
 util.registerDust("muddy_monazite_ore_byproducts", 32212, 0x514442, "SHINY");
-util.registerDust("high_purity_arsenic", 32213, 0x514442, "SHINY");
-util.registerDust("naquadah_dioxide", 32214, 0x4B0082, "DULL");
+util.registerDust("high_purity_arsenic", 32213, 0xB0B0B1, "SHINY");
+util.registerDust("indium_chloride", 32214, 0x311B92, "SHINY");
 util.registerDust("nickel_nitride", 32215, 0x2F4F4F, "DULL");
 util.registerDust("ruby_leach", 32216, 0xF5C9C8, "SHINY");
+util.registerDust("vanadium_trichloride", 32217, 0xFB8C00, "SHINY");
+util.registerDust("nanotube_deposition_mix", 32218, 0x2F4F4F, "SHINY");
+util.registerDust("doped_nanotube_deposition_mix", 32219, 0xF5C9C8, "SHINY");
+util.registerDust("nanotube_insulation_deposition_mix", 32220, 0xFB8C00, "SHINY");
+util.registerDust("dielectric_mirror_formation_mix", 32221, 0xFB8C00, "SHINY");
+util.registerDust("doped_carbon_nanotubes", 32222, 0x2F4F4F, "SHINY");
 
 
 
 
 
 
+
+
+util.registerFluid("electron_degenerate_rhenium_plasma",0x4A148C);
+util.registerFluid("naquadah_rich_sterile_growth_medium",0x7D7878);
+util.registerFluid("liquid_helium_4",0xFBC02D);
 util.registerFluid("hotic2coolant",0xF0CFCF);
 util.registerFluid("ruby_solution",0xEF5350);
-util.registerFluid("helium_4",0xE0FFFF);
-util.registerFluid("superfluid_helium_4",0xE0FFFF);
+util.registerFluid("helium_4",0xEBB630);
+util.registerFluid("superfluid_helium_4",0xFBC02D);
 util.registerFluid("liquid_enriched_helium_4",0xADFF2F);
 util.registerFluid("very_hot_xenon",0x00008B);
 util.registerFluid("monazite_ore_byproduct_slurry", 0x67824C);
@@ -534,6 +555,7 @@ util.registerFluid("n-hexadecanol", 0x735E57);
 util.registerFluid("methyl_isobutyl_carbonyl", 0x7C9AB2);
 util.registerFluid("1_amidol_ethyl_2_alkyl_2_imidazoline", 0x705195);
 util.registerFluid("arsenic_trichloride", 0x631531);
+util.registerFluid("vanadium_tetrochloride", 0x6E5DA1);
 util.registerFluid("trichloroflerane", 0x6E5DA1);
 util.registerFluid("chloronaquadic_acid", 0x32302D);
 util.registerFluid("very_hot_aqua_regia", 0xFFA000);
@@ -785,27 +807,27 @@ util.registerFluid("geneticmutagen",0x448247);
 util.registerFluid("xenoxene",0x4D4C4C);
 util.registerFluid("bastnasiteoxidecompositeliquid",0x827717);
 util.registerFluid("diethylamine",0x827717);
-util.registerFluid("bastnasiterarerearthconcentrate",0x2E4D7F);
-util.registerFluid("nitrogenatedbastnasiterarerearthoxides",0x2E4D7F);
-util.registerFluid("ceriumcontainingbastnasiteconcentrate",0xBF5D40);
-util.registerFluid("bastnasiterarerearthoxidemixture",0xD28770);
-util.registerFluid("acidicbastnasiteconcentrate",0xBF360C);
-util.registerFluid("bastnasiterarerearthoxidesemulsion",0x2E4D7F);
-util.registerFluid("bastnasiterarerearthoxidessolution",0x2E4D7F);
-util.registerFluid("ethanolgasoline",0x2E4D7F);
+util.registerFluid("bastnasiterarerearthconcentrate",0x5A3125);
+util.registerFluid("nitrogenatedbastnasiterarerearthoxides",0x471E11);
+util.registerFluid("ceriumcontainingbastnasiteconcentrate",0x3C1F17);
+util.registerFluid("bastnasiterarerearthoxidemixture",0x4C190A);
+util.registerFluid("acidicbastnasiteconcentrate",0x7B280D);
+util.registerFluid("bastnasiterarerearthoxidesemulsion",0x302624);
+util.registerFluid("bastnasiterarerearthoxidessolution",0x1E1817);
+util.registerFluid("ethanolgasoline",0xE65100);
 util.registerFluid("impureferrocenemixture",0x8E24AA);
 util.registerFluid("ether",0xE65100);
 util.registerFluid("ferrocenesolution",0xB0BEC5);
-util.registerFluid("roastedbastnasiteconcentrate",0x2E4D7F);
+util.registerFluid("roastedbastnasiteconcentrate",0x652F1E);
 util.registerFluid("jetfuel",0x429D46);
-util.registerFluid("combustionpromoter",0x2E4D7F);
+util.registerFluid("combustionpromoter",0x4CAF50);
 util.registerFluid("muddybastnasitesolution",0x842508);
 util.registerFluid("conditionedbastnasitemud",0x544340);
-util.registerFluid("dilutedbastnasitemud",0x2E4D7F);
-util.registerFluid("filteredbsatnasitemud",0x2E4D7F);
-util.registerFluid("wetbastnasiterareearthconcentrate",0x2E4D7F);
-util.registerFluid("bastnasiteconcentrate",0x2E4D7F);
-util.registerFluid("wastewater",0x2E4D7F);
+util.registerFluid("dilutedbastnasitemud",0x708692);
+util.registerFluid("filteredbsatnasitemud",0xBFA782);
+util.registerFluid("wetbastnasiterareearthconcentrate",0x6F6B4E);
+util.registerFluid("bastnasiteconcentrate",0x76624F);
+util.registerFluid("wastewater",0x004D40);
 util.registerFluid("treatedsulfuricfractions",0x121010);
 util.registerFluid("richamine",0x121010);
 util.registerFluid("sourgas",0x121010);
@@ -949,8 +971,9 @@ util.registerFluid("wolframiteimpureslurry",0x39593C);
 util.registerFluid("wolframiteslurry",0x355D38);
 util.registerFluid("silicon_carbide",0x515151);
 util.registerFluid("hot_treated_wastewater",0x515151);
-
-
+util.registerFluid("liquid_salt",0xD3D4D5);
+util.registerFluid("liquid_cryolite",0x42A5F5);
+util.registerFluid("pre_nylon_mix",0xE5AF58);
 
 
 

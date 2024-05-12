@@ -290,7 +290,7 @@ cluster_mill.recipeBuilder()
 cutting_saw.recipeBuilder()
     .inputs(<contenttweaker:celasiliconboule>)
     .outputs(<contenttweaker:celauwafer>*16)
-    .fluidInputs(<liquid:water>*1000)
+    .fluidInputs(<liquid:water>*64)
     .duration(800)
     .EUt(90000)
     .buildAndRegister();
@@ -298,7 +298,7 @@ cutting_saw.recipeBuilder()
 cutting_saw.recipeBuilder()
     .inputs(<contenttweaker:celasiliconboule>)
     .outputs(<contenttweaker:celauwafer>*16)
-    .fluidInputs(<liquid:distilled_water>*1000)
+    .fluidInputs(<liquid:distilled_water>*32)
     .duration(600)
     .EUt(90000)
     .buildAndRegister();
@@ -306,7 +306,7 @@ cutting_saw.recipeBuilder()
 cutting_saw.recipeBuilder()
     .inputs(<contenttweaker:celasiliconboule>)
     .outputs(<contenttweaker:celauwafer>*16)
-    .fluidInputs(<liquid:lubricant>*1000)
+    .fluidInputs(<liquid:lubricant>*16)
     .duration(400)
     .EUt(90000)
     .buildAndRegister();
@@ -398,6 +398,29 @@ assembler.recipeBuilder()
     .outputs(<contenttweaker:integrated_circuit_photolithography_mask>)
     .duration(50)
     .EUt(12)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs(<contenttweaker:lithography_base_mask>,<ore:dyeBlack>)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 7}))
+    .outputs(<contenttweaker:nanocpu_lithography_mask>)
+    .duration(50)
+    .EUt(12)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs(<contenttweaker:lithography_base_mask>,<ore:dyeBlack>)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 8}))
+    .outputs(<contenttweaker:hasoc_lithography_mask>)
+    .duration(50)
+    .EUt(12)
+    .buildAndRegister();
+
+fluidheater.recipeBuilder()
+    .fluidInputs(<liquid:xenon>*1000)
+    .fluidOutputs(<liquid:very_hot_xenon>*1000)
+    .duration(200)
+    .EUt(80)
     .buildAndRegister();
 
 Utils.removeRecipeByOutput(engraver,[<gregtech:meta_item_2:32471>],[],false);
@@ -545,6 +568,13 @@ cvd_unit_s.recipeBuilder()
     .buildAndRegister();
 
 cvd_unit_s.recipeBuilder()
+    .inputs(<contenttweaker:polysilicon_wafer>,i,I)
+    .outputs(<contenttweaker:doped_polysilicon_wafer>)
+    .duration(800)
+    .EUt(100)
+    .buildAndRegister();
+
+cvd_unit_s.recipeBuilder()
     .inputs(<contenttweaker:engraved_ram_wafer>,i,I)
     .outputs(<contenttweaker:raw_ram_wafer>)
     .duration(800)
@@ -566,13 +596,6 @@ cvd_unit_s.recipeBuilder()
     .EUt(100)
     .buildAndRegister();
 
-cvd_unit_s.recipeBuilder()
-    .inputs(<contenttweaker:silicon_dioxide_wafer>,i)
-    .outputs(<contenttweaker:n_doped_silicon_dioxide_wafer>)
-    .duration(800)
-    .EUt(180)
-    .buildAndRegister();
-
 ion_implanter.recipeBuilder()
     .inputs(<contenttweaker:engraved_nanocpu_wafer>, i, I) 
     .fluidInputs(<liquid:very_hot_argon>*1000)
@@ -589,9 +612,44 @@ ion_implanter.recipeBuilder()
     .EUt(600)
     .buildAndRegister();
 
+ion_implanter.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2307>,<contenttweaker:engraved_hasoc_wafer>, i, I) 
+    .outputs(<contenttweaker:unpolarized_hasoc_wafer>)
+    .duration(200)
+    .EUt(600)
+    .buildAndRegister();
+
+ion_implanter.recipeBuilder()
+    .inputs(<contenttweaker:engraved_soc_wafer>, i, I) 
+    .outputs(<contenttweaker:doped_soc_wafer>)
+    .duration(200)
+    .EUt(600)
+    .buildAndRegister();
+
+
 
 	}
     }
+
+var NDope as IItemStack[] = [
+<gtadditions:ga_dust:32203>,
+<gregtech:meta_item_1:2005>,
+<gregtech:meta_item_1:2003>,
+<gregtech:meta_item_1:2008>,
+<gregtech:meta_item_1:2679>,
+];
+
+for i in NDope {
+
+cvd_unit_s.recipeBuilder()
+    .inputs(<contenttweaker:silicon_dioxide_wafer>,i)
+    .outputs(<contenttweaker:n_doped_silicon_dioxide_wafer>)
+    .duration(800)
+    .EUt(180)
+    .buildAndRegister();
+
+
+}
 
 
 cvd_unit_s.recipeBuilder()
@@ -810,7 +868,7 @@ chemReactor.recipeBuilder()
 chemReactor.recipeBuilder()
     .fluidInputs(<liquid:chloronaquadic_acid>*1000)
     .inputs(<gregtech:meta_item_1:2865>)
-    .outputs(<gregtech:meta_item_1:2625>)
+    .outputs(<gregtech:meta_item_1:2628>)
     .fluidOutputs(<liquid:salt_water>*1000 , <liquid:nitrogen_dioxide>*1000)
     .duration(200)
     .EUt(100)
@@ -842,6 +900,22 @@ assembler.recipeBuilder()
     .buildAndRegister();
 
 assembler.recipeBuilder()
+    .inputs(<contenttweaker:lithography_base_mask>,<ore:dyeBlack>)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 9}))
+    .outputs(<contenttweaker:soc_lithography_mask>)
+    .duration(50)
+    .EUt(12)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs(<contenttweaker:lithography_base_mask>,<ore:dyeBlack>)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 10}))
+    .outputs(<contenttweaker:pre_engraving_oganesson_lithography_mask>)
+    .duration(50)
+    .EUt(12)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
     .inputs(<gregtech:meta_item_1:13309> , <gregtech:meta_item_1:15209>)
     .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
     .outputs(<contenttweaker:enriched_naquadah_photolithography_mask>)
@@ -851,10 +925,6 @@ assembler.recipeBuilder()
 
 engraver.recipeBuilder()    .inputs(<contenttweaker:nickel_nitride_wafer>)    .notConsumable(<contenttweaker:nor_photolithography_mask>)   .outputs(<contenttweaker:engraved_nor_wafer>)    .duration(400).EUt(12).buildAndRegister();
 engraver.recipeBuilder()    .inputs(<contenttweaker:nickel_nitride_wafer>)    .notConsumable(<contenttweaker:nand_photolithography_mask>)   .outputs(<contenttweaker:engraved_nand_wafer>)    .duration(400).EUt(12).buildAndRegister();
-
-
-
-
 
 
 
@@ -920,7 +990,7 @@ lengraver.recipeBuilder()    .inputs(<contenttweaker:spinorial_memory_wafer>)   
 lengraver.recipeBuilder()    .inputs(<contenttweaker:spinorial_memory_wafer>)    .notConsumable(<gregtech:meta_item_1:15913>)    .outputs(<contenttweaker:engraved_spinorial_memory_wafer>)    .duration(800)    .EUt(7270)    .buildAndRegister();
 
 ebf.recipeBuilder()
-    .inputs(<gregtech:meta_item_1:625>)
+    .inputs(<gregtech:meta_item_1:628>)
     .outputs(<contenttweaker:naquadah_dioxide_seed_crystal>)
     .property("temperature", 1800)
     .duration(200)
@@ -930,7 +1000,7 @@ ebf.recipeBuilder()
     //Naquadah Dioxide Boule
 
 ebf.recipeBuilder()
-    .inputs(<contenttweaker:naquadah_dioxide_seed_crystal> , <gregtech:meta_item_1:2625>*4)
+    .inputs(<contenttweaker:naquadah_dioxide_seed_crystal> , <gregtech:meta_item_1:2628>*4)
     .property("temperature", 1800)
     .outputs(<contenttweaker:naquadah_dioxide_boule>)
     .duration(200)
@@ -948,11 +1018,27 @@ cutting_saw.recipeBuilder()
 
     //Pre-engraved Naquadah Dioxide Wafer
 
-engraver.recipeBuilder()
-    .inputs(<contenttweaker:naquadah_dioxide_wafer>)
-    .notConsumable(<contenttweaker:incolony_photolithography_mask>)
+chemReactor.recipeBuilder()
     .fluidInputs(<liquid:superfluid_helium_4>*1000)
     .fluidOutputs(<liquid:helium_4>*1000)
+    .inputs(<contenttweaker:naquadah_dioxide_wafer>)
+    .outputs(<contenttweaker:trenched_naquadah_dioxide_wafer>)
+    .duration(200)
+    .EUt(129)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:superfluid_helium_4>*1000)
+    .fluidOutputs(<liquid:helium_4>*1000)
+    .inputs(<contenttweaker:naquadah_dioxide_wafer>)
+    .outputs(<contenttweaker:trenched_naquadah_dioxide_wafer>)
+    .duration(200)
+    .EUt(129)
+    .buildAndRegister();
+
+engraver.recipeBuilder()
+    .inputs(<contenttweaker:trenched_naquadah_dioxide_wafer>)
+    .notConsumable(<contenttweaker:soc_lithography_mask>)
     .outputs(<contenttweaker:pre_engraved_nqo2_wafer>)
     .duration(200)
     .EUt(100)
@@ -962,7 +1048,7 @@ engraver.recipeBuilder()
 
 lcr.recipeBuilder()
     .fluidInputs(<liquid:liquid_enriched_helium_4>*1000 , <liquid:liquid_nitrogen>*1000)
-    .fluidOutputs(<liquid:superfluid_helium_4>*1000 , <liquid:helium_3>*1000)
+    .fluidOutputs(<liquid:superfluid_helium_4>*1000 , <liquid:helium3>*1000)
     .duration(200)
     .EUt(100)
     .buildAndRegister();
@@ -972,16 +1058,6 @@ lcr.recipeBuilder()
 mixer.recipeBuilder()
     .fluidInputs(<liquid:helium_4>*1000 , <liquid:helium>*1000)
     .fluidOutputs(<liquid:liquid_enriched_helium_4>*1000)
-    .duration(200)
-    .EUt(100)
-    .buildAndRegister();
-
-    //SOC wafer
-
-chemical_bath.recipeBuilder()
-    .inputs(<contenttweaker:raw_soc_wafer>)
-    .fluidInputs(<liquid:very_hot_krypton>)
-    .outputs(<gregtech:meta_item_2:32472>)
     .duration(200)
     .EUt(100)
     .buildAndRegister();
@@ -1032,4 +1108,678 @@ cutting_saw.recipeBuilder()
     .fluidInputs(<liquid:lubricant>*5)
     .duration(50)
     .EUt(8)
+    .buildAndRegister();
+
+    
+
+Utils.removeRecipeByOutput(engraver,[<gregtech:meta_item_2:32466>],[],false);
+Utils.removeRecipeByOutput(engraver,[<gregtech:meta_item_2:32466>*8],[],false);
+Utils.removeRecipeByOutput(engraver,[<gregtech:meta_item_2:32466>*4],[],false);
+Utils.removeRecipeByOutput(engraver,[<gregtech:meta_item_2:32466>*12],[],false);
+Utils.removeRecipeByOutput(engraver,[<gregtech:meta_item_2:32466>*16],[],false);
+Utils.removeRecipeByOutput(engraver,[<gregtech:meta_item_2:32466>*20],[],false);
+
+Utils.removeRecipeByOutput(lengraver,[<gregtech:meta_item_2:32466>],[],false);
+Utils.removeRecipeByOutput(lengraver,[<gregtech:meta_item_2:32466>*8],[],false);
+Utils.removeRecipeByOutput(lengraver,[<gregtech:meta_item_2:32466>*4],[],false);
+Utils.removeRecipeByOutput(lengraver,[<gregtech:meta_item_2:32466>*12],[],false);
+Utils.removeRecipeByOutput(lengraver,[<gregtech:meta_item_2:32466>*16],[],false);
+Utils.removeRecipeByOutput(lengraver,[<gregtech:meta_item_2:32466>*20],[],false);
+
+Utils.removeRecipeByOutput(engraver,[<gregtech:meta_item_2:32468>],[],false);
+Utils.removeRecipeByOutput(engraver,[<gregtech:meta_item_2:32468>*8],[],false);
+Utils.removeRecipeByOutput(engraver,[<gregtech:meta_item_2:32468>*4],[],false);
+Utils.removeRecipeByOutput(engraver,[<gregtech:meta_item_2:32468>*12],[],false);
+Utils.removeRecipeByOutput(engraver,[<gregtech:meta_item_2:32468>*16],[],false);
+Utils.removeRecipeByOutput(engraver,[<gregtech:meta_item_2:32468>*20],[],false);
+
+Utils.removeRecipeByOutput(lengraver,[<gregtech:meta_item_2:32468>],[],false);
+Utils.removeRecipeByOutput(lengraver,[<gregtech:meta_item_2:32468>*8],[],false);
+Utils.removeRecipeByOutput(lengraver,[<gregtech:meta_item_2:32468>*4],[],false);
+Utils.removeRecipeByOutput(lengraver,[<gregtech:meta_item_2:32468>*12],[],false);
+Utils.removeRecipeByOutput(lengraver,[<gregtech:meta_item_2:32468>*16],[],false);
+Utils.removeRecipeByOutput(lengraver,[<gregtech:meta_item_2:32468>*20],[],false);
+
+chemReactor.recipeBuilder().fluidInputs(<liquid:nitrogen>*1000).inputs(<gregtech:meta_item_1:2044>).outputs(<gtadditions:ga_dust:32215>).duration(200).EUt(12).buildAndRegister();
+lcr.recipeBuilder().fluidInputs(<liquid:nitrogen>*1000).inputs(<gregtech:meta_item_1:2044>).outputs(<gtadditions:ga_dust:32215>).duration(200).EUt(12).buildAndRegister();
+electrolyzer.recipeBuilder().fluidOutputs(<liquid:nitrogen>*1000).outputs(<gregtech:meta_item_1:2044>).inputs(<gtadditions:ga_dust:32215>).duration(200).EUt(12).buildAndRegister();
+
+
+roasters.recipeBuilder()
+    .fluidInputs(<liquid:oxygen>*1000)
+    .inputs(<gtadditions:ga_dust:32215>,<contenttweaker:doped_polysilicon_wafer>)
+    .outputs(<contenttweaker:nickel_nitride_wafer>)
+    .duration(80)
+    .EUt(90)
+    .buildAndRegister();
+
+Utils.removeRecipeByOutput(engraver,[<gregtech:meta_item_2:32462>],[],false);
+Utils.removeRecipeByOutput(engraver,[<gregtech:meta_item_2:32462>*8],[],false);
+Utils.removeRecipeByOutput(engraver,[<gregtech:meta_item_2:32462>*4],[],false);
+Utils.removeRecipeByOutput(engraver,[<gregtech:meta_item_2:32462>*12],[],false);
+
+Utils.removeRecipeByOutput(lengraver,[<gregtech:meta_item_2:32462>],[],false);
+Utils.removeRecipeByOutput(lengraver,[<gregtech:meta_item_2:32462>*8],[],false);
+Utils.removeRecipeByOutput(lengraver,[<gregtech:meta_item_2:32462>*4],[],false);
+Utils.removeRecipeByOutput(lengraver,[<gregtech:meta_item_2:32462>*12],[],false);
+
+fluidheater.recipeBuilder()
+    .fluidInputs(<liquid:argon>*1000)
+    .fluidOutputs(<liquid:very_hot_argon>*1000)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
+
+ebf.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:524>)
+    .outputs(<contenttweaker:sapphire_seed_crystal>)
+    .duration(40)
+    .EUt(80)
+    .property("temperature", 900)
+    .buildAndRegister();
+
+ebf.recipeBuilder()
+    .inputs(<contenttweaker:sapphire_seed_crystal>,<gregtech:meta_item_1:2524>*4)
+    .outputs(<contenttweaker:sapphire_boule>)
+    .fluidInputs(<liquid:argon>*1000)
+    .duration(200)
+    .EUt(80)
+    .buildAndRegister();
+
+cutting_saw.recipeBuilder()
+    .inputs(<contenttweaker:sapphire_boule>)
+    .outputs(<contenttweaker:monocrystalline_sapphire_ingot>*32)
+    .fluidInputs(<liquid:water>*12)
+    .duration(200)
+    .EUt(80)
+    .buildAndRegister();
+
+cutting_saw.recipeBuilder()
+    .inputs(<contenttweaker:sapphire_boule>)
+    .outputs(<contenttweaker:monocrystalline_sapphire_ingot>*32)
+    .fluidInputs(<liquid:distilled_water>*8)
+    .duration(100)
+    .EUt(80)
+    .buildAndRegister();
+
+cutting_saw.recipeBuilder()
+    .inputs(<contenttweaker:sapphire_boule>)
+    .outputs(<contenttweaker:monocrystalline_sapphire_ingot>*32)
+    .fluidInputs(<liquid:lubricant>*6)
+    .duration(60)
+    .EUt(60)
+    .buildAndRegister();
+
+cutting_saw.recipeBuilder()
+    .inputs(<contenttweaker:monocrystalline_sapphire_ingot>)
+    .outputs(<contenttweaker:sapphire_wafer>)
+    .fluidInputs(<liquid:water>*12)
+    .duration(200)
+    .EUt(80)
+    .buildAndRegister();
+
+cutting_saw.recipeBuilder()
+    .inputs(<contenttweaker:monocrystalline_sapphire_ingot>)
+    .outputs(<contenttweaker:sapphire_wafer>)
+    .fluidInputs(<liquid:distilled_water>*8)
+    .duration(100)
+    .EUt(80)
+    .buildAndRegister();
+
+cutting_saw.recipeBuilder()
+    .inputs(<contenttweaker:monocrystalline_sapphire_ingot>)
+    .outputs(<contenttweaker:sapphire_wafer>)
+    .fluidInputs(<liquid:lubricant>*6)
+    .duration(60)
+    .EUt(60)
+    .buildAndRegister();
+
+engraver.recipeBuilder().inputs(<contenttweaker:sapphire_wafer>).notConsumable(<contenttweaker:qubit_cpu_lithography_mask>).outputs(<contenttweaker:engraved_qbit_cpu_wafer>).duration(80).EUt(900).buildAndRegister();
+lengraver.recipeBuilder().inputs(<contenttweaker:sapphire_wafer>).notConsumable(<contenttweaker:qubit_cpu_lithography_mask>).outputs(<contenttweaker:engraved_qbit_cpu_wafer>).duration(80).EUt(900).buildAndRegister();
+
+cvd_unit_s.recipeBuilder()
+    .inputs(<contenttweaker:engraved_cpu_wafer>,<gtadditions:ga_dust:32217>,<gtadditions:ga_dust:32214>)
+    .outputs(<contenttweaker:raw_qbit_cpu_wafer>)
+    .duration(800)
+    .EUt(1000)
+    .buildAndRegister();
+
+chemical_bath.recipeBuilder()
+    .fluidInputs(<liquid:very_hot_argon>*1000)
+    .inputs(<contenttweaker:raw_qbit_cpu_wafer>)
+    .fluidOutputs(<liquid:argon>*1000)
+    .outputs(<contenttweaker:superconductor_coated_qbit_cpu_wafer>)
+    .duration(200)
+    .EUt(900)
+    .buildAndRegister();
+
+ion_implanter.recipeBuilder()
+    .inputs(<contenttweaker:superconductor_coated_qbit_cpu_wafer>,<contenttweaker:u240_electron_source>)
+    .outputs(<gregtech:meta_item_2:32470>)
+    .duration(200)
+    .EUt(90)
+    .buildAndRegister();
+
+Utils.removeRecipeByOutput(cutting_saw,[<gregtech:meta_item_2:32484>*5],[],false);
+
+cutting_saw.recipeBuilder()
+    .inputs(<gregtech:meta_item_2:32470>)
+    .outputs(<contenttweaker:qbit_cpu_die>)
+    .fluidInputs(<liquid:water>*12)
+    .duration(200)
+    .EUt(80)
+    .buildAndRegister();
+
+cutting_saw.recipeBuilder()
+    .inputs(<gregtech:meta_item_2:32470>)
+    .outputs(<contenttweaker:qbit_cpu_die>*5)
+    .fluidInputs(<liquid:distilled_water>*8)
+    .duration(100)
+    .EUt(80)
+    .buildAndRegister();
+
+cutting_saw.recipeBuilder()
+    .inputs(<gregtech:meta_item_2:32470>)
+    .outputs(<contenttweaker:qbit_cpu_die>)
+    .fluidInputs(<liquid:lubricant>*6)
+    .duration(60)
+    .EUt(60)
+    .buildAndRegister();
+
+forming_press.recipeBuilder()
+    .inputs(<contenttweaker:qbit_cpu_die>,<gregtech:meta_item_1:12145>)
+    .outputs(<contenttweaker:covered_qbit_cpu>)
+    .duration(120)
+    .EUt(80)
+    .buildAndRegister();
+
+chemical_bath.recipeBuilder()
+    .fluidInputs(<liquid:liquid_helium>*1000)
+    .fluidOutputs(<liquid:helium>*1000)
+    .inputs(<contenttweaker:covered_qbit_cpu>)
+    .outputs(<gregtech:meta_item_2:32484>)
+    .duration(120)
+    .EUt(70)
+    .buildAndRegister();
+
+ebf.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:707>)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .outputs(<contenttweaker:oganesson_seed_crystal>)
+    .duration(200)
+    .EUt(500000)
+    .property("temperature", 8000)
+    .buildAndRegister();
+
+ebf.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2707>,<contenttweaker:oganesson_seed_crystal>)
+    .outputs(<contenttweaker:oganesson_boule>)
+    .duration(200)
+    .EUt(500000)
+    .property("temperature", 8000)
+    .buildAndRegister();
+
+
+cutting_saw.recipeBuilder().inputs(<contenttweaker:oganesson_boule>).outputs(<contenttweaker:monocrystalline_oganesson_ingot>).fluidInputs(<liquid:water>*12).duration(2000).EUt(80000).buildAndRegister();
+cutting_saw.recipeBuilder().inputs(<contenttweaker:oganesson_boule>).outputs(<contenttweaker:monocrystalline_oganesson_ingot>).fluidInputs(<liquid:distilled_water>*8).duration(1000).EUt(80000).buildAndRegister();
+cutting_saw.recipeBuilder().inputs(<contenttweaker:oganesson_boule>).outputs(<contenttweaker:monocrystalline_oganesson_ingot>).fluidInputs(<liquid:lubricant>*6).duration(600).EUt(60000).buildAndRegister();
+
+cutting_saw.recipeBuilder().outputs(<contenttweaker:oganesson_wafer>,<contenttweaker:oganesson_seed_crystal>).inputs(<contenttweaker:monocrystalline_oganesson_ingot>).fluidInputs(<liquid:water>*12).duration(2000).EUt(80000).buildAndRegister();
+cutting_saw.recipeBuilder().outputs(<contenttweaker:oganesson_wafer>,<contenttweaker:oganesson_seed_crystal>).inputs(<contenttweaker:monocrystalline_oganesson_ingot>).fluidInputs(<liquid:distilled_water>*8).duration(1000).EUt(80000).buildAndRegister();
+cutting_saw.recipeBuilder().outputs(<contenttweaker:oganesson_wafer>,<contenttweaker:oganesson_seed_crystal>).inputs(<contenttweaker:monocrystalline_oganesson_ingot>).fluidInputs(<liquid:lubricant>*6).duration(600).EUt(60000).buildAndRegister();
+
+cvd_unit_s.recipeBuilder()
+    .fluidInputs(<liquid:trichloroflerane>*1000)
+    .inputs(<contenttweaker:oganesson_wafer>)
+    .outputs(<contenttweaker:treated_oganesson_wafer>)
+    .duration(200)
+    .EUt(70)
+    .buildAndRegister();
+
+chemical_bath.recipeBuilder()
+    .fluidInputs(<liquid:superfluid_helium_4>*1000)
+    .fluidOutputs(<liquid:liquid_helium_4>*1000)
+    .inputs(<contenttweaker:treated_oganesson_wafer>)
+    .outputs(<contenttweaker:bathed_treated_oganesson_wafer>)
+    .duration(800)
+    .EUt(9000)
+    .buildAndRegister();
+
+engraver.recipeBuilder()
+    .inputs(<contenttweaker:bathed_treated_oganesson_wafer>)
+    .outputs(<contenttweaker:pre_engraved_oganesson_wafer>)
+    .notConsumable(<contenttweaker:pre_engraving_oganesson_lithography_mask>)
+    .duration(1200)
+    .EUt(800)
+    .buildAndRegister();
+
+lengraver.recipeBuilder()
+    .inputs(<contenttweaker:bathed_treated_oganesson_wafer>)
+    .outputs(<contenttweaker:pre_engraved_oganesson_wafer>)
+    .notConsumable(<contenttweaker:pre_engraving_oganesson_lithography_mask>)
+    .duration(1200)
+    .EUt(800)
+    .buildAndRegister();
+
+ion_implanter.recipeBuilder()
+    .inputs(<contenttweaker:pre_engraved_oganesson_wafer>,<gregtech:meta_item_1:2740>)
+    .outputs(<contenttweaker:raw_oganesson_wafer>)
+    .duration(800)
+    .EUt(77000)
+    .buildAndRegister();
+
+polarizer.recipeBuilder()
+    .inputs(<contenttweaker:unpolarized_hasoc_wafer>)
+    .outputs(<gtadditions:ga_meta_item:32421>)
+    .duration(7000)
+    .EUt(8112)
+    .buildAndRegister();
+
+cutting_saw.recipeBuilder().inputs(<gtadditions:ga_meta_item:32421>).outputs(<contenttweaker:hasoc_die>*6).fluidInputs(<liquid:water>*12).duration(2000).EUt(80000).buildAndRegister();
+cutting_saw.recipeBuilder().inputs(<gtadditions:ga_meta_item:32421>).outputs(<contenttweaker:hasoc_die>*6).fluidInputs(<liquid:distilled_water>*8).duration(1000).EUt(80000).buildAndRegister();
+cutting_saw.recipeBuilder().inputs(<gtadditions:ga_meta_item:32421>).outputs(<contenttweaker:hasoc_die>*6).fluidInputs(<liquid:lubricant>*6).duration(600).EUt(60000).buildAndRegister();
+
+Utils.removeRecipeByOutput(cutting_saw, [<gtadditions:ga_meta_item:32420>*6],[],false);
+
+assembly_line.recipeBuilder()
+    .inputs(<contenttweaker:hasoc_die>,<contenttweaker:neurological_life_support_unit>,<gregtech:meta_item_2:16308>*4,<gregtech:meta_item_1:12840>,<gtadditions:ga_meta_item:32018>)
+    .fluidInputs(<liquid:sterilized_growth_medium>*144)
+    .outputs(<contenttweaker:neural_implanted_hasoc_die>)
+    .duration(200)
+    .EUt(280000)
+    .buildAndRegister();
+
+mixer.recipeBuilder()
+    .fluidInputs(<liquid:sterilized_growth_medium>*1000)
+    .inputs(<gregtech:meta_item_1:2309>)
+    .fluidOutputs(<liquid:naquadah_rich_sterile_growth_medium>*1000)
+    .duration(80)
+    .EUt(120000)
+    .buildAndRegister();
+
+lmixer.recipeBuilder()
+    .fluidInputs(<liquid:sterilized_growth_medium>*1000)
+    .inputs(<gregtech:meta_item_1:2309>)
+    .fluidOutputs(<liquid:naquadah_rich_sterile_growth_medium>*1000)
+    .duration(80)
+    .EUt(120000)
+    .buildAndRegister();
+
+chemical_bath.recipeBuilder()
+    .fluidInputs(<liquid:distilled_water>*1000)
+    .inputs(<contenttweaker:grown_hasoc_die>)
+    .outputs(<contenttweaker:clean_hasoc_die>)
+    .duration(800)
+    .EUt(90080)
+    .buildAndRegister();
+
+chemical_bath.recipeBuilder()
+    .fluidInputs(<liquid:naquadah_rich_sterile_growth_medium>*144)
+    .inputs(<contenttweaker:neural_implanted_hasoc_die>)
+    .outputs(<contenttweaker:grown_hasoc_die>)
+    .duration(120)
+    .EUt(80)
+    .buildAndRegister();
+
+forming_press.recipeBuilder()
+    .inputs(<contenttweaker:biosafe_protective_plating>,<contenttweaker:clean_hasoc_die>)
+    .outputs(<gtadditions:ga_meta_item:32420>)
+    .duration(8000)
+    .EUt(1200)
+    .buildAndRegister();
+
+forming_press.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:12617>,<gregtech:meta_item_1:12311>,<gregtech:meta_item_1:12308>,<gregtech:meta_item_2:32435>,<gregtech:meta_item_1:12047>)
+    .outputs(<contenttweaker:biosafe_protective_plating>)
+    .duration(129)
+    .EUt(80)
+    .buildAndRegister();
+
+polarizer.recipeBuilder()
+    .inputs(<contenttweaker:raw_oganesson_wafer>)
+    .outputs(<contenttweaker:doped_oganesson_wafer>)
+    .duration(800)
+    .EUt(90)
+    .buildAndRegister();
+
+cvd_unit_s.recipeBuilder()
+    .inputs(<contenttweaker:engraved_qbit_cpu_wafer>,<gtadditions:ga_dust:32217>,<gtadditions:ga_dust:32214>)
+    .outputs(<contenttweaker:raw_qbit_cpu_wafer>)
+    .duration(280)
+    .EUt(120)
+    .buildAndRegister();
+
+Utils.removeRecipeByOutput(chemReactor,[<gregtech:meta_item_2:32470>],[],false);
+Utils.removeRecipeByOutput(lcr,[<gregtech:meta_item_2:32470>],[],false);
+
+Utils.removeRecipeByOutput(engraver,[<gregtech:meta_item_2:32472>*2],[],false);
+Utils.removeRecipeByOutput(engraver,[<gregtech:meta_item_2:32472>*8],[],false);
+Utils.removeRecipeByOutput(engraver,[<gregtech:meta_item_2:32472>*16],[],false);
+Utils.removeRecipeByOutput(engraver,[<gregtech:meta_item_2:32472>*24],[],false);
+
+Utils.removeRecipeByOutput(lengraver,[<gregtech:meta_item_2:32472>*8],[],false);
+Utils.removeRecipeByOutput(lengraver,[<gregtech:meta_item_2:32472>*2],[],false);
+Utils.removeRecipeByOutput(lengraver,[<gregtech:meta_item_2:32472>*12],[],false);
+Utils.removeRecipeByOutput(lengraver,[<gregtech:meta_item_2:32472>*24],[],false);
+
+
+mixer.recipeBuilder()
+    .fluidInputs(<liquid:very_hot_krypton>*1000)
+    .inputs(<contenttweaker:pre_engraved_nqo2_wafer>)
+    .outputs(<contenttweaker:soc_wafer_base>)
+    .fluidOutputs(<liquid:krypton>*1000)
+    .duration(200)
+    .EUt(480)
+    .buildAndRegister();
+
+mixer.recipeBuilder()
+    .fluidInputs(<liquid:very_hot_krypton>*1000)
+    .inputs(<contenttweaker:doped_soc_wafer>)
+    .outputs(<gregtech:meta_item_2:32472>)
+    .fluidOutputs(<liquid:krypton>*1000)
+    .duration(200)
+    .EUt(480)
+    .buildAndRegister();
+
+Utils.removeRecipeByOutput(engraver,[<gtadditions:ga_meta_item:32421>],[],false);
+Utils.removeRecipeByOutput(engraver,[<gtadditions:ga_meta_item:32421>*8],[],false);
+Utils.removeRecipeByOutput(engraver,[<gtadditions:ga_meta_item:32421>*4],[],false);
+
+Utils.removeRecipeByOutput(lengraver,[<gtadditions:ga_meta_item:32421>*8],[],false);
+Utils.removeRecipeByOutput(lengraver,[<gtadditions:ga_meta_item:32421>],[],false);
+Utils.removeRecipeByOutput(lengraver,[<gtadditions:ga_meta_item:32421>*4],[],false);
+
+
+Utils.removeRecipeByOutput(engraver,[<gtadditions:ga_meta_item:32425>],[],false);
+Utils.removeRecipeByOutput(engraver,[<gtadditions:ga_meta_item:32425>*2],[],false);
+Utils.removeRecipeByOutput(engraver,[<gtadditions:ga_meta_item:32425>*4],[],false);
+
+Utils.removeRecipeByOutput(lengraver,[<gtadditions:ga_meta_item:32425>*2],[],false);
+Utils.removeRecipeByOutput(lengraver,[<gtadditions:ga_meta_item:32425>],[],false);
+Utils.removeRecipeByOutput(lengraver,[<gtadditions:ga_meta_item:32425>*4],[],false);
+
+cvd_unit_s.recipeBuilder()
+    .inputs(<contenttweaker:pre_engraved_uhasoc_wafer>,<gregtech:meta_item_1:2738>)
+    .outputs(<contenttweaker:superconductor_layered_uhasoc_wafer>)
+    .duration(800)
+    .EUt(2000001)
+    .buildAndRegister();
+
+ion_implanter.recipeBuilder()
+    .inputs(<contenttweaker:superconductor_layered_uhasoc_wafer>,<gregtech:meta_item_1:10629>)
+    .outputs(<contenttweaker:degenerate_uhasoc_wafer>)
+    .duration(80000)
+    .EUt(700)
+    .buildAndRegister();
+
+ion_implanter.recipeBuilder()
+    .inputs(<contenttweaker:degenerate_uhasoc_wafer>,<contenttweaker:controlled_shaped_naquadah_charge>,<contenttweaker:shaped_high_energy_gamma_shield>)
+    .outputs(<contenttweaker:celled_uhasoc_wafer>)
+    .duration(80000)
+    .EUt(700)
+    .buildAndRegister();
+
+polarizer.recipeBuilder()
+    .inputs(<contenttweaker:celled_uhasoc_wafer>)
+    .outputs(<contenttweaker:spin_aligned_celled_uhasoc_wafer>)
+    .duration(1200)
+    .EUt(90000)
+    .buildAndRegister();
+
+cvd_unit_s.recipeBuilder()
+    .inputs(<contenttweaker:spin_aligned_celled_uhasoc_wafer>,<gregtech:meta_item_1:10629>)
+    .outputs(<contenttweaker:relayered_uhasoc_wafer>)
+    .duration(1200)
+    .EUt(90000)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:12707>,<gregicalityoreaddon:gaoe_meta_item:10>)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .outputs(<contenttweaker:uhasoc_post_engraving_mask>)
+    .duration(90)
+    .EUt(120000)
+    .buildAndRegister();
+
+vacfreezer.recipeBuilder()
+    .inputs(<contenttweaker:fully_connected_uhasoc_wafer>)
+    .outputs(<contenttweaker:supercooled_uhasoc_wafer>)
+    .duration(799)
+    .EUt(1800)
+    .buildAndRegister();
+
+polarizer.recipeBuilder()
+    .inputs(<contenttweaker:supercooled_uhasoc_wafer>)
+    .outputs(<gtadditions:ga_meta_item:32423>)  
+    .duration(80000)
+    .EUt(7200)
+    .buildAndRegister();
+
+Utils.removeRecipeByOutput(engraver,[<gtadditions:ga_meta_item:32423>],[],false);
+Utils.removeRecipeByOutput(engraver,[<gtadditions:ga_meta_item:32423>*4],[],false);
+
+Utils.removeRecipeByOutput(lengraver,[<gtadditions:ga_meta_item:32423>*4],[],false);
+Utils.removeRecipeByOutput(lengraver,[<gtadditions:ga_meta_item:32423>],[],false);
+
+ebf.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:31>,<gregtech:meta_item_1:50>)
+    .outputs(<contenttweaker:monocrystalline_indium_phosphide_seed_crystal>)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .duration(800)
+    .EUt(1200)
+    .buildAndRegister();
+
+ebf.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2684>*4,<contenttweaker:monocrystalline_indium_phosphide_seed_crystal>)
+    .outputs(<contenttweaker:monocrystalline_indium_phosphide_boule>)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .duration(800)
+    .EUt(1200)
+    .buildAndRegister();
+    
+cutting_saw.recipeBuilder()
+    .inputs(<contenttweaker:monocrystalline_indium_phosphide_boule>)
+    .outputs(<contenttweaker:monocrystalline_indium_phosphide_ingot>*16,<contenttweaker:monocrystalline_indium_phosphide_seed_crystal>)
+    .fluidInputs(<liquid:water>*12)
+    .duration(300)
+    .EUt(8)
+    .buildAndRegister();
+
+cutting_saw.recipeBuilder()
+    .inputs(<contenttweaker:monocrystalline_indium_phosphide_boule>)
+    .outputs(<contenttweaker:monocrystalline_indium_phosphide_ingot>*16,<contenttweaker:monocrystalline_seed_crystal>)
+    .fluidInputs(<liquid:distilled_water>*9)
+    .duration(150)
+    .EUt(8)
+    .buildAndRegister();
+
+cutting_saw.recipeBuilder()
+    .inputs(<contenttweaker:monocrystalline_indium_phosphide_boule>)
+    .outputs(<contenttweaker:monocrystalline_indium_phosphide_ingot>*16,<contenttweaker:monocrystalline_seed_crystal>)
+    .fluidInputs(<liquid:lubricant>*5)
+    .duration(50)
+    .EUt(8)
+    .buildAndRegister();
+    
+
+cutting_saw.recipeBuilder()
+    .inputs(<contenttweaker:monocrystalline_indium_phosphide_ingot>)
+    .outputs(<contenttweaker:indium_phosphide_wafer>)
+    .fluidInputs(<liquid:water>*12)
+    .duration(300)
+    .EUt(89012)
+    .buildAndRegister();
+
+cutting_saw.recipeBuilder()
+    .inputs(<contenttweaker:monocrystalline_indium_phosphide_ingot>)
+    .outputs(<contenttweaker:indium_phosphide_wafer>)
+    .fluidInputs(<liquid:distilled_water>*9)
+    .duration(150)
+    .EUt(89012)
+    .buildAndRegister();
+
+cutting_saw.recipeBuilder()
+    .inputs(<contenttweaker:monocrystalline_indium_phosphide_ingot>)
+    .outputs(<contenttweaker:indium_phosphide_wafer>)
+    .fluidInputs(<liquid:lubricant>*5)
+    .duration(50)
+    .EUt(89012)
+    .buildAndRegister();
+
+cvd_unit_s.recipeBuilder()
+    .inputs(<contenttweaker:indium_phosphide_wafer>,<gtadditions:ga_meta_item:32436>)
+    .outputs(<contenttweaker:zblan_layered_inp_wafer>)
+    .duration(80)
+    .EUt(71232890)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs(<gtadditions:ga_meta_item:32430>,<ore:circuitMaster>)
+    .outputs(<contenttweaker:optical_lithography_mask>)
+    .duration(890)
+    .EUt(78004523)
+    .buildAndRegister();
+
+ion_implanter.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:32221>,<contenttweaker:interconnected_inp_wafer>)
+    .outputs(<contenttweaker:resonant_inp_wafer>)
+    .duration(560)
+    .EUt(12864590)
+    .buildAndRegister();
+
+cvd_unit_s.recipeBuilder()
+    .inputs(<contenttweaker:resonant_inp_wafer>,<gtadditions:ga_dust:32218>)
+    .outputs(<contenttweaker:insulated_inp_wafer>)
+    .duration(720)
+    .EUt(8134590)
+    .buildAndRegister();
+
+mixer.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2709>)
+    .fluidInputs(<liquid:xenon>*2000)
+    .outputs(<gtadditions:ga_dust:32218>)
+    .EUt(8003490)
+    .duration(120)
+    .buildAndRegister();
+
+lmixer.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2709>)
+    .fluidInputs(<liquid:xenon>*2000)
+    .outputs(<gtadditions:ga_dust:32218>)
+    .EUt(800390)
+    .duration(120)
+    .buildAndRegister();
+
+cvd_unit_s.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:32219>,<contenttweaker:re_exposed_inp_wafer>)
+    .outputs(<contenttweaker:electroluminescent_inp_wafer>)
+    .duration(1200)
+    .EUt(80901234)
+    .buildAndRegister();
+
+cvd_unit_s.recipeBuilder()
+    .inputs(<contenttweaker:electroluminescent_inp_wafer>,<gtadditions:ga_dust:32220>)
+    .outputs(<contenttweaker:recoated_inp_wafer>)
+    .duration(1200)
+    .EUt(80129012)
+    .buildAndRegister();
+
+cvd_unit_s.recipeBuilder()
+    .inputs(<contenttweaker:contact_ready_inp_wafer>)
+    .fluidInputs(<liquid:tritanium>*144)
+    .outputs(<gtadditions:ga_meta_item:32498>)
+    .duration(120)
+    .EUt(70901212)
+    .buildAndRegister();
+
+Utils.removeRecipeByOutput(cutting_saw,[<gtadditions:ga_meta_item:32499>*4],[],false);
+
+cutting_saw.recipeBuilder()
+    .inputs(<gtadditions:ga_meta_item:32498>)
+    .outputs(<contenttweaker:uninsulated_optical_soc>*4)
+    .duration(2009)
+    .EUt(891282)
+    .buildAndRegister();
+
+cvd_unit_s.recipeBuilder()
+    .inputs(<contenttweaker:uninsulated_optical_soc>,<gregtech:meta_item_1:12728>,<gregtech:meta_item_1:12575>)
+    .fluidInputs(<liquid:liquid_crystal_detector>*144)
+    .outputs(<contenttweaker:insulated_optical_soc>)
+    .duration(2009)
+    .EUt(891282)
+    .buildAndRegister();
+
+ion_implanter.recipeBuilder()
+    .inputs(<contenttweaker:contactless_optical_soc>,<gregtech:meta_item_1:2534>)
+    .outputs(<gtadditions:ga_meta_item:32499>)
+    .duration(1202)
+    .EUt(2096012)
+    .buildAndRegister();
+
+Utils.removeRecipeByOutput(lcr,[<gtadditions:ga_meta_item:32498>],[],false);
+
+mixer.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2584>)
+    .fluidInputs(<liquid:xenon>*1000,<liquid:seaborgium_doped_nanotubes>*1000)
+    .outputs(<gtadditions:ga_dust:32219>)
+    .duration(400)
+    .EUt(52450)
+    .buildAndRegister();
+
+lmixer.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2584>)
+    .fluidInputs(<liquid:xenon>*1000,<liquid:seaborgium_doped_nanotubes>*1000)
+    .outputs(<gtadditions:ga_dust:32219>)
+    .duration(400)
+    .EUt(52450)
+    .buildAndRegister();
+
+mixer.recipeBuilder()
+    .inputs(<gregtech:meta_item_2:16709>)
+    .fluidInputs(<liquid:xenon>*1000)
+    .outputs(<gtadditions:ga_dust:32218>)
+    .duration(400)
+    .EUt(52450)
+    .buildAndRegister();
+
+lmixer.recipeBuilder()
+    .inputs(<gregtech:meta_item_2:16709>)
+    .fluidInputs(<liquid:xenon>*1000)
+    .outputs(<gtadditions:ga_dust:32218>)
+    .duration(400)
+    .EUt(52450)
+    .buildAndRegister();
+
+mixer.recipeBuilder()
+    .inputs(<gregtech:meta_item_2:16709>)
+    .fluidInputs(<liquid:krypton>*1000)
+    .outputs(<gtadditions:ga_dust:32220>)
+    .duration(400)
+    .EUt(52450)
+    .buildAndRegister();
+
+lmixer.recipeBuilder()
+    .inputs(<gregtech:meta_item_2:16709>)
+    .fluidInputs(<liquid:krypton>*1000)
+    .outputs(<gtadditions:ga_dust:32220>)
+    .duration(400)
+    .EUt(52450)
+    .buildAndRegister();
+
+
+
+engraver.recipeBuilder()
+    .inputs(<gregtech:meta_item_2:25209>)
+    .notConsumable(<gregicalityoreaddon:gaoe_meta_item:9>)
+    .outputs(<gregtech:meta_item_1:8584>)
+    .duration(800)
+    .EUt(901275)
+    .buildAndRegister();
+
+lengraver.recipeBuilder()
+    .inputs(<gregtech:meta_item_2:25209>)
+    .notConsumable(<gregicalityoreaddon:gaoe_meta_item:9>)
+    .outputs(<gregtech:meta_item_1:8584>)
+    .duration(800)
+    .EUt(901275)
     .buildAndRegister();

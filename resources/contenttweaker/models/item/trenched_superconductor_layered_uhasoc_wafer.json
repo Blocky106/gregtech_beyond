@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "contenttweaker:items/trenched_superconductor_layered_uhasoc_wafer"
+  }
+}

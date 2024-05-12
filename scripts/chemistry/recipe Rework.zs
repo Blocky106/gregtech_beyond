@@ -1231,23 +1231,8 @@ metal_bender.recipeBuilder()
 
 #-----------ingot to foil end-----------------
 
-#--------------random ass shit start---------
+#--------------random stuff start---------
 
-chemReactor.recipeBuilder()
-    .inputs(<gtadditions:ga_dust:146>*4,<gregtech:meta_item_1:2159>*6)
-    .outputs(<contenttweaker:aluminasilicatecatalyst>*8)
-    .fluidOutputs(<liquid:hydrogen>*3000)
-    .duration(80)
-    .EUt(900)
-    .buildAndRegister();
-
-lcr.recipeBuilder()
-    .inputs(<gtadditions:ga_dust:146>*4,<gregtech:meta_item_1:2159>*6)
-    .outputs(<contenttweaker:aluminasilicatecatalyst>*8)
-    .fluidOutputs(<liquid:hydrogen>*3000)
-    .duration(80)
-    .EUt(900)
-    .buildAndRegister();
 
 dehydrator.findRecipe(480,[<gregtech:meta_item_1:32766>.withTag({Configuration: 1})],[<liquid:salt_water>*1000]).remove();
 dehydrator.findRecipe(480, null ,[<liquid:debrominated_brine>*1000]).remove();

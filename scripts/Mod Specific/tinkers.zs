@@ -37,6 +37,7 @@ mods.tconstruct.Alloy.removeRecipe(<liquid:stone>);
 #mods.tconstruct.Casting.addTableRecipe(<gregtech:meta_item_1:10018>, <tconstruct:cast_custom>, <liquid:copper>, 144);
 #mods.tconstruct.Alloy.removeTableRecipe(<liquid:copper>);
 
+recipes.remove(<tconstruct:ingots>);
 
 alloy_smelter.recipeBuilder()
     .inputs(<gregtech:meta_item_1:19026>*4,<tconstruct:materials:18>)
