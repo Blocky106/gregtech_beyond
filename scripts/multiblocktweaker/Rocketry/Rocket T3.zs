@@ -98,6 +98,14 @@ rocket_three.recipeMap.recipeBuilder()
     .buildAndRegister();
 
 rocket_three.recipeMap.recipeBuilder()
+    .inputs(<contenttweaker:researchpaperganymede>)
+    .fluidInputs(<liquid:dense_hydrazine_fuel_mixture>*500)
+    .outputs(<contenttweaker:ganymede>)
+    .duration(20)
+    .EUt(120)
+    .buildAndRegister();
+
+rocket_three.recipeMap.recipeBuilder()
     .inputs(<contenttweaker:researchpapermars>)
     .fluidInputs(<liquid:dense_hydrazine_fuel_mixture>*750)
     .outputs(<contenttweaker:mars>)
@@ -109,6 +117,70 @@ rocket_three.recipeMap.recipeBuilder()
     .inputs(<contenttweaker:researchpapermercury>)
     .fluidInputs(<liquid:dense_hydrazine_fuel_mixture>*1000)
     .outputs(<contenttweaker:mercury>)
+    .duration(40)
+    .EUt(240)
+    .buildAndRegister();
+
+rocket_three.recipeMap.recipeBuilder()
+    .inputs(<contenttweaker:researchpaperasteroids>)
+    .fluidInputs(<liquid:dense_hydrazine_fuel_mixture>*1000)
+    .outputs(<contenttweaker:asteroids>)
+    .duration(40)
+    .EUt(240)
+    .buildAndRegister();
+
+rocket_three.recipeMap.recipeBuilder()
+    .inputs(<contenttweaker:researchpaperceres>)
+    .fluidInputs(<liquid:dense_hydrazine_fuel_mixture>*1000)
+    .outputs(<contenttweaker:ceres>)
+    .duration(40)
+    .EUt(240)
+    .buildAndRegister();
+
+rocket_three.recipeMap.recipeBuilder()
+    .inputs(<contenttweaker:researchpapereris>)
+    .fluidInputs(<liquid:dense_hydrazine_fuel_mixture>*1000)
+    .outputs(<contenttweaker:eris>)
+    .duration(40)
+    .EUt(240)
+    .buildAndRegister();
+
+rocket_three.recipeMap.recipeBuilder()
+    .inputs(<contenttweaker:researchpaperhaumea>)
+    .fluidInputs(<liquid:dense_hydrazine_fuel_mixture>*1000)
+    .outputs(<contenttweaker:haumea>)
+    .duration(40)
+    .EUt(240)
+    .buildAndRegister();
+
+rocket_three.recipeMap.recipeBuilder()
+    .inputs(<contenttweaker:researchpaperjupiter>)
+    .fluidInputs(<liquid:dense_hydrazine_fuel_mixture>*1000)
+    .outputs(<contenttweaker:jupiter>)
+    .duration(40)
+    .EUt(240)
+    .buildAndRegister();
+
+rocket_three.recipeMap.recipeBuilder()
+    .inputs(<contenttweaker:researchpaperkuiperbelt>)
+    .fluidInputs(<liquid:dense_hydrazine_fuel_mixture>*1000)
+    .outputs(<contenttweaker:kupiterbelt>)
+    .duration(40)
+    .EUt(240)
+    .buildAndRegister();
+
+rocket_three.recipeMap.recipeBuilder()
+    .inputs(<contenttweaker:researchpaperpluto>)
+    .fluidInputs(<liquid:dense_hydrazine_fuel_mixture>*1000)
+    .outputs(<contenttweaker:pluto>)
+    .duration(40)
+    .EUt(240)
+    .buildAndRegister();
+
+rocket_three.recipeMap.recipeBuilder()
+    .inputs(<contenttweaker:researchpapervenus>)
+    .fluidInputs(<liquid:dense_hydrazine_fuel_mixture>*1000)
+    .outputs(<contenttweaker:venus>)
     .duration(40)
     .EUt(240)
     .buildAndRegister();

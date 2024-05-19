@@ -8,7 +8,7 @@ import crafttweaker.block.IBlock;
 import mods.jei.JEI.removeAndHide;
 import mods.jei.JEI.hideCategory;
 
-
+mods.jei.JEI.hideCategory("gregtech:ion_implanter");
 mods.jei.JEI.hideCategory("gregtech:manufactory");
 mods.jei.JEI.hideCategory("gregtech:fischer_tropsch_reactor");
 mods.jei.JEI.hideCategory("forestry.squeezer");

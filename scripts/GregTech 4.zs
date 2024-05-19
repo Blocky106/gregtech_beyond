@@ -3546,3 +3546,28 @@ assembler.recipeBuilder()
     .duration(120)
     .EUt(7012)
     .buildAndRegister();
+
+recipes.addShaped(<gregtech:machine:1460>, [    [<gregtech:meta_item_1:32640>, <gregtech:meta_item_1:32680>, <gregtech:meta_item_1:32640>], 	[<ore:circuitBasic>, <gtadditions:ga_transparent_casing:1>, <ore:circuitBasic>], 	[<gregtech:meta_item_1:32640>, <gregtech:machine:501>, <gregtech:meta_item_1:32640>]]);
+recipes.addShaped(<gregtech:machine:1461>, [	[<gregtech:meta_item_1:32641>, <gregtech:meta_item_1:32681>, <gregtech:meta_item_1:32641>], 	[<ore:circuitGood>, <gtadditions:ga_transparent_casing:1>, <ore:circuitGood>], 	[<gregtech:meta_item_1:32641>, <gregtech:machine:502>, <gregtech:meta_item_1:32641>]]);
+recipes.addShaped(<gregtech:machine:1462>, [	[<gregtech:meta_item_1:32642>, <gregtech:meta_item_1:32682>, <gregtech:meta_item_1:32642>], 	[<ore:circuitAdvanced>, <gtadditions:ga_transparent_casing:1>, <ore:circuitAdvanced>], 	[<gregtech:meta_item_1:32642>, <gregtech:machine:503>, <gregtech:meta_item_1:32642>]]);
+recipes.addShaped(<gregtech:machine:1463>, [	[<gregtech:meta_item_1:32643>, <gregtech:meta_item_1:32683>, <gregtech:meta_item_1:32643>], 	[<ore:circuitExtreme>, <gtadditions:ga_transparent_casing:1>, <ore:circuitExtreme>], 	[<gregtech:meta_item_1:32643>, <gregtech:machine:504>, <gregtech:meta_item_1:32643>]]);
+recipes.addShaped(<gregtech:machine:1464>, [	[<gregtech:meta_item_1:32644>, <gregtech:meta_item_1:32684>, <gregtech:meta_item_1:32644>], 	[<ore:circuitElite>, <gtadditions:ga_transparent_casing:1>, <ore:circuitElite>], 	[<gregtech:meta_item_1:32644>, <gregtech:machine:505>, <gregtech:meta_item_1:32644>]]);
+recipes.addShaped(<gregtech:machine:1465>, [	[<gregtech:meta_item_1:32644>, <gregtech:meta_item_1:32684>, <gregtech:meta_item_1:32644>], 	[<ore:circuitElite>, <gtadditions:ga_transparent_casing:1>, <ore:circuitElite>], 	[<gregtech:meta_item_1:32644>, <gregtech:machine:505>, <gregtech:meta_item_1:32644>]]);
+recipes.addShaped(<gregtech:machine:1466>, [	[<gregtech:meta_item_1:32645>, <gregtech:meta_item_1:32685>, <gregtech:meta_item_1:32645>], 	[<ore:circuitMaster>, <gtadditions:ga_transparent_casing:1>, <ore:circuitMaster>], 	[<gregtech:meta_item_1:32645>, <gregtech:machine:506>, <gregtech:meta_item_1:32645>]]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -28,36 +28,11 @@ var meta = 10034;
 val slurry_clarifier = Builder.start(loc, meta)
     .withPattern(
             FactoryBlockPattern.start(RelativeDirection.RIGHT, RelativeDirection.BACK, RelativeDirection.UP)
-                .aisle(
-                    "~~~~~",
-                    "~CCC~",
-                    "~CCC~",
-                    "~CCC~",
-                    "~~~~~")
-                .aisle(
-                    "~CCC~",
-                    "C~~~C",
-                    "C~~~C",
-                    "C~~~C",
-                    "~CSC~")
-                .aisle(
-                    "~CCC~",
-                    "C~~~C",
-                    "C~~~C",
-                    "C~~~C",
-                    "~CCC~")
-                .aisle(
-                    "~CCC~",
-                    "CGGGC",
-                    "CGGGC",
-                    "CGGGC",
-                    "~CCC~")
-                .aisle(
-                    "~CCC~",
-                    "C~~~C",
-                    "C~~~C",
-                    "C~~~C",
-                    "~CCC~")
+                .aisle("~~~~~","~CCC~","~CCC~","~CCC~","~~~~~")
+                .aisle("~CCC~","C~~~C","C~~~C","C~~~C","~CSC~")
+                .aisle("~CCC~","C~~~C","C~~~C","C~~~C","~CCC~")
+                .aisle("~CCC~","CGGGC","CGGGC","CGGGC","~CCC~")
+                .aisle("~CCC~","C~~~C","C~~~C","C~~~C","~CCC~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
                 .whereOr("C", 
@@ -74,35 +49,35 @@ val slurry_clarifier = Builder.start(loc, meta)
         .addDesign(
                 FactoryMultiblockShapeInfo.start()
                 .aisle(
-                    "     ",
-                    " CCC ",
-                    " CCC ",
-                    " CCC ",
-                    " CCC ")
+"     ",
+" CCC ",
+" CCC ",
+" CCC ",
+" CCC ")
                 .aisle(
-                    " CCC ",
-                    "C   C",
-                    "C   C",
-                    "CGGGC",
-                    "C   C")
+" CCC ",
+"C   C",
+"C   C",
+"CGGGC",
+"C   C")
                 .aisle(
-                    " CCC ",
-                    "S   E",
-                    "C   C",
-                    "CGGGC",
-                    "C   C")
+" CCC ",
+"S   E",
+"C   C",
+"CGGGC",
+"C   C")
                 .aisle(
-                    " CCC ",
-                    "C   C",
-                    "C   C",
-                    "CGGGC",
-                    "C   C")
+" CCC ",
+"C   C",
+"C   C",
+"CGGGC",
+"C   C")
                 .aisle(
-                    "     ",
-                    " CCC ",
-                    " CCC ",
-                    " CCC ",
-                    " CCC ")
+"     ",
+" CCC ",
+" CCC ",
+" CCC ",
+" CCC ")
                 .where("C", <metastate:gregtech:metal_casing:5>)
                 .where("S", IBlockInfo.controller(loc))
                 .where("G", <metastate:gregtech:multiblock_casing:1>)

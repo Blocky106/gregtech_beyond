@@ -28,18 +28,9 @@ var meta = 10041;
 val electrolytic_cell = Builder.start(loc, meta)
     .withPattern(
             FactoryBlockPattern.start(RelativeDirection.RIGHT, RelativeDirection.BACK, RelativeDirection.UP)
-                .aisle(
-                    "CCCCC",
-                    "CCCCC",
-                    "CCCCC")
-                .aisle(
-                    "CCCCC",
-                    "CAAAC",
-                    "CSCCC")
-                .aisle(
-                    "CCCCC",
-                    "CCCCC",
-                    "CCCCC")
+                .aisle("CCCCC","CCCCC","CCCCC")
+                .aisle("CCCCC","CAAAC","CSCCC")
+                .aisle("CCCCC","CCCCC","CCCCC")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
                 .whereOr("C", 
@@ -55,27 +46,11 @@ val electrolytic_cell = Builder.start(loc, meta)
                 .build())
         .addDesign(
                 FactoryMultiblockShapeInfo.start()
-                .aisle(
-                    "CCC",
-                    "CCC",
-                    "CCC")
-                .aisle(
-                    "CCC",
-                    "SAE",
-                    "CCC")
-                .aisle(
-                    "CCC",
-                    "CAC",
-                    "CCC")
-                .aisle(
-                    "CCC",
-                    "CAC",
-                    "CCC")
-                .aisle(
-                    "CCC",
-                    "CCC",
-                    "CCC")
-
+                .aisle("CCC","CCC","CCC")
+                .aisle("CCC","SAE","CCC")
+                .aisle("CCC","CAC","CCC")
+                .aisle("CCC","CAC","CCC")
+                .aisle("CCC","CCC","CCC")
                 .where("A", <metastate:contenttweaker:copperalloycoilblock>)
                 .where("S", IBlockInfo.controller(loc))
                 .where("C", <metastate:gtadditions:ga_metal_casing_2:5>)

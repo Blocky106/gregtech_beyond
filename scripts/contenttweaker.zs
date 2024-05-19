@@ -370,6 +370,7 @@ var items = [
 "spin_aligned_celled_uhasoc_wafer",
 "uhasoc_post_engraving_mask",
 "relayered_uhasoc_wafer",
+"researchpaperganymede",
 "fully_connected_uhasoc_wafer",
 "supercooled_uhasoc_wafer",
 "monocrystalline_indium_phosphide_seed_crystal",

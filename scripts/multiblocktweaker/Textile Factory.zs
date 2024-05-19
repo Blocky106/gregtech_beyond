@@ -75,7 +75,7 @@ val textile_factory = Builder.start(loc, meta)
         .addDesign(
                 FactoryMultiblockShapeInfo.start()
                 .aisle("     ","CGGGC","CGGGC","CGGGC","     ")
-                .aisle("CCCCC","CMMMC","SGGGE","CGGGC","CCCCC")
+                .aisle("CCCCC","CMMMC","SGGGE","CMMMC","CCCCC")
                 .aisle("     ","CGGGC","CGGGC","CGGGC","     ")
                 .where("M", <metastate:gregtech:turbine_casing:2>)
                 .where("G", <metastate:gtadditions:ga_transparent_casing>)

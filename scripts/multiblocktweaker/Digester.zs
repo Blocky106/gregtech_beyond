@@ -28,46 +28,11 @@ var meta = 10030;
 val digester = Builder.start(loc, meta)
     .withPattern(
             FactoryBlockPattern.start(RelativeDirection.RIGHT, RelativeDirection.BACK, RelativeDirection.UP)
-                .aisle(
-                    "~CCCCC~",
-                    "CHHHHHC",
-                    "CHHHHHC",
-                    "CHHHHHC",
-                    "CHHHHHC",
-                    "CHHHHHC",
-                    "~CCSCC~")
-                .aisle(
-                    "~C~~~C~",
-                    "CHGGGHC",
-                    "~GTTTG~",
-                    "~GT TG~",
-                    "~GTTTG~",
-                    "CHGGGHC",
-                    "~C~~~C~")
-                .aisle(
-                    "~C~~~C~",
-                    "CHGGGHC",
-                    "~GTTTG~",
-                    "~GT TG~",
-                    "~GTTTG~",
-                    "CHGGGHC",
-                    "~C~~~C~")
-                .aisle(
-                    "~~~~~~~",
-                    "~~HHH~~",
-                    "~HTTTH~",
-                    "~HT TH~",
-                    "~HTTTH~",
-                    "~~HHH~~",
-                    "~~~~~~~")
-                .aisle(
-                    "~~~~~~~",
-                    "~~~~~~~",
-                    "~~HHH~~",
-                    "~~HHH~~",
-                    "~~HHH~~",
-                    "~~~~~~~",
-                    "~~~~~~~")
+                .aisle("~CCCCC~","CHHHHHC","CHHHHHC","CHHHHHC","CHHHHHC","CHHHHHC","~CCSCC~")
+                .aisle("~C~~~C~","CHGGGHC","~GTTTG~","~GT TG~","~GTTTG~","CHGGGHC","~C~~~C~")
+                .aisle("~C~~~C~","CHGGGHC","~GTTTG~","~GT TG~","~GTTTG~","CHGGGHC","~C~~~C~")
+                .aisle("~~~~~~~","~~HHH~~","~HTTTH~","~HT TH~","~HTTTH~","~~HHH~~","~~~~~~~")
+                .aisle("~~~~~~~","~~~~~~~","~~HHH~~","~~HHH~~","~~HHH~~","~~~~~~~","~~~~~~~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
                 .whereOr("C", 
@@ -86,47 +51,47 @@ val digester = Builder.start(loc, meta)
         .addDesign(
                 FactoryMultiblockShapeInfo.start()
                 .aisle(
-                    " CCCCC ",
-                    " C   C ",
-                    " C   C ", 
-                    "       ",
-                    "       ")
+" CCCCC ",
+" C   C ",
+" C   C ", 
+"       ",
+"       ")
                 .aisle(
-                    "CHHHHHC",
-                    "CHGGGHC",
-                    "CHGGGHC", 
-                    "  HHH  ",
-                    "       ")
+"CHHHHHC",
+"CHGGGHC",
+"CHGGGHC", 
+"  HHH  ",
+"       ")
                 .aisle(
-                    "CHHHHHC",
-                    " GTTTG ",
-                    " GTTTG ", 
-                    " HTTTH ",
-                    "  HHH  ")
+"CHHHHHC",
+" GTTTG ",
+" GTTTG ", 
+" HTTTH ",
+"  HHH  ")
                 .aisle(
-                    "SHHHHHE",
-                    " GT TG ",
-                    " GT TG ", 
-                    " HT TH ",
-                    "  HHH  ")
+"SHHHHHE",
+" GT TG ",
+" GT TG ", 
+" HT TH ",
+"  HHH  ")
                 .aisle(
-                    "CHHHHHC",
-                    " GTTTG ",
-                    " GTTTG ", 
-                    " HTTTH ",
-                    "  HHH  ")
+"CHHHHHC",
+" GTTTG ",
+" GTTTG ", 
+" HTTTH ",
+"  HHH  ")
                 .aisle(
-                    "CHHHHHC",
-                    "CHGGGHC",
-                    "CHGGGHC", 
-                    "  HHH  ",
-                    "       ")
+"CHHHHHC",
+"CHGGGHC",
+"CHGGGHC", 
+"  HHH  ",
+"       ")
                 .aisle(
-                    " CCCCC ",
-                    " C   C ",
-                    " C   C ", 
-                    "       ",
-                    "       ")
+" CCCCC ",
+" C   C ",
+" C   C ", 
+"       ",
+"       ")
                 .where("T", <metastate:gregtech:wire_coil:3>)
                 .where("H", <metastate:gregtech:metal_casing:2>)
                 .where("G", <metastate:gtadditions:ga_transparent_casing:4>)

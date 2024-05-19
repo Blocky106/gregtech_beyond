@@ -681,7 +681,7 @@ assembler.recipeBuilder()
     .outputs(<enderio:item_liquid_conduit:2>*2)
     .fluidInputs(<liquid:soldering_alloy>*400)
     .duration(300)
-    .EUt(12000)
+    .EUt(200)
     .buildAndRegister();
 
 assembler.recipeBuilder()
@@ -689,7 +689,7 @@ assembler.recipeBuilder()
     .outputs(<enderio:item_liquid_conduit>*2)
     .fluidInputs(<liquid:soldering_alloy>*400)
     .duration(300)
-    .EUt(400)
+    .EUt(12)
     .buildAndRegister();
 
 assembler.recipeBuilder()
@@ -697,7 +697,7 @@ assembler.recipeBuilder()
     .outputs(<enderio:item_liquid_conduit:1>*2)
     .fluidInputs(<liquid:soldering_alloy>*400)
     .duration(300)
-    .EUt(5000)
+    .EUt(80)
     .buildAndRegister();
 
 assembler.recipeBuilder()

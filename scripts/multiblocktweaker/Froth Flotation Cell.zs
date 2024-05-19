@@ -28,36 +28,11 @@ var meta = 10006;
 val froth_flotation_cell = Builder.start(loc, meta)
     .withPattern(
             FactoryBlockPattern.start(RelativeDirection.RIGHT, RelativeDirection.BACK, RelativeDirection.UP)
-                .aisle(
-                    "~~P~~",
-                    "~CCC~",
-                    "PCCCP",
-                    "~CCC~",
-                    "~~P~~")
-                .aisle(
-                    "~~P~~",
-                    "~CCC~",
-                    "PC~CP",
-                    "~CCC~",
-                    "~~S~~")
-                .aisle(
-                    "~~~~~",
-                    "~CCC~",
-                    "~C~C~",
-                    "~CCC~",
-                    "~~~~~")
-                .aisle(
-                    "~~~~~",
-                    "~CCC~",
-                    "~C~C~",
-                    "~CCC~",
-                    "~~~~~")
-                .aisle(
-                    "~~~~~",
-                    "~CCC~",
-                    "~CGC~",
-                    "~CCC~",
-                    "~~~~~")
+                .aisle("~~P~~","~CCC~","PCCCP","~CCC~","~~P~~")
+                .aisle("~~P~~","~CCC~","PC~CP","~CCC~","~~S~~")
+                .aisle("~~~~~","~CCC~","~C~C~","~CCC~","~~~~~")
+                .aisle("~~~~~","~CCC~","~C~C~","~CCC~","~~~~~")
+                .aisle("~~~~~","~CCC~","~CGC~","~CCC~","~~~~~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
                 .whereOr("C", 
@@ -75,35 +50,35 @@ val froth_flotation_cell = Builder.start(loc, meta)
         .addDesign(
                 FactoryMultiblockShapeInfo.start()
                 .aisle(
-                    "  P  ",
-                    "  P  ",
-                    "     ",
-                    "     ",
-                    "     ")
+"  P  ",
+"  P  ",
+"     ",
+"     ",
+"     ")
                 .aisle(
-                    " CCC ",
-                    " CCC ",
-                    " CCC ",
-                    " CCC ",
-                    " CCC ")
+" CCC ",
+" CCC ",
+" CCC ",
+" CCC ",
+" CCC ")
                 .aisle(
-                    "PCCCP",
-                    "SC CP",
-                    " C E ",
-                    " C C ",
-                    " CGC ")
+"PCCCP",
+"SC CP",
+" C E ",
+" C C ",
+" CGC ")
                 .aisle(
-                    " CCC ",
-                    " CCC ",
-                    " CCC ",
-                    " CCC ",
-                    " CCC ")
+" CCC ",
+" CCC ",
+" CCC ",
+" CCC ",
+" CCC ")
                 .aisle(
-                    "  P  ",
-                    "  P  ",
-                    "     ",
-                    "     ",
-                    "     ")
+"  P  ",
+"  P  ",
+"     ",
+"     ",
+"     ")
                 .where("C", <metastate:gregtech:metal_casing:5>)
                 .where("P", <metastate:gregtech:boiler_casing:1>)
                 .where("G", <metastate:gregtech:multiblock_casing:1>)
