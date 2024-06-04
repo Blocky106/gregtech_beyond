@@ -1477,6 +1477,7 @@ fusion_reactor.recipeBuilder()
 mixer.recipeBuilder()
 	.inputs(<gregtech:meta_item_1:2061>*3,<gregtech:meta_item_1:2012>*2,<gregtech:meta_item_1:2033>*3)
 	.outputs(<gtadditions:ga_dust:32012>*8)
+	.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
 	.EUt(12)
 	.duration(200)
 	.buildAndRegister();
