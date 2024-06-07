@@ -28,24 +28,9 @@ var meta = 10044;
 val phase_separator = Builder.start(loc, meta)
     .withPattern(
             FactoryBlockPattern.start(RelativeDirection.RIGHT, RelativeDirection.BACK, RelativeDirection.UP)
-                .aisle(
-                    "FCF",
-                    "~C~",
-                    "~C~",
-                    "~C~",
-                    "FCF")
-                .aisle(
-                    "CCC",
-                    "C~C",
-                    "C~C",
-                    "C~C",
-                    "CSC")
-                .aisle(
-                    "~C~",
-                    "~C~",
-                    "~C~",
-                    "~C~",
-                    "~C~")
+                .aisle("FCF","~C~","~C~","~C~","FCF")
+                .aisle("CCC","C~C","C~C","C~C","CSC")
+                .aisle("~C~","~C~","~C~","~C~","~C~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
                 .whereOr("C", 
@@ -62,17 +47,17 @@ val phase_separator = Builder.start(loc, meta)
         .addDesign(
                 FactoryMultiblockShapeInfo.start()
                 .aisle(
-                    "F   F",
-                    "CCCCC",
-                    "     ")
+"F   F",
+"CCCCC",
+"     ")
                 .aisle(
-                    "CCCCC",
-                    "S   E",
-                    "CCCCC")
+"CCCCC",
+"S   E",
+"CCCCC")
                 .aisle(
-                    "F   F",
-                    "CCCCC",
-                    "     ")
+"F   F",
+"CCCCC",
+"     ")
                 .where("C", <metastate:gregtech:metal_casing:4>)
                 .where("S", IBlockInfo.controller(loc))
                 .where("F", <metastate:gregtech:frame_steel>)

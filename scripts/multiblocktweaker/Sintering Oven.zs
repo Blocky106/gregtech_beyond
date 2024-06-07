@@ -28,30 +28,9 @@ var meta = 10013;
 val sintering_oven = Builder.start(loc, meta)
     .withPattern(
             FactoryBlockPattern.start(RelativeDirection.RIGHT, RelativeDirection.BACK, RelativeDirection.UP)
-                .aisle(
-                    "CCC",
-                    "FFF",
-                    "~~~",
-                    "FFF",
-                    "~~~",
-                    "FFF",
-                    "CCC")
-                .aisle(
-                    "CCC",
-                    "FAF",
-                    "~A~",
-                    "FAF",
-                    "~A~",
-                    "FAF",
-                    "CSC")
-                .aisle(
-                    "CCC",
-                    "FFF",
-                    "~~~",
-                    "FFF",
-                    "~~~",
-                    "FFF",
-                    "CCC")
+                .aisle("CCC","FFF","~~~","FFF","~~~","FFF","CCC")
+                .aisle("CCC","FAF","~A~","FAF","~A~","FAF","CSC")
+                .aisle("CCC","FFF","~~~","FFF","~~~","FFF","CCC")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
                 .whereOr("C", 
@@ -69,17 +48,17 @@ val sintering_oven = Builder.start(loc, meta)
         .addDesign(
                 FactoryMultiblockShapeInfo.start()
                 .aisle(
-                    "CF F FC",
-                    "CF F FC",
-                    "CF F FC")
+"CF F FC",
+"CF F FC",
+"CF F FC")
                 .aisle(
-                    "CF F FC",
-                    "SAAAAAC",
-                    "EF F FC")
+"CF F FC",
+"SAAAAAC",
+"EF F FC")
                 .aisle(
-                    "CF F FC",
-                    "CF F FC",
-                    "CF F FC")
+"CF F FC",
+"CF F FC",
+"CF F FC")
                 .where("F", <metastate:gregtech:frame_steel>)
                 .where("A", <metastate:contenttweaker:copperalloycoilblock>)
                 .where("C", <metastate:contenttweaker:basic_structural_casing>)

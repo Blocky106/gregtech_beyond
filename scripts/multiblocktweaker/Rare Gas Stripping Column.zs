@@ -28,22 +28,10 @@ var meta = 10047;
 val rare_gas_stripping_column = Builder.start(loc, meta)
     .withPattern(
             FactoryBlockPattern.start(RelativeDirection.RIGHT, RelativeDirection.BACK, RelativeDirection.UP)
-                .aisle(
-                    "F~F~F~F",
-                    "~~~~~~~",
-                    "F~F~F~F")
-                .aisle(
-                    "CCCCCCC",
-                    "CCCCCCC",
-                    "CCCCCCC")
-                .aisle(
-                    "CCCCCCC",
-                    "C~~~~~C",
-                    "CCCSCCC")
-                .aisle(
-                    "CCCCCCC",
-                    "CCCCCCC",
-                    "CCCCCCC")
+                .aisle("F~F~F~F","~~~~~~~","F~F~F~F")
+                .aisle("CCCCCCC","CCCCCCC","CCCCCCC")
+                .aisle("CCCCCCC","C~~~~~C","CCCSCCC")
+                .aisle("CCCCCCC","CCCCCCC","CCCCCCC")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
                 .whereOr("C", 
@@ -59,41 +47,13 @@ val rare_gas_stripping_column = Builder.start(loc, meta)
                 .build())
         .addDesign(
                 FactoryMultiblockShapeInfo.start()
-                .aisle(
-                    "F F",
-                    "CCC",
-                    "CCC",
-                    "CCC")
-                .aisle(
-                    "   ",
-                    "CCC",
-                    "C C",
-                    "CCC")
-                .aisle(
-                    "F F",
-                    "CCC",
-                    "C C",
-                    "CCC")
-                .aisle(
-                    "   ",
-                    "CCC",
-                    "S E",
-                    "CCC")
-                .aisle(
-                    "F F",
-                    "CCC",
-                    "C C",
-                    "CCC")
-                .aisle(
-                    "   ",
-                    "CCC",
-                    "C C",
-                    "CCC")
-                .aisle(
-                    "F F",
-                    "CCC",
-                    "CCC",
-                    "CCC")
+                .aisle("F F","CCC","CCC","CCC")
+                .aisle("   ","CCC","C C","CCC")
+                .aisle("F F","CCC","C C","CCC")
+                .aisle("   ","CCC","S E","CCC")
+                .aisle("F F","CCC","C C","CCC")
+                .aisle("   ","CCC","C C","CCC")
+                .aisle("F F","CCC","CCC","CCC")
                 .where("C", <metastate:gtadditions:ga_metal_casing_1:8>)
                 .where("S", IBlockInfo.controller(loc))
                 .where("F", <metastate:gregtech:frame_steel>)

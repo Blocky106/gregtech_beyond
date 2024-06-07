@@ -906,6 +906,15 @@ lcr.recipeBuilder()
 	.EUt(256)
 	.buildAndRegister();
 
+chemReactor.recipeBuilder()
+	.inputs(<gregtech:meta_item_1:2013>,<gregtech:meta_item_1:2065>)
+	.fluidInputs(<liquid:hydrofluoric_acid> * 4000,<liquid:chloroform> * 2000)
+	.fluidOutputs(<liquid:hydrochloric_acid> * 6000,<liquid:tetraethylene> * 1000)
+	.outputs(<gtadditions:ga_dust:282>*2)
+	.duration(240)
+	.EUt(256)
+	.buildAndRegister();
+
 lcr.recipeBuilder()
 	.inputs(<gtadditions:ga_dust:32019>)
 	.fluidInputs(<liquid:titanyl_sulfate> * 800)

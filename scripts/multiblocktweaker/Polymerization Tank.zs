@@ -28,26 +28,11 @@ var meta = 10010;
 val polymerization_tank = Builder.start(loc, meta)
     .withPattern(
             FactoryBlockPattern.start(RelativeDirection.RIGHT, RelativeDirection.BACK, RelativeDirection.UP)
-                .aisle(
-                    "F~F",
-                    "~~~",
-                    "F~F")
-                .aisle(
-                    "CCC",
-                    "CCC",
-                    "CSC")
-                .aisle(
-                    "CCC",
-                    "C~C",
-                    "CCC")
-                .aisle(
-                    "CCC",
-                    "C~C",
-                    "CCC")
-                .aisle(
-                    "CCC",
-                    "CCC",
-                    "CCC")
+                .aisle("F~F","~~~","F~F")
+                .aisle("CCC","CCC","CSC")
+                .aisle("CCC","C~C","CCC")
+                .aisle("CCC","C~C","CCC")
+                .aisle("CCC","CCC","CCC")
 
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
@@ -65,23 +50,23 @@ val polymerization_tank = Builder.start(loc, meta)
         .addDesign(
                 FactoryMultiblockShapeInfo.start()
                 .aisle(
-                    "F F",
-                    "CCC",
-                    "CCC",
-                    "CCC",
-                    "CCC")
+"F F",
+"CCC",
+"CCC",
+"CCC",
+"CCC")
                 .aisle(
-                    "   ",
-                    "SCE",
-                    "C C",
-                    "C C",
-                    "CCC")
+"   ",
+"SCE",
+"C C",
+"C C",
+"CCC")
                 .aisle(
-                    "F F",
-                    "CCC",
-                    "CCC",
-                    "CCC",
-                    "CCC")
+"F F",
+"CCC",
+"CCC",
+"CCC",
+"CCC")
                                    
                 .where("C", <metastate:gregtech:metal_casing:4>)
                 .where("S", IBlockInfo.controller(loc))

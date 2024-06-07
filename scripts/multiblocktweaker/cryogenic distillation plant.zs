@@ -28,22 +28,10 @@ var meta = 10043;
 val cryogenic_distillation_plant = Builder.start(loc, meta)
     .withPattern(
             FactoryBlockPattern.start(RelativeDirection.RIGHT, RelativeDirection.BACK, RelativeDirection.UP)
-                .aisle(
-                    "CCC",
-                    "CCC",
-                    "CSC")
-                .aisle(
-                    "CCC",
-                    "C~C",
-                    "CCC")
-                .aisle(
-                    "CCC",
-                    "C~C",
-                    "CCC")
-                .aisle(
-                    "CCC",
-                    "CCC",
-                    "CCC")
+                .aisle("CCC","CCC","CSC")
+                .aisle("CCC","C~C","CCC")
+                .aisle("CCC","C~C","CCC")
+                .aisle("CCC","CCC","CCC")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
                 .whereOr("C", 
@@ -59,20 +47,20 @@ val cryogenic_distillation_plant = Builder.start(loc, meta)
         .addDesign(
                 FactoryMultiblockShapeInfo.start()
                 .aisle(
-                    "CCC",
-                    "CCC",
-                    "CCC",
-                    "CCC")
+"CCC",
+"CCC",
+"CCC",
+"CCC")
                 .aisle(
-                    "SCE",
-                    "C C",
-                    "C C",
-                    "CCC")
+"SCE",
+"C C",
+"C C",
+"CCC")
                 .aisle(
-                    "CCC",
-                    "CCC",
-                    "CCC",
-                    "CCC")
+"CCC",
+"CCC",
+"CCC",
+"CCC")
                 .where("C", <metastate:gregtech:metal_casing:3>)
                 .where("S", IBlockInfo.controller(loc))
                 .where("L", MetaTileEntities.FLUID_IMPORT_HATCH[1], IFacing.south())
