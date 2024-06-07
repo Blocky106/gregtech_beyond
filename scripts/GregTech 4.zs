@@ -3556,12 +3556,13 @@ recipes.addShaped(<gregtech:machine:1465>, [	[<gregtech:meta_item_1:32644>, <gre
 recipes.addShaped(<gregtech:machine:1466>, [	[<gregtech:meta_item_1:32645>, <gregtech:meta_item_1:32685>, <gregtech:meta_item_1:32645>], 	[<ore:circuitMaster>, <gtadditions:ga_transparent_casing:1>, <ore:circuitMaster>], 	[<gregtech:meta_item_1:32645>, <gregtech:machine:506>, <gregtech:meta_item_1:32645>]]);
 
 
-
-
-
-
-
-
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:methane>*1000, <liquid:chlorine>*1000)
+    .fluidOutputs(<liquid:chloroform>*1000,<liquid:hydrochloric_acid>*1000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .duration(200)
+    .EUt(80)
+    .buildAndRegister();
 
 
 
