@@ -3565,7 +3565,29 @@ chemReactor.recipeBuilder()
     .buildAndRegister();
 
 
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:ethylene>*1000,<liquid:benzene>*1000)
+    .fluidOutputs(<liquid:styrene>*1000,<liquid:hydrogen>*1000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 2}))
+    .EUt(12)
+    .duration(200)
+    .buildAndRegister();
 
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:methane>*1000, <liquid:chlorine>*1000)
+    .fluidOutputs(<liquid:chloroform>*1000,<liquid:hydrochloric_acid>*1000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .duration(200)
+    .EUt(80)
+ .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:ethylene>*1000,<liquid:benzene>*1000)
+    .fluidOutputs(<liquid:styrene>*1000,<liquid:hydrogen>*1000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 2}))
+    .EUt(12)
+    .duration(200)
+    .buildAndRegister();
 
 
 
