@@ -777,7 +777,7 @@ mixer.recipeBuilder()
 
 ebf.recipeBuilder()
 	.inputs(<gregtech:meta_item_1:2515>)
-	.outputs(<gregtech:meta_item_1:10515>)
+	.outputs(<gregtech:meta_item_1:11515>)
 	.duration(400)
 	.fluidInputs(<liquid:hydrogen>*1000)
 	.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 11}))
@@ -787,7 +787,7 @@ ebf.recipeBuilder()
 
 ebf.recipeBuilder()
 	.inputs(<gregtech:meta_item_1:2515>)
-	.outputs(<gregtech:meta_item_1:10515>)
+	.outputs(<gregtech:meta_item_1:11515>)
 	.duration(300)
 	.fluidInputs(<liquid:neon>*1000)
 	.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 11}))
@@ -797,12 +797,13 @@ ebf.recipeBuilder()
 
 ebf.recipeBuilder()
 	.inputs(<gregtech:meta_item_1:2515>)
-	.outputs(<gregtech:meta_item_1:10515>)
+	.outputs(<gregtech:meta_item_1:11515>)
 	.duration(500)
 	.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
 	.EUt(500)
 	.property("temperature", 1900)
 	.buildAndRegister();
+
 
 
 
