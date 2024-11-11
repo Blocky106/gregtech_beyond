@@ -787,14 +787,6 @@ vacfreezer.findRecipe(120, [<gregtech:meta_item_1:11869>],null).remove();
 vacfreezer.findRecipe(120, [<gregtech:meta_item_1:11883>],null).remove();
 vacfreezer.findRecipe(120, [<gregtech:meta_item_1:11047>],null).remove();
 vacfreezer.findRecipe(120, [<gregtech:meta_item_1:11854>],null).remove();
-vacfreezer.findRecipe(120, [<gregtech:meta_item_1:11032>],null).remove();
-vacfreezer.findRecipe(120, [<gregtech:meta_item_1:11858>],null).remove();
-vacfreezer.findRecipe(120, [<gregtech:meta_item_1:11859>],null).remove();
-vacfreezer.findRecipe(120, [<gregtech:meta_item_1:11207>],null).remove();
-vacfreezer.findRecipe(120, [<gregtech:meta_item_1:11869>],null).remove();
-vacfreezer.findRecipe(120, [<gregtech:meta_item_1:11883>],null).remove();
-vacfreezer.findRecipe(120, [<gregtech:meta_item_1:11047>],null).remove();
-vacfreezer.findRecipe(120, [<gregtech:meta_item_1:11854>],null).remove();
 
 vacfreezer.recipeBuilder()
     .inputs(<gregtech:meta_item_1:11032>)
@@ -2327,8 +2319,6 @@ ebf.recipeBuilder()
     .EUt(4000)
     .property("temperature",4200)
     .buildAndRegister();
-
-vacfreezer.findRecipe(120,[<gregtech:meta_item_1:11235>],null).remove();
 
 vacfreezer.recipeBuilder()
     .inputs(<gregtech:meta_item_1:11235>)

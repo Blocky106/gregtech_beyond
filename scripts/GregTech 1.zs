@@ -2942,7 +2942,6 @@ extruder.findRecipe(64, [<gregtech:meta_item_1:10184>, <gregtech:meta_item_1:323
 extruder.findRecipe(64, [<gregtech:meta_item_1:10071>, <gregtech:meta_item_1:32350>], null).remove();
 extruder.findRecipe(64, [<gregtech:meta_item_1:10018>, <gregtech:meta_item_1:32350>], null).remove();
 electrolyzer.findRecipe(60, [<gregtech:meta_item_1:2108> * 6], null).remove();
-vacfreezer.findRecipe(120, [<gregtech:meta_item_1:11963>], null).remove();
 macerator.findRecipe(12, [<gregtech:meta_item_1:7051>], null).remove();
 forgeHammer.findRecipe(8, [<gregtech:meta_item_1:7051>], null).remove();
 centrifuge.findRecipe(24, [<gregtech:meta_item_1:3051>], null).remove();

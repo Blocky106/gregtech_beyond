@@ -1606,18 +1606,6 @@ vacfreezer.findRecipe(120,[<gregtech:meta_item_1:11727>],null).remove();
 vacfreezer.findRecipe(120,[<gregtech:meta_item_1:11725>],null).remove();
 vacfreezer.findRecipe(120,[<gregtech:meta_item_1:11723>],null).remove();
 
-vacfreezer.findRecipe(120,[<gregtech:meta_item_1:11745>],null).remove();
-vacfreezer.findRecipe(120,[<gregtech:meta_item_1:11975>],null).remove();
-vacfreezer.findRecipe(120,[<gregtech:meta_item_1:11974>],null).remove();
-vacfreezer.findRecipe(120,[<gregtech:meta_item_1:11973>],null).remove();
-vacfreezer.findRecipe(120,[<gregtech:meta_item_1:11972>],null).remove();
-vacfreezer.findRecipe(120,[<gregtech:meta_item_1:11971>],null).remove();
-vacfreezer.findRecipe(120,[<gregtech:meta_item_1:11740>],null).remove();
-vacfreezer.findRecipe(120,[<gregtech:meta_item_1:11738>],null).remove();
-vacfreezer.findRecipe(120,[<gregtech:meta_item_1:11727>],null).remove();
-vacfreezer.findRecipe(120,[<gregtech:meta_item_1:11725>],null).remove();
-vacfreezer.findRecipe(120,[<gregtech:meta_item_1:11723>],null).remove();
-
 vacfreezer.recipeBuilder()  
     .inputs(<gregtech:meta_item_1:11975>)
     .outputs(<gregtech:meta_item_1:10975>)
@@ -1689,7 +1677,6 @@ vacfreezer.recipeBuilder()
     .buildAndRegister();
 
 vacfreezer.findRecipe(120,[<gregtech:meta_item_1:11235>],null).remove();
-vacfreezer.findRecipe(120,[<gregtech:meta_item_1:11300>],null).remove();
 vacfreezer.findRecipe(120,[<gregtech:meta_item_1:11300>],null).remove();
 ebf.findRecipe(120,[<gregtech:meta_item_1:2300>],null).remove();
 
