@@ -3580,7 +3580,13 @@ lcr.recipeBuilder()
     .duration(200)
     .buildAndRegister();
 
-
+assembly_line.recipeBuilder()
+    .fluidInputs(<liquid:liquid_crystal_detector>*3000,<liquid:soldering_alloy>*1024)
+    .inputs(<gregtech:frame_hastelloy_x78>,<gregtech:meta_item_1:19715>*64,<gregtech:meta_item_1:19715>*64,<ore:circuitUiv>*4,<gregtech:ga_cable:5856>*16,<gregicalityoreaddon:gaoe_meta_item:13>,<gtadditions:ga_meta_item:32526>*4)
+    .outputs(<gtadditions:ga_meta_item:32392>)
+    .EUt(32000000)
+    .duration(500)
+    .buildAndRegister();
 
 
 
