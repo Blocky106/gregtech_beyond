@@ -16,8 +16,12 @@
          	 "value": "ore:amethyst"
         },
         {
-         	 "weight": 60,
+         	 "weight": 30,
          	 "value": "ore:garnet_red"
+        },
+        {
+         	 "weight": 30,
+         	 "value": "ore:garnet_yellow"
         }
       ]
     }
