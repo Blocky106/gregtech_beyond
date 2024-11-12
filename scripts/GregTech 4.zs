@@ -3588,9 +3588,8 @@ assembly_line.recipeBuilder()
     .duration(500)
     .buildAndRegister();
 
-
 assembly_line.recipeBuilder()
-    .fluidInputs(<liquid:naquadriatictritanium>*16000,<liquid:quantium>*16000,<liquid:pedot>*16000>)
+    .fluidInputs(<liquid:naquadriatictritanium>*16000,<liquid:quantium>*16000,<liquid:pedot>*16000)
     .inputs(<gregtech:machine:3271>*32,<gregtech:meta_item_2:26528>*4,<contenttweaker:fieldgeneratorcasing>*32,<ore:circuitUmv>*16,<ore:circuitUmv>*16,<ore:circuitUmv>*16,<ore:circuitUmv>*16,<gtadditions:ga_meta_item:32381>*16,<gtadditions:ga_meta_item:32375>*16,<gtadditions:ga_meta_item:32387>*16,<gtadditions:ga_meta_item:32393>*16,<gtadditions:ga_meta_item:32357>*64,<gtadditions:ga_meta_item:32363>*32,<gregtech:ga_cable:2724>*12,<gregtech:ga_cable:2724>*12,<threng:machine:3>*16)
     .outputs(<gregtech:machine:10048>)
     .EUt(22220000)
@@ -3603,3 +3602,21 @@ assembly_line.recipeBuilder()
     .duration(100)
     .EUt(70000000)
     .buildAndRegister();
+
+assembly_line.recipeBuilder()
+	.inputs(<contenttweaker:hicomputationstationmk4>,<ore:circuitUmv>,<ore:circuitUmv>,<gregtech:meta_item_2:32436>*16,<gregtech:ga_cable:4775>*16,<gtadditions:ga_meta_item:32561>*2,<gregtech:meta_item_2:16716>*64,<gregtech:meta_item_2:16716>*64,<gregtech:meta_block_compressed_45:4>*16)
+	.fluidInputs(<liquid:zylon>*1000,<liquid:cinobite_molten>*1000)
+	.outputs(<gtadditions:ga_fusion_casing:7>)
+	.EUt(134200000)
+	.duration(1200)
+	.property("qubit", 32)
+	.buildAndRegister();
+
+assembly_line.recipeBuilder()
+	.inputs(<gregtech:frame_proto_adamantium>*64,<gregtech:fluid_pipe:18>*64,<gregtech:fluid_pipe:18>*64,<gregtech:fluid_pipe:18>*64,<gregtech:fluid_pipe:18>*64,<gregtech:fluid_pipe:18>*64,<gregtech:fluid_pipe:18>*64,<gtadditions:ga_fusion_casing:1>,<gtadditions:ga_meta_item:32369>,<gtadditions:ga_meta_item:32393>,<gregtech:meta_item_1:12715>*64)
+	.fluidInputs(<liquid:zylon>*1000,<liquid:cinobite_molten>*1000)
+	.outputs(<gtadditions:ga_vacuum_casing:3>)
+	.EUt(1200)
+	.duration(1200)
+	.property("qubit", 32)
+	.buildAndRegister();
