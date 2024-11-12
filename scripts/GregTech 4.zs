@@ -3597,3 +3597,9 @@ assembly_line.recipeBuilder()
     .duration(2000)
     .buildAndRegister();
 
+assembly_line.recipeBuilder()
+    .inputs(<contenttweaker:quantumcasing>,<contenttweaker:ionthruster>*4,<ore:circuitUmv>*2,<gtadditions:ga_meta_item:32374>*2,<gtadditions:ga_meta_item:32392>*2,<contenttweaker:hicomputationstationmk5>)
+    .outputs(<contenttweaker:quantumcomputercasing>)
+    .duration(100)
+    .EUt(70000000)
+    .buildAndRegister();
