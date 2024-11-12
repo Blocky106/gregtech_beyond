@@ -1,0 +1,6 @@
+
+{
+  "Name": "tombstone.grave_guardian",
+  "Registry ID": "tombstone:grave_guardian",
+  "Class": "ovh.corail.tombstone.entity.GraveGuardian"
+}
