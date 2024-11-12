@@ -3589,5 +3589,11 @@ assembly_line.recipeBuilder()
     .buildAndRegister();
 
 
-
+assembly_line.recipeBuilder()
+    .fluidInputs(<liquid:naquadriatictritanium>*16000,<liquid:quantium>*16000,<liquid:pedot>*16000>)
+    .inputs(<gregtech:machine:3271>*32,<contenttweaker:fieldgeneratorcasing>*32,<ore:circuitUmv>*16,<ore:circuitUmv>*16,<ore:circuitUmv>*16,<ore:circuitUmv>*16,<gtadditions:ga_meta_item:32381>*16,<gtadditions:ga_meta_item:32375>*16,<gtadditions:ga_meta_item:32387>*16,<gtadditions:ga_meta_item:32393>*16,<gtadditions:ga_meta_item:32357>*64,<gtadditions:ga_meta_item:32363>*32,<gregtech:ga_cable:2724>*12,<gregtech:ga_cable:2724>*12,<threng:machine:3>*16)
+    .outputs(<gregtech:machine:10048>)
+    .EUt(22220000)
+    .duration(2000)
+    .buildAndRegister();
 
