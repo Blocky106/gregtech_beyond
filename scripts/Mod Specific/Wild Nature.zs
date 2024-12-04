@@ -90,3 +90,5 @@ macerator.recipeBuilder()
     .duration(120)
     .EUt(12)
     .buildAndRegister();
+
+recipes.addShapeless(<thaumcraft:amber>*9,[<wildnature:amber_block>]);

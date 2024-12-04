@@ -1773,7 +1773,7 @@ mixer.recipeBuilder()
 	.buildAndRegister();
 
 assembler.recipeBuilder()
-	.inputs(<contenttweaker:engravedgoldchip> *8,<gtadditions:ga_meta_item:32035>,<gtadditions:ga_meta_item:32420>*4,<gregtech:meta_item_2:32482>*10,<gregtech:cable:2001>*4,<gregtech:meta_item_1:16232>*16)
+	.inputs(<contenttweaker:engravedgoldchip> *8,<gtadditions:ga_meta_item:32035>,<gregtech:meta_item_2:32479>*4,<gregtech:meta_item_2:32482>*10,<gregtech:cable:2001>*4,<gregtech:meta_item_1:16232>*16)
 	.outputs(<contenttweaker:hicomputationstationmk1>)
 	.fluidInputs(<liquid:vibrantalloy>*200)
 	.duration(400)
