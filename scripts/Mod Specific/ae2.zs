@@ -335,3 +335,4 @@ recipes.remove(<appliedenergistics2:part:220>);
 recipes.addShaped(<appliedenergistics2:part:220>, [	[<ore:screwCupronickel>, <ore:craftingPiston>, <ore:screwCupronickel>], 	[<ore:plateAluminium>, <appliedenergistics2:interface>, <ore:plateAluminium>], 	[<ore:screwCupronickel>, <ore:craftingPiston>, <ore:screwCupronickel>]]);
 
 
+recipes.addShaped(<aeadditions:certustank>, [	[<ore:plateSteel>, <appliedenergistics2:quartz_glass>, <ore:plateSteel>], 	[<appliedenergistics2:quartz_glass>, null, <appliedenergistics2:quartz_glass>], 	[<ore:plateSteel>, <appliedenergistics2:quartz_glass>, <ore:plateSteel>]]);
