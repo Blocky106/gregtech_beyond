@@ -2415,7 +2415,7 @@ assembly_line.recipeBuilder()
 	.buildAndRegister();
 
 assembly_line.recipeBuilder()
-	.inputs(<gregtech:meta_item_2:32436>*20,<ore:circuitUxv>,<ore:circuitUxv>,<contenttweaker:hicomputationstationmk5>,<gregtech:meta_item_1:13993>*4,<gregtech:meta_item_1:14517>*2,<gregtech:meta_item_1:14517>*2,<gregtech:meta_item_1:14517>*2,<gregtech:meta_item_1:14517>*2,<gregtech:meta_item_1:13671>*2,<gregtech:meta_item_1:12523>*2,<gregtech:ga_cable:3724>*4,<gtadditions:ga_meta_item:32382>)
+	.inputs(<gregtech:meta_item_2:32436>*20,<ore:circuitUxv>*2,<contenttweaker:hicomputationstationmk5>,<gregtech:meta_item_1:13993>*4,<gregtech:meta_item_1:14517>*2,<gregtech:meta_item_1:14517>*2,<gregtech:meta_item_1:14517>*2,<gregtech:meta_item_1:14517>*2,<gregtech:meta_item_1:13671>*2,<gregtech:meta_item_1:12523>*2,<gregtech:ga_cable:3724>*4,<gtadditions:ga_meta_item:32382>)
 	.fluidInputs(<liquid:highlycomplicatedcosmicrubber>*500,<liquid:soldering_alloy>*1024)
 	.outputs(<gtadditions:ga_fusion_casing:8>*4)
 	.duration(200)
