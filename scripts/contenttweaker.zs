@@ -284,6 +284,7 @@ var items = [
 "biowaremainboard",
 "living_bio_chip",
 "stablestar",
+"thin_kapton_k_sheet",
 "gemstonecluster",
 "coalball",
 "uvhasoc",

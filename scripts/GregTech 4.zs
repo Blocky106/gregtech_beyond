@@ -3620,3 +3620,11 @@ assembly_line.recipeBuilder()
 	.duration(1200)
 	.property("qubit", 32)
 	.buildAndRegister();
+
+cutting_saw.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:12625>)
+    .fluidInputs(<liquid:distilled_water>*12)
+    .outputs(<contenttweaker:thin_kapton_k_sheet>*2)
+    .duration(200)
+    .EUt(700)
+    .buildAndRegister();
