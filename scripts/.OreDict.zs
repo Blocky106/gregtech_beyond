@@ -531,6 +531,8 @@ mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:
 <ore:BlockAmethyst>.remove(<wildnature:amethyst_block>);
 <ore:dustSodiumChloride>.remove(<qmd:chemical_dust:3>);
 <ore:dustSalt>.remove(<qmd:chemical_dust:3>);
+<ore:gemAmber>.add(<wildnature:amber>);
+<ore:ingotAmber>.add(<thaumcraft:amber>);
 
 
 
