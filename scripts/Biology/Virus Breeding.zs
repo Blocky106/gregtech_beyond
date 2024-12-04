@@ -292,7 +292,7 @@ lcr.recipeBuilder()
     .buildAndRegister();
 
 assembler.recipeBuilder()
-    .inputs(<gregtech:meta_item_2:32454>,<gregtech:meta_item_1:14184>)
+    .inputs(<gregtech:meta_item_2:32454>,<gregtech:meta_item_1:14184>,<contenttweaker:thin_kapton_k_sheet)
     .outputs(<contenttweaker:syringe>)
     .duration(299)
     .EUt(80)
