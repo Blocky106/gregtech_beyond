@@ -17,7 +17,7 @@ import mods.gtadditions.recipe.Utils;
 Utils.removeRecipeByOutput(assembler, [<gtadditions:ga_meta_item:32253> * 16], [], false);
 
 assembler.recipeBuilder()
-    .fluidInputs(<liquid:ethylene*144>)
+    .fluidInputs(<liquid:ethylene>*144)
     .inputs(<ore:foilTungsten>,<gregtech:meta_item_1:19391>*4,<contenttweaker:thin_kapton_k_sheet>*2)
     .outputs(<gtadditions:ga_meta_item:32253>*16)
     .duration(400)
