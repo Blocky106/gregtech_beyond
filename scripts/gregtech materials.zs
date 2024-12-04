@@ -523,6 +523,9 @@ util.registerDust("doped_nanotube_deposition_mix", 32219, 0xF5C9C8, "SHINY");
 util.registerDust("nanotube_insulation_deposition_mix", 32220, 0xFB8C00, "SHINY");
 util.registerDust("dielectric_mirror_formation_mix", 32221, 0xFB8C00, "SHINY");
 util.registerDust("doped_carbon_nanotubes", 32222, 0x2F4F4F, "SHINY");
+util.registerDust("hsla_steel", 32223, 0xD5D8E8, "DULL");
+util.registerDust("heated_hsla_steel", 32224, 0xECE7BF, "SHINY");
+util.registerDust("quenched_hsla_steel", 32225, 0xE9E3B7, "SHINY");
 
 
 
@@ -531,6 +534,7 @@ util.registerDust("doped_carbon_nanotubes", 32222, 0x2F4F4F, "SHINY");
 
 
 
+util.registerFluid("hsla_steel",0xD5D8E8);
 util.registerFluid("electron_degenerate_rhenium_plasma",0x4A148C);
 util.registerFluid("naquadah_rich_sterile_growth_medium",0x7D7878);
 util.registerFluid("liquid_helium_4",0xFBC02D);
