@@ -78,3 +78,15 @@ macerator.recipeBuilder()
     .duration(120)
     .EUt(12)
     .buildAndRegister();
+
+recipes.remove(<wildnature:amber_block>);
+
+recipes.addShapeless(<thaumcraft:amber_block>,[<ore:IngotAmber>,<ore:IngotAmber>,<ore:IngotAmber>,<ore:IngotAmber>]);
+
+macerator.recipeBuilder()
+    .inputs(<wildnature:amber_ore>)
+    .outputs(<thaumcraft:amber> * 3)
+    .chancedOutput(<gregtech:meta_item_1:2328>, 6700, 800)
+    .duration(120)
+    .EUt(12)
+    .buildAndRegister();
