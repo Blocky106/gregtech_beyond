@@ -1160,3 +1160,40 @@ assembler.recipeBuilder()
     .duration(500)
     .EUt(40000)
     .buildAndRegister();
+
+lmixer.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2184>*6,<gregtech:meta_item_1:2041>*2,<gregtech:meta_item_1:2016>,<gregtech:meta_item_1:2077>)
+    .outputs(<gtadditions:ga_dust:32223>*10)
+    .duration(400)
+    .EUt(7000)
+    .buildAndRegister();
+
+ebf.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:32223>)
+    .outputs(<gtadditions:ga_dust:32224>)
+    .property("temperature", 2700)
+    .duration(400)
+    .EUt(120)
+    .buildAndRegister();
+
+vacfreezer.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:32224>)
+    .outputs(<gtadditions:ga_dust:32225>)
+    .duration(400)
+    .EUt(700)
+    .buildAndRegister();
+
+blastalloy.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:32225>)
+    .fluidOutputs(<liquid:hsla_steel>*144)
+    .duration(200)
+    .EUt(120)
+    .buildAndRegister();
+
+fluid_solidifier.recipeBuilder()
+    .fluidInputs(<liquid:hsla_steel>*144)
+    .outputs(<nuclearcraft:alloy:15>)
+    .notConsumable(<gregtech:meta_item_1:32306>)
+    .duration(400)
+    .EUt(70)
+    .buildAndRegister();
