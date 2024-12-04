@@ -1108,7 +1108,7 @@ assembler.recipeBuilder()
 
 mixer.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2064>*2,<gregtech:meta_item_1:2008>*2,<gregtech:meta_item_1:2011>*2,<qmd:chemical_dust:4>*3)
-    .outputs(<gregtech:meta_item_1:2620>)
+    .outputs(<gregtech:meta_item_1:2620> * 9)
     .duration(500)
     .EUt(1200)
     .buildAndRegister();
