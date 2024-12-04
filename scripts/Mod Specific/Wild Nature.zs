@@ -68,3 +68,13 @@ macerator.recipeBuilder()
     .buildAndRegister();
 
 recipes.addShapeless(<minecraft:stick>,[<wildnature:corn_bush>]);
+
+
+macerator.recipeBuilder()
+    .inputs(<wildnature:silver_ore>)
+    .outputs(<gregtech:meta_item_1:5062> * 3)
+    .chancedOutput(<gregtech:meta_item_1:2035>, 1400, 850)
+    .chancedOutput(<gregtech:meta_item_1:2328>, 6700, 800)
+    .duration(120)
+    .EUt(12)
+    .buildAndRegister();
