@@ -124,7 +124,7 @@ metal_bender.recipeBuilder()
     .buildAndRegister();
 
 metal_bender.recipeBuilder()
-    .inputs(<gregtech:meta_item_1:10026>)
+    .inputs(<minecraft:gold_ingot>)
     .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 10}))
     .outputs(<gregtech:meta_item_1:19026>*4)
     .duration(40)
