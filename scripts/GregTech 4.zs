@@ -3628,3 +3628,10 @@ cutting_saw.recipeBuilder()
     .duration(200)
     .EUt(700)
     .buildAndRegister();
+
+vacfreezer.recipeBuilder()
+    .outputs(<gregtech:meta_item_1:10061>)
+    .inputs(<contenttweaker:hot_silicon_ingot>)
+    .duration(200)
+    .EUt(80)
+    .buildAndRegister();
