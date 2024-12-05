@@ -1197,3 +1197,12 @@ fluid_solidifier.recipeBuilder()
     .duration(400)
     .EUt(70)
     .buildAndRegister();
+
+alloy_smelter.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:10051>,<gregtech:meta_item_1:10035>)
+    .outputs(<nuclearcraft:alloy:9>*2)
+    .duration(100)
+    .EUt(180)
+    .buildAndRegister();
+
+
