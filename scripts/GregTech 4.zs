@@ -3693,3 +3693,11 @@ steam_foundry.recipeMap.recipeBuilder()
     .duration(600)
     .EUt(1)
     .buildAndRegister();
+
+steam_foundry.recipeMap.recipeBuilder()
+    .inputs(<ore:gearIron>)
+    .fluidInputs(<liquid:lava>*150)
+    .outputs(<contenttweaker:seared_gear>*2)
+    .duration(40)
+    .EUt(1)
+    .buildAndRegister();

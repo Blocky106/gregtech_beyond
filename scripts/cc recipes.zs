@@ -61,3 +61,4 @@ recipes.addShaped(<contenttweaker:seared_gear>, [[<ore:ingotBrickSeared>, null, 
 
 
 
+
