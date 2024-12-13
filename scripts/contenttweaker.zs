@@ -171,7 +171,6 @@ registerMetalBlock("rocket_thruster_top", 12.0, 10.0, 1);
 registerMetalBlock("rocket_thruster_bottom", 12.0, 10.0, 1);
 registerMetalBlock("rocket_turbo_pump", 12.0, 10.0, 1);
 registerMetalBlock("t1_rocket_combustion_engine", 12.0, 10.0, 1);
-registerMetalBlock("steam_foundry", 12.0, 10.0, 1);
 
 
 
