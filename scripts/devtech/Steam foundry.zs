@@ -19,7 +19,7 @@ var steam_foundry = IRecipeMap.recipeMapBuilder("steam_foundry",0,2,0,2,0,1,0,1)
     .setProgressBar(GUITextures.get("progress_bar_bending"), MoveType.VERTICAL)
     .build();
     
-RegisterMachine.CreateSimpleMachine(1478, "steam_foundry.ulv",  steam_foundry, steam_foundry_overlay, 0);
+RegisterMachine.CreateSimpleMachine(1478, "steam_foundry.ulv",  steam_foundry, steam_foundry_overlay, 1);
 
 
 
