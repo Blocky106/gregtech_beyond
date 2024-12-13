@@ -3638,7 +3638,7 @@ vacfreezer.recipeBuilder()
 
  recipes.addShaped(<contenttweaker:steam_foundry>, [[<ore:plateIron>, <ore:blockSeared>, <ore:plateIron>],  [<tconstruct:seared_tank>, <tconstruct:seared_furnace_controller>, <tconstruct:seared_tank>],  [<ore:plateIron>, <contenttweaker:seared_gear>, <ore:plateIron>]]);
 
-    steam_foundry.recipeBuilder()
+    steam_foundry.recipeMap.recipeBuilder()
     .inputs(<ore:ingotIron>, <ore:fuelCoke>)
     .fluidInputs(<liquid:lava>*100)
     .outputs(<gregtech:meta_item_1:10184>, <gregtech:meta_item_1:110>*3)
@@ -3646,7 +3646,7 @@ vacfreezer.recipeBuilder()
     .EUt(1)
     .buildAndRegister();
 
-steam_foundry.recipeBuilder()
+steam_foundry.recipeMap.recipeBuilder()
     .inputs(<gregtech:meta_item_1:10197>, <ore:fuelCoke>)
     .fluidInputs(<liquid:lava>*100)
     .outputs(<gregtech:meta_item_1:10184>, <gregtech:meta_item_1:110>*3)
@@ -3654,7 +3654,7 @@ steam_foundry.recipeBuilder()
     .EUt(1)
     .buildAndRegister();
 
-steam_foundry.recipeBuilder()
+steam_foundry.recipeMap.recipeBuilder()
     .inputs(<ore:dustRegularCopper>*2, <ore:dustRegularTin>, <ore:dustIron>)
     .fluidInputs(<liquid:lava>*100)
     .outputs(<gregtech:meta_item_1:10095>*2)
@@ -3662,7 +3662,7 @@ steam_foundry.recipeBuilder()
     .EUt(1)
     .buildAndRegister();
 
-steam_foundry.recipeBuilder()
+steam_foundry.recipeMap.recipeBuilder()
     .inputs(<ore:ingotSteel>, <ore:dustRegularTin>, <ore:dustSilicon>)
     .fluidInputs(<liquid:lava>*100)
     .outputs(<enderio:item_alloy_ingot>)
@@ -3670,7 +3670,7 @@ steam_foundry.recipeBuilder()
     .EUt(1)
     .buildAndRegister();
 
-steam_foundry.recipeBuilder()
+steam_foundry.recipeMap.recipeBuilder()
     .inputs(<ore:ingotIron>, <ore:ingotBronze>, <ore:ingotTin>)
     .fluidInputs(<liquid:lava>*100)
     .outputs(<gregtech:meta_item_2:32432>)
@@ -3678,7 +3678,7 @@ steam_foundry.recipeBuilder()
     .EUt(1)
     .buildAndRegister();
 
-steam_foundry.recipeBuilder()
+steam_foundry.recipeMap.recipeBuilder()
     .inputs(<ore:sand>)
     .fluidInputs(<liquid:lava>*100)
     .outputs(<tconstruct:clear_glass>)
@@ -3686,7 +3686,7 @@ steam_foundry.recipeBuilder()
     .EUt(1)
     .buildAndRegister();
     
-steam_foundry.recipeBuilder()
+steam_foundry.recipeMap.recipeBuilder()
     .inputs(<minecraft:obsidian>)
     .fluidInputs(<liquid:lava>*500)
     .outputs(<minecraft:obsidian>*2)
