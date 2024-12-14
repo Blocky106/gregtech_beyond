@@ -1858,7 +1858,7 @@ tile.contenttweaker.t4_rocket_engine.name=T4 Rocket Engine
 tile.contenttweaker.extreme_rocket_thruster.name=Extreme Rocket Thruster
 item.contenttweaker.trenched_superconductor_layered_uhasoc_wafer.name=Trenched Superconductor Layered UHaSoC Wafer
 item.contenttweaker.seared_gear.name=Seared Gear
-
+devtech.machine.steam_foundry.name=Steam Foundry
 
 
 
