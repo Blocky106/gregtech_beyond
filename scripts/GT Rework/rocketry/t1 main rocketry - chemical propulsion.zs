@@ -33,7 +33,7 @@ assembler.recipeBuilder()
     .EUt(120)
     .buildAndRegister();
 
-mods.extendedcrafting.TableCrafting.addShaped(0, <contenttweaker:rocket_thruster_top>, [
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:rocket_thruster_top>, [
 	[<ore:plateCurvedMolybdenum>, null, null, null, <ore:plateCurvedMolybdenum>], 
 	[<ore:pipeSmallPlastic>, <ore:plateCurvedMolybdenum>, null, <ore:plateCurvedMolybdenum>, <ore:pipeSmallPlastic>], 
 	[<ore:pipeSmallPlastic>, <ore:plateCurvedMolybdenum>, <contenttweaker:nozzle>, <ore:plateCurvedMolybdenum>, <ore:pipeSmallPlastic>], 
@@ -41,7 +41,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <contenttweaker:rocket_thruster
 	[<ore:plateCurvedMolybdenum>, null, null, null, <ore:plateCurvedMolybdenum>]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped(0, <contenttweaker:rocket_thruster_bottom>, [
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:rocket_thruster_bottom>, [
 	[<ore:pipeSmallPlastic>, <ore:plateCurvedMolybdenum>, null, <ore:plateCurvedMolybdenum>, <ore:pipeSmallPlastic>], 
 	[<ore:pipeSmallPlastic>, <ore:plateCurvedMolybdenum>, null, <ore:plateCurvedMolybdenum>, <ore:pipeSmallPlastic>], 
 	[<ore:pipeSmallPlastic>, <ore:plateCurvedMolybdenum>, <contenttweaker:nozzle>, <ore:plateCurvedMolybdenum>, <ore:pipeSmallPlastic>], 
@@ -57,8 +57,6 @@ assembler.recipeBuilder()
     .duration(2400)
     .EUt(120)
     .buildAndRegister();
-
-Utils.removeRecipeByOutput(assembler, [<contenttweaker:t1_rocket_engine>], [], false);
 
 assembler.recipeBuilder()
     .inputs( <contenttweaker:aluminium_item_casing>*4, <ore:plateDenseStainlessSteel>*4, <contenttweaker:nozzle>, 
