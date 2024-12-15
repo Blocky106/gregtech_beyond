@@ -75,3 +75,11 @@ steam_foundry.recipeMap.recipeBuilder()
     .duration(40)
     .EUt(1)
     .buildAndRegister();
+
+assembly_line.recipeBuilder()
+	.inputs([<gtadditions:ga_meta_item:32424>*12, <gregtech:cable:2744>*45, <gregtech:meta_item_1:17311>*64, <gtadditions:dark_naquatic_abyssal_alloy_plate>*10, <gtadditions:ga_meta_item:1791>*8, <gtadditions:ga_meta_item:32378>, <ore:ciruitUHV>*8, <gtadditions:ga_motor_casing:8>*2, <gtadditions:ga_robot_arm_casing:8>, <gregtech:machine:3254>, <gregtech:machine:3294>, <gregtech:machine:3424>, <gregtech:machine:3394>, <gregtech:machine:3429>])
+	.fluidInputs([<liquid:uumatter> *200, <liquid:soldering_alloy>*458, <lquid:naquadria>*1450])
+	.outputs(<gregtech:machine:10101>)
+	.duration(1200)
+	.EUt(800000)
+	.buildAndRegister();
