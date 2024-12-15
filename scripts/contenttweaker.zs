@@ -683,7 +683,7 @@ var items = [
 "doped_aram_wafer",
 "hot_silicon_ingot",
 "unbaked_monocrystalline_silicon_boule",
-"seared_gear"
+"seared_gear",
 ] as string[];
 
 for item in items {
