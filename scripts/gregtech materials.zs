@@ -302,7 +302,8 @@ electron_degenerate_rhenium.addFlags(["GENERATE_PLATE"]);
 val nylon = MaterialRegistry.createIngotMaterial(630,"nylon",0xE5AF58,"DULL",3);
 nylon.addFlags(["GENERATE_PLATE"]);
 
-
+val dark_naquatic_abyssal_alloy_ingot = MaterialRegistry.createIngotMaterial(631,"dark_naquatic_abyssal_alloy",0x301b1b,"SHINY",3);
+dark_naquatic_abyssal_alloy.addFlags(["GENERATE_PLATE", "GENERATE_FRAME", "GENERATE_ROD", "GENERATE_GEAR", "GENERATE_DENSE"]);
 
 
 
@@ -526,7 +527,12 @@ util.registerDust("doped_carbon_nanotubes", 32222, 0x2F4F4F, "SHINY");
 util.registerDust("hsla_steel", 32223, 0xD5D8E8, "DULL");
 util.registerDust("heated_hsla_steel", 32224, 0xECE7BF, "SHINY");
 util.registerDust("quenched_hsla_steel", 32225, 0xE9E3B7, "SHINY");
-
+util.registerDust("naquadah_waste", 32226, 0x301b1b, "DULL")
+util.registerDust("concentrated_naquatitanium_hydroxide", 32227, 0x503a3a, "SHINY")
+util.registerDust("impure_naquahamericium_hydroxide", 32228, 0x684b4b, "SHINY")
+util.registerDust("naquahamericium_hydroxide", 32229, 0x8f6161, "SHINY")
+util.registerDust("chromium_slag_mud", 32230, 0x874141, "DULL")
+util.registerDust("impure_naquadah_waste", 32231, 0x281414, "DULL")
 
 
 
@@ -978,8 +984,11 @@ util.registerFluid("hot_treated_wastewater",0x515151);
 util.registerFluid("liquid_salt",0xD3D4D5);
 util.registerFluid("liquid_cryolite",0x42A5F5);
 util.registerFluid("pre_nylon_mix",0xE5AF58);
-
-
+util.registerFluid("naquatitanium_trioxide", 0x301b1b);
+util.registerFluid("titanium_tetrachloride", 0x701a31);
+util.registerFluid("naquatitanium_hydroxide", 0x382121);
+util.registerFluid("diluted_impure_naquahamericium_hydroxide", 0x684b4b);
+util.registerFluid("naquahamericium_hydroxide", 0x8f6161);
 
 
 
