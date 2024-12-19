@@ -132,3 +132,11 @@ dilution_tank.recipeMap.recipeBuilder()
     .duration(80)
     .EUt(2000)
     .buildAndRegister();
+
+dilution_tank.recipeMap.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:32228>)
+    .fluidInputs(<liquid:water>*2000)
+    .fluidOutputs(<liquid:diluted_impure_naquahamericium_hydroxide>*2000)
+    .duration(80)
+    .EUt(2000)
+    .buildAndRegister();
