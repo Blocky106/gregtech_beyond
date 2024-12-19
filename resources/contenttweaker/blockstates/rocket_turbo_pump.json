@@ -1,0 +1,16 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+      "textures": {
+        "texture": ["contenttweaker:blocks/rocket_turbo_pump_side", "contenttweaker:blocks/rocket_turbo_pump_bottom", "contenttweaker:blocks/rocket_turbo_pump_top"],
+        "particle": "contenttweaker:blocks/rocket_turbo_pump_side"
+      },
+      "model": "base:storage",
+      "uvlock": true,
+      "transform": "forge:default-block"
+    },
+    "variants": {
+      "normal": [{}],
+      "inventory": [{}]
+    }
+  }

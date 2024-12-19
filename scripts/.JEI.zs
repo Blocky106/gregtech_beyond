@@ -26,6 +26,7 @@ mods.jei.JEI.hideCategory("gregtech:rock_crusher");
 mods.jei.JEI.hideCategory("gregtech:rotary_evaporator");
 mods.jei.JEI.hideCategory("gregtech:drone_pad");
 mods.jei.JEI.hideCategory("gregtech:scanner");
+mods.jei.JEI.hideCategory("gregtecy:steam_foundry")
 mods.jei.JEI.hideCategory("gregtech:vacuum_ejection_chamber");
 mods.jei.JEI.hideCategory("gregtech:water_collector");
 mods.jei.JEI.hideCategory("gregtech:astro_mining_station");

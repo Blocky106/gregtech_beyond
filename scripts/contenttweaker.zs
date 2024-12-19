@@ -166,6 +166,11 @@ registerMetalBlock("t1_rocket_engine", 12.0, 10.0, 1);
 registerMetalBlock("t4_rocket_engine", 12.0, 10.0, 1);
 registerMetalBlock("highpowercasing", 12.0, 10.0, 1);
 registerMetalBlock("extreme_rocket_thruster", 12.0, 10.0, 1);
+registerMetalBlock("rocket_fuel_tank", 12.0, 10.0, 1);
+registerMetalBlock("rocket_thruster_top", 12.0, 10.0, 1);
+registerMetalBlock("rocket_thruster_bottom", 12.0, 10.0, 1);
+registerMetalBlock("rocket_turbo_pump", 12.0, 10.0, 1);
+registerMetalBlock("t1_rocket_combustion_engine", 12.0, 10.0, 1);
 
 
 
@@ -677,7 +682,8 @@ var items = [
 "naquadah_dioxide_wafer",
 "doped_aram_wafer",
 "hot_silicon_ingot",
-"unbaked_monocrystalline_silicon_boule"
+"unbaked_monocrystalline_silicon_boule",
+"seared_gear",
 ] as string[];
 
 for item in items {

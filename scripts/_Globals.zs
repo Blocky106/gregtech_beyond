@@ -78,3 +78,4 @@ global inscriber     as RecipeMap = RecipeMap.getByName("inscriber");
 global componentassembler     as RecipeMap = RecipeMap.getByName("componentassembler");
 global ion_implanter     as RecipeMap = RecipeMap.getByName("ion_implanter");
 global cvd_unit_s     as RecipeMap = RecipeMap.getByName("cvd_unit_s");
+global steam_foundry    as RecipeMap = RecipeMap.getByName("steam_foundry")
