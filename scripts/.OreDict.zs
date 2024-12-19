@@ -94,7 +94,8 @@ mods.thermalexpansion.InductionSmelter.removeRecipe(<gregtech:ore_cobalt_0>, <th
 furnace.remove(<thermalfoundation:material:135>);
 
 
-
+<ore:gemAmber>.add(<wildnature:amber>);
+<ore:ingotAmber>.add(<thaumcraft:amber>);
 
 
 
