@@ -1806,13 +1806,6 @@ lcr.recipeBuilder()
 
 electrolyzer.findRecipe(30,null,[<liquid:water>*1000]).remove();
 
-fluid_solidifier.recipeBuilder()
-    .fluidInputs(<liquid:liquidbinap>*1000)
-    .outputs(<gtadditions:ga_dust:32092>)
-    .duration(400)
-    .EUt(1200)
-    .buildAndRegister();
-
 fluidExtractor.recipeBuilder()
     .inputs(<gtadditions:ga_dust:81>)
     .fluidOutputs(<liquid:terephtaladehyde>*144)
@@ -2117,7 +2110,7 @@ lcr.recipeBuilder()
 ebf.recipeBuilder()
     .inputs(<gtadditions:ga_dust:32130>*2)
     .fluidInputs(<liquid:chlorine>*500)
-    .outputs(<gtadditions:ga_dust:32096>)
+    .outputs(<gtadditions:ga_dust:32092>)
     .fluidOutputs(<liquid:hydrochloric_acid>*250)
     .duration(300)
     .EUt(120)
@@ -2879,7 +2872,7 @@ furnace.remove(<gregtech:meta_item_1:9581>);
 fluid_solidifier.recipeBuilder()
     .fluidInputs(<liquid:liquidbinap>*1000)
     .notConsumable(<gregtech:meta_item_1:32307>)
-    .outputs(<gtadditions:ga_dust:32092>)
+    .outputs(<gtadditions:ga_dust:32096>)
     .duration(39)
     .EUt(220)
     .buildAndRegister();

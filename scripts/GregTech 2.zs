@@ -14,9 +14,6 @@ import crafttweaker.item.IItemCondition;
 import mods.gtadditions.recipe.GARecipeMaps.ADV_FUSION_RECIPES;
 import mods.gregtech.recipe.CokeOvenRecipeBuilder;
 import mods.gtadditions.recipe.Utils;
-
-
-
     
 ebf.recipeBuilder()
 	.inputs(<gregtech:meta_item_1:2535>)
