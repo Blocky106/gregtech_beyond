@@ -102,6 +102,7 @@ mods.jei.JEI.hideCategory("gregtech:mega_chemical_reactor");
 mods.jei.JEI.hideCategory("gregtech:bacterial_vat");
 mods.jei.JEI.hideCategory("gregtech:gravity_settler_tank");
 mods.jei.JEI.hideCategory("gregtech:enzymatic_hydrolisis_tank");
+mods.jei.JEI.hideCategory("gregtech:ore_factory");
 
 
 
