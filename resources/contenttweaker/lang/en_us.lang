@@ -1859,6 +1859,18 @@ tile.contenttweaker.extreme_rocket_thruster.name=Extreme Rocket Thruster
 item.contenttweaker.trenched_superconductor_layered_uhasoc_wafer.name=Trenched Superconductor Layered UHaSoC Wafer
 item.contenttweaker.seared_gear.name=Seared Gear
 devtech.machine.steam_foundry.name=Steam Foundry
+tile.contenttweaker.extreme_protective_outer_wall.name=Extreme Protective Outer Wall
+tile.contenttweaker.rocket_fuel_tank.name=Rocket Fuel Tank
+tile.contenttweaker.rocket_thruster_top.name=Rocket Thruster Top
+tile.contenttweaker.rocket_thruster_bottom.name=Rocket Thruster Bottom
+tile.contenttweaker.rocket_turbo_pump.name=Rocket Turbo Pump
+tile.contenttweaker.t1_rocket_combustion_engine.name=T1 Rocket Combustion Engine
+item.contenttweaker.thin_kapton_k_sheet.name=Thin Kapton-K Sheet
+item.contenttweaker.controlled_shaped_naquadah_charge_casing.name=Controlled Shaped Naquadah Charge Casing
+item.contenttweaker.researchpaperganymede.name=Research Paper (Ganymede)
+multiblocktweaker.machine.rocket_four.name=Rocket T4
+multiblocktweaker.machine.ore_factory.name=Ore Factory
+recipemap.ore_factory.name=Integrated Ore Processing
 
 
 
