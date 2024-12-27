@@ -1871,9 +1871,23 @@ item.contenttweaker.researchpaperganymede.name=Research Paper (Ganymede)
 multiblocktweaker.machine.rocket_four.name=Rocket T4
 multiblocktweaker.machine.ore_factory.name=Ore Factory
 recipemap.ore_factory.name=Integrated Ore Processing
-
-
-
-
-
-
+item.contenttweaker.annealed_neodymium_plate.name=Annealed Neodymium Plate
+item.contenttweaker.coated_neodymium_plate.name=Coated Neodymium Plate
+item.contenttweaker.sintered_neodymium_plate.name=Sintered Neodymium Plate
+metaitem.hsla_steel.name=HSLA Steel Dust
+metaitem.heated_hsla_steel.name=Heated HSLA Steel Dust
+metaitem.quenched_hsla_steel.name=Quenched HSLA Stel Dust
+metaitem.naquadah_waste.name=Naquadah Waste Dust
+metaitem.concentrated_naquatitanium_hydroxide.name=Concentrated Naquatitanium Hydroxide Dust
+metaitem.impure_naquahamericium_hydroxide.name=Impure Naquahamericium Hydroxide
+metaitem.naquahamericium_hydroxide.name=Naquahamericium Hydroxide Dust
+metaitem.chromium_slag_mud.name=Chromium Slag Mud
+metaitem.impure_naquadah_waste.name=Impure Naquadah Waste
+fluid.naquatitanium_trioxide=Naquatitanium Trioxide
+fluid.electron_degenerate_rhenium_plasma=Electron Degenerate Rhenium Plasma
+fluid.naquahamericium_hydroxide=Naquahamericium Hydroxide
+fluid.decrepitated_neodymium=Decrepitated Neodymium
+fluid.pre_nylon_mix=Pre-Nylon Mix
+fluid.diluted_impure_naquahamericium_hydroxide=Diluted Impure Naquahamericium Hydroxide
+fluid.naquatitanium_trioxide=Naquatitanium Trioxide
+fluid.hsla_steel=HSLA Steel
