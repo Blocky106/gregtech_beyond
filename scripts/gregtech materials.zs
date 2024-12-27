@@ -533,13 +533,16 @@ util.registerDust("impure_naquahamericium_hydroxide", 32228, 0x684b4b, "SHINY");
 util.registerDust("naquahamericium_hydroxide", 32229, 0x8f6161, "SHINY");
 util.registerDust("chromium_slag_mud", 32230, 0x874141, "DULL");
 util.registerDust("impure_naquadah_waste", 32231, 0x281414, "DULL");
+util.registerDust("platinum_nanopowder", 32232, 0xE0DAC0, "SHINY");
+util.registerDust("ruthenium_chloride", 32233, 0x71736E, "SHINY");
+util.registerDust("platinum_ruthenium_powder", 32234, 0x616CA5, "SHINY");
 
 
 
 
 
 
-
+util.registerFluid("ruthenium_platinum_colloid", 0x616CA5);
 util.registerFluid("decrepitated_neodymium", 0x767676);
 util.registerFluid("hsla_steel",0xD5D8E8);
 util.registerFluid("electron_degenerate_rhenium_plasma",0x4A148C);
@@ -1080,3 +1083,4 @@ util.registerFluid("naquahamericium_hydroxide", 0x8f6161);
 <material:kanthal>.addFlags(["GENERATE_ROTOR"]);
 <material:tumbaga>.addFlags(["GENERATE_ROTOR"]);
 <material:tungsten_carbide>.addFlags(["GENERATE_ROTOR"]);
+<material:tourmaline>.addFlags(["GENERATE_ORE"]);
