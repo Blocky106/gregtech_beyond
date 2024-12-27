@@ -1205,4 +1205,48 @@ alloy_smelter.recipeBuilder()
     .EUt(180)
     .buildAndRegister();
 
+recipes.remove(<trinity:compression_charge>);
 
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:precious_leach_nitrate>*1000)
+    .inputs(<gtadditions:ga_explosive:4>)
+    .outputs(<trinity:compression_charge>)
+    .duration(200)
+    .EUt(5000)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:precious_leach_nitrate>*1000)
+    .inputs(<gtadditions:ga_explosive:4>)
+    .outputs(<trinity:compression_charge>)
+    .duration(200)
+    .EUt(5000)
+    .buildAndRegister();
+
+alloy_smelter.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:10912>,<gregtech:meta_item_1:10041>)
+    .outputs(<nuclearcraft:alloy:16>*2)
+    .duration(200)
+    .EUt(80)
+    .buildAndRegister();
+
+alloy_smelter.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2912>,<gregtech:meta_item_1:10041>)
+    .outputs(<nuclearcraft:alloy:16>*2)
+    .duration(200)
+    .EUt(80)
+    .buildAndRegister();
+
+alloy_smelter.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:10912>,<gregtech:meta_item_1:2041>)
+    .outputs(<nuclearcraft:alloy:16>*2)
+    .duration(200)
+    .EUt(80)
+    .buildAndRegister();
+
+alloy_smelter.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2912>,<gregtech:meta_item_1:2041>)
+    .outputs(<nuclearcraft:alloy:16>*2)
+    .duration(200)
+    .EUt(80)
+    .buildAndRegister();
