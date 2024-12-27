@@ -52,7 +52,7 @@ fieldrestrictionglass.setTranslucent(true);
 fieldrestrictionglass.setFullBlock(false);
 fieldrestrictionglass.setToolClass("pickaxe");
 fieldrestrictionglass.setToolLevel(2);
-fieldrestrictionglass.setBlockSoundType(<soundtype:stone>);
+fieldrestrictionglass.setBlockSoundType(<soundtype:glass>);
 fieldrestrictionglass.register();
 
 var highresistanceglass = VanillaFactory.createBlock("highresistanceglass", <blockmaterial:glass>);
@@ -64,13 +64,26 @@ highresistanceglass.setTranslucent(true);
 highresistanceglass.setFullBlock(false);
 highresistanceglass.setToolClass("pickaxe");
 highresistanceglass.setToolLevel(2);
-highresistanceglass.setBlockSoundType(<soundtype:stone>);
+highresistanceglass.setBlockSoundType(<soundtype:glass>);
 highresistanceglass.register();
 
+var ultrahighresistanceglass = VanillaFactory.createBlock("ultrahighresistanceglass", <blockmaterial:glass>);
+ultrahighresistanceglass.setBlockHardness(1.5);
+ultrahighresistanceglass.setBlockResistance(3.0);
+ultrahighresistanceglass.setBlockLayer("TRANSLUCENT");
+ultrahighresistanceglass.setLightOpacity(5);
+ultrahighresistanceglass.setTranslucent(true);
+ultrahighresistanceglass.setFullBlock(false);
+ultrahighresistanceglass.setToolClass("pickaxe");
+ultrahighresistanceglass.setToolLevel(2);
+ultrahighresistanceglass.setBlockSoundType(<soundtype:glass>);
+ultrahighresistanceglass.register();
 
 
 
 registerMetalBlock("cryoliteore", 12.0, 10.0, 1);
+registerMetalBlock("sonicator_casing", 12.0, 10.0, 1);
+registerMetalBlock("electrolyticcell", 12.0, 10.0, 1);
 registerMetalBlock("platinumsaltore", 12.0, 10.0, 1);
 registerMetalBlock("advcomputercasing", 12.0, 10.0, 1);
 registerMetalBlock("computercasing", 12.0, 10.0, 1);
@@ -177,6 +190,7 @@ registerMetalBlock("t1_rocket_combustion_engine", 12.0, 10.0, 1);
 
 var items = [
 "trenched_superconductor_layered_uhasoc_wafer",
+"optical_capacitor_base",
 "steel_item_casing",
 "enhancedenderiumlense",
 "alumino_silicate_wool_sheet",
@@ -204,6 +218,7 @@ var items = [
 "raw_high_power_ic_wafer",
 "nether",
 "beneath",
+"thin_nylon_sheet",
 "cotton_sheet",
 "aether",
 "twilight_forest",
