@@ -308,7 +308,7 @@ val vacuum_distillation_tower = Builder.start(loc, meta)
 .withRecipeMap(
         FactoryRecipeMap.start(loc)
                         .maxInputs(1)
-                        .maxFluidInputs(1)
+                        .maxFluidInputs(2)
                         .maxFluidOutputs(5)
                         .maxOutputs(3)
                         .build())
@@ -346,4 +346,11 @@ vacuum_distillation_tower.recipeMap.recipeBuilder()
     .outputs(<gtadditions:ga_dust:32184>)
     .duration(1200)
     .EUt(800)
+    .buildAndRegister();
+
+vacuum_distillation_tower.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:argon>*100,<liquid:pdma_solution>*1000)
+    .outputs(<gtadditions:ga_dust:32169>)
+    .duration(400)
+    .EUt(700)
     .buildAndRegister();

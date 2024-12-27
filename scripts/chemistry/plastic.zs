@@ -208,3 +208,19 @@ lcr.recipeBuilder()
     .duration(250)
     .EUt(200)
     .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:toluene>*1000)
+    .inputs(<gtadditions:ga_dust:32094>*4,<gregtech:meta_item_1:2926>*4)
+    .fluidOutputs(<liquid:pmda_solution>*4000)
+    .duration(2000)
+    .EUt(700)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:toluene>*1000)
+    .inputs(<gtadditions:ga_dust:32094>*4,<gregtech:meta_item_1:2926>*4)
+    .fluidOutputs(<liquid:pmda_solution>*4000)
+    .duration(2000)
+    .EUt(700)
+    .buildAndRegister();
