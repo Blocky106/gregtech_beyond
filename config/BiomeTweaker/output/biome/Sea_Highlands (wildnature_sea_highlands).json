@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "PLAINS",
-    "HILLS",
-    "OCEAN",
     "MOUNTAIN",
-    "WATER"
+    "HILLS",
+    "PLAINS",
+    "WATER",
+    "OCEAN"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [

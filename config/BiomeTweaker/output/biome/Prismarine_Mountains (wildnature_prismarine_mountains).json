@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
+    "MOUNTAIN",
     "HILLS",
     "RARE",
-    "OCEAN",
-    "MOUNTAIN",
-    "WATER"
+    "WATER",
+    "OCEAN"
   ],
   "BiomeManager Entries": {
     "COOL Weights": [
