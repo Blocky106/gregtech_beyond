@@ -349,7 +349,7 @@ vacuum_distillation_tower.recipeMap.recipeBuilder()
     .buildAndRegister();
 
 vacuum_distillation_tower.recipeMap.recipeBuilder()
-    .fluidInputs(<liquid:argon>*100,<liquid:pdma_solution>*1000)
+    .fluidInputs(<liquid:argon>*100,<liquid:pmda_solution>*1000)
     .outputs(<gtadditions:ga_dust:32169>)
     .duration(400)
     .EUt(700)
