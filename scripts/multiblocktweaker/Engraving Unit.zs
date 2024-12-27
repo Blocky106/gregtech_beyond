@@ -221,3 +221,12 @@ engraving_unit.recipeMap.recipeBuilder()
     .duration(900)
     .EUt(800)
     .buildAndRegister();
+
+engraving_unit.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:hydrogen_peroxide>*1000)
+    .fluidOutputs(<liquid:water>*1000)
+    .inputs(<gregtech:meta_item_1:2051>)
+    .outputs(<gtadditions:ga_dust:32232>)
+    .duration(200)
+    .EUt(800)
+    .buildAndRegister();
