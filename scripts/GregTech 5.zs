@@ -83,3 +83,50 @@ steam_foundry.recipeBuilder()
     .duration(40)
     .EUt(1)
     .buildAndRegister();
+
+blastalloy.recipeBuilder()
+    .fluidOutputs(<liquid:decrepitated_neodymium>*1000)
+    .inputs(<gregtech:meta_item_1:12042>)
+    .fluidInputs(<liquid:hydrogen>*1000)
+    .duration(200)
+    .EUt(120)
+    .buildAndRegister();
+
+ebf.recipeBuilder()
+    .inputs(<contenttweaker:sintered_neodymium_plate>)
+    .fluidInputs(<liquid:oxygen>*1000)
+    .outputs(<contenttweaker:annealed_neodymium_plate>)
+    .duration(200)
+    .EUt(1200)
+    .buildAndRegister();
+
+chemical_bath.recipeBuilder()
+    .fluidInputs(<liquid:polytetrafluoroethylene>*1000)
+    .inputs(<contenttweaker:annealed_neodymium_plate>)
+    .outputs(<contenttweaker:coated_neodymium_plate>)
+    .duration(400)
+    .EUt(7000)
+    .buildAndRegister();
+
+chemical_bath.recipeBuilder()
+    .fluidInputs(<liquid:epoxid>*200)
+    .inputs(<contenttweaker:annealed_neodymium_plate>)
+    .outputs(<contenttweaker:coated_neodymium_plate>)
+    .duration(400)
+    .EUt(7000)
+    .buildAndRegister();
+
+chemical_bath.recipeBuilder()
+    .fluidInputs(<liquid:reinforced_epoxy_resin>*50)
+    .inputs(<contenttweaker:annealed_neodymium_plate>)
+    .outputs(<contenttweaker:coated_neodymium_plate>)
+    .duration(400)
+    .EUt(7000)
+    .buildAndRegister();
+
+polarizer.recipeBuilder()
+    .inputs(<contenttweaker:coated_neodymium_plate>)
+    .outputs(<qmd:part:8>)
+    .duration(200)
+    .EUt(80)
+    .buildAndRegister();

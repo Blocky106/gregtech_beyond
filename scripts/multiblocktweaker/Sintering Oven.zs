@@ -116,3 +116,11 @@ sintering_oven.recipeMap.recipeBuilder()
     .duration(200)
     .EUt(1299)
     .buildAndRegister();
+
+sintering_oven.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:decrepitated_neodymium>*1000)
+    .notConsumable(<gregtech:meta_item_1:32350>)
+    .outputs(<contenttweaker:sintered_neodymium_plate>)
+    .duration(200)
+    .EUt(80)
+    .buildAndRegister();
