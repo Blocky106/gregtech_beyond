@@ -488,8 +488,6 @@ mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:
 <ore:manainfusedore>.add(<thermalfoundation:ore:8>);
 <ore:nuggetUltimate>.remove(<gregtech:meta_item_1:9523>);
 <ore:ingotUltimate>.remove(<gregtech:meta_item_1:10523>);
-<ore:ingotSoularium>.remove(<enderio:item_alloy_ingot:7>);
-<ore:dustSoularium>.remove(<enderio:item_material:74>);
 <ore:blockApatite>.remove(<forestry:resource_storage>);
 <ore:oreApatite>.remove(<forestry:resources>);
 <ore:nuggetIron>.remove(<thaumcraft:nugget>);
