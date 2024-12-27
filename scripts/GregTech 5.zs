@@ -674,3 +674,17 @@ lcentrifuge.recipeBuilder()
     .duration(200)
     .EUt(180)
     .buildAndRegister();
+
+recipes.addShaped(<gregtech:machine:1500>, [	[<gregtech:meta_item_1:32640>, <gregtech:meta_item_1:32610>, <gregtech:meta_item_1:32640>], 	[<gtadditions:ga_transparent_casing>, <ore:rotorSteel>, <gtadditions:ga_transparent_casing>], 	[<gregtech:meta_item_1:32600>, <gregtech:machine:501>, <gregtech:meta_item_1:32600>]]);
+recipes.addShaped(<gregtech:machine:1501>, [	[<gregtech:meta_item_1:32641>, <gregtech:meta_item_1:32611>, <gregtech:meta_item_1:32641>], 	[<gtadditions:ga_transparent_casing>, <ore:rotorSteel>, <gtadditions:ga_transparent_casing>], 	[<gregtech:meta_item_1:32601>, <gregtech:machine:502>, <gregtech:meta_item_1:32601>]]);
+recipes.addShaped(<gregtech:machine:1502>, [	[<gregtech:meta_item_1:32642>, <gregtech:meta_item_1:32612>, <gregtech:meta_item_1:32642>], 	[<gtadditions:ga_transparent_casing>, <ore:rotorSteel>, <gtadditions:ga_transparent_casing>], 	[<gregtech:meta_item_1:32602>, <gregtech:machine:503>, <gregtech:meta_item_1:32602>]]);
+recipes.addShaped(<gregtech:machine:1503>, [	[<gregtech:meta_item_1:32643>, <gregtech:meta_item_1:32613>, <gregtech:meta_item_1:32643>], 	[<gtadditions:ga_transparent_casing>, <ore:rotorSteel>, <gtadditions:ga_transparent_casing>], 	[<gregtech:meta_item_1:32603>, <gregtech:machine:504>, <gregtech:meta_item_1:32603>]]);
+recipes.addShaped(<gregtech:machine:1504>, [	[<gregtech:meta_item_1:32644>, <gregtech:meta_item_1:32614>, <gregtech:meta_item_1:32644>], 	[<gtadditions:ga_transparent_casing>, <ore:rotorSteel>, <gtadditions:ga_transparent_casing>], 	[<gregtech:meta_item_1:32604>, <gregtech:machine:505>, <gregtech:meta_item_1:32604>]]);
+recipes.addShaped(<gregtech:machine:1505>, [	[<gregtech:meta_item_1:32645>, <gregtech:meta_item_1:32615>, <gregtech:meta_item_1:32645>], 	[<gtadditions:ga_transparent_casing>, <ore:rotorSteel>, <gtadditions:ga_transparent_casing>], 	[<gregtech:meta_item_1:32605>, <gregtech:machine:506>, <gregtech:meta_item_1:32605>]]);
+
+
+
+
+
+
+
