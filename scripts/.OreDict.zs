@@ -344,7 +344,6 @@ mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:
 <ore:plateLead>.remove(<thermalfoundation:material:323>);
 <ore:dustHafnium>.remove(<qmd:dust:6>);
 <ore:nuggetManyullyn>.remove(<gregtech:meta_item_1:9527>);
-<ore:blockManyullyn>.remove(<gregtech:meta_block_compressed_32:15>);
 <ore:ingotManyullyn>.remove(<gregtech:meta_item_1:10527>);
 <ore:pulpWood>.remove(<forestry:wood_pulp>);
 <ore:dustBarium>.remove(<trinity:barium>);
@@ -483,12 +482,11 @@ mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:
 <ore:ingotCopper>.remove(<projectred-core:resource_item:100>);
 <ore:ingotTin>.remove(<projectred-core:resource_item:101>);
 <ore:ingotRedAlloy>.remove(<projectred-core:resource_item:103>);
-<ore:nuggetCopper>.remove(<thaumcraft:nugget:1>);
+<ore:nuggetCofpper>.remove(<thaumcraft:nugget:1>);
 <ore:dustAlumina>.remove(<gtadditions:ga_dust:44>);
 <ore:oreMithril>.remove(<thermalfoundation:ore:8>);
 <ore:manainfusedore>.add(<thermalfoundation:ore:8>);
 <ore:nuggetUltimate>.remove(<gregtech:meta_item_1:9523>);
-<ore:blockUltimate>.remove(<gregtech:meta_block_compressed_32:11>);
 <ore:ingotUltimate>.remove(<gregtech:meta_item_1:10523>);
 <ore:ingotSoularium>.remove(<enderio:item_alloy_ingot:7>);
 <ore:dustSoularium>.remove(<enderio:item_material:74>);
@@ -513,7 +511,6 @@ mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:
 <ore:nuggetLead>.remove(<thaumcraft:nugget:4>);
 <ore:itemSawdust>.remove(<thermalfoundation:material:800>);
 <ore:dustWood>.remove(<thermalfoundation:material:800>);
-<ore:blockInfinity>.remove(<gregtech:meta_block_compressed_35:1>);
 <ore:ingotInfinity>.remove(<gregtech:meta_item_1:10561>);
 <ore:ingotLumium>.remove(<gregtech:meta_item_1:10532>);
 <ore:voodooPoppetProtectionLightning>.remove(<minecraft:stick>);

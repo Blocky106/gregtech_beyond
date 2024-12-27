@@ -540,7 +540,7 @@ util.registerDust("impure_naquadah_waste", 32231, 0x281414, "DULL");
 
 
 
-util.registerFluid("decrepitated_neodymium", 0767676);
+util.registerFluid("decrepitated_neodymium", 0x767676);
 util.registerFluid("hsla_steel",0xD5D8E8);
 util.registerFluid("electron_degenerate_rhenium_plasma",0x4A148C);
 util.registerFluid("naquadah_rich_sterile_growth_medium",0x7D7878);
