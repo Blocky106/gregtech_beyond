@@ -1863,14 +1863,6 @@ fluidExtractor.recipeBuilder()
 	.EUt(43900)
 	.buildAndRegister();
 
-ebf.recipeBuilder()
-	.inputs(<gregtech:meta_item_1:2520>)
-	.outputs(<gregtech:meta_item_1:10520>)
-	.duration(300)
-	.property("temperature", 1627)
-	.EUt(1200)
-	.buildAndRegister();
-
 mixer.recipeBuilder()
 	.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 3}))
 	.fluidInputs(<liquid:water>*1000)
