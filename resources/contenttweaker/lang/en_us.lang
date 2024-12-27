@@ -1891,3 +1891,7 @@ fluid.pre_nylon_mix=Pre-Nylon Mix
 fluid.diluted_impure_naquahamericium_hydroxide=Diluted Impure Naquahamericium Hydroxide
 fluid.naquatitanium_trioxide=Naquatitanium Trioxide
 fluid.hsla_steel=HSLA Steel
+tile.contenttweaker.electrolyticcell.name=Electrolytic Cell Block
+multiblocktweaker.machine.sonicator.name=Sonicator
+recipemap.sonicator.name=Sonication
+item.contenttweaker.optical_capacitor_base.name=Optical Capacitor Base
