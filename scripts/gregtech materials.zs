@@ -542,6 +542,7 @@ util.registerDust("platinum_ruthenium_powder", 32234, 0x616CA5, "SHINY");
 
 
 
+util.registerFluid("pmda_solution", 0x637867);
 util.registerFluid("ruthenium_platinum_colloid", 0x616CA5);
 util.registerFluid("decrepitated_neodymium", 0x767676);
 util.registerFluid("hsla_steel",0xD5D8E8);
