@@ -34,7 +34,7 @@
         },
         {
           "weight": 15,
-          "value": "ore:amblygonite"
+          "value": ore:amblygonite
 	}
       ]
     }
