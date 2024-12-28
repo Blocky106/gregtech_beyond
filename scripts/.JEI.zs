@@ -103,6 +103,9 @@ mods.jei.JEI.hideCategory("gregtech:bacterial_vat");
 mods.jei.JEI.hideCategory("gregtech:gravity_settler_tank");
 mods.jei.JEI.hideCategory("gregtech:enzymatic_hydrolisis_tank");
 mods.jei.JEI.hideCategory("gregtech:ore_factory");
+mods.jei.JEI.hideCategory("gregtech:sonicator");
+mods.jei.JEI.hideCategory("gregtech:engraving_unit");
+mods.jei.JEI.hideCategory("gregtech:pressure_swing_adsorber");
 
 
 
