@@ -305,6 +305,9 @@ nylon.addFlags(["GENERATE_PLATE"]);
 val dark_naquatic_abyssal_alloy = MaterialRegistry.createIngotMaterial(631,"dark_naquatic_abyssal_alloy",0x301b1b,"SHINY",3);
 dark_naquatic_abyssal_alloy.addFlags(["GENERATE_PLATE", "GENERATE_FRAME", "GENERATE_ROD", "GENERATE_GEAR", "GENERATE_DENSE"]);
 
+val polycyclopentene = MaterialRegistry.createIngotMaterial(632,"polycyclopentene",0x257F88,"SHINY",3);
+polycyclopentene.addFlags(["GENERATE_PLATE"]);
+
 
 
 
@@ -542,6 +545,8 @@ util.registerDust("platinum_ruthenium_powder", 32234, 0x616CA5, "SHINY");
 
 
 
+
+util.registerFluid("cyclopentene", 0x38777D);
 util.registerFluid("pmda_solution", 0x637867);
 util.registerFluid("ruthenium_platinum_colloid", 0x616CA5);
 util.registerFluid("decrepitated_neodymium", 0x767676);
