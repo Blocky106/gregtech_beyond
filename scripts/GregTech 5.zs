@@ -661,7 +661,7 @@ spincoater.recipeBuilder()
 
 centrifuge.recipeBuilder()
     .fluidInputs(<liquid:ruthenium_platinum_colloid>*1000)
-    .inputs(<gtadditions:ga_dust:32234>)
+    .outputs(<gtadditions:ga_dust:32234>)
     .fluidOutputs(<liquid:ethanol>*1000)
     .duration(200)
     .EUt(180)
@@ -669,7 +669,7 @@ centrifuge.recipeBuilder()
 
 lcentrifuge.recipeBuilder()
     .fluidInputs(<liquid:ruthenium_platinum_colloid>*1000)
-    .inputs(<gtadditions:ga_dust:32234>)
+    .outputs(<gtadditions:ga_dust:32234>)
     .fluidOutputs(<liquid:ethanol>*1000)
     .duration(200)
     .EUt(180)
@@ -680,7 +680,7 @@ recipes.addShaped(<gregtech:machine:1501>, [	[<gregtech:meta_item_1:32641>, <gre
 recipes.addShaped(<gregtech:machine:1502>, [	[<gregtech:meta_item_1:32642>, <gregtech:meta_item_1:32612>, <gregtech:meta_item_1:32642>], 	[<gtadditions:ga_transparent_casing>, <ore:rotorSteel>, <gtadditions:ga_transparent_casing>], 	[<gregtech:meta_item_1:32602>, <gregtech:machine:503>, <gregtech:meta_item_1:32602>]]);
 recipes.addShaped(<gregtech:machine:1503>, [	[<gregtech:meta_item_1:32643>, <gregtech:meta_item_1:32613>, <gregtech:meta_item_1:32643>], 	[<gtadditions:ga_transparent_casing>, <ore:rotorSteel>, <gtadditions:ga_transparent_casing>], 	[<gregtech:meta_item_1:32603>, <gregtech:machine:504>, <gregtech:meta_item_1:32603>]]);
 recipes.addShaped(<gregtech:machine:1504>, [	[<gregtech:meta_item_1:32644>, <gregtech:meta_item_1:32614>, <gregtech:meta_item_1:32644>], 	[<gtadditions:ga_transparent_casing>, <ore:rotorSteel>, <gtadditions:ga_transparent_casing>], 	[<gregtech:meta_item_1:32604>, <gregtech:machine:505>, <gregtech:meta_item_1:32604>]]);
-recipes.addShaped(<gregtech:machine:1505>, [	[<gregtech:meta_item_1:32645>, <gregtech:meta_item_1:32615>, <gregtech:meta_item_1:32645>], 	[<gtadditions:ga_transparent_casing>, <ore:rotorSteel>, <gtadditions:ga_transparent_casing>], 	[<gregtech:meta_item_1:32605>, <gregtech:machine:506>, <gregtech:meta_item_1:32605>]]);
+recipes.addShaped(<gregtech:machine:1505>, [	[<gregtech:meta_item_1:32645>, <gregtech:meta_item_1:32615>, <gregtech:meta_item_1:32645>], 	[<gtadditions:ga_transparent_casing>, <ore:rotorSteel>, <gtadditions:ga_transparent_casing>], 	[<gregtech:meta_item_1:32606>, <gregtech:machine:506>, <gregtech:meta_item_1:32606>]]);
 
 
 
