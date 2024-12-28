@@ -682,8 +682,22 @@ recipes.addShaped(<gregtech:machine:1503>, [	[<gregtech:meta_item_1:32643>, <gre
 recipes.addShaped(<gregtech:machine:1504>, [	[<gregtech:meta_item_1:32644>, <gregtech:meta_item_1:32614>, <gregtech:meta_item_1:32644>], 	[<gtadditions:ga_transparent_casing>, <ore:rotorSteel>, <gtadditions:ga_transparent_casing>], 	[<gregtech:meta_item_1:32604>, <gregtech:machine:505>, <gregtech:meta_item_1:32604>]]);
 recipes.addShaped(<gregtech:machine:1505>, [	[<gregtech:meta_item_1:32645>, <gregtech:meta_item_1:32615>, <gregtech:meta_item_1:32645>], 	[<gtadditions:ga_transparent_casing>, <ore:rotorSteel>, <gtadditions:ga_transparent_casing>], 	[<gregtech:meta_item_1:32606>, <gregtech:machine:506>, <gregtech:meta_item_1:32606>]]);
 
+pyro.recipeBuilder()
+    .fluidInputs(<liquid:ferrocenewaste>*1000)
+    .outputs(<gregtech:meta_item_1:2033>)
+    .fluidOutputs(<liquid:cyclopentadiene>*100)
+    .duration(1200)
+    .EUt(800)
+    .buildAndRegister();
 
+cracker.recipeBuilder()
+    .fluidInputs(<liquid:hydrogen>*1000,<liquid:ferrocenewaste>*1000)
+    .fluidOutputs(<liquid:cyclopentadiene>*100,<liquid:cyclopentene>*100)
+    .duration(200)
+    .EUt(800)
+    .buildAndRegister();
 
+    
 
 
 
