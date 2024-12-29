@@ -101,7 +101,15 @@ pvd_unit.recipeMap.recipeBuilder()
     .EUt(2000)
     .buildAndRegister();
 
-
+pvd_unit.recipeMap.recipeBuilder()
+    .inputs(<gregtech:fluid_pipe:851>*9)
+    .fluidInputs(<liquid:waterplasma>*100,<liquid:superfluid_carbon_oxygen_mixture_plasma>*100)
+    .notConsumable(<gregtech:meta_item_1:32351>)
+    .fluidOutputs(<liquid:hydrogen>*1000)
+    .outputs(<contenttweaker:uev_superconductor_assembly>)
+    .duration(8000)
+    .EUt(12000)
+    .buildAndRegister();
 
 
 

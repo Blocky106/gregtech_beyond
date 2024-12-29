@@ -751,7 +751,13 @@ implosion.recipeBuilder()
     .EUt(8000)
     .buildAndRegister();
 
+Utils.removeRecipeByOutput(assembler, [<gregtech:ga_cable:737> * 32], [], false);
 
-
-
+assembler.recipeBuilder()
+    .inputs(<gregtech:ga_cable:738>*32,<gtadditions:ga_meta_item:32367>,<contenttweaker:uev_superconductor_assembly>)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .fluidInputs(<liquid:microcrystallizinghydrogen>*14000)
+    .duration(2000)
+    .EUt(80000)
+    .buildAndRegister();
 

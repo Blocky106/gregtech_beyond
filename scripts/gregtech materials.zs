@@ -1002,6 +1002,7 @@ util.registerFluid("titanium_tetrachloride", 0x701a31);
 util.registerFluid("naquatitanium_hydroxide", 0x382121);
 util.registerFluid("diluted_impure_naquahamericium_hydroxide", 0x684b4b);
 util.registerFluid("naquahamericium_hydroxide", 0x8f6161);
+util.registerFluid("superfluid_carbon_oxygen_mixture_plasma", 0xBDC0DB);
 
 
 
