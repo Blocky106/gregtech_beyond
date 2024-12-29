@@ -152,7 +152,7 @@ val precise_assembler = Builder.start(loc, meta)
 
 
 precise_assembler.recipeMap.recipeBuilder()
-    .inputs(<gregtech:meta_item_1:32499>,<gtadditions:ga_meta_item:32029>,<gregtech:meta_item_2:18184>,<gregtech:meta_item_1:32600>,<gregtech:meta_item_2:32483>,<contenttweaker:cupronickelcoil>*2)
+    .inputs(<gregtech:meta_item_1:32499>,<gtadditions:ga_meta_item:32029>,<gregtech:meta_item_1:12632>,<gregtech:meta_item_2:18184>,<gregtech:meta_item_1:32600>,<gregtech:meta_item_2:32483>,<contenttweaker:cupronickelcoil>*2)
     .fluidInputs(<liquid:aluminium>*144,<liquid:red_alloy>*144)
     .outputs(<contenttweaker:microheater>)
     .duration(200)

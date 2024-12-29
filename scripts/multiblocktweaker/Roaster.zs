@@ -201,3 +201,12 @@ roaster.recipeMap.recipeBuilder()
     .duration(20)
     .EUt(12)
     .buildAndRegister();
+
+roaster.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:darmstadtium_hexafluoride>*2000,<liquid:sulfuric_acid>*2000,<liquid:hydrochloric_acid>*1000)
+    .inputs(<gregtech:meta_item_1:2079>)
+    .outputs(<gregtech:meta_item_1:2863>*3)
+    .fluidOutputs(<liquid:fluorodarmstadtic_acid>*1000)
+    .duration(200)
+    .EUt(800)
+    .buildAndRegister();
