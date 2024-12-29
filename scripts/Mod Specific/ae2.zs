@@ -336,3 +336,18 @@ recipes.addShaped(<appliedenergistics2:part:220>, [	[<ore:screwCupronickel>, <or
 
 
 recipes.addShaped(<aeadditions:certustank>, [	[<ore:plateSteel>, <appliedenergistics2:quartz_glass>, <ore:plateSteel>], 	[<appliedenergistics2:quartz_glass>, null, <appliedenergistics2:quartz_glass>], 	[<ore:plateSteel>, <appliedenergistics2:quartz_glass>, <ore:plateSteel>]]);
+
+assembler.recipeBuilder()
+    .inputs(<ore:dustNetherQuartz>*2,<ore:blockGlass>*4)
+    .outputs(<appliedenergistics2:part:140>*4)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs(<ore:dustCertusQuartz>*2,<ore:blockGlass>*4)
+    .outputs(<appliedenergistics2:part:140>*4)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
+
