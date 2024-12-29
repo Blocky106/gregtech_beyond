@@ -539,13 +539,17 @@ util.registerDust("impure_naquadah_waste", 32231, 0x281414, "DULL");
 util.registerDust("platinum_nanopowder", 32232, 0xE0DAC0, "SHINY");
 util.registerDust("ruthenium_chloride", 32233, 0x71736E, "SHINY");
 util.registerDust("platinum_ruthenium_powder", 32234, 0x616CA5, "SHINY");
+util.registerDust("dense_matter", 32235, 0xD9B4E0, "SHINY");
+util.registerDust("pure_dense_matter", 32236, 0x9DC8E9, "SHINY");
+util.registerDust("dense_carbon_oxygen_matter", 32237, 0x559ED8, "SHINY");
+util.registerDust("dense_exotic_matter", 32238, 0x66BB6A, "SHINY");
 
 
 
 
 
 
-
+util.registerFluid("neodymium_solution", 0x454545);
 util.registerFluid("cyclopentene", 0x38777D);
 util.registerFluid("pmda_solution", 0x637867);
 util.registerFluid("ruthenium_platinum_colloid", 0x616CA5);
@@ -894,9 +898,6 @@ util.registerFluid("naqudahasphalt", 0x137009);
 util.registerFluid("moderatelycrackednaquadahasphalt", 0x227033);
 util.registerFluid("acidnaquadahemulsion", 0x444A45);
 util.registerFluid("naquadahemulsion", 0x2C2E2C);
-util.registerFluid("monazitecakesolution", 0x2A751B);
-util.registerFluid("monazitefilteredcakesolution", 0x1B5710);
-util.registerFluid("monazitefilteredsolution", 0x294207);
 util.registerFluid("moltenprotoadamantiumplatedalloy", 0x252b7a);
 util.registerFluid("protoadamantiumalloycatalyst", 0x2c3393);
 util.registerFluid("refinedglue", 0xA9AD21);
