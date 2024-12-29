@@ -85,6 +85,8 @@ registerMetalBlock("cryoliteore", 12.0, 10.0, 1);
 registerMetalBlock("sonicator_casing", 12.0, 10.0, 1);
 registerMetalBlock("electrolyticcell", 12.0, 10.0, 1);
 registerMetalBlock("platinumsaltore", 12.0, 10.0, 1);
+registerMetalBlock("reactor_core_stabilizer", 12.0, 10.0, 1);
+registerMetalBlock("atomic_casing", 12.0, 10.0, 1);
 registerMetalBlock("advcomputercasing", 12.0, 10.0, 1);
 registerMetalBlock("computercasing", 12.0, 10.0, 1);
 registerMetalBlock("mattercasing", 12.0, 10.0, 1);
