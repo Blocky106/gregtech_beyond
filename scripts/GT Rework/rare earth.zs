@@ -384,6 +384,30 @@ mixer.recipeBuilder()
     .duration(700)
     .buildAndRegister();
 
+distillation_tower.recipeBuilder()
+    .fluidInputs(<liquid:neodymium_rich_monazite_solution>*2000)
+    .fluidOutputs(<liquid:monazite_solution>*400,<liquid:neodymium_oxide_solution>*1600)
+    .duration(400)
+    .EUt(2000)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:neodymium_oxide_solution>*1000,<liquid:hydrogen>*1000)
+    .EUt(400)
+    .fluidOutputs(<liquid:neodymium_solution>*1000,<liquid:water>*1000)
+    .duration(800)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:neodymium_oxide_solution>*1000,<liquid:hydrogen>*1000)
+    .EUt(400)
+    .fluidOutputs(<liquid:neodymium_solution>*1000,<liquid:water>*1000)
+    .duration(800)
+    .buildAndRegister();
+
+
+
+
 
 
 

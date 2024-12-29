@@ -1429,7 +1429,7 @@ forming_press.recipeBuilder()
     .buildAndRegister();
 
 forming_press.recipeBuilder()
-    .inputs(<gregtech:meta_item_1:12617>,<gregtech:meta_item_1:12311>,<gregtech:meta_item_1:12308>,<gregtech:meta_item_2:32435>,<gregtech:meta_item_1:12047>)
+    .inputs(<gregtech:meta_item_1:12617>,<gregtech:meta_item_1:12632>,<gregtech:meta_item_1:12311>,<gregtech:meta_item_1:12308>,<gregtech:meta_item_2:32435>,<gregtech:meta_item_1:12047>)
     .outputs(<contenttweaker:biosafe_protective_plating>)
     .duration(129)
     .EUt(80)
