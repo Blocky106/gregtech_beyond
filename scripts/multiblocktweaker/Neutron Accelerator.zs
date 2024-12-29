@@ -29,9 +29,9 @@ val neutron_accelerator = Builder.start(loc, meta)
     .withPattern(
             FactoryBlockPattern.start(RelativeDirection.RIGHT, RelativeDirection.BACK, RelativeDirection.UP)
                 .aisle("CNMNC","CCCCC","CCCCC","CCCCC","CCSCC")
-                .aisle("F~~~F","~~~~~","~~P~~","~~~~~","F~~~F")
-                .aisle("F~~~F","~~~~~","~~P~~","~~~~~","F~~~F")
-                .aisle("F~~~F","~~~~~","~~P~~","~~~~~","F~~~F")
+                .aisle("FGGGF","G~~~G","G~P~G","G~~~G","FGGGF")
+                .aisle("FGGGF","G~~~G","G~P~G","G~~~G","FGGGF")
+                .aisle("FGGGF","G~~~G","G~P~G","G~~~G","FGGGF")
                 .aisle("CCCCC","CCCCC","CCCCC","CCCCC","CCCCC")
 
                 .where("S", IBlockMatcher.controller(loc))
@@ -47,6 +47,7 @@ val neutron_accelerator = Builder.start(loc, meta)
                 ))
                 .where("N", <metastate:contenttweaker:neutronaccelerator>)
                 .where("M", <metastate:contenttweaker:neutronsensor>)
+                .where("G", <metastate:contenttweaker:highresistanceglass>)
                 .where("F", <metastate:gregtech:frame_steel>)
                 .where("P", <metastate:gregtech:boiler_casing:3>)
                 .build())
@@ -54,33 +55,33 @@ val neutron_accelerator = Builder.start(loc, meta)
                 FactoryMultiblockShapeInfo.start()
                 .aisle(
 "CCCCC",
-"F   F",
-"F   F",
-"F   F",
+"FGGGF",
+"FGGGF",
+"FGGGF",
 "CCCCC")
                 .aisle(
 "CCCCN",
-"     ",
-"     ",
-"     ",
+"G   G",
+"G   G",
+"G   G",
 "CCCCC")
                 .aisle(
 "SCCCM",
-"  P  ",
-"  P  ",
-"  P  ",
+"G P G",
+"G P G",
+"G P G",
 "CCCCC")
                 .aisle(
 "CCCCN",
-"     ",
-"     ",
-"     ",
+"G   G",
+"G   G",
+"G   G",
 "CCCCC")
                 .aisle(
 "CCCCC",
-"F   F",
-"F   F",
-"F   F",
+"FGGGF",
+"FGGGF",
+"FGGGF",
 "CCCCC")
                                    
                 .where("C", <metastate:gregtech:metal_casing:5>)
@@ -89,6 +90,7 @@ val neutron_accelerator = Builder.start(loc, meta)
                 .where("M", <metastate:contenttweaker:neutronsensor>)
                 .where("F", <metastate:gregtech:frame_steel>)
                 .where("P", <metastate:gregtech:boiler_casing:3>)
+                .where("G", <metastate:contenttweaker:highresistanceglass>)
                 .where("L", MetaTileEntities.FLUID_IMPORT_HATCH[1], IFacing.south())
                 .where("X", MetaTileEntities.FLUID_EXPORT_HATCH[1], IFacing.north())
                 .where("E", MetaTileEntities.ENERGY_INPUT_HATCH[2], IFacing.east())
