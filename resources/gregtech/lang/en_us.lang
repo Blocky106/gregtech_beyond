@@ -94,6 +94,7 @@ material.electron_degenerate_rhenium=Electron Degenerate Rhenium
 material.nylon=Nylon 
 material.dark_naquatic_abyssal_alloy=Dark Naquatic Abyssal Alloy
 material.polycyclopentene=Poly(cyclopentene)
+material.metallic_hydrogen=Metallic Hydrogen
 
 
 gtadditions.machine.convert_forge.uxv.4.name=Forge Energy Converter (UXV)
