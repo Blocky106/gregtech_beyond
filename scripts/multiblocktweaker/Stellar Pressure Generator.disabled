@@ -1,0 +1,492 @@
+import crafttweaker.world.IFacing;
+import crafttweaker.block.IBlock;
+import crafttweaker.block.IBlockState;
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+import mods.gregtech.multiblock.Builder;
+import mods.gregtech.multiblock.FactoryBlockPattern;
+import mods.gregtech.multiblock.IBlockMatcher;
+import mods.gregtech.multiblock.MultiblockAbility;
+import mods.gregtech.multiblock.RelativeDirection;
+import mods.gregtech.multiblock.FactoryMultiblockShapeInfo;
+import mods.gregtech.multiblock.IBlockInfo;
+import mods.gregtech.multiblock.IBlockWorldState;
+import mods.gregtech.multiblock.Multiblock;
+import mods.gregtech.recipe.RecipeMap;
+import mods.gregtech.MetaTileEntities;
+import mods.gregtech.recipe.FactoryRecipeMap;
+import mods.gregtech.render.ITextureArea;
+import mods.gregtech.render.MoveType;
+import mods.gregtech.render.ICubeRenderer;
+import mods.gregtech.render.Textures;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.oredict.IOreDictEntry;
+
+
+var loc = "superheavy_reactor";
+var meta = 10113;
+val superheavy_reactor = Builder.start(loc, meta)
+    .withPattern(
+            FactoryBlockPattern.start(RelativeDirection.RIGHT, RelativeDirection.BACK, RelativeDirection.UP)
+                .aisle(
+                    "         FFFFFFF         ",
+                    "       FFPPPPPPPFF       ",
+                    "     FFPPF CPC FPPFF     ",
+                    "    FPPFFF CPC FFFPPF    ",
+                    "   FPFF    CPC    FFPF   ",
+                    "  FPF      CPC      FPF  ",
+                    "  FPF      CPC      FPF  ",
+                    " FPF       CPC       FPF ",
+                    " FPF       CPC       FPF ",
+                    "FPFF       CPC       FFPF",
+                    "FPF       CCPCC       FPF",
+                    "FPFCCCCCCCCPEPCCCCCCCCFPF",
+                    "FPPPPPPPPPPEEEPPPPPPPPPPF",
+                    "FPFCCCCCCCCPEPCCCCCCCCFPF",
+                    "FPF       CCPCC       FPF",
+                    "FPFF       CPC       FFPF",
+                    " FPF       CPC       FPF ",
+                    " FPF       CPC       FPF ",
+                    "  FPF      CPC      FPF  ",
+                    "  FPF      CPC      FPF  ",
+                    "   FPFF    CPC    FFPF   ",
+                    "    FPPFFF CPC FFFPPF    ",
+                    "     FFPPF CPC FPPFF     ",
+                    "       FFPPPPPPPFF       ",
+                    "         FFFFFFF         ")
+                .aisle(
+                    "                         ",
+                    "         CCCCCCC         ",
+                    "       CCF     FCC       ",
+                    "     CC FF     FF CC     ",
+                    "    C               C    ",
+                    "   C        C        C   ",
+                    "   C       CCC       C   ",
+                    "  C         C         C  ",
+                    "  CF                 FC  ",
+                    " CFF        F        FFC ",
+                    " C          F          C ",
+                    " C    C    CEC    C    C ",
+                    " C   CCC FFEEEFF CCC   C ",
+                    " C    C    CEC    C    C ",
+                    " C          F          C ",
+                    " CFF        F        FFC ",
+                    "  CF                 FC  ",
+                    "  C         C         C  ",
+                    "   C       CCC       C   ",
+                    "   C        C        C   ",
+                    "    C               C    ",
+                    "     CC FF     FF CC     ",
+                    "       CCF     FCC       ",
+                    "         CCCCCCC         ",
+                    "                         ")
+
+                .aisle(
+                    "                         ",
+                    "         CCCCCCC         ",
+                    "       CCF     FCC       ",
+                    "     CC FF     FF CC     ",
+                    "    C               C    ",
+                    "   C        C        C   ",
+                    "   C       CCC       C   ",
+                    "  C         C         C  ",
+                    "  CF                 FC  ",
+                    " CFF                 FFC ",
+                    " C          F          C ",
+                    " C    C    FCF    C    C ",
+                    " C   CCC  FCECF  CCC   C ",
+                    " C    C    FCF    C    C ",
+                    " C          F          C ",
+                    " CFF                 FFC ",
+                    "  CF                 FC  ",
+                    "  C         C         C  ",
+                    "   C       CCC       C   ",
+                    "   C        C        C   ",
+                    "    C               C    ",
+                    "     CC FF     FF CC     ",
+                    "       CCF     FCC       ",
+                    "         CCCCCCC         ",
+                    "                         ")
+
+                .aisle(
+                    "                         ",
+                    "                         ",
+                    "                         ",
+                    "         F     F         ",
+                    "                         ",
+                    "                         ",
+                    "            F            ",
+                    "                         ",
+                    "                         ",
+                    "   F                 F   ",
+                    "                         ",
+                    "           FCF           ",
+                    "      F    CEC    F      ",
+                    "           FCF           ",
+                    "                         ",
+                    "   F                 F   ",
+                    "                         ",
+                    "                         ",
+                    "            F            ",
+                    "                         ",
+                    "                         ",
+                    "         F     F         ",
+                    "                         ",
+                    "                         ",
+                    "                         ")
+
+                .aisle(
+                    "                         ",
+                    "                         ",
+                    "                         ",
+                    "         F     F         ",
+                    "                         ",
+                    "                         ",
+                    "            F            ",
+                    "                         ",
+                    "                         ",
+                    "   F                 F   ",
+                    "                         ",
+                    "           FTF           ",
+                    "      F    TPT    F      ",
+                    "           FTF           ",
+                    "                         ",
+                    "   F                 F   ",
+                    "                         ",
+                    "                         ",
+                    "            F            ",
+                    "                         ",
+                    "                         ",
+                    "         F     F         ",
+                    "                         ",
+                    "                         ",
+                    "                         ")
+                .aisle(
+                    "                         ",
+                    "                         ",
+                    "                         ",
+                    "         F     F         ",
+                    "                         ",
+                    "                         ",
+                    "            F            ",
+                    "                         ",
+                    "                         ",
+                    "   F        T        F   ",
+                    "           GTG           ",
+                    "          GFCFG          ",
+                    "      F  TTCPCTT  F      ",
+                    "          GFCFG          ",
+                    "           GTG           ",
+                    "   F        T        F   ",
+                    "                         ",
+                    "                         ",
+                    "            F            ",
+                    "                         ",
+                    "                         ",
+                    "         F     F         ",
+                    "                         ",
+                    "                         ",
+                    "                         ")
+                .aisle(
+                    "                         ",
+                    "                         ",
+                    "                         ",
+                    "         FGGGGGF         ",
+                    "        GGPPPPPGG        ",
+                    "      GGPP     PPGG      ",
+                    "     GPP    F    PPG     ",
+                    "     GP           PG     ",
+                    "    GP             PG    ",
+                    "   FGP     GTG     PGF   ",
+                    "   GP     G C G     PG   ",
+                    "   GP    G FAF G    PG   ",
+                    "   GP F  TCAPACT  F PG   ",
+                    "   GP    G FAF G    PG   ",
+                    "   GP     G C G     PG   ",
+                    "   FGP     GTG     PGF   ",
+                    "    GP             PG    ",
+                    "     GP           PG     ",
+                    "     GPP    F    PPG     ",
+                    "      GGPP     PPGG      ",
+                    "        GGPPPPPGG        ",
+                    "         FGGGGGF         ",
+                    "                         ",
+                    "                         ",
+                    "                         ")
+                .aisle(
+                    "                         ",
+                    "                         ",
+                    "                         ",
+                    "         FCHHHCF         ",
+                    "        CCCCCCCCC        ",
+                    "      CCCC     CCCC      ",
+                    "     CCC    F    CCC     ",
+                    "     CC           CC     ",
+                    "    CC      T      CC    ",
+                    "   FCC    GGCGG    CCF   ",
+                    "   CC    G  E  G    CC   ",
+                    "   HC    G FEF G    CH   ",
+                    "   HC F TCEEPEECT F CH   ",
+                    "   HC    G FEF G    CH   ",
+                    "   CC    G  E  G    CC   ",
+                    "   FCC     GCG     CCF   ",
+                    "    CC      T      CC    ",
+                    "     CC           CC     ",
+                    "     CCC    F    CCC     ",
+                    "      CCCC     CCCC      ",
+                    "        CCCCCCCCC        ",
+                    "         FCHHHCF         ",
+                    "                         ",
+                    "                         ",
+                    "                         ")
+                .aisle(
+                    "                         ",
+                    "                         ",
+                    "         F     F         ",
+                    "        FFCCCCCFF        ",
+                    "        CCCCCCCCC        ",
+                    "      CCCC  F  CCCC      ",
+                    "     CCC   FFF   CCC     ",
+                    "     CC     F     CC     ",
+                    "   FCC     TTT     CCF   ",
+                    "  FFCC    TCCCT    CCFF  ",
+                    "   CC    TC E CT    CC   ",
+                    "   CC F TC EEE CT F CC   ",
+                    "   CCFFFTCEEPEECTFFFCC   ",
+                    "   CC F TC EEE CT F CC   ",
+                    "   CC    TC E CT    CC   ",
+                    "  FFCC   TTCCCTT   CCFF  ",
+                    "   FCC     TTT     CCF   ",
+                    "     CC     F     CC     ",
+                    "     CCC   FFF   CCC     ",
+                    "      CCCC  F  CCCC      ",
+                    "        CCCCCCCCC        ",
+                    "        FFCCCCCFF        ",
+                    "         F     F         ",
+                    "                         ",
+                    "                         ")
+                .aisle(
+                    "                         ",
+                    "                         ",
+                    "         FFFFFFF         ",
+                    "       FFF     FFF       ",
+                    "     FF           FF     ",
+                    "    F               F    ",
+                    "    F               F    ",
+                    "   F        F        F   ",
+                    "   F                 F   ",
+                    "  FF      GGCGG      FF  ",
+                    "  F      G  E  G      F  ",
+                    "  F      G FEF G      F  ",
+                    "  F   F TCEEPEECT F   F  ",
+                    "  F      G EEE G      F  ",
+                    "  F      G  E  G      F  ",
+                    "  FF      GGCGG      FF  ",
+                    "   F                 F   ",
+                    "   F        F        F   ",
+                    "    F               F    ",
+                    "    F               F    ",
+                    "     FF           FF     ",
+                    "       FFF     FFF       ",
+                    "         FFFFFFF         ",
+                    "                         ",
+                    "                         ")
+                .aisle(
+                    "                         ",
+                    "                         ",
+                    "                         ",
+                    "                         ",
+                    "                         ",
+                    "                         ",
+                    "            F            ",
+                    "                         ",
+                    "                         ",
+                    "           GTG           ",
+                    "          G C G          ",
+                    "         G FAF G         ",
+                    "      F  TCAPACT  F      ",
+                    "         G FAF G         ",
+                    "          G C G          ",
+                    "           GTG           ",
+                    "                         ",
+                    "                         ",
+                    "            F            ",
+                    "                         ",
+                    "                         ",
+                    "                         ",
+                    "                         ",
+                    "                         ",
+                    "                         ")
+                .aisle(
+                    "                         ",
+                    "                         ",
+                    "                         ",
+                    "                         ",
+                    "                         ",
+                    "                         ",
+                    "            F            ",
+                    "                         ",
+                    "                         ",
+                    "            T            ",
+                    "           GTG           ",
+                    "          GFCFG          ",
+                    "      F  TTCPCTT  F      ",
+                    "          GFCFG          ",
+                    "           GTG           ",
+                    "            T            ",
+                    "                         ",
+                    "                         ",
+                    "            F            ",
+                    "                         ",
+                    "                         ",
+                    "                         ",
+                    "                         ",
+                    "                         ",
+                    "                         ")
+                .aisle(
+                    "                         ",
+                    "                         ",
+                    "                         ",
+                    "                         ",
+                    "                         ",
+                    "                         ",
+                    "            F            ",
+                    "                         ",
+                    "                         ",
+                    "                         ",
+                    "                         ",
+                    "           FTF           ",
+                    "      F    TPT    F      ",
+                    "           FTF           ",
+                    "                         ",
+                    "                         ",
+                    "                         ",
+                    "                         ",
+                    "            F            ",
+                    "                         ",
+                    "                         ",
+                    "                         ",
+                    "                         ",
+                    "                         ",
+                    "                         ")
+                .aisle(
+                    "                         ",
+                    "                         ",
+                    "                         ",
+                    "                         ",
+                    "                         ",
+                    "                         ",
+                    "            F            ",
+                    "                         ",
+                    "                         ",
+                    "                         ",
+                    "                         ",
+                    "           F F           ",
+                    "      F     P     F      ",
+                    "           F F           ",
+                    "                         ",
+                    "                         ",
+                    "                         ",
+                    "                         ",
+                    "            F            ",
+                    "                         ",
+                    "                         ",
+                    "                         ",
+                    "                         ",
+                    "                         ",
+                    "                         ")
+                .aisle(
+                    "                         ",
+                    "                         ",
+                    "                         ",
+                    "                         ",
+                    "                         ",
+                    "            H            ",
+                    "            E            ",
+                    "            E            ",
+                    "            E            ",
+                    "            E            ",
+                    "            E            ",
+                    "           FEF           ",
+                    "     HEEEEEEPEEEEEEH     ",
+                    "           FEF           ",
+                    "            E            ",
+                    "            E            ",
+                    "            E            ",
+                    "            E            ",
+                    "            E            ",
+                    "            H            ",
+                    "                         ",
+                    "                         ",
+                    "                         ",
+                    "                         ",
+                    "                         ")
+                .aisle(
+                    "                         ",
+                    "                         ",
+                    "                         ",
+                    "                         ",
+                    "                         ",
+                    "                         ",
+                    "                         ",
+                    "                         ",
+                    "                         ",
+                    "                         ",
+                    "                         ",
+                    "            F            ",
+                    "           FFF           ",
+                    "            F            ",
+                    "                         ",
+                    "                         ",
+                    "                         ",
+                    "                         ",
+                    "                         ",
+                    "                         ",
+                    "                         ",
+                    "                         ",
+                    "                         ",
+                    "                         ",
+                    "                         ")
+
+                .where("S", IBlockMatcher.controller(loc))
+                .where("~", IBlockMatcher.ANY)
+                .whereOr("C", 
+                <metastate:contenttweaker:atomic_casing>,
+                    IBlockMatcher.abilityPartPredicate(
+                        MultiblockAbility.IMPORT_FLUIDS,
+                        MultiblockAbility.IMPORT_ITEMS,
+                        MultiblockAbility.INPUT_ENERGY,
+                        MultiblockAbility.EXPORT_FLUIDS,
+                        MultiblockAbility.EXPORT_ITEMS
+                ))
+                .where("X", <metastate:gregtech:metal_casing:2>)
+                .where("R", <metastate:contenttweaker:reactor_core_stabilizer>)
+                .where("T", <metastate:gregtech:wire_coil:6>)
+                .where("F", <metastate:gregtech:frame_enriched_naquadah_alloy>)
+                .build())
+        .addDesign(
+                FactoryMultiblockShapeInfo.start()
+                .aisle("CCCCC","F   F","F   F","F   F","F   F","CCCCC")
+                .aisle("CCCCC"," XXX "," TTT "," TTT "," XXX ","CCCCC")
+                .aisle("SCCCE"," XXX "," TRT "," TRT "," XXX ","CCCCC")
+                .aisle("CCCCC"," XXX "," TTT "," TTT "," XXX ","CCCCC")
+                .aisle("CCCCC","F   F","F   F","F   F","F   F","CCCCC")
+                .where("X", <metastate:gregtech:metal_casing:2>)
+                .where("R", <metastate:contenttweaker:reactor_core_stabilizer>)
+                .where("T", <metastate:gregtech:wire_coil:6>)
+                .where("F", <metastate:gregtech:frame_enriched_naquadah_alloy>)
+                .where("S", IBlockInfo.controller(loc))
+                .where("C", <metastate:contenttweaker:atomic_casing>)
+                .where("L", MetaTileEntities.FLUID_IMPORT_HATCH[1], IFacing.south())
+                .where("E", MetaTileEntities.ENERGY_INPUT_HATCH[2], IFacing.north())
+                .build())
+.withRecipeMap(
+        FactoryRecipeMap.start(loc)
+                        .maxInputs(4)
+                        .maxFluidInputs(2)
+                        .maxFluidOutputs(2)
+                        .maxOutputs(4)
+                        .build())
+                        .withTexture(ICubeRenderer.sided("contenttweaker:blocks/atomic_casing"))
+.withZoom(0.5f)
+.buildAndRegister() as Multiblock;

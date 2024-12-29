@@ -81,6 +81,10 @@ ultrahighresistanceglass.register();
 
 
 
+registerMetalBlock("marvin_tara_carbonoxygen_casing", 12.0, 10.0, 1);
+registerMetalBlock("neutron_tube_casing", 12.0, 10.0, 1);
+registerMetalBlock("electromagnetic_acceleration_pipe_box", 12.0, 10.0, 1);
+registerMetalBlock("stella_anvil_module", 12.0, 10.0, 1);
 registerMetalBlock("cryoliteore", 12.0, 10.0, 1);
 registerMetalBlock("sonicator_casing", 12.0, 10.0, 1);
 registerMetalBlock("electrolyticcell", 12.0, 10.0, 1);
