@@ -323,3 +323,19 @@ polymerization_tank.recipeMap.recipeBuilder()
     .duration(200)
     .EUt(12)
     .buildAndRegister();
+
+polymerization_tank.recipeMap.recipeBuilder()
+    .notConsumable(<gtadditions:ga_dust:32002>)
+    .fluidInputs(<liquid:cyclopentene>*144)
+    .fluidOutputs(<liquid:polycyclopentene>*432)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
+
+polymerization_tank.recipeMap.recipeBuilder()
+    .notConsumable(<gtadditions:ga_dust:32000>)
+    .fluidInputs(<liquid:cyclopentene>*144)
+    .fluidOutputs(<liquid:polycyclopentene>*576)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
