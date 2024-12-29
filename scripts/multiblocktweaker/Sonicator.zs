@@ -110,3 +110,13 @@ sonicator.recipeMap.recipeBuilder()
     .duration(400)
     .EUt(137000)
     .buildAndRegister();
+
+sonicator.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:waterplasma>*1000)
+    .inputs(<gtadditions:ga_dust:32235>*3)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 2}))
+    .fluidOutputs(<liquid:metallic_hydrogen>*150)
+    .outputs(<gtadditions:ga_dust:32236>*7)
+    .duration(800)
+    .EUt(40000)
+    .buildAndRegister();

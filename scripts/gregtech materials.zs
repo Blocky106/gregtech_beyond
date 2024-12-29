@@ -308,6 +308,8 @@ dark_naquatic_abyssal_alloy.addFlags(["GENERATE_PLATE", "GENERATE_FRAME", "GENER
 val polycyclopentene = MaterialRegistry.createIngotMaterial(632,"polycyclopentene",0x257F88,"SHINY",3);
 polycyclopentene.addFlags(["GENERATE_PLATE"]);
 
+val metallic_hydrogen = MaterialRegistry.createIngotMaterial(633,"metallic_hydrogen",0x325677,"SHINY",3);
+metallic_hydrogen.addFlags(["GENERATE_PLATE","GENERATE_FRAME"]);
 
 
 
@@ -826,7 +828,7 @@ util.registerFluid("heavyradox",0x633C7A);
 util.registerFluid("crackedlightradox",0xB9A1C7);
 util.registerFluid("purifiedradox",0x8E24AA);
 util.registerFluid("crackedheavyradox",0x6A1B9A);
-util.registerFluid("waterplasma",0x827717);
+util.registerFluid("waterplasma",0xB3D1EC);
 util.registerFluid("geneticmutagen",0x448247);
 util.registerFluid("xenoxene",0x4D4C4C);
 util.registerFluid("bastnasiteoxidecompositeliquid",0x827717);

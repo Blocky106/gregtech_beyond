@@ -743,6 +743,14 @@ lcr.recipeBuilder()
     .EUt(6780)
     .buildAndRegister();
 
+implosion.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:32236>*2)
+    .property("explosives", 64)
+    .outputs(<gtadditions:ga_dust:32237>,<gregtech:meta_item_1:2111>*32)
+    .duration(400)
+    .EUt(8000)
+    .buildAndRegister();
+
 
 
 
