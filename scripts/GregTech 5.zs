@@ -697,7 +697,52 @@ cracker.recipeBuilder()
     .EUt(800)
     .buildAndRegister();
 
-    
+alloy_smelter.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:12632>,<gtadditions:ga_transparent_casing:4>)
+    .outputs(<contenttweaker:highresistanceglass>)
+    .duration(200)
+    .EUt(700)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs(<contenttweaker:highresistanceglass>,<contenttweaker:biosafe_protective_plating>*4,<ore:circuitUev>)
+    .outputs(<contenttweaker:ultrahighresistanceglass>)
+    .duration(800)
+    .EUt(1200)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:distilled_water>*2000,<liquid:sulfuric_acid>*1000,<liquid:ammonia>*1000)
+    .fluidOutputs(<liquid:ammonium_persulfate>*1000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .duration(200)
+    .EUt(400)
+    .buildAndRegister();    
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:distilled_water>*2000,<liquid:sulfuric_acid>*1000,<liquid:ammonia>*1000)
+    .fluidOutputs(<liquid:ammonium_persulfate>*1000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .duration(200)
+    .EUt(400)
+    .buildAndRegister();  
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:fluorine>*6000)
+    .inputs(<gregtech:meta_item_1:2043>)
+    .fluidOutputs(<liquid:darmstadtium_hexafluoride>*1000)
+    .duration(400)
+    .EUt(6780)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:fluorine>*6000)
+    .inputs(<gregtech:meta_item_1:2043>)
+    .fluidOutputs(<liquid:darmstadtium_hexafluoride>*1000)
+    .duration(400)
+    .EUt(6780)
+    .buildAndRegister();
+
 
 
 
