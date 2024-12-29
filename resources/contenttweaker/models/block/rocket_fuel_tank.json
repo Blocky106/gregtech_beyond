@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/rocket_fuel_tank",
+		"left" : "contenttweaker:blocks/rocket_fuel_tank",
+		"right" : "contenttweaker:blocks/rocket_fuel_tank",
+		"back" : "contenttweaker:blocks/rocket_fuel_tank",
+		"top" : "contenttweaker:blocks/rocket_fuel_tank",
+		"bottom" : "contenttweaker:blocks/rocket_fuel_tank"
+
+	}
+	
+
+}

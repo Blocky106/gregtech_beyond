@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/electrolyticcell",
+		"left" : "contenttweaker:blocks/electrolyticcell",
+		"right" : "contenttweaker:blocks/electrolyticcell",
+		"back" : "contenttweaker:blocks/electrolyticcell",
+		"top" : "contenttweaker:blocks/electrolyticcell",
+		"bottom" : "contenttweaker:blocks/electrolyticcell"
+
+	}
+	
+
+}

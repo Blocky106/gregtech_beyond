@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/machine_casing_robust_tungstensteel",
+		"left" : "contenttweaker:blocks/machine_casing_robust_tungstensteel",
+		"right" : "contenttweaker:blocks/machine_casing_robust_tungstensteel",
+		"back" : "contenttweaker:blocks/machine_casing_robust_tungstensteel",
+		"top" : "contenttweaker:blocks/machine_casing_robust_tungstensteel",
+		"bottom" : "contenttweaker:blocks/machine_casing_robust_tungstensteel"
+
+	}
+	
+
+}

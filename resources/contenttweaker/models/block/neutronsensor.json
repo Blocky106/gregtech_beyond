@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/neutronsensor",
+		"left" : "contenttweaker:blocks/neutronsensor",
+		"right" : "contenttweaker:blocks/neutronsensor",
+		"back" : "contenttweaker:blocks/neutronsensor",
+		"top" : "contenttweaker:blocks/neutronsensor",
+		"bottom" : "contenttweaker:blocks/neutronsensor"
+
+	}
+	
+
+}

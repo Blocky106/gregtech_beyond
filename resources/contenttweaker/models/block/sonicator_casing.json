@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/sonicator_casing",
+		"left" : "contenttweaker:blocks/sonicator_casing",
+		"right" : "contenttweaker:blocks/sonicator_casing",
+		"back" : "contenttweaker:blocks/sonicator_casing",
+		"top" : "contenttweaker:blocks/sonicator_casing",
+		"bottom" : "contenttweaker:blocks/sonicator_casing"
+
+	}
+	
+
+}

@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/steelborderedwoodencasing",
+		"left" : "contenttweaker:blocks/steelborderedwoodencasing",
+		"right" : "contenttweaker:blocks/steelborderedwoodencasing",
+		"back" : "contenttweaker:blocks/steelborderedwoodencasing",
+		"top" : "contenttweaker:blocks/steelborderedwoodencasing",
+		"bottom" : "contenttweaker:blocks/steelborderedwoodencasing"
+
+	}
+	
+
+}

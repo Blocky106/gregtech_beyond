@@ -1,0 +1,16 @@
+
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/thermalcasing",
+		"left" : "contenttweaker:blocks/thermalcasing",
+		"right" : "contenttweaker:blocks/thermalcasing",
+		"back" : "contenttweaker:blocks/thermalcasing",
+		"top" : "contenttweaker:blocks/thermalcasing",
+		"bottom" : "contenttweaker:blocks/thermalcasing"
+
+	}
+	
+
+}

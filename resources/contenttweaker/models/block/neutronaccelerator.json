@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/neutronaccelerator",
+		"left" : "contenttweaker:blocks/neutronaccelerator",
+		"right" : "contenttweaker:blocks/neutronaccelerator",
+		"back" : "contenttweaker:blocks/neutronaccelerator",
+		"top" : "contenttweaker:blocks/neutronaccelerator",
+		"bottom" : "contenttweaker:blocks/neutronaccelerator"
+
+	}
+	
+
+}

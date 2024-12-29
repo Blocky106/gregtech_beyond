@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/coil",
+		"left" : "contenttweaker:blocks/coil",
+		"right" : "contenttweaker:blocks/coil",
+		"back" : "contenttweaker:blocks/coil",
+		"top" : "contenttweaker:blocks/coil",
+		"bottom" : "contenttweaker:blocks/coil"
+
+	}
+	
+
+}

@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/millcasing",
+		"left" : "contenttweaker:blocks/millcasing",
+		"right" : "contenttweaker:blocks/millcasing",
+		"back" : "contenttweaker:blocks/millcasing",
+		"top" : "contenttweaker:blocks/millcasing",
+		"bottom" : "contenttweaker:blocks/millcasing"
+
+	}
+	
+
+}

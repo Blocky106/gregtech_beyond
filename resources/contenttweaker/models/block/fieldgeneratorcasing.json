@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/fieldgeneratorcasing",
+		"left" : "contenttweaker:blocks/fieldgeneratorcasing",
+		"right" : "contenttweaker:blocks/fieldgeneratorcasing",
+		"back" : "contenttweaker:blocks/fieldgeneratorcasing",
+		"top" : "contenttweaker:blocks/fieldgeneratorcasing",
+		"bottom" : "contenttweaker:blocks/fieldgeneratorcasing"
+
+	}
+	
+
+}

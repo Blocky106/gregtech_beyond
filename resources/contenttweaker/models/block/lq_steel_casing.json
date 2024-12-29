@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/lq_steel_casing",
+		"left" : "contenttweaker:blocks/lq_steel_casing",
+		"right" : "contenttweaker:blocks/lq_steel_casing",
+		"back" : "contenttweaker:blocks/lq_steel_casing",
+		"top" : "contenttweaker:blocks/lq_steel_casing",
+		"bottom" : "contenttweaker:blocks/lq_steel_casing"
+
+	}
+	
+
+}

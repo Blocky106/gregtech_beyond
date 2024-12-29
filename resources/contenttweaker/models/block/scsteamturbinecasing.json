@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/scsteamturbinecasing",
+		"left" : "contenttweaker:blocks/scsteamturbinecasing",
+		"right" : "contenttweaker:blocks/scsteamturbinecasing",
+		"back" : "contenttweaker:blocks/scsteamturbinecasing",
+		"top" : "contenttweaker:blocks/scsteamturbinecasing",
+		"bottom" : "contenttweaker:blocks/scsteamturbinecasing"
+
+	}
+	
+
+}

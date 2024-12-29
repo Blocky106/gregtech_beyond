@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/computercasingvent",
+		"left" : "contenttweaker:blocks/computercasingvent",
+		"right" : "contenttweaker:blocks/computercasingvent",
+		"back" : "contenttweaker:blocks/computercasingvent",
+		"top" : "contenttweaker:blocks/computercasingvent",
+		"bottom" : "contenttweaker:blocks/computercasingvent"
+
+	}
+	
+
+}

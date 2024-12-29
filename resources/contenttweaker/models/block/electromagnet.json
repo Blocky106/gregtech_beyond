@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/electromagnet",
+		"left" : "contenttweaker:blocks/electromagnet",
+		"right" : "contenttweaker:blocks/electromagnet",
+		"back" : "contenttweaker:blocks/electromagnet",
+		"top" : "contenttweaker:blocks/electromagnet",
+		"bottom" : "contenttweaker:blocks/electromagnet"
+
+	}
+	
+
+}

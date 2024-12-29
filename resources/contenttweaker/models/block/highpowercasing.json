@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/highpowercasing",
+		"left" : "contenttweaker:blocks/highpowercasing",
+		"right" : "contenttweaker:blocks/highpowercasing",
+		"back" : "contenttweaker:blocks/highpowercasing",
+		"top" : "contenttweaker:blocks/highpowercasing",
+		"bottom" : "contenttweaker:blocks/highpowercasing"
+
+	}
+	
+
+}

@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/t3_rocket_engine",
+		"left" : "contenttweaker:blocks/t3_rocket_engine",
+		"right" : "contenttweaker:blocks/t3_rocket_engine",
+		"back" : "contenttweaker:blocks/t3_rocket_engine",
+		"top" : "contenttweaker:blocks/t3_rocket_engine",
+		"bottom" : "contenttweaker:blocks/t3_rocket_engine"
+
+	}
+	
+
+}

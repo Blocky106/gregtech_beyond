@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/electricalrutherfordiumcupritecasing",
+		"left" : "contenttweaker:blocks/electricalrutherfordiumcupritecasing",
+		"right" : "contenttweaker:blocks/electricalrutherfordiumcupritecasing",
+		"back" : "contenttweaker:blocks/electricalrutherfordiumcupritecasing",
+		"top" : "contenttweaker:blocks/electricalrutherfordiumcupritecasing",
+		"bottom" : "contenttweaker:blocks/electricalrutherfordiumcupritecasing"
+
+	}
+	
+
+}

@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/berylliumdetector",
+		"left" : "contenttweaker:blocks/berylliumdetector",
+		"right" : "contenttweaker:blocks/berylliumdetector",
+		"back" : "contenttweaker:blocks/berylliumdetector",
+		"top" : "contenttweaker:blocks/berylliumdetector",
+		"bottom" : "contenttweaker:blocks/berylliumdetector"
+
+	}
+	
+
+}

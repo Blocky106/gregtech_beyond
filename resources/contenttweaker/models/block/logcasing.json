@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/logcasing",
+		"left" : "contenttweaker:blocks/logcasing",
+		"right" : "contenttweaker:blocks/logcasing",
+		"back" : "contenttweaker:blocks/logcasing",
+		"top" : "contenttweaker:blocks/logcasing",
+		"bottom" : "contenttweaker:blocks/logcasing"
+
+	}
+	
+
+}

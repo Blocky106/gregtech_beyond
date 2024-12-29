@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/titaniumcontainingice",
+		"left" : "contenttweaker:blocks/titaniumcontainingice",
+		"right" : "contenttweaker:blocks/titaniumcontainingice",
+		"back" : "contenttweaker:blocks/titaniumcontainingice",
+		"top" : "contenttweaker:blocks/titaniumcontainingice",
+		"bottom" : "contenttweaker:blocks/titaniumcontainingice"
+
+	}
+	
+
+}

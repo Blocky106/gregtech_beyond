@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/electroniccasing",
+		"left" : "contenttweaker:blocks/electroniccasing",
+		"right" : "contenttweaker:blocks/electroniccasing",
+		"back" : "contenttweaker:blocks/electroniccasing",
+		"top" : "contenttweaker:blocks/electroniccasing",
+		"bottom" : "contenttweaker:blocks/electroniccasing"
+
+	}
+	
+
+}

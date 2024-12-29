@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/optimizedrestrictedpcbcasing",
+		"left" : "contenttweaker:blocks/optimizedrestrictedpcbcasing",
+		"right" : "contenttweaker:blocks/optimizedrestrictedpcbcasing",
+		"back" : "contenttweaker:blocks/optimizedrestrictedpcbcasing",
+		"top" : "contenttweaker:blocks/optimizedrestrictedpcbcasing",
+		"bottom" : "contenttweaker:blocks/optimizedrestrictedpcbcasing"
+
+	}
+	
+
+}

@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/steel_plated_workbench",
+		"left" : "contenttweaker:blocks/steel_plated_workbench",
+		"right" : "contenttweaker:blocks/steel_plated_workbench",
+		"back" : "contenttweaker:blocks/steel_plated_workbench",
+		"top" : "contenttweaker:blocks/steel_plated_workbench",
+		"bottom" : "contenttweaker:blocks/steel_plated_workbench"
+
+	}
+	
+
+}

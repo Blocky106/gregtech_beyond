@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/perciseelectronicunitcasing",
+		"left" : "contenttweaker:blocks/perciseelectronicunitcasing",
+		"right" : "contenttweaker:blocks/perciseelectronicunitcasing",
+		"back" : "contenttweaker:blocks/perciseelectronicunitcasing",
+		"top" : "contenttweaker:blocks/perciseelectronicunitcasing",
+		"bottom" : "contenttweaker:blocks/perciseelectronicunitcasing"
+
+	}
+	
+
+}

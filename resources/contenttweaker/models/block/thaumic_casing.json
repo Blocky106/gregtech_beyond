@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/thaumic_casing",
+		"left" : "contenttweaker:blocks/thaumic_casing",
+		"right" : "contenttweaker:blocks/thaumic_casing",
+		"back" : "contenttweaker:blocks/thaumic_casing",
+		"top" : "contenttweaker:blocks/thaumic_casing",
+		"bottom" : "contenttweaker:blocks/thaumic_casing"
+
+	}
+	
+
+}

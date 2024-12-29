@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/stabilization_fin",
+		"left" : "contenttweaker:blocks/stabilization_fin",
+		"right" : "contenttweaker:blocks/stabilization_fin",
+		"back" : "contenttweaker:blocks/stabilization_fin",
+		"top" : "contenttweaker:blocks/stabilization_fin",
+		"bottom" : "contenttweaker:blocks/stabilization_fin"
+
+	}
+	
+
+}

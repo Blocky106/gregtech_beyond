@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/mervin_tara_carbonoxygen_casing",
+		"left" : "contenttweaker:blocks/mervin_tara_carbonoxygen_casing",
+		"right" : "contenttweaker:blocks/mervin_tara_carbonoxygen_casing",
+		"back" : "contenttweaker:blocks/mervin_tara_carbonoxygen_casing",
+		"top" : "contenttweaker:blocks/mervin_tara_carbonoxygen_casing",
+		"bottom" : "contenttweaker:blocks/mervin_tara_carbonoxygen_casing"
+
+	}
+	
+
+}

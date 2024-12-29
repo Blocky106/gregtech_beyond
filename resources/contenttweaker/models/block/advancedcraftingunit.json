@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/advancedcraftingunit",
+		"left" : "contenttweaker:blocks/advancedcraftingunit",
+		"right" : "contenttweaker:blocks/advancedcraftingunit",
+		"back" : "contenttweaker:blocks/advancedcraftingunit",
+		"top" : "contenttweaker:blocks/advancedcraftingunit",
+		"bottom" : "contenttweaker:blocks/advancedcraftingunit"
+
+	}
+	
+
+}

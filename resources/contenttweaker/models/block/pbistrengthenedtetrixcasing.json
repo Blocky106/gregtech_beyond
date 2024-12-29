@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/pbistrengthenedtetrixcasing",
+		"left" : "contenttweaker:blocks/pbistrengthenedtetrixcasing",
+		"right" : "contenttweaker:blocks/pbistrengthenedtetrixcasing",
+		"back" : "contenttweaker:blocks/pbistrengthenedtetrixcasing",
+		"top" : "contenttweaker:blocks/pbistrengthenedtetrixcasing",
+		"bottom" : "contenttweaker:blocks/pbistrengthenedtetrixcasing"
+
+	}
+	
+
+}

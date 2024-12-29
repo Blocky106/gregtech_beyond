@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/soulariumreinforcedglass",
+		"left" : "contenttweaker:blocks/soulariumreinforcedglass",
+		"right" : "contenttweaker:blocks/soulariumreinforcedglass",
+		"back" : "contenttweaker:blocks/soulariumreinforcedglass",
+		"top" : "contenttweaker:blocks/soulariumreinforcedglass",
+		"bottom" : "contenttweaker:blocks/soulariumreinforcedglass"
+
+	}
+	
+
+}

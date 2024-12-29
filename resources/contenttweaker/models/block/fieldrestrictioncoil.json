@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/fieldrestrictioncoil",
+		"left" : "contenttweaker:blocks/fieldrestrictioncoil",
+		"right" : "contenttweaker:blocks/fieldrestrictioncoil",
+		"back" : "contenttweaker:blocks/fieldrestrictioncoil",
+		"top" : "contenttweaker:blocks/fieldrestrictioncoil",
+		"bottom" : "contenttweaker:blocks/fieldrestrictioncoil"
+
+	}
+	
+
+}

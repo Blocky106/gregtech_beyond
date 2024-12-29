@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/blocklasermodule",
+		"left" : "contenttweaker:blocks/blocklasermodule",
+		"right" : "contenttweaker:blocks/blocklasermodule",
+		"back" : "contenttweaker:blocks/blocklasermodule",
+		"top" : "contenttweaker:blocks/blocklasermodule",
+		"bottom" : "contenttweaker:blocks/blocklasermodule"
+
+	}
+	
+
+}

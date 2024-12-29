@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/intermediate_protective_outer_wall",
+		"left" : "contenttweaker:blocks/intermediate_protective_outer_wall",
+		"right" : "contenttweaker:blocks/intermediate_protective_outer_wall",
+		"back" : "contenttweaker:blocks/intermediate_protective_outer_wall",
+		"top" : "contenttweaker:blocks/intermediate_protective_outer_wall",
+		"bottom" : "contenttweaker:blocks/intermediate_protective_outer_wall"
+
+	}
+	
+
+}

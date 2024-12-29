@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/lasercasing",
+		"left" : "contenttweaker:blocks/lasercasing",
+		"right" : "contenttweaker:blocks/lasercasing",
+		"back" : "contenttweaker:blocks/lasercasing",
+		"top" : "contenttweaker:blocks/lasercasing",
+		"bottom" : "contenttweaker:blocks/lasercasing"
+
+	}
+	
+
+}

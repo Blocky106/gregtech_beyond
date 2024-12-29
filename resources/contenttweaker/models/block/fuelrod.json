@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/fuelrod",
+		"left" : "contenttweaker:blocks/fuelrod",
+		"right" : "contenttweaker:blocks/fuelrod",
+		"back" : "contenttweaker:blocks/fuelrod",
+		"top" : "contenttweaker:blocks/fuelrod",
+		"bottom" : "contenttweaker:blocks/fuelrod"
+
+	}
+	
+
+}
