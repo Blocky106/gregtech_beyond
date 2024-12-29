@@ -773,14 +773,6 @@ chemical_plant.recipeBuilder()
     .EUt(2800)
     .buildAndRegister();
 
-#lcr.recipeBuilder()
-#    .fluidInputs()
-#    .inputs(<extendedcrafting:material:49>)
-#    .outputs(<contenttweaker:refabricateddraconiumore>)
-#    .duration()
-#    .EUt()
-#    .buildAndRegister();
-
 ebf.recipeBuilder()
     .fluidInputs(<liquid:liquid_ozone>*1000)
     .inputs(<gtadditions:ga_dust:32140>)
@@ -1822,6 +1814,7 @@ Utils.removeRecipeByOutput(dehydrator, [], [<liquid:peptone_mixture>*1000], fals
 
 fluidheater.recipeBuilder()
     .fluidInputs(<liquid:dilutedmilkslurry>*1000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
     .fluidOutputs(<liquid:heatedmilkslurry>*1000)
     .duration(400)
     .EUt(80)
