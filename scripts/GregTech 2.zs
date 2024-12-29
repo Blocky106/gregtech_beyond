@@ -599,7 +599,7 @@ lcr.recipeBuilder()
     .buildAndRegister();
 
 assembler.recipeBuilder()
-    .inputs(<gregtech:meta_item_1:32499>*2,<gregtech:meta_item_1:12237>*16,<gregtech:meta_item_2:32483>*8,<contenttweaker:cupronickelcoil>*4,<gtadditions:ga_meta_item:32029>*4)
+    .inputs(<gregtech:meta_item_1:32499>,<gregtech:meta_item_1:12632>*4,<gregtech:meta_item_1:12237>*2,<gregtech:meta_item_2:32483>*2,<contenttweaker:cupronickelcoil>*2,<gtadditions:ga_meta_item:32029>*2)
     .fluidInputs(<liquid:aluminium>*1000)
     .outputs(<contenttweaker:microheater>)
     .duration(400)
