@@ -106,6 +106,7 @@ mods.jei.JEI.hideCategory("gregtech:ore_factory");
 mods.jei.JEI.hideCategory("gregtech:sonicator");
 mods.jei.JEI.hideCategory("gregtech:engraving_unit");
 mods.jei.JEI.hideCategory("gregtech:pressure_swing_adsorber");
+mods.jei.JEI.hideCategory("gregtech:superheavy_reactor");
 
 
 
