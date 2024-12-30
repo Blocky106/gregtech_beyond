@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    1009,
+    1010
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 57,
+        "id:8": "betterquesting:placeholder",
+        "tag:10": {
+          "orig_id:8": "ic2:te",
+          "orig_meta:3": 57
+        }
+      },
+      "name:8": "Advanced Miner",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1011,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 57,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "ic2:te",
+            "orig_meta:3": 57
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

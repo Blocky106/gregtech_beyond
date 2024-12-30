@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    252
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "well, it\u0027s EV energy storage but it can be crafted with HV circuits so..... have fun with it",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 32213,
+        "id:8": "gregtech:meta_item_2"
+      },
+      "name:8": "Lapotron Crystal",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 253,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32213,
+          "id:8": "gregtech:meta_item_2"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

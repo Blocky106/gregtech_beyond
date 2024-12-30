@@ -1,0 +1,54 @@
+{
+  "preRequisites:11": [
+    1460
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "betterquesting:placeholder",
+        "tag:10": {
+          "orig_id:8": "modularmachinery:distillation_controller",
+          "orig_meta:3": 0
+        }
+      },
+      "name:8": "Distillation Tank"
+    }
+  },
+  "questID:3": 126,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "modularmachinery:distillation_controller",
+            "orig_meta:3": 0
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "id:8": "gtadditions:ga_metal_casing_1"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:frame_rutheniumtritaniumcarbite"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "ic2:glass",
+            "orig_meta:3": 0
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

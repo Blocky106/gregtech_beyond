@@ -1,0 +1,47 @@
+{
+  "preRequisites:11": [
+    872
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 32241,
+        "id:8": "gtadditions:ga_meta_item"
+      },
+      "name:8": "Refined Smd\u0027s",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 871,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32240,
+          "id:8": "gtadditions:ga_meta_item"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 32241,
+          "id:8": "gtadditions:ga_meta_item"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 32242,
+          "id:8": "gtadditions:ga_meta_item"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 32243,
+          "id:8": "gtadditions:ga_meta_item"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

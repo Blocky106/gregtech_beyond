@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    1177
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "pneumaticcraft:turbine_rotor"
+      },
+      "name:8": "Turbine Rotor",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1207,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "pneumaticcraft:turbine_rotor"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

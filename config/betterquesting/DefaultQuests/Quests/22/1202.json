@@ -1,0 +1,42 @@
+{
+  "preRequisites:11": [
+    449
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "if Bill Gates had one, it would be this",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "pneumaticcraft:minigun",
+        "tag:10": {
+          "activated:1": 0,
+          "soundCounter:3": -1,
+          "speed:6": 0.0,
+          "triggerTimeout:3": 0
+        }
+      },
+      "name:8": "Minigun",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1202,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "pneumaticcraft:minigun",
+          "tag:10": {
+            "activated:1": 0,
+            "soundCounter:3": -1,
+            "speed:6": 0.0,
+            "triggerTimeout:3": 0
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

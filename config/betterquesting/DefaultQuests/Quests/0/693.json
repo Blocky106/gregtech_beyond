@@ -1,0 +1,23 @@
+{
+  "preRequisites:11": [
+    1
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Luv and after i won\u0027t tell you what to do 24/7 because you should have some knowledge of the game and how to continue, there are certain chemical processes wich have 50 steps +, but they are quite easy to follow along, so there is no need on documenting them the entire time and wasting performence",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 506,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "Info"
+    }
+  },
+  "questID:3": 693,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

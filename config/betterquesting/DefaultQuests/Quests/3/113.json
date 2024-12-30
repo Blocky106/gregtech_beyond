@@ -1,0 +1,24 @@
+{
+  "preRequisites:11": [
+    112
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "using PRT you can store and request items digitally, it\u0027s like a even cheaper AE system",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 3,
+        "id:8": "projectred-transportation:pipe"
+      },
+      "name:8": "Logistics: Project Red Transmission",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 113,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

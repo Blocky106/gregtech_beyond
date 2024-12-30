@@ -1,0 +1,61 @@
+{
+  "preRequisites:11": [
+    337
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2548,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "Basic Large Miner",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 399,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2548,
+          "id:8": "gregtech:machine"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 4213,
+          "id:8": "gregtech:machine"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 702,
+          "id:8": "gregtech:machine"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 701,
+          "id:8": "gregtech:machine"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 744,
+          "id:8": "gregtech:machine"
+        },
+        "5:10": {
+          "Count:3": 20,
+          "id:8": "gregtech:frame_black_steel"
+        },
+        "6:10": {
+          "Count:3": 29,
+          "Damage:2": 5,
+          "id:8": "gtadditions:ga_metal_casing_2"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

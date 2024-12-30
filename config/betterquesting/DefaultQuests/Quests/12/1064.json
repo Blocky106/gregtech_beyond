@@ -1,0 +1,46 @@
+{
+  "preRequisites:11": [
+    832,
+    1065
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2551,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "Void Ore Miner",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1064,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2551,
+          "id:8": "gregtech:machine"
+        },
+        "1:10": {
+          "Count:3": 56,
+          "id:8": "gregtech:frame_tungsten_steel"
+        },
+        "2:10": {
+          "Count:3": 119,
+          "Damage:2": 1,
+          "id:8": "gtadditions:ga_metal_casing_1"
+        },
+        "3:10": {
+          "Count:3": 112,
+          "id:8": "gtadditions:ga_metal_casing_2"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

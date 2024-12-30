@@ -1,0 +1,47 @@
+{
+  "preRequisites:11": [
+    17
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Get some Gears, they\u0027ll both be required for future crafts, the stone gear being made cheaper to craft, as soon as you get a hammer.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:woodgear"
+      },
+      "name:8": "Gears",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 4,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "minecraft:log"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 10,
+          "id:8": "enderio:item_material"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:woodgear"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

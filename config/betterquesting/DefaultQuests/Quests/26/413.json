@@ -1,0 +1,37 @@
+{
+  "preRequisites:11": [
+    409
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "For Construction, visit the QMD Github Wiki",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "qmd:linear_accelerator_controller"
+      },
+      "name:8": "Linear Acceleration"
+    }
+  },
+  "questID:3": 413,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "qmd:linear_accelerator_controller"
+        },
+        "1:10": {
+          "Count:3": 6,
+          "id:8": "qmd:accelerator_beam"
+        },
+        "2:10": {
+          "Count:3": 64,
+          "id:8": "qmd:accelerator_casing"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

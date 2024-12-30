@@ -1,0 +1,51 @@
+{
+  "preRequisites:11": [
+    14,
+    11
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "simple",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1343,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "Induction Smelter",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 19,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 20,
+          "id:8": "enderio:item_material"
+        },
+        "1:10": {
+          "Count:3": 12,
+          "Damage:2": 32013,
+          "id:8": "gtadditions:ga_dust"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1343,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

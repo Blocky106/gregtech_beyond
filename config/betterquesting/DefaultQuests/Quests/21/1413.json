@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    1414,
+    1415
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "forestry:crafting_material"
+      },
+      "name:8": "Pulsating Mesh",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1413,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "forestry:crafting_material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

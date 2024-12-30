@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    1401
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Right Click Salis Mundus on a Bookshelf",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:thaumonomicon"
+      },
+      "name:8": "Thaumonomicon"
+    }
+  },
+  "questID:3": 1404,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:thaumonomicon"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Welcome to this pack, this was made by §3Blocky           \n§cSpecial §9Thanks to§a§a§§§r§r       \n\n\n    \n\n§4§cThree§9fold §f                  https://www.youtube.com/@ThreefoldYT   \n\n§aLyeo                          §f§f§f§fhttps://www.youtube.com/channel/UC9AdVn4fp4C0j91po9_mUow §o\n\n§8§8§8§8§8§8§8§8§6§6§6§6DreamMasterXXL           §f§f§f§fhttps://www.youtube.com/channel/UCBqG5rtt4NuDWbXezgn5GmQ\n\n§b§b§b§bBioAstroiner                §r§fhttps://www.youtube.com/@bioast\n\n§9§9§9§9§5§5§5§5Surreal                      §fhttps://github.com/ISurrealI     \n\n§e§6§eDonovan\n\n§a§5§4§4Tazz§f                          https://www.youtube.com/@TheonlyTazz\n\n§d§d§r§dRailGun                       §rRailgun#9680\n\n§d§d§c§k§k§f§f§k§k§k§k§f§d§eT§eJ                            §e§f TJ§f#2935\n\n§aSusy Team §r                  https://discord.gg/a3YD4WDF\n\n§rThese are all amazing people, without them it wouldn\u0027t have been possible to create this modpack, share them some love",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2,
+        "id:8": "minecraft:dye"
+      },
+      "name:8": "Welcome"
+    }
+  },
+  "questID:3": 1,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "theoneprobe:probe_goggles"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

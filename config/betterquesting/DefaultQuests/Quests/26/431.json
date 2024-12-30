@@ -1,0 +1,17 @@
+{
+  "preRequisites:11": [
+    427
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:nether_star"
+      },
+      "name:8": "P-Type Doped Samarium Oxide"
+    }
+  },
+  "questID:3": 431,
+  "tasks:9": {}
+}

@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    0
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "After getting your first iron and first GregTech Tools, you can craft a Crafting Station, it is just like a Vanilla Crafting table, but keeps the ingredients inside while not having the Crafting Station Opened, this is normally added by Tinker\u0027s Construct",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "tconstruct:tooltables"
+      },
+      "name:8": "Crafting Station"
+    }
+  },
+  "questID:3": 1257,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "tconstruct:tooltables"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

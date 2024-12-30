@@ -1,0 +1,39 @@
+{
+  "preRequisites:11": [
+    1
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Vanilla ore generation is overwritten by GregTech, while vanilla has random ore generations, GregTech uses \"Ore Chunks\", each of them including different ores, generating on different planets, being more dense, etc§r ....§6\n§c\n\nWith the Item give§cn by this Quest, you will be able to locate those veins more quickly, once the charge runs out, you can put it into the crafting grid and get a brand new, fully charged one again.\n\n§6When right-clicking it, you will be led to a menu showing you all veins in a 9x9 chunk radius (each chunk being 16x16 Blocks) and the ores containing it and to the right, you will see a list of all ores in the range.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 8,
+        "id:8": "gregtech:poor_ore_oilsands_0"
+      },
+      "name:8": "Where them ores at ?"
+    }
+  },
+  "questID:3": 292,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 103,
+          "id:8": "gtadditions:ga_meta_item2",
+          "tag:10": {
+            "Charge:4": 13107200
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}
