@@ -690,13 +690,6 @@ pyro.recipeBuilder()
     .EUt(800)
     .buildAndRegister();
 
-cracker.recipeBuilder()
-    .fluidInputs(<liquid:hydrogen>*1000,<liquid:ferrocenewaste>*1000)
-    .fluidOutputs(<liquid:cyclopentadiene>*100,<liquid:cyclopentene>*100)
-    .duration(200)
-    .EUt(800)
-    .buildAndRegister();
-
 alloy_smelter.recipeBuilder()
     .inputs(<gregtech:meta_item_1:12632>,<gtadditions:ga_transparent_casing:4>)
     .outputs(<contenttweaker:highresistanceglass>)
@@ -813,3 +806,231 @@ lcr.recipeBuilder()
 
 recipes.remove(<gregtech:machine:4178>);
 recipes.addShaped(<gregtech:machine:4178>, [	[<gregtech:metal_casing:4>, <ore:gearPotin>, <gregtech:metal_casing:4>], 	[<gregtech:metal_casing:4>, <minecraft:diamond_pickaxe>, <gregtech:metal_casing:4>], 	[<gregtech:metal_casing:4>, <ore:gearPotin>, <gregtech:metal_casing:4>]]);
+
+recipes.remove(<gregtech:machine:2538>);
+recipes.addShaped(<gregtech:machine:10116>, [	[<gregtech:wire_coil>, <gregtech:meta_item_1:32612>, <gregtech:wire_coil>], 	[<ore:circuitAdvanced>, <gregtech:machine:503>, <ore:circuitAdvanced>], [<gregtech:wire_coil>, <gregtech:meta_item_1:32612>, <gregtech:wire_coil>]]);
+recipes.addShapeless(<gregtech:machine:10116>,[<gregtech:machine:2538>]);
+
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hydrocracked_ethane>*1000], false);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hydrocracked_ethylene>*1000], false);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hydrocracked_propane>*1000], false);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hydrocracked_propene>*1000], false);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hydrocracked_light_fuel>*1000], false);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hydrocracked_heavy_fuel>*1000], false);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hydrocracked_butadiene>*1000], false);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hydrocracked_butane>*1000], false);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hydrocracked_butene>*1000], false);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hydrocracked_naphtha>*1000], false);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hydrocracked_gas>*1000], false);
+
+
+
+Utils.removeRecipeByOutput(cracker, [], [<liquid:steamcracked_ethane>*1000], false);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:steamcracked_ethylene>*1000], false);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:steamcracked_propane>*1000], false);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:steamcracked_propene>*1000], false);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:cracked_light_fuel>*1000], false);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:cracked_heavy_fuel>*1000], false);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:steamcracked_butadiene>*1000], false);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:steamcracked_butane>*1000], false);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:steamcracked_butene>*1000], false);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:steamcracked_naphtha>*1000], false);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:steamcracked_gas>*1000], false);
+
+Utils.removeRecipeByOutput(cracker, [], [<liquid:rn_cracked_heavy_e_naquadah>*1600], false);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:rn_cracked_light_e_naquadah>*1200], false);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:rn_cracked_medium_e_naquadah>*1400], false);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:fl_cracked_heavy_naquadah>*1600], false);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:fl_cracked_light_naquadah>*1200], false);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:fl_cracked_medium_naquadah>*1400], false);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.californium253>*1000], false);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.californium252>*1000], false);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.californium256>*1000], false);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.americium245>*1000], false);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.americium241>*1000], false);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.americium243>*1000], false);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.berkelium249>*1000], false);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.berkelium247>*1000], false);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.berkelium251>*1000], false);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.einsteinium257>*1000], false);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.einsteinium255>*1000], false);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.einsteinium253>*1000], false);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.fermium258>*1000], false);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.fermium259>*1000], false);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.fermium262>*1000], false);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.plutonium241>*1000], false);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.plutonium>*1000], false);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.plutonium_radioactive240>*1000], false);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.neptunium235>*1000], false);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.neptunium237>*1000], false);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.neptunium239>*1000], false);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.curium246>*1000], false);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.curium250>*1000], false);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.curium247>*1000], false);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.mendelevium261>*1000], false);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.mendelevium259>*1000], false);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.mendelevium263>*1000], false);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.uranium_radioactive234>*1000], false);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.uranium235>*1000], false);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.uranium>*1000], false);
+
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hot_ruthenium_tetroxide_solution>*2000], false);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:formaldehyde>*120,<liquid:dimethylamine>*160], false);
+
+vacfreezer.recipeBuilder()
+    .fluidInputs(<liquid:fuming_hydrogen>*1000)
+    .fluidOutputs(<liquid:hydrogen>*1000)
+    .duration(200)
+    .EUt(80)
+    .buildAndRegister();
+
+steam_foundry.recipeBuilder()
+    .inputs(<minecraft:iron_ingot>)
+    .fluidInputs(<liquid:gold>*288)
+    .outputs(<tconstruct:cast_custom>)
+    .duration(200)
+    .EUt(1)
+    .buildAndRegister();
+
+steam_foundry.recipeBuilder()
+    .inputs(<minecraft:emerald>)
+    .fluidInputs(<liquid:gold>*288)
+    .outputs(<tconstruct:cast_custom:2>)
+    .duration(200)
+    .EUt(1)
+    .buildAndRegister();
+
+steam_foundry.recipeBuilder()
+    .inputs(<minecraft:iron_nugget>)
+    .fluidInputs(<liquid:gold>*288)
+    .outputs(<tconstruct:cast_custom:1>)
+    .duration(200)
+    .EUt(1)
+    .buildAndRegister();
+
+steam_foundry.recipeBuilder()
+    .inputs(<tconstruct:sword_blade>.withTag({Material: "wood"}))
+    .fluidInputs(<liquid:gold>*288)
+    .outputs(<tconstruct:cast>.withTag({PartType: "tconstruct:sword_blade"}))
+    .duration(200)
+    .EUt(1)
+    .buildAndRegister();
+
+steam_foundry.recipeBuilder()
+    .inputs(<tconstruct:large_sword_blade>.withTag({Material: "wood"}))
+    .fluidInputs(<liquid:gold>*288)
+    .outputs(<tconstruct:cast>.withTag({PartType: "tconstruct:large_sword_blade"}))
+    .duration(200)
+    .EUt(1)
+    .buildAndRegister();
+
+steam_foundry.recipeBuilder()
+    .inputs(<tconstruct:large_plate>.withTag({Material: "wood"}))
+    .fluidInputs(<liquid:gold>*288)
+    .outputs(<tconstruct:cast>.withTag({PartType: "tconstruct:large_plate"}))
+    .duration(200)
+    .EUt(1)
+    .buildAndRegister();
+
+steam_foundry.recipeBuilder()
+    .inputs(<tconstruct:knife_blade>.withTag({Material: "wood"}))
+    .fluidInputs(<liquid:gold>*288)
+    .outputs(<tconstruct:cast>.withTag({PartType: "tconstruct:knife_blade"}))
+    .duration(200)
+    .EUt(1)
+    .buildAndRegister();
+
+steam_foundry.recipeBuilder()
+    .inputs(<tconstruct:hand_guard>.withTag({Material: "wood"}))
+    .fluidInputs(<liquid:gold>*288)
+    .outputs(<tconstruct:cast>.withTag({PartType: "tconstruct:hand_guard"}))
+    .duration(200)
+    .EUt(1)
+    .buildAndRegister();
+
+steam_foundry.recipeBuilder()
+    .inputs(<tconstruct:pick_head>.withTag({Material: "wood"}))
+    .fluidInputs(<liquid:gold>*288)
+    .outputs(<tconstruct:cast>.withTag({PartType: "tconstruct:pick_head"}))
+    .duration(200)
+    .EUt(1)
+    .buildAndRegister();
+
+steam_foundry.recipeBuilder()
+    .inputs(<tconstruct:tough_tool_rod>.withTag({Material: "wood"}))
+    .fluidInputs(<liquid:gold>*288)
+    .outputs(<tconstruct:cast>.withTag({PartType: "tconstruct:tough_tool_rod"}))
+    .duration(200)
+    .EUt(1)
+    .buildAndRegister();
+
+steam_foundry.recipeBuilder()
+    .inputs(<tconstruct:hammer_head>.withTag({Material: "wood"}))
+    .fluidInputs(<liquid:gold>*288)
+    .outputs(<tconstruct:cast>.withTag({PartType: "tconstruct:hammer_head"}))
+    .duration(200)
+    .EUt(1)
+    .buildAndRegister();
+
+steam_foundry.recipeBuilder()
+    .inputs(<tconstruct:sharpening_kit>.withTag({Material: "wood"}))
+    .fluidInputs(<liquid:gold>*288)
+    .outputs(<tconstruct:cast>.withTag({PartType: "tconstruct:sharpening_kit"}))
+    .duration(200)
+    .EUt(1)
+    .buildAndRegister();
+
+steam_foundry.recipeBuilder()
+    .inputs(<tconstruct:tool_rod>.withTag({Material: "wood"}))
+    .fluidInputs(<liquid:gold>*288)
+    .outputs(<tconstruct:cast>.withTag({PartType: "tconstruct:tool_rod"}))
+    .duration(200)
+    .EUt(1)
+    .buildAndRegister();
+
+steam_foundry.recipeBuilder()
+    .inputs(<tconstruct:binding>.withTag({Material: "wood"}))
+    .fluidInputs(<liquid:gold>*288)
+    .outputs(<tconstruct:cast>.withTag({PartType: "tconstruct:binding"}))
+    .duration(200)
+    .EUt(1)
+    .buildAndRegister();
+
+steam_foundry.recipeBuilder()
+    .inputs(<tconstruct:excavator_head>.withTag({Material: "wood"}))
+    .fluidInputs(<liquid:gold>*288)
+    .outputs(<tconstruct:cast>.withTag({PartType: "tconstruct:excavator_head"}))
+    .duration(200)
+    .EUt(1)
+    .buildAndRegister();
+
+steam_foundry.recipeBuilder()
+    .inputs(<tconstruct:axe_head>.withTag({Material: "wood"}))
+    .fluidInputs(<liquid:gold>*288)
+    .outputs(<tconstruct:cast>.withTag({PartType: "tconstruct:axe_head"}))
+    .duration(200)
+    .EUt(1)
+    .buildAndRegister();
+
+steam_foundry.recipeBuilder()
+    .inputs(<tconstruct:broad_axe_head>.withTag({Material: "wood"}))
+    .fluidInputs(<liquid:gold>*288)
+    .outputs(<tconstruct:cast>.withTag({PartType: "tconstruct:broad_axe_head"}))
+    .duration(200)
+    .EUt(1)
+    .buildAndRegister();
+
+steam_foundry.recipeBuilder()
+    .inputs(<tconstruct:cross_guard>.withTag({Material: "wood"}))
+    .fluidInputs(<liquid:gold>*288)
+    .outputs(<tconstruct:cast>.withTag({PartType: "tconstruct:cross_guard"}))
+    .duration(200)
+    .EUt(1)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs(<contenttweaker:microheater>*2,<gregtech:meta_item_1:12184>*4,<minecraft:iron_bars>*2)
+    .outputs(<contenttweaker:heat_vent>)
+    .duration(400)
+    .EUt(7000)
+    .buildAndRegister();
