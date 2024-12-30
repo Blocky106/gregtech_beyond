@@ -33,4 +33,4 @@ furnace.remove(<thaumcraft:nugget>);
 
 mods.thaumcraft.SalisMundus.removeSingleConversion(<thaumcraft:arcane_workbench>);
 mods.thaumcraft.SalisMundus.addSingleConversion(<contenttweaker:steel_plated_workbench>, <thaumcraft:arcane_workbench>);
-mods.thaumcraft.SalisMundus.addSingleConversion(<minecraft:cauldron>, <thaumcraft:crucible>);
+mods.thaumcraft.SalisMundus.addSingleConversion(<minecraft:bookshelf>, <thaumcraft:thaumonomicon>);
