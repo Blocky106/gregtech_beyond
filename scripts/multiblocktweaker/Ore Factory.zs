@@ -1629,3 +1629,11 @@ ore_factory.recipeMap.recipeBuilder()
     .duration(8000)
     .EUt(1200)
     .buildAndRegister();
+
+ore_factory.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:water>*32000)
+    .inputs(<gregtech:ore_tourmaline_0>*10)
+    .outputs(<gregtech:meta_item_1:2612>*64)
+    .duration(8000)
+    .EUt(1200)
+    .buildAndRegister();
