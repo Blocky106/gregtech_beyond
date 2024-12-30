@@ -545,12 +545,13 @@ util.registerDust("dense_matter", 32235, 0xD9B4E0, "SHINY");
 util.registerDust("pure_dense_matter", 32236, 0x9DC8E9, "SHINY");
 util.registerDust("dense_carbon_oxygen_matter", 32237, 0x559ED8, "SHINY");
 util.registerDust("dense_exotic_matter", 32238, 0x66BB6A, "SHINY");
+util.registerDust("lafeaso1_catalyst_preparation", 32239, 0x987064, "SHINY");
 
 
 
 
 
-
+util.registerFluid("lafeaso1_mixture", 0x987064);
 util.registerFluid("neodymium_solution", 0x454545);
 util.registerFluid("cyclopentene", 0x38777D);
 util.registerFluid("pmda_solution", 0x637867);
