@@ -1931,3 +1931,15 @@ metaitem.dense_carbon_oxygen_matter.name=Dense Carbon Oxygen Matter
 recipemap.stella_anvil_module.name=Stellar Anvil Module
 fluid.superfluid_carbon_oxygen_mixture_plasma=Superfluid Carbon Oxygen Mixture Plasma
 item.contenttweaker.uev_superconductor_assembly.name=UEV Superconductor Assembly
+item.contenttweaker.lafeaso1_catalyst.name=LaFeAsO1 Catalyst
+item.contenttweaker.used_lafeaso1_catalyst.name=Used LaFeAsO1 Catalyst
+item.contenttweaker.lafeaso1_pellets.name=LaFeAsO1 Pellets
+fluid.lafeaso1_mixture=LaFeAsO1 Mixture
+multiblocktweaker.machine.catalytic_cracking_unit.name=Catalytic Cracking Unit
+recipemap.catalytic_cracking_unit=Catalytic Cracking
+multiblocktweaker.machine.tube_furnace.name=Tube Furnace
+recipemap.tube_furnace.name=Tube Furnace
+metaitem.lafeaso1_catalyst_preparation.name=LaFeAsO1 Catalyst Preparation
+
+
+
