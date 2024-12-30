@@ -761,3 +761,55 @@ assembler.recipeBuilder()
     .EUt(80000)
     .buildAndRegister();
 
+electromagnetic_separator.recipeBuilder()
+    .inputs(<gtadditions:ga_meta_item:32540>)
+    .outputs(<gtadditions:ga_dust:357>*3, <gregtech:meta_item_1:2033>)
+    .duration(500)
+    .EUt(80000)
+    .buildAndRegister();
+
+Utils.removeRecipeByOutput(electromagnetic_separator, [<gtadditions:ga_dust:357>*3, <gregtech:meta_item_1:2033>], [], false);
+
+ebf.recipeBuilder()
+    .inputs(<contenttweaker:usedcrackingcatalyst>)
+    .outputs(<contenttweaker:crackingcatalyst>)
+    .fluidInputs(<liquid:oxygen>*1000)
+    .duration(400)
+    .EUt(1200)
+    .property("temperature", 400)
+    .buildAndRegister();
+
+mixer.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2034>,<gregtech:meta_item_1:2033>,<gregtech:meta_item_1:2005>)
+    .fluidInputs(<liquid:oxygen>*1000)
+    .fluidOutputs(<liquid:lafeaso1_mixture>*1000)
+    .duration(2000)
+    .EUt(400)
+    .buildAndRegister();
+
+fluid_solidifier.recipeBuilder()
+    .fluidInputs(<liquid:lafeaso1_mixture>*1000)
+    .notConsumable(<gregtech:meta_item_1:32307>)
+    .outputs(<contenttweaker:lafeaso1_pellets>)
+    .duration(400)
+    .EUt(800)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .outputs(<contenttweaker:lafeaso1_catalyst>)
+    .fluidInputs(<liquid:fluorine>*1000)
+    .inputs(<gtadditions:ga_dust:32239>,<contenttweaker:seperationfilter>)
+    .duration(400)
+    .EUt(700)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .outputs(<contenttweaker:lafeaso1_catalyst>)
+    .fluidInputs(<liquid:fluorine>*1000)
+    .inputs(<gtadditions:ga_dust:32239>,<contenttweaker:seperationfilter>)
+    .duration(400)
+    .EUt(700)
+    .buildAndRegister();
+
+recipes.remove(<gregtech:machine:4178>);
+recipes.addShaped(<gregtech:machine:4178>, [	[<gregtech:metal_casing:4>, <ore:gearPotin>, <gregtech:metal_casing:4>], 	[<gregtech:metal_casing:4>, <minecraft:diamond_pickaxe>, <gregtech:metal_casing:4>], 	[<gregtech:metal_casing:4>, <ore:gearPotin>, <gregtech:metal_casing:4>]]);
