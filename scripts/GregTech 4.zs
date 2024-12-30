@@ -3009,9 +3009,9 @@ centrifuge.recipeBuilder()
 
 recipes.addShaped(<gregtech:machine:1435>, [	[<gregtech:meta_item_1:32603>, <ore:circuitExtreme>, <gregtech:meta_item_1:32603>], [<ore:cableGtSingleTin>, <gregtech:machine:504>, <ore:cableGtSingleTin>], 	[<gregtech:meta_item_1:32643>, <ore:circuitExtreme>, <gregtech:meta_item_1:32643>]]);
 recipes.addShaped(<gregtech:machine:1436>, [	[<gregtech:meta_item_1:32604>, <ore:circuitElite>, <gregtech:meta_item_1:32604>], [<ore:cableGtSingleTin>, <gregtech:machine:505>, <ore:cableGtSingleTin>], 	[<gregtech:meta_item_1:32644>, <ore:circuitElite>, <gregtech:meta_item_1:32644>]]);
-recipes.addShaped(<gregtech:machine:1437>, [	[<gregtech:meta_item_1:32605>, <ore:circuitMaster>, <gregtech:meta_item_1:32605>], [<ore:cableGtSingleTin>, <gregtech:machine:506>, <ore:cableGtSingleTin>], 	[<gregtech:meta_item_1:32646>, <ore:circuitMaster>, <gregtech:meta_item_1:32646>]]);
-recipes.addShaped(<gregtech:machine:1438>, [	[<gregtech:meta_item_1:32606>, <ore:circuitUltimate>, <gregtech:meta_item_1:32606>], [<ore:cableGtSingleTin>, <gregtech:machine:507>, <ore:cableGtSingleTin>], 	[<gregtech:meta_item_1:32647>, <ore:circuitUltimate>, <gregtech:meta_item_1:32647>]]);
-recipes.addShaped(<gregtech:machine:1439>, [	[<gregtech:meta_item_1:32607>, <ore:circuitSuperconductor>, <gregtech:meta_item_1:32607>], [<ore:cableGtSingleTin>, <gregtech:machine:508>, <ore:cableGtSingleTin>], 	[<gregtech:meta_item_1:32648>, <ore:circuitSuperconductor>, <gregtech:meta_item_1:32648>]]);
+recipes.addShaped(<gregtech:machine:1437>, [	[<gregtech:meta_item_1:32606>, <ore:circuitMaster>, <gregtech:meta_item_1:32606>], [<ore:cableGtSingleTin>, <gregtech:machine:506>, <ore:cableGtSingleTin>], 	[<gregtech:meta_item_1:32645>, <ore:circuitMaster>, <gregtech:meta_item_1:32645>]]);
+recipes.addShaped(<gregtech:machine:1438>, [	[<gregtech:meta_item_1:32607>, <ore:circuitUltimate>, <gregtech:meta_item_1:32607>], [<ore:cableGtSingleTin>, <gregtech:machine:507>, <ore:cableGtSingleTin>], 	[<gregtech:meta_item_1:32646>, <ore:circuitUltimate>, <gregtech:meta_item_1:32646>]]);
+recipes.addShaped(<gregtech:machine:1439>, [	[<gregtech:meta_item_1:32608>, <ore:circuitSuperconductor>, <gregtech:meta_item_1:32608>], [<ore:cableGtSingleTin>, <gregtech:machine:508>, <ore:cableGtSingleTin>], 	[<gregtech:meta_item_1:32647>, <ore:circuitSuperconductor>, <gregtech:meta_item_1:32647>]]);
 
 
 distillation_tower.findRecipe(500000, null, [<liquid:benzenediazonium_tetrafluoroborate>*1000]).remove();
