@@ -41,20 +41,6 @@ distillation_tower.recipeBuilder()
     .EUt(52000)
     .buildAndRegister();
 
-cracker.recipeBuilder()
-    .fluidInputs(<liquid:plasma.iron>*25,<liquid:lightradox>*100)
-    .fluidOutputs(<liquid:crackedlightradox>*100)
-    .duration(800)
-    .EUt(524000)
-    .buildAndRegister();
-
-cracker.recipeBuilder()
-    .fluidInputs(<liquid:plasma.nickel>*25,<liquid:heavyradox>*100)
-    .fluidOutputs(<liquid:crackedheavyradox>*100)
-    .duration(800)
-    .EUt(524000)
-    .buildAndRegister();
-
 distillation_tower.recipeBuilder()
     .fluidInputs(<liquid:crackedheavyradox>*1000)
     .outputs(<gregtech:meta_item_1:2109>)

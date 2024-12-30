@@ -133,7 +133,7 @@ val catalytic_cracking_unit = Builder.start(loc, meta)
                 .build())
 .withRecipeMap(
         FactoryRecipeMap.start(loc)
-                        .maxInputs(1)
+                        .maxInputs(2)
                         .maxFluidInputs(2)
                         .maxFluidOutputs(2)
                         .maxOutputs(1)
@@ -143,6 +143,24 @@ val catalytic_cracking_unit = Builder.start(loc, meta)
 
 
 #Oil Processing Hydro and Steam treating
+
+catalytic_cracking_unit.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:hydrogen>*2000,<liquid:kerosene>*1000)
+    .inputs(<contenttweaker:crackingcatalyst>)
+    .fluidOutputs(<liquid:hydro_cracked_kerosene>*1000)
+    .outputs(<contenttweaker:usedcrackingcatalyst>)
+    .duration(200)
+    .EUt(100)
+    .buildAndRegister();
+
+catalytic_cracking_unit.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:steam>*2000,<liquid:kerosene>*1000)
+    .inputs(<contenttweaker:crackingcatalyst>)
+    .fluidOutputs(<liquid:steam_cracked_kerosene>*1000)
+    .outputs(<contenttweaker:usedcrackingcatalyst>)
+    .duration(200)
+    .EUt(100)
+    .buildAndRegister();
 
 catalytic_cracking_unit.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:hydrogen>*2000,<liquid:ethane>*1000)
@@ -631,3 +649,114 @@ catalytic_cracking_unit.recipeMap.recipeBuilder()
     .EUt(100)
     .buildAndRegister();
 
+#Naquadah (Fluorine)
+
+catalytic_cracking_unit.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:fluorine>*400,<liquid:medium_naquadah>*1000)
+    .notConsumable(<gtadditions:ga_dust:32142>)
+    .fluidOutputs(<liquid:fl_cracked_medium_naquadah>*1400)
+    .duration(200)
+    .EUt(100)
+    .buildAndRegister();
+
+catalytic_cracking_unit.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:fluorine>*200,<liquid:light_naquadah>*1000)
+    .notConsumable(<gtadditions:ga_dust:32142>)
+    .fluidOutputs(<liquid:fl_cracked_light_naquadah>*1200)
+    .duration(200)
+    .EUt(100)
+    .buildAndRegister();
+
+catalytic_cracking_unit.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:fluorine>*600,<liquid:heavy_naquadah>*1000)
+    .notConsumable(<gtadditions:ga_dust:32142>)
+    .fluidOutputs(<liquid:fl_cracked_heavy_naquadah>*1600)
+    .duration(200)
+    .EUt(100)
+    .buildAndRegister();
+
+#Naquadah (Radon)
+
+catalytic_cracking_unit.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:radon>*400,<liquid:medium_e_naquadah>*1000)
+    .notConsumable(<gtadditions:ga_dust:32142>)
+    .fluidOutputs(<liquid:rn_cracked_medium_e_naquadah>*1400)
+    .duration(200)
+    .EUt(100)
+    .buildAndRegister();
+
+catalytic_cracking_unit.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:radon>*200,<liquid:light_e_naquadah>*1000)
+    .notConsumable(<gtadditions:ga_dust:32142>)
+    .fluidOutputs(<liquid:rn_cracked_light_e_naquadah>*1200)
+    .duration(200)
+    .EUt(100)
+    .buildAndRegister();
+
+catalytic_cracking_unit.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:radon>*600,<liquid:heavy_e_naquadah>*1000)
+    .notConsumable(<gtadditions:ga_dust:32142>)
+    .fluidOutputs(<liquid:rn_cracked_heavy_e_naquadah>*1600)
+    .duration(200)
+    .EUt(100)
+    .buildAndRegister();
+
+#Thorium 
+
+catalytic_cracking_unit.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:sulfuricthoriumsolution>*1000,<liquid:hydrogen>*1000)
+    .notConsumable(<gregtech:meta_item_1:2291>)
+    .fluidOutputs(<liquid:hydrocrackedthoriumsolution>*1000)
+    .duration(777)
+    .EUt(7707)
+    .buildAndRegister();
+
+#Osmium
+
+catalytic_cracking_unit.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:ruthenium_tetroxide_solution>*1000,<liquid:steam>*1000)
+    .notConsumable(<gtadditions:ga_dust:205>)
+    .fluidOutputs(<liquid:hot_ruthenium_tetroxide_solution>*2000)
+    .duration(777)
+    .EUt(7707)
+    .buildAndRegister();
+
+#Formaldehyde 
+
+catalytic_cracking_unit.recipeMap.recipeBuilder()
+    .fluidOutputs(<liquid:formaldehyde>*120,<liquid:dimethylamine>*160)
+    .notConsumable(<gregtech:meta_item_1:2062>)
+    .fluidInputs(<liquid:hydrogen>*250,<liquid:dimethylformamide>*750)
+    .duration(777)
+    .EUt(7707)
+    .buildAndRegister();
+
+#Cyclopentene 
+
+catalytic_cracking_unit.recipeMap.recipeBuilder()
+    .fluidOutputs(<liquid:cyclopentadiene>*100,<liquid:cyclopentene>*100)
+    .notConsumable(<gtadditions:ga_dust:32240>)
+    .fluidInputs(<liquid:hydrogen>*1000,<liquid:ferrocenewaste>*1000)
+    .duration(777)
+    .EUt(7707)
+    .buildAndRegister();
+
+#Radox 
+
+catalytic_cracking_unit.recipeMap.recipeBuilder()
+    .notConsumable(<gtadditions:ga_dust:72>)
+    .notConsumable(<gtadditions:ga_dust:328>)
+    .fluidInputs(<liquid:plasma.iron>*25,<liquid:lightradox>*100)
+    .fluidOutputs(<liquid:crackedlightradox>*100)
+    .duration(800)
+    .EUt(524000)
+    .buildAndRegister();
+
+catalytic_cracking_unit.recipeMap.recipeBuilder()
+    .notConsumable(<gtadditions:ga_dust:72>)
+    .notConsumable(<gtadditions:ga_dust:328>)
+    .fluidInputs(<liquid:plasma.nickel>*25,<liquid:heavyradox>*100)
+    .fluidOutputs(<liquid:crackedheavyradox>*100)
+    .duration(800)
+    .EUt(524000)
+    .buildAndRegister();

@@ -362,20 +362,6 @@ distillation_tower.recipeBuilder()
     .EUt(480)
     .buildAndRegister();
 
-cracker.recipeBuilder()
-    .fluidInputs(<liquid:steam>*1000,<liquid:kerosene>*1000)
-    .fluidOutputs(<liquid:steam_cracked_kerosene>*1000)
-    .duration(200)
-    .EUt(12)
-    .buildAndRegister();
-
-cracker.recipeBuilder()
-    .fluidInputs(<liquid:hydrogen>*1000,<liquid:kerosene>*1000)
-    .fluidOutputs(<liquid:hydro_cracked_kerosene>*1000)
-    .duration(200)
-    .EUt(12)
-    .buildAndRegister();
-
 distillation_tower.recipeBuilder()
     .fluidInputs(<liquid:hydro_cracked_kerosene>*1000)
     .fluidOutputs(<liquid:propane>*100,<liquid:ethane>*75,<liquid:methane>*75,<liquid:raw_gasoline>*600,<liquid:naphtha>*100,<liquid:butane>*100)

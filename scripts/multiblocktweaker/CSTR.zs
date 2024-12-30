@@ -175,3 +175,12 @@ cstr.recipeMap.recipeBuilder()
     .duration(200)
     .EUt(80)
     .buildAndRegister();
+
+cstr.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:sodium_hydroxide_solution>*1000)
+    .inputs(<gtadditions:ga_dust:164>*2)
+    .outputs(<gtadditions:ga_dust:32240>)
+    .fluidOutputs(<liquid:fuming_hydrogen>*1000)
+    .duration(200)
+    .EUt(800)
+    .buildAndRegister();
