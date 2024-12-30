@@ -2608,14 +2608,6 @@ vacfreezer.recipeBuilder()
     .EUt(2200)
     .buildAndRegister();
 
-ebf.recipeBuilder()
-    .inputs(<gregtech:meta_item_1:2548>)
-    .outputs(<gregtech:meta_item_1:10548>)
-    .property("temperature", 6000)
-    .EUt(1200)
-    .duration(1200)
-    .buildAndRegister();
-
 Utils.removeRecipeByOutput(assembly_line, [<gregtech:machine:4215>], [], false);
 
 assembly_line.recipeBuilder()
