@@ -449,6 +449,7 @@ val stellar_pressure_generator = Builder.start(loc, meta)
 					"~~~~~~~~~~~~~~~~~~~~~~~~~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 370)
                 .whereOr("C", 
                 <blockstate:contenttweaker:mervin_tara_carbonoxygen_casing>,
                     IBlockMatcher.abilityPartPredicate(
@@ -458,7 +459,6 @@ val stellar_pressure_generator = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
-                .setAmountAtLeast('C', 370)
                 .where("H", <blockstate:contenttweaker:heat_vent>)
                 .where("F", <metastate:gregtech:frame_metallic_hydrogen>)
                 .where("T", <metastate:gtadditions:ga_heating_coil:1>)

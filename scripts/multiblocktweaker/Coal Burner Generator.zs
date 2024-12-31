@@ -42,6 +42,7 @@ val coal_burner_generator = Builder.start(loc, meta)
                     "~~~~~CCC")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 48)
                 .whereOr("C", 
                 <blockstate:contenttweaker:lq_steel_casing>,
                     IBlockMatcher.abilityPartPredicate(
@@ -51,7 +52,6 @@ val coal_burner_generator = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
-                .setAmountAtLeast('C', 48)
                 .where("G", <metastate:minecraft:glass>)
                 .build())
         .addDesign(

@@ -66,6 +66,7 @@ val cstr = Builder.start(loc, meta)
                     "~~~~~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 40)
                 .whereOr("C", 
                 <metastate:gregtech:metal_casing:5>,
                     IBlockMatcher.abilityPartPredicate(
@@ -75,7 +76,6 @@ val cstr = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
-                .setAmountAtLeast('C', 40)
                 .where("P", <metastate:gregtech:boiler_casing:1>)
                 .build())
         .addDesign(

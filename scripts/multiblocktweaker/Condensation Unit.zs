@@ -33,6 +33,7 @@ val condensation_unit = Builder.start(loc, meta)
                 .aisle("CCCCC","CGGGC","CGGGC","CGGGC","CCCCC")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 50)
                 .whereOr("C", 
                 <metastate:gregtech:metal_casing:3>,
                     IBlockMatcher.abilityPartPredicate(
@@ -42,7 +43,6 @@ val condensation_unit = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
-                .setAmountAtLeast('C', 40)
                 .where("P", <metastate:gregtech:boiler_casing:1>)
                 .where("G", <metastate:gtadditions:ga_transparent_casing>)
                 .build())

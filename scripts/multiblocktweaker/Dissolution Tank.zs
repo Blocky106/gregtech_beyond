@@ -39,6 +39,7 @@ val dissolution_tank = Builder.start(loc, meta)
                 .aisle("~CCC~","CCCCC","CCCCC","CCCCC","~CCC~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 66)
                 .whereOr("C", 
                 <metastate:gregtech:metal_casing:5>,
                     IBlockMatcher.abilityPartPredicate(
@@ -48,7 +49,6 @@ val dissolution_tank = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
-                .setAmountAtLeast('C', 66)
                 .where("F", <metastate:gregtech:frame_steel>)
                 .where("G", <metastate:gtadditions:ga_transparent_casing:4>)
                 .build())

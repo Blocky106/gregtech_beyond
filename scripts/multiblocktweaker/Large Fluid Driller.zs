@@ -110,6 +110,7 @@ val large_fluid_driller = Builder.start(loc, meta)
                     "~~~~~~~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 80)
                 .whereOr("C", 
                 <metastate:gregtech:metal_casing:4>,
                     IBlockMatcher.abilityPartPredicate(
@@ -119,7 +120,6 @@ val large_fluid_driller = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
-                .setAmountAtLeast('C', 80)
                 .where("P", <metastate:gregtech:boiler_casing:1>)
                 .where("F", <metastate:gregtech:frame_steel>)
                 .build())

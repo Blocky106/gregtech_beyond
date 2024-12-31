@@ -72,6 +72,7 @@ val transcendant_plasma_mixer = Builder.start(loc, meta)
                     "~CCC~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 50)
                 .whereOr("C", 
                 <metastate:contenttweaker:dimensionalcasing>,
                     IBlockMatcher.abilityPartPredicate(
@@ -81,7 +82,6 @@ val transcendant_plasma_mixer = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
-                .setAmountAtLeast('C', 50)
                 .where("M", <metastate:contenttweaker:quantumcasing>)
                 .where("O", <metastate:contenttweaker:coil>)
                 .where("H", <metastate:contenttweaker:highpowercasing>)

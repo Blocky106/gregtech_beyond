@@ -77,6 +77,7 @@ val primitive_blast_furnace = Builder.start(loc, meta)
                     "     ")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 60)
                 .whereOr("C", 
                 <metastate:gregtech:metal_casing:1>,
                 IBlockMatcher.abilityPartPredicate(
@@ -84,7 +85,6 @@ val primitive_blast_furnace = Builder.start(loc, meta)
                     MultiblockAbility.IMPORT_ITEMS,
                     MultiblockAbility.EXPORT_ITEMS
                 ))
-                .setAmountAtLeast('C', 60)
                 .build())
         .addDesign(
                 FactoryMultiblockShapeInfo.start()

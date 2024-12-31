@@ -42,6 +42,7 @@ val pvd_unit = Builder.start(loc, meta)
                     "~~~~~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 10)
                 .whereOr("C", 
                 <metastate:gtadditions:ga_metal_casing_2:8>,
                     IBlockMatcher.abilityPartPredicate(
@@ -51,7 +52,6 @@ val pvd_unit = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
-                .setAmountAtLeast('C', 10)
                 .where("G", <metastate:gtadditions:ga_transparent_casing>)
                 .where("P", <metastate:gregtech:boiler_casing:1>)
                 .build())

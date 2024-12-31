@@ -60,6 +60,7 @@ val textile_factory = Builder.start(loc, meta)
                     "~C~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 19)
                 .whereOr("C", 
                 <metastate:gtadditions:ga_metal_casing_1:3>,
                     IBlockMatcher.abilityPartPredicate(
@@ -69,7 +70,6 @@ val textile_factory = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
-                .setAmountAtLeast('C', 19)
                 .where("M", <metastate:gregtech:turbine_casing:2>)
                 .where("G", <metastate:gtadditions:ga_transparent_casing>)
                                 .build())

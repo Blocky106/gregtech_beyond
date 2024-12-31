@@ -35,6 +35,7 @@ val black_hole_compressor = Builder.start(loc, meta)
                 .aisle("~DFD~","DCCCD","FCCCF","DCCCD","~DFD~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 10)
                 .whereOr("C", 
                 <metastate:contenttweaker:quantumcasing>,
                     IBlockMatcher.abilityPartPredicate(
@@ -44,7 +45,6 @@ val black_hole_compressor = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
-                .setAmountAtLeast('C', 10)
                 .where("F", <metastate:contenttweaker:fieldgeneratorcasing>)
                 .where("D", <metastate:contenttweaker:dimensionalcasing>)
                 .where("O", <metastate:contenttweaker:coil>)

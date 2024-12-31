@@ -180,6 +180,7 @@ val mega_alloy_blast_smelter = Builder.start(loc, meta)
                     "~~~~~~~~~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 230)
                 .whereOr("C", 
                 <metastate:gtadditions:ga_metal_casing_1:14>,
                     IBlockMatcher.abilityPartPredicate(
@@ -189,7 +190,6 @@ val mega_alloy_blast_smelter = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
-                .setAmountAtLeast('C', 230)
                 .where("V", <metastate:gtadditions:ga_metal_casing_2>)
                 .where("R", <metastate:gregtech:wire_coil>)
                 .where("G", <metastate:gtadditions:ga_transparent_casing:4>)

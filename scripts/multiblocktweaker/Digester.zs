@@ -35,6 +35,7 @@ val digester = Builder.start(loc, meta)
                 .aisle("~~~~~~~","~~~~~~~","~~HHH~~","~~HHH~~","~~HHH~~","~~~~~~~","~~~~~~~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 28)
                 .whereOr("C", 
                 <metastate:gregtech:metal_casing:7>,
                     IBlockMatcher.abilityPartPredicate(
@@ -44,7 +45,6 @@ val digester = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
-                .setAmountAtLeast('C', 28)
                 .where("T", <metastate:gregtech:wire_coil:3>)
                 .where("H", <metastate:gregtech:metal_casing:2>)
                 .where("G", <metastate:gtadditions:ga_transparent_casing:4>)

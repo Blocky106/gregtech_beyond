@@ -36,6 +36,7 @@ val neutron_accelerator = Builder.start(loc, meta)
 
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 40)
                 .whereOr("C", 
                 <metastate:gregtech:metal_casing:5>,
                     IBlockMatcher.abilityPartPredicate(
@@ -45,7 +46,6 @@ val neutron_accelerator = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
-                .setAmountAtLeast('C', 40)
                 .where("N", <metastate:contenttweaker:neutronaccelerator>)
                 .where("M", <metastate:contenttweaker:neutronsensor>)
                 .where("G", <metastate:contenttweaker:highresistanceglass>)

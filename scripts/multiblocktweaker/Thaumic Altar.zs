@@ -54,6 +54,7 @@ val altar = Builder.start(loc, meta)
                     "~G~G~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 12)
                 .whereOr("C", 
                 <metastate:contenttweaker:thaumic_casing>,
                     IBlockMatcher.abilityPartPredicate(
@@ -63,7 +64,6 @@ val altar = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
-                .setAmountAtLeast('C', 12)
                 .where("G", <metastate:thaumcraft:metal_alchemical_advanced>)
                 .where("H", <metastate:thaumcraft:metal_thaumium>)
                 .build())

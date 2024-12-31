@@ -562,6 +562,7 @@ val miracle_top = Builder.start(loc, meta)
                     "~~~~~~~~~~~~~~~~~~~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 540)
                 .whereOr("C", 
                 <metastate:contenttweaker:quantumcasing>,
                     IBlockMatcher.abilityPartPredicate(
@@ -571,7 +572,6 @@ val miracle_top = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
-                .setAmountAtLeast('C', 540)
                 .where("Q", <metastate:contenttweaker:coil>)
                 .where("G", <metastate:contenttweaker:quantumglass>)
                 .where("T", <metastate:contenttweaker:quantumcomputercasing>)

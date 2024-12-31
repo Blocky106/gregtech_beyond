@@ -65,6 +65,7 @@ val tube_furnace = Builder.start(loc, meta)
                 .aisle("~H~","~H~","~H~","CCC","CCC","CCC","CCC","~H~","~H~","~H~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 36)
                 .whereOr("C", 
                 <metastate:gregtech:metal_casing:2>,
                     IBlockMatcher.abilityPartPredicate(
@@ -74,7 +75,6 @@ val tube_furnace = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
-                .setAmountAtLeast('C', 36)
                 .where("H", <metastate:gregtech:metal_casing:4>)
                 .where("F", <metastate:gregtech:frame_steel>)
                 .build())

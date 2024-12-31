@@ -51,6 +51,7 @@ val vacuum_furnace = Builder.start(loc, meta)
                     "WCW")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 4)
                 .whereOr("C", 
                 <metastate:contenttweaker:vacuumfurnacecasing>,
                     IBlockMatcher.abilityPartPredicate(
@@ -60,7 +61,6 @@ val vacuum_furnace = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
-                .setAmountAtLeast('C', 4)
                 .where("W", <metastate:gregtech:machine_casing>)
                 .where("G", <metastate:gtadditions:ga_transparent_casing>)
                 .where("F", <metastate:gregtech:frame_steel>)

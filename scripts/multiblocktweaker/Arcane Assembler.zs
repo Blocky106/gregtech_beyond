@@ -33,6 +33,7 @@ val arcane_assembler = Builder.start(loc, meta)
                 .aisle("CAC","AAA","CAC")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('A', 4)
                 .whereOr("A", 
                 <metastate:thaumcraft:stone_arcane>,
                     IBlockMatcher.abilityPartPredicate(
@@ -42,7 +43,6 @@ val arcane_assembler = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
-            .setAmountAtLeast('A', 4)
                 .where("F", <metastate:gregtech:frame_steel>)
                 .where("C", <metastate:contenttweaker:thaumic_casing>)
                 .build())

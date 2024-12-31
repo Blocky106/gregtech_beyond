@@ -34,6 +34,7 @@ val bacterial_vat = Builder.start(loc, meta)
                 .aisle("CCCCC","CCCCC","CCCCC","CCCCC","CCCCC")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 40)
                 .whereOr("C", 
                 <metastate:gregtech:metal_casing:5>,
                     IBlockMatcher.abilityPartPredicate(
@@ -43,7 +44,6 @@ val bacterial_vat = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
-                .setAmountAtLeast('C', 40)
                 .where("G", <metastate:contenttweaker:soulariumreinforcedglass>)
                 .build())
         .addDesign(

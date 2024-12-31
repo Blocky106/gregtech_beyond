@@ -78,6 +78,7 @@ val primordial_forge = Builder.start(loc, meta)
                     "CCCCCCC")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 108)
                 .whereOr("C", 
                 <metastate:contenttweaker:computercasing>,
                     IBlockMatcher.abilityPartPredicate(
@@ -87,7 +88,6 @@ val primordial_forge = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
-                .setAmountAtLeast('C', 108)
                 .where("F", <metastate:gtadditions:ga_fusion_casing:5>)
                 .where("G", <metastate:contenttweaker:highresistanceglass>)
                 .build())

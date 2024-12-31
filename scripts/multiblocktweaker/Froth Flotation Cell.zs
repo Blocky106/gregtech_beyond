@@ -35,6 +35,7 @@ val froth_flotation_cell = Builder.start(loc, meta)
                 .aisle("~~~~~","~CCC~","~CGC~","~CCC~","~~~~~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 32)
                 .whereOr("C", 
                 <metastate:gregtech:metal_casing:5>,
                     IBlockMatcher.abilityPartPredicate(
@@ -44,7 +45,6 @@ val froth_flotation_cell = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
-                .setAmountAtLeast('C', 32)
                 .where("P", <metastate:gregtech:boiler_casing:1>)
                 .where("G", <metastate:gregtech:multiblock_casing:1>)
                 .build())

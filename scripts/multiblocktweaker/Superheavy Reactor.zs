@@ -75,7 +75,6 @@ val superheavy_reactor = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
-                .setAmountAtLeast('C', 40)
                 .where("X", <metastate:gregtech:metal_casing:2>)
                 .where("R", <metastate:contenttweaker:reactor_core_stabilizer>)
                 .where("T", <metastate:gregtech:wire_coil:6>)

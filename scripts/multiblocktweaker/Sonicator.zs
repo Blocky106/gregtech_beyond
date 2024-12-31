@@ -63,6 +63,7 @@ val sonicator = Builder.start(loc, meta)
                     "~~~~~")  
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 70)
                 .whereOr("X", 
                 <metastate:contenttweaker:sonicator_casing>,
                     IBlockMatcher.abilityPartPredicate(
@@ -72,7 +73,6 @@ val sonicator = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
-                .setAmountAtLeast('C', 70)
                 .where("P", <metastate:gregtech:boiler_casing:2>)
                 .where("G", <metastate:contenttweaker:ultrahighresistanceglass>)
                 .where("C", <metastate:contenttweaker:electrolyticcell>)

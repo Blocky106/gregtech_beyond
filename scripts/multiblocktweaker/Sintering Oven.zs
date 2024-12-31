@@ -33,6 +33,7 @@ val sintering_oven = Builder.start(loc, meta)
                 .aisle("CCC","FFF","~~~","FFF","~~~","FFF","CCC")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 10)
                 .whereOr("C", 
                 <metastate:contenttweaker:basic_structural_casing>,
                     IBlockMatcher.abilityPartPredicate(
@@ -42,7 +43,6 @@ val sintering_oven = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
-                .setAmountAtLeast('C', 10)
                 .where("F", <metastate:gregtech:frame_steel>)
                 .where("A", <metastate:contenttweaker:copperalloycoilblock>)
                 .build())

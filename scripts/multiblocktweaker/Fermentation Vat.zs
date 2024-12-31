@@ -73,6 +73,7 @@ val fermentation_vat = Builder.start(loc, meta)
                     "~~~~~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('P', 18)
                 .whereOr("P", 
                 <metastate:gregtech:boiler_casing:1>,
                     IBlockMatcher.abilityPartPredicate(
@@ -82,7 +83,6 @@ val fermentation_vat = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
-                .setAmountAtLeast('P', 18)
                 .where("F", <metastate:gregtech:frame_steel>)
                 .where("W", <metastate:gregtech:machine_casing>)
                 .where("G", <metastate:gtadditions:ga_transparent_casing:1>)

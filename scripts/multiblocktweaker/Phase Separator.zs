@@ -33,6 +33,7 @@ val phase_separator = Builder.start(loc, meta)
                 .aisle("~C~","~C~","~C~","~C~","~C~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 12)
                 .whereOr("C", 
                 <metastate:gregtech:metal_casing:4>,
                     IBlockMatcher.abilityPartPredicate(
@@ -42,7 +43,6 @@ val phase_separator = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
-                .setAmountAtLeast('C', 12)
                 .where("F", <metastate:gregtech:frame_steel>)
                 .build())
         .addDesign(

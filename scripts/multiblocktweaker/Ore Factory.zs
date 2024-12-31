@@ -61,6 +61,7 @@ val ore_factory = Builder.start(loc, meta)
                     "~CCCCCC~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 85)
                 .whereOr("C", 
                 <metastate:gtadditions:ga_metal_casing_2:4>,
                     IBlockMatcher.abilityPartPredicate(
@@ -70,7 +71,6 @@ val ore_factory = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
-                .setAmountAtLeast('C', 85)
                 .where("G", <metastate:qmd:containment_glass>)
                 .where("Q", <metastate:gtadditions:ga_metal_casing_2:3>)
                 .build())

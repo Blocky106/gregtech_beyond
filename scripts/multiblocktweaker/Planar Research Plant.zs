@@ -43,7 +43,6 @@ val planar_research_plant = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
-                .setAmountAtLeast('C', 30)
                 .where("G", <metastate:gtadditions:ga_transparent_casing:1>)
                 .build())
         .addDesign(

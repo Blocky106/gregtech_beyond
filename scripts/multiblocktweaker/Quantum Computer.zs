@@ -78,6 +78,7 @@ val quantum_computer = Builder.start(loc, meta)
                     "CCHCC")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 20)
                 .whereOr("C", 
                 <metastate:gregtech:metal_casing:7>,
                     IBlockMatcher.abilityPartPredicate(
@@ -87,7 +88,6 @@ val quantum_computer = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
-                .setAmountAtLeast('C', 20)
                 .where("H", <metastate:contenttweaker:highpowercasing>)
                 .where("G", <metastate:gtadditions:ga_transparent_casing:6>)
                 .where("T", <metastate:gregtech:multiblock_casing:5>)

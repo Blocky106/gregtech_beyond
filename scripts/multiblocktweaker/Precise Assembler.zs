@@ -61,6 +61,7 @@ val precise_assembler = Builder.start(loc, meta)
                     "CCCCCCCCC")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 54)
                 .whereOr("C", 
                 <metastate:contenttweaker:perciseelectronicunitcasing>,
                     IBlockMatcher.abilityPartPredicate(
@@ -70,7 +71,6 @@ val precise_assembler = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
-                .setAmountAtLeast('C', 54)
                 .where("F", <metastate:gregtech:frame_tungsten_steel>)
                 .where("G", <metastate:gtadditions:ga_transparent_casing:4>)
                 .where("M", <metastate:gregtech:machine_casing:6>)

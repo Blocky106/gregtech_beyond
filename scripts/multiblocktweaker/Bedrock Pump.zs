@@ -38,6 +38,7 @@ val bedrock_pump = Builder.start(loc, meta)
                 .aisle("~~C~~","~HCH~","CCCCC","~HCH~","~~C~~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 30)
                 .whereOr("C", 
                 <metastate:gregtech:metal_casing:7>,
                     IBlockMatcher.abilityPartPredicate(
@@ -47,7 +48,6 @@ val bedrock_pump = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
-                .setAmountAtLeast('C', 30)
                 .where("H", <metastate:gregtech:boiler_firebox_casing:3>)
                 .where("F", <metastate:gregtech:frame_steel>)
                 .where("G", <metastate:gtadditions:ga_transparent_casing:1>)

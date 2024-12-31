@@ -36,6 +36,7 @@ val polymerization_tank = Builder.start(loc, meta)
 
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 26)
                 .whereOr("C", 
                 <metastate:gregtech:metal_casing:4>,
                     IBlockMatcher.abilityPartPredicate(
@@ -45,7 +46,6 @@ val polymerization_tank = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
-                .setAmountAtLeast('C', 26)
                 .where("F", <metastate:gregtech:frame_steel>)
                 .build())
         .addDesign(

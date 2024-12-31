@@ -84,6 +84,7 @@ val molecular_transformer = Builder.start(loc, meta)
                     "~PPP~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 50)
                 .whereOr("C", 
                 <metastate:gtadditions:ga_metal_casing_2:9>,
                     IBlockMatcher.abilityPartPredicate(
@@ -93,7 +94,6 @@ val molecular_transformer = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
-                .setAmountAtLeast('C', 50)
                 .where("T", <metastate:gtadditions:ga_heating_coil>)
                 .where("P", <metastate:contenttweaker:particleprotectioncasing>)
                 .where("F", <metastate:gregtech:multiblock_casing:4>)

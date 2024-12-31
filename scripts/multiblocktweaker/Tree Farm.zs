@@ -43,6 +43,7 @@ val tree_farm = Builder.start(loc, meta)
 
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 10)
                 .whereOr("C", 
                 <metastate:contenttweaker:logcasing>,
                     IBlockMatcher.abilityPartPredicate(
@@ -52,7 +53,6 @@ val tree_farm = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
-                .setAmountAtLeast('C', 10)
                 .where("W", <metastate:contenttweaker:woodeneglinsteelcasing>)
                 .build())
         .addDesign(

@@ -45,6 +45,7 @@ val matter_quantizer = Builder.start(loc, meta)
                     "HHH")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('H', 7)
                 .whereOr("H", 
                 <metastate:contenttweaker:highpowercasing>,
                     IBlockMatcher.abilityPartPredicate(
@@ -54,7 +55,6 @@ val matter_quantizer = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
-                .setAmountAtLeast('H', 7)
                 .where("C", <metastate:contenttweaker:quantumcasing>)
                 .where("L", <metastate:contenttweaker:lasercasing>)
                 .build())

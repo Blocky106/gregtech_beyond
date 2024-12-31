@@ -89,6 +89,7 @@ val naquadah_fuel_refinery = Builder.start(loc, meta)
                     "~~~~~~~~~~~~~~~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('G', 110)
                 .whereOr("G", 
                 <metastate:contenttweaker:naquadahfuelrefinerycasing>,
                     IBlockMatcher.abilityPartPredicate(
@@ -98,7 +99,6 @@ val naquadah_fuel_refinery = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
-                .setAmountAtLeast('G', 110)
                 .where("C", <metastate:contenttweaker:fieldrestrictioncoil>)
                 .where("H", <metastate:contenttweaker:fieldrestrictionglass>)
                 .build())

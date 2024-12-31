@@ -86,6 +86,7 @@ val research_station = Builder.start(loc, meta)
                     "~~~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 60)
                 .whereOr("C", 
                 <metastate:contenttweaker:computercasing>,
                     IBlockMatcher.abilityPartPredicate(
@@ -95,7 +96,6 @@ val research_station = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
-                .setAmountAtLeast('C', 60)
                 .where("A", <metastate:contenttweaker:advcomputercasing>)
                 .where("V", <metastate:contenttweaker:computercasingvent>)
                 .build())

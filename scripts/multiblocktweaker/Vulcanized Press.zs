@@ -33,6 +33,7 @@ val vulcanized_press = Builder.start(loc, meta)
                 .aisle("PCP","CCC","PCP")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 3)
                 .whereOr("C", 
                 <metastate:gregtech:boiler_firebox_casing:1>,
                     IBlockMatcher.abilityPartPredicate(
@@ -42,7 +43,6 @@ val vulcanized_press = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
-                .setAmountAtLeast('C', 3)
                 .where("V", <metastate:gregtech:wire_coil>)
                 .where("P", <metastate:gregtech:boiler_casing:1>)
                 .build())

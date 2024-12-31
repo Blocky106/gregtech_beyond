@@ -61,6 +61,7 @@ val solar_thermal_concentrator = Builder.start(loc, meta)
                     "~GGG~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 10)
                 .whereOr("C", 
                 <metastate:gregtech:metal_casing>,
                     IBlockMatcher.abilityPartPredicate(
@@ -70,7 +71,6 @@ val solar_thermal_concentrator = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
-                .setAmountAtLeast('C', 10)
                 .where("P", <metastate:gregtech:boiler_casing:1>)
                 .where("B", <metastate:gregtech:boiler_casing>)
                 .where("G", <metastate:minecraft:glass>)

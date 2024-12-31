@@ -79,6 +79,7 @@ val engraving_unit = Builder.start(loc, meta)
                     "~~~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 70)
                 .whereOr("C", 
                 <metastate:gtadditions:ga_metal_casing_2:4>,
                     IBlockMatcher.abilityPartPredicate(
@@ -88,7 +89,6 @@ val engraving_unit = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
-                .setAmountAtLeast('C', 70)
                 .where("P", <metastate:gregtech:boiler_casing:3>)
                 .where("H", <metastate:gregtech:boiler_firebox_casing:3>)
                 .build())

@@ -33,6 +33,7 @@ val pressure_swing_adsorber = Builder.start(loc, meta)
                 .aisle("CCC","CCC","CCC","CCC")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 26)
                 .whereOr("C", 
                 <metastate:gregtech:metal_casing:3>,
                     IBlockMatcher.abilityPartPredicate(
@@ -42,7 +43,6 @@ val pressure_swing_adsorber = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
-                .setAmountAtLeast('C', 26)
                 .build())
         .addDesign(
                 FactoryMultiblockShapeInfo.start()

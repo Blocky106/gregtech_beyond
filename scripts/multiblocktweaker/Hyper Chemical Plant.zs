@@ -60,6 +60,7 @@ val hyper_chemical_plant = Builder.start(loc, meta)
                     "CCCCC")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 42)
                 .whereOr("C", 
                 <metastate:contenttweaker:pbistrengthenedtetrixcasing>,
                     IBlockMatcher.abilityPartPredicate(
@@ -69,7 +70,6 @@ val hyper_chemical_plant = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
-                .setAmountAtLeast('C', 42)
                 .where("F", <metastate:gregtech:frame_fullerenepolymertetrix>)
                 .where("P", <metastate:gtadditions:ga_multiblock_casing:14>)
                 .build())
