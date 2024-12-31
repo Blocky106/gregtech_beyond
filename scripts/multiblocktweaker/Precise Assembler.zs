@@ -70,6 +70,7 @@ val precise_assembler = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
+                .setAmountAtLeast('C', 54)
                 .where("F", <metastate:gregtech:frame_tungsten_steel>)
                 .where("G", <metastate:gtadditions:ga_transparent_casing:4>)
                 .where("M", <metastate:gregtech:machine_casing:6>)

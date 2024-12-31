@@ -44,6 +44,7 @@ val black_hole_compressor = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
+                .setAmountAtLeast('C', 10)
                 .where("F", <metastate:contenttweaker:fieldgeneratorcasing>)
                 .where("D", <metastate:contenttweaker:dimensionalcasing>)
                 .where("O", <metastate:contenttweaker:coil>)

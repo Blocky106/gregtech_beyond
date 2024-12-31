@@ -48,61 +48,17 @@ val dissolution_tank = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
+                .setAmountAtLeast('C', 66)
                 .where("F", <metastate:gregtech:frame_steel>)
                 .where("G", <metastate:gtadditions:ga_transparent_casing:4>)
                 .build())
         .addDesign(
                 FactoryMultiblockShapeInfo.start()
-                .aisle(
-"F   F",
-"FFFFF",
-"FCCCF",
-"CCCCC",
-"CGGGC",
-"CGGGC",
-"CGGGC",
-"CGGGC",
-" CCC ")
-                .aisle(
-"     ",
-"F   F",
-"CCCCC",
-"C   C",
-"G   G",
-"G   G",
-"G   G",
-"G   G",
-"CCCCC")
-                .aisle(
-"     ",
-"F   F",
-"CCCCE",
-"S   C",
-"G   G",
-"G   G",
-"G   G",
-"G   G",
-"CCCCC")
-                .aisle(
-"     ",
-"F   F",
-"CCCCC",
-"C   C",
-"G   G",
-"G   G",
-"G   G",
-"G   G",
-"CCCCC")
-                .aisle(
-"F   F",
-"FFFFF",
-"FCCCF",
-"CCCCC",
-"CGGGC",
-"CGGGC",
-"CGGGC",
-"CGGGC",
-" CCC ")
+                .aisle("F   F","FFFFF","FCCCF","CCCCC","CGGGC","CGGGC","CGGGC","CGGGC"," CCC ")
+                .aisle("     ","F   F","CCCCC","C   C","G   G","G   G","G   G","G   G","CCCCC")
+                .aisle("     ","F   F","CCCCE","S   C","G   G","G   G","G   G","G   G","CCCCC")
+                .aisle("     ","F   F","CCCCC","C   C","G   G","G   G","G   G","G   G","CCCCC")
+                .aisle("F   F","FFFFF","FCCCF","CCCCC","CGGGC","CGGGC","CGGGC","CGGGC"," CCC ")
                 .where("G", <metastate:gtadditions:ga_transparent_casing:4>)
                 .where("C", <metastate:gregtech:metal_casing:5>)
                 .where("S", IBlockInfo.controller(loc))

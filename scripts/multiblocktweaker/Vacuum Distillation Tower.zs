@@ -168,12 +168,11 @@ val vacuum_distillation_tower = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
+                .setAmountAtLeast('C', 120)
                 .where("F", <metastate:gregtech:frame_blue_steel>)
                 .where("H", <metastate:gregtech:metal_casing:2>)
                 .where("P", <metastate:gregtech:boiler_casing:1>)
-                
-                
-                                .build())
+                .build())
         .addDesign(
                 FactoryMultiblockShapeInfo.start()
                 .aisle(

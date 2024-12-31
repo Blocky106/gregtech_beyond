@@ -42,6 +42,7 @@ val gravity_separator = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
+                .setAmountAtLeast('C', 40)
                 .where("P", <metastate:gregtech:boiler_casing:1>)
                 .where("D", <metastate:contenttweaker:gravity_separator_rotor_block>)
                 .build())

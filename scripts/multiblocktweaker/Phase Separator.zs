@@ -42,22 +42,14 @@ val phase_separator = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
+                .setAmountAtLeast('C', 12)
                 .where("F", <metastate:gregtech:frame_steel>)
                 .build())
         .addDesign(
                 FactoryMultiblockShapeInfo.start()
-                .aisle(
-"F   F",
-"CCCCC",
-"     ")
-                .aisle(
-"CCCCC",
-"S   E",
-"CCCCC")
-                .aisle(
-"F   F",
-"CCCCC",
-"     ")
+                .aisle("F   F","CCCCC","     ")
+                .aisle("CCCCC","S   E","CCCCC")
+                .aisle("F   F","CCCCC","     ")
                 .where("C", <metastate:gregtech:metal_casing:4>)
                 .where("S", IBlockInfo.controller(loc))
                 .where("F", <metastate:gregtech:frame_steel>)

@@ -42,6 +42,7 @@ val pressure_swing_adsorber = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
+                .setAmountAtLeast('C', 26)
                 .build())
         .addDesign(
                 FactoryMultiblockShapeInfo.start()

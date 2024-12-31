@@ -71,6 +71,7 @@ val gravity_settler_tank = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
+                .setAmountAtLeast('C', 32)
                 .where("P", <metastate:gregtech:boiler_casing:1>)
                 .where("F", <metastate:gregtech:multiblock_casing:1>)
                 .where("G", <metastate:thermalfoundation:glass:2>)

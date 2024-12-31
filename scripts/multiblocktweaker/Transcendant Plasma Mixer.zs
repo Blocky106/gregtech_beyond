@@ -81,6 +81,7 @@ val transcendant_plasma_mixer = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
+                .setAmountAtLeast('C', 50)
                 .where("M", <metastate:contenttweaker:quantumcasing>)
                 .where("O", <metastate:contenttweaker:coil>)
                 .where("H", <metastate:contenttweaker:highpowercasing>)

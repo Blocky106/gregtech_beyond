@@ -51,6 +51,7 @@ val manufactory = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
+                .setAmountAtLeast('C', 26)
                 .where("G", <metastate:gtadditions:ga_transparent_casing:1>)
                 .where("P", <metastate:gregtech:boiler_casing:1>)
                 .where("F", <metastate:gregtech:boiler_firebox_casing:1>)

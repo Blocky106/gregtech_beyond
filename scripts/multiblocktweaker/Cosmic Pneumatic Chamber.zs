@@ -68,38 +68,10 @@ val cosmic_pneumatic_chamber = Builder.start(loc, meta)
                     "O~~~~~O",
                     "O~~~~~O",
                     "OOOOOOO")
-                .aisle(
-                    "OOOOOOO",
-                    "O~~~~~O",
-                    "O~~~~~O",
-                    "O~~~~~O",
-                    "O~~~~~O",
-                    "O~~~~~O",
-                    "OOOOOOO")
-                .aisle(
-                    "OOOOOOO",
-                    "O~~~~~O",
-                    "O~~~~~O",
-                    "O~~~~~O",
-                    "O~~~~~O",
-                    "O~~~~~O",
-                    "OOOOOOO")
-                .aisle(
-                    "OOOOOOO",
-                    "O~~~~~O",
-                    "O~~~~~O",
-                    "O~~~~~O",
-                    "O~~~~~O",
-                    "O~~~~~O",
-                    "OOOOOOO")
-                .aisle(
-                    "CCCCCCC",
-                    "CCCCCCC",
-                    "CCCCCCC",
-                    "CCCCCCC",
-                    "CCCCCCC",
-                    "CCCCCCC",
-                    "CCCCCCC")
+                .aisle("OOOOOOO","O~~~~~O","O~~~~~O","O~~~~~O","O~~~~~O","O~~~~~O","OOOOOOO")
+                .aisle("OOOOOOO","O~~~~~O","O~~~~~O","O~~~~~O","O~~~~~O","O~~~~~O","OOOOOOO")
+                .aisle("OOOOOOO","O~~~~~O","O~~~~~O","O~~~~~O","O~~~~~O","O~~~~~O","OOOOOOO")
+                .aisle("CCCCCCC","CCCCCCC","CCCCCCC","CCCCCCC","CCCCCCC","CCCCCCC","CCCCCCC")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
                 .whereOr("C", 
@@ -111,6 +83,7 @@ val cosmic_pneumatic_chamber = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
+                .setAmountAtLeast('C', 90)
                 .where("O", <metastate:gtadditions:ga_heating_coil:4>)
                 .where("F", <metastate:gregtech:frame_steel>)
                 .where("G", <metastate:gtadditions:ga_transparent_casing:4>)

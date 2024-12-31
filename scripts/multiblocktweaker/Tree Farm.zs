@@ -52,23 +52,14 @@ val tree_farm = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
+                .setAmountAtLeast('C', 10)
                 .where("W", <metastate:contenttweaker:woodeneglinsteelcasing>)
                 .build())
         .addDesign(
                 FactoryMultiblockShapeInfo.start()
-                .aisle(
-                    "CCC",
-                    "WWW",
-                    "CCC")
-                .aisle(
-                    "SCE",
-                    "W W",
-                    "CCC")
-                .aisle(
-                    "CCC",
-                    "WWW",
-                    "CCC")
-                                   
+                .aisle("CCC","WWW","CCC")
+                .aisle("SCE","W W","CCC")
+                .aisle("CCC","WWW","CCC")
                 .where("C", <metastate:contenttweaker:logcasing>)
                 .where("S", IBlockInfo.controller(loc))
                 .where("W", <metastate:contenttweaker:woodeneglinsteelcasing>)

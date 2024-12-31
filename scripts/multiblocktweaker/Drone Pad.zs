@@ -44,6 +44,7 @@ val drone_pad = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
+                .setAmountAtLeast('C', 5)
                 .where("F", <metastate:contenttweaker:drone_pad>)
                 .build())
         .addDesign(

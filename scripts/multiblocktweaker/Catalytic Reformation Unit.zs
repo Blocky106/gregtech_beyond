@@ -59,6 +59,7 @@ val catalytic_reformation_unit = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
+                .setAmountAtLeast('C', 32)
                 .where("F", <metastate:gregtech:frame_eglin_steel>)
                 .where("P", <metastate:gtadditions:ga_multiblock_casing:14>)
                 .build())

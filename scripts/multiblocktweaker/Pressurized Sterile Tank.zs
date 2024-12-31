@@ -81,6 +81,7 @@ val pressurized_sterile_tank = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
+                .setAmountAtLeast('C', 76)
                 .where("H", <metastate:gtadditions:ga_metal_casing_1:7>)
                 .build())
         .addDesign(

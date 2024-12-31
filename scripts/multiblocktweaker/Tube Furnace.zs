@@ -61,28 +61,8 @@ val tube_furnace = Builder.start(loc, meta)
                     "~H~",
                     "~H~",
                     "FHF")
-                .aisle(
-                    "HHH",
-                    "H~H",
-                    "H~H",
-                    "CCC",
-                    "C~C",
-                    "C~C",
-                    "CCC",
-                    "H~H",
-                    "H~H",
-                    "HSH")
-                .aisle(
-                    "~H~",
-                    "~H~",
-                    "~H~",
-                    "CCC",
-                    "CCC",
-                    "CCC",
-                    "CCC",
-                    "~H~",
-                    "~H~",
-                    "~H~")
+                .aisle("HHH","H~H","H~H","CCC","C~C","C~C","CCC","H~H","H~H","HSH")
+                .aisle("~H~","~H~","~H~","CCC","CCC","CCC","CCC","~H~","~H~","~H~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
                 .whereOr("C", 
@@ -94,6 +74,7 @@ val tube_furnace = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
+                .setAmountAtLeast('C', 36)
                 .where("H", <metastate:gregtech:metal_casing:4>)
                 .where("F", <metastate:gregtech:frame_steel>)
                 .build())

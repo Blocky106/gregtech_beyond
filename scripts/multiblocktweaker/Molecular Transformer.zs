@@ -93,6 +93,7 @@ val molecular_transformer = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
+                .setAmountAtLeast('C', 50)
                 .where("T", <metastate:gtadditions:ga_heating_coil>)
                 .where("P", <metastate:contenttweaker:particleprotectioncasing>)
                 .where("F", <metastate:gregtech:multiblock_casing:4>)

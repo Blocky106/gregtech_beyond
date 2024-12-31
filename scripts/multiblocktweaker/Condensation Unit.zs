@@ -42,31 +42,17 @@ val condensation_unit = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
+                .setAmountAtLeast('C', 40)
                 .where("P", <metastate:gregtech:boiler_casing:1>)
                 .where("G", <metastate:gtadditions:ga_transparent_casing>)
                 .build())
         .addDesign(
                 FactoryMultiblockShapeInfo.start()
-                .aisle(
-"CCCCC",
-"CCCCC",
-"CCCCC")
-                .aisle(
-"CCCCC",
-"C P C",
-"CGGGC")
-                .aisle(
-"CCCCC",
-"SPPPE",
-"CGGGC")
-                .aisle(
-"CCCCC",
-"C P C",
-"CGGGC")
-                .aisle(
-"CCCCC",
-"CCCCC",
-"CCCCC")
+                .aisle("CCCCC","CCCCC","CCCCC")
+                .aisle("CCCCC","C P C","CGGGC")
+                .aisle("CCCCC","SPPPE","CGGGC")
+                .aisle("CCCCC","C P C","CGGGC")
+                .aisle("CCCCC","CCCCC","CCCCC")
                 .where("P", <metastate:gregtech:boiler_casing:1>)
                 .where("G", <metastate:gtadditions:ga_transparent_casing>)
                 .where("C", <metastate:gregtech:metal_casing:3>)

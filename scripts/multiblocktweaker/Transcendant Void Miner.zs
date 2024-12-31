@@ -67,6 +67,7 @@ val transcendant_void_miner = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
+                .setAmountAtLeast('C', 3)
                 .where("F", <metastate:gregtech:frame_pikyonium99ab>)
                 .build())
         .addDesign(

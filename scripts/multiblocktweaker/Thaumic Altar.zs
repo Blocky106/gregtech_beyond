@@ -63,6 +63,7 @@ val altar = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
+                .setAmountAtLeast('C', 12)
                 .where("G", <metastate:thaumcraft:metal_alchemical_advanced>)
                 .where("H", <metastate:thaumcraft:metal_thaumium>)
                 .build())

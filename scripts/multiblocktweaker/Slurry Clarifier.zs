@@ -44,40 +44,16 @@ val slurry_clarifier = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
+                .setAmountAtLeast('C', 48)
                 .where("G", <metastate:gregtech:multiblock_casing:1>)
                 .build())
         .addDesign(
                 FactoryMultiblockShapeInfo.start()
-                .aisle(
-"     ",
-" CCC ",
-" CCC ",
-" CCC ",
-" CCC ")
-                .aisle(
-" CCC ",
-"C   C",
-"C   C",
-"CGGGC",
-"C   C")
-                .aisle(
-" CCC ",
-"S   E",
-"C   C",
-"CGGGC",
-"C   C")
-                .aisle(
-" CCC ",
-"C   C",
-"C   C",
-"CGGGC",
-"C   C")
-                .aisle(
-"     ",
-" CCC ",
-" CCC ",
-" CCC ",
-" CCC ")
+                .aisle("     "," CCC "," CCC "," CCC "," CCC ")
+                .aisle(" CCC ","C   C","C   C","CGGGC","C   C")
+                .aisle(" CCC ","S   E","C   C","CGGGC","C   C")
+                .aisle(" CCC ","C   C","C   C","CGGGC","C   C")
+                .aisle("     "," CCC "," CCC "," CCC "," CCC ")
                 .where("C", <metastate:gregtech:metal_casing:5>)
                 .where("S", IBlockInfo.controller(loc))
                 .where("G", <metastate:gregtech:multiblock_casing:1>)

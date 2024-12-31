@@ -69,6 +69,7 @@ val combustion_generator = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
+                .setAmountAtLeast('C', 60)
                 .where("H", <metastate:gregtech:metal_casing:2>)
                 .build())
         .addDesign(

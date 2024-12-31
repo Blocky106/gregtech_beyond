@@ -47,6 +47,7 @@ val bedrock_pump = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
+                .setAmountAtLeast('C', 30)
                 .where("H", <metastate:gregtech:boiler_firebox_casing:3>)
                 .where("F", <metastate:gregtech:frame_steel>)
                 .where("G", <metastate:gtadditions:ga_transparent_casing:1>)

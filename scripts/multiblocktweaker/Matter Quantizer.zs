@@ -54,6 +54,7 @@ val matter_quantizer = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
+                .setAmountAtLeast('H', 7)
                 .where("C", <metastate:contenttweaker:quantumcasing>)
                 .where("L", <metastate:contenttweaker:lasercasing>)
                 .build())

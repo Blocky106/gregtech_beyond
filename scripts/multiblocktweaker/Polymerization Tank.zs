@@ -45,6 +45,7 @@ val polymerization_tank = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
+                .setAmountAtLeast('C', 26)
                 .where("F", <metastate:gregtech:frame_steel>)
                 .build())
         .addDesign(

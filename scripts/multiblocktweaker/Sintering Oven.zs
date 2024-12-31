@@ -42,23 +42,15 @@ val sintering_oven = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
+                .setAmountAtLeast('C', 10)
                 .where("F", <metastate:gregtech:frame_steel>)
                 .where("A", <metastate:contenttweaker:copperalloycoilblock>)
                 .build())
         .addDesign(
                 FactoryMultiblockShapeInfo.start()
-                .aisle(
-"CF F FC",
-"CF F FC",
-"CF F FC")
-                .aisle(
-"CF F FC",
-"SAAAAAC",
-"EF F FC")
-                .aisle(
-"CF F FC",
-"CF F FC",
-"CF F FC")
+                .aisle("CF F FC","CF F FC","CF F FC")
+                .aisle("CF F FC","SAAAAAC","EF F FC")
+                .aisle("CF F FC","CF F FC","CF F FC")
                 .where("F", <metastate:gregtech:frame_steel>)
                 .where("A", <metastate:contenttweaker:copperalloycoilblock>)
                 .where("C", <metastate:contenttweaker:basic_structural_casing>)

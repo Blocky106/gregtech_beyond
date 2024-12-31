@@ -42,6 +42,7 @@ val arcane_assembler = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
+            .setAmountAtLeast('A', 4)
                 .where("F", <metastate:gregtech:frame_steel>)
                 .where("C", <metastate:contenttweaker:thaumic_casing>)
                 .build())

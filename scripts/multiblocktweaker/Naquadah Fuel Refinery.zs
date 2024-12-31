@@ -98,6 +98,7 @@ val naquadah_fuel_refinery = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
+                .setAmountAtLeast('G', 110)
                 .where("C", <metastate:contenttweaker:fieldrestrictioncoil>)
                 .where("H", <metastate:contenttweaker:fieldrestrictionglass>)
                 .build())

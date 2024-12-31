@@ -51,6 +51,7 @@ val coal_burner_generator = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
+                .setAmountAtLeast('C', 48)
                 .where("G", <metastate:minecraft:glass>)
                 .build())
         .addDesign(

@@ -82,6 +82,7 @@ val fermentation_vat = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
+                .setAmountAtLeast('P', 18)
                 .where("F", <metastate:gregtech:frame_steel>)
                 .where("W", <metastate:gregtech:machine_casing>)
                 .where("G", <metastate:gtadditions:ga_transparent_casing:1>)

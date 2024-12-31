@@ -106,6 +106,7 @@ var advanced_assembly_line = Builder.start(loc, meta)
                     MultiblockAbility.IMPORT_FLUIDS,
                     MultiblockAbility.EXPORT_ITEMS,
                     MultiblockAbility.EXPORT_FLUIDS))
+            .setAmountAtLeast('C', 40)
             .where("G", <metastate:gtadditions:ga_transparent_casing>)
             .where("L", <metastate:gregtech:multiblock_casing:1>)
             .where("A", <metastate:gtadditions:ga_multiblock_casing>)

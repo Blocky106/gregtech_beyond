@@ -81,6 +81,7 @@ val quantum_circuit_assembler = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
+                .setAmountAtLeast('C', 100)
                 .where("H", <metastate:contenttweaker:highpowercasing>)
                 .where("G", <metastate:contenttweaker:highresistanceglass>)
                 .where("A", <metastate:gtadditions:ga_multiblock_casing>)

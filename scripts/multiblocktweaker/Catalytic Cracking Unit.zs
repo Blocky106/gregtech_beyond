@@ -109,6 +109,7 @@ val catalytic_cracking_unit = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
+                .setAmountAtLeast('C', 135)
                 .where("F", <metastate:gregtech:boiler_firebox_casing:1>)
                 .where("A", <metastate:gregtech:metal_casing:4>)
                 .where("P", <metastate:gregtech:boiler_casing:1>)

@@ -95,6 +95,7 @@ val research_station = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
+                .setAmountAtLeast('C', 60)
                 .where("A", <metastate:contenttweaker:advcomputercasing>)
                 .where("V", <metastate:contenttweaker:computercasingvent>)
                 .build())

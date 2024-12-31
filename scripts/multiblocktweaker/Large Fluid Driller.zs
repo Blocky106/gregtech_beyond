@@ -119,6 +119,7 @@ val large_fluid_driller = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
+                .setAmountAtLeast('C', 80)
                 .where("P", <metastate:gregtech:boiler_casing:1>)
                 .where("F", <metastate:gregtech:frame_steel>)
                 .build())

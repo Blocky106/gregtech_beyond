@@ -43,24 +43,13 @@ val cryogenic_distillation_plant = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
+                .setAmountAtLeast('C', 26)
                 .build())
         .addDesign(
                 FactoryMultiblockShapeInfo.start()
-                .aisle(
-"CCC",
-"CCC",
-"CCC",
-"CCC")
-                .aisle(
-"SCE",
-"C C",
-"C C",
-"CCC")
-                .aisle(
-"CCC",
-"CCC",
-"CCC",
-"CCC")
+                .aisle("CCC","CCC","CCC","CCC")
+                .aisle("SCE","C C","C C","CCC")
+                .aisle("CCC","CCC","CCC","CCC")
                 .where("C", <metastate:gregtech:metal_casing:3>)
                 .where("S", IBlockInfo.controller(loc))
                 .where("L", MetaTileEntities.FLUID_IMPORT_HATCH[1], IFacing.south())

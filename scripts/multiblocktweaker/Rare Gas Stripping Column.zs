@@ -43,6 +43,7 @@ val rare_gas_stripping_column = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
+                .setAmountAtLeast('C', 50)
                 .where("F", <metastate:gregtech:frame_steel>)
                 .build())
         .addDesign(

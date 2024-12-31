@@ -43,6 +43,7 @@ val bacterial_vat = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
+                .setAmountAtLeast('C', 40)
                 .where("G", <metastate:contenttweaker:soulariumreinforcedglass>)
                 .build())
         .addDesign(

@@ -71,6 +71,7 @@ val enzymatic_hydrolisis_tank = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
+                .setAmountAtLeast('C', 46)
                 .where("P", <metastate:gregtech:boiler_casing:1>)
                 .build())
         .addDesign(

@@ -43,25 +43,14 @@ val fischer_tropsch_reactor = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
+                .setAmountAtLeast('C', 20)
                 .where("F", <metastate:gregtech:frame_titanium>)
                 .build())
         .addDesign(
                 FactoryMultiblockShapeInfo.start()
-                .aisle(
-"F F",
-"CCC",
-"CCC",
-"CCC")
-                .aisle(
-"   ",
-"SCE",
-"C C",
-"CCC")
-                .aisle(
-"F F",
-"CCC",
-"CCC",
-"CCC")
+                .aisle("F F","CCC","CCC","CCC")
+                .aisle("   ","SCE","C C","CCC")
+                .aisle("F F","CCC","CCC","CCC")
                 .where("F", <metastate:gregtech:frame_titanium>)
                 .where("C", <metastate:gregtech:metal_casing:4>)
                 .where("S", IBlockInfo.controller(loc))

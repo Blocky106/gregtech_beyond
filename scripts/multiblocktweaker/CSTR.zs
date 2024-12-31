@@ -75,45 +75,16 @@ val cstr = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
+                .setAmountAtLeast('C', 40)
                 .where("P", <metastate:gregtech:boiler_casing:1>)
                 .build())
         .addDesign(
                 FactoryMultiblockShapeInfo.start()
-                .aisle(
-                    "     ",
-                    " CCC ",
-                    " CCC ",
-                    " CCC ",
-                    " CCC ",
-                    "     ")
-                .aisle(
-                    " PPP ",
-                    "C   C",
-                    "C   C",
-                    "C   C",
-                    "C   C",
-                    " PPP ")
-                .aisle(
-                    " PPP ",
-                    "C   C",
-                    "S   E",
-                    "C   C",
-                    "C   C",
-                    " PPP ")
-                .aisle(
-                    " PPP ",
-                    "C   C",
-                    "C   C",
-                    "C   C",
-                    "C   C",
-                    " PPP ")
-                .aisle(
-                    "     ",
-                    " CCC ",
-                    " CCC ",
-                    " CCC ",
-                    " CCC ",
-                    "     ")
+                .aisle("     "," CCC "," CCC "," CCC "," CCC ","     ")
+                .aisle(" PPP ","C   C","C   C","C   C","C   C"," PPP ")
+                .aisle(" PPP ","C   C","S   E","C   C","C   C"," PPP ")
+                .aisle(" PPP ","C   C","C   C","C   C","C   C"," PPP ")
+                .aisle("     "," CCC "," CCC "," CCC "," CCC ","     ")
                 .where("P", <metastate:gregtech:boiler_casing:1>)
                 .where("C", <metastate:gregtech:metal_casing:5>)
                 .where("S", IBlockInfo.controller(loc))

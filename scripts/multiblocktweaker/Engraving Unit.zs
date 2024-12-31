@@ -88,6 +88,7 @@ val engraving_unit = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
+                .setAmountAtLeast('C', 70)
                 .where("P", <metastate:gregtech:boiler_casing:3>)
                 .where("H", <metastate:gregtech:boiler_firebox_casing:3>)
                 .build())

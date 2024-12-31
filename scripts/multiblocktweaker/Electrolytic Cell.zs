@@ -42,6 +42,7 @@ val electrolytic_cell = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
+                .setAmountAtLeast('C', 32)
                 .where("A", <metastate:contenttweaker:copperalloycoilblock>)
                 .build())
         .addDesign(

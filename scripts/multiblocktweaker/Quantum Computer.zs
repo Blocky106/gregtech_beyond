@@ -87,6 +87,7 @@ val quantum_computer = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
+                .setAmountAtLeast('C', 20)
                 .where("H", <metastate:contenttweaker:highpowercasing>)
                 .where("G", <metastate:gtadditions:ga_transparent_casing:6>)
                 .where("T", <metastate:gregtech:multiblock_casing:5>)

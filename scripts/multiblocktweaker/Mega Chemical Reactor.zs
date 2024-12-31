@@ -90,6 +90,7 @@ val mega_chemical_reactor = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
+                .setAmountAtLeast('C', 114)
                 .where("H", <metastate:gregtech:wire_coil:8>)
                 .where("G", <metastate:gtadditions:ga_transparent_casing:1>)
                 .build())

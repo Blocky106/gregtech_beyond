@@ -87,6 +87,7 @@ val primordial_forge = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
+                .setAmountAtLeast('C', 108)
                 .where("F", <metastate:gtadditions:ga_fusion_casing:5>)
                 .where("G", <metastate:contenttweaker:highresistanceglass>)
                 .build())

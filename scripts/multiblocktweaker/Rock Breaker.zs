@@ -69,6 +69,7 @@ val large_rock_breaker = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
+                .setAmountAtLeast('C', 40)
                 .where("F", <metastate:gregtech:frame_titanium>)
                 .where("B", <metastate:gregtech:boiler_firebox_casing:2>)
                 .where("P", <metastate:gregtech:boiler_casing:2>)

@@ -45,6 +45,7 @@ val astro_mining_station = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
+                .setAmountAtLeast('C', 120)
                 .where("F", <metastate:gregtech:frame_steel>)
                 .where("P", <metastate:gregtech:boiler_casing:1>)
                 .build())
