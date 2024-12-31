@@ -105,4 +105,5 @@ val primitive_blast_furnace = Builder.start(loc, meta)
                         .build())
 .withZoom(0.5f)
 .buildAndRegister() as Multiblock;
+solar_thermal_concentrator.noEnergy = true;
        
