@@ -1326,3 +1326,9 @@ roasters.recipeBuilder()
 
 Utils.removeRecipeByOutput(chemReactor, [], [<liquid:water>*1000,<liquid:methanol>*1000], false);
 Utils.removeRecipeByOutput(lcr, [], [<liquid:water>*1000,<liquid:methanol>*1000], false);
+
+recipes.remove(<gregtech:machine:4176>);
+recipes.addShaped(<gregtech:machine:4176>, [	[null, <ore:plateTin>, null], 	[<ore:platePotin>, <ore:chest>, <ore:platePotin>], 	[null, <ore:plateTin>, null]]);
+
+recipes.remove(<gregtech:machine:4177>);
+recipes.addShaped(<gregtech:machine:4177>, [	[null, <ore:platePotin>, null], 	[<ore:plateTin>, <ore:chest>, <ore:plateTin>], 	[null, <ore:platePotin>, null]]);
