@@ -1247,38 +1247,6 @@ compressor.recipeBuilder()
 	.EUt(8)
 	.buildAndRegister();
 
-fusion_reactor.recipeBuilder()
-	.fluidInputs([<liquid:vanadium_steel> * 32, <liquid:lafium> * 32])
-    .fluidOutputs(<liquid:moltencompressediron> * 32)
-    .duration(200)
-    .EUt(434535)
-    .property("eu_to_start", 640000000)
-    .buildAndRegister();
-
-fluidExtractor.recipeBuilder()
-	.inputs(<pneumaticcraft:ingot_iron_compressed>)
-	.fluidOutputs(<liquid:moltencompressediron> * 144)
-	.duration(200)
-	.EUt(80000)
-	.buildAndRegister();
-
-alloy_smelter.recipeBuilder()
-    .inputs(<pneumaticcraft:ingot_iron_compressed> * 8)
-	.notConsumable(<gregtech:meta_item_1:32303>)
-    .outputs(<pneumaticcraft:compressed_iron_gear>)
-    .duration(80)
-    .EUt(50)
-    .buildAndRegister();
-
-extruder.recipeBuilder()
-	.inputs(<pneumaticcraft:ingot_iron_compressed> * 4)
-	.outputs(<pneumaticcraft:compressed_iron_gear>)
-	.notConsumable(<gregtech:meta_item_1:32372>)
-	.duration(400)
-	.EUt(12)
-	.buildAndRegister();
-
-
 assembly_line.recipeBuilder()
 	.inputs(<gregtech:cable:3744>*16,<gregtech:meta_item_1:12791>*4,<gregtech:meta_item_2:32436>*4, <gregtech:meta_item_1:12695>*2,<ore:circuitInfinite>,<gregtech:meta_item_1:32677>)
 	.fluidInputs(<liquid:soldering_alloy>*144,<liquid:moltencompressediron>*144)
@@ -1286,57 +1254,11 @@ assembly_line.recipeBuilder()
 	.EUt(500000)
 	.buildAndRegister();
 
-fluid_solidifier.recipeBuilder()
-	.fluidInputs([<liquid:moltencompressediron> * 144])
-	.outputs(<pneumaticcraft:ingot_iron_compressed>)
-	.notConsumable(<gregtech:meta_item_1:32306>)
-	.duration(400)
-	.EUt(20000)
-	.buildAndRegister();
-
-assembler.recipeBuilder()
-	.inputs(<gregtech:cable:5071>,<pneumaticcraft:compressed_iron_gear>*4)
-	.outputs(<pneumaticcraft:pressure_tube>)
-	.duration(250)
-	.EUt(12000)
-	.buildAndRegister();
-
 ebf.recipeBuilder()
 	.inputs(<gregtech:meta_item_1:2721>)
 	.outputs(<gregtech:meta_item_1:11721>)
 	.property("temperature", 11200)
 	.duration(500)
-	.EUt(8300000)
-	.buildAndRegister();
-
-assembly_line.recipeBuilder()
-	.inputs(<gtadditions:ga_quantum_casing>,<gregtech:meta_item_2:16709>*64,<gregtech:fluid_pipe:3695>*16,<gregtech:meta_item_1:10709>*4,<gregtech:meta_item_1:12730>*32,<gregtech:meta_item_1:16755>*64,<gregtech:meta_item_1:16755>*64,<gregtech:meta_item_1:16755>*64)
-	.fluidInputs(<liquid:polyetheretherketone>*20000)
-	.property("qubit", 32)
-	.outputs(<pneumaticcraft:pressure_chamber_wall>)
-	.duration(800)
-	.EUt(12006900)
-	.buildAndRegister();
-
-assembler.recipeBuilder()
-	.inputs(<gregtech:machine:2206>,<pneumaticcraft:pressure_tube>*16,<thermalexpansion:capacitor:2>.withTag({Energy: 0}),<thermalexpansion:capacitor:2>.withTag({Energy: 0}))
-	.outputs(<pneumaticcraft:air_compressor>)
-	.fluidInputs(<liquid:zylon>*1000)
-	.duration(800)
-	.EUt(200000)
-	.buildAndRegister();
-
-assembler.recipeBuilder()
-	.inputs(<gregtech:meta_item_2:15308>,<gregtech:meta_item_1:12707>*2)
-	.outputs(<pneumaticcraft:turbine_blade>)
-	.duration(800)
-	.EUt(8300000)
-	.buildAndRegister();
-
-assembler.recipeBuilder()
-	.inputs(<pneumaticcraft:capacitor>*12,<gregtech:machine:806>)
-	.outputs(<pneumaticcraft:network_component:3>)
-	.duration(800)
 	.EUt(8300000)
 	.buildAndRegister();
 
@@ -1392,14 +1314,6 @@ fusion_reactor.recipeBuilder()
     .EUt(434535)
     .property("eu_to_start", 640000000)
     .buildAndRegister();
-
-assembly_line.recipeBuilder()
-	.inputs(<pneumaticcraft:advanced_pcb>,<pneumaticcraft:advanced_pcb>,<ore:circuitUxv>,<ore:circuitUxv>,<ore:circuitUxv>,<ore:circuitUxv>,<gregtech:machine:4174>,<gregtech:meta_item_1:13671>*8,<gregtech:meta_item_1:13671>*8,<gregtech:meta_item_1:13671>*8,<gregtech:meta_item_1:13671>*8,<gregtech:meta_item_1:13671>*8)
-	.fluidInputs(<liquid:neutronium_doped_nanotubes>*2000,<liquid:soldering_alloy>*20000)
-	.outputs(<gregtech:machine:10007>)
-	.duration(9000)
-	.EUt(45635364)
-	.buildAndRegister();
 
 lcr.recipeBuilder()
 	.inputs(<extendedcrafting:material:16>,<extendedcrafting:material:7>)
@@ -1518,13 +1432,6 @@ assembly_line.recipeBuilder()
 	.property("Qubit", 12)
 	.buildAndRegister();
 
-assembler.recipeBuilder()
-	.inputs(<minecraft:stick>,<enderio:item_alloy_ingot:6>)
-	.fluidInputs(<liquid:soldering_alloy>*200)
-	.outputs(<pneumaticcraft:crop_support>*2)
-	.duration(200)
-	.EUt(180)
-	.buildAndRegister();
 
 assembler.recipeBuilder()	
 	.inputs(<contenttweaker:diamondaluminiumcasing>,<gregtech:meta_item_1:17001>*4,<gregtech:meta_item_2:32455>*2,<forestry:thermionic_tubes:5>*2)
@@ -1587,14 +1494,6 @@ stellar.recipeBuilder()
 	.fluidInputs([<liquid:einsteinium257>*1000])
 	.duration(200)
 	.EUt(90000000)
-	.buildAndRegister();
-
-assembly_line.recipeBuilder()
-	.inputs(<gtadditions:ga_meta_item:32035>,<gregtech:meta_item_1:19728>*16,<gtadditions:ga_meta_item:32426>*4,<gtadditions:ga_meta_item:32601>*32,<gtadditions:ga_meta_item:32602>*32,<gtadditions:ga_meta_item:32603>*32,<gtadditions:ga_meta_item:32604>*32,<gregtech:cable:516>*4)
-	.fluidInputs(<liquid:quantumdots>*2000,<liquid:quantum>*2000,<liquid:pvtchs>*2000)
-	.outputs(<pneumaticcraft:empty_pcb:100>)
-	.duration(400)
-	.EUt(900000)
 	.buildAndRegister();
 
 assembler.recipeBuilder()	
