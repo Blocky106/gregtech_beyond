@@ -151,25 +151,6 @@ lcr.recipeBuilder()
 
 Utils.removeRecipeByOutput(fermenter, [], [<liquid:fermented_biomass>*100], false);
 
-
-chemReactor.recipeBuilder()
-    .fluidInputs(<liquid:carbon_sulfide>*1000,<liquid:ethanol>*1000)
-    .inputs(<gregtech:meta_item_1:2373>*3)
-    .outputs(<gregtech:meta_item_1:2595>)
-    .fluidOutputs(<liquid:water>*1000)
-    .duration(200)
-    .EUt(24)
-    .buildAndRegister();
-
-lcr.recipeBuilder()
-    .fluidInputs(<liquid:carbon_sulfide>*1000,<liquid:ethanol>*1000)
-    .inputs(<gregtech:meta_item_1:2373>*3)
-    .outputs(<gregtech:meta_item_1:2595>)
-    .fluidOutputs(<liquid:water>*1000)
-    .duration(200)
-    .EUt(24)
-    .buildAndRegister();
-
 chemReactor.recipeBuilder()
     .fluidInputs(<liquid:carbon_sulfide>*1000,<liquid:ethanol>*1000)
     .inputs(<gregtech:meta_item_1:2054>*3)
@@ -3575,7 +3556,7 @@ assembly_line.recipeBuilder()
 
 assembly_line.recipeBuilder()
     .fluidInputs(<liquid:naquadriatictritanium>*16000,<liquid:quantium>*16000,<liquid:pedot>*16000)
-    .inputs(<gregtech:machine:3271>*32,<gregtech:meta_item_2:26528>*4,<contenttweaker:fieldgeneratorcasing>*32,<ore:circuitUmv>*16,<ore:circuitUmv>*16,<ore:circuitUmv>*16,<ore:circuitUmv>*16,<gtadditions:ga_meta_item:32381>*16,<gtadditions:ga_meta_item:32375>*16,<gtadditions:ga_meta_item:32387>*16,<gtadditions:ga_meta_item:32393>*16,<gtadditions:ga_meta_item:32357>*64,<gtadditions:ga_meta_item:32363>*32,<gregtech:ga_cable:2724>*12,<gregtech:ga_cable:2724>*12,<threng:machine:3>*16)
+    .inputs(<gregtech:machine:3271>*32,<gregtech:meta_item_2:26528>*4,<contenttweaker:fieldgeneratorcasing>*32,<ore:circuitUmv>*16,<ore:circuitUmv>*16,<ore:circuitUmv>*16,<contenttweaker:spacetimebendingprocessor>*4,<gtadditions:ga_meta_item:32381>*16,<gtadditions:ga_meta_item:32375>*16,<gtadditions:ga_meta_item:32387>*16,<gtadditions:ga_meta_item:32393>*16,<gtadditions:ga_meta_item:32357>*64,<gtadditions:ga_meta_item:32363>*32,<gregtech:ga_cable:2724>*12,<gregtech:ga_cable:2724>*12,<threng:machine:3>*16)
     .outputs(<gregtech:machine:10048>)
     .EUt(22220000)
     .duration(2000)
