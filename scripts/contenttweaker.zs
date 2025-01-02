@@ -197,6 +197,7 @@ registerMetalBlock("t1_rocket_combustion_engine", 12.0, 10.0, 1);
 var items = [
 "trenched_superconductor_layered_uhasoc_wafer",
 "uev_superconductor_assembly",
+"fume_hood",
 "optical_capacitor_base",
 "lafeaso1_pellets",
 "lafeaso1_catalyst",
