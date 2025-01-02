@@ -1405,14 +1405,14 @@ lcr.recipeBuilder()
 
 chemReactor.recipeBuilder()
     .fluidInputs(<liquid:potassium_carbonate_mixture>*1000,<liquid:ethanol>*1000)
-    .fluidOUtputs(<liquid:potassium_ethyl_xanthate_solution>*2000)
+    .fluidOutputs(<liquid:potassium_ethyl_xanthate_solution>*2000)
     .duration(2000)
     .EUt(700)
     .buildAndRegister();
 
 lcr.recipeBuilder()
     .fluidInputs(<liquid:potassium_carbonate_mixture>*1000,<liquid:ethanol>*1000)
-    .fluidOUtputs(<liquid:potassium_ethyl_xanthate_solution>*2000)
+    .fluidOutputs(<liquid:potassium_ethyl_xanthate_solution>*2000)
     .duration(2000)
     .EUt(700)
     .buildAndRegister();
