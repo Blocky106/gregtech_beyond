@@ -28,53 +28,53 @@ val primitive_blast_furnace = Builder.start(loc, meta)
     .withPattern(
             FactoryBlockPattern.start(RelativeDirection.RIGHT, RelativeDirection.BACK, RelativeDirection.UP)
                 .aisle(
-                    " CCC ",
+                    "~CCC~",
                     "CCCCC",
                     "CCCCC",
                     "CCCCC",
-                    " CCC ")
+                    "~CCC~")
                 .aisle(
-                    "  C  ",
-                    " C C ",
-                    "C   C",
-                    " C C ",
-                    "  S  ")
+                    "~~C~~",
+                    "~C~C~",
+                    "C~~~C",
+                    "~C~C~",
+                    "~~S~~")
                 .aisle(
-                    "  C  ",
-                    " CCC ",
-                    "CC CC",
-                    " CCC ",
-                    "  C  ")
+                    "~~C~~",
+                    "~CCC~",
+                    "CC~CC",
+                    "~CCC~",
+                    "~~C~~")
                 .aisle(
-                    "     ",
-                    " CCC ",
-                    " C C ",
-                    " CCC ",
-                    "     ")
+                    "~~~~~",
+                    "~CCC~",
+                    "~C~C~",
+                    "~CCC~",
+                    "~~~~~")
                 .aisle(
-                    "     ",
-                    "  C  ",
-                    " C C ",
-                    "  C  ",
-                    "     ")
+                    "~~~~~",
+                    "~~C~~",
+                    "~C~C~",
+                    "~~C~~",
+                    "~~~~~")
                 .aisle(
-                    "     ",
-                    "  C  ",
-                    " C C ",
-                    "  C  ",
-                    "     ")
+                    "~~~~~",
+                    "~~C~~",
+                    "~C~C~",
+                    "~~C~~",
+                    "~~~~~")
                 .aisle(
-                    "     ",
-                    "  C  ",
-                    " C C ",
-                    "  C  ",
-                    "     ")
+                    "~~~~~",
+                    "~~C~~",
+                    "~C~C~",
+                    "~~C~~",
+                    "~~~~~")
                 .aisle(
-                    "     ",
-                    "  C  ",
-                    " C C ",
-                    "  C  ",
-                    "     ")
+                    "~~~~~",
+                    "~~C~~",
+                    "~C~C~",
+                    "~~C~~",
+                    "~~~~~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
                 .setAmountAtLeast('C', 60)
@@ -105,5 +105,5 @@ val primitive_blast_furnace = Builder.start(loc, meta)
                         .build())
 .withZoom(0.5f)
 .buildAndRegister() as Multiblock;
-solar_thermal_concentrator.noEnergy = true;
+primitive_blast_furnace.noEnergy = true;
        
