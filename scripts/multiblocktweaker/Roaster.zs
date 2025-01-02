@@ -457,5 +457,13 @@ roaster.recipeMap.recipeBuilder()
     .EUt(200)
     .buildAndRegister();
 
+roaster.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2691>*3)
+    .fluidOutputs(<liquid:oxygen>*2000)
+    .outputs(<gregtech:meta_item_1:2883>)
+    .duration(800)
+    .EUt(800)
+    .buildAndRegister();
+
 
     

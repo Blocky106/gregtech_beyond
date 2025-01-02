@@ -750,6 +750,7 @@ assembler.recipeBuilder()
     .inputs(<gregtech:ga_cable:738>*32,<gtadditions:ga_meta_item:32367>,<contenttweaker:uev_superconductor_assembly>)
     .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
     .fluidInputs(<liquid:microcrystallizinghydrogen>*14000)
+    .outputs(<gregtech:ga_cable:737>*32)
     .duration(2000)
     .EUt(80000)
     .buildAndRegister();
@@ -1423,4 +1424,40 @@ distillation_tower.recipeBuilder()
     .fluidOutputs(<liquid:ethanol>*1000)
     .duration(400)
     .EUt(2000)
+    .buildAndRegister();
+
+Utils.removeRecipeByOutput(assembly_line, [<gtadditions:ga_meta_item:32500>*6],[]).remove();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:osmium_solution>*1000)
+    .notConsumable(<contenttweaker:fume_hood>)
+    .notConsumable(<liquid:sulfur_dioxide>)
+    .fluidOutputs(<liquid:oxygen>*4000,<liquid:oxygen_reduced_osmium_solution>*1000)
+    .duration(400)
+    .EUt(2000)
+    .buildAndRegister();
+    
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:osmium_solution>*1000)
+    .notConsumable(<contenttweaker:fume_hood>)
+    .notConsumable(<liquid:sulfur_dioxide>)
+    .fluidOutputs(<liquid:oxygen>*4000,<liquid:oxygen_reduced_osmium_solution>*1000)
+    .duration(400)
+    .EUt(2000)
+    .buildAndRegister();
+
+distillation_tower.recipeBuilder()
+    .fluidInputs(<liquid:oxygen_reduced_osmium_solution>*1000)
+    .outputs(<gregtech:meta_item_1:2047>)
+    .fluidOutputs(<liquid:water>*1000)
+    .duration(400)
+    .EUt(4000)
+    .buildAndRegister();
+
+roasters.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2691>*3)
+    .fluidOutputs(<liquid:oxygen>*2000)
+    .outputs(<gregtech:meta_item_1:2883>)
+    .duration(800)
+    .EUt(800)
     .buildAndRegister();
