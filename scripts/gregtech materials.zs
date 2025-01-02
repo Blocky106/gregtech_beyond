@@ -311,6 +311,11 @@ polycyclopentene.addFlags(["GENERATE_PLATE"]);
 val metallic_hydrogen = MaterialRegistry.createIngotMaterial(633,"metallic_hydrogen",0x325677,"SHINY",3);
 metallic_hydrogen.addFlags(["GENERATE_PLATE","GENERATE_FRAME"]);
 
+val tara_c_o_alloy = MaterialRegistry.createIngotMaterial(634,"tara_c_o_alloy",0x9F8FA3,"SHINY",3);
+tara_c_o_alloy.addFlags(["GENERATE_PLATE","GENERATE_FRAME"]);
+
+
+
 
 
 util.registerDust("kaminskycatalyst", 32000, 0x372927, "DULL");
@@ -547,10 +552,12 @@ util.registerDust("dense_carbon_oxygen_matter", 32237, 0x559ED8, "SHINY");
 util.registerDust("dense_exotic_matter", 32238, 0x66BB6A, "SHINY");
 util.registerDust("lafeaso1_catalyst_preparation", 32239, 0x987064, "SHINY");
 util.registerDust("raney_nickel", 32240, 0xC7E4F0, "SHINY");
+util.registerDust("carbon_disulfide", 32241, 0xC2BE9D, "DULL");
 
 
 
 
+util.registerFluid("decene", 0x9B9983);
 util.registerFluid("fuming_hydrogen", 0xC59773);
 util.registerFluid("lafeaso1_mixture", 0x987064);
 util.registerFluid("neodymium_solution", 0x454545);
