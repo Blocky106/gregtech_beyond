@@ -17,7 +17,6 @@ import mods.nuclearcraft.IngotFormer;
 
 
 
-<pneumaticcraft:turbine_blade>.displayName="Metastable Oganesson Plated Naquadah Alloy Turbine Blade";
 <forestry:apatite>.displayName="Apatite Gemstone";
 <forestry:ash>.displayName="Ash Nanoparticles";
 
