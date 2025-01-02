@@ -91,4 +91,9 @@ recipes.addShapeless(<minecraft:stone_button>,[<minecraft:stone>,<gregtech:meta_
 recipes.addShaped(<tconstruct:seared_tank>, [	[<ore:ingotBrickSeared>, <ore:ingotBrickSeared>, <ore:ingotBrickSeared>], 	[<ore:ingotBrickSeared>, <ore:dustGlass>, <ore:ingotBrickSeared>], 	[<ore:ingotBrickSeared>, <ore:ingotBrickSeared>, <ore:ingotBrickSeared>]]);
 recipes.remove(<tconstruct:seared_tank>);
 
-
+recipes.remove(<tconstruct:wooden_hopper>);
+recipes.addShaped(<tconstruct:wooden_hopper>, [
+	[<gregtech:meta_item_1:12196>, null, <gregtech:meta_item_1:12196>], 
+	[<ore:plankWood>, <ore:chest>, <ore:plankWood>], 
+	[null, <ore:plankWood>, null]
+]);
