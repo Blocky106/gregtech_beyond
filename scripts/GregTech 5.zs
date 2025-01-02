@@ -1332,3 +1332,49 @@ recipes.addShaped(<gregtech:machine:4176>, [	[null, <ore:plateTin>, null], 	[<or
 
 recipes.remove(<gregtech:machine:4177>);
 recipes.addShaped(<gregtech:machine:4177>, [	[null, <ore:platePotin>, null], 	[<ore:plateTin>, <ore:chest>, <ore:plateTin>], 	[null, <ore:platePotin>, null]]);
+
+recipes.remove(<gregtech:metal_casing:8>);
+
+recipes.addShaped(<gregtech:metal_casing:8>*2, [	[<gregtech:meta_item_2:32016>, <gregtech:meta_item_2:32016>], 	[<gregtech:meta_item_2:32016>, <gregtech:meta_item_2:32016>]]);
+
+fluidheater.recipeBuilder()
+    .fluidInputs(<liquid:n-decanol>*1000)
+    .notConsumable(<gtadditions:ga_dust:30>)
+    .fluidOutputs(<liquid:decene>*1000)
+    .duration(400)
+    .EUt(800)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:carbon_monoxide>*1000,<liquid:hydrogen>*1000,<liquid:decene>*1000)
+    .notConsumable(<gregtech:meta_item_1:2869>)
+    .fluidOutputs(<liquid:nonanoic_acid>*1000)
+    .duration(200)
+    .EUt(700)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:carbon_monoxide>*1000,<liquid:hydrogen>*1000,<liquid:decene>*1000)
+    .notConsumable(<gregtech:meta_item_1:2869>)
+    .fluidOutputs(<liquid:nonanoic_acid>*1000)
+    .duration(200)
+    .EUt(700)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:carbon_sulfide>*1000,<liquid:ethanol>*1000)
+    .inputs(<gregtech:meta_item_1:2373>*3)
+    .outputs(<gregtech:meta_item_1:2595>)
+    .fluidOutputs(<liquid:water>*1000)
+    .duration(200)
+    .EUt(24)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:carbon_sulfide>*1000,<liquid:ethanol>*1000)
+    .inputs(<gregtech:meta_item_1:2373>*3)
+    .outputs(<gregtech:meta_item_1:2595>)
+    .fluidOutputs(<liquid:water>*1000)
+    .duration(200)
+    .EUt(24)
+    .buildAndRegister();
