@@ -253,7 +253,7 @@ mixer.recipeBuilder()
     .buildAndRegister();
 
 assembly_line.recipeBuilder()
-    .inputs(<gregtech:meta_item_1:10739>,<gregtech:meta_item_1:10737>,<gregtech:meta_item_1:10726>,<gregtech:meta_item_1:10724>,<gregtech:meta_item_1:10722>,<pneumaticcraft:ingot_iron_compressed>,<gregtech:meta_item_1:10856>,<gregtech:meta_item_1:10309>,<extendedcrafting:material:24>,<gregtech:meta_item_1:10775>,<gregtech:meta_item_1:10716>,<gregtech:meta_item_1:10720>,<gregtech:meta_item_1:10671>,<gregtech:meta_item_1:10672>,<contenttweaker:advancedradiationproofplate>*2)
+    .inputs(<gregtech:meta_item_1:10739>,<gregtech:meta_item_1:10737>,<gregtech:meta_item_1:10726>,<gregtech:meta_item_1:10724>,<gregtech:meta_item_1:10722,<gregtech:meta_item_1:10856>,<gregtech:meta_item_1:10309>,<extendedcrafting:material:24>,<gregtech:meta_item_1:10775>,<gregtech:meta_item_1:10716>,<gregtech:meta_item_1:10720>,<gregtech:meta_item_1:10671>,<gregtech:meta_item_1:10672>,<contenttweaker:advancedradiationproofplate>*2)
     .outputs(<extendedcrafting:material:32>)
     .duration(2000)
     .EUt(120000)
@@ -1042,13 +1042,6 @@ fluid_solidifier.recipeBuilder()
     .outputs(<thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 1 as byte, Level: 4 as byte}))
     .notConsumable(<gregtech:meta_item_1:32308>)
     .duration(4000)
-    .EUt(2147000000)
-    .buildAndRegister();
-
-assembler.recipeBuilder()
-    .inputs(<enderio:block_powered_spawner>,<pneumaticcraft:spawner_agitator>)
-    .outputs(<enderio:block_creative_spawner>)
-    .duration(400)
     .EUt(2147000000)
     .buildAndRegister();
 
