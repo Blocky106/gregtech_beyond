@@ -36,7 +36,6 @@ mods.jei.JEI.hideCategory("gregtech:black_hole_compressor");
 mods.jei.JEI.hideCategory("gregtech:catalytic_reformation_unit");
 mods.jei.JEI.hideCategory("gregtech:condensation_unit");
 mods.jei.JEI.hideCategory("gregtech:coker");
-mods.jei.JEI.hideCategory("gregtech:cosmic_pneumatic_chamber");
 mods.jei.JEI.hideCategory("gregtech:cryogenic_distillation_plant");
 mods.jei.JEI.hideCategory("gregtech:cstr");
 mods.jei.JEI.hideCategory("gregtech:cvd_unit");
@@ -525,34 +524,6 @@ val itemstoRemove =
 <projectred-transmission:wire:16>,
 <projectred-core:resource_item:251>,
 <projectred-core:resource_item:252>,
-<pneumaticcraft:network_component:5>,
-<pneumaticcraft:crop_support>,
-<pneumaticcraft:pressure_chamber_wall>,
-<pneumaticcraft:gun_ammo_incendiary>,
-<pneumaticcraft:gun_ammo_weighted>,
-<pneumaticcraft:gun_ammo_ap>,
-<pneumaticcraft:gun_ammo_explosive>,
-<pneumaticcraft:gun_ammo_freezing>,
-<pneumaticcraft:minigun>,
-<pneumaticcraft:air_canister>,
-<pneumaticcraft:pressure_tube>,
-<pneumaticcraft:pressure_chamber_valve>,
-<pneumaticcraft:assembly_controller>,
-<pneumaticcraft:assembly_platform>,
-<pneumaticcraft:assembly_drill>,
-<pneumaticcraft:assembly_laser>,
-<pneumaticcraft:assembly_io_unit>,
-<pneumaticcraft:pressure_chamber_glass>,
-<pneumaticcraft:air_compressor>,
-<pneumaticcraft:cannon_barrel>,
-<pneumaticcraft:advanced_air_compressor>,
-<pneumaticcraft:turbine_rotor>,
-<pneumaticcraft:electrostatic_compressor>,
-<pneumaticcraft:network_component:3>,
-<pneumaticcraft:uv_light_box>,
-<pneumaticcraft:gun_ammo>,
-<pneumaticcraft:plastic_mixer>,
-<pneumaticcraft:liquid_hopper> ,
 <overloaded:nether_star_block>,
 <overloaded:compressed_cobblestone:1>,
 <overloaded:compressed_cobblestone>,
@@ -909,7 +880,6 @@ val itemstoRemove =
 <threng:machine>,
 <ae2stuff:wireless>,
 <ae2stuff:inscriber>,
-<pneumaticcraft:refinery>,
 ]
  as IItemStack[];
 
