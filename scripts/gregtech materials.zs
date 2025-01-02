@@ -557,6 +557,7 @@ util.registerDust("carbon_disulfide", 32241, 0xC2BE9D, "DULL");
 
 
 
+util.registerFluid("potassium_carbonate_mixture", 0xD3C867);
 util.registerFluid("decene", 0x9B9983);
 util.registerFluid("fuming_hydrogen", 0xC59773);
 util.registerFluid("lafeaso1_mixture", 0x987064);

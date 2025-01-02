@@ -1378,3 +1378,49 @@ lcr.recipeBuilder()
     .duration(200)
     .EUt(24)
     .buildAndRegister();
+
+recipes.remove(<gregtech:machine:2553>);
+
+recipes.addShapeless(<gregtech:machine:10119>,[<gregtech:machine:2553>]);
+recipes.addShapeless(<gregtech:machine:10119>,[<gregtech:machine:510>]);
+
+recipes.addShaped(<gregtech:machine:510>, [	[<gregtech:meta_item_1:12033>, null, <gregtech:meta_item_1:12033>], 	[<ore:stickIron>, <gregtech:metal_casing:1>, <ore:stickIron>], 	[<ore:screwIron>, <ore:stickIron>, <ore:screwIron>]]);
+recipes.addShaped(<gregtech:machine:510>, [	[<gregtech:meta_item_1:12095>, null, <gregtech:meta_item_1:12095>], 	[<ore:stickBronze>, <gregtech:metal_casing:1>, <ore:stickBronze>], 	[<ore:screwBronze>, <ore:stickBronze>, <ore:screwBronze>]]);
+
+chemReactor.recipeBuilder()
+    .fluidOutputs(<liquid:potassium_carbonate_mixture>*1000)
+    .fluidInputs(<liquid:potassium_carbonate_solution>*1000)
+    .inputs(<gtadditions:ga_dust:32241>*3)
+    .duration(500)
+    .EUt(700)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidOutputs(<liquid:potassium_carbonate_mixture>*1000)
+    .fluidInputs(<liquid:potassium_carbonate_solution>*1000)
+    .inputs(<gtadditions:ga_dust:32241>*3)
+    .duration(500)
+    .EUt(700)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:potassium_carbonate_mixture>*1000,<liquid:ethanol>*1000)
+    .fluidOUtputs(<liquid:potassium_ethyl_xanthate_solution>*2000)
+    .duration(2000)
+    .EUt(700)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:potassium_carbonate_mixture>*1000,<liquid:ethanol>*1000)
+    .fluidOUtputs(<liquid:potassium_ethyl_xanthate_solution>*2000)
+    .duration(2000)
+    .EUt(700)
+    .buildAndRegister();
+
+distillation_tower.recipeBuilder()
+    .fluidInputs(<liquid:potassium_ethyl_xanthate_solution>*2000)
+    .outputs(<gregtech:meta_item_1:2624>*2)
+    .fluidOutputs(<liquid:ethanol>*1000)
+    .duration(400)
+    .EUt(2000)
+    .buildAndRegister();
