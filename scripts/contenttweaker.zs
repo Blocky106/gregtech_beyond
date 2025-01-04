@@ -86,8 +86,7 @@ maraging_steel_frame_300.setBlockHardness(1.5);
 maraging_steel_frame_300.setBlockResistance(3.0);
 maraging_steel_frame_300.setLightOpacity(5);
 maraging_steel_frame_300.setFullBlock(false);
-ultrahighresistanceglass.setTranslucent(true);
-ultrahighresistanceglass.setBlockLayer("TRANSLUCENT");
+maraging_steel_frame_300.setBlockLayer("TRANSLUCENT");
 maraging_steel_frame_300.setToolClass("pickaxe");
 maraging_steel_frame_300.setToolLevel(2);
 maraging_steel_frame_300.setBlockSoundType(<soundtype:metal>);
@@ -246,6 +245,14 @@ var items = [
 "nether",
 "beneath",
 "thin_nylon_sheet",
+"space_assembler_module",
+"space_assembler_module_mk2",
+"space_assembler_module_mk3",
+"space_mining_module",
+"space_mining_module_mk2",
+"space_mining_module_mk3",
+"space_ultraclean_module",
+"space_crystal_growth_module",
 "cotton_sheet",
 "aether",
 "twilight_forest",
