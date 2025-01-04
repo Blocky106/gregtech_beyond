@@ -66,6 +66,7 @@ val superheavy_reactor = Builder.start(loc, meta)
                     "CCCCC")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 40)
                 .whereOr("C", 
                 <metastate:contenttweaker:atomic_casing>,
                     IBlockMatcher.abilityPartPredicate(
