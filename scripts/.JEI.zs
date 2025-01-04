@@ -251,7 +251,6 @@ val itemstoRemove =
 <thermalfoundation:upgrade:34>,
 <thermalfoundation:upgrade:35>,
 <gregtech:meta_item_1:2364>,
-<gregtech:metal_casing:3>,
 <gregtech:machine:2535>,
 <forestry:worktable>,
 <forestry:sturdy_machine>,

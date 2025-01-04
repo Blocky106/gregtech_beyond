@@ -349,13 +349,6 @@ mixer.recipeBuilder()
 	.buildAndRegister();
 
 assembler.recipeBuilder()
-	.inputs(<contenttweaker:supercooledplate> * 8,<gregtech:frame_aluminium>)
-	.outputs(<gregtech:metal_casing:3>)
-	.duration(500)
-	.EUt(480)
-	.buildAndRegister();
-
-assembler.recipeBuilder()
 	.inputs(<ore:gearBismuthBronze> * 4, <contenttweaker:bisphenolbingot> * 4, <gtadditions:ga_meta_item:32028>)
 	.outputs(<forestry:sturdy_machine>)
 	.duration(50)
@@ -1262,14 +1255,6 @@ ebf.recipeBuilder()
 	.EUt(8300000)
 	.buildAndRegister();
 
-lcr.recipeBuilder()
-	.inputs(<gregtech:meta_item_1:1093>*3,<minecraft:rotten_flesh>*7,<minecraft:slime_ball>)
-	.fluidInputs(<liquid:sulfuric_acid>*1000,<liquid:blood>*1000)
-	.fluidOutputs(<liquid:etchacid>*5000)
-	.EUt(800)
-	.duration(120000)
-	.buildAndRegister();
-
 assembly_line.recipeBuilder()
 	.inputs(<contenttweaker:hicomputationstationmk4>,<ore:circuitUmv>,<ore:circuitUmv>,<gregtech:meta_item_2:32436>*16,<gregtech:ga_cable:4775>*16,<gtadditions:ga_meta_item:32561>*2,<gregtech:meta_item_2:16716>*64,<gregtech:meta_item_2:16716>*64,<gregtech:meta_block_compressed_45:4>*16)
 	.fluidInputs(<liquid:zylon>*1000,<liquid:cinobite_molten>*1000)
@@ -1431,7 +1416,6 @@ assembly_line.recipeBuilder()
 	.EUt(80232354)
 	.property("Qubit", 12)
 	.buildAndRegister();
-
 
 assembler.recipeBuilder()	
 	.inputs(<contenttweaker:diamondaluminiumcasing>,<gregtech:meta_item_1:17001>*4,<gregtech:meta_item_2:32455>*2,<forestry:thermionic_tubes:5>*2)
