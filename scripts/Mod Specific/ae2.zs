@@ -351,3 +351,23 @@ assembler.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
+assembler.recipeBuilder()
+    .inputs(<ore:sand>,<gregtech:meta_item_1:2201>)
+    .outputs(<appliedenergistics2:crystal_seed:600>)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs(<ore:sand>,<appliedenergistics2:material:8>)
+    .outputs(<appliedenergistics2:crystal_seed:1200>)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs(<ore:sand>,<gregtech:meta_item_1:2202>)
+    .outputs(<appliedenergistics2:crystal_seed>)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
