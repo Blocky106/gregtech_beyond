@@ -1748,3 +1748,28 @@ val space_elevator = Builder.start(loc, meta)
                         .build())
 .withZoom(0.5f)
 .buildAndRegister() as Multiblock;
+
+
+space_elevator.recipeMap.recipeBuilder()
+       .inputs(<appliedenergistics2:crystal_seed>)
+       .notConsumable(<contenttweaker:space_crystal_growth_module>)
+       .outputs(<appliedenergistics2:material:10>)
+       .EUt(400)
+       .duration(200)
+       .buildAndRegister();
+
+space_elevator.recipeMap.recipeBuilder()
+       .inputs(<appliedenergistics2:crystal_seed:600>)
+       .notConsumable(<contenttweaker:space_crystal_growth_module>)
+       .outputs(<appliedenergistics2:material:11>)
+       .EUt(400)
+       .duration(200)
+       .buildAndRegister();
+
+space_elevator.recipeMap.recipeBuilder()
+       .inputs(<appliedenergistics2:crystal_seed:1200>)
+       .notConsumable(<contenttweaker:space_crystal_growth_module>)
+       .outputs(<appliedenergistics2:material:12>)
+       .EUt(400)
+       .duration(200)
+       .buildAndRegister();
