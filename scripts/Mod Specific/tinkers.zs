@@ -98,4 +98,4 @@ recipes.addShaped(<tconstruct:wooden_hopper>, [
 	[null, <ore:plankWood>, null]
 ]);
 
-mods.tconstruct.Casting.removeTableRecipe(<enderio:block_alloy_endergy:3>);
+mods.tconstruct.Casting.removeBasinRecipe(<enderio:block_alloy_endergy:3>);
