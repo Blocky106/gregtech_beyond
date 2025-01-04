@@ -20,12 +20,12 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
+    "WET",
+    "HOT",
     "FOREST",
     "LUSH",
     "DENSE",
-    "JUNGLE",
-    "HOT",
-    "WET"
+    "JUNGLE"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [

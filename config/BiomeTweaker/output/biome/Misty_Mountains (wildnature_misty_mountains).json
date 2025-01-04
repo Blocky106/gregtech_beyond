@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "COLD",
     "DEAD",
-    "RARE",
     "SPOOKY",
-    "MOUNTAIN"
+    "RARE",
+    "MOUNTAIN",
+    "COLD"
   ],
   "BiomeManager Entries": {
     "COOL Weights": [
