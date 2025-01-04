@@ -1942,5 +1942,18 @@ multiblocktweaker.machine.tube_furnace.name=Tube Furnace
 recipemap.tube_furnace.name=Tube Furnace
 metaitem.lafeaso1_catalyst_preparation.name=LaFeAsO1 Catalyst Preparation
 metaitem.raney_nickel.name=Raney Nickel Catalyst
-
-
+item.contenttweaker.used_lafeAso1_catalyst.name=Used LaFeAsO1 Catalyst
+item.contenttweaker.fume_hood.name=Fume Hood
+metaitem.carbon_disulfide.name=Carbon Disulfide Dust
+fluid.potassium_ethyl_xanthate_solution=Potassium Ethyl Xanthate Solution
+fluid.potassium_carbonate_mixture=Potassium Carbonate Mixture
+fluid.oxygen_reduced_osmium_solution=Oxygen Reduced Osmium Solution
+fluid.fuming_hydrogen=Fuming Hydrogen
+fluid.decene=Decene 
+multiblocktweaker.machine.primitive_blast_furnace.name=Primitive Blast Furnace
+recipemap.primitive_blast_furnace.name=Primtive Blasting
+tile.contenttweaker.maraging_steel_frame_300.name=Maraging Steel 250 Frame
+tile.contenttweaker.space_elevator_block.name=Space Elevator Block
+tile.contenttweaker.space_elevator_railway_block.name=Space Elevator Railway Block
+multiblocktweaker.machine.space_elevator.name=Space Elevator
+recipemap.space_elevator.name=Space Elevator
