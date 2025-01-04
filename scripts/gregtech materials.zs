@@ -309,10 +309,14 @@ val polycyclopentene = MaterialRegistry.createIngotMaterial(632,"polycyclopenten
 polycyclopentene.addFlags(["GENERATE_PLATE"]);
 
 val metallic_hydrogen = MaterialRegistry.createIngotMaterial(633,"metallic_hydrogen",0x325677,"SHINY",3);
-metallic_hydrogen.addFlags(["GENERATE_PLATE","GENERATE_FRAME"]);
+metallic_hydrogen.addFlags(["GENERATE_PLATE","GENERATE_FRAME","GENERATE_ROD"]);
 
 val tara_c_o_alloy = MaterialRegistry.createIngotMaterial(634,"tara_c_o_alloy",0x9F8FA3,"SHINY",3);
-tara_c_o_alloy.addFlags(["GENERATE_PLATE","GENERATE_FRAME"]);
+tara_c_o_alloy.addFlags(["GENERATE_PLATE","GENERATE_FRAME","GENERATE_ROD"]);
+
+val trinaquadalloy = MaterialRegistry.createIngotMaterial(635,"trinaquadalloy",0x331757,"SHINY",3);
+trinaquadalloy.addFlags(["GENERATE_PLATE","GENERATE_FRAME","GENERATE_ROD"]);
+
 
 
 
@@ -555,8 +559,8 @@ util.registerDust("raney_nickel", 32240, 0xC7E4F0, "SHINY");
 util.registerDust("carbon_disulfide", 32241, 0xC2BE9D, "DULL");
 
 
-
-
+util.registerFluid("oxygen_reduced_osmium_solution", 0x3948A6);
+util.registerFluid("potassium_ethyl_xanthate_solution", 0xF5D750);
 util.registerFluid("potassium_carbonate_mixture", 0xD3C867);
 util.registerFluid("decene", 0x9B9983);
 util.registerFluid("fuming_hydrogen", 0xC59773);
@@ -1104,3 +1108,4 @@ util.registerFluid("superfluid_carbon_oxygen_mixture_plasma", 0xBDC0DB);
 <material:tumbaga>.addFlags(["GENERATE_ROTOR"]);
 <material:tungsten_carbide>.addFlags(["GENERATE_ROTOR"]);
 <material:tourmaline>.addFlags(["GENERATE_ORE"]);
+<material:naquadah_alloy>.addFlags(["GENERATE_FRAME"]);
