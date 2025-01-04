@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/maraging_steel_frame_300_side",
+		"left" : "contenttweaker:blocks/maraging_steel_frame_300_side",
+		"right" : "contenttweaker:blocks/maraging_steel_frame_300_side",
+		"back" : "contenttweaker:blocks/maraging_steel_frame_300_side",
+		"top" : "contenttweaker:blocks/maraging_steel_frame_300_top",
+		"bottom" : "contenttweaker:blocks/maraging_steel_frame_300_top"
+
+	}
+	
+
+}

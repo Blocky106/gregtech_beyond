@@ -21,9 +21,9 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "SAVANNA",
-    "HOT",
+    "DEAD",
     "DRY",
-    "DEAD"
+    "HOT"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [
