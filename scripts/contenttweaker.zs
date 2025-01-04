@@ -19,6 +19,8 @@ import mods.contenttweaker.SoundType;
 import crafttweaker.item.IItemStack;
 import mods.contenttweaker.DropHandler;
 import mods.contenttweaker.ItemList;
+import mods.contenttweaker.Facing;
+
 
 function registerItem(name as string) {
     var item = VanillaFactory.createItem(name);
@@ -78,6 +80,18 @@ ultrahighresistanceglass.setToolClass("pickaxe");
 ultrahighresistanceglass.setToolLevel(2);
 ultrahighresistanceglass.setBlockSoundType(<soundtype:glass>);
 ultrahighresistanceglass.register();
+
+var maraging_steel_frame_300 = VanillaFactory.createBlock("maraging_steel_frame_300", <blockmaterial:rock>);
+maraging_steel_frame_300.setBlockHardness(1.5);
+maraging_steel_frame_300.setBlockResistance(3.0);
+maraging_steel_frame_300.setLightOpacity(5);
+maraging_steel_frame_300.setFullBlock(false);
+ultrahighresistanceglass.setTranslucent(true);
+ultrahighresistanceglass.setBlockLayer("TRANSLUCENT");
+maraging_steel_frame_300.setToolClass("pickaxe");
+maraging_steel_frame_300.setToolLevel(2);
+maraging_steel_frame_300.setBlockSoundType(<soundtype:metal>);
+maraging_steel_frame_300.register();
 
 
 registerMetalBlock("heat_vent", 12.0 , 10.0, 1);
@@ -190,6 +204,8 @@ registerMetalBlock("rocket_thruster_top", 12.0, 10.0, 1);
 registerMetalBlock("rocket_thruster_bottom", 12.0, 10.0, 1);
 registerMetalBlock("rocket_turbo_pump", 12.0, 10.0, 1);
 registerMetalBlock("t1_rocket_combustion_engine", 12.0, 10.0, 1);
+registerMetalBlock("space_elevator_block", 10.0, 10.0, 1);
+registerMetalBlock("space_elevator_railway_block", 10.0, 10.0, 1);
 
 
 
