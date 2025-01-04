@@ -107,3 +107,28 @@ val primitive_blast_furnace = Builder.start(loc, meta)
 .buildAndRegister() as Multiblock;
 primitive_blast_furnace.noEnergy = true;
        
+
+var CarbonSource as IItemStack[] = [
+<minecraft:coal>,
+<minecraft:coal:1>,
+<gregtech:meta_item_1:2101>,
+<gregtech:meta_item_1:2106>,
+<gregtech:meta_item_1:2211>,
+<gregtech:meta_item_1:2357>,
+];
+
+for i in CarbonSource {
+
+primitive_blast_furnace.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:10197>, i)
+    .outputs(<gregtech:meta_item_1:10184>,<gregtech:meta_item_1:89>)
+    .duration(1000)
+    .buildAndRegister();
+
+primitive_blast_furnace.recipeMap.recipeBuilder()
+    .inputs(<minecraft:iron_ingot>, i)
+    .outputs(<gregtech:meta_item_1:10184>,<gregtech:meta_item_1:89>)
+    .duration(500)
+    .buildAndRegister();
+
+}
