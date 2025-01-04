@@ -1385,8 +1385,8 @@ recipes.remove(<gregtech:machine:2553>);
 recipes.addShapeless(<gregtech:machine:10119>,[<gregtech:machine:2553>]);
 recipes.addShapeless(<gregtech:machine:10119>,[<gregtech:machine:510>]);
 
-recipes.addShaped(<gregtech:machine:510>, [	[<gregtech:meta_item_1:12033>, null, <gregtech:meta_item_1:12033>], 	[<ore:stickIron>, <gregtech:metal_casing:1>, <ore:stickIron>], 	[<ore:screwIron>, <ore:stickIron>, <ore:screwIron>]]);
-recipes.addShaped(<gregtech:machine:510>, [	[<gregtech:meta_item_1:12095>, null, <gregtech:meta_item_1:12095>], 	[<ore:stickBronze>, <gregtech:metal_casing:1>, <ore:stickBronze>], 	[<ore:screwBronze>, <ore:stickBronze>, <ore:screwBronze>]]);
+recipes.addShaped(<gregtech:machine:10119>, [	[<gregtech:meta_item_1:12033>, null, <gregtech:meta_item_1:12033>], 	[<ore:stickIron>, <gregtech:metal_casing:1>, <ore:stickIron>], 	[<ore:screwIron>, <ore:stickIron>, <ore:screwIron>]]);
+recipes.addShaped(<gregtech:machine:10119>, [	[<gregtech:meta_item_1:12095>, null, <gregtech:meta_item_1:12095>], 	[<ore:stickBronze>, <gregtech:metal_casing:1>, <ore:stickBronze>], 	[<ore:screwBronze>, <ore:stickBronze>, <ore:screwBronze>]]);
 
 chemReactor.recipeBuilder()
     .fluidOutputs(<liquid:potassium_carbonate_mixture>*1000)
@@ -1426,7 +1426,7 @@ distillation_tower.recipeBuilder()
     .EUt(2000)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(assembly_line, [<gtadditions:ga_meta_item:32500>*6],[]).remove();
+Utils.removeRecipeByOutput(assembly_line, [<gtadditions:ga_meta_item:32500>*6],[],false);
 
 chemReactor.recipeBuilder()
     .fluidInputs(<liquid:osmium_solution>*1000)
@@ -1461,3 +1461,124 @@ roasters.recipeBuilder()
     .duration(800)
     .EUt(800)
     .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:13572>*6,<gtadditions:ga_meta_item:32361>*2,<ore:circuitUev>*2)
+    .fluidInputs(<liquid:metallic_hydrogen>*144)
+    .outputs(<contenttweaker:stella_anvil_module>)
+    .duration(400)
+    .EUt(80000)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs(<gregtech:wire_coil:7>*4,<gtadditions:ga_meta_item:2311>*32,<gregtech:meta_item_1:17852>*4,<gregtech:meta_item_2:16852>*16,<gregtech:meta_item_2:26852>*2)
+    .fluidInputs(<liquid:kevlar>*288)
+    .outputs(<contenttweaker:electromagnetic_acceleration_pipe_box>*4)
+    .duration(800)
+    .EUt(7000)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:18852>*4,<gregtech:meta_item_1:17852>*16,<gregtech:meta_item_1:12852>*6,<gregtech:fluid_pipe:2850>*4)
+    .fluidInputs(<liquid:kevlar>*144)
+    .outputs(<contenttweaker:neutron_tube_casing>)
+    .duration(200)
+    .EUt(80000)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs(<gregtech:frame_tara_c_o_alloy>,<gregtech:meta_item_1:12634>*6)
+    .outputs(<contenttweaker:mervin_tara_carbonoxygen_casing>)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 6}))
+    .duration(500)
+    .EUt(2000)
+    .buildAndRegister();
+
+
+Utils.removeRecipeByOutput(assembler, [<gregtech:frame_maraging_steel_a>*4],[], false);
+
+recipes.remove(<gregtech:frame_maraging_steel_a>);
+recipes.addShaped(<contenttweaker:maraging_steel_frame_300>*4, [	[<ore:plateMaragingSteelA>, <ore:plateMaragingSteelA>, <ore:plateMaragingSteelA>], 	[<ore:stickMaragingSteelA>, <ore:stickMaragingSteelA>, <ore:stickMaragingSteelA>], 	[<ore:stickMaragingSteelA>, <gregtech:meta_tool:8>, <ore:stickMaragingSteelA>]]);
+
+assembler.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:12985>*4,<gregtech:meta_item_1:14985>*3)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .outputs(<contenttweaker:maraging_steel_frame_300>*4)
+    .duration(400)
+    .EUt(12)
+    .buildAndRegister();
+
+recipes.addShaped(<gtadditions:ga_metal_casing_1:5>*3, [[<ore:plateMaragingSteelA>, <ore:craftingToolHardHammer>, <ore:plateMaragingSteelA>], 	[<ore:plateMaragingSteelA>, <contenttweaker:maraging_steel_frame_300>, <ore:plateMaragingSteelA>], 	[<ore:plateMaragingSteelA>, <ore:craftingToolWrench>, <ore:plateMaragingSteelA>]]);
+
+assembler.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:12985>*6,<contenttweaker:maraging_steel_frame_300>)
+    .outputs(<gtadditions:ga_metal_casing_1:5>*3)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 0}))
+    .duration(800)
+    .EUt(80)
+    .buildAndRegister();
+
+macerator.recipeBuilder()
+    .inputs(<gtadditions:ga_metal_casing_1:5>)
+    .outputs(<gregtech:meta_item_1:985>*12)
+    .duration(200)
+    .EUt(800)
+    .buildAndRegister();
+
+fluidExtractor.recipeBuilder()
+    .inputs(<contenttweaker:maraging_steel_frame_300>)
+    .fluidOutputs(<liquid:maraging_steel_a>*198)
+    .duration(400)
+    .EUt(12)
+    .buildAndRegister();
+
+stellar.recipeBuilder()
+    .outputs(<enderio:block_alloy_endergy:3>)
+    .inputs(<gregtech:meta_item_1:12569>*64)
+    .duration(2000)
+    .EUt(800)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .fluidInputs(<liquid:concrete>*144)
+    .inputs(<contenttweaker:thin_kapton_k_sheet>*16,<gregtech:meta_item_1:12627>*4,<gregtech:meta_item_2:19977>*2,<gregtech:meta_item_2:16743>*16)
+    .outputs(<contenttweaker:space_elevator_railway_block>)
+    .duration(2000)
+    .EUt(15000)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .fluidInputs(<liquid:concrete>*144)
+    .inputs(<gregtech:meta_item_1:12985>*6,<gregtech:frame_naquadah_alloy>)
+    .outputs(<contenttweaker:space_elevator_block>)
+    .duration(2000)
+    .EUt(15000)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .fluidInputs(<liquid:kevlar>*32000,<liquid:soldering_alloy>*32000)
+    .inputs(<gregtech:meta_item_2:16692>*64,<ore:circuitInfinite>*64,<ore:circuitUev>*32,<gtadditions:ga_cable:4>*32,<gregtech:meta_item_2:16692>*64,<gtadditions:ga_meta_item:32348>*16,<gtadditions:ga_meta_item:32360>*16,<gregtech:machine:3239>*4)
+    .outputs(<gregtech:machine:10118>)
+    .duration(8000)
+    .EUt(30000)
+    .buildAndRegister();
+
+recipes.addShaped(<contenttweaker:atomic_casing>, [[<ore:plateTrinaquadalloy>, <gregtech:meta_tool:6>, <ore:plateTrinaquadalloy>], [<ore:plateTrinaquadalloy>, <ore:frameGtTrinaquadalloy>, <ore:plateTrinaquadalloy>], 	[<ore:plateTrinaquadalloy>, <gregtech:meta_tool:8>, <ore:plateTrinaquadalloy>]]);
+
+assembler.recipeBuilder()
+    .inputs(<ore:plateTrinaquadalloy>*6,<ore:frameGtTrinaquadalloy>)
+    .outputs(<contenttweaker:atomic_casing>)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 4}))
+    .duration(800)
+    .EUt(8000)
+    .buildAndRegister();
+
+blastalloy.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2719>*6,<gregtech:meta_item_1:2307>*2,<gregtech:meta_item_1:2012>)
+    .fluidOutputs(<liquid:trinaquadalloy>*1296)
+    .duration(800)
+    .EUt(20000)
+    .buildAndRegister();
+
+Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10556>],[],false);
+
