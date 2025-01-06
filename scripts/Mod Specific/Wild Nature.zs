@@ -92,3 +92,5 @@ macerator.recipeBuilder()
     .buildAndRegister();
 
 recipes.addShapeless(<thaumcraft:amber>*9,[<wildnature:amber_block>]);
+
+recipes.remove(<wildnature:steel_ladder>);
