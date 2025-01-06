@@ -55,7 +55,7 @@ recipes.addShaped(<enderio:item_capacitor_silver>, [	[<contenttweaker:silverstee
 recipes.addShaped(<enderio:item_basic_capacitor:2>, [[<ore:gearHsse>, <ore:platePolonium>, <ore:gearHsse>], 	[<ore:plateDenseNaquadahEnriched>, <enderio:item_basic_capacitor:1>, <ore:plateDenseNaquadahEnriched>], 	[<ore:screwTritanium>, null, <ore:screwTritanium>]]);
 recipes.addShaped(<enderio:item_material:12>, [	[<ore:dustBedrock>, <ore:ingotEnergeticalloy>, <ore:dustBedrock>], 	[<ore:ingotEnergeticalloy>, <ore:gearIronInfinity>, <ore:ingotEnergeticalloy>], 	[<ore:dustBedrock>, <ore:ingotEnergeticalloy>, <ore:dustBedrock>]]);
 recipes.addShaped(<enderio:block_powered_spawner>, [	[<gregtech:meta_item_1:32654>, <ore:plateEnderium>, <gregtech:meta_item_1:32654>], 	[<ore:plateEnderium>, <ore:circuitElite>, <ore:plateEnderium>], 	[<ore:gearEnergized>, <ore:itemMachineChassi>, <ore:gearEnergized>]]);
-recipes.addShaped(<enderio:block_inventory_panel>, [	[<extendedcrafting:material:2>, <gregtech:meta_item_2:32433>, <extendedcrafting:material:2>], 	[<ore:ingotDarkSteel>, <gtadditions:ga_meta_item:32579>, <ore:ingotDarkSteel>], 	[<extendedcrafting:material:2>, <gregtech:meta_item_2:32433>, <extendedcrafting:material:2>]]);
+recipes.addShaped(<enderio:block_inventory_panel>, [	[<extendedcrafting:material:2>, <gregtech:meta_item_2:32433>, <extendedcrafting:material:2>], 	[<ore:ingotDarkSteel>, <ore:circuitBasic>, <ore:ingotDarkSteel>], 	[<extendedcrafting:material:2>, <gregtech:meta_item_2:32433>, <extendedcrafting:material:2>]]);
 recipes.addShaped(<enderio:item_endergy_conduit:2>*2, [	[<ore:itemConduitBinder>, <ore:plateAluminium>, <ore:itemConduitBinder>], 	[<ore:plateIron>, <ore:wireGtDoubleAluminium>, <ore:plateIron>], 	[<ore:itemConduitBinder>, <ore:plateAluminium>, <ore:itemConduitBinder>]]);
 recipes.addShaped(<enderio:item_endergy_conduit:3>*2, [	[<ore:itemConduitBinder>, <ore:plateGold>, <ore:itemConduitBinder>], 	[<ore:plateAluminium>, <ore:wireGtDoubleGold>, <ore:plateAluminium>], 	[<ore:itemConduitBinder>, <ore:plateGold>, <ore:itemConduitBinder>]]);
 recipes.addShaped(<enderio:item_endergy_conduit:4>*2, [	[<ore:itemConduitBinder>, <ore:plateGold>, <ore:itemConduitBinder>], 	[<ore:plateCopper>, <ore:wireGtDoubleCopper>, <ore:plateCopper>], 	[<ore:itemConduitBinder>, <ore:plateGold>, <ore:itemConduitBinder>]]);
@@ -472,15 +472,14 @@ lcr.recipeBuilder()
 
 
 
-recipes.addShaped(<enderio:block_inventory_panel>, [	[<ore:plateAluminium>, <gregtech:meta_item_2:32433>, <ore:plateAluminium>], 	[<appliedenergistics2:material:24>, <ore:circuitAdvanced>, <appliedenergistics2:material:24>], 	[<ore:plateAluminium>, <gregtech:meta_item_2:32433>, <ore:plateAluminium>]]);
 recipes.addShapeless(<enderio:item_extract_speed_downgrade>,[<enderio:item_extract_speed_upgrade>]);
 
-
-
-
-
-
-
+recipes.addShaped(<enderio:block_experience_obelisk>, [	[null, <enderio:item_xp_transfer>, null], 	[<ore:cableGtSingleTin>, <gregtech:machine:501>, <ore:cableGtSingleTin>], 	[<ore:plateAluminium>, <ore:plateAluminium>, <ore:plateAluminium>]]);
+recipes.addShaped(<enderio:block_aversion_obelisk>, [	[null, <ore:itemSkull>, null], 	[<ore:cableGtSingleTin>, <gregtech:machine:501>, <ore:cableGtSingleTin>], 	[<ore:plateAluminium>, <ore:plateAluminium>, <ore:plateAluminium>]]);
+recipes.addShaped(<enderio:block_relocator_obelisk>, [	[null, <ore:prismarine>, null], 	[<ore:cableGtSingleTin>, <gregtech:machine:501>, <ore:cableGtSingleTin>], 	[<ore:plateAluminium>, <ore:plateAluminium>, <ore:plateAluminium>]]);
+recipes.addShaped(<enderio:block_weather_obelisk>, [	[null, <minecraft:fireworks>, null], 	[<ore:cableGtSingleTin>, <gregtech:machine:501>, <ore:cableGtSingleTin>], 	[<ore:plateAluminium>, <ore:plateAluminium>, <ore:plateAluminium>]]);
+recipes.addShaped(<enderio:block_inhibitor_obelisk>, [	[null, <ore:enderpearl>, null], 	[<ore:cableGtSingleTin>, <gregtech:machine:501>, <ore:cableGtSingleTin>], 	[<ore:plateAluminium>, <ore:plateAluminium>, <ore:plateAluminium>]]);
+recipes.addShaped(<enderio:block_attractor_obelisk>, [	[null, <ore:itemAttractorCrystal>, null], 	[<ore:cableGtSingleTin>, <gregtech:machine:501>, <ore:cableGtSingleTin>], 	[<ore:plateAluminium>, <ore:plateAluminium>, <ore:plateAluminium>]]);
 
 
 
