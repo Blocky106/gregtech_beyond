@@ -706,7 +706,7 @@ miracle_top.recipeMap.recipeBuilder()
 miracle_top.recipeMap.recipeBuilder()
     .inputs(<gregtech:meta_item_1:12675>*4,<gtadditions:ga_meta_item:32554>*4,<gtadditions:ga_meta_item:32516>*4,<gtadditions:ga_meta_item:32555>*4,<gregtech:ga_cable:724>*8,<gtadditions:ga_meta_item:32538>*32)
     .fluidInputs(<liquid:soldering_alloy>*288)
-    .outputs(<gtadditions:ga_meta_item:32605>*32)
+    .outputs(<gtadditions:ga_meta_item:32546>*32)
     .duration(400)
     .EUt(800000)
     .buildAndRegister();
