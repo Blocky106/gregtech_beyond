@@ -318,7 +318,7 @@ val trinaquadalloy = MaterialRegistry.createIngotMaterial(635,"trinaquadalloy",0
 trinaquadalloy.addFlags(["GENERATE_PLATE","GENERATE_FRAME","GENERATE_ROD"]);
 
 val nylon610 = MaterialRegistry.createIngotMaterial(636, "nylon610", 0xF3A33D, "DULL", 1);
-nylon610.addFlags(["GENERATE_PLATE","GENERATE_FRAME","GENERATE_ROD"]);
+nylon610.addFlags(["GENERATE_PLATE","GENERATE_FRAME","GENERATE_ROD","GENERATE_FOIL"]);
 
 
 
@@ -346,14 +346,7 @@ util.registerDust("bisphenolbdust", 32018, 0x59330D, "DULL");
 util.registerDust("titaniumtetrachloridedust", 32019, 0x701a31, "SHINY");
 util.registerDust("graphiteuraniummixturedust", 32020, 0x2F5407, "DULL");
 util.registerDust("unprocessedborondust", 32021, 0x5487FF, "DULL");
-util.registerDust("distilledmonazitedust", 32022, 0x0A4B1A, "SHINY");
 util.registerDust("radioactivesludge", 32023, 0x704c0a, "SHINY");
-util.registerDust("monazitebasedpulp", 32024, 0x0E6E25, "SHINY");
-util.registerDust("monazitedigesteddust", 32025, 0x0A521D, "SHINY");
-util.registerDust("monazitefilteredpulp", 32026, 0x0A4718, "SHINY");
-util.registerDust("monazitenitride", 32027, 0x0C6624, "SHINY");
-util.registerDust("monaziteoxide", 32028, 0x0C6624, "SHINY");
-util.registerDust("siftedmonazite", 32029, 0x094B1A, "SHINY");
 util.registerDust("thoriadust", 32030, 0x004B1A, "DULL");
 util.registerDust("sunnariumoxide", 32035, 0xB4AD6A, "DULL");
 util.registerDust("sunnariumdioxide", 32034, 0xB4AD6A, "DULL");
@@ -566,6 +559,11 @@ util.registerDust("manganese_diacetate", 32244, 0xF8CBDA, "SHINY");
 
 
 
+util.registerFluid("propanal", 0xDAC25C);
+util.registerFluid("propanal_mixture", 0xF0DCA9);
+util.registerFluid("carboxylic_acid_mixture", 0x71B1AA);
+util.registerFluid("n_propyl_alcohol", 0xD7B258);
+util.registerFluid("propylamine", 0xFAE7CF);
 util.registerFluid("n-6-aminohexylsebacamide", 0xD2D2B2);
 util.registerFluid("heated_decanedioic_acid", 0xD34E4E);
 util.registerFluid("dihydroxystearic_acid", 0xD7EBFC);

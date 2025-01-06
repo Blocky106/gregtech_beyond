@@ -1777,3 +1777,92 @@ assembler.recipeBuilder()
 Utils.removeRecipeByOutput(electrolyzer, [<gregtech:meta_item_1:2131>,<gregtech:meta_item_1:2077>],[],false);
 
 furnace.remove(<gregtech:meta_item_1:10705>);
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:water>*1000,<liquid:propene>*1000)
+    .fluidOutputs(<liquid:isopropyl_alcohol>*1800,<liquid:n_propyl_alcohol>*200)
+    .duration(400)
+    .EUt(800)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:water>*1000,<liquid:propene>*1000)
+    .fluidOutputs(<liquid:isopropyl_alcohol>*1800,<liquid:n_propyl_alcohol>*200)
+    .duration(400)
+    .EUt(800)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:isopropyl_alcohol>*1000,<liquid:diethylether>*1000)
+    .notConsumable(<nuclearcraft:dust:15>)
+    .fluidOutputs(<liquid:carboxylic_acid_mixture>*2000)
+    .duration(500)
+    .EUt(800)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:isopropyl_alcohol>*1000,<liquid:diethylether>*1000)
+    .notConsumable(<nuclearcraft:dust:15>)
+    .fluidOutputs(<liquid:carboxylic_acid_mixture>*2000)
+    .duration(500)
+    .EUt(800)
+    .buildAndRegister();
+
+dehydrator.recipeBuilder()
+    .fluidInputs(<liquid:carboxylic_acid_mixture>*2000)
+    .fluidOutputs(<liquid:diethylether>*1000,<liquid:propanal_mixture>*1000)
+    .duration(2000)
+    .EUt(800)
+    .buildAndRegister();
+
+distillation_tower.recipeBuilder()
+    .fluidInputs(<liquid:propanal_mixture>*1000)
+    .fluidOutputs(<liquid:propanal>*500,<liquid:propionicacid>*500)
+    .duration(2000)
+    .EUt(800)
+    .buildAndRegister();
+
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:propanal>*1000,<liquid:ammonia>*1000)
+    .fluidOutputs(<liquid:propylamine>*1000)
+    .duration(200)
+    .EUt(800)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:propanal>*1000,<liquid:ammonia>*1000)
+    .fluidOutputs(<liquid:propylamine>*1000)
+    .duration(200)
+    .EUt(800)
+    .buildAndRegister();
+
+mixer.recipeBuilder()
+    .fluidInputs(<liquid:propylamine>*1000,<liquid:propionicacid>*1000)
+    .fluidOutputs(<liquid:tripropylamine>*1000)
+    .duration(200)
+    .EUt(1800)
+    .buildAndRegister();
+
+lmixer.recipeBuilder()
+    .fluidInputs(<liquid:propylamine>*1000,<liquid:propionicacid>*1000)
+    .fluidOutputs(<liquid:tripropylamine>*1000)
+    .duration(200)
+    .EUt(1800)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .fluidInputs(<liquid:titaniumaluminide>*1000,<liquid:moltenfullerenesuperconductor>*1000,<liquid:polybenzimidazole>*1000)
+    .inputs(<gregtech:meta_item_1:19581>*32,<gregtech:meta_item_1:19636>*32,<gregtech:meta_item_1:12760>*16,<gregtech:meta_item_1:12733>*16,<gregtech:machine:2548>*16)
+    .outputs(<contenttweaker:space_mining_module>)
+    .duration(2000)
+    .EUt(8000)
+    .buildAndRegister();
+
+nuclear_reactor.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2795>)
+    .outputs(<gregtech:meta_item_1:2794>)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .duration(4000)
+    .EUt(12000)
+    .buildAndRegister();
