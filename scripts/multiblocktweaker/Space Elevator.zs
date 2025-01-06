@@ -1749,7 +1749,7 @@ val space_elevator = Builder.start(loc, meta)
 .withZoom(0.5f)
 .buildAndRegister() as Multiblock;
 
-
+#Crystal Growth Module 
 space_elevator.recipeMap.recipeBuilder()
        .inputs(<appliedenergistics2:crystal_seed>)
        .notConsumable(<contenttweaker:space_crystal_growth_module>)
@@ -1772,4 +1772,28 @@ space_elevator.recipeMap.recipeBuilder()
        .outputs(<appliedenergistics2:material:12>)
        .EUt(400)
        .duration(200)
+       .buildAndRegister();
+
+
+
+
+
+#Mining Module
+
+space_elevator.recipeMap.recipeBuilder()
+       .outputs(<gregtech:ore_cerium_monazite_0>*256,<gregtech:ore_neodymium_monazite_0>*256)
+       .notConsumable(<contenttweaker:space_mining_module>)
+       .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 0}))
+       .fluidInputs(<liquid:drilling_fluid>*256000)
+       .EUt(600000)
+       .duration(8000)
+       .buildAndRegister();
+
+space_elevator.recipeMap.recipeBuilder()
+       .outputs(<gregtech:ore_monazite_0>*256,<gregtech:ore_bastnasite_0>*256)
+       .notConsumable(<contenttweaker:space_mining_module>)
+       .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+       .fluidInputs(<liquid:drilling_fluid>*256000)
+       .EUt(600000)
+       .duration(8000)
        .buildAndRegister();
