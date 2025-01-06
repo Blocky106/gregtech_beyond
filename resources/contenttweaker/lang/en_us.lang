@@ -1981,3 +1981,5 @@ fluid.peracetic_acid_mixture=Peracetic Acid Mixture
 fluid.heated_decanedioic_acid=Heated 1,10-Decanedioic Acid
 fluid.n-6-aminohexylsebacamide=N-(6-aminohexyl)sebacamide
 item.contenttweaker.nylon610_spinneret.name=Nylon-6,10 Spinneret 
+multiblocktweaker.machine.sealed_reaction_chamber.name=Sealed Reaction Chamber
+recipemap.sealed_reaction_chamber.name=Sealed Reaction Chamber
