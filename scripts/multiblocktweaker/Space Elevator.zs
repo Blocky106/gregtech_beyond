@@ -1744,7 +1744,7 @@ val space_elevator = Builder.start(loc, meta)
                         .maxInputs(2)
                         .maxFluidInputs(2)
                         .maxFluidOutputs(2)
-                        .maxOutputs(1)
+                        .maxOutputs(6)
                         .build())
 .withZoom(0.5f)
 .buildAndRegister() as Multiblock;
@@ -1797,3 +1797,106 @@ space_elevator.recipeMap.recipeBuilder()
        .EUt(600000)
        .duration(8000)
        .buildAndRegister();
+
+space_elevator.recipeMap.recipeBuilder()
+       .outputs(<gregtech:ore_banded_iron_0>*256,<gregtech:ore_iron_0>*256)
+       .notConsumable(<contenttweaker:space_mining_module_mk2>)
+       .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 2}))
+       .fluidInputs(<liquid:drilling_fluid>*256000)
+       .EUt(600000)
+       .duration(8000)
+       .buildAndRegister();
+
+space_elevator.recipeMap.recipeBuilder()
+       .outputs(<gregtech:ore_gold_0>*256,<gregtech:ore_infusedgold_0>*256)
+       .notConsumable(<contenttweaker:space_mining_module>)
+       .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 3}))
+       .fluidInputs(<liquid:drilling_fluid>*256000)
+       .EUt(600000)
+       .duration(8000)
+       .buildAndRegister();
+
+space_elevator.recipeMap.recipeBuilder()
+       .outputs(<gregtech:ore_banded_iron_0>*256,<gregtech:ore_iron_0>*256)
+       .notConsumable(<contenttweaker:space_mining_module>)
+       .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 4}))
+       .fluidInputs(<liquid:drilling_fluid>*256000)
+       .EUt(600000)
+       .duration(8000)
+       .buildAndRegister();
+
+space_elevator.recipeMap.recipeBuilder()
+       .outputs(<gregtech:ore_arsenopyrite_0>*256,<gregtech:ore_pyrite_0>*256,<gregtech:ore_chalcopyrite_0>*256)
+       .notConsumable(<contenttweaker:space_mining_module>)
+       .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 5}))
+       .fluidInputs(<liquid:drilling_fluid>*256000)
+       .EUt(600000)
+       .duration(8000)
+       .buildAndRegister();
+
+space_elevator.recipeMap.recipeBuilder()
+       .outputs(<gregtech:ore_brown_limonite_0>*256,<gregtech:ore_yellow_limonite_0>*256)
+       .notConsumable(<contenttweaker:space_mining_module>)
+       .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 6}))
+       .fluidInputs(<liquid:drilling_fluid>*256000)
+       .EUt(600000)
+       .duration(8000)
+       .buildAndRegister();
+
+space_elevator.recipeMap.recipeBuilder()
+       .outputs(<gregtech:ore_rock_salt_0>*256,<gregtech:ore_saltpeter_0>*256,<gregtech:ore_salt_0>*256)
+       .notConsumable(<contenttweaker:space_mining_module>)
+       .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 7}))
+       .fluidInputs(<liquid:drilling_fluid>*256000)
+       .EUt(600000)
+       .duration(8000)
+       .buildAndRegister();
+
+space_elevator.recipeMap.recipeBuilder()
+       .outputs(<gregtech:ore_gadolinite_0>*256,<gregtech:ore_fullers_earth_0>*256)
+       .notConsumable(<contenttweaker:space_mining_module>)
+       .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 8}))
+       .fluidInputs(<liquid:drilling_fluid>*256000)
+       .EUt(600000)
+       .duration(8000)
+       .buildAndRegister();
+
+space_elevator.recipeMap.recipeBuilder()
+       .outputs(<gregtech:ore_mica_0>*256,<gregtech:ore_lepidolite_0>*256)
+       .notConsumable(<contenttweaker:space_mining_module>)
+       .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 9}))
+       .fluidInputs(<liquid:drilling_fluid>*256000)
+       .EUt(600000)
+       .duration(8000)
+       .buildAndRegister();
+
+space_elevator.recipeMap.recipeBuilder()
+       .outputs(<gregtech:ore_mica_0>*256,<gregtech:ore_lepidolite_0>*256)
+       .notConsumable(<contenttweaker:space_mining_module>)
+       .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 10}))
+       .fluidInputs(<liquid:drilling_fluid>*256000)
+       .EUt(600000)
+       .duration(8000)
+       .buildAndRegister();
+
+space_elevator.recipeMap.recipeBuilder()
+       .outputs(<gregtech:ore_lazurite_0>*256,<gregtech:ore_sodalite_0>*256,<gregtech:ore_lapis_0>*256,<gregtech:ore_kyanite_0>*256)
+       .notConsumable(<contenttweaker:space_mining_module>)
+       .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 11}))
+       .fluidInputs(<liquid:drilling_fluid>*256000)
+       .EUt(600000)
+       .duration(8000)
+       .buildAndRegister();
+
+space_elevator.recipeMap.recipeBuilder()
+       .outputs(<gregtech:ore_redstone_0>*256,<gregtech:ore_ruby_0>*256)
+       .notConsumable(<contenttweaker:space_mining_module>)
+       .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 12}))
+       .fluidInputs(<liquid:drilling_fluid>*256000)
+       .EUt(600000)
+       .duration(8000)
+       .buildAndRegister();
+
+
+
+
