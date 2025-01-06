@@ -62,6 +62,7 @@ global fermenter           as RecipeMap = RecipeMap.getByName("fermenter");
 global electromagnetic_separator           as RecipeMap = RecipeMap.getByName("electromagnetic_separator");
 global arc_furnace           as RecipeMap = RecipeMap.getByName("arc_furnace");
 global polarizer        as RecipeMap = RecipeMap.getByName("polarizer");
+global nuclear_reactor as RecipeMap = RecipeMap.getByName("nuclear_reactor");
 
 #DevTech
 global rock_crusher        as RecipeMap = RecipeMap.getByName("rock_crusher");
