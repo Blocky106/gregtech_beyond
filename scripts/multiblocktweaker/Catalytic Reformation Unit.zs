@@ -130,3 +130,11 @@ catalytic_reformation_unit.recipeMap.recipeBuilder()
     .duration(200)
     .EUt(200)
     .buildAndRegister();
+
+catalytic_reformation_unit.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:diethylketone>*1000,<liquid:hydrogen>*1000)
+    .fluidOutputs(<liquid:triethylamine>*1000)
+    .notConsumable(<gtadditions:ga_dust:32240>)
+    .duration(1000)
+    .EUt(700)
+    .buildAndRegister();
