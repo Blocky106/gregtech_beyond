@@ -90,7 +90,7 @@ val space_elevator = Builder.start(loc, meta)
                        "~~~~~~~~~~~~~~~~~~SNNNS~~~~~~~~~~~~~~~~~~",
                        "~~~~~~~~~~~~~~~~~SNNNNNS~~~~~~~~~~~~~~~~~",
                        "~SSSS~~~~~~~~~NNSNNNNNNNSNN~~~~~~~~~SSSS~",
-                       "KKKKK~~~~~~~SSNSNNNNNNNNNSNSS~~~~~~~KKKKK",
+                       "KKKKK~~~~~~~SSNNSNNNNNNNSNNSS~~~~~~~KKKKK",
                        "~SSSS~~~~~~~~~NNSNNNNNNNSNN~~~~~~~~~SSSS~",
                        "~~~~~~~~~~~~~~~~~SNNNNNS~~~~~~~~~~~~~~~~~",
                        "~~~~~~~~~~~~~~~~~~SNNNS~~~~~~~~~~~~~~~~~~",
