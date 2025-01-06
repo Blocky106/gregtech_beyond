@@ -557,8 +557,20 @@ util.registerDust("dense_exotic_matter", 32238, 0x66BB6A, "SHINY");
 util.registerDust("lafeaso1_catalyst_preparation", 32239, 0x987064, "SHINY");
 util.registerDust("raney_nickel", 32240, 0xC7E4F0, "SHINY");
 util.registerDust("carbon_disulfide", 32241, 0xC2BE9D, "DULL");
+util.registerDust("enriched_naquadah_chloride", 32242, 0x4C5554, "DULL");
+util.registerDust("enriched_naquadah_oxide", 32243, 0x434847, "DULL");
+util.registerDust("manganese_diacetate", 32244, 0xF8CBDA, "SHINY");
 
 
+
+util.registerFluid("dihydroxystearic_acid", 0xD7EBFC);
+util.registerFluid("decanedioic_acid", 0xC44E4E);
+util.registerFluid("oleic_acid_mixture", 0xE8B846);
+util.registerFluid("glacial_acetic_acid", 0xCECCBA);
+util.registerFluid("purified_oleic_acid", 0xD0DFBF);
+util.registerFluid("peracetic_acid_mixture", 0xBBA6C9);
+util.registerFluid("diethylketone", 0x80BDDB);
+util.registerFluid("2-hydroxypropionimidamide", 0x87ACA9);
 util.registerFluid("oxygen_reduced_osmium_solution", 0x3948A6);
 util.registerFluid("potassium_ethyl_xanthate_solution", 0xF5D750);
 util.registerFluid("potassium_carbonate_mixture", 0xD3C867);
@@ -755,7 +767,6 @@ util.registerFluid("noctane", 0x6F6E56);
 util.registerFluid("phenylethyl_alcohol_blood_agar", 0x9E4545);
 util.registerFluid("palm_oil", 0xCEC787);
 util.registerFluid("y-butyrolactone", 0xAFA6C2);
-util.registerFluid("nutrient_agar", 0x827717);
 util.registerFluid("nitroaniline", 0x9B4D35);
 util.registerFluid("impure_kapton_k_solution", 0x5D5B49);
 util.registerFluid("cuproquin", 0x667267);
