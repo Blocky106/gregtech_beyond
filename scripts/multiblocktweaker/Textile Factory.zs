@@ -133,3 +133,19 @@ textile_factory.recipeMap.recipeBuilder()
     .duration(700)
     .EUt(180)
     .buildAndRegister();
+
+textile_factory.recipeMap.recipeBuilder()
+    .inputs(<contenttweaker:nylon610_spinneret>)
+    .outputs(<gregtech:meta_item_1:12636>)
+    .notConsumable(<gregtech:meta_item_1:32301>)
+    .duration(400)
+    .EUt(8000)
+    .buildAndRegister();
+
+textile_factory.recipeMap.recipeBuilder()
+    .inputs(<contenttweaker:nylon610_spinneret>)
+    .outputs(<gregtech:meta_item_1:10636>)
+    .notConsumable(<gregtech:meta_item_1:32306>)
+    .duration(400)
+    .EUt(8000)
+    .buildAndRegister();

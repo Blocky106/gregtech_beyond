@@ -211,6 +211,7 @@ registerMetalBlock("space_elevator_railway_block", 10.0, 10.0, 1);
 
 var items = [
 "uev_superconductor_assembly",
+"nylon610_spinneret",
 "fume_hood",
 "optical_capacitor_base",
 "lafeaso1_pellets",

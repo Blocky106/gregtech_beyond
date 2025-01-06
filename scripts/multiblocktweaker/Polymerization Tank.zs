@@ -340,3 +340,11 @@ polymerization_tank.recipeMap.recipeBuilder()
     .duration(200)
     .EUt(12)
     .buildAndRegister();
+
+polymerization_tank.recipeMap.recipeBuilder()
+    .notConsumable(<gtadditions:ga_dust:32000>)
+    .fluidInputs(<liquid:n-6-aminohexylsebacamide>*1000)
+    .fluidOutputs(<liquid:nylon610>*1000)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();

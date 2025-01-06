@@ -1730,3 +1730,46 @@ chemReactor.recipeBuilder()
     .duration(700)
     .EUt(120)
     .buildAndRegister();
+
+fluidheater.recipeBuilder()
+    .fluidInputs(<liquid:decanedioic_acid>*1000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .fluidOutputs(<liquid:heated_decanedioic_acid>*1000)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:heated_decanedioic_acid>*1000,<liquid:hexamethylenediamine>*1000)
+    .fluidOutputs(<liquid:n-6-aminohexylsebacamide>*1000)
+    .duration(500)
+    .EUt(1200)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:heated_decanedioic_acid>*1000,<liquid:hexamethylenediamine>*1000)
+    .fluidOutputs(<liquid:n-6-aminohexylsebacamide>*1000)
+    .duration(500)
+    .EUt(1200)
+    .buildAndRegister();
+
+spincoater.recipeBuilder()
+    .fluidInputs(<liquid:nylon610>*144)
+    .outputs(<contenttweaker:nylon610_spinneret>)
+    .duration(800)
+    .EUt(1200)
+    .buildAndRegister();
+
+recipes.addShaped(<gregtech:machine:508>, [	[null, null, null], 	[<gregtech:meta_item_1:12636>, <ore:plateTritanium>, <gregtech:meta_item_1:12636>], 	[<ore:cableGtSingleNaquadahAlloy>, <gregtech:machine_casing:8>, <ore:cableGtSingleNaquadahAlloy>]]);
+
+recipes.remove(<gregtech:machine:508>);
+
+Utils.removeRecipeByOutput(assembler, [<gregtech:machine:508>],[], false);
+
+assembler.recipeBuilder()
+    .inputs(<gregtech:machine_casing:8>)
+    .fluidInputs(<liquid:nylon610>*288)
+    .outputs(<gregtech:machine:508>,<gregtech:cable:5308>*2)
+    .duration(200)
+    .EUt(200000)
+    .buildAndRegister();

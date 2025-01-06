@@ -2016,7 +2016,7 @@ assembly_line.recipeBuilder()
 
 assembly_line.recipeBuilder()
     .fluidInputs(<liquid:soldering_alloy>*8192,<liquid:naquadah_alloy>*1200)
-    .inputs(<ore:circuitSuperconductor>,<ore:circuitSuperconductor>,<gregtech:cable:308>*16,<contenttweaker:onecryogeniccoolant>,<contenttweaker:onecryogeniccoolant>,<contenttweaker:superconductingcoil>*8,<gtadditions:ga_meta_item:32424>*16,<gregtech:machine:508>)
+    .inputs(<ore:circuitSuperconductor>,<gregtech:meta_item_1:12636>*16,<ore:circuitSuperconductor>,<gregtech:cable:308>*16,<contenttweaker:onecryogeniccoolant>,<contenttweaker:onecryogeniccoolant>,<contenttweaker:superconductingcoil>*8,<gtadditions:ga_meta_item:32424>*16,<gregtech:machine:508>)
     .outputs(<gregtech:machine:784>)
     .duration(350)
     .EUt(524000)

@@ -317,6 +317,9 @@ tara_c_o_alloy.addFlags(["GENERATE_PLATE","GENERATE_FRAME","GENERATE_ROD"]);
 val trinaquadalloy = MaterialRegistry.createIngotMaterial(635,"trinaquadalloy",0x331757,"SHINY",3);
 trinaquadalloy.addFlags(["GENERATE_PLATE","GENERATE_FRAME","GENERATE_ROD"]);
 
+val nylon610 = MaterialRegistry.createIngotMaterial(636, "nylon610", 0xF3A33D, "DULL", 1);
+nylon610.addFlags(["GENERATE_PLATE","GENERATE_FRAME","GENERATE_ROD"]);
+
 
 
 
@@ -563,6 +566,8 @@ util.registerDust("manganese_diacetate", 32244, 0xF8CBDA, "SHINY");
 
 
 
+util.registerFluid("n-6-aminohexylsebacamide", 0xD2D2B2);
+util.registerFluid("heated_decanedioic_acid", 0xD34E4E);
 util.registerFluid("dihydroxystearic_acid", 0xD7EBFC);
 util.registerFluid("decanedioic_acid", 0xC44E4E);
 util.registerFluid("oleic_acid_mixture", 0xE8B846);
