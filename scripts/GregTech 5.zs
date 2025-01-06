@@ -1582,3 +1582,151 @@ blastalloy.recipeBuilder()
 
 Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10556>],[],false);
 
+roasters.recipeBuilder()
+    .inputs(<gregicalityoreaddon:gaoe_oredict_item:2019>*2)
+    .outputs(<gregtech:meta_item_1:2018>,<gregtech:meta_item_1:2071>)
+    .duration(200)
+    .EUt(80)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:120>)
+    .fluidInputs(<liquid:oxalic_acid>*1000)
+    .outputs(<gregicalityoreaddon:gaoe_oredict_item:2036>*2)
+    .duration(200)
+    .EUt(800)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:120>)
+    .fluidInputs(<liquid:oxalic_acid>*1000)
+    .outputs(<gregicalityoreaddon:gaoe_oredict_item:2036>*2)
+    .duration(200)
+    .EUt(800)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:32242>)
+    .fluidInputs(<liquid:oxalic_acid>*1000)
+    .outputs(<gregicalityoreaddon:gaoe_oredict_item:2038>*2)
+    .duration(200)
+    .EUt(800)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:32242>)
+    .fluidInputs(<liquid:oxalic_acid>*1000)
+    .outputs(<gregicalityoreaddon:gaoe_oredict_item:2038>*2)
+    .duration(200)
+    .EUt(800)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:chlorine>*4000)
+    .inputs(<gtadditions:ga_dust:32243>,<gregtech:meta_item_1:2012>)
+    .outputs(<gtadditions:ga_dust:32242>)
+    .fluidOutputs(<liquid:carbon_dioxide>*2000)
+    .duration(400)
+    .EUt(800)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:chlorine>*4000)
+    .inputs(<gtadditions:ga_dust:32243>,<gregtech:meta_item_1:2012>)
+    .outputs(<gtadditions:ga_dust:32242>)
+    .fluidOutputs(<liquid:carbon_dioxide>*2000)
+    .duration(400)
+    .EUt(800)
+    .buildAndRegister();
+
+arc_furnace.recipeBuilder()
+    .fluidInputs(<liquid:oxygen>*2000)
+    .inputs(<gregtech:meta_item_1:2309>)
+    .outputs(<gtadditions:ga_dust:32243>*3)
+    .duration(200)
+    .EUt(700)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:y-butyrolactone>*1000,<liquid:methylamine>*1000)
+    .fluidOutputs(<liquid:nmethyl2pyrrolidone>*1000,<liquid:water>*1000)
+    .duration(200)
+    .EUt(1200)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:y-butyrolactone>*1000,<liquid:methylamine>*1000)
+    .fluidOutputs(<liquid:nmethyl2pyrrolidone>*1000,<liquid:water>*1000)
+    .duration(200)
+    .EUt(1200)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .fluidOutputs(<liquid:2-hydroxypropionimidamide>*1000)
+    .fluidInputs(<liquid:acetone>*1000,<liquid:ammonia>*1000)
+    .duration(500)
+    .EUt(700)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidOutputs(<liquid:2-hydroxypropionimidamide>*1000)
+    .fluidInputs(<liquid:acetone>*1000,<liquid:ammonia>*1000)
+    .duration(500)
+    .EUt(700)
+    .buildAndRegister();
+
+dehydrator.recipeBuilder()
+    .fluidInputs(<liquid:2-hydroxypropionimidamide>*1000)
+    .notConsumable(<gregtech:meta_item_1:2373>)
+    .fluidOutputs(<liquid:diethylketone>*1000)
+    .duration(2000)
+    .EUt(900)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs(<contenttweaker:lithography_base_mask>,<ore:dyeBlack>)
+    .outputs(<contenttweaker:uhasoc_lithography_mask>)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 11}))
+    .duration(2000)
+    .EUt(9000)
+    .buildAndRegister();
+
+recipes.addShaped(<gregtech:machine:10115>, [	[<gregtech:meta_item_1:32643>, <gtadditions:ga_transparent_casing:2>, <gregtech:meta_item_1:32613>], 	[<ore:circuitExtreme>, <gregtech:machine:504>, <ore:circuitExtreme>], 	[<gregtech:meta_item_1:32643>, <ore:plateAdvanced>, <gregtech:meta_item_1:32613>]]);
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:oxygen>*1000,<liquid:acetaldehyde>*1000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .fluidOutputs(<liquid:peracetic_acid_mixture>*1000)
+    .duration(700)
+    .EUt(800)
+    .buildAndRegister();
+    
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:oxygen>*1000,<liquid:acetaldehyde>*1000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .fluidOutputs(<liquid:peracetic_acid_mixture>*1000)
+    .duration(700)
+    .EUt(800)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:purified_oleic_acid>*1000,<liquid:glacial_acetic_acid>*1000)
+    .fluidOutputs(<liquid:oleic_acid_mixture>*1000)
+    .duration(700)
+    .EUt(120)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:purified_oleic_acid>*1000,<liquid:glacial_acetic_acid>*1000)
+    .fluidOutputs(<liquid:oleic_acid_mixture>*1000)
+    .duration(700)
+    .EUt(120)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:oxygen>*1000,<liquid:dihydroxystearic_acid>*1000)
+    .notConsumable(<liquid:sulfuric_acid>)
+    .fluidOutputs(<liquid:azaleic_acid>*1000,<liquid:decanedioic_acid>*1000)
+    .duration(700)
+    .EUt(120)
+    .buildAndRegister();

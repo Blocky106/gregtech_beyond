@@ -353,3 +353,11 @@ vacuum_distillation_tower.recipeMap.recipeBuilder()
     .duration(400)
     .EUt(700)
     .buildAndRegister();
+
+vacuum_distillation_tower.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:peracetic_acid_mixture>*1000)
+    .notConsumable(<gtadditions:ga_dust:32244>)
+    .fluidOutputs(<liquid:water>*300,<liquid:glacial_acetic_acid>*700)
+    .duration(800)
+    .EUt(1200)
+    .buildAndRegister();

@@ -155,3 +155,11 @@ cstr.recipeMap.recipeBuilder()
     .duration(200)
     .EUt(800)
     .buildAndRegister();
+
+cstr.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:oleic_acid_mixture>*1000)
+    .notConsumable(<gtadditions:ga_dust:270>)
+    .fluidOutputs(<liquid:dihydroxystearic_acid>*1000)
+    .duration(500)
+    .EUt(1200)
+    .buildAndRegister();
