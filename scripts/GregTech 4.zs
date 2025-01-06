@@ -1018,15 +1018,15 @@ distillation_tower.recipeBuilder()
     .buildAndRegister();
 
 chemReactor.recipeBuilder()
-    .fluidInputs(<liquid:propene>*50,<liquid:bromine>*50,<liquid:tripropylamine>*50)
-    .fluidOutputs(<liquid:tetra_propyl_ammonium_bromide>*50)
+    .fluidInputs(<liquid:propene>*1000,<liquid:bromine>*1000,<liquid:tripropylamine>*1000)
+    .fluidOutputs(<liquid:tetra_propyl_ammonium_bromide>*1000)
     .duration(200)
     .EUt(290)
     .buildAndRegister();
 
 lcr.recipeBuilder()
-    .fluidInputs(<liquid:propene>*50,<liquid:bromine>*50,<liquid:tripropylamine>*50)
-    .fluidOutputs(<liquid:tetra_propyl_ammonium_bromide>*50)
+    .fluidInputs(<liquid:propene>*1000,<liquid:bromine>*1000,<liquid:tripropylamine>*1000)
+    .fluidOutputs(<liquid:tetra_propyl_ammonium_bromide>*1000)
     .duration(200)
     .EUt(290)
     .buildAndRegister();
