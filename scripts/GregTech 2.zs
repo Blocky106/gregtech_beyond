@@ -2694,7 +2694,7 @@ roasters.recipeBuilder()
 distillation_tower.recipeBuilder()
     .fluidInputs(<liquid:arsenic_trichloride>*1000)
     .fluidOutputs(<liquid:hydrogen_chloride>*1000,<liquid:hydrogen_sulfide>*200)
-    .outputs(<gtadditions:ga_dust:32212>*2)
+    .outputs(<gtadditions:ga_dust:32213>*2)
     .EUt(12)
     .duration(200)
     .buildAndRegister();
