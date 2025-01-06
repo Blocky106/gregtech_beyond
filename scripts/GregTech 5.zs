@@ -1773,3 +1773,7 @@ assembler.recipeBuilder()
     .duration(200)
     .EUt(200000)
     .buildAndRegister();
+
+Utils.removeRecipeByOutput(electrolyzer, [<gregtech:meta_item_1:2131>,<gregtech:meta_item_1:2077>],[],false);
+
+furnace.remove(<gregtech:meta_item_1:10705>);
