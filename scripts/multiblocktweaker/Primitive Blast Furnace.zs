@@ -100,8 +100,8 @@ val primitive_blast_furnace = Builder.start(loc, meta)
                 .build())
 .withRecipeMap(
         FactoryRecipeMap.start(loc)
-                        .maxFluidInputs(3)
-                        .maxFluidOutputs(2)
+                        .maxInputs(2)
+                        .maxOutputs(2)
                         .build())
 .withZoom(0.5f)
 .buildAndRegister() as Multiblock;
