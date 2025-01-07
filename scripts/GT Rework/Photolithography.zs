@@ -1165,6 +1165,7 @@ Utils.removeRecipeByOutput(lengraver,[<gregtech:meta_item_2:32462>*12],[],false)
 
 fluidheater.recipeBuilder()
     .fluidInputs(<liquid:argon>*1000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
     .fluidOutputs(<liquid:very_hot_argon>*1000)
     .duration(200)
     .EUt(12)
