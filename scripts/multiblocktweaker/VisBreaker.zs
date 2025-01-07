@@ -75,6 +75,7 @@ val vis_breaker = Builder.start(loc, meta)
                         .maxInputs(1)
                         .maxFluidInputs(1)
                         .maxFluidOutputs(2)
+                        .maxOutputs(1)
                         .build())
 .withZoom(0.5f)
 
