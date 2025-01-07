@@ -73,6 +73,7 @@ recipes.addShaped(<nuclearcraft:part:4>, [	[<ore:wireGtSingleCopper>, <ore:wireG
 fluid_solidifier.recipeBuilder()
     .fluidInputs(<liquid:mercury>*1000)
     .outputs(<qmd:ingot2:2>)
+    .notConsumable(<gregtech:meta_item_1:32306>)
     .duration(200)
     .EUt(1200)
     .buildAndRegister();
@@ -511,6 +512,7 @@ electrolyzer.recipeBuilder()
 
 fluid_solidifier.recipeBuilder()
     .fluidInputs(<liquid:sodium_hydroxide_solution>*1000)
+    .notConsumable(<gregtech:meta_item_1:32307>)
     .outputs(<gregtech:meta_item_1:2373>)
     .duration(400)
     .EUt(240)

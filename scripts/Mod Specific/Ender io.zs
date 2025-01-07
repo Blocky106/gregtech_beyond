@@ -234,7 +234,7 @@ mixer.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
-macerator.recipeBuilder()
+chemReactor.recipeBuilder()
     .inputs(<enderio:item_material:16>)
     .outputs(<enderio:item_material:17>)
     .fluidInputs(<liquid:osmium>*144)
