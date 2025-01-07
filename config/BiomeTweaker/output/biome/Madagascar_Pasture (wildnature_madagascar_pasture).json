@@ -21,11 +21,11 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "WET",
-    "HOT",
+    "LUSH",
+    "JUNGLE",
     "RARE",
     "PLAINS",
-    "LUSH",
-    "JUNGLE"
+    "HOT"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [

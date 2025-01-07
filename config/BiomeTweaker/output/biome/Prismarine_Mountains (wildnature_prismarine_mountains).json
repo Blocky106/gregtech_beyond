@@ -22,8 +22,8 @@
   "Dictionary Types": [
     "HILLS",
     "RARE",
-    "OCEAN",
     "WATER",
+    "OCEAN",
     "MOUNTAIN"
   ],
   "BiomeManager Entries": {
