@@ -519,7 +519,7 @@ mixer.recipeBuilder()
     .EUt(800)
     .buildAndRegister();
 
-centrifuge.recipeBuilder()
+chemReactor.recipeBuilder()
     .fluidInputs(<liquid:homogenized_pancreas_mixture>*1000)
     .notConsumable(<liquid:nonylphenol>)
     .fluidOutputs(<liquid:trypsin>*50)
