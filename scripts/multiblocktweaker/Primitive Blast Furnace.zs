@@ -22,9 +22,9 @@ import mods.gregtech.render.Textures;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 
-var loc = "primitive_blast_furnace";
+var loc = "primitive_blast_furnaces";
 var meta = 10119;
-val primitive_blast_furnace = Builder.start(loc, meta)
+val primitive_blast_furnaces = Builder.start(loc, meta)
     .withPattern(
             FactoryBlockPattern.start(RelativeDirection.RIGHT, RelativeDirection.BACK, RelativeDirection.UP)
                 .aisle(
@@ -119,13 +119,13 @@ var CarbonSource as IItemStack[] = [
 
 for i in CarbonSource {
 
-primitive_blast_furnace.recipeMap.recipeBuilder()
+primitive_blast_furnaces.recipeMap.recipeBuilder()
     .inputs(<gregtech:meta_item_1:10197>, i)
     .outputs(<gregtech:meta_item_1:10184>,<gregtech:meta_item_1:89>)
     .duration(1000)
     .buildAndRegister();
 
-primitive_blast_furnace.recipeMap.recipeBuilder()
+primitive_blast_furnaces.recipeMap.recipeBuilder()
     .inputs(<minecraft:iron_ingot>, i)
     .outputs(<gregtech:meta_item_1:10184>,<gregtech:meta_item_1:89>)
     .duration(500)
