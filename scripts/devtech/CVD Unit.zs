@@ -13,7 +13,7 @@ import mods.devtech.OverlayRenderer;
 
 var cvd_unit_overlay = OverlayRenderer.newOverlay("machines/cvd_unit_overlay", OverlayFace.FRONT, OverlayFace.SIDE, OverlayFace.TOP);
 
-var cvd_unit_s = IRecipeMap.recipeMapBuilder("cvd_unit_s",0,3,0,1,0,2,0,1)
+var cvd_unit_s = IRecipeMap.recipeMapBuilder("cvd_unit_s",0,3,0,2,0,2,0,1)
     .setOverlaySlots(OverlaySlot.newOverlaySlot(false, false,false,GUITextures.get("hammer_overlay")))
     .setProgressBar(GUITextures.get("progress_bar_bending"), MoveType.VERTICAL)
     .build();
