@@ -108,7 +108,7 @@ val dilution_tank = Builder.start(loc, meta)
 .withRecipeMap(
         FactoryRecipeMap.start(loc)
                         .maxInputs(1)
-                        .maxFluidInputs(1)
+                        .maxFluidInputs(2)
                         .maxFluidOutputs(1)
                         .maxOutputs(1)
                         .build())
