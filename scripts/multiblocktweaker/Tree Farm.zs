@@ -73,6 +73,7 @@ val tree_farm = Builder.start(loc, meta)
                         .maxInputs(2)
                         .maxFluidInputs(2)
                         .maxFluidOutputs(1)
+                        .maxOutputs(3)
                         .build())
 .withZoom(0.5f)
 .buildAndRegister() as Multiblock;
