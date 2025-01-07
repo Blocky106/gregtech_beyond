@@ -80,7 +80,7 @@ fluidExtractor.recipeBuilder()
     .buildAndRegister();
 
 fluidExtractor.recipeBuilder()
-    .fluidInputs(<liquid:lubricant>*24)
+    .fluidOutputs(<liquid:lubricant>*24)
     .outputs(<gregtech:meta_item_1:32627>)
     .inputs(<contenttweaker:paraffinwax>)
     .duration(244)
