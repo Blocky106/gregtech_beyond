@@ -1746,6 +1746,7 @@ val space_elevator = Builder.start(loc, meta)
                         .maxFluidOutputs(2)
                         .maxOutputs(6)
                         .build())
+.withTexture(ICubeRenderer.sided("contenttweaker:blocks/space_elevator_block"))
 .withZoom(0.5f)
 .buildAndRegister() as Multiblock;
 
