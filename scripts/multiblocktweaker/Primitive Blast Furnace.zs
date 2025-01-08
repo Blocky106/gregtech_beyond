@@ -105,7 +105,7 @@ val primitive_blast_furnaces = Builder.start(loc, meta)
                         .build())
 .withZoom(0.5f)
 .buildAndRegister() as Multiblock;
-primitive_blast_furnace.noEnergy = true;
+primitive_blast_furnaces.noEnergy = true;
        
 
 var CarbonSource as IItemStack[] = [
