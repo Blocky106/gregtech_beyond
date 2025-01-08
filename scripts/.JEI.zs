@@ -108,7 +108,7 @@ mods.jei.JEI.hideCategory("gregtech:pressure_swing_adsorber");
 mods.jei.JEI.hideCategory("gregtech:superheavy_reactor");
 mods.jei.JEI.hideCategory("gregtech:catalytic_cracking_unit");
 mods.jei.JEI.hideCategory("gregtech:tube_furnace");
-
+mods.jei.JEI.hideCategory("gregtech:space_elevator");
 
 
 
@@ -902,6 +902,7 @@ for item in itemstoRemove {
 
 val itemstoRemoveAndHide =
 [
+<nuclearcraft:extractor>,
 <thermalexpansion:machine:11>,
 <projectred-expansion:machine2:11>,
 <projectred-expansion:machine2:10>,
