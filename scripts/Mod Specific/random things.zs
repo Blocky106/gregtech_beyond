@@ -145,7 +145,7 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:refinedglue>*200)
     .outputs(<randomthings:diviningrod>)
     .duration(200)
-    .EUt(512)
+    .EUt(12)
     .buildAndRegister();
 
 assembler.recipeBuilder()
@@ -153,7 +153,7 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:refinedglue>*200)
     .outputs(<randomthings:diviningrod:1>)
     .duration(200)
-    .EUt(512)
+    .EUt(12)
     .buildAndRegister();
 
 assembler.recipeBuilder()
@@ -161,7 +161,7 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:refinedglue>*200)
     .outputs(<randomthings:diviningrod:2>)
     .duration(200)
-    .EUt(512)
+    .EUt(12)
     .buildAndRegister();
     
 assembler.recipeBuilder()
@@ -169,7 +169,7 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:refinedglue>*200)
     .outputs(<randomthings:diviningrod:3>)
     .duration(200)
-    .EUt(512)
+    .EUt(12)
     .buildAndRegister();
     
 assembler.recipeBuilder()
@@ -177,7 +177,7 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:refinedglue>*200)
     .outputs(<randomthings:diviningrod:4>)
     .duration(200)
-    .EUt(512)
+    .EUt(12)
     .buildAndRegister();
     
 assembler.recipeBuilder()
@@ -185,7 +185,7 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:refinedglue>*200)
     .outputs(<randomthings:diviningrod:5>)
     .duration(200)
-    .EUt(512)
+    .EUt(12)
     .buildAndRegister();
     
 assembler.recipeBuilder()
@@ -193,7 +193,7 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:refinedglue>*200)
     .outputs(<randomthings:diviningrod:21>)
     .duration(200)
-    .EUt(512)
+    .EUt(12)
     .buildAndRegister();
     
 assembler.recipeBuilder()
@@ -201,7 +201,7 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:refinedglue>*200)
     .outputs(<randomthings:diviningrod:18>)
     .duration(200)
-    .EUt(512)
+    .EUt(12)
     .buildAndRegister();
     
 assembler.recipeBuilder()
@@ -209,7 +209,7 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:refinedglue>*200)
     .outputs(<randomthings:diviningrod:15>)
     .duration(200)
-    .EUt(512)
+    .EUt(12)
     .buildAndRegister();
     
 assembler.recipeBuilder()
@@ -217,7 +217,7 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:refinedglue>*200)
     .outputs(<randomthings:diviningrod:14>)
     .duration(200)
-    .EUt(512)
+    .EUt(12)
     .buildAndRegister();
     
 assembler.recipeBuilder()
@@ -225,7 +225,7 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:refinedglue>*200)
     .outputs(<randomthings:diviningrod:13>)
     .duration(200)
-    .EUt(512)
+    .EUt(12)
     .buildAndRegister();
     
 assembler.recipeBuilder()
@@ -233,7 +233,7 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:refinedglue>*200)
     .outputs(<randomthings:diviningrod:12>)
     .duration(200)
-    .EUt(512)
+    .EUt(12)
     .buildAndRegister();
     
 assembler.recipeBuilder()
@@ -241,7 +241,7 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:refinedglue>*200)
     .outputs(<randomthings:diviningrod:11>)
     .duration(200)
-    .EUt(512)
+    .EUt(12)
     .buildAndRegister();
     
 assembler.recipeBuilder()
@@ -249,7 +249,7 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:refinedglue>*200)
     .outputs(<randomthings:diviningrod:10>)
     .duration(200)
-    .EUt(512)
+    .EUt(12)
     .buildAndRegister();
     
 assembler.recipeBuilder()
@@ -257,7 +257,7 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:refinedglue>*200)
     .outputs(<randomthings:diviningrod:9>)
     .duration(200)
-    .EUt(512)
+    .EUt(12)
     .buildAndRegister();
     
 assembler.recipeBuilder()
@@ -265,7 +265,7 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:refinedglue>*200)
     .outputs(<randomthings:diviningrod:8>)
     .duration(200)
-    .EUt(512)
+    .EUt(12)
     .buildAndRegister();
     
 assembler.recipeBuilder()
@@ -273,7 +273,7 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:refinedglue>*200)
     .outputs(<randomthings:diviningrod:6>)
     .duration(200)
-    .EUt(512)
+    .EUt(12)
     .buildAndRegister();
 
 
