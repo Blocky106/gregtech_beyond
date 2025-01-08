@@ -55,15 +55,6 @@ centrifuge.recipeBuilder()
     .duration(900)
     .buildAndRegister();
 
-ebf.recipeBuilder()
-    .fluidInputs(<liquid:filteredbsatnasitemud>*200)
-    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
-    .fluidOutputs(<liquid:bastnasiteoxidecompositeliquid>*200)
-    .property("temperature", 3400)
-    .EUt(6000)
-    .duration(920)
-    .buildAndRegister();
-
 lcentrifuge.recipeBuilder()
     .fluidInputs(<liquid:ceriumcontainingbastnasiteconcentrate>*1000)
     .outputs(<gtadditions:ga_dust:11>)

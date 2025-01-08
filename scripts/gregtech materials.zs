@@ -324,7 +324,6 @@ nylon610.addFlags(["GENERATE_PLATE","GENERATE_FRAME","GENERATE_ROD","GENERATE_FO
 
 
 
-
 util.registerDust("kaminskycatalyst", 32000, 0x372927, "DULL");
 util.registerDust("philipscatalyst", 32001, 0xB45D83, "DULL");
 util.registerDust("zieglernattacatalyst", 32002, 0x8BC34A, "DULL");
@@ -556,7 +555,6 @@ util.registerDust("carbon_disulfide", 32241, 0xC2BE9D, "DULL");
 util.registerDust("enriched_naquadah_chloride", 32242, 0x4C5554, "DULL");
 util.registerDust("enriched_naquadah_oxide", 32243, 0x434847, "DULL");
 util.registerDust("manganese_diacetate", 32244, 0xF8CBDA, "SHINY");
-
 
 
 util.registerFluid("propanal", 0xDAC25C);
