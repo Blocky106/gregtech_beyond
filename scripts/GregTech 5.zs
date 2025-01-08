@@ -684,6 +684,7 @@ recipes.addShaped(<gregtech:machine:1505>, [	[<gregtech:meta_item_1:32645>, <gre
 
 pyro.recipeBuilder()
     .fluidInputs(<liquid:ferrocenewaste>*1000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
     .outputs(<gregtech:meta_item_1:2033>)
     .fluidOutputs(<liquid:cyclopentadiene>*100)
     .duration(1200)
@@ -1767,9 +1768,9 @@ recipes.remove(<gregtech:machine:508>);
 Utils.removeRecipeByOutput(assembler, [<gregtech:machine:508>],[], false);
 
 assembler.recipeBuilder()
-    .inputs(<gregtech:machine_casing:8>)
+    .outputs(<gregtech:machine_casing:8>)
     .fluidInputs(<liquid:nylon610>*288)
-    .outputs(<gregtech:machine:508>,<gregtech:cable:5308>*2)
+    .inputs(<gregtech:machine:508>,<gregtech:cable:5308>*2)
     .duration(200)
     .EUt(200000)
     .buildAndRegister();
@@ -1870,3 +1871,7 @@ nuclear_reactor.recipeBuilder()
 recipes.addShaped(<gregtech:machine:10117>, [	[<gregtech:meta_item_1:32603>, <contenttweaker:kanthalcoil>, <gregtech:meta_item_1:32603>], [<gregtech:meta_item_1:32613>, <gregtech:machine:504>, <gregtech:meta_item_1:32643>], 	[<ore:circuitExtreme>, <contenttweaker:kanthalcoil>, <ore:circuitExtreme>]]);
 
 Utils.removeRecipeByOutput(electrolyzer, [<gregtech:meta_item_1:2912>],[<liquid:oxygen>*2000], false);
+
+assembler.recipeBuilder()
+    .inputs(<gregtech:machine:2504>,<gregtech:meta_item_1:32687>*2,<gregtech:meta_item_1:32697>*2,<gregtech:meta_item_1:32677>*4,<gregtech:meta_item_1:12741>*16,<ore:circuitInfinite>*2)
+    .outputs(<contenttweaker:reactor_core_stabilizer>)
