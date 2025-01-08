@@ -318,27 +318,6 @@ dehydrator.recipeBuilder()
     .duration(200)
     .buildAndRegister();
 
-dehydrator.recipeBuilder()
-    .inputs(<contenttweaker:rareearthone>)
-    .outputs(<gtadditions:ga_dust:32073>)
-    .EUt(12000)
-    .duration(800)
-    .buildAndRegister();
-
-dehydrator.recipeBuilder()
-    .inputs(<contenttweaker:rareearthtwo>)
-    .outputs(<gtadditions:ga_dust:32068>)
-    .EUt(12000)
-    .duration(800)
-    .buildAndRegister();
-
-dehydrator.recipeBuilder()
-    .inputs(<contenttweaker:rareearththree>)
-    .outputs(<gtadditions:ga_dust:32074>)
-    .EUt(12000)
-    .duration(800)
-    .buildAndRegister();
-
 chemReactor.findRecipe(96,[<gregtech:meta_item_1:2061>],[<liquid:methanol>*2000,<liquid:hydrochloric_acid>*2000]).remove();
 lcr.findRecipe(96,[<gregtech:meta_item_1:2061>,<gregtech:meta_item_1:32766>.withTag({Configuration: 2})],[<liquid:methane>*2000,<liquid:water>*1000,<liquid:chlorine>*4000]).remove();
 

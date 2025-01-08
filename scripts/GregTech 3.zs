@@ -3031,16 +3031,6 @@ macerator.recipeBuilder()
     .EUt(12)
     .buildAndRegister(); 
 
-chemical_bath.recipeBuilder()
-    .inputs(<gregtech:meta_item_1:2326>)
-    .fluidInputs(<liquid:sulfuric_acid>*500)
-    .chancedOutput(<contenttweaker:rareearthone>, 3333, 100)
-    .chancedOutput(<contenttweaker:rareearthtwo>, 3333, 100)
-    .chancedOutput(<contenttweaker:rareearththree>, 3333, 100)
-    .duration(600)
-    .EUt(2200)
-    .buildAndRegister();
-
 lcr.recipeBuilder()
     .fluidInputs(<liquid:teflon>*576,<liquid:enrichedholmium>*1024,<liquid:radoxpolymer>*1440)
     .outputs(<contenttweaker:cosmic_circuit_board>)
