@@ -31,7 +31,7 @@ lcentrifuge.recipeBuilder()
 
 lcentrifuge.recipeBuilder()
 	.inputs(<contenttweaker:titaniumcontainingice>)
-	.chancedOutput(<gtadditions:ga_dust:32019>, 90000, 100)
+	.chancedOutput(<gtadditions:ga_dust:32019>, 9000, 100)
 	.fluidOutputs(<liquid:chlorine> * 120)
 	.duration(8000)
 	.EUt(4)
@@ -436,6 +436,7 @@ fluidExtractor.recipeBuilder()
 
 metal_bender.recipeBuilder()
     .inputs(<contenttweaker:awakenedcompressedmetalingot>)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
     .outputs(<contenttweaker:awakenedcompressedmetalplate>)
     .duration(40)
     .EUt(20000)
@@ -699,13 +700,6 @@ assembler.recipeBuilder()
     .EUt(8000)
     .buildAndRegister();
 
-chemReactor.recipeBuilder()
-    .fluidInputs(<liquid:hydrogentetrafluoromehtane>*500,<liquid:methane>*500)
-    .fluidOutputs(<liquid:hydrogentetrafluorocarbidedioxide>*1000,<liquid:hydrogen_sulfide>*1000,<liquid:water>*1000)
-    .duration(90)
-    .EUt(500)
-    .buildAndRegister();
-
 lcr.recipeBuilder()
     .fluidInputs(<liquid:hydrogentetrafluoromehtane>*500,<liquid:methane>*500)
     .fluidOutputs(<liquid:hydrogentetrafluorocarbidedioxide>*1000,<liquid:hydrogen_sulfide>*1000,<liquid:water>*1000)
@@ -772,6 +766,7 @@ assembler.recipeBuilder()
 
 fluidheater.recipeBuilder()
     .fluidInputs(<liquid:mercury>*1000)
+    .notConsumable(<gregtech:meta_item_1:32301>)
     .fluidOutputs(<liquid:hot_mercury>*1000)
     .duration(40)
     .EUt(12)
@@ -1408,15 +1403,7 @@ ebf.recipeBuilder()
     .EUt(220)
     .buildAndRegister();
 
-chemReactor.recipeBuilder()
-    .inputs(<minecraft:string>,<gregtech:meta_item_2:32504>)
-    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 2}))
-    .outputs(<contenttweaker:reinforcedstring>*2)
-    .duration(500)
-    .EUt(1200)
-    .buildAndRegister();
-
-lcr.recipeBuilder()
+assembler.recipeBuilder()
     .inputs(<minecraft:string>,<gregtech:meta_item_2:32504>)
     .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 2}))
     .outputs(<contenttweaker:reinforcedstring>*2)
