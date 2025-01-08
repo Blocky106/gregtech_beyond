@@ -505,14 +505,14 @@ lcr.recipeBuilder()
 
 electrolyzer.recipeBuilder()
 	.inputs(<gregtech:meta_item_1:2822>)
-	.chancedOutput(<gregtech:meta_item_1:53>, 33333, 0)
+	.chancedOutput(<gregtech:meta_item_1:53>, 3333, 0)
 	.duration(8000)
 	.EUt(12)
 	.buildAndRegister();
 
 electrolyzer.recipeBuilder()
 	.inputs(<gregtech:meta_item_1:2075>)
-	.chancedOutput(<gregtech:meta_item_1:53>, 66666, 0)
+	.chancedOutput(<gregtech:meta_item_1:53>, 6666, 0)
 	.duration(8000)
 	.EUt(12)
 	.buildAndRegister();
@@ -1239,14 +1239,7 @@ compressor.recipeBuilder()
 	.duration(40)
 	.EUt(8)
 	.buildAndRegister();
-
-assembly_line.recipeBuilder()
-	.inputs(<gregtech:cable:3744>*16,<gregtech:meta_item_1:12791>*4,<gregtech:meta_item_2:32436>*4, <gregtech:meta_item_1:12695>*2,<ore:circuitInfinite>,<gregtech:meta_item_1:32677>)
-	.fluidInputs(<liquid:soldering_alloy>*144,<liquid:moltencompressediron>*144)
-	.duration(800)
-	.EUt(500000)
-	.buildAndRegister();
-
+	
 ebf.recipeBuilder()
 	.inputs(<gregtech:meta_item_1:2721>)
 	.outputs(<gregtech:meta_item_1:11721>)
