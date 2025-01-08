@@ -1868,3 +1868,5 @@ nuclear_reactor.recipeBuilder()
     .buildAndRegister();
 
 recipes.addShaped(<gregtech:machine:10117>, [	[<gregtech:meta_item_1:32603>, <contenttweaker:kanthalcoil>, <gregtech:meta_item_1:32603>], [<gregtech:meta_item_1:32613>, <gregtech:machine:504>, <gregtech:meta_item_1:32643>], 	[<ore:circuitExtreme>, <contenttweaker:kanthalcoil>, <ore:circuitExtreme>]]);
+
+Utils.removeRecipeByOutput(electrolyzer, [<gregtech:meta_item_1:2912>],[<liquid:oxygen>*2000], false);
