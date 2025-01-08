@@ -123,20 +123,6 @@ fluidheater.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
-engraver.recipeBuilder()
-    .inputs(<gregtech:meta_item_2:32440>)
-    .outputs(<contenttweaker:engraved_ram_wafer>)
-    .duration(20)
-    .EUt(12)
-    .buildAndRegister();
-
-lengraver.recipeBuilder()
-    .inputs(<gregtech:meta_item_2:32440>)
-    .outputs(<contenttweaker:engraved_ram_wafer>)
-    .duration(20)
-    .EUt(12)
-    .buildAndRegister();
-
 chemical_bath.recipeBuilder()
     .inputs(<contenttweaker:raw_ram_wafer>)
     .fluidInputs(<liquid:very_hot_nitrogen>*1000)
