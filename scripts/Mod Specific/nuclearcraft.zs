@@ -1135,8 +1135,6 @@ wiremill.recipeBuilder()
 
 furnace.remove(<qmd:ingot2:1>);
 
-recipes.remove(<nuclearcraft:part:1>);
-
 assembler.recipeBuilder()
     .inputs(<nuclearcraft:part>,<ore:plateRedstone>*2,<ore:ingotTough>*2,<ore:plateAluminium>*2)
     .outputs(<nuclearcraft:part:1>)
@@ -1144,16 +1142,12 @@ assembler.recipeBuilder()
     .EUt(100)
     .buildAndRegister();
     
-recipes.remove(<nuclearcraft:part:2>);
-
 assembler.recipeBuilder()
     .inputs(<nuclearcraft:part:1>*2,<gregtech:meta_item_1:12075>*4,<gregtech:meta_item_1:12076>,<ore:dustSulfur>*4)
     .outputs(<nuclearcraft:part:2>)
     .duration(500)
     .EUt(4000)
     .buildAndRegister();
-    
-recipes.remove(<nuclearcraft:part:3>);
 
 assembler.recipeBuilder()
     .fluidInputs(<liquid:stainless_steel>*288)
@@ -1206,8 +1200,6 @@ alloy_smelter.recipeBuilder()
     .duration(100)
     .EUt(180)
     .buildAndRegister();
-
-recipes.remove(<trinity:compression_charge>);
 
 chemReactor.recipeBuilder()
     .fluidInputs(<liquid:precious_leach_nitrate>*1000)

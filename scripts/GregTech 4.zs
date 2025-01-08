@@ -1816,7 +1816,6 @@ centrifuge.recipeBuilder()
     .EUt(200)
     .buildAndRegister();
 
-recipes.remove(<minecraft:snow>);
 recipes.addShapeless(<minecraft:snow>,[<minecraft:snowball>,<minecraft:snowball>,<minecraft:snowball>,<minecraft:snowball>,<minecraft:snowball>,<minecraft:snowball>,<minecraft:snowball>,<minecraft:snowball>,<minecraft:snowball>]);
 Utils.removeRecipeByOutput(packer, [<minecraft:snow>], [], false);
 Utils.removeRecipeByOutput(compressor, [<minecraft:snow>*4], [], false);
@@ -3165,8 +3164,6 @@ assembly_line.recipeBuilder()
 
 recipes.addShaped(<gregtech:machine:10036>, [	[<gregtech:meta_item_1:32674>, <ore:plateHssg>, <gregtech:meta_item_1:32674>], 	[<ore:circuitMaster>, <gregtech:machine:505>, <ore:circuitMaster>], 	[<ore:wireGtDoubleIvSuperconductor>, <ore:plateHssg>, <ore:wireGtDoubleIvSuperconductor>]]);
 recipes.addShaped(<gregtech:machine:10059>, [	[<gregtech:meta_item_1:32652>, <gregtech:meta_item_1:32602>, <gregtech:meta_item_1:32652>], 	[<ore:circuitAdvanced>, <gregtech:machine:503>, <ore:circuitAdvanced>], 	[<gregtech:meta_item_1:32652>, <gregtech:meta_item_1:32602>, <gregtech:meta_item_1:32652>]]);
-
-recipes.remove(<packagedauto:package_component>);
 
 assembler.recipeBuilder()
     .inputs(<gregtech:meta_item_1:12026>*4,<minecraft:ender_eye>,<gregtech:meta_item_1:12196>*4,<gregtech:meta_item_1:12001>*4)

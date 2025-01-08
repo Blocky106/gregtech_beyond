@@ -806,10 +806,9 @@ lcr.recipeBuilder()
     .EUt(700)
     .buildAndRegister();
 
-recipes.remove(<gregtech:machine:4178>);
+
 recipes.addShaped(<gregtech:machine:4178>, [	[<gregtech:metal_casing:4>, <ore:gearPotin>, <gregtech:metal_casing:4>], 	[<gregtech:metal_casing:4>, <minecraft:diamond_pickaxe>, <gregtech:metal_casing:4>], 	[<gregtech:metal_casing:4>, <ore:gearPotin>, <gregtech:metal_casing:4>]]);
 
-recipes.remove(<gregtech:machine:2538>);
 recipes.addShaped(<gregtech:machine:10116>, [	[<gregtech:wire_coil>, <gregtech:meta_item_1:32612>, <gregtech:wire_coil>], 	[<ore:circuitAdvanced>, <gregtech:machine:503>, <ore:circuitAdvanced>], [<gregtech:wire_coil>, <gregtech:meta_item_1:32612>, <gregtech:wire_coil>]]);
 recipes.addShapeless(<gregtech:machine:10116>,[<gregtech:machine:2538>]);
 
@@ -1329,13 +1328,10 @@ roasters.recipeBuilder()
 Utils.removeRecipeByOutput(chemReactor, [], [<liquid:water>*1000,<liquid:methanol>*1000], false);
 Utils.removeRecipeByOutput(lcr, [], [<liquid:water>*1000,<liquid:methanol>*1000], false);
 
-recipes.remove(<gregtech:machine:4176>);
+
 recipes.addShaped(<gregtech:machine:4176>, [	[null, <ore:plateTin>, null], 	[<ore:platePotin>, <ore:chest>, <ore:platePotin>], 	[null, <ore:plateTin>, null]]);
 
-recipes.remove(<gregtech:machine:4177>);
 recipes.addShaped(<gregtech:machine:4177>, [	[null, <ore:platePotin>, null], 	[<ore:plateTin>, <ore:chest>, <ore:plateTin>], 	[null, <ore:platePotin>, null]]);
-
-recipes.remove(<gregtech:metal_casing:8>);
 
 recipes.addShaped(<gregtech:metal_casing:8>*2, [	[<gregtech:meta_item_2:32016>, <gregtech:meta_item_2:32016>], 	[<gregtech:meta_item_2:32016>, <gregtech:meta_item_2:32016>]]);
 
@@ -1380,8 +1376,6 @@ lcr.recipeBuilder()
     .duration(200)
     .EUt(24)
     .buildAndRegister();
-
-recipes.remove(<gregtech:machine:2553>);
 
 recipes.addShapeless(<gregtech:machine:10119>,[<gregtech:machine:2553>]);
 recipes.addShapeless(<gregtech:machine:10119>,[<gregtech:machine:510>]);
@@ -1497,8 +1491,6 @@ assembler.recipeBuilder()
 
 
 Utils.removeRecipeByOutput(assembler, [<gregtech:frame_maraging_steel_a>*4],[], false);
-
-recipes.remove(<gregtech:frame_maraging_steel_a>);
 recipes.addShaped(<contenttweaker:maraging_steel_frame_300>*4, [	[<ore:plateMaragingSteelA>, <ore:plateMaragingSteelA>, <ore:plateMaragingSteelA>], 	[<ore:stickMaragingSteelA>, <ore:stickMaragingSteelA>, <ore:stickMaragingSteelA>], 	[<ore:stickMaragingSteelA>, <gregtech:meta_tool:8>, <ore:stickMaragingSteelA>]]);
 
 assembler.recipeBuilder()
@@ -1762,8 +1754,6 @@ spincoater.recipeBuilder()
     .buildAndRegister();
 
 recipes.addShaped(<gregtech:machine:508>, [	[null, null, null], 	[<gregtech:meta_item_1:12636>, <ore:plateTritanium>, <gregtech:meta_item_1:12636>], 	[<ore:cableGtSingleNaquadahAlloy>, <gregtech:machine_casing:8>, <ore:cableGtSingleNaquadahAlloy>]]);
-
-recipes.remove(<gregtech:machine:508>);
 
 Utils.removeRecipeByOutput(assembler, [<gregtech:machine:508>],[], false);
 

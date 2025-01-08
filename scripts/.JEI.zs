@@ -109,7 +109,7 @@ mods.jei.JEI.hideCategory("gregtech:superheavy_reactor");
 mods.jei.JEI.hideCategory("gregtech:catalytic_cracking_unit");
 mods.jei.JEI.hideCategory("gregtech:tube_furnace");
 mods.jei.JEI.hideCategory("gregtech:space_elevator");
-
+mods.jei.JEI.hideCategory("gregtech:sealed_reaction_chamber");
 
 
 
@@ -119,8 +119,18 @@ mods.jei.JEI.hideCategory("gregtech:space_elevator");
 val itemstoRemove =
 [
 <gregtech:machine:2>,
+<minecraft:snow>,
+<gregtech:machine:4178>,
+<gregtech:machine:4177>,
+<gregtech:metal_casing:8>,
+<gregtech:machine:4176>,
+<gregtech:machine:2538>,
 <gregtech:machine:3>,
+<packagedauto:package_component>,
+<gregtech:machine:508>,
+<gregtech:machine:2553>,
 <gregtech:machine:4>,
+<gregtech:frame_maraging_steel_a>,
 <gregtech:machine:6>,
 <morphtool:tool>,
 <gregtech:machine:2242>,
@@ -876,9 +886,23 @@ val itemstoRemove =
 <ae2stuff:wireless_kit>,
 <ae2stuff:encoder>,
 <threng:material:1>,
+<tconstruct:ingots>,
+<tconstruct:seared_tank>,
+<tconstruct:wooden_hopper>,
+<nuclearcraft:part:3>,
+<trinity:compression_charge>,
+<nuclearcraft:part:2>,
+<nuclearcraft:part:1>,
+<threng:material:9>,
+<threng:machine:1>,
+<minecraft:paper>,
+<minecraft:chest>,
+<appliedenergistics2:part:220>,
 <threng:machine>,
 <ae2stuff:wireless>,
 <ae2stuff:inscriber>,
+<thermalfoundation:material:102>,
+
 ]
  as IItemStack[];
 

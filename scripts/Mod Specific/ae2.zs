@@ -303,7 +303,6 @@ alloy_smelter.recipeBuilder()
     .EUt(80)
     .buildAndRegister();
 
-recipes.remove(<threng:material:9>);
 recipes.addShaped(<threng:material:9>, [[null, null, null], 	[<threng:material:8>, <ore:plateSilicon>, <threng:material:8>], 	[null, null, null]]);
 
 
@@ -331,7 +330,6 @@ assembler.recipeBuilder()
 
 recipes.addShaped(<appliedenergistics2:material:52>, [	[<ore:screwStainlessSteel>, <appliedenergistics2:material:23>, <ore:screwStainlessSteel>], 	[<ore:plateStainlessSteel>, <ore:crystalFluix>, <ore:plateStainlessSteel>], 	[null, <ore:plateStainlessSteel>, null]]);
 
-recipes.remove(<appliedenergistics2:part:220>);
 recipes.addShaped(<appliedenergistics2:part:220>, [	[<ore:screwCupronickel>, <ore:craftingPiston>, <ore:screwCupronickel>], 	[<ore:plateAluminium>, <appliedenergistics2:interface>, <ore:plateAluminium>], 	[<ore:screwCupronickel>, <ore:craftingPiston>, <ore:screwCupronickel>]]);
 
 
@@ -371,5 +369,3 @@ assembler.recipeBuilder()
     .duration(200)
     .EUt(12)
     .buildAndRegister();
-
-recipes.remove(<threng:machine:1>);
