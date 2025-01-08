@@ -1777,14 +1777,6 @@ assembler.recipeBuilder()
     .EUt(4000)
     .buildAndRegister();
 
-chemReactor.recipeBuilder()
-    .inputs(<contenttweaker:europiumdopednet>,<enderio:item_material:67>*32,<gtadditions:ga_dust:32055>*4)
-    .fluidInputs(<liquid:sterilized_growth_medium>*200)
-    .outputs(<contenttweaker:sterilizedeuropiumnet>)
-    .duration(200)
-    .EUt(16000)
-    .buildAndRegister();
-
 lcr.recipeBuilder()
     .inputs(<contenttweaker:europiumdopednet>,<enderio:item_material:67>*32)
     .fluidInputs(<liquid:sterilized_growth_medium>*200)
@@ -2269,13 +2261,15 @@ fluidExtractor.recipeBuilder()
 
 fluid_solidifier.recipeBuilder() 
     .outputs(<gtadditions:ga_dust:258>)
-    .fluidOutputs(<liquid:moltenborocarbide>*144)
+    .notConsumable(<gregtech:meta_item_1:32307>)
+    .fluidInputs(<liquid:moltenborocarbide>*144)
     .duration(500)
     .EUt(8000)
     .buildAndRegister();
 
 fluid_solidifier.recipeBuilder() 
     .outputs(<gtadditions:ga_dust:261>)
+    .notConsumable(<gregtech:meta_item_1:32307>)
     .fluidInputs(<liquid:moltenfullerenesuperconductor>*144)
     .duration(500)
     .EUt(8000)
@@ -2283,6 +2277,7 @@ fluid_solidifier.recipeBuilder()
 
 fluid_solidifier.recipeBuilder() 
     .outputs(<gtadditions:ga_dust:380>)
+    .notConsumable(<gregtech:meta_item_1:32307>)
     .fluidInputs(<liquid:moltenchargedcesiumceriumcobaltindium>*144)
     .duration(500)
     .EUt(8000)
@@ -2290,6 +2285,7 @@ fluid_solidifier.recipeBuilder()
 
 fluid_solidifier.recipeBuilder() 
     .outputs(<gtadditions:ga_dust:384>)
+    .notConsumable(<gregtech:meta_item_1:32307>)
     .fluidInputs(<liquid:moltenrheniumhassiumthalliumisophtaloylbisdiethylthiourea>*144)
     .duration(500)
     .EUt(8000)
@@ -2297,6 +2293,7 @@ fluid_solidifier.recipeBuilder()
 
 fluid_solidifier.recipeBuilder() 
     .outputs(<gtadditions:ga_dust:259>)
+    .notConsumable(<gregtech:meta_item_1:32307>)
     .fluidInputs(<liquid:moltenactiniumsuperhydride>*144)
     .duration(500)
     .EUt(8000)
@@ -2304,6 +2301,7 @@ fluid_solidifier.recipeBuilder()
 
 fluid_solidifier.recipeBuilder() 
     .outputs(<gtadditions:ga_dust:386>)
+    .notConsumable(<gregtech:meta_item_1:32307>)
     .fluidInputs(<liquid:moltenlanthanumfullerenenanotubes>*144)
     .duration(500)
     .EUt(8000)
@@ -2311,6 +2309,7 @@ fluid_solidifier.recipeBuilder()
 
 fluid_solidifier.recipeBuilder() 
     .outputs(<gtadditions:ga_dust:385>)
+    .notConsumable(<gregtech:meta_item_1:32307>)
     .fluidInputs(<liquid:moltenlegendarium>*144)
     .duration(500)
     .EUt(50000)
@@ -2656,7 +2655,7 @@ recipes.addShaped(<gregtech:machine:1475>, [	[<ore:circuitMaster>, <gtadditions:
 recipes.addShaped(<gregtech:machine:1476>, [	[<ore:circuitUltimate>, <gtadditions:ga_transparent_casing:1>, <gtadditions:ga_transparent_casing:1>], 	[<ore:cableGtSingleNaquadah>, <gregtech:meta_item_1:32607>, <gregtech:meta_item_1:32616>], 	[<ore:circuitUltimate>, <gregtech:machine:507>, <gregtech:meta_item_1:32616>]]);
 recipes.addShaped(<gregtech:machine:1477>, [	[<ore:circuitSuperconductor>, <gtadditions:ga_transparent_casing:1>, <gtadditions:ga_transparent_casing:1>], 	[<ore:cableGtSingleNaquadahAlloy>, <gregtech:meta_item_1:32608>, <gregtech:meta_item_1:32617>], 	[<ore:circuitSuperconductor>, <gregtech:machine:508>, <gregtech:meta_item_1:32617>]]);
 
-mixer.recipeBuilder()
+lmixer.recipeBuilder()
     .fluidInputs(<liquid:kerosene>*1000,<liquid:water>*1000,<liquid:methyl_isobutyl_ketone>*1000)
     .fluidOutputs(<liquid:draconium_extraction_mixture>*1000)
     .duration(40)
