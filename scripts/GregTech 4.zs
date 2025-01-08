@@ -305,7 +305,6 @@ cutting_saw.recipeBuilder()
 
 
 fluidExtractor.recipeBuilder()
-    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
     .inputs(<contenttweaker:paraffinwax>)
     .fluidOutputs(<liquid:resin>*1000)
     .duration(40)
@@ -313,7 +312,6 @@ fluidExtractor.recipeBuilder()
     .buildAndRegister();
 
 fluidExtractor.recipeBuilder()
-    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
     .inputs(<contenttweaker:paraffinwax>)
     .fluidOutputs(<liquid:lubricating_oil>*250)
     .duration(40)
@@ -1535,6 +1533,7 @@ assembler.recipeBuilder()
 
 metal_bender.recipeBuilder()
     .inputs(<randomthings:ingredient:3>)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
     .outputs(<contenttweaker:spectreplate>)
     .duration(12)
     .EUt(129)
@@ -2516,13 +2515,6 @@ centrifuge.recipeBuilder()
     .EUt(900)
     .buildAndRegister();
 
-chemReactor.recipeBuilder()
-    .fluidInputs(<liquid:ree_group_mud>*1000,<liquid:aqua_regia>*1000)
-    .fluidOutputs(<liquid:lanthanum_leach_solution>*500,<liquid:rarer_earth_concentrate>*500,<liquid:aqua_regia_solution>*1000)
-    .duration(299)
-    .EUt(80)
-    .buildAndRegister();
-
 lcr.recipeBuilder()
     .fluidInputs(<liquid:ree_group_mud>*1000,<liquid:aqua_regia>*1000)
     .fluidOutputs(<liquid:lanthanum_leach_solution>*500,<liquid:rarer_earth_concentrate>*500,<liquid:aqua_regia_solution>*2000)
@@ -2532,6 +2524,7 @@ lcr.recipeBuilder()
 
 ebf.recipeBuilder()
     .fluidInputs(<liquid:neodymium_oxide_solution>*1000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
     .fluidOutputs(<liquid:steam>*1000)
     .outputs(<gtadditions:ga_dust:10>*2)
     .EUt(120)
@@ -2852,7 +2845,7 @@ autoclave.recipeBuilder()
     .fluidInputs(<liquid:water>*1000)
     .outputs(<gtadditions:ga_dust:32203>)
     .duration(20)
-    .EUt(129)
+    .EUt(50)
     .buildAndRegister();
 
 roasters.recipeBuilder()
