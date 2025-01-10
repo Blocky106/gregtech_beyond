@@ -86,6 +86,7 @@ sintering_oven.recipeMap.recipeBuilder()
 
 sintering_oven.recipeMap.recipeBuilder()
     .inputs(<nuclearcraft:alloy:14>)
+    .fluidInputs(<liquid:steel>*288)
     .outputs(<contenttweaker:cruicible_mold>)
     .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 5}))
     .EUt(80)
@@ -106,13 +107,31 @@ sintering_oven.recipeMap.recipeBuilder()
     .outputs(<contenttweaker:silver_electrode>)
     .inputs(<gregtech:meta_item_1:14184>)
     .duration(200)
-    .EUt(1299)
+    .EUt(100)
     .buildAndRegister();
 
 sintering_oven.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:decrepitated_neodymium>*1000)
     .notConsumable(<gregtech:meta_item_1:32350>)
     .outputs(<contenttweaker:sintered_neodymium_plate>)
+    .duration(200)
+    .EUt(80)
+    .buildAndRegister();
+
+sintering_oven.recipeMap.recipeBuilder()
+    .notConsumable(<gregtech:meta_item_1:32351>)
+    .fluidInputs(<liquid:gold>*576,<liquid:oxygen>*1000)
+    .inputs(<gregtech:meta_item_1:14184>)
+    .duration(200)
+    .EUt(80)
+    .outputs(<contenttweaker:gold_electrode>)
+    .buildAndRegister();
+
+sintering_oven.recipeMap.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:32246>)
+    .outputs(<gregtech:meta_item_1:12111>)
+    .notConsumable(<gregtech:meta_item_1:32301>)
+    .fluidInputs(<liquid:methane>*100)
     .duration(200)
     .EUt(80)
     .buildAndRegister();
