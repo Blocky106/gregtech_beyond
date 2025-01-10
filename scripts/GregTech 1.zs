@@ -690,14 +690,6 @@ extruder.recipeBuilder()
 	.EUt(12)
 	.buildAndRegister();
 
-centrifuge.recipeBuilder()
-	.inputs(<contenttweaker:titaniumcontainingice>)
-	.chancedOutput(<gtadditions:ga_dust:32019>, 9000, 100)
-	.fluidOutputs(<liquid:chlorine> * 120)
-	.duration(8000)
-	.EUt(4)
-	.buildAndRegister();
-
 chemReactor.recipeBuilder()
 	.inputs(<minecraft:quartz>)
 	.fluidInputs(<liquid:ender> * 288)
