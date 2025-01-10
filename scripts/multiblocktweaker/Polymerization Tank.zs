@@ -348,3 +348,11 @@ polymerization_tank.recipeMap.recipeBuilder()
     .duration(200)
     .EUt(12)
     .buildAndRegister();
+
+polymerization_tank.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:naphthalene_dicarboxaldehyde>*1000)
+    .fluidOutputs(<liquid:polyethylene_naphthalate>*1000)
+    .notConsumable(<gtadditions:ga_dust:32001>)
+    .duration(200)
+    .EUt(800)
+    .buildAndRegister();
