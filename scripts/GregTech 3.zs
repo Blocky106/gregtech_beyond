@@ -30,14 +30,6 @@ lcentrifuge.recipeBuilder()
 	.buildAndRegister();
 
 lcentrifuge.recipeBuilder()
-	.inputs(<contenttweaker:titaniumcontainingice>)
-	.chancedOutput(<gtadditions:ga_dust:32019>, 9000, 100)
-	.fluidOutputs(<liquid:chlorine> * 120)
-	.duration(8000)
-	.EUt(4)
-	.buildAndRegister();
-
-lcentrifuge.recipeBuilder()
 	.inputs(<gtadditions:ga_dust:32037>)
 	.fluidOutputs(<liquid:radon>*200,<liquid:titanium>*400)
 	.outputs(<gregtech:meta_item_1:1311>)
@@ -2067,6 +2059,7 @@ chemical_bath.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2373>*3)
     .fluidInputs(<liquid:radium_emulsion>*200)
     .fluidOutputs(<liquid:radium_sodium_solution>*200)
+    .outputs(<gregtech:meta_item_1:2089>)
     .duration(200)
     .EUt(240)
     .buildAndRegister();
@@ -2560,14 +2553,6 @@ forming_press.recipeBuilder()
     .outputs(<contenttweaker:unbaked_monocrystalline_silicon_boule>)
     .duration(200)
     .EUt(2)
-    .buildAndRegister();
-    
-chemReactor.recipeBuilder()
-    .inputs(<gtadditions:ga_dust:34>,<gtadditions:ga_dust:33>,<gtadditions:ga_dust:32>)
-    .fluidInputs(<liquid:sterilized_growth_medium>*1000)
-    .outputs(<contenttweaker:evolvedalaemixture>*3)
-    .duration(400)
-    .EUt(1200)
     .buildAndRegister();
 
 lcr.recipeBuilder()
