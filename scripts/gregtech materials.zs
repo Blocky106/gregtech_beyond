@@ -555,8 +555,15 @@ util.registerDust("carbon_disulfide", 32241, 0xC2BE9D, "DULL");
 util.registerDust("enriched_naquadah_chloride", 32242, 0x4C5554, "DULL");
 util.registerDust("enriched_naquadah_oxide", 32243, 0x434847, "DULL");
 util.registerDust("manganese_diacetate", 32244, 0xF8CBDA, "SHINY");
+util.registerDust("compressed_diamond_dust", 32246, 0x72A8D4, "DULL");
 
 
+
+util.registerFluid("6040_tin_lead_solution", 0xAA9BAD);
+util.registerFluid("copper_sulfate_solution", 0xE08E3C);
+util.registerFluid("polyethylene_naphthalate", 0xFCF7E1);
+util.registerFluid("naphthalene_dicarboxaldehyde", 0xF6E493);
+util.registerFluid("dielectric_paste", 0xBAA650);
 util.registerFluid("propanal", 0xDAC25C);
 util.registerFluid("propanal_mixture", 0xF0DCA9);
 util.registerFluid("carboxylic_acid_mixture", 0x71B1AA);
