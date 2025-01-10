@@ -63,6 +63,8 @@ global electromagnetic_separator           as RecipeMap = RecipeMap.getByName("e
 global arc_furnace           as RecipeMap = RecipeMap.getByName("arc_furnace");
 global polarizer        as RecipeMap = RecipeMap.getByName("polarizer");
 global nuclear_reactor as RecipeMap = RecipeMap.getByName("nuclear_reactor");
+global primitive_blast_furnace as RecipeMap = RecipeMap.getByName("primitive_blast_furnace");
+
 
 #DevTech
 global rock_crusher        as RecipeMap = RecipeMap.getByName("rock_crusher");
@@ -81,3 +83,4 @@ global ion_implanter     as RecipeMap = RecipeMap.getByName("ion_implanter");
 global cvd_unit_s     as RecipeMap = RecipeMap.getByName("cvd_unit_s");
 global steam_foundry    as RecipeMap = RecipeMap.getByName("steam_foundry");
 global spincoater    as RecipeMap = RecipeMap.getByName("spincoater");
+global uv_light     as RecipeMap = RecipeMap.getByName("uv_light");
