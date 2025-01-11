@@ -527,13 +527,14 @@ util.registerDust("doped_carbon_nanotubes", 32222, 0x2F4F4F, "SHINY");
 util.registerDust("hsla_steel", 32223, 0xD5D8E8, "DULL");
 util.registerDust("heated_hsla_steel", 32224, 0xECE7BF, "SHINY");
 util.registerDust("quenched_hsla_steel", 32225, 0xE9E3B7, "SHINY");
-util.registerDust("naquadah_waste", 32226, 0x301b1b, "DULL")
-util.registerDust("concentrated_naquatitanium_hydroxide", 32227, 0x503a3a, "SHINY")
-util.registerDust("impure_naquahamericium_hydroxide", 32228, 0x684b4b, "SHINY")
-util.registerDust("naquahamericium_hydroxide", 32229, 0x8f6161, "SHINY")
-util.registerDust("chromium_slag_mud", 32230, 0x874141, "DULL")
-util.registerDust("impure_naquadah_waste", 32231, 0x281414, "DULL")
-
+util.registerDust("naquadah_waste", 32226, 0x301b1b, "DULL");
+util.registerDust("concentrated_naquatitanium_hydroxide", 32227, 0x503a3a, "SHINY");
+util.registerDust("impure_naquahamericium_hydroxide", 32228, 0x684b4b, "SHINY");
+util.registerDust("naquahamericium_hydroxide", 32229, 0x8f6161, "SHINY");
+util.registerDust("chromium_slag_mud", 32230, 0x874141, "DULL");
+util.registerDust("impure_naquadah_waste", 32231, 0x281414, "DULL");
+util.registerDust("cobalt_nitrate", 32232, 0x6d392e, "DULL");
+util.registerDust("sodium_cyandiamide", 32233, 0xfffba6, "DULL");
 
 
 
@@ -989,9 +990,16 @@ util.registerFluid("titanium_tetrachloride", 0x701a31);
 util.registerFluid("naquatitanium_hydroxide", 0x382121);
 util.registerFluid("diluted_impure_naquahamericium_hydroxide", 0x684b4b);
 util.registerFluid("naquahamericium_hydroxide", 0x8f6161);
-
-
-
+util.registerFluid("glycidol",0xfeffa8);
+util.registerFluid("glycidol_ether", 0xd0d15b);
+util.registerFluid("hexafluoroacetone",0xe8e8e8);
+util.registerFluid("toluene", 0x9b9b9b);
+util.registerFluid("glycidol_preparation_mixture", 0xb6b69c);
+util.registerFluid("unrefined_epoxy_resin", 0xb47ac4);
+util.registerFluid("resin_enhancer", 0x965959);
+util.registerFluid("cyandiamide", 0xdbdbdb);
+util.registerFluid("sulfur_hexafluoride", 0xc4b763)
+util.registerFluid("dicyandiamide", 0xdbdbdb);
 
 
 
