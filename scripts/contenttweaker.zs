@@ -40,11 +40,6 @@ function registerMetalBlock(name as string, hardness as float, resistance as flo
 
 
 
-
-
-
-
-
 var fieldrestrictionglass = VanillaFactory.createBlock("fieldrestrictionglass", <blockmaterial:glass>);
 fieldrestrictionglass.setBlockHardness(1.5);
 fieldrestrictionglass.setBlockResistance(3.0);
@@ -133,6 +128,7 @@ registerMetalBlock("motorfive", 12.0, 10.0, 1);
 registerMetalBlock("basecasing", 12.0, 10.0, 1);
 registerMetalBlock("supportstructure", 12.0, 10.0, 1);
 registerMetalBlock("asphaltblock", 12.0, 10.0, 1);
+registerMetalBlock("fused_quartz_block", 12.0, 10.0, 1);
 registerMetalBlock("scsteamturbinecasing", 12.0, 10.0, 1);
 registerMetalBlock("millcasing", 12.0, 10.0, 1);
 registerMetalBlock("blockgraphite", 12.0, 10.0, 1);
@@ -413,6 +409,10 @@ var items = [
 "cotton",
 "forcefieldgenerator",
 "wrapofhsssfoil",
+"ga_as_seed_crystal",
+"zone_refined_ga_as_boule",
+"ga_as_boule",
+"ga_as_wafer",
 "wrapofelectrumfoil",
 "wrapofosmiumfinewire",
 "engraved_soc_wafer",
