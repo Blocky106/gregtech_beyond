@@ -22,8 +22,8 @@
   "Dictionary Types": [
     "HILLS",
     "DEAD",
-    "SNOWY",
-    "MOUNTAIN"
+    "MOUNTAIN",
+    "SNOWY"
   ],
   "BiomeManager Entries": {
     "ICY Weights": [

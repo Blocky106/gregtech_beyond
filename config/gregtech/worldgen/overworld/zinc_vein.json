@@ -1,0 +1,34 @@
+{
+  "weight": 40,
+  "density": 0.3,
+  "max_height": 90,
+  "min_height": 40,
+  "vein_populator": {
+    "type": "surface_rock",
+    "material": "zinc"
+  },
+  "generator": {
+    "type": "ellipsoid",
+    "radius": [10, 10]
+  },
+  "filler": {
+    "type": "simple",
+    "value": {
+      "type": "weight_random",
+      "values": [
+        {
+          "weight": 40,
+          "value": "ore:sphalerite"
+        },
+        {
+          "weight": 30,
+          "value": "ore:zinc"
+        },
+        {
+          "weight": 30,
+          "value": "ore:galena"
+        }
+      ]
+    }
+  }
+}

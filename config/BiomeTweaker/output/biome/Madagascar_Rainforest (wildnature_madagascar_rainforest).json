@@ -22,11 +22,11 @@
   "Dictionary Types": [
     "FOREST",
     "WET",
-    "LUSH",
     "JUNGLE",
-    "RARE",
+    "HOT",
+    "LUSH",
     "DENSE",
-    "HOT"
+    "RARE"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [
