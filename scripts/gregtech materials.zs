@@ -535,7 +535,7 @@ util.registerDust("chromium_slag_mud", 32230, 0x874141, "DULL");
 util.registerDust("impure_naquadah_waste", 32231, 0x281414, "DULL");
 util.registerDust("cobalt_nitrate", 32232, 0x6d392e, "DULL");
 util.registerDust("sodium_cyandiamide", 32233, 0xfffba6, "DULL");
-
+util.registerDust("cadmium_oxide", 32234, 0xff6630, "DULL");
 
 
 
@@ -998,9 +998,15 @@ util.registerFluid("glycidol_preparation_mixture", 0xb6b69c);
 util.registerFluid("unrefined_epoxy_resin", 0xb47ac4);
 util.registerFluid("resin_enhancer", 0x965959);
 util.registerFluid("cyandiamide", 0xdbdbdb);
-util.registerFluid("sulfur_hexafluoride", 0xc4b763)
+util.registerFluid("sulfur_hexafluoride", 0xc4b763);
 util.registerFluid("dicyandiamide", 0xdbdbdb);
-
+util.registerFluid("chlorodifluoromethane", 0x74597b);
+util.registerFluid("trifluoroethylene", 0xbac8c8);
+util.registerFluid("tetrafluoroethylene_mixture", 0x8e9696);
+util.registerFluid("nonanol", 0xdbc782);
+util.registerFluid("peg_alkylphenol", 0xb6af94);
+util.registerFluid("triton_x100", 0xe4dfcd);
+util.registerFluid("ptfe_preparation_mixture", 0x88df97);
 
 
 
