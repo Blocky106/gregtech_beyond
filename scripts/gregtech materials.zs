@@ -559,6 +559,10 @@ util.registerDust("compressed_diamond_dust", 32246, 0x72A8D4, "DULL");
 
 
 
+util.registerFluid("sulfur_dichloride", 0x813232);
+util.registerFluid("gallium_vapor", 0xEFEBEB);
+util.registerFluid("arsine_vapor", 0xB0B0B0);
+util.registerFluid("arsine", 0xA3A2A2);
 util.registerFluid("6040_tin_lead_solution", 0xAA9BAD);
 util.registerFluid("copper_sulfate_solution", 0xE08E3C);
 util.registerFluid("polyethylene_naphthalate", 0xFCF7E1);

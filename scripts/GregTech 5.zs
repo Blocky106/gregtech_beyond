@@ -2004,3 +2004,67 @@ packer.recipeBuilder()
     .duration(200)
     .EUt(2)
     .buildAndRegister();
+
+Utils.removeRecipeByOutput(chemReactor, [<gtadditions:ga_meta_item:32032>],[],false);
+Utils.removeRecipeByOutput(lcr, [<gtadditions:ga_meta_item:32032>],[],false);
+
+fluidheater.recipeBuilder()
+    .fluidInputs(<liquid:gallium>*144)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .fluidOutputs(<liquid:gallium_vapor>*1000)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
+
+fluidheater.recipeBuilder()
+    .fluidInputs(<liquid:arsine>*144)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .fluidOutputs(<liquid:arsine_vapor>*1000)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:arsenic_trichloride>*1000,<liquid:hydrogen>*1000)
+    .notConsumable(<gregtech:meta_item_1:2051>)
+    .fluidOutputs(<liquid:arsine>*1000)
+    .duration(200)
+    .EUt(80)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:arsenic_trichloride>*1000,<liquid:hydrogen>*1000)
+    .notConsumable(<gregtech:meta_item_1:2051>)
+    .fluidOutputs(<liquid:arsine>*1000)
+    .duration(200)
+    .EUt(80)
+    .buildAndRegister();
+
+cvd_unit_s.recipeBuilder()
+    .fluidInputs(<liquid:arsine_vapor>*1000,<liquid:gallium_vapor>*1000)
+    .notConsumable(<gregtech:meta_item_1:12051>)
+    .inputs(<contenttweaker:ga_as_seed_crystal>)
+    .outputs(<contenttweaker:ga_as_boule>)
+    .duration(800)
+    .EUt(200)
+    .buildAndRegister();
+
+Utils.removeRecipeByOutput(chemReactor, [],[<liquid:thionyl_chloride>*1000,<liquid:sulfur_dioxide>*1000],false);
+Utils.removeRecipeByOutput(lcr, [],[<liquid:thionyl_chloride>*1000,<liquid:sulfur_dioxide>*1000],false);
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:sulfur_trioxide>*1000,<liquid:sulfur_dichloride>*1000)
+    .fluidOutputs(<liquid:thionyl_chloride>*1000,<liquid:sulfur_dioxide>*1000)
+    .duration(400)
+    .EUt(80)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:sulfur_trioxide>*1000,<liquid:sulfur_dichloride>*1000)
+    .fluidOutputs(<liquid:thionyl_chloride>*1000,<liquid:sulfur_dioxide>*1000)
+    .duration(400)
+    .EUt(80)
+    .buildAndRegister();
+
+Utils.removeRecipeByOutput(chemReactor, [<gtadditions:ga_dust:337>*5],[],false);
+Utils.removeRecipeByOutput(lcr, [<gtadditions:ga_dust:337>*5],[],false);
