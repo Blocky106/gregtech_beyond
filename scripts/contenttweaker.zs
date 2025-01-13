@@ -206,6 +206,14 @@ registerMetalBlock("space_elevator_railway_block", 10.0, 10.0, 1);
 
 
 var items = [
+"ga_as_wafer",
+"p_type_doped_ga_as_wafer",
+"fused_quartz",
+"doped_ga_as_wafer",
+"engraved_ga_as_wafer",
+"etched_ga_as_wafer",
+"passivated_epitaxial_ga_as_wafer",
+"nano_smd_diode_wafer",
 "uev_superconductor_assembly",
 "nylon610_spinneret",
 "fume_hood",
@@ -412,7 +420,6 @@ var items = [
 "ga_as_seed_crystal",
 "zone_refined_ga_as_boule",
 "ga_as_boule",
-"ga_as_wafer",
 "wrapofelectrumfoil",
 "wrapofosmiumfinewire",
 "engraved_soc_wafer",
