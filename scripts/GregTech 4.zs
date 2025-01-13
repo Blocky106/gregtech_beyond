@@ -256,7 +256,7 @@ chemical_bath.recipeBuilder()
 
 metal_bender.recipeBuilder()
     .inputs(<gregtech:meta_item_1:12184>)
-    .notConsumable(<gregtech:meta_item_1:32766>)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
     .outputs(<contenttweaker:steel_item_casing>*2)
     .duration(20)
     .EUt(33)
@@ -1827,7 +1827,7 @@ metal_bender.recipeBuilder()
     .outputs(<contenttweaker:aluminium_item_casing>*2)
     .duration(20)
     .EUt(80)
-    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 0}))
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
     .buildAndRegister();
 
 centrifuge.findRecipe(5, null,[<liquid:gas>*8000]).remove();
