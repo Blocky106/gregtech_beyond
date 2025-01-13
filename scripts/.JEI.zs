@@ -111,7 +111,7 @@ mods.jei.JEI.hideCategory("gregtech:tube_furnace");
 mods.jei.JEI.hideCategory("gregtech:space_elevator");
 mods.jei.JEI.hideCategory("gregtech:sealed_reaction_chamber");
 mods.jei.JEI.hideCategory("gregtech:vacuum_metallizer");
-mods.jei.JEI.hideCategory("gregtech:flash_chromatography");
+mods.jei.JEI.hideCategory("gregtech:flash_chromatography_system");
 mods.jei.JEI.hideCategory("gregtech:cryogenic_reactor");
 mods.jei.JEI.hideCategory("gregtech:crystallization_cruicible");
 
