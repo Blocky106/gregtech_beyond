@@ -1,7 +1,15 @@
 import mods.thaumcraft.Warp;
 import mods.thaumcraft.ArcaneWorkbench;
 import mods.thaumcraft.SalisMundus;
-
+import crafttweaker.item.IItemStack;
+import crafttweaker.liquid.ILiquidStack;
+import crafttweaker.item.IIngredient;
+import mods.gregtech.recipe.RecipeMap;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.oredict.IOreDictEntry;
+import mods.contenttweaker.VanillaFactory;
+import mods.contenttweaker.Block;
+import crafttweaker.item.IItemCondition;
 
 
 
@@ -34,3 +42,159 @@ furnace.remove(<thaumcraft:nugget>);
 mods.thaumcraft.SalisMundus.removeSingleConversion(<thaumcraft:arcane_workbench>);
 mods.thaumcraft.SalisMundus.addSingleConversion(<contenttweaker:steel_plated_workbench>, <thaumcraft:arcane_workbench>);
 mods.thaumcraft.SalisMundus.addSingleConversion(<minecraft:bookshelf>, <thaumcraft:thaumonomicon>);
+
+cutting_saw.recipeBuilder()
+    .inputs(<minecraft:cooked_beef>)
+    .outputs(<thaumcraft:chunk>*9)
+    .duration(20)
+    .EUt(12)
+    .fluidInputs(<liquid:water>*20)
+    .buildAndRegister();
+
+cutting_saw.recipeBuilder()
+    .inputs(<minecraft:cooked_beef>)
+    .outputs(<thaumcraft:chunk>*9)
+    .duration(10)
+    .EUt(12)
+    .fluidInputs(<liquid:lubricant>*10)
+    .buildAndRegister();
+    
+cutting_saw.recipeBuilder()
+    .inputs(<minecraft:cooked_beef>)
+    .outputs(<thaumcraft:chunk>*9)
+    .duration(16)
+    .EUt(12)
+    .fluidInputs(<liquid:distilled_water>*16)
+    .buildAndRegister();
+
+recipe.addShapeless(<minecraft:cooked_beef>, [<thaumcraft:chunk>,<thaumcraft:chunk>,<thaumcraft:chunk>,<thaumcraft:chunk>,<thaumcraft:chunk>,<thaumcraft:chunk>,<thaumcraft:chunk>,<thaumcraft:chunk>,<thaumcraft:chunk>]);
+
+cutting_saw.recipeBuilder()
+    .inputs(<minecraft:cooked_chicken>)
+    .outputs(<thaumcraft:chunk:1>*9)
+    .duration(20)
+    .EUt(12)
+    .fluidInputs(<liquid:water>*20)
+    .buildAndRegister();
+
+cutting_saw.recipeBuilder()
+    .inputs(<minecraft:cooked_chicken>)
+    .outputs(<thaumcraft:chunk:1>*9)
+    .duration(10)
+    .EUt(12)
+    .fluidInputs(<liquid:lubricant>*10)
+    .buildAndRegister();
+    
+cutting_saw.recipeBuilder()
+    .inputs(<minecraft:cooked_chicken>)
+    .outputs(<thaumcraft:chunk:1>*9)
+    .duration(16)
+    .EUt(12)
+    .fluidInputs(<liquid:distilled_water>*16)
+    .buildAndRegister();
+
+recipe.addShapeless(<minecraft:cooked_chicken>, [<thaumcraft:chunk:1>,<thaumcraft:chunk:1>,<thaumcraft:chunk:1>,<thaumcraft:chunk:1>,<thaumcraft:chunk:1>,<thaumcraft:chunk:1>,<thaumcraft:chunk:1>,<thaumcraft:chunk:1>,<thaumcraft:chunk:1>]);
+
+cutting_saw.recipeBuilder()
+    .inputs(<minecraft:cooked_porkchop>)
+    .outputs(<thaumcraft:chunk:2>*9)
+    .duration(20)
+    .EUt(12)
+    .fluidInputs(<liquid:water>*20)
+    .buildAndRegister();
+
+cutting_saw.recipeBuilder()
+    .inputs(<minecraft:cooked_porkchop>)
+    .outputs(<thaumcraft:chunk:2>*9)
+    .duration(10)
+    .EUt(12)
+    .fluidInputs(<liquid:lubricant>*10)
+    .buildAndRegister();
+    
+cutting_saw.recipeBuilder()
+    .inputs(<minecraft:cooked_porkchop>)
+    .outputs(<thaumcraft:chunk:2>*9)
+    .duration(16)
+    .EUt(12)
+    .fluidInputs(<liquid:distilled_water>*16)
+    .buildAndRegister();
+
+recipe.addShapeless(<minecraft:cooked_porkchop>, [<thaumcraft:chunk:2>,<thaumcraft:chunk:2>,<thaumcraft:chunk:2>,<thaumcraft:chunk:2>,<thaumcraft:chunk:2>,<thaumcraft:chunk:2>,<thaumcraft:chunk:2>,<thaumcraft:chunk:2>,<thaumcraft:chunk:2>]);
+
+cutting_saw.recipeBuilder()
+    .inputs(<minecraft:cooked_fish>)
+    .outputs(<thaumcraft:chunk:3>*9)
+    .duration(20)
+    .EUt(12)
+    .fluidInputs(<liquid:water>*20)
+    .buildAndRegister();
+
+cutting_saw.recipeBuilder()
+    .inputs(<minecraft:cooked_fish>)
+    .outputs(<thaumcraft:chunk:3>*9)
+    .duration(10)
+    .EUt(12)
+    .fluidInputs(<liquid:lubricant>*10)
+    .buildAndRegister();
+    
+cutting_saw.recipeBuilder()
+    .inputs(<minecraft:cooked_fish>)
+    .outputs(<thaumcraft:chunk:3>*9)
+    .duration(16)
+    .EUt(12)
+    .fluidInputs(<liquid:distilled_water>*16)
+    .buildAndRegister();
+
+recipe.addShapeless(<minecraft:cooked_fish>, [<thaumcraft:chunk:3>,<thaumcraft:chunk:3>,<thaumcraft:chunk:3>,<thaumcraft:chunk:3>,<thaumcraft:chunk:3>,<thaumcraft:chunk:3>,<thaumcraft:chunk:3>,<thaumcraft:chunk:3>,<thaumcraft:chunk:3>]);
+
+cutting_saw.recipeBuilder()
+    .inputs(<minecraft:cooked_rabbit>)
+    .outputs(<thaumcraft:chunk:4>*9)
+    .duration(20)
+    .EUt(12)
+    .fluidInputs(<liquid:water>*20)
+    .buildAndRegister();
+
+cutting_saw.recipeBuilder()
+    .inputs(<minecraft:cooked_rabbit>)
+    .outputs(<thaumcraft:chunk:4>*9)
+    .duration(10)
+    .EUt(12)
+    .fluidInputs(<liquid:lubricant>*10)
+    .buildAndRegister();
+    
+cutting_saw.recipeBuilder()
+    .inputs(<minecraft:cooked_rabbit>)
+    .outputs(<thaumcraft:chunk:4>*9)
+    .duration(16)
+    .EUt(12)
+    .fluidInputs(<liquid:distilled_water>*16)
+    .buildAndRegister();
+
+recipe.addShapeless(<minecraft:cooked_rabbit>, [<thaumcraft:chunk:4>,<thaumcraft:chunk:4>,<thaumcraft:chunk:4>,<thaumcraft:chunk:4>,<thaumcraft:chunk:4>,<thaumcraft:chunk:4>,<thaumcraft:chunk:4>,<thaumcraft:chunk:4>,<thaumcraft:chunk:4>]);
+
+cutting_saw.recipeBuilder()
+    .inputs(<minecraft:cooked_mutton>)
+    .outputs(<thaumcraft:chunk:5>*9)
+    .duration(20)
+    .EUt(12)
+    .fluidInputs(<liquid:water>*20)
+    .buildAndRegister();
+
+cutting_saw.recipeBuilder()
+    .inputs(<minecraft:cooked_mutton>)
+    .outputs(<thaumcraft:chunk:5>*9)
+    .duration(10)
+    .EUt(12)
+    .fluidInputs(<liquid:lubricant>*10)
+    .buildAndRegister();
+    
+cutting_saw.recipeBuilder()
+    .inputs(<minecraft:cooked_mutton>)
+    .outputs(<thaumcraft:chunk:5>*9)
+    .duration(16)
+    .EUt(12)
+    .fluidInputs(<liquid:distilled_water>*16)
+    .buildAndRegister();
+
+recipe.addShapeless(<minecraft:cooked_mutton>, [<thaumcraft:chunk:5>,<thaumcraft:chunk:5>,<thaumcraft:chunk:5>,<thaumcraft:chunk:5>,<thaumcraft:chunk:5>,<thaumcraft:chunk:5>,<thaumcraft:chunk:5>,<thaumcraft:chunk:5>,<thaumcraft:chunk:5>]);

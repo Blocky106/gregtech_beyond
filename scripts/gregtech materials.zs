@@ -556,9 +556,28 @@ util.registerDust("enriched_naquadah_chloride", 32242, 0x4C5554, "DULL");
 util.registerDust("enriched_naquadah_oxide", 32243, 0x434847, "DULL");
 util.registerDust("manganese_diacetate", 32244, 0xF8CBDA, "SHINY");
 util.registerDust("compressed_diamond_dust", 32246, 0x72A8D4, "DULL");
+util.registerDust("naquadah_waste", 32247, 0x301b1b, "DULL");
+util.registerDust("concentrated_naquatitanium_hydroxide", 32248, 0x503a3a, "SHINY");
+util.registerDust("impure_naquahamericium_hydroxide", 32249, 0x684b4b, "SHINY");
+util.registerDust("naquahamericium_hydroxide", 32250, 0x8f6161, "SHINY");
+util.registerDust("chromium_slag_mud", 32251, 0x874141, "DULL");
+util.registerDust("impure_naquadah_waste", 32252, 0x281414, "DULL");
+util.registerDust("cobalt_nitrate", 32253, 0x6d392e, "DULL");
+util.registerDust("sodium_cyandiamide", 32254, 0xfffba6, "DULL");
 
 
 
+
+util.registerFluid("glycidol",0xfeffa8);
+util.registerFluid("glycidol_ether", 0xd0d15b);
+util.registerFluid("hexafluoroacetone",0xe8e8e8);
+util.registerFluid("toluene", 0x9b9b9b);
+util.registerFluid("glycidol_preparation_mixture", 0xb6b69c);
+util.registerFluid("unrefined_epoxy_resin", 0xb47ac4);
+util.registerFluid("resin_enhancer", 0x965959);
+util.registerFluid("cyandiamide", 0xdbdbdb);
+util.registerFluid("sulfur_hexafluoride", 0xc4b763)
+util.registerFluid("dicyandiamide", 0xdbdbdb);
 util.registerFluid("sulfur_dichloride", 0x813232);
 util.registerFluid("gallium_vapor", 0xEFEBEB);
 util.registerFluid("arsine_vapor", 0xB0B0B0);
