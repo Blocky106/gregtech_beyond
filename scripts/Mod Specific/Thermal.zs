@@ -188,3 +188,5 @@ macerator.recipeBuilder()
     .duration(200)
     .EUt(112)
     .buildAndRegister();
+
+recipes.remove(<thermalfoundation:material:229>);
