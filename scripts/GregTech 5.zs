@@ -2049,6 +2049,25 @@ cvd_unit_s.recipeBuilder()
     .EUt(200)
     .buildAndRegister();
 
+cutting_saw.recipeBuilder()
+    .inputs(<contenttweaker:ga_as_boule>)
+    .fluidInputs(<liquid:distilled_water>*12)
+    .outputs(<contenttweaker:ga_as_wafer>*16)
+    .duration(200)
+    .EUt(120)
+    .buildAndRegister();
+
+cutting_saw.recipeBuilder()
+    .inputs(<contenttweaker:ga_as_boule>)
+    .fluidInputs(<liquid:lubricant>*8)
+    .outputs(<contenttweaker:ga_as_wafer>*16)
+    .duration(150)
+    .EUt(120)
+    .buildAndRegister();
+
+
+
+
 Utils.removeRecipeByOutput(chemReactor, [],[<liquid:thionyl_chloride>*1000,<liquid:sulfur_dioxide>*1000],false);
 Utils.removeRecipeByOutput(lcr, [],[<liquid:thionyl_chloride>*1000,<liquid:sulfur_dioxide>*1000],false);
 
@@ -2068,3 +2087,39 @@ lcr.recipeBuilder()
 
 Utils.removeRecipeByOutput(chemReactor, [<gtadditions:ga_dust:337>*5],[],false);
 Utils.removeRecipeByOutput(lcr, [<gtadditions:ga_dust:337>*5],[],false);
+
+furnace.remove(<gregtech:meta_item_1:10007>);
+
+ebf.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2007>)
+    .outputs(<gregtech:meta_item_1:10007>)
+    .duration(200)
+    .EUt(200)
+    .property("temperature", 1000)
+    .buildAndRegister();
+
+recipes.addShaped(<gregtech:machine:10007>, [	[<contenttweaker:bulatsteelplate>, <gregtech:meta_item_1:32641>, <contenttweaker:bulatsteelplate>], 	[<gregtech:meta_item_1:32611>, <gregtech:machine:502>, <gregtech:meta_item_1:32611>], 	[<contenttweaker:bulatsteelplate>, <ore:frameGtSteel>, <contenttweaker:bulatsteelplate>]]);
+
+assembler.recipeBuilder()
+    .inputs(<contenttweaker:lithography_base_mask>,<ore:dyeBlack>)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 13}))
+    .outputs(<contenttweaker:uhpic_lithography_mask>)
+    .duration(200)
+    .EUt(1200)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs(<contenttweaker:lithography_base_mask>,<ore:dyeBlack>)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 14}))
+    .outputs(<contenttweaker:circiut_board_lithography_mask>)
+    .duration(200)
+    .EUt(1200)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs(<contenttweaker:lithography_base_mask>,<ore:dyeBlack>)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 15}))
+    .outputs(<contenttweaker:qubit_cpu_lithography_mask>)
+    .duration(200)
+    .EUt(1200)
+    .buildAndRegister();
