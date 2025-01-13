@@ -2007,3 +2007,13 @@ roasters.recipeBuilder()
     .duration(200)
     .EUt(12)
     .buildAndRegister();
+
+engraving_unit_s.recipeBuilder()
+    .inputs(<contenttweaker:doped_ga_as_wafer>)
+    .fluidInputs(<liquid:novolacs_photoresist>*100)
+    .notConsumable(<contenttweaker:diode_lithography_mask>)
+    .outputs(<contenttweaker:engraved_ga_as_wafer>)
+    .duration(200)
+    .EUt(80)
+    .buildAndRegister();
+

@@ -67,7 +67,7 @@ cutting_saw.recipeBuilder()
     .fluidInputs(<liquid:distilled_water>*16)
     .buildAndRegister();
 
-recipe.addShapeless(<minecraft:cooked_beef>, [<thaumcraft:chunk>,<thaumcraft:chunk>,<thaumcraft:chunk>,<thaumcraft:chunk>,<thaumcraft:chunk>,<thaumcraft:chunk>,<thaumcraft:chunk>,<thaumcraft:chunk>,<thaumcraft:chunk>]);
+recipes.addShapeless(<minecraft:cooked_beef>, [<thaumcraft:chunk>,<thaumcraft:chunk>,<thaumcraft:chunk>,<thaumcraft:chunk>,<thaumcraft:chunk>,<thaumcraft:chunk>,<thaumcraft:chunk>,<thaumcraft:chunk>,<thaumcraft:chunk>]);
 
 cutting_saw.recipeBuilder()
     .inputs(<minecraft:cooked_chicken>)
@@ -93,7 +93,7 @@ cutting_saw.recipeBuilder()
     .fluidInputs(<liquid:distilled_water>*16)
     .buildAndRegister();
 
-recipe.addShapeless(<minecraft:cooked_chicken>, [<thaumcraft:chunk:1>,<thaumcraft:chunk:1>,<thaumcraft:chunk:1>,<thaumcraft:chunk:1>,<thaumcraft:chunk:1>,<thaumcraft:chunk:1>,<thaumcraft:chunk:1>,<thaumcraft:chunk:1>,<thaumcraft:chunk:1>]);
+recipes.addShapeless(<minecraft:cooked_chicken>, [<thaumcraft:chunk:1>,<thaumcraft:chunk:1>,<thaumcraft:chunk:1>,<thaumcraft:chunk:1>,<thaumcraft:chunk:1>,<thaumcraft:chunk:1>,<thaumcraft:chunk:1>,<thaumcraft:chunk:1>,<thaumcraft:chunk:1>]);
 
 cutting_saw.recipeBuilder()
     .inputs(<minecraft:cooked_porkchop>)
@@ -119,7 +119,7 @@ cutting_saw.recipeBuilder()
     .fluidInputs(<liquid:distilled_water>*16)
     .buildAndRegister();
 
-recipe.addShapeless(<minecraft:cooked_porkchop>, [<thaumcraft:chunk:2>,<thaumcraft:chunk:2>,<thaumcraft:chunk:2>,<thaumcraft:chunk:2>,<thaumcraft:chunk:2>,<thaumcraft:chunk:2>,<thaumcraft:chunk:2>,<thaumcraft:chunk:2>,<thaumcraft:chunk:2>]);
+recipes.addShapeless(<minecraft:cooked_porkchop>, [<thaumcraft:chunk:2>,<thaumcraft:chunk:2>,<thaumcraft:chunk:2>,<thaumcraft:chunk:2>,<thaumcraft:chunk:2>,<thaumcraft:chunk:2>,<thaumcraft:chunk:2>,<thaumcraft:chunk:2>,<thaumcraft:chunk:2>]);
 
 cutting_saw.recipeBuilder()
     .inputs(<minecraft:cooked_fish>)
@@ -145,7 +145,7 @@ cutting_saw.recipeBuilder()
     .fluidInputs(<liquid:distilled_water>*16)
     .buildAndRegister();
 
-recipe.addShapeless(<minecraft:cooked_fish>, [<thaumcraft:chunk:3>,<thaumcraft:chunk:3>,<thaumcraft:chunk:3>,<thaumcraft:chunk:3>,<thaumcraft:chunk:3>,<thaumcraft:chunk:3>,<thaumcraft:chunk:3>,<thaumcraft:chunk:3>,<thaumcraft:chunk:3>]);
+recipes.addShapeless(<minecraft:cooked_fish>, [<thaumcraft:chunk:3>,<thaumcraft:chunk:3>,<thaumcraft:chunk:3>,<thaumcraft:chunk:3>,<thaumcraft:chunk:3>,<thaumcraft:chunk:3>,<thaumcraft:chunk:3>,<thaumcraft:chunk:3>,<thaumcraft:chunk:3>]);
 
 cutting_saw.recipeBuilder()
     .inputs(<minecraft:cooked_rabbit>)
@@ -171,7 +171,7 @@ cutting_saw.recipeBuilder()
     .fluidInputs(<liquid:distilled_water>*16)
     .buildAndRegister();
 
-recipe.addShapeless(<minecraft:cooked_rabbit>, [<thaumcraft:chunk:4>,<thaumcraft:chunk:4>,<thaumcraft:chunk:4>,<thaumcraft:chunk:4>,<thaumcraft:chunk:4>,<thaumcraft:chunk:4>,<thaumcraft:chunk:4>,<thaumcraft:chunk:4>,<thaumcraft:chunk:4>]);
+recipes.addShapeless(<minecraft:cooked_rabbit>, [<thaumcraft:chunk:4>,<thaumcraft:chunk:4>,<thaumcraft:chunk:4>,<thaumcraft:chunk:4>,<thaumcraft:chunk:4>,<thaumcraft:chunk:4>,<thaumcraft:chunk:4>,<thaumcraft:chunk:4>,<thaumcraft:chunk:4>]);
 
 cutting_saw.recipeBuilder()
     .inputs(<minecraft:cooked_mutton>)
@@ -197,4 +197,4 @@ cutting_saw.recipeBuilder()
     .fluidInputs(<liquid:distilled_water>*16)
     .buildAndRegister();
 
-recipe.addShapeless(<minecraft:cooked_mutton>, [<thaumcraft:chunk:5>,<thaumcraft:chunk:5>,<thaumcraft:chunk:5>,<thaumcraft:chunk:5>,<thaumcraft:chunk:5>,<thaumcraft:chunk:5>,<thaumcraft:chunk:5>,<thaumcraft:chunk:5>,<thaumcraft:chunk:5>]);
+recipes.addShapeless(<minecraft:cooked_mutton>, [<thaumcraft:chunk:5>,<thaumcraft:chunk:5>,<thaumcraft:chunk:5>,<thaumcraft:chunk:5>,<thaumcraft:chunk:5>,<thaumcraft:chunk:5>,<thaumcraft:chunk:5>,<thaumcraft:chunk:5>,<thaumcraft:chunk:5>]);
