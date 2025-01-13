@@ -237,6 +237,7 @@ var items = [
 "nickel_breeding_bed",
 "superconducting_wire_insulation_base",
 "aluminium_item_casing",
+"au_ge_ni_alloy_stack",
 "syringe",
 "sheep_blood_syringe",
 "sterilized_syringe",
