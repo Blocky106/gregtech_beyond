@@ -567,7 +567,9 @@ util.registerDust("sodium_cyandiamide", 32254, 0xfffba6, "DULL");
 
 
 
-
+util.registerFluid("bcl3_cl2_ar_etchant", 0x464646);
+util.registerFluid("trimethylgallium",0x464646);
+util.registerFluid("diethylzinc",0xFF6600);
 util.registerFluid("glycidol",0xfeffa8);
 util.registerFluid("glycidol_ether", 0xd0d15b);
 util.registerFluid("hexafluoroacetone",0xe8e8e8);
@@ -576,7 +578,7 @@ util.registerFluid("glycidol_preparation_mixture", 0xb6b69c);
 util.registerFluid("unrefined_epoxy_resin", 0xb47ac4);
 util.registerFluid("resin_enhancer", 0x965959);
 util.registerFluid("cyandiamide", 0xdbdbdb);
-util.registerFluid("sulfur_hexafluoride", 0xc4b763)
+util.registerFluid("sulfur_hexafluoride", 0xc4b763);
 util.registerFluid("dicyandiamide", 0xdbdbdb);
 util.registerFluid("sulfur_dichloride", 0x813232);
 util.registerFluid("gallium_vapor", 0xEFEBEB);
