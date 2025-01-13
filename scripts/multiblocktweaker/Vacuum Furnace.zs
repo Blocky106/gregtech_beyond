@@ -256,3 +256,4 @@ vacuum_furnace.recipeMap.recipeBuilder()
     .duration(120)
     .EUt(20)
     .buildAndRegister();
+
