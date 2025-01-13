@@ -256,13 +256,6 @@ assembler.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
-alloy_smelter.recipeBuilder()
-    .inputs(<minecraft:stone>,<gregtech:meta_item_1:2113>)
-    .outputs(<gregtech:ore_emerald_0>)
-    .EUt(12)
-    .duration(12)
-    .buildAndRegister();
-
 assembler.recipeBuilder()
     .inputs(<gregtech:meta_item_2:16184>*64,<gregtech:meta_item_1:19079>*48)
     .outputs(<gregtech:meta_item_1:32729>)
