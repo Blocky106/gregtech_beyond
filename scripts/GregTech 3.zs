@@ -250,6 +250,7 @@ centrifuge.recipeBuilder()
 
 assembler.recipeBuilder()
     .inputs(<minecraft:stone>*64,<gregtech:ore_emerald_0>*48)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 2}))
     .outputs(<contenttweaker:gemstonecluster>)
     .duration(40)
     .EUt(12)
