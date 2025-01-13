@@ -85,3 +85,4 @@ global steam_foundry    as RecipeMap = RecipeMap.getByName("steam_foundry");
 global spincoater    as RecipeMap = RecipeMap.getByName("spincoater");
 global uv_light     as RecipeMap = RecipeMap.getByName("uv_light");
 global plasma_etcher as RecipeMap = RecipeMap.getByName("plasma_etcher");
+global engraving_unit_s as RecipeMap = RecipeMap.getByName("engraving_unit_s");
