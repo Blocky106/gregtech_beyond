@@ -112,10 +112,27 @@ val mocvd_unit = Builder.start(loc, meta)
 .withRecipeMap(
         FactoryRecipeMap.start(loc)
                         .maxInputs(4)
-                        .maxFluidInputs(2)
+                        .maxFluidInputs(3)
                         .maxFluidOutputs(2)
                         .maxOutputs(4)
                         .build())
                         .withTexture(ICubeRenderer.sided("contenttweaker:blocks/machine_casing_solid_steel"))
 .withZoom(0.5f)
 .buildAndRegister() as Multiblock;
+
+
+mocvd_unit.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:hydrogen>*1000,<liquid:trimethylgallium>*1000,<liquid:diethylzinc>*1000)
+    .inputs(<contenttweaker:ga_as_wafer>)
+    .outputs(<contenttweaker:p_type_doped_ga_as_wafer>)
+    .duration(2000)
+    .EUt(120)
+    .buildAndRegister();
+
+mocvd_unit.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:hydrogen>*1000,<liquid:trimethylgallium>*1000,<liquid:arsine>*1000)
+    .inputs(<contenttweaker:p_type_doped_ga_as_wafer>)
+    .outputs(<contenttweaker:doped_ga_as_wafer>)
+    .duration(2000)
+    .EUt(120)
+    .buildAndRegister();

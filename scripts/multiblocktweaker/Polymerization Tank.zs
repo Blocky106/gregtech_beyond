@@ -356,3 +356,11 @@ polymerization_tank.recipeMap.recipeBuilder()
     .duration(200)
     .EUt(800)
     .buildAndRegister();
+
+polymerization_tank.recipeMap.recipeBuilder()
+    .notConsumable(<gtadditions:ga_dust:32232>)
+    .fluidInputs(<liquid:glycidol_ether>*1000, <liquid:resin_enhancer>*1000)
+    .fluidOutputs(<liquid:unrefined_epoxy_resin>*2000)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
