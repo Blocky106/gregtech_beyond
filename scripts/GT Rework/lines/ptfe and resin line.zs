@@ -83,7 +83,7 @@ mixer.recipeBuilder()
     .buildAndRegister();
 
 mixer.recipeBuilder()
-    .fluidInputs(<liquid:unrefined_epoxy_resin>, <liquid:acetone>*1000)
+    .fluidInputs(<liquid:unrefined_epoxy_resin>*1000, <liquid:acetone>*1000)
     .fluidOutputs(<liquid:epoxid>*1000)
     .duration(200)
     .EUt(20)
