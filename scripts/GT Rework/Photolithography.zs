@@ -2017,3 +2017,28 @@ engraving_unit_s.recipeBuilder()
     .EUt(80)
     .buildAndRegister();
 
+cutting_saw.recipeBuilder()
+    .fluidInputs(<liquid:water>*20)
+    .inputs(<contenttweaker:nano_smd_diode_wafer>)
+    .outputs(<gtadditions:ga_meta_item:32247>*16)
+    .duration(200)
+    .EUt(800)
+    .buildAndRegister();
+
+cutting_saw.recipeBuilder()
+    .fluidInputs(<liquid:distilled_water>*16)
+    .inputs(<contenttweaker:nano_smd_diode_wafer>)
+    .outputs(<gtadditions:ga_meta_item:32247>*16)
+    .duration(180)
+    .EUt(800)
+    .buildAndRegister();
+
+cutting_saw.recipeBuilder()
+    .fluidInputs(<liquid:lubricant>*12)
+    .inputs(<contenttweaker:nano_smd_diode_wafer>)
+    .outputs(<gtadditions:ga_meta_item:32247>*16)
+    .duration(160)
+    .EUt(800)
+    .buildAndRegister();
+
+Utils.removeRecipeByOutput(assembler, [<gtadditions:ga_meta_item:32247>*32], [], true);
