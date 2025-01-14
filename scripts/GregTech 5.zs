@@ -2123,3 +2123,29 @@ assembler.recipeBuilder()
     .duration(200)
     .EUt(1200)
     .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:methanol>*2000,<liquid:oxygen>*2000)
+    .notConsumable(<gregtech:meta_item_1:2062>)
+    .fluidOutputs(<liquid:formaldehyde>*2000,<liquid:water>*2000)
+    .duration(200)
+    .EUt(120)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:methanol>*2000,<liquid:oxygen>*2000)
+    .notConsumable(<gregtech:meta_item_1:2062>)
+    .fluidOutputs(<liquid:formaldehyde>*2000,<liquid:water>*2000)
+    .duration(200)
+    .EUt(120)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .fluidInputs(<liquid:soldering_alloy>*144)
+    .inputs(<gregtech:meta_item_1:12026>,<gregtech:meta_item_1:12044>,<gregtech:meta_item_1:12760>)
+    .outputs(<contenttweaker:au_ge_ni_alloy_stack>)
+    .duration(200)
+    .EUt(80)
+    .buildAndRegister();
+
+recipes.addShaped(<gregtech:machine:10036>, [	[<gregtech:meta_item_1:32613>, <ore:plateHssg>, <gregtech:meta_item_1:32613>], 	[<ore:circuitMaster>, <gregtech:machine:505>, <ore:circuitMaster>], 	[<ore:wireGtDoubleYttriumBariumCuprate>, <ore:plateHssg>, <ore:wireGtDoubleYttriumBariumCuprate>]]);
