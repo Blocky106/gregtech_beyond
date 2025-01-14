@@ -131,7 +131,7 @@ mocvd_unit.recipeMap.recipeBuilder()
 
 mocvd_unit.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:hydrogen>*1000,<liquid:trimethylgallium>*1000,<liquid:arsine>*1000)
-    .inputs(<contenttweaker:p_type_doped_ga_as_wafer>)
+    .inputs(<contenttweaker:p_type_doped_ga_as_wafer>,<gregtech:meta_item_1:2010>)
     .outputs(<contenttweaker:doped_ga_as_wafer>)
     .duration(2000)
     .EUt(120)
