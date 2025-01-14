@@ -135,3 +135,11 @@ sintering_oven.recipeMap.recipeBuilder()
     .duration(200)
     .EUt(80)
     .buildAndRegister();
+
+sintering_oven.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:methane>*20,<liquid:air>*50)
+    .inputs(<minecraft:quratz>)
+    .outputs(<contenttweaker:fused_quartz>)
+    .duration(200)
+    .EUt(800)
+    .buildAndRegister();

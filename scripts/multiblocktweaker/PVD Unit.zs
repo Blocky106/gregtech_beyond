@@ -86,7 +86,7 @@ val pvd_unit = Builder.start(loc, meta)
 .withRecipeMap(
         FactoryRecipeMap.start(loc)
                         .maxInputs(4)
-                        .maxFluidInputs(2)
+                        .maxFluidInputs(3)
                         .maxOutputs(1)
                         .maxFluidOutputs(1)
                         .build())
@@ -111,6 +111,14 @@ pvd_unit.recipeMap.recipeBuilder()
     .outputs(<contenttweaker:uev_superconductor_assembly>)
     .duration(8000)
     .EUt(12000)
+    .buildAndRegister();
+
+pvd_unit.recipeMap.recipeBuilder()
+    .inputs(<contenttweaker:passivated_epitaxial_ga_as_wafer>,<gregtech:meta_item_2:16470>)
+    .fluidInputs(<liquid:ammonia>*1000,<liquid:silane>*1000,<liquid:helium>*1000)
+    .outputs(<contenttweaker:nano_smd_diode_wafer>)
+    .duration(200)
+    .EUt(80)
     .buildAndRegister();
 
 

@@ -116,3 +116,10 @@ val reactive_ion_etcher = Builder.start(loc, meta)
 .withZoom(0.5f)
 .buildAndRegister() as Multiblock;
 
+reactive_ion_etcher.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:bcl3_cl2_ar_etchant>*1000)
+    .inputs(<contenttweaker:engraved_cpu_wafer>)
+    .outputs(<contenttweaker:etched_ga_as_wafer>)
+    .duration(400)
+    .EUt(240)
+    .buildAndRegister();
