@@ -118,7 +118,7 @@ val reactive_ion_etcher = Builder.start(loc, meta)
 
 reactive_ion_etcher.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:bcl3_cl2_ar_etchant>*1000)
-    .inputs(<contenttweaker:engraved_cpu_wafer>)
+    .inputs(<contenttweaker:engraved_ga_as_wafer>)
     .outputs(<contenttweaker:etched_ga_as_wafer>)
     .duration(400)
     .EUt(240)
