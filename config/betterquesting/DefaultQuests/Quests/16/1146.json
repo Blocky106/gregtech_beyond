@@ -1,0 +1,52 @@
+{
+  "preRequisites:11": [
+    550
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 32356,
+        "id:8": "gtadditions:ga_meta_item"
+      },
+      "name:8": "UIV Components",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1146,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32356,
+          "id:8": "gtadditions:ga_meta_item"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 32362,
+          "id:8": "gtadditions:ga_meta_item"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 32368,
+          "id:8": "gtadditions:ga_meta_item"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 32386,
+          "id:8": "gtadditions:ga_meta_item"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 32350,
+          "id:8": "gtadditions:ga_meta_item"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

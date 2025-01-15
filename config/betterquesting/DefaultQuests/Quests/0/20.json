@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    19
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "enderio:item_alloy_ingot"
+      },
+      "name:8": "Electrical Steel",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 20,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "enderio:item_alloy_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

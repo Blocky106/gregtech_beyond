@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    22
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "After working for so many days, you can now finally rest.\nbeware of the phantoms -nvm its 1.12.2\nPlace down the bed and right click it in order to set your spawnpoint and skip the night\nyou might want to skip nights in order to survive, at least in the beginning\n\nif you are not afraid enough of the night, always remember that there are \n-special mobs\n-champions\n-infernal mobs\n-ender zoo\nthese are quite some hefty hitters",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:bed"
+      },
+      "name:8": "Bed",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 81,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:bed"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

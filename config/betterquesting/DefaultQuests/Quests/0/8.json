@@ -1,0 +1,42 @@
+{
+  "preRequisites:11": [
+    5
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The Wood frame will be used as crafting ingredient \nit can also be used as decoration since it looks quite nice\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "gregtech:frame_wood"
+      },
+      "name:8": "Wood Frame",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 8,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 128,
+          "id:8": "minecraft:log"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:frame_wood"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

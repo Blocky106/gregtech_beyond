@@ -1,0 +1,39 @@
+{
+  "preRequisites:11": [
+    259,
+    257
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 32,
+        "id:8": "gregtech:ore_rutile_0"
+      },
+      "name:8": "Rutile Aquired",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 282,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 32,
+          "id:8": "gregtech:ore_rutile_0"
+        },
+        "1:10": {
+          "Count:3": 32,
+          "id:8": "gregtech:ore_ruby_0"
+        },
+        "2:10": {
+          "Count:3": 32,
+          "id:8": "gregtech:ore_aluminium_0"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

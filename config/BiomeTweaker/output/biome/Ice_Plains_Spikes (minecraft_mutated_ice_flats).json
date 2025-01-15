@@ -22,8 +22,8 @@
   "Dictionary Types": [
     "COLD",
     "RARE",
-    "SNOWY",
-    "HILLS"
+    "HILLS",
+    "SNOWY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

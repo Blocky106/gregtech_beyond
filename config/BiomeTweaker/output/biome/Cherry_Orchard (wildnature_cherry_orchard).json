@@ -22,9 +22,9 @@
   "Dictionary Types": [
     "FOREST",
     "RARE",
-    "DENSE",
     "HOT",
-    "WET"
+    "WET",
+    "DENSE"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [

@@ -1,0 +1,47 @@
+{
+  "preRequisites:11": [
+    1151
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2,
+        "id:8": "gtadditions:ga_cryostat_casing"
+      },
+      "name:8": "Advanced Fusion MK3",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1152,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "gtadditions:ga_cryostat_casing"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 6,
+          "id:8": "gtadditions:ga_fusion_casing"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "gtadditions:ga_divertor_casing"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "gtadditions:ga_vacuum_casing"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

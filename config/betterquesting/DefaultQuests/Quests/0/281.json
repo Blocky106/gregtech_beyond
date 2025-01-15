@@ -1,0 +1,47 @@
+{
+  "preRequisites:11": [
+    256
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "For mining a certain amount of blocks you will gain another modifier\nEach tool has a base set of modifiers\n\n\n\nBooktext: Adding redstone to a tool seems to increase its speed. Redstone. Crazy stuff, amirite?\nEffects:\n\nEach redstone dust increases mining speed by a small amount\nIncreases melee attack speed and bow draw speed\nMultiple levels\n\nLevels: Each level costs one modifier\n\nHaste - 1 to 50 Redstone Cost\nHaster - 51 to 100 Redstone Cost\nHastest - 101 to 150 Redstone Cost\nHastester - 151 to 200 Redstone Cost\nHastestest - 201 to 250 Redstone Cost\n\nhttps://tinkers-construct-2.fandom.com/wiki/Modifiers",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 13,
+        "id:8": "minecraft:wool"
+      },
+      "name:8": "Modifiers",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 281,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 12033,
+          "id:8": "gregtech:meta_item_1"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "tconstruct:tool_rod",
+          "tag:10": {
+            "Material:8": "stone"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

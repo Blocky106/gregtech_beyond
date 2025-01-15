@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    57
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 6,
+        "id:8": "enderio:item_endergy_conduit"
+      },
+      "name:8": "Electrum Energy Conduit"
+    }
+  },
+  "questID:3": 58,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 6,
+          "id:8": "enderio:item_endergy_conduit"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

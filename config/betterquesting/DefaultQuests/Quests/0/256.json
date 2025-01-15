@@ -1,0 +1,49 @@
+{
+  "preRequisites:11": [
+    243
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "tconstruct:smeltery_controller"
+      },
+      "name:8": "Smeltery Aquired",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 256,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 3,
+          "id:8": "tconstruct:seared"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "tconstruct:faucet"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "tconstruct:casting"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 1,
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "tconstruct:smeltery_controller"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

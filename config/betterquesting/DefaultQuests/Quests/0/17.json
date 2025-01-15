@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    222
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The Stone Knife is a Cheap Tool, it is required to craft Parts wich Gate your Progression, since you trained your craftmenship for over 12 minutes by now, you will be able to make a perfect stone knife, thus it wont break after using it",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:stoneknife"
+      },
+      "name:8": "Stone knife",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 17,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:stoneknife"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

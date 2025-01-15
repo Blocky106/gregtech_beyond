@@ -1,0 +1,49 @@
+{
+  "preRequisites:11": [
+    1265,
+    552,
+    7,
+    1269,
+    1476,
+    1475
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 10008,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "It Doesn\u0027t Matter",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1264,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 10008,
+          "id:8": "gregtech:machine"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:mattercasing"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:highpowercasing"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:electroniccasing"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

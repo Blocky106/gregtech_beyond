@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    1100,
+    1098,
+    1102
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 4022,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "Quantum Computer",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1101,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 4022,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

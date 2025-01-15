@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    37
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "mitts, they are needed to carry around fluids, in this modpack i installed a mod named hot or not it heats up fluids and if you carry them around without mitts you\u0027ll burn",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hotornot:mitts"
+      },
+      "name:8": "Mitts",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 47,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hotornot:mitts"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    0
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Upon killing a few sheep, you can streatch their wool in order to obtain this item, it is one of the gates for a bed\nyou will need to get a saw first tho, in order to get the wooden bolt",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:stretchedwool"
+      },
+      "name:8": "Strechted Wool",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 22,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:stretchedwool"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

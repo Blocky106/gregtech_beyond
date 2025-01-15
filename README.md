@@ -1,5 +1,5 @@
 # gregtech_beyond
-Github for the gregtech beyond modpack, 
+Github for the Gregtech Beyond Modpack, 
 A modpack created by Blocky 
 
 Without the help of a lot of people, this couldnt have been possible

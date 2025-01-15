@@ -1,0 +1,19 @@
+{
+  "preRequisites:11": [
+    185
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 32205,
+        "id:8": "gtadditions:ga_meta_item"
+      },
+      "name:8": "Refined Computer",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 186,
+  "tasks:9": {}
+}
