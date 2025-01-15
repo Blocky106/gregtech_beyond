@@ -138,7 +138,7 @@ sintering_oven.recipeMap.recipeBuilder()
 
 sintering_oven.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:methane>*20,<liquid:air>*50)
-    .inputs(<minecraft:quratz>)
+    .inputs(<minecraft:quartz>)
     .outputs(<contenttweaker:fused_quartz>)
     .duration(200)
     .EUt(800)
