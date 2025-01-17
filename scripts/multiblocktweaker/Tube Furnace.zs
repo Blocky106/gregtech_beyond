@@ -60,7 +60,7 @@ val tube_furnace = Builder.start(loc, meta)
                     "CCC",
                     "~H~",
                     "~H~",
-                    "FHF")
+                    "FSF")
                 .aisle("HHH","H~H","H~H","CCC","C~C","C~C","CCC","H~H","H~H","HSH")
                 .aisle("~H~","~H~","~H~","CCC","CCC","CCC","CCC","~H~","~H~","~H~")
                 .where("S", IBlockMatcher.controller(loc))
