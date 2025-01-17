@@ -516,3 +516,65 @@ val stellar_pressure_generator = Builder.start(loc, meta)
 .withZoom(0.5f)
 .buildAndRegister() as Multiblock;
 
+stellar_pressure_generator.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:bohrium>*1296)
+    .inputs(<gtadditions:ga_dust:32237>)
+    .notConsumable(<gregtech:meta_item_1:32308>)
+    .outputs(<gregtech:meta_block_compressed_45:15>)
+    .duration(200)
+    .EUt(1200000)
+    .buildAndRegister();
+
+stellar_pressure_generator.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:bohrium>*576)
+    .inputs(<gtadditions:ga_dust:32237>)
+    .notConsumable(<gregtech:meta_item_1:32303>)
+    .outputs(<gregtech:meta_item_2:26735>)
+    .duration(200)
+    .EUt(1200000)
+    .buildAndRegister();
+    
+stellar_pressure_generator.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:bohrium>*576)
+    .inputs(<gtadditions:ga_dust:32237>)
+    .notConsumable(<gregtech:meta_item_1:32318>)
+    .outputs(<gregtech:meta_item_2:18735>)
+    .duration(200)
+    .EUt(1200000)
+    .buildAndRegister();
+    
+stellar_pressure_generator.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:bohrium>*144)
+    .inputs(<gtadditions:ga_dust:32237>)
+    .notConsumable(<gregtech:meta_item_1:32301>)
+    .outputs(<gregtech:meta_item_1:12735>)
+    .duration(200)
+    .EUt(1200000)
+    .buildAndRegister();
+    
+stellar_pressure_generator.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:bohrium>*144)
+    .inputs(<gtadditions:ga_dust:32237>)
+    .notConsumable(<gregtech:meta_item_1:32306>)
+    .outputs(<gregtech:meta_item_1:10735>)
+    .duration(200)
+    .EUt(1200000)
+    .buildAndRegister();
+    
+stellar_pressure_generator.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:bohrium>*144)
+    .inputs(<gtadditions:ga_dust:32237>)
+    .notConsumable(<gregtech:meta_item_1:32309>)
+    .outputs(<gregtech:meta_item_1:9735>*9)
+    .duration(200)
+    .EUt(1200000)
+    .buildAndRegister();
+    
+stellar_pressure_generator.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:bohrium>*144)
+    .inputs(<gtadditions:ga_dust:32237>)
+    .notConsumable(<gregtech:meta_item_1:32317>)
+    .outputs(<gregtech:meta_item_2:17735>)
+    .duration(200)
+    .EUt(1200000)
+    .buildAndRegister();
