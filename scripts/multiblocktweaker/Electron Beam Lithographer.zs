@@ -109,7 +109,7 @@ val electron_beam_lithographer = Builder.start(loc, meta)
                 .withTexture(ICubeRenderer.sided("contenttweaker:blocks/machine_casing_solid_steel"))
 .withRecipeMap(
         FactoryRecipeMap.start(loc)
-                        .maxInputs(2)
+                        .maxInputs(3)
                         .maxFluidInputs(1)
                         .maxFluidOutputs(1)
                         .maxOutputs(1)
@@ -122,4 +122,19 @@ electron_beam_lithographer.recipeMap.recipeBuilder()
     .outputs(<contenttweaker:passivated_epitaxial_ga_as_wafer>)
     .duration(400)
     .EUt(100)
+    .buildAndRegister();
+
+electron_beam_lithographer.recipeMap.recipeBuilder()
+    .inputs(<contenttweaker:silver_electrode>,<contenttweaker:gold_electrode>,<contenttweaker:removed_ga_as_substrate>)
+    .outputs(<contenttweaker:electrode_deposited_ga_as_substrate>)
+    .duration(400)
+    .EUt(100)
+    .buildAndRegister();
+
+electron_beam_lithographer.recipeMap.recipeBuilder()
+    .notConsumable(<contenttweaker:chromium_shadow_mask>)
+    .inputs(<contenttweaker:dried_ga_as_substrate>)
+    .outputs(<contenttweaker:exposed_ga_as_substrate>)
+    .duration(400)
+    .EUt(800)
     .buildAndRegister();

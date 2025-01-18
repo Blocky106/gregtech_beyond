@@ -136,3 +136,19 @@ mocvd_unit.recipeMap.recipeBuilder()
     .duration(2000)
     .EUt(120)
     .buildAndRegister();
+
+mocvd_unit.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:ozone>*1000,<liquid:ammonia>*1000)
+    .inputs(<contenttweaker:ga_as_wafer>,<gtadditions:ga_dust:32255>*3,<gregtech:meta_item_1:2410>,<gtadditions:ga_dust:32256>)
+    .outputs(<contenttweaker:layered_ga_as_wafer>)
+    .duration(2000)
+    .EUt(700)
+    .buildAndRegister();
+
+mocvd_unit.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2031>,<gregtech:meta_item_1:2025>,<gregtech:meta_item_1:2005>)
+    .fluidInputs(<liquid:hydrogen>*1000,<liquid:arsine>*1000)
+    .fluidOutputs(<liquid:indium_gallium_arsenide_substrate>*1000)
+    .duration(2000)
+    .EUt(800)
+    .buildAndRegister();

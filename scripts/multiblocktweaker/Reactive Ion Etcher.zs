@@ -123,3 +123,12 @@ reactive_ion_etcher.recipeMap.recipeBuilder()
     .duration(400)
     .EUt(240)
     .buildAndRegister();
+
+reactive_ion_etcher.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:bcl3_cl2_ar_etchant>*1000)
+    .inputs(<contenttweaker:spincoated_ga_as_wafer>)
+    .outputs(<contenttweaker:etched_spincoated_ga_as_wafer>)
+    .duration(400)
+    .EUt(240)
+    .buildAndRegister();
+

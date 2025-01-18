@@ -121,3 +121,11 @@ sonicator.recipeMap.recipeBuilder()
     .duration(800)
     .EUt(40000)
     .buildAndRegister();
+
+sonicator.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:12410>)
+    .fluidInputs(<liquid:isopropyl_alcohol>*100)
+    .outputs(<contenttweaker:gallium_arsenide_substrate>)
+    .duration(400)
+    .EUt(1200)
+    .buildAndRegister();
