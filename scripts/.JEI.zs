@@ -116,6 +116,12 @@ mods.jei.JEI.hideCategory("gregtech:cryogenic_reactor");
 mods.jei.JEI.hideCategory("gregtech:crystallization_cruicible");
 mods.jei.JEI.hideCategory("gregtech:tree_farm");
 mods.jei.JEI.hideCategory("gregtech:reactive_ion_etcher");
+mods.jei.JEI.hideCategory("gregtech:stellar_pressure_generator");
+mods.jei.JEI.hideCategory("gregtech:electron_beam_lithographer");
+mods.jei.JEI.hideCategory("gregtech:high_vacuum_evaporation_system");
+mods.jei.JEI.hideCategory("gregtech:primitive_blast_furnaces");
+mods.jei.JEI.hideCategory("gregtech:large_fluid_driller");
+mods.jei.JEI.hideCategory("gregtech:mocvd_unit");
 
 
 
