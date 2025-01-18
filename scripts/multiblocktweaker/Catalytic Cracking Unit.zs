@@ -761,3 +761,32 @@ catalytic_cracking_unit.recipeMap.recipeBuilder()
     .duration(800)
     .EUt(524000)
     .buildAndRegister();
+
+#Methane
+
+catalytic_cracking_unit.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:methane>*1000,<liquid:steam>*1000)
+    .notConsumable(<gregtech:meta_item_1:2291>)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .fluidOutputs(<liquid:lightly_steam_cracked_methane>*1000)
+    .duration(200)
+    .EUt(80)
+    .buildAndRegister();
+
+catalytic_cracking_unit.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:methane>*1000,<liquid:steam>*2000)
+    .notConsumable(<gregtech:meta_item_1:2291>)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 2}))
+    .fluidOutputs(<liquid:moderately_steam_cracked_methane>*1000)
+    .duration(200)
+    .EUt(80)
+    .buildAndRegister();
+
+catalytic_cracking_unit.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:methane>*1000,<liquid:steam>*3000)
+    .notConsumable(<gregtech:meta_item_1:2291>)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 3}))
+    .fluidOutputs(<liquid:severely_steam_cracked_methane>*1000)
+    .duration(200)
+    .EUt(80)
+    .buildAndRegister();
