@@ -42,6 +42,11 @@ import mods.nuclearcraft.Turbine;
 import mods.nuclearcraft.Supercooler;
 
 
+mods.nuclearcraft.IngotFormer.removeAllRecipes();
+mods.nuclearcraft.ChemicalReactor.removeAllRecipes();
+mods.nuclearcraft.Centrifuge.removeAllRecipes();
+mods.nuclearcraft.FuelReprocessor.removeAllRecipes();
+
 
 alloy_smelter.recipeBuilder()
     .inputs(<gregtech:meta_item_1:13231>*2,<gregtech:meta_item_1:13035>*2)
@@ -1244,3 +1249,6 @@ alloy_smelter.recipeBuilder()
     .duration(200)
     .EUt(80)
     .buildAndRegister();
+
+recipes.remove(<nuclearcraft:ingot_former>);
+recipes.remove(<nuclearcraft:fission_irradiator>);
