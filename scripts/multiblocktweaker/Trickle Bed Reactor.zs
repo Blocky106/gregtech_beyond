@@ -76,7 +76,7 @@ val trickle_bed_reactor = Builder.start(loc, meta)
 .withRecipeMap(
         FactoryRecipeMap.start(loc)
                         .maxInputs(4)
-                        .maxFluidInputs(2)
+                        .maxFluidInputs(3)
                         .maxFluidOutputs(2)
                         .maxOutputs(4)
                         .build())
