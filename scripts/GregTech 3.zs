@@ -179,13 +179,6 @@ assembler.recipeBuilder()
     .buildAndRegister();
 
 assembler.recipeBuilder()
-    .inputs(<minecraft:glass_bottle>,<minecraft:glowstone_dust>,<gregtech:meta_item_1:2111>)
-    .outputs(<randomthings:timeinabottle>)
-    .duration(400)
-    .EUt(120)
-    .buildAndRegister();
-
-assembler.recipeBuilder()
     .inputs(<contenttweaker:hicomputationstationmk3>*2,<gregtech:machine:606>,<ore:circuitInfinite>,<ore:circuitInfinite>,<gregtech:meta_item_1:12529>*4,<gregtech:meta_item_1:12569>*4)
     .outputs(<gregtech:machine:10001>)
     .duration(800)
@@ -1447,30 +1440,6 @@ ebf.recipeBuilder()
     .property("temperature", 6000)
     .duration(490)
     .EUt(9000)
-    .buildAndRegister();
-
-chemReactor.recipeBuilder()
-    .inputs(<gregtech:meta_item_1:2033>)
-    .fluidInputs(<liquid:mana>*250)
-    .outputs(<thermalfoundation:material:72>)
-    .duration(400)
-    .EUt(2400)
-    .buildAndRegister();
-
-lcr.recipeBuilder()
-    .inputs(<gregtech:meta_item_1:2033>)
-    .fluidInputs(<liquid:mana>*250)
-    .outputs(<thermalfoundation:material:72>)
-    .duration(400)
-    .EUt(2400)
-    .buildAndRegister();
-
-ebf.recipeBuilder()
-    .inputs(<thermalfoundation:material:72>)
-    .outputs(<thermalfoundation:material:136>)
-    .property("temperature", 9000)
-    .duration(800)
-    .EUt(200)
     .buildAndRegister();
 
 metal_bender.recipeBuilder()
@@ -2862,7 +2831,6 @@ lcentrifuge.recipeBuilder()
     .inputs(<gtadditions:ga_dust:32095>)
     .chancedOutput(<gregtech:meta_item_1:2328>, 9000, 200)
     .chancedOutput(<gregtech:meta_item_1:2241>, 5600, 1200)
-    .chancedOutput(<thermalfoundation:material:864>, 2000, 140)
     .chancedOutput(<gregtech:meta_item_1:2960>, 1200, 520)
     .outputs(<gtadditions:ga_dust:32081>)
     .duration(40)
@@ -2881,7 +2849,6 @@ centrifuge.recipeBuilder()
     .inputs(<gtadditions:ga_dust:32095>)
     .chancedOutput(<gregtech:meta_item_1:2328>, 9000, 200)
     .chancedOutput(<gregtech:meta_item_1:2241>, 5600, 1200)
-    .chancedOutput(<thermalfoundation:material:864>, 2000, 140)
     .chancedOutput(<gregtech:meta_item_1:2960>, 1200, 520)
     .outputs(<gtadditions:ga_dust:32081>)
     .duration(40)

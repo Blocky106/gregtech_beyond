@@ -564,9 +564,15 @@ util.registerDust("chromium_slag_mud", 32251, 0x874141, "DULL");
 util.registerDust("impure_naquadah_waste", 32252, 0x281414, "DULL");
 util.registerDust("cobalt_nitrate", 32253, 0x6d392e, "DULL");
 util.registerDust("sodium_cyandiamide", 32254, 0xfffba6, "DULL");
+util.registerDust("aluminium_gallium_arsenide", 32255, 0xA1B0C0, "DULL");
+util.registerDust("indium_gallium_arsenide", 32256, 0x928894, "DULL");
+util.registerDust("silicon_nitride", 32257, 0xE7C8BE, "DULL");
 
 
 
+util.registerFluid("primal_mana", 0x396B9C);
+util.registerFluid("pyromellitic_dianhydride_oxydianilin", 0x7E887F);
+util.registerFluid("indium_gallium_arsenide_substrate", 0xAC96B1);
 util.registerFluid("bcl3_cl2_ar_etchant", 0x464646);
 util.registerFluid("trimethylgallium",0x464646);
 util.registerFluid("diethylzinc",0xFF6600);

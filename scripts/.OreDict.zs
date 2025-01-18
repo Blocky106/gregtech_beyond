@@ -11,7 +11,6 @@ import crafttweaker.block.IBlock;
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Block;
 import crafttweaker.item.IItemCondition;
-import mods.thermalexpansion.InductionSmelter;
 import mods.nuclearcraft.IngotFormer;
 
 
@@ -76,21 +75,9 @@ import mods.nuclearcraft.IngotFormer;
 #------------------------ goofy ahh ingots start----------------------
 
 
-mods.thermalexpansion.InductionSmelter.removeRecipe(<gregtech:ore_cobalt_0>, <minecraft:sand>);
-mods.thermalexpansion.InductionSmelter.removeRecipe(<gregtech:meta_item_1:12017>, <minecraft:sand>);
-mods.thermalexpansion.InductionSmelter.removeRecipe(<gregtech:meta_item_2:26017>, <minecraft:sand>);
-mods.thermalexpansion.InductionSmelter.removeRecipe(<gregtech:ore_cobalt_0>, <thermalfoundation:material:866>);
-mods.thermalexpansion.InductionSmelter.removeRecipe(<gregtech:ore_cobalt_0>, <thermalfoundation:material:865>);
-
-
 
 #iridium
-<ore:ingotIridium>.remove(<thermalfoundation:material:135>);
 <ore:dustIridium>.remove(<qmd:dust:9>);
-<ore:gearIridium>.remove(<thermalfoundation:material:263>);
-
-
-furnace.remove(<thermalfoundation:material:135>);
 
 
 <ore:gemAmber>.add(<wildnature:amber>);
@@ -104,19 +91,13 @@ furnace.remove(<thermalfoundation:material:135>);
 
 #copper
 
-<ore:ingotCopper>.remove(<thermalfoundation:material:128>);
-<ore:gearCopper>.remove(<thermalfoundation:material:256>);
-<ore:nuggetCopper>.remove(<thermalfoundation:material:192>);
 <ore:nuggetCopper>.remove(<thaumcraft:nugget:1>);
 
 
 
-recipes.remove(<thermalfoundation:material:192>);
 recipes.remove(<thaumcraft:nugget:1>);
 recipes.remove(<nuclearcraft:ingot_block>);
 
-packer.findRecipe(4,[<thermalfoundation:material:192>*9,<gtadditions:ga_meta_item:32133>],null).remove();
-compressor.findRecipe(2,[<thermalfoundation:material:192>*9],null).remove();
 unpacker.findRecipe(8,[<nuclearcraft:ingot_block>,<gtadditions:ga_meta_item:32133>],null).remove();
 
 
@@ -131,20 +112,11 @@ packer.findRecipe(4,[<thaumcraft:nugget:1>*9,<gtadditions:ga_meta_item:32133>],n
 
 
 #lead
-<ore:ingotLead>.remove(<thermalfoundation:material:131>);
-<ore:nuggetLead>.remove(<thermalfoundation:material:195>);
-<ore:gearLead>.remove(<thermalfoundation:material:259>);
 
-packer.findRecipe(4,[<thermalfoundation:material:195>*9,<gtadditions:ga_meta_item:32133>],null).remove();
+
 unpacker.findRecipe(8,[<nuclearcraft:ingot_block:2>,<gtadditions:ga_meta_item:32133>],null).remove();
 
 
-
-mods.thermalexpansion.InductionSmelter.removeRecipe(<gregtech:meta_item_1:12035>, <minecraft:sand>);
-mods.thermalexpansion.InductionSmelter.removeRecipe(<gregtech:ore_lead_0>, <minecraft:sand>);
-mods.thermalexpansion.InductionSmelter.removeRecipe(<gregtech:meta_item_1:2035>, <minecraft:sand>);
-mods.thermalexpansion.InductionSmelter.removeRecipe(<gregtech:ore_lead_0>, <thermalfoundation:material:865>);
-mods.thermalexpansion.InductionSmelter.removeRecipe(<gregtech:ore_lead_0>, <thermalfoundation:material:866>);
 
 
 
@@ -176,13 +148,6 @@ unpacker.recipeBuilder()
 
 
 #nickel
-<ore:ingotNickel>.remove(<thermalfoundation:material:133>);
-<ore:gearNickel>.remove(<thermalfoundation:material:261>);
-<ore:blockNickel>.remove(<thermalfoundation:storage:5>);
-<ore:nuggetNickel>.remove(<thermalfoundation:material:197>);
-
-compressor.findRecipe(2,[<thermalfoundation:material:133>*9],null).remove();
-packer.findRecipe(4,[<gtadditions:ga_meta_item:32133>,<thermalfoundation:material:133>*9],null).remove();
 
 extruder.recipeBuilder()
     .EUt(64)
@@ -193,15 +158,9 @@ extruder.recipeBuilder()
     .buildAndRegister();
 
 #platinum
-<ore:ingotPlatinum>.remove(<thermalfoundation:material:134>);
-<ore:nuggetPlatinum>.remove(<thermalfoundation:material:198>);
-<ore:blockPlatinum>.remove(<thermalfoundation:storage:6>);
-<ore:gearPlatinum>.remove(<thermalfoundation:material:262>);
 
 #tin
-<ore:ingotTin>.remove(<thermalfoundation:material:129>);
-<ore:gearTin>.remove(<thermalfoundation:material:257>);
-<ore:nuggetTin>.remove(<thermalfoundation:material:193>);
+
 <ore:nuggetTin>.remove(<thaumcraft:nugget:2>);
 
 furnace.addRecipe(<gregtech:meta_item_1:10071>*2,<thaumcraft:cluster:3>);
@@ -212,9 +171,6 @@ furnace.addRecipe(<gregtech:meta_item_1:10071>*2,<thaumcraft:cluster:3>);
 #uranium
 
 #silver
-<ore:ingotSilver>.remove(<thermalfoundation:material:130>);
-<ore:nuggetSilver>.remove(<thermalfoundation:material:194>);
-<ore:gearSilver>.remove(<thermalfoundation:material:258>);
 <ore:nuggetSilver>.remove(<thaumcraft:nugget:3>);
 
 furnace.addRecipe(<gregtech:meta_item_1:10062>*2,<thaumcraft:cluster:4>);
@@ -223,20 +179,6 @@ furnace.addRecipe(<gregtech:meta_item_1:10062>*2,<thaumcraft:cluster:4>);
 
 
 #bronze
-<ore:ingotBronze>.remove(<thermalfoundation:material:163>);
-<ore:nuggetBronze>.remove(<thermalfoundation:material:227>);
-
-
-
-mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:129>, <thermalfoundation:material:128>*3);
-mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:129>, <gregtech:meta_item_1:2018>*3);
-mods.thermalexpansion.InductionSmelter.removeRecipe(<gregtech:meta_item_1:2071>, <thermalfoundation:material:128>*3);
-mods.thermalexpansion.InductionSmelter.removeRecipe(<gregtech:meta_item_1:2071>, <gregtech:meta_item_1:2018>*3);
-
-packer.findRecipe(4,[<gtadditions:ga_meta_item:32133>,<thermalfoundation:material:227>*9],null).remove();
-compressor.findRecipe(2,[<thermalfoundation:material:227>*9],null).remove();
-packer.findRecipe(4,[<gtadditions:ga_meta_item:32133>,<thermalfoundation:material:227>*9],null).remove();
-
 
 
 
@@ -253,33 +195,10 @@ packer.findRecipe(4,[<gtadditions:ga_meta_item:32133>,<thermalfoundation:materia
 
 
 #steel
-<ore:ingotSteel>.remove(<thermalfoundation:material:160>);
-<ore:nuggetSteel>.remove(<thermalfoundation:material:224>);
-
-
-packer.findRecipe(4,[<gtadditions:ga_meta_item:32133>,<thermalfoundation:material:224>*9],null).remove();
-compressor.findRecipe(2,[<thermalfoundation:material:224>*9],null).remove();
-
-
 
 
 
 #electrum
-<ore:ingotElectrum>.remove(<thermalfoundation:material:161>);
-<ore:nuggetElectrum>.remove(<thermalfoundation:material:225>);
-<ore:blockElectrum>.remove(<thermalfoundation:storage_alloy:1>);
-
-mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:130>, <minecraft:gold_ingot>);
-mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:130>, <gregtech:meta_item_1:2026>);
-mods.thermalexpansion.InductionSmelter.removeRecipe(<gregtech:meta_item_1:2062>, <minecraft:gold_ingot>);
-mods.thermalexpansion.InductionSmelter.removeRecipe(<gregtech:meta_item_1:2062>, <gregtech:meta_item_1:2026>);
-
-packer.findRecipe(4,[<gtadditions:ga_meta_item:32133>,<thermalfoundation:material:225>*9],null).remove();
-compressor.findRecipe(2,[<thermalfoundation:material:225>*9],null).remove();
-unpacker.findRecipe(8,[<thermalfoundation:storage_alloy:1>,<gtadditions:ga_meta_item:32133>],null).remove();
-packer.findRecipe(4,[<gtadditions:ga_meta_item:32133>,<thermalfoundation:material:161>*9],null).remove();
-compressor.findRecipe(2,[<thermalfoundation:material:161>*9],null).remove();
-
 
 
 
@@ -287,28 +206,7 @@ compressor.findRecipe(2,[<thermalfoundation:material:161>*9],null).remove();
 
 
 #invar
-<ore:ingotInvar>.remove(<thermalfoundation:material:162>);
-<ore:nuggetInvar>.remove(<thermalfoundation:material:226>);
-<ore:blockInvar>.remove(<thermalfoundation:storage_alloy:2>);
-<ore:gearInvar>.remove(<thermalfoundation:material:290>);
 
-compressor.findRecipe(2,[<thermalfoundation:material:162>*9],null).remove();
-packer.findRecipe(4,[<thermalfoundation:material:162>*9,<gtadditions:ga_meta_item:32133>],null).remove();
-unpacker.findRecipe(8,[<thermalfoundation:storage_alloy:2>,<gtadditions:ga_meta_item:32133>],null).remove();
-unpacker.findRecipe(8,[<thermalfoundation:material:162>,<gtadditions:ga_meta_item:32133>],null).remove();
-compressor.findRecipe(2,[<thermalfoundation:material:226>*9],null).remove();
-packer.findRecipe(4,[<thermalfoundation:material:226>*9,<gtadditions:ga_meta_item:32133>],null).remove();
-
-
-
-mods.thermalexpansion.InductionSmelter.removeRecipe(<gregtech:meta_item_1:12126>, <minecraft:sand>);
-mods.thermalexpansion.InductionSmelter.removeRecipe(<gregtech:meta_item_2:26126>, <minecraft:sand>);
-mods.thermalexpansion.InductionSmelter.removeRecipe(<gregtech:meta_item_1:2126>, <minecraft:sand>);
-
-mods.thermalexpansion.InductionSmelter.removeRecipe(<gregtech:meta_item_1:2044>,<minecraft:iron_ingot>*2);
-mods.thermalexpansion.InductionSmelter.removeRecipe(<gregtech:meta_item_1:2044>, <gregtech:meta_item_1:2033>*2);
-mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:133>,<minecraft:iron_ingot>*2);
-mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:133>, <gregtech:meta_item_1:2033>*2);
 
 
 
@@ -323,7 +221,6 @@ mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:
 
 
 #enderium
-<ore:ingotEnderium>.remove(<thermalfoundation:material:167>);
 
 
 
@@ -337,10 +234,8 @@ mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:
 
 
 
-<ore:ingotSignalum>.remove(<thermalfoundation:material:165>);
 <ore:IngotSilver>.remove(<wildnature:silver_ingot>);
 <ore:dustPotassiumFluoride>.remove(<nuclearcraft:compound:4>);
-<ore:plateLead>.remove(<thermalfoundation:material:323>);
 <ore:dustHafnium>.remove(<qmd:dust:6>);
 <ore:nuggetManyullyn>.remove(<gregtech:meta_item_1:9527>);
 <ore:ingotManyullyn>.remove(<gregtech:meta_item_1:10527>);
@@ -362,7 +257,6 @@ mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:
 <ore:dustNetherQuartz>.remove(<nuclearcraft:gem_dust:2>);
 <ore:dustQuartz>.remove(<nuclearcraft:gem_dust:2>);
 <ore:ingotTin>.remove(<forestry:ingot_tin>);
-<ore:plateSignalum>.remove(<thermalfoundation:material:357>);
 <ore:dustTitanium>.remove(<qmd:dust:3>);
 <ore:dustCoal>.remove(<nuclearcraft:gem_dust:7>);
 <ore:dustCoal>.remove(<threng:material:3>);
@@ -371,7 +265,6 @@ mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:
 <ore:dustNiobium>.remove(<qmd:dust:1>);
 <ore:dustSodium>.remove(<qmd:dust:11>);
 <ore:dustBismuth>.remove(<nuclearcraft:fission_dust>);
-<ore:ingotAluminum>.remove(<thermalfoundation:material:132>);
 <ore:dustZinc>.remove(<qmd:dust:7>);
 <ore:dustTin>.remove(<nuclearcraft:dust:1>);
 <ore:dustCalcium>.remove(<qmd:dust:13>);
@@ -483,8 +376,6 @@ mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:
 <ore:ingotRedAlloy>.remove(<projectred-core:resource_item:103>);
 <ore:nuggetCofpper>.remove(<thaumcraft:nugget:1>);
 <ore:dustAlumina>.remove(<gtadditions:ga_dust:44>);
-<ore:oreMithril>.remove(<thermalfoundation:ore:8>);
-<ore:manainfusedore>.add(<thermalfoundation:ore:8>);
 <ore:nuggetUltimate>.remove(<gregtech:meta_item_1:9523>);
 <ore:ingotUltimate>.remove(<gregtech:meta_item_1:10523>);
 <ore:blockApatite>.remove(<forestry:resource_storage>);
@@ -504,10 +395,7 @@ mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:
 <ore:plateIron>.remove(<thaumcraft:plate:1>);
 <ore:plateBrass>.remove(<thaumcraft:plate>);
 <ore:titaniumice>.add(<contenttweaker:titaniumcontainingice>);
-<ore:dustSulfur>.remove(<thermalfoundation:material:771>);
 <ore:nuggetLead>.remove(<thaumcraft:nugget:4>);
-<ore:itemSawdust>.remove(<thermalfoundation:material:800>);
-<ore:dustWood>.remove(<thermalfoundation:material:800>);
 <ore:ingotInfinity>.remove(<gregtech:meta_item_1:10561>);
 <ore:ingotLumium>.remove(<gregtech:meta_item_1:10532>);
 <ore:voodooPoppetProtectionLightning>.remove(<minecraft:stick>);

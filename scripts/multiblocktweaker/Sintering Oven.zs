@@ -71,7 +71,7 @@ val sintering_oven = Builder.start(loc, meta)
 
 sintering_oven.recipeMap.recipeBuilder()
     .inputs(<contenttweaker:bitominousresidue>)
-    .outputs(<thermalfoundation:material:892>)
+    .outputs(<contenttweaker:bitumen_crystal>)
     .duration(200)
     .EUt(24)
     .buildAndRegister();

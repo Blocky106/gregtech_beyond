@@ -237,20 +237,20 @@ mixer.recipeBuilder()
 fluid_solidifier.recipeBuilder()
 	.fluidInputs(<liquid:oil> * 200)
 	.notConsumable(<gregtech:meta_item_1:32307>)
-	.outputs(<thermalfoundation:material:833>)
+	.outputs(<contenttweaker:tar>)
 	.duration(100)
 	.EUt(15)
 	.buildAndRegister();
 
 mixer.recipeBuilder()
-	.inputs(<gregtech:meta_item_1:2184> * 3,<gregtech:meta_item_1:2138> * 6,<thermalfoundation:material:833>)
+	.inputs(<gregtech:meta_item_1:2184> * 3,<gregtech:meta_item_1:2138> * 6,<contenttweaker:tar>)
 	.outputs(<gtadditions:ga_dust:32004>)
 	.duration(150)
 	.EUt(12)
 	.buildAndRegister();
 
 lmixer.recipeBuilder()
-	.inputs(<gregtech:meta_item_1:2184> * 3,<gregtech:meta_item_1:2138> * 6,<thermalfoundation:material:833>)
+	.inputs(<gregtech:meta_item_1:2184> * 3,<gregtech:meta_item_1:2138> * 6,<contenttweaker:tar>)
 	.outputs(<gtadditions:ga_dust:32004>)
 	.duration(150)
 	.EUt(12)
@@ -495,14 +495,6 @@ chemReactor.recipeBuilder()
 	.EUt(250)
 	.buildAndRegister();
 
-lcr.recipeBuilder()
-	.inputs(<thermalfoundation:material:1026> * 2, <thermalfoundation:material:1027> * 2, <gregtech:meta_item_1:2111>)
-	.fluidInputs(<liquid:pyrotheum> * 500, <liquid:cryotheum> * 500)
-	.outputs(<thermalfoundation:material:1028>)
-	.duration(1800)
-	.EUt(480)
-	.buildAndRegister();
-
 electrolyzer.recipeBuilder()
 	.inputs(<gregtech:meta_item_1:2822>)
 	.chancedOutput(<gregtech:meta_item_1:53>, 3333, 0)
@@ -690,30 +682,6 @@ extruder.recipeBuilder()
 	.EUt(12)
 	.buildAndRegister();
 
-chemReactor.recipeBuilder()
-	.inputs(<minecraft:quartz>)
-	.fluidInputs(<liquid:ender> * 288)
-	.outputs(<thermalfoundation:material:895>)
-	.duration(400)
-	.EUt(20)
-	.buildAndRegister();
-
-chemReactor.recipeBuilder()
-	.inputs(<minecraft:quartz>)
-	.fluidInputs(<liquid:glowstone> * 288)
-	.outputs(<thermalfoundation:material:894>)
-	.duration(300)
-	.EUt(30)
-	.buildAndRegister();
-
-chemReactor.recipeBuilder()
-	.inputs(<minecraft:quartz>)
-	.fluidInputs(<liquid:redstone> * 288)
-	.outputs(<thermalfoundation:material:893>)
-	.duration(200)
-	.EUt(40)
-	.buildAndRegister();
-
 assembler.recipeBuilder()
 	.inputs(<gregtech:meta_item_1:14001>,<appliedenergistics2:material:8>, <appliedenergistics2:material:22>)
 	.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
@@ -796,7 +764,7 @@ furnace.remove(<gregtech:meta_item_1:10515>);
 furnace.remove(<gregtech:meta_item_1:9515>);
 
 mixer.recipeBuilder()
-	.inputs(<appliedenergistics2:material:8> * 2, <appliedenergistics2:fluix_block>, <thermalfoundation:material:102>)
+	.inputs(<appliedenergistics2:material:8> * 2, <appliedenergistics2:fluix_block>,<gregtech:meta_item_1:2532>)
 	.fluidInputs(<liquid:ender> * 144)
 	.outputs(<appliedenergistics2:material:9>*8)
 	.duration(200)
@@ -831,14 +799,6 @@ electrolyzer.recipeBuilder()
 	.outputs(<gtadditions:ga_dust:32019>,<gregtech:meta_item_1:2120>*2)
 	.duration(10000)
 	.EUt(2)
-	.buildAndRegister();
-
-ebf.recipeBuilder()
-	.inputs(<thermalfoundation:material:101>)
-	.outputs(<thermalfoundation:material:165>)
-	.property("temperature", 3600)
-	.duration(221)
-	.EUt(400)
 	.buildAndRegister();
 
 macerator.recipeBuilder()
@@ -961,79 +921,6 @@ compressor.recipeBuilder()
 	.EUt(8)
 	.buildAndRegister();
 
-alloy_smelter.recipeBuilder()
-    .inputs(<thermalfoundation:material:136> * 8)
-	.notConsumable(<gregtech:meta_item_1:32303>)
-    .outputs(<thermalfoundation:material:264>)
-    .duration(80)
-    .EUt(50)
-    .buildAndRegister();
-
-alloy_smelter.recipeBuilder()
-    .inputs(<thermalfoundation:material:166> * 8)
-	.notConsumable(<gregtech:meta_item_1:32303>)
-    .outputs(<thermalfoundation:material:294>)
-    .duration(80)
-    .EUt(50)
-    .buildAndRegister();
-
-alloy_smelter.recipeBuilder()
-    .inputs(<thermalfoundation:material:165> * 8)
-	.notConsumable(<gregtech:meta_item_1:32303>)
-    .outputs(<thermalfoundation:material:293>)
-    .duration(80)
-    .EUt(50)
-    .buildAndRegister();
-
-extruder.recipeBuilder()
-	.inputs(<thermalfoundation:material:136> * 4)
-	.outputs(<thermalfoundation:material:264>)
-	.notConsumable(<gregtech:meta_item_1:32372>)
-	.duration(400)
-	.EUt(12)
-	.buildAndRegister();
-
-extruder.recipeBuilder()
-	.inputs(<thermalfoundation:material:166> * 4)
-	.outputs(<thermalfoundation:material:294>)
-	.notConsumable(<gregtech:meta_item_1:32372>)
-	.duration(400)
-	.EUt(12)
-	.buildAndRegister();
-
-extruder.recipeBuilder()
-	.inputs(<thermalfoundation:material:165> * 4)
-	.outputs(<thermalfoundation:material:293>)
-	.notConsumable(<gregtech:meta_item_1:32372>)
-	.duration(400)
-	.EUt(12)
-	.buildAndRegister();
-
-ebf.recipeBuilder()
-	.inputs(<thermalfoundation:material:72>)
-	.fluidInputs(<liquid:mana> * 400)
-	.outputs(<thermalfoundation:material:136>)
-	.property("temperature", 3600)
-	.duration(221)
-	.EUt(400)
-	.buildAndRegister();
-
-ebf.recipeBuilder()
-	.inputs(<thermalfoundation:material:102>)
-	.outputs(<thermalfoundation:material:166>)
-	.property("temperature", 3600)
-	.duration(221)
-	.EUt(400)
-	.buildAndRegister();
-
-metal_bender.recipeBuilder()
-	.inputs(<thermalfoundation:material:136>)
-	.outputs(<thermalfoundation:material:328>)
-	.property("circuit", 0)
-	.duration(40)
-	.EUt(200)
-	.buildAndRegister();
-
 centrifuge.recipeBuilder()
 	.inputs(<appliedenergistics2:material:47>)
 	.fluidOutputs(<liquid:uumatter> * 50)
@@ -1042,7 +929,7 @@ centrifuge.recipeBuilder()
 	.buildAndRegister();
 
 lmixer.recipeBuilder()
-	.inputs(<thermalfoundation:material:895> * 7, <gregtech:meta_item_1:2952> * 5, <gregtech:meta_item_1:2736> * 4, <gtadditions:ga_dust:288> * 12, <thermalfoundation:material:893> * 7)
+	.inputs(<gregtech:meta_item_1:2952> * 5, <gregtech:meta_item_1:2736> * 4, <gtadditions:ga_dust:288> * 12)
 	.outputs(<gtadditions:ga_dust:32009>)
 	.EUt(1200)
 	.duration(200)
@@ -1173,14 +1060,6 @@ assembly_line.recipeBuilder()
 	.outputs(<contenttweaker:highpowercasing>*2)
 	.duration(800)
 	.EUt(999999)
-	.buildAndRegister();
-
-lcr.recipeBuilder()
-	.inputs(<thermalfoundation:material:1028>,<gregtech:meta_item_1:2051>*6)
-	.fluidInputs(<liquid:uumatter>*4000)
-	.fluidOutputs(<liquid:mana>*576)
-	.duration(400)
-	.EUt(800000)
 	.buildAndRegister();
 
 alloy_smelter.recipeBuilder()
@@ -1503,7 +1382,7 @@ compressor.recipeBuilder()
 	.buildAndRegister();
 
 alloy_smelter.recipeBuilder()
-	.inputs(<thermalfoundation:material:895>,<gregtech:meta_item_1:2218>)
+	.inputs(<minecraft:string>,<gregtech:meta_item_1:2218>)
 	.outputs(<forestry:crafting_material>)
 	.EUt(20)
 	.duration(30)
@@ -1574,13 +1453,6 @@ assembler.recipeBuilder()
 	.outputs(<gregtech:machine_casing:9>)
 	.duration(50)
 	.EUt(16)
-	.buildAndRegister();
-
-macerator.recipeBuilder()
-	.inputs(<thermalfoundation:ore:8>)
-	.outputs(<thermalfoundation:material:72>)
-	.duration(400)
-	.EUt(12)
 	.buildAndRegister();
 
 assembler.recipeBuilder()
@@ -2486,12 +2358,6 @@ macerator.recipeBuilder()
 	.duration(300)
 	.EUt(12)
 	.buildAndRegister();
-assembler.recipeBuilder()
-	.inputs(<thermalfoundation:material:656>,<contenttweaker:drill_handle>)
-	.outputs(<contenttweaker:ic2drill>)
-	.duration(200)
-	.EUt(4000)
-	.buildAndRegister();
 
 assembler.recipeBuilder()
 	.inputs(<gtadditions:ga_meta_item:518>*4,<gregtech:meta_item_1:14184>*2,<gregtech:meta_item_1:12539>*4)
@@ -2895,3 +2761,4 @@ recipes.addShaped(<gregtech:machine:2535>, [	[<gregtech:meta_item_1:32612>, <gre
 recipes.addShaped(<gregtech:machine:825>, [	[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 	[<ore:stickCopper>, <forestry:worktable>, <ore:stickCopper>], 	[<ore:plateCopper>, <ore:wireFineCopper>, <ore:plateCopper>]]);
 recipes.addShapeless(<gregtech:meta_item_1:2238>*9,[<gregtech:meta_item_1:2094>,<gregtech:meta_item_1:2094>,<gregtech:meta_item_1:2094>,<gregtech:meta_item_1:2094>,<gregtech:meta_item_1:2094>,<gregtech:meta_item_1:2094>,<gregtech:meta_item_1:2094>,<gregtech:meta_item_1:2017>,<gregtech:meta_item_1:2001>]);
 recipes.addShaped(<gregtech:metal_casing:1>*2, [	[null, <gregtech:meta_item_2:32015>, null], 	[<gregtech:meta_item_2:32015>, <gregtech:meta_item_1:12095>, <gregtech:meta_item_2:32015>], 	[null, <gregtech:meta_item_2:32015>, null]]);
+recipes.addShaped(<gregtech:metal_casing:1>*2, [	[null, <gregtech:meta_item_2:32015>, null], 	[<gregtech:meta_item_2:32015>, <gregtech:meta_item_1:12184>, <gregtech:meta_item_2:32015>], 	[null, <gregtech:meta_item_2:32015>, null]]);

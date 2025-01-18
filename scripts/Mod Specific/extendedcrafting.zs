@@ -3,7 +3,7 @@ recipes.addShaped(<extendedcrafting:material:8>, [	[null,  <extendedcrafting:mat
 recipes.addShaped(<extendedcrafting:table_basic>, [	[<extendedcrafting:material:8>, <extendedcrafting:material:14>, <extendedcrafting:material:8>], 	[<extendedcrafting:material:14>, <gregtech:machine:825>, <extendedcrafting:material:14>], 	[<contenttweaker:silversteelplate>, <gregtech:machine:501>, <contenttweaker:silversteelplate>]]);
 recipes.addShaped(<extendedcrafting:table_elite>, [	[<extendedcrafting:material:10>, <extendedcrafting:material:16>, <extendedcrafting:material:10>], 	[<extendedcrafting:table_advanced>, <extendedcrafting:material:16>, <extendedcrafting:table_advanced>], 	[<extendedcrafting:material:16>, <extendedcrafting:trimmed:2>, <extendedcrafting:material:16>]]);
 recipes.addShaped(<extendedcrafting:compressor>, [	[<extendedcrafting:material:19>, <extendedcrafting:material:13>, <extendedcrafting:material:19>], 	[<extendedcrafting:material:13>, null, <extendedcrafting:material:13>], 	[null, <extendedcrafting:frame>, null]]);
-recipes.addShaped(<extendedcrafting:frame>, [	[<ore:plateUltimate>, <extendedcrafting:material:2>, <ore:plateUltimate>], 	[<extendedcrafting:material:2>, <thermalexpansion:frame:132>, <extendedcrafting:material:2>], 	[<ore:plateUltimate>, <extendedcrafting:material:2>, <ore:plateUltimate>]]);
+recipes.addShaped(<extendedcrafting:frame>, [	[<ore:plateUltimate>, <extendedcrafting:material:2>, <ore:plateUltimate>], 	[<extendedcrafting:material:2>, null, <extendedcrafting:material:2>], 	[<ore:plateUltimate>, <extendedcrafting:material:2>, <ore:plateUltimate>]]);
 
 
 

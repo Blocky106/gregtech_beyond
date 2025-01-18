@@ -246,7 +246,7 @@ macerator.recipeBuilder()
     .buildAndRegister();
 
 mixer.recipeBuilder()
-    .inputs(<thermalfoundation:material:1028>,<gregtech:meta_item_1:2062>*2)
+    .inputs(<gtadditions:ga_dust:32189>,<gregtech:meta_item_1:2062>*2)
     .outputs(<gregtech:meta_item_1:2545>*3)
     .duration(200)
     .EUt(120)
@@ -929,30 +929,6 @@ lcr.recipeBuilder()
 	.buildAndRegister();
 
 lcr.recipeBuilder()
-	.inputs(<minecraft:quartz>)
-	.fluidInputs(<liquid:ender> * 288)
-	.outputs(<thermalfoundation:material:895>)
-	.duration(400)
-	.EUt(20)
-	.buildAndRegister();
-
-lcr.recipeBuilder()
-	.inputs(<minecraft:quartz>)
-	.fluidInputs(<liquid:glowstone> * 288)
-	.outputs(<thermalfoundation:material:894>)
-	.duration(300)
-	.EUt(30)
-	.buildAndRegister();
-
-lcr.recipeBuilder()
-	.inputs(<minecraft:quartz>)
-	.fluidInputs(<liquid:redstone> * 288)
-	.outputs(<thermalfoundation:material:893>)
-	.duration(200)
-	.EUt(40)
-	.buildAndRegister();
-
-lcr.recipeBuilder()
 	.inputs(<gregtech:meta_item_1:10228>)
 	.fluidInputs(<liquid:redstone> * 288)
 	.outputs(<enderio:item_alloy_ingot:3>)
@@ -1499,27 +1475,6 @@ bio.recipeBuilder()
     .EUt(9999)
     .buildAndRegister();
 
-macerator.recipeBuilder()
-    .inputs(<thermalfoundation:material:2052>)
-    .outputs(<thermalfoundation:material:2053>*2)
-    .duration(120)
-    .EUt(200)
-    .buildAndRegister();
-
-macerator.recipeBuilder()
-    .inputs(<thermalfoundation:material:1980>)
-    .outputs(<gregtech:meta_item_1:2951>*3)
-    .duration(120)
-    .EUt(200)
-    .buildAndRegister();
-
-macerator.recipeBuilder()
-    .inputs(<thermalfoundation:material:2050>)
-    .outputs(<thermalfoundation:material:2051>*3)
-    .duration(120)
-    .EUt(200)
-    .buildAndRegister();
-
 ebf.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2540>)
     .outputs(<gregtech:meta_item_1:10540>)
@@ -1866,7 +1821,7 @@ lcr.recipeBuilder()
     .buildAndRegister();
 
 mixer.recipeBuilder()
-    .inputs(<extendedcrafting:material:7>,<thermalfoundation:material:102>*2,<gregtech:meta_item_1:2111>*2)
+    .inputs(<extendedcrafting:material:7>,<gregtech:meta_item_1:2532>,<gregtech:meta_item_1:2111>*2)
     .outputs(<randomthings:ingredient:5>)
     .duration(400)
     .EUt(1980)
@@ -2157,38 +2112,6 @@ electrolyzer.recipeBuilder()
     .EUt(480)
     .buildAndRegister();
 
-chemReactor.recipeBuilder()
-    .inputs(<gregtech:meta_item_1:2138>*2,<thermalfoundation:material:2053>*2)
-    .fluidInputs(<liquid:redstone>*200)
-    .outputs(<thermalfoundation:material:1027>)
-    .duration(200)
-    .EUt(214)
-    .buildAndRegister();
-
-chemReactor.recipeBuilder()
-    .inputs(<gregtech:meta_item_1:2156>*2,<thermalfoundation:material:2051>*2)
-    .fluidInputs(<liquid:redstone>*200)
-    .outputs(<thermalfoundation:material:1026>)
-    .duration(200)
-    .EUt(214)
-    .buildAndRegister();
-
-lcr.recipeBuilder()
-    .inputs(<gregtech:meta_item_1:2138>*2,<thermalfoundation:material:2053>*2)
-    .fluidInputs(<liquid:redstone>*200)
-    .outputs(<thermalfoundation:material:1027>)
-    .duration(200)
-    .EUt(214)
-    .buildAndRegister();
-
-lcr.recipeBuilder()
-    .inputs(<gregtech:meta_item_1:2156>*2,<thermalfoundation:material:2051>*2)
-    .fluidInputs(<liquid:redstone>*200)
-    .outputs(<thermalfoundation:material:1026>)
-    .duration(200)
-    .EUt(214)
-    .buildAndRegister();
-
 assembler.recipeBuilder()
     .inputs(<simplybackpacks:commonbackpack>.withTag({inv: {Size: 18, Items: []}, filter: {Size: 16, Items: []}}),<gregtech:meta_item_1:17109>*2,<gregtech:meta_item_2:32433>*2,<gregtech:meta_item_1:12126>*4)
     .outputs(<simplybackpacks:uncommonbackpack>.withTag({inv: {Size: 33, Items: []}, filter: {Size: 16, Items: []}}))
@@ -2439,7 +2362,6 @@ lmixer.findRecipe(30,[<gtadditions:ga_dust:258>*2,<gregtech:meta_item_1:2707>*2,
 assembler.findRecipe(120, [<gregtech:meta_item_2:32435>,<gregtech:meta_item_1:12300>*4,<gregtech:meta_item_1:12007>*32],[<liquid:soldering_alloy>*144]).remove();
 mixer.findRecipe(16,[<gregtech:meta_item_1:2105>,<gregtech:meta_item_1:2328>*3,<gregtech:meta_item_1:32766>.withTag({Configuration: 3})], [<liquid:water>*500]).remove();
 autoclave.findRecipe(480,[<gregtech:meta_item_2:25212>],[<liquid:rutherfordium>*72]).remove();
-compressor.findRecipe(2,[<thermalfoundation:material:195>*9], null).remove();
 compressor.findRecipe(2,[<thaumcraft:nugget:4>*9], null).remove();
 assembly_line.findRecipe(260000,[<gregtech:cable:744>*64,<gregtech:cable:744>*64,<gregtech:cable:744>*64,<gregtech:cable:744>*64,<gregtech:machine:2548>,<gregtech:machine:2549>,<gregtech:machine:2550>,<gregtech:meta_item_1:16311>*24,<gregtech:meta_item_1:32697>,<gregtech:meta_item_1:17736>*16,<gregtech:meta_item_2:26983>*4,<gtadditions:ga_meta_item:32402>*4,<gregtech:meta_item_1:32608>*4],[<liquid:hastelloy_n>*1152,<liquid:polybenzimidazole>*4608]).remove();
 ebf.findRecipe(120,[<gregtech:meta_item_1:2852>], null).remove();
@@ -2636,13 +2558,6 @@ fluid_solidifier.recipeBuilder()
     .notConsumable(<gregtech:meta_item_1:32306>)
     .outputs(<thaumcraft:quicksilver>)
     .duration(40)
-    .EUt(12)
-    .buildAndRegister();
-
-alloy_smelter.recipeBuilder()
-    .inputs(<gregtech:meta_item_1:2138>*4,<gregtech:meta_item_1:2035>)
-    .outputs(<thermalfoundation:glass:3>*2)
-    .duration(200)
     .EUt(12)
     .buildAndRegister();
 

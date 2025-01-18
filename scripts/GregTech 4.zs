@@ -350,9 +350,7 @@ ebf.recipeBuilder()
     .EUt(800)
     .property("temperature", 5000)
     .buildAndRegister();
-
-Utils.removeRecipeByOutput(chemReactor, [<thermalfoundation:material:165>], [], false);
-Utils.removeRecipeByOutput(lcr, [<thermalfoundation:material:165>], [], false);
+    
 Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:11858>], [], false);
 
 chemReactor.recipeBuilder()
@@ -1424,8 +1422,6 @@ electrolyzer.recipeBuilder()
     .EUt(129)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(macerator, [<thermalfoundation:material:2053>*2], [], false);
-Utils.removeRecipeByOutput(macerator, [<thermalfoundation:material:2051>*2], [], false);
 Utils.removeRecipeByOutput(lcr, [<gregtech:meta_item_1:2313>], [], false);
 Utils.removeRecipeByOutput(chemReactor, [<gregtech:meta_item_1:2313>], [], false);
 Utils.removeRecipeByOutput(lcr, [], [<liquid:borax_solution>*1000], false);
@@ -2289,7 +2285,6 @@ induction_smelter.recipeBuilder()
     .buildAndRegister();
 
 recipes.addShaped(<gregtech:machine:1343>, [	[<ore:gearStone>, <ore:craftingFurnace>, <ore:gearStone>], 	[<gregtech:cable:237>, <gregtech:machine_casing>, <gregtech:cable:237>], 	[<ore:plateIron>, <ore:itemSimpleMachineChassi>, <ore:plateIron>]]);
-recipes.addShapeless(<gregtech:machine:1343>, [<thermalexpansion:machine:3>]);
 
 induction_smelter.recipeBuilder()
     .inputs(<enderio:item_material>,<enderio:item_material:51>)
@@ -2668,7 +2663,7 @@ lcr.recipeBuilder()
 mixer.recipeBuilder()
     .fluidInputs(<liquid:glowstone>*144)
     .inputs(<gregtech:meta_item_1:2071>*3,<gregtech:meta_item_1:2062>)
-    .outputs(<thermalfoundation:material:102>*5)
+    .outputs(<gregtech:meta_item_1:2532>*5)
     .duration(200)
     .EUt(12)
     .buildAndRegister();
@@ -2676,7 +2671,7 @@ mixer.recipeBuilder()
 lmixer.recipeBuilder()
     .fluidInputs(<liquid:glowstone>*144)
     .inputs(<gregtech:meta_item_1:2071>*3,<gregtech:meta_item_1:2062>)
-    .outputs(<thermalfoundation:material:102>*5)
+    .outputs(<gregtech:meta_item_1:2532>*5)
     .duration(200)
     .EUt(12)
     .buildAndRegister();
@@ -2905,14 +2900,14 @@ lcr.recipeBuilder()
     .buildAndRegister();
 
 mixer.recipeBuilder()
-    .inputs(<thermalfoundation:material:892>,<gregtech:meta_item_1:2241>)
+    .inputs(<contenttweaker:bitumen_crystal>,<gregtech:meta_item_1:2241>)
     .outputs(<contenttweaker:asphalt>*2)
     .duration(40)
     .EUt(2)
     .buildAndRegister();
 
 lmixer.recipeBuilder()
-    .inputs(<thermalfoundation:material:892>,<gregtech:meta_item_1:2241>)
+    .inputs(<contenttweaker:bitumen_crystal>,<gregtech:meta_item_1:2241>)
     .outputs(<contenttweaker:asphalt>*2)
     .duration(40)
     .EUt(2)
@@ -3162,7 +3157,6 @@ assembly_line.recipeBuilder()
     .EUt(1000000)
     .buildAndRegister();
 
-recipes.addShaped(<gregtech:machine:10036>, [	[<gregtech:meta_item_1:32674>, <ore:plateHssg>, <gregtech:meta_item_1:32674>], 	[<ore:circuitMaster>, <gregtech:machine:505>, <ore:circuitMaster>], 	[<ore:wireGtDoubleIvSuperconductor>, <ore:plateHssg>, <ore:wireGtDoubleIvSuperconductor>]]);
 recipes.addShaped(<gregtech:machine:10059>, [	[<gregtech:meta_item_1:32652>, <gregtech:meta_item_1:32602>, <gregtech:meta_item_1:32652>], 	[<ore:circuitAdvanced>, <gregtech:machine:503>, <ore:circuitAdvanced>], 	[<gregtech:meta_item_1:32652>, <gregtech:meta_item_1:32602>, <gregtech:meta_item_1:32652>]]);
 
 assembler.recipeBuilder()

@@ -276,8 +276,6 @@ assembler.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
-
-
 assembler.recipeBuilder()
     .inputs(<minecraft:stick>*16,<minecraft:stick>*16)
     .outputs(<randomthings:blockofsticks>)
