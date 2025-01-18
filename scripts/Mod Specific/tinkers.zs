@@ -95,3 +95,5 @@ recipes.addShaped(<tconstruct:wooden_hopper>, [
 ]);
 
 mods.tconstruct.Casting.removeBasinRecipe(<enderio:block_alloy_endergy:3>);
+
+mods.tconstruct.Melting.removeRecipe(<liquid:sodium>);

@@ -46,6 +46,11 @@ mods.nuclearcraft.IngotFormer.removeAllRecipes();
 mods.nuclearcraft.ChemicalReactor.removeAllRecipes();
 mods.nuclearcraft.Centrifuge.removeAllRecipes();
 mods.nuclearcraft.FuelReprocessor.removeAllRecipes();
+mods.nuclearcraft.Infuser.removeAllRecipes();
+mods.nuclearcraft.SaltMixer.removeAllRecipes();
+mods.nuclearcraft.Separator.removeAllRecipes();
+mods.nuclearcraft.DecayHastener.removeAllRecipes();
+
 
 
 alloy_smelter.recipeBuilder()
