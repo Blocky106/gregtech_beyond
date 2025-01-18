@@ -1013,14 +1013,6 @@ fluidExtractor.recipeBuilder()
     .EUt(2147000000)
     .buildAndRegister();
 
-fluid_solidifier.recipeBuilder()
-    .fluidInputs(<liquid:molteninfnite>*1000)
-    .outputs(<thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 1 as byte, Level: 4 as byte}))
-    .notConsumable(<gregtech:meta_item_1:32308>)
-    .duration(4000)
-    .EUt(2147000000)
-    .buildAndRegister();
-
 ebf.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2558>)
     .outputs(<gregtech:meta_item_1:10558>)

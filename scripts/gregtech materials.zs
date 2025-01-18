@@ -570,7 +570,6 @@ util.registerDust("silicon_nitride", 32257, 0xE7C8BE, "DULL");
 
 
 
-util.registerFluid("primal_mana", 0x396B9C);
 util.registerFluid("pyromellitic_dianhydride_oxydianilin", 0x7E887F);
 util.registerFluid("indium_gallium_arsenide_substrate", 0xAC96B1);
 util.registerFluid("bcl3_cl2_ar_etchant", 0x464646);

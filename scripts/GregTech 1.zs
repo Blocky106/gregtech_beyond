@@ -1063,34 +1063,6 @@ assembly_line.recipeBuilder()
 	.buildAndRegister();
 
 alloy_smelter.recipeBuilder()
-	.inputs(<minecraft:redstone_block>*64,<thermalexpansion:frame:128>)
-	.outputs(<thermalexpansion:cell>)
-	.duration(800)
-	.EUt(24)
-	.buildAndRegister();
-
-alloy_smelter.recipeBuilder()
-	.inputs(<minecraft:redstone_block>*64,<thermalexpansion:frame:130>)
-	.outputs(<thermalexpansion:frame:146>)
-	.duration(800)
-	.EUt(24)
-	.buildAndRegister();
-
-alloy_smelter.recipeBuilder()
-	.inputs(<minecraft:redstone_block>*64,<thermalexpansion:frame:131>)
-	.outputs(<thermalexpansion:frame:147>)
-	.duration(800)
-	.EUt(24)
-	.buildAndRegister();
-
-alloy_smelter.recipeBuilder()
-	.inputs(<minecraft:redstone_block>*64,<thermalexpansion:frame:132>)
-	.outputs(<thermalexpansion:frame:148>)
-	.duration(800)
-	.EUt(24)
-	.buildAndRegister();
-
-alloy_smelter.recipeBuilder()
 	.inputs(<minecraft:iron_ingot>,<gregtech:meta_item_1:357>*2)
 	.outputs(<enderio:item_alloy_endergy_ingot>)
 	.duration(400)
@@ -1317,15 +1289,6 @@ lcr.recipeBuilder()
 	.outputs(<gregtech:meta_item_1:10519>)
 	.duration(400)
 	.EUt(8000)
-	.buildAndRegister();
-
-ebf.recipeBuilder()	
-	.inputs(<thermalexpansion:frame:129>)
-	.outputs(<thermalexpansion:frame:130>)
-	.fluidInputs(<liquid:oxygen>*2000)
-	.duration(400)
-	.property("temperature", 4500)
-	.EUt(2000)
 	.buildAndRegister();
 
 assembler.recipeBuilder()
