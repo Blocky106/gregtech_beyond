@@ -97,7 +97,7 @@ val flash_chromatography_system = Builder.start(loc, meta)
         FactoryRecipeMap.start(loc)
                         .maxFluidInputs(2)
                         .maxInputs(1)
-                        .maxFluidOutputs(4)
+                        .maxFluidOutputs(2)
                         .maxOutputs(2)
                         .build())
 .withTexture(ICubeRenderer.sided("contenttweaker:blocks/machine_casing_clean_stainless_steel"))
@@ -105,8 +105,19 @@ val flash_chromatography_system = Builder.start(loc, meta)
 .buildAndRegister() as Multiblock;
 
 flash_chromatography_system.recipeMap.recipeBuilder()
+    .notConsumable(<liquid:hexane>)
+    .notConsumable(<gtadditions:ga_dust:28>)
     .fluidInputs(<liquid:oleic_acid>*1000)
     .fluidOutputs(<liquid:purified_oleic_acid>*1000)
     .duration(2000)
+    .EUt(800)
+    .buildAndRegister();
+
+flash_chromatography_system.recipeMap.recipeBuilder()
+    .notConsumable(<liquid:hexane>)
+    .notConsumable(<gtadditions:ga_dust:28>)
+    .fluidInputs(<liquid:indium_gallium_arsenide_substrate>*1000)
+    .outputs(<gtadditions:ga_dust:32256>*3)
+    .duration(400)
     .EUt(800)
     .buildAndRegister();
