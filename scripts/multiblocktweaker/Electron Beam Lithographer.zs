@@ -125,7 +125,7 @@ electron_beam_lithographer.recipeMap.recipeBuilder()
     .buildAndRegister();
 
 electron_beam_lithographer.recipeMap.recipeBuilder()
-    .inputs(<contenttweaker:silver_electrode>,<contenttweaker:gold_electrode>,<contenttweaker:removed_ga_as_substrate>)
+    .inputs(<contenttweaker:silver_electrode>,<contenttweaker:gold_electrode>,<contenttweaker:coated_ga_as_substrate>)
     .outputs(<contenttweaker:electrode_deposited_ga_as_substrate>)
     .duration(400)
     .EUt(100)
