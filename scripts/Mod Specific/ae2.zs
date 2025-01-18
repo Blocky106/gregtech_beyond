@@ -13,7 +13,10 @@ import mods.contenttweaker.Block;
 import crafttweaker.item.IItemCondition;
 import mods.appliedenergistics2.Grinder;
 
-
+import mods.threng.Aggregator;
+import mods.threng.Centrifuge;
+import mods.threng.Etcher;
+import mods.threng.Energizer;
 
 
 
@@ -354,3 +357,62 @@ assembler.recipeBuilder()
     .duration(200)
     .EUt(12)
     .buildAndRegister();
+
+Etcher.removeRecipe(<threng:material:14>);
+Etcher.removeRecipe(<appliedenergistics2:material:23>);
+Etcher.removeRecipe(<appliedenergistics2:material:22>);
+Etcher.removeRecipe(<appliedenergistics2:material:24>);
+Etcher.removeRecipe(<threng:material:6>);
+
+Centrifuge.removeRecipe(<appliedenergistics2:material:10>);
+Centrifuge.removeRecipe(<appliedenergistics2:material:11>);
+Centrifuge.removeRecipe(<appliedenergistics2:material:12>);
+Centrifuge.removeRecipe(<appliedenergistics2:material:45>);
+Centrifuge.removeRecipe(<appliedenergistics2:material:46>);
+
+Aggregator.removeRecipe(<threng:material>);
+Aggregator.removeRecipe(<threng:material:1>);
+Aggregator.removeRecipe(<threng:material:5>);
+Aggregator.removeRecipe(<threng:material:7>);
+Aggregator.removeRecipe(<appliedenergistics2:material:7>);
+
+
+
+Grinder.removeRecipe(<gregtech:ore_iron_0:5>);
+Grinder.removeRecipe(<nuclearcraft:ingot:2>);
+Grinder.removeRecipe(<gregtech:ore_platinum_0:1>);
+Grinder.removeRecipe(<gregtech:ore_nickel_0>);
+Grinder.removeRecipe(<gregtech:ore_zinc_0:1>);
+Grinder.removeRecipe(<gregtech:ore_nether_quartz_0:3>);
+Grinder.removeRecipe(<minecraft:quartz_ore>);
+Grinder.removeRecipe(<gregtech:ore_platinum_0:2>);
+Grinder.removeRecipe(<gregtech:ore_iron_0:3>);
+Grinder.removeRecipe(<gregtech:ore_nickel_0:3>);
+Grinder.removeRecipe(<gregtech:ore_nether_quartz_0:2>);
+Grinder.removeRecipe(<nuclearcraft:ore:1>);
+Grinder.removeRecipe(<gregtech:ore_osmium_0:5>);
+Grinder.removeRecipe(<gregtech:ore_platinum_0:5>);
+Grinder.removeRecipe(<gregtech:ore_zinc_0:5>);
+Grinder.removeRecipe(<gregtech:ore_zinc_0>);
+Grinder.removeRecipe(<gregtech:ore_nickel_0:1>);
+Grinder.removeRecipe(<gregtech:ore_zinc_0:2>);
+Grinder.removeRecipe(<gregtech:ore_osmium_0:1>);
+Grinder.removeRecipe(<gregtech:ore_nether_quartz_0:1>);
+Grinder.removeRecipe(<gregtech:ore_zinc_0:3>);
+Grinder.removeRecipe(<gregtech:ore_nether_quartz_0:1>);
+Grinder.removeRecipe(<gregtech:ore_zinc_0:3>);
+Grinder.removeRecipe(<gregtech:ore_iron_0:1>);
+Grinder.removeRecipe(<gregtech:ore_osmium_0:2>);
+Grinder.removeRecipe(<gregtech:ore_iron_0:2>);
+Grinder.removeRecipe(<gregtech:ore_nickel_0:2>);
+Grinder.removeRecipe(<gregtech:ore_nickel_0:5>);
+Grinder.removeRecipe(<gregtech:ore_iron_0>);
+Grinder.removeRecipe(<gregtech:ore_platinum_0:3>);
+Grinder.removeRecipe(<gregtech:meta_item_1:10044>);
+Grinder.removeRecipe(<nuclearcraft:ore:2>);
+Grinder.removeRecipe(<gregtech:ore_osmium_0>);
+Grinder.removeRecipe(<gregtech:ore_nether_quartz_0:5>);
+Grinder.removeRecipe(<gregtech:ore_nether_quartz_0>);
+Grinder.removeRecipe(<gregtech:ore_osmium_0:3>);
+Grinder.removeRecipe(<minecraft:iron_ore>);
+Grinder.removeRecipe(<minecraft:obsidian>);
