@@ -86,3 +86,5 @@ global spincoater    as RecipeMap = RecipeMap.getByName("spincoater");
 global uv_light     as RecipeMap = RecipeMap.getByName("uv_light");
 global plasma_etcher as RecipeMap = RecipeMap.getByName("plasma_etcher");
 global engraving_unit_s as RecipeMap = RecipeMap.getByName("engraving_unit_s");
+global automatic_wire_bonder as RecipeMap = RecipeMap.getByName("automatic_wire_bonder");
+global dryer as RecipeMap = RecipeMap.getByName("dryer");
