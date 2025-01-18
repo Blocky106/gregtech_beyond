@@ -27,6 +27,5 @@ RegisterMachine.CreateSimpleMachine(1543, "engraving_unit_s.ev",  engraving_unit
 RegisterMachine.CreateSimpleMachine(1544, "engraving_unit_s.iv",  engraving_unit_s, engraving_unit_s_overlay, 5);
 RegisterMachine.CreateSimpleMachine(1545, "engraving_unit_s.luv",  engraving_unit_s, engraving_unit_s_overlay, 6);
 RegisterMachine.CreateSimpleMachine(1546, "engraving_unit_s.zpm",  engraving_unit_s, engraving_unit_s_overlay, 7);
-RegisterMachine.CreateSimpleMachine(1547, "engraving_unit_s.zpm",  engraving_unit_s, engraving_unit_s_overlay, 8);
-RegisterMachine.CreateSimpleMachine(1548, "engraving_unit_s.zpm",  engraving_unit_s, engraving_unit_s_overlay, 9);
+RegisterMachine.CreateSimpleMachine(1547, "engraving_unit_s.uv",  engraving_unit_s, engraving_unit_s_overlay, 8);
 
