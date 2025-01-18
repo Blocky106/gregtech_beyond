@@ -76,7 +76,7 @@ chemReactor.recipeBuilder()
 	.buildAndRegister();
 
 mixer.recipeBuilder()
-    .fluidInputs(<liquid:sulfur_hexafluoride>*1000, <liquid:water>*1000, <liquid:dicyandiamide>*1000)
+    .fluidInputs(<liquid:sulfur_hexafluoride>*1000,<liquid:dicyandiamide>*1000)
     .fluidOutputs(<liquid:resin_enhancer>*3000)
     .duration(60)
     .EUt(20)

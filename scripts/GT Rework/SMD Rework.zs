@@ -509,7 +509,7 @@ chemReactor.recipeBuilder()
     .buildAndRegister();
 
 spincoater.recipeBuilder()
-    .inputs(<contenttweaker:dried_ga_as_substrate>)
+    .inputs(<contenttweaker:exposed_ga_as_substrate>)
     .fluidInputs(<liquid:pyromellitic_dianhydride_oxydianilin>*200)
     .outputs(<contenttweaker:spincoated_dried_ga_as_substrate>)
     .duration(200)
