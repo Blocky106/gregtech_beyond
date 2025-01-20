@@ -217,6 +217,7 @@ var items = [
 "gallium_arsenide_substrate",
 "dried_ga_as_substrate",
 "removed_ga_as_substrate",
+"amberlyst_15_ion_exchange_beads",
 "spincoated_dried_ga_as_substrate",
 "sputtered_ga_as_substrate",
 "chromium_shadow_mask",

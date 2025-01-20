@@ -567,9 +567,23 @@ util.registerDust("sodium_cyandiamide", 32254, 0xfffba6, "DULL");
 util.registerDust("aluminium_gallium_arsenide", 32255, 0xA1B0C0, "DULL");
 util.registerDust("indium_gallium_arsenide", 32256, 0x928894, "DULL");
 util.registerDust("silicon_nitride", 32257, 0xE7C8BE, "DULL");
+util.registerDust("amberlyst_15", 32258, 0x744EA1 , "SHINY");
+util.registerDust("trimethylammonium_salts", 32259, 0xE0A542, "SHINY");
+util.registerDust("cadmium_oxide", 32260, 0xff6630, "DULL");
 
 
 
+util.registerFluid("dimethylamine_solution", 0xD78989);
+util.registerFluid("chlorodifluoromethane", 0x74597b);
+util.registerFluid("trifluoroethylene", 0xbac8c8);
+util.registerFluid("tetrafluoroethylene_mixture", 0x8e9696);
+util.registerFluid("nonanol", 0xdbc782);
+util.registerFluid("peg_alkylphenol", 0xb6af94);
+util.registerFluid("triton_x100", 0xe4dfcd);
+util.registerFluid("ptfe_preparation_mixture", 0x88df97);
+util.registerFluid("poly_styrene_co_chloromethylstyrene_copolymeris", 0x5AB0A8);
+util.registerFluid("chloromethylstyrene", 0xC9A6D8);
+util.registerFluid("divinylbenzene", 0x88A9BD);
 util.registerFluid("pyromellitic_dianhydride_oxydianilin", 0x7E887F);
 util.registerFluid("indium_gallium_arsenide_substrate", 0xAC96B1);
 util.registerFluid("bcl3_cl2_ar_etchant", 0x464646);
@@ -1066,7 +1080,7 @@ util.registerFluid("naquatitanium_hydroxide", 0x382121);
 util.registerFluid("diluted_impure_naquahamericium_hydroxide", 0x684b4b);
 util.registerFluid("naquahamericium_hydroxide", 0x8f6161);
 util.registerFluid("superfluid_carbon_oxygen_mixture_plasma", 0xBDC0DB);
-
+util.registerFluid("1_butene", 0xB75B5B);
 
 
 

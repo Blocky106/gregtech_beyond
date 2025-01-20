@@ -89,10 +89,10 @@ mixer.recipeBuilder()
     .EUt(20)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(chemReactor, [], [<liquid:epoxid>*288], false);
-Utils.removeRecipeByOutput(chemReactor, [], [<liquid:epoxid>*1000], false);
-Utils.removeRecipeByOutput(lcr, [], [<liquid:epoxid>*288], false);
-Utils.removeRecipeByOutput(lcr, [], [<liquid:epoxid>*1000], false);
+Utils.removeRecipeByOutput(chemReactor, [], [<liquid:epoxid>*288], true);
+Utils.removeRecipeByOutput(chemReactor, [], [<liquid:epoxid>*1000], true);
+Utils.removeRecipeByOutput(lcr, [], [<liquid:epoxid>*288], true);
+Utils.removeRecipeByOutput(lcr, [], [<liquid:epoxid>*1000], true);
 
 
 lcr.recipeBuilder()
@@ -148,4 +148,76 @@ lcr.recipeBuilder()
 	.fluidOutputs(<liquid:dicyandiamide>*1000, <liquid:hydrogen>*1000)
 	.duration(120)
 	.EUt(40)
+	.buildAndRegister();
+
+Utils.removeRecipeByOutput(lcr, [], [<liquid:epoxid>*1000], false);
+
+chemReactor.recipeBuilder()
+	.fluidInputs(<liquid:chloroform>*1000, <liquid:hydrofluoric_acid>*500)
+	.fluidOutputs(<liquid:chlorodifluoromethane>*1000)
+	.duration(2400)
+	.EUt(120)
+	.buildAndRegister();
+	
+chemReactor.recipeBuilder()
+	.inputs(<gregtech:meta_item_1:2013>*2)
+	.fluidInputs(<liquid:sulfuric_acid>*1000)
+	.outputs(<gtadditions:ga_dust:32260>*5)
+	.fluidOutputs(<liquid:hydrogen_sulfide>*1000, <liquid:oxygen>*1000)
+	.duration(300)
+	.EUt(120)
+	.buildAndRegister();
+
+chemReactor.recipeBuilder()
+	.inputs(<gtadditions:ga_dust:32260>*2)
+	.fluidInputs(<liquid:chlorodifluoromethane>*1000)
+	.fluidOutputs(<liquid:trifluoroethylene>*1000)
+	.duration(2400)
+	.EUt(120)
+	.buildAndRegister();
+
+mixer.recipeBuilder()
+	.inputs(<gregtech:meta_item_1:2772>*2)
+	.fluidInputs(<liquid:trifluoroethylene>*1000)
+	.fluidOutputs(<liquid:tetrafluoroethylene_mixture>*1000)
+	.duration(1200)
+	.EUt(350)
+	.buildAndRegister();
+
+pyro.recipeBuilder()
+	.fluidInputs(<liquid:tetrafluoroethylene_mixture>*1000)
+	.fluidOutputs(<liquid:tetrafluoroethylene>*1000)
+	.duration(400)
+	.EUt(200)
+	.buildAndRegister();
+
+chemReactor.recipeBuilder()
+	.fluidInputs(<liquid:hydrogen>*1000, <liquid:nonene>*500)
+	.fluidOutputs(<liquid:nonanol>*1000)
+	.notConsumable(<gregtech:meta_item_1:2044>)
+	.duration(400)
+	.EUt(500)
+	.buildAndRegister();
+
+chemReactor.recipeBuilder()
+	.inputs(<gregtech:meta_item_1:2373>)
+	.fluidInputs(<liquid:phenol>*1000, <liquid:ethylene_oxide>*144, <liquid:nonanol>*500)
+	.fluidOutputs(<liquid:peg_alkylphenol>*1000)
+	.duration(1200)
+	.EUt(450)
+	.buildAndRegister();
+
+chemReactor.recipeBuilder()
+	.inputs(<gregtech:meta_item_1:2373>)
+	.fluidInputs(<liquid:peg_alkylphenol>*500, <liquid:sulfuric_acid>*1000)
+	.fluidOutputs(<liquid:triton_x100>*1000, <liquid:water>*500)
+	.duration(600)
+	.EUt(350)
+	.buildAndRegister();
+
+mixer.recipeBuilder()
+	.fluidInputs(<liquid:water>*1000, <liquid:ammonium_persulfate>*144, <liquid:triton_x100>*200)
+	.fluidOutputs(<liquid:ptfe_preparation_mixture>*1000)
+	.duration(1200)
+	.EUt(120)
 	.buildAndRegister();
