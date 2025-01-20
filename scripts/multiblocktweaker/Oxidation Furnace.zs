@@ -73,7 +73,7 @@ val oxidation_furnace = Builder.start(loc, meta)
         .addDesign(
                 FactoryMultiblockShapeInfo.start()
                 .aisle(" C "," C "," C "," C ","   ","   ")
-                .aisle("CCC","C C","C C","C C"," P "," P ")
+                .aisle("CCC","C C","C C","CCC"," P "," P ")
                 .aisle(" C "," C "," C "," C ","   "," P ")
                 .aisle("   ","   "," P ","   ","   "," P ")
                 .aisle("F F","ZZZ","SZE","ZZZ","   "," P ")
