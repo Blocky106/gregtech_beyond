@@ -66,7 +66,7 @@ fluid_solidifier.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(bio, [<gtadditions:ga_meta_item:32541>], [], false);
+Utils.removeRecipeByOutput(bio, [<gtadditions:ga_meta_item:32541>], [], true);
 
 chemReactor.recipeBuilder()
     .fluidInputs(<liquid:phenylethyl_alcohol_blood_agar>*100)

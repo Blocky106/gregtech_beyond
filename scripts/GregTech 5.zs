@@ -746,7 +746,7 @@ implosion.recipeBuilder()
     .EUt(8000)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(assembler, [<gregtech:ga_cable:737> * 32], [], false);
+Utils.removeRecipeByOutput(assembler, [<gregtech:ga_cable:737> * 32], [], true);
 
 assembler.recipeBuilder()
     .inputs(<gregtech:ga_cable:738>*32,<gtadditions:ga_meta_item:32367>,<contenttweaker:uev_superconductor_assembly>)
@@ -764,7 +764,7 @@ electromagnetic_separator.recipeBuilder()
     .EUt(80000)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(electromagnetic_separator, [<gtadditions:ga_dust:357>*3, <gregtech:meta_item_1:2033>], [], false);
+Utils.removeRecipeByOutput(electromagnetic_separator, [<gtadditions:ga_dust:357>*3, <gregtech:meta_item_1:2033>], [], true);
 
 ebf.recipeBuilder()
     .inputs(<contenttweaker:usedcrackingcatalyst>)
@@ -813,71 +813,71 @@ recipes.addShaped(<gregtech:machine:4178>, [	[<gregtech:metal_casing:4>, <ore:ge
 recipes.addShaped(<gregtech:machine:10116>, [	[<gregtech:wire_coil>, <gregtech:meta_item_1:32612>, <gregtech:wire_coil>], 	[<ore:circuitAdvanced>, <gregtech:machine:503>, <ore:circuitAdvanced>], [<gregtech:wire_coil>, <gregtech:meta_item_1:32612>, <gregtech:wire_coil>]]);
 recipes.addShapeless(<gregtech:machine:10116>,[<gregtech:machine:2538>]);
 
-Utils.removeRecipeByOutput(cracker, [], [<liquid:hydrocracked_ethane>*1000], false);
-Utils.removeRecipeByOutput(cracker, [], [<liquid:hydrocracked_ethylene>*1000], false);
-Utils.removeRecipeByOutput(cracker, [], [<liquid:hydrocracked_propane>*1000], false);
-Utils.removeRecipeByOutput(cracker, [], [<liquid:hydrocracked_propene>*1000], false);
-Utils.removeRecipeByOutput(cracker, [], [<liquid:hydrocracked_light_fuel>*1000], false);
-Utils.removeRecipeByOutput(cracker, [], [<liquid:hydrocracked_heavy_fuel>*1000], false);
-Utils.removeRecipeByOutput(cracker, [], [<liquid:hydrocracked_butadiene>*1000], false);
-Utils.removeRecipeByOutput(cracker, [], [<liquid:hydrocracked_butane>*1000], false);
-Utils.removeRecipeByOutput(cracker, [], [<liquid:hydrocracked_butene>*1000], false);
-Utils.removeRecipeByOutput(cracker, [], [<liquid:hydrocracked_naphtha>*1000], false);
-Utils.removeRecipeByOutput(cracker, [], [<liquid:hydrocracked_gas>*1000], false);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hydrocracked_ethane>*1000], true);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hydrocracked_ethylene>*1000], true);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hydrocracked_propane>*1000], true);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hydrocracked_propene>*1000], true);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hydrocracked_light_fuel>*1000], true);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hydrocracked_heavy_fuel>*1000], true);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hydrocracked_butadiene>*1000], true);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hydrocracked_butane>*1000], true);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hydrocracked_butene>*1000], true);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hydrocracked_naphtha>*1000], true);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hydrocracked_gas>*1000], true);
 
 
 
-Utils.removeRecipeByOutput(cracker, [], [<liquid:steamcracked_ethane>*1000], false);
-Utils.removeRecipeByOutput(cracker, [], [<liquid:steamcracked_ethylene>*1000], false);
-Utils.removeRecipeByOutput(cracker, [], [<liquid:steamcracked_propane>*1000], false);
-Utils.removeRecipeByOutput(cracker, [], [<liquid:steamcracked_propene>*1000], false);
-Utils.removeRecipeByOutput(cracker, [], [<liquid:cracked_light_fuel>*1000], false);
-Utils.removeRecipeByOutput(cracker, [], [<liquid:cracked_heavy_fuel>*1000], false);
-Utils.removeRecipeByOutput(cracker, [], [<liquid:steamcracked_butadiene>*1000], false);
-Utils.removeRecipeByOutput(cracker, [], [<liquid:steamcracked_butane>*1000], false);
-Utils.removeRecipeByOutput(cracker, [], [<liquid:steamcracked_butene>*1000], false);
-Utils.removeRecipeByOutput(cracker, [], [<liquid:steamcracked_naphtha>*1000], false);
-Utils.removeRecipeByOutput(cracker, [], [<liquid:steamcracked_gas>*1000], false);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:steamcracked_ethane>*1000], true);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:steamcracked_ethylene>*1000], true);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:steamcracked_propane>*1000], true);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:steamcracked_propene>*1000], true);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:cracked_light_fuel>*1000], true);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:cracked_heavy_fuel>*1000], true);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:steamcracked_butadiene>*1000], true);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:steamcracked_butane>*1000], true);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:steamcracked_butene>*1000], true);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:steamcracked_naphtha>*1000], true);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:steamcracked_gas>*1000], true);
 
-Utils.removeRecipeByOutput(cracker, [], [<liquid:rn_cracked_heavy_e_naquadah>*1600], false);
-Utils.removeRecipeByOutput(cracker, [], [<liquid:rn_cracked_light_e_naquadah>*1200], false);
-Utils.removeRecipeByOutput(cracker, [], [<liquid:rn_cracked_medium_e_naquadah>*1400], false);
-Utils.removeRecipeByOutput(cracker, [], [<liquid:fl_cracked_heavy_naquadah>*1600], false);
-Utils.removeRecipeByOutput(cracker, [], [<liquid:fl_cracked_light_naquadah>*1200], false);
-Utils.removeRecipeByOutput(cracker, [], [<liquid:fl_cracked_medium_naquadah>*1400], false);
-Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.californium253>*1000], false);
-Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.californium252>*1000], false);
-Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.californium256>*1000], false);
-Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.americium245>*1000], false);
-Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.americium241>*1000], false);
-Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.americium243>*1000], false);
-Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.berkelium249>*1000], false);
-Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.berkelium247>*1000], false);
-Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.berkelium251>*1000], false);
-Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.einsteinium257>*1000], false);
-Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.einsteinium255>*1000], false);
-Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.einsteinium253>*1000], false);
-Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.fermium258>*1000], false);
-Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.fermium259>*1000], false);
-Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.fermium262>*1000], false);
-Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.plutonium241>*1000], false);
-Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.plutonium>*1000], false);
-Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.plutonium_radioactive240>*1000], false);
-Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.neptunium235>*1000], false);
-Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.neptunium237>*1000], false);
-Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.neptunium239>*1000], false);
-Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.curium246>*1000], false);
-Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.curium250>*1000], false);
-Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.curium247>*1000], false);
-Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.mendelevium261>*1000], false);
-Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.mendelevium259>*1000], false);
-Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.mendelevium263>*1000], false);
-Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.uranium_radioactive234>*1000], false);
-Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.uranium235>*1000], false);
-Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.uranium>*1000], false);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:rn_cracked_heavy_e_naquadah>*1600], true);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:rn_cracked_light_e_naquadah>*1200], true);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:rn_cracked_medium_e_naquadah>*1400], true);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:fl_cracked_heavy_naquadah>*1600], true);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:fl_cracked_light_naquadah>*1200], true);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:fl_cracked_medium_naquadah>*1400], true);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.californium253>*1000], true);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.californium252>*1000], true);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.californium256>*1000], true);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.americium245>*1000], true);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.americium241>*1000], true);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.americium243>*1000], true);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.berkelium249>*1000], true);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.berkelium247>*1000], true);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.berkelium251>*1000], true);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.einsteinium257>*1000], true);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.einsteinium255>*1000], true);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.einsteinium253>*1000], true);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.fermium258>*1000], true);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.fermium259>*1000], true);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.fermium262>*1000], true);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.plutonium241>*1000], true);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.plutonium>*1000], true);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.plutonium_radioactive240>*1000], true);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.neptunium235>*1000], true);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.neptunium237>*1000], true);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.neptunium239>*1000], true);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.curium246>*1000], true);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.curium250>*1000], true);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.curium247>*1000], true);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.mendelevium261>*1000], true);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.mendelevium259>*1000], true);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.mendelevium263>*1000], true);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.uranium_radioactive234>*1000], true);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.uranium235>*1000], true);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hexafluoride_steam_cracked.uranium>*1000], true);
 
-Utils.removeRecipeByOutput(cracker, [], [<liquid:hot_ruthenium_tetroxide_solution>*2000], false);
-Utils.removeRecipeByOutput(cracker, [], [<liquid:formaldehyde>*120,<liquid:dimethylamine>*160], false);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:hot_ruthenium_tetroxide_solution>*2000], true);
+Utils.removeRecipeByOutput(cracker, [], [<liquid:formaldehyde>*120,<liquid:dimethylamine>*160], true);
 
 vacfreezer.recipeBuilder()
     .fluidInputs(<liquid:fuming_hydrogen>*1000)
@@ -1045,37 +1045,37 @@ ebf.recipeBuilder()
     .property("temperature", 1200)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10052>], [<liquid:oxygen>*2000], false);
-Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10069>], [<liquid:oxygen>*2000], false);
-Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10053>], [<liquid:oxygen>*2000], false);
-Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10075>], [<liquid:oxygen>*2000], false);
-Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10076>], [<liquid:oxygen>*2000], false);
-Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10779>], [<liquid:oxygen>*2000], false);
-Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10778>], [<liquid:oxygen>*2000], false);
-Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10777>], [<liquid:oxygen>*2000], false);
-Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10782>], [<liquid:oxygen>*2000], false);
-Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10783>], [<liquid:oxygen>*2000], false);
-Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10784>], [<liquid:oxygen>*2000], false);
-Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10798>], [<liquid:oxygen>*2000], false);
-Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10799>], [<liquid:oxygen>*2000], false);
-Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10800>], [<liquid:oxygen>*2000], false);
-Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10787>], [<liquid:oxygen>*2000], false);
-Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10789>], [<liquid:oxygen>*2000], false);
-Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10790>], [<liquid:oxygen>*2000], false);
-Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10805>], [<liquid:oxygen>*2000], false);
-Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10804>], [<liquid:oxygen>*2000], false);
-Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10803>], [<liquid:oxygen>*2000], false);
-Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10812>], [<liquid:oxygen>*2000], false);
-Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10815>], [<liquid:oxygen>*2000], false);
-Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10816>], [<liquid:oxygen>*2000], false);
-Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10817>], [<liquid:oxygen>*2000], false);
-Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10820>], [<liquid:oxygen>*2000], false);
-Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10810>], [<liquid:oxygen>*2000], false);
-Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10809>], [<liquid:oxygen>*2000], false);
-Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10808>], [<liquid:oxygen>*2000], false);
-Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10795>], [<liquid:oxygen>*2000], false);
-Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10794>], [<liquid:oxygen>*2000], false);
-Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10793>], [<liquid:oxygen>*2000], false);
+Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10052>], [<liquid:oxygen>*2000], true);
+Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10069>], [<liquid:oxygen>*2000], true);
+Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10053>], [<liquid:oxygen>*2000], true);
+Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10075>], [<liquid:oxygen>*2000], true);
+Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10076>], [<liquid:oxygen>*2000], true);
+Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10779>], [<liquid:oxygen>*2000], true);
+Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10778>], [<liquid:oxygen>*2000], true);
+Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10777>], [<liquid:oxygen>*2000], true);
+Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10782>], [<liquid:oxygen>*2000], true);
+Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10783>], [<liquid:oxygen>*2000], true);
+Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10784>], [<liquid:oxygen>*2000], true);
+Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10798>], [<liquid:oxygen>*2000], true);
+Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10799>], [<liquid:oxygen>*2000], true);
+Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10800>], [<liquid:oxygen>*2000], true);
+Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10787>], [<liquid:oxygen>*2000], true);
+Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10789>], [<liquid:oxygen>*2000], true);
+Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10790>], [<liquid:oxygen>*2000], true);
+Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10805>], [<liquid:oxygen>*2000], true);
+Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10804>], [<liquid:oxygen>*2000], true);
+Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10803>], [<liquid:oxygen>*2000], true);
+Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10812>], [<liquid:oxygen>*2000], true);
+Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10815>], [<liquid:oxygen>*2000], true);
+Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10816>], [<liquid:oxygen>*2000], true);
+Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10817>], [<liquid:oxygen>*2000], true);
+Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10820>], [<liquid:oxygen>*2000], true);
+Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10810>], [<liquid:oxygen>*2000], true);
+Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10809>], [<liquid:oxygen>*2000], true);
+Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10808>], [<liquid:oxygen>*2000], true);
+Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10795>], [<liquid:oxygen>*2000], true);
+Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10794>], [<liquid:oxygen>*2000], true);
+Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10793>], [<liquid:oxygen>*2000], true);
 
 
 roasters.recipeBuilder()
@@ -1326,8 +1326,8 @@ roasters.recipeBuilder()
     .EUt(200)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(chemReactor, [], [<liquid:water>*1000,<liquid:methanol>*1000], false);
-Utils.removeRecipeByOutput(lcr, [], [<liquid:water>*1000,<liquid:methanol>*1000], false);
+Utils.removeRecipeByOutput(chemReactor, [], [<liquid:water>*1000,<liquid:methanol>*1000], true);
+Utils.removeRecipeByOutput(lcr, [], [<liquid:water>*1000,<liquid:methanol>*1000], true);
 
 
 recipes.addShaped(<gregtech:machine:4176>, [	[null, <ore:plateTin>, null], 	[<ore:platePotin>, <ore:chest>, <ore:platePotin>], 	[null, <ore:plateTin>, null]]);
@@ -1422,7 +1422,7 @@ distillation_tower.recipeBuilder()
     .EUt(2000)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(assembly_line, [<gtadditions:ga_meta_item:32500>*6],[],false);
+Utils.removeRecipeByOutput(assembly_line, [<gtadditions:ga_meta_item:32500>*6],[],true);
 
 chemReactor.recipeBuilder()
     .fluidInputs(<liquid:osmium_solution>*1000)
@@ -1491,7 +1491,7 @@ assembler.recipeBuilder()
     .buildAndRegister();
 
 
-Utils.removeRecipeByOutput(assembler, [<gregtech:frame_maraging_steel_a>*4],[], false);
+Utils.removeRecipeByOutput(assembler, [<gregtech:frame_maraging_steel_a>*4],[], true);
 recipes.addShaped(<contenttweaker:maraging_steel_frame_300>*4, [	[<ore:plateMaragingSteelA>, <ore:plateMaragingSteelA>, <ore:plateMaragingSteelA>], 	[<ore:stickMaragingSteelA>, <ore:stickMaragingSteelA>, <ore:stickMaragingSteelA>], 	[<ore:stickMaragingSteelA>, <gregtech:meta_tool:8>, <ore:stickMaragingSteelA>]]);
 
 assembler.recipeBuilder()
@@ -1574,7 +1574,7 @@ blastalloy.recipeBuilder()
     .EUt(20000)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10556>],[],false);
+Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:10556>],[],true);
 
 roasters.recipeBuilder()
     .inputs(<gregicalityoreaddon:gaoe_oredict_item:2019>*2)
@@ -1749,6 +1749,7 @@ lcr.recipeBuilder()
 
 spincoater.recipeBuilder()
     .fluidInputs(<liquid:nylon610>*144)
+    .inputs(<gregtech:meta_item_1:14184>)
     .outputs(<contenttweaker:nylon610_spinneret>)
     .duration(800)
     .EUt(1200)
@@ -1756,7 +1757,7 @@ spincoater.recipeBuilder()
 
 recipes.addShaped(<gregtech:machine:508>, [	[null, null, null], 	[<gregtech:meta_item_1:12636>, <ore:plateTritanium>, <gregtech:meta_item_1:12636>], 	[<ore:cableGtSingleNaquadahAlloy>, <gregtech:machine_casing:8>, <ore:cableGtSingleNaquadahAlloy>]]);
 
-Utils.removeRecipeByOutput(assembler, [<gregtech:machine:508>],[], false);
+Utils.removeRecipeByOutput(assembler, [<gregtech:machine:508>],[], true);
 
 assembler.recipeBuilder()
     .outputs(<gregtech:machine_casing:8>)
@@ -1766,7 +1767,7 @@ assembler.recipeBuilder()
     .EUt(200000)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(electrolyzer, [<gregtech:meta_item_1:2131>,<gregtech:meta_item_1:2077>],[],false);
+Utils.removeRecipeByOutput(electrolyzer, [<gregtech:meta_item_1:2131>,<gregtech:meta_item_1:2077>],[],true);
 
 furnace.remove(<gregtech:meta_item_1:10705>);
 
@@ -1861,7 +1862,7 @@ nuclear_reactor.recipeBuilder()
 
 recipes.addShaped(<gregtech:machine:10117>, [	[<gregtech:meta_item_1:32603>, <contenttweaker:kanthalcoil>, <gregtech:meta_item_1:32603>], [<gregtech:meta_item_1:32613>, <gregtech:machine:504>, <gregtech:meta_item_1:32643>], 	[<ore:circuitExtreme>, <contenttweaker:kanthalcoil>, <ore:circuitExtreme>]]);
 
-Utils.removeRecipeByOutput(electrolyzer, [<gregtech:meta_item_1:2912>],[<liquid:oxygen>*2000], false);
+Utils.removeRecipeByOutput(electrolyzer, [<gregtech:meta_item_1:2912>],[<liquid:oxygen>*2000], true);
 
 assembler.recipeBuilder()
     .inputs(<gregtech:machine:2504>,<gregtech:meta_item_1:32687>*2,<gregtech:meta_item_1:32697>*2,<gregtech:meta_item_1:32677>*4,<gregtech:meta_item_1:12741>*16,<ore:circuitInfinite>*2)
@@ -1885,7 +1886,7 @@ compressor.recipeBuilder()
     .EUt(10)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(cutting_saw, [<gregtech:meta_item_1:12111>*9],[], false);
+Utils.removeRecipeByOutput(cutting_saw, [<gregtech:meta_item_1:12111>*9],[], true);
 
 assembler.recipeBuilder()
     .inputs(<ore:plateAluminium>*6,<ore:frameGtAluminium>)
@@ -2002,11 +2003,11 @@ packer.recipeBuilder()
     .EUt(2)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(chemReactor, [<gtadditions:ga_meta_item:32032>],[],false);
-Utils.removeRecipeByOutput(lcr, [<gtadditions:ga_meta_item:32032>],[],false);
+Utils.removeRecipeByOutput(chemReactor, [<gtadditions:ga_meta_item:32032>],[],true);
+Utils.removeRecipeByOutput(lcr, [<gtadditions:ga_meta_item:32032>],[],true);
 
-Utils.removeRecipeByOutput(chemReactor, [],[<liquid:thionyl_chloride>*1000,<liquid:sulfur_dioxide>*1000],false);
-Utils.removeRecipeByOutput(lcr, [],[<liquid:thionyl_chloride>*1000,<liquid:sulfur_dioxide>*1000],false);
+Utils.removeRecipeByOutput(chemReactor, [],[<liquid:thionyl_chloride>*1000,<liquid:sulfur_dioxide>*1000],true);
+Utils.removeRecipeByOutput(lcr, [],[<liquid:thionyl_chloride>*1000,<liquid:sulfur_dioxide>*1000],true);
 
 chemReactor.recipeBuilder()
     .fluidInputs(<liquid:sulfur_trioxide>*1000,<liquid:sulfur_dichloride>*1000)
@@ -2022,8 +2023,8 @@ lcr.recipeBuilder()
     .EUt(80)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(chemReactor, [<gtadditions:ga_dust:337>*5],[],false);
-Utils.removeRecipeByOutput(lcr, [<gtadditions:ga_dust:337>*5],[],false);
+Utils.removeRecipeByOutput(chemReactor, [<gtadditions:ga_dust:337>*5],[],true);
+Utils.removeRecipeByOutput(lcr, [<gtadditions:ga_dust:337>*5],[],true);
 
 furnace.remove(<gregtech:meta_item_1:10007>);
 
@@ -2178,3 +2179,80 @@ assembler.recipeBuilder()
     .buildAndRegister();
 
 Utils.removeRecipeByOutput(assembler,[<gregtech:metal_casing:5>*3],[],true);
+lcr.findRecipe(30, [<gregtech:meta_item_1:32766>.withTag({Configuration: 1})], [<liquid:ammonium_chloride>*200,<liquid:platinum_concentrate>*2000]).remove();
+lcr.findRecipe(30, [<gregtech:meta_item_1:32766>.withTag({Configuration: 9})], [<liquid:ammonium_chloride>*800,<liquid:platinum_concentrate>*8000]).remove();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:methanol>*1000,<liquid:methane>*1000,<liquid:oxygen>*500)
+    .fluidOutputs(<liquid:water>*1000,<liquid:dimethylether>*1000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 3}))
+    .duration(200)
+    .EUt(120)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:methanol>*1000,<liquid:methane>*1000,<liquid:oxygen>*500)
+    .fluidOutputs(<liquid:water>*1000,<liquid:dimethylether>*1000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 3}))
+    .duration(200)
+    .EUt(120)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:butene>*1000)
+    .fluidOutputs(<liquid:1_butene>*1000)
+    .notConsumable(<contenttweaker:amberlyst_15_ion_exchange_beads>)
+    .duration(200)
+    .EUt(40)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:butene>*1000)
+    .fluidOutputs(<liquid:1_butene>*1000)
+    .notConsumable(<contenttweaker:amberlyst_15_ion_exchange_beads>)
+    .duration(200)
+    .EUt(40)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:dimethylamine>*1000,<liquid:water>*1000)
+    .fluidOutputs(<liquid:dimethylamine_solution>*1000)
+    .duration(200)
+    .EUt(80)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:dimethylamine>*1000,<liquid:water>*1000)
+    .fluidOutputs(<liquid:dimethylamine_solution>*1000)
+    .duration(200)
+    .EUt(80)
+    .buildAndRegister();
+
+spincoater.recipeBuilder()
+    .notConsumable(<liquid:dimethylamine_solution>)
+    .notConsumable(<gtadditions:ga_dust:32259>)
+    .fluidInputs(<liquid:poly_styrene_co_chloromethylstyrene_copolymeris>*1000)
+    .outputs(<gtadditions:ga_dust:32258>*3)
+    .duration(400)
+    .EUt(800)
+    .buildAndRegister();
+
+extruder.recipeBuilder()
+    .outputs(<contenttweaker:amberlyst_15_ion_exchange_beads>)
+    .inputs(<gtadditions:ga_dust:32258>)
+    .notConsumable(<gregtech:meta_item_1:32352>)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
+
+vacfreezer.recipeBuilder()
+    .fluidInputs(<liquid:liquid_oxygen>*1000)
+    .fluidOutputs(<liquid:supercooled_oxygen>*1000)
+    .duration(400)
+    .EUt(80)
+    .buildAndRegister();
+
+Utils.removeRecipeByOutput(fluid_solidifier, [<gregtech:meta_item_1:9636>*9],[],true);
+Utils.removeRecipeByOutput(fluid_solidifier, [<gregtech:meta_item_1:12636>],[],true);
+Utils.removeRecipeByOutput(fluid_solidifier, [<gregtech:meta_item_1:10636>],[],true);
+Utils.removeRecipeByOutput(fluid_solidifier, [<gregtech:meta_block_compressed_39:12>],[],true);

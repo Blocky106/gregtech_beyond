@@ -3160,15 +3160,15 @@ assembler.recipeBuilder()
 
 
 
-Utils.removeRecipeByOutput(assembly_line, [<gregtech:meta_item_1:32606>], [], false);
-Utils.removeRecipeByOutput(assembly_line, [<gregtech:meta_item_1:32615>], [], false);
-Utils.removeRecipeByOutput(assembly_line, [<gregtech:meta_item_1:32635>], [], false);
-Utils.removeRecipeByOutput(assembly_line, [<gregtech:meta_item_1:32645>], [], false);
-Utils.removeRecipeByOutput(assembly_line, [<gregtech:meta_item_1:32655>], [], false);
-Utils.removeRecipeByOutput(assembly_line, [<gregtech:meta_item_1:32665>], [], false);
-Utils.removeRecipeByOutput(assembly_line, [<gregtech:meta_item_1:32685>], [], false);
-Utils.removeRecipeByOutput(assembly_line, [<gregtech:meta_item_1:32695>], [], false);
-Utils.removeRecipeByOutput(assembly_line, [<gregtech:meta_item_1:32705>], [], false);
+Utils.removeRecipeByOutput(assembly_line, [<gregtech:meta_item_1:32606>], [], true);
+Utils.removeRecipeByOutput(assembly_line, [<gregtech:meta_item_1:32615>], [], true);
+Utils.removeRecipeByOutput(assembly_line, [<gregtech:meta_item_1:32635>], [], true);
+Utils.removeRecipeByOutput(assembly_line, [<gregtech:meta_item_1:32645>], [], true);
+Utils.removeRecipeByOutput(assembly_line, [<gregtech:meta_item_1:32655>], [], true);
+Utils.removeRecipeByOutput(assembly_line, [<gregtech:meta_item_1:32665>], [], true);
+Utils.removeRecipeByOutput(assembly_line, [<gregtech:meta_item_1:32685>], [], true);
+Utils.removeRecipeByOutput(assembly_line, [<gregtech:meta_item_1:32695>], [], true);
+Utils.removeRecipeByOutput(assembly_line, [<gregtech:meta_item_1:32705>], [], true);
 
 
 

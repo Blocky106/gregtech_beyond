@@ -2331,14 +2331,14 @@ assembler.recipeBuilder()
 
 
 
-Utils.removeRecipeByOutput(assembler, [<gtadditions:ga_meta_item:32538>], [], false);
-Utils.removeRecipeByOutput(assembly_line, [<gtadditions:ga_meta_item:32015>*4], [], false);
-Utils.removeRecipeByOutput(assembly_line, [<gtadditions:ga_meta_item:32392>], [], false);
-Utils.removeRecipeByOutput(assembly_line, [<gtadditions:ga_meta_item:32391>], [], false);
-Utils.removeRecipeByOutput(assembly_line, [<gtadditions:ga_meta_item:32500>*6], [], false);
-Utils.removeRecipeByOutput(assembly_line, [<gtadditions:ga_meta_item:32539>*8], [], false);
-Utils.removeRecipeByOutput(assembly_line, [<gtadditions:ga_meta_item:32600>*6], [], false);
-Utils.removeRecipeByOutput(assembly_line, [<gtadditions:ga_meta_item:32554>*8], [], false);
+Utils.removeRecipeByOutput(assembler, [<gtadditions:ga_meta_item:32538>], [], true);
+Utils.removeRecipeByOutput(assembly_line, [<gtadditions:ga_meta_item:32015>*4], [], true);
+Utils.removeRecipeByOutput(assembly_line, [<gtadditions:ga_meta_item:32392>], [], true);
+Utils.removeRecipeByOutput(assembly_line, [<gtadditions:ga_meta_item:32391>], [], true);
+Utils.removeRecipeByOutput(assembly_line, [<gtadditions:ga_meta_item:32500>*6], [], true);
+Utils.removeRecipeByOutput(assembly_line, [<gtadditions:ga_meta_item:32539>*8], [], true);
+Utils.removeRecipeByOutput(assembly_line, [<gtadditions:ga_meta_item:32600>*6], [], true);
+Utils.removeRecipeByOutput(assembly_line, [<gtadditions:ga_meta_item:32554>*8], [], true);
 
 
 
@@ -2528,7 +2528,7 @@ assembler.recipeBuilder()
 
 recipes.addShaped(<gregtech:machine:10061>, [[<contenttweaker:bulatsteelplate>, <gregtech:machine:504>, <contenttweaker:bulatsteelplate>], [<ore:circuitElite>, <gregtech:meta_item_1:32603>, <ore:circuitElite>], [<contenttweaker:bulatsteelplate>, <ore:frameGtTitanium>, <contenttweaker:bulatsteelplate>]]);
 
-Utils.removeRecipeByOutput(assembler,[<gregtech:meta_item_1:32680>],[], false);
+Utils.removeRecipeByOutput(assembler,[<gregtech:meta_item_1:32680>],[], true);
 
 assembler.recipeBuilder()
     .inputs(<ore:circuitBasic>*2,<gregtech:meta_item_1:14094>*4,<gtadditions:ga_meta_item:109>*2,<contenttweaker:luminated_quartzite>)

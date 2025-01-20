@@ -74,7 +74,7 @@ ebf.recipeBuilder()
 
 recipes.addShaped(<gregtech:meta_item_2:32452> * 4, [[<gregtech:meta_item_1:19001>, <gregtech:meta_item_1:19001>, <gregtech:meta_item_1:19001>],[<gregtech:meta_item_1:19001>, <gregtech:meta_item_1:19001>, <gregtech:meta_item_1:19001>], [<gregtech:cable:71>, null, <gregtech:cable:71>]]);
 
-Utils.removeRecipeByOutput(assembler, [<gregtech:meta_item_2:32452> * 2], [], false);
+Utils.removeRecipeByOutput(assembler, [<gregtech:meta_item_2:32452> * 2], [], true);
 
 assembler.recipeBuilder()
 .inputs([<ore:foilAluminium> * 4,<ore:platePlastic> * 1])
@@ -85,7 +85,7 @@ assembler.recipeBuilder()
 
 //new electronic circuit recipe
 
-Utils.removeRecipeByOutput(cas, [<gregtech:meta_item_2:32488>], [], false);
+Utils.removeRecipeByOutput(cas, [<gregtech:meta_item_2:32488>], [], true);
 cas.recipeBuilder()
 .inputs([<gregtech:meta_item_2:32455> * 8,<gregtech:meta_item_2:32452> * 4, <ore:wireFineCopper> * 4, <gtadditions:ga_meta_item:32030>])
 .fluidInputs(<liquid:soldering_alloy> * 50)
@@ -149,7 +149,7 @@ lcr.recipeBuilder()
     .EUt(100)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(fermenter, [], [<liquid:fermented_biomass>*100], false);
+Utils.removeRecipeByOutput(fermenter, [], [<liquid:fermented_biomass>*100], true);
 
 chemReactor.recipeBuilder()
     .fluidInputs(<liquid:carbon_sulfide>*1000,<liquid:ethanol>*1000)
@@ -351,7 +351,7 @@ ebf.recipeBuilder()
     .property("temperature", 5000)
     .buildAndRegister();
     
-Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:11858>], [], false);
+Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:11858>], [], true);
 
 chemReactor.recipeBuilder()
     .inputs(<gregtech:meta_item_1:10227>)
@@ -494,7 +494,7 @@ assembler.recipeBuilder()
     .buildAndRegister();
 
 
-Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:11127>], [], false);
+Utils.removeRecipeByOutput(ebf, [<gregtech:meta_item_1:11127>], [], true);
 
 ebf.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2127>)
@@ -548,7 +548,7 @@ lcr.recipeBuilder()
     .duration(580)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(assembler, [<gtadditions:ga_multiblock_casing:1>], [], false);
+Utils.removeRecipeByOutput(assembler, [<gtadditions:ga_multiblock_casing:1>], [], true);
 
 assembler.recipeBuilder()
     .fluidInputs(<liquid:polytetrafluoroethylene>*288)
@@ -906,13 +906,13 @@ lcr.recipeBuilder()
 
 distillation_tower.recipeBuilder()
     .fluidInputs(<liquid:btex>*2000)
-    .fluidOutputs(<liquid:benzene>*300,<liquid:ethylbenzene>*200,<liquid:toluene>*500,<liquid:oxylene>*200,<liquid:mpxylene>*800)
+    .fluidOutputs(<liquid:benzene>*300,<liquid:ethylbenzene>*200,<liquid:toluene>*500,<liquid:ortho_xylene>*200,<liquid:mpxylene>*800)
     .duration(200)
     .EUt(80)
     .buildAndRegister();
 
 chemReactor.recipeBuilder()
-    .fluidInputs(<liquid:oxygen>*6000,<liquid:oxylene>*1000)
+    .fluidInputs(<liquid:oxygen>*6000,<liquid:ortho_xylene>*1000)
     .fluidOutputs(<liquid:steam>*3000)
     .outputs(<gregtech:meta_item_1:2926>*13)
     .duration(200)
@@ -920,7 +920,7 @@ chemReactor.recipeBuilder()
     .buildAndRegister();
 
 lcr.recipeBuilder()
-    .fluidInputs(<liquid:oxygen>*6000,<liquid:oxylene>*1000)
+    .fluidInputs(<liquid:oxygen>*6000,<liquid:ortho_xylene>*1000)
     .fluidOutputs(<liquid:steam>*3000)
     .outputs(<gregtech:meta_item_1:2926>*13)
     .duration(200)
@@ -1113,8 +1113,8 @@ lengraver.recipeBuilder()
     .EUt(80)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(chemical_bath, [<gtadditions:ga_dust:358>,<gtadditions:ga_dust:107>], [], false);
-Utils.removeRecipeByOutput(chemical_bath, [<gtadditions:ga_dust:357>*3], [], false);
+Utils.removeRecipeByOutput(chemical_bath, [<gtadditions:ga_dust:358>,<gtadditions:ga_dust:107>], [], true);
+Utils.removeRecipeByOutput(chemical_bath, [<gtadditions:ga_dust:357>*3], [], true);
 
 ebf.recipeBuilder()
     .inputs(<gregtech:meta_item_1:12044>)
@@ -1231,7 +1231,7 @@ recipes.addShaped(<gregtech:machine:1417>, [	[<gregtech:meta_item_1:32641>, <gre
 
 
 
-Utils.removeRecipeByOutput(chemReactor, [], [<liquid:diborane>*500], false);
+Utils.removeRecipeByOutput(chemReactor, [], [<liquid:diborane>*500], true);
 
 electrolyzer.findRecipe(60,[<gregtech:meta_item_1:2904>*32],null).remove();
 
@@ -1422,10 +1422,10 @@ electrolyzer.recipeBuilder()
     .EUt(129)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(lcr, [<gregtech:meta_item_1:2313>], [], false);
-Utils.removeRecipeByOutput(chemReactor, [<gregtech:meta_item_1:2313>], [], false);
-Utils.removeRecipeByOutput(lcr, [], [<liquid:borax_solution>*1000], false);
-Utils.removeRecipeByOutput(chemReactor, [], [<liquid:borax_solution>*1000], false);
+Utils.removeRecipeByOutput(lcr, [<gregtech:meta_item_1:2313>], [], true);
+Utils.removeRecipeByOutput(chemReactor, [<gregtech:meta_item_1:2313>], [], true);
+Utils.removeRecipeByOutput(lcr, [], [<liquid:borax_solution>*1000], true);
+Utils.removeRecipeByOutput(chemReactor, [], [<liquid:borax_solution>*1000], true);
 
 distillation_tower.findRecipe(7680,null,[<liquid:fl_cracked_light_naquadah>*1200]).remove();
 distillation_tower.findRecipe(7680,null,[<liquid:fl_cracked_medium_naquadah>*1400]).remove();
@@ -1786,7 +1786,7 @@ mixer.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(dehydrator, [], [<liquid:peptone_mixture>*1000], false);
+Utils.removeRecipeByOutput(dehydrator, [], [<liquid:peptone_mixture>*1000], true);
 
 fluidheater.recipeBuilder()
     .fluidInputs(<liquid:dilutedmilkslurry>*1000)
@@ -1813,8 +1813,8 @@ centrifuge.recipeBuilder()
     .buildAndRegister();
 
 recipes.addShapeless(<minecraft:snow>,[<minecraft:snowball>,<minecraft:snowball>,<minecraft:snowball>,<minecraft:snowball>,<minecraft:snowball>,<minecraft:snowball>,<minecraft:snowball>,<minecraft:snowball>,<minecraft:snowball>]);
-Utils.removeRecipeByOutput(packer, [<minecraft:snow>], [], false);
-Utils.removeRecipeByOutput(compressor, [<minecraft:snow>*4], [], false);
+Utils.removeRecipeByOutput(packer, [<minecraft:snow>], [], true);
+Utils.removeRecipeByOutput(compressor, [<minecraft:snow>*4], [], true);
 
 furnace.remove(<gregtech:meta_item_1:10592>);
 
@@ -1870,7 +1870,7 @@ fluidExtractor.recipeBuilder()
     .EUt(2)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(assembler, [<gregtech:cable:970>*3], [], false);
+Utils.removeRecipeByOutput(assembler, [<gregtech:cable:970>*3], [], true);
 
 
 assembler.recipeBuilder()
@@ -1881,7 +1881,7 @@ assembler.recipeBuilder()
     .EUt(120)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(assembler, [<gregtech:cable:69>*3], [], false);
+Utils.removeRecipeByOutput(assembler, [<gregtech:cable:69>*3], [], true);
 
 
 assembler.recipeBuilder()
@@ -1892,7 +1892,7 @@ assembler.recipeBuilder()
     .EUt(120)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(assembler, [<gregtech:cable:968>*9], [], false);
+Utils.removeRecipeByOutput(assembler, [<gregtech:cable:968>*9], [], true);
 
 
 assembler.recipeBuilder()
@@ -1903,7 +1903,7 @@ assembler.recipeBuilder()
     .EUt(120)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(assembler, [<gregtech:cable:967>*6], [], false);
+Utils.removeRecipeByOutput(assembler, [<gregtech:cable:967>*6], [], true);
 
 
 assembler.recipeBuilder()
@@ -1914,7 +1914,7 @@ assembler.recipeBuilder()
     .EUt(120)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(assembler, [<gregtech:cable:966>*8], [], false);
+Utils.removeRecipeByOutput(assembler, [<gregtech:cable:966>*8], [], true);
 
 
 assembler.recipeBuilder()
@@ -1925,7 +1925,7 @@ assembler.recipeBuilder()
     .EUt(120)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(assembler, [<gregtech:cable:964>*16], [], false);
+Utils.removeRecipeByOutput(assembler, [<gregtech:cable:964>*16], [], true);
 
 
 assembler.recipeBuilder()
@@ -1936,7 +1936,7 @@ assembler.recipeBuilder()
     .EUt(120)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(assembler, [<gregtech:cable:744>*32], [], false);
+Utils.removeRecipeByOutput(assembler, [<gregtech:cable:744>*32], [], true);
 
 
 assembler.recipeBuilder()
@@ -2576,7 +2576,7 @@ vacfreezer.recipeBuilder()
     .EUt(2200)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(assembly_line, [<gregtech:machine:4215>], [], false);
+Utils.removeRecipeByOutput(assembly_line, [<gregtech:machine:4215>], [], true);
 
 assembly_line.recipeBuilder()
     .fluidInputs(<liquid:adamantane_lubricant>*1000,<liquid:soldering_alloy>*1296)
@@ -2586,7 +2586,7 @@ assembly_line.recipeBuilder()
     .EUt(491000)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(mixer, [<gregtech:meta_item_1:2230>*5], [], false);
+Utils.removeRecipeByOutput(mixer, [<gregtech:meta_item_1:2230>*5], [], true);
 
 mixer.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2008>,<gregtech:meta_item_1:2094>*4)
@@ -2708,7 +2708,7 @@ centrifuge.recipeBuilder()
 
 recipes.addShaped(<contenttweaker:astro_miner>, [	[<gregtech:meta_item_1:32602>, <gregtech:meta_item_1:32692>, <ore:craftingLensWhite>], 	[<gregtech:meta_item_1:32652>, <ore:plateStainlessSteel>, <ore:ringStainlessSteel>], 	[<ore:ringRubber>, <gregtech:meta_item_1:32602>, <ore:ringRubber>]]);
 
-Utils.removeRecipeByOutput(chemReactor, [<gregtech:meta_item_1:2382>*7], [<liquid:hydrochloric_acid>*1000], false);
+Utils.removeRecipeByOutput(chemReactor, [<gregtech:meta_item_1:2382>*7], [<liquid:hydrochloric_acid>*1000], true);
 
 roasters.recipeBuilder()
     .fluidInputs(<liquid:sulfuric_acid>*1000)
@@ -2821,10 +2821,10 @@ centrifuge.recipeBuilder()
     .buildAndRegister();
 
 
-Utils.removeRecipeByOutput(assembly_line, [<gtadditions:ga_fusion_casing:8>*4], null, false);
-Utils.removeRecipeByOutput(assembly_line, [<gtadditions:ga_cryostat_casing:4>*4], null, false);
-Utils.removeRecipeByOutput(assembly_line, [<gtadditions:ga_vacuum_casing:4>*4], null, false);
-Utils.removeRecipeByOutput(assembly_line, [<gtadditions:ga_divertor_casing:4>*4], null, false);
+Utils.removeRecipeByOutput(assembly_line, [<gtadditions:ga_fusion_casing:8>*4], null, true);
+Utils.removeRecipeByOutput(assembly_line, [<gtadditions:ga_cryostat_casing:4>*4], null, true);
+Utils.removeRecipeByOutput(assembly_line, [<gtadditions:ga_vacuum_casing:4>*4], null, true);
+Utils.removeRecipeByOutput(assembly_line, [<gtadditions:ga_divertor_casing:4>*4], null, true);
 
 
 fluidExtractor.recipeBuilder()
@@ -3124,8 +3124,8 @@ roasters.recipeBuilder()
     .buildAndRegister();
 
 electrolyzer.findRecipe(30, null,[<liquid:methane>*1000]).remove();
-Utils.removeRecipeByOutput(chemReactor, null, [<liquid:methane>*1000], false);
-Utils.removeRecipeByOutput(lcr, null, [<liquid:methane>*1000], false);
+Utils.removeRecipeByOutput(chemReactor, null, [<liquid:methane>*1000], true);
+Utils.removeRecipeByOutput(lcr, null, [<liquid:methane>*1000], true);
 electrolyzer.findRecipe(60, [<gregtech:meta_item_1:2604>*16],null).remove();
 
 chemReactor.recipeBuilder()

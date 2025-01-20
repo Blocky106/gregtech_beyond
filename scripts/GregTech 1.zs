@@ -372,15 +372,6 @@ chemReactor.recipeBuilder()
 	.EUt(256)
 	.buildAndRegister();
 
-mixer.recipeBuilder()
-	.inputs(<gregtech:meta_item_1:2772>)
-	.fluidInputs(<liquid:tetraethylene> * 500)
-	.fluidOutputs(<liquid:tetrafluoroethylene> * 500)
-	.outputs(<gregtech:meta_item_1:2054>)
-	.duration(90)
-	.EUt(240)
-	.buildAndRegister();
-
 assembler.recipeBuilder()
 	.inputs(<gregtech:frame_steel>, <gregtech:meta_item_1:12184> * 6)
 	.outputs(<gregtech:metal_casing:4>*2)
