@@ -50,8 +50,8 @@ mods.nuclearcraft.Infuser.removeAllRecipes();
 mods.nuclearcraft.SaltMixer.removeAllRecipes();
 mods.nuclearcraft.Separator.removeAllRecipes();
 mods.nuclearcraft.DecayHastener.removeAllRecipes();
-
-
+mods.qmd.ore_leacher.removeAllRecipes();
+mods.qmd.mass_spectrometer.removeAllRecipes();
 
 alloy_smelter.recipeBuilder()
     .inputs(<gregtech:meta_item_1:13231>*2,<gregtech:meta_item_1:13035>*2)

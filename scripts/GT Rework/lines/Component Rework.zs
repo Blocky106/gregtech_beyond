@@ -14,7 +14,7 @@ import mods.gtadditions.recipe.GARecipeMaps.ADV_FUSION_RECIPES;
 import mods.gregtech.recipe.CokeOvenRecipeBuilder;
 import mods.gtadditions.recipe.Utils;
 
-Utils.removeRecipeByOutput(assembler, [<gtadditions:ga_meta_item:32253> * 16], [], false);
+Utils.removeRecipeByOutput(assembler, [<gtadditions:ga_meta_item:32253> * 16], [], true);
 
 assembler.recipeBuilder()
     .fluidInputs(<liquid:ethylene>*144)

@@ -296,8 +296,8 @@ distillation_tower.recipeBuilder()
     .EUt(280)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(chemReactor,null, [<liquid:rare_earth_hydroxides_solution>*1000,<liquid:hydrogen>*3000], false);
-Utils.removeRecipeByOutput(lcr,null, [<liquid:rare_earth_hydroxides_solution>*1000,<liquid:hydrogen>*3000], false);
+Utils.removeRecipeByOutput(chemReactor,null, [<liquid:rare_earth_hydroxides_solution>*1000,<liquid:hydrogen>*3000], true);
+Utils.removeRecipeByOutput(lcr,null, [<liquid:rare_earth_hydroxides_solution>*1000,<liquid:hydrogen>*3000], true);
 
 
 chemReactor.findRecipe(480,null,[<liquid:hydrochloric_acid>*3000,<liquid:rare_earth_hydroxides_solution>*1000]).remove();

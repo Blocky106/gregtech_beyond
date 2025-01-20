@@ -541,4 +541,4 @@ cutting_saw.recipeBuilder()
     .EUt(650)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(assembler, [<gtadditions:ga_meta_item:32245>*24],[],false);
+Utils.removeRecipeByOutput(assembler, [<gtadditions:ga_meta_item:32245>*24],[],true);
