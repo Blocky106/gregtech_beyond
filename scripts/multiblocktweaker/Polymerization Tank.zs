@@ -192,38 +192,6 @@ polymerization_tank.recipeMap.recipeBuilder()
 
 polymerization_tank.recipeMap.recipeBuilder()
     .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
-    .fluidInputs(<liquid:tetrafluoroethylene>*144)
-    .fluidOutputs(<liquid:polytetrafluoroethylene>*144)
-    .duration(200)
-    .EUt(12)
-    .buildAndRegister();
-
-polymerization_tank.recipeMap.recipeBuilder()
-    .notConsumable(<gtadditions:ga_dust:32001>)
-    .fluidInputs(<liquid:tetrafluoroethylene>*144)
-    .fluidOutputs(<liquid:polytetrafluoroethylene>*288)
-    .duration(200)
-    .EUt(12)
-    .buildAndRegister();
-
-polymerization_tank.recipeMap.recipeBuilder()
-    .notConsumable(<gtadditions:ga_dust:32002>)
-    .fluidInputs(<liquid:tetrafluoroethylene>*144)
-    .fluidOutputs(<liquid:polytetrafluoroethylene>*432)
-    .duration(200)
-    .EUt(12)
-    .buildAndRegister();
-
-polymerization_tank.recipeMap.recipeBuilder()
-    .notConsumable(<gtadditions:ga_dust:32000>)
-    .fluidInputs(<liquid:tetrafluoroethylene>*144)
-    .fluidOutputs(<liquid:polytetrafluoroethylene>*576)
-    .duration(200)
-    .EUt(12)
-    .buildAndRegister();
-
-polymerization_tank.recipeMap.recipeBuilder()
-    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
     .fluidInputs(<liquid:ethylene>*144)
     .fluidOutputs(<liquid:plastic>*144)
     .duration(200)
@@ -361,6 +329,14 @@ polymerization_tank.recipeMap.recipeBuilder()
     .notConsumable(<gtadditions:ga_dust:32232>)
     .fluidInputs(<liquid:glycidol_ether>*1000, <liquid:resin_enhancer>*1000)
     .fluidOutputs(<liquid:unrefined_epoxy_resin>*2000)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
+
+polymerization_tank.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:tetrafluoroethylene>*1000, <liquid:ptfe_preparation_mixture>*1000)
+    .notConsumable(<gtadditions:ga_dust:32001>)
+    .fluidOutputs(<liquid:polytetrafluoroethylene>*2000)
     .duration(200)
     .EUt(12)
     .buildAndRegister();
