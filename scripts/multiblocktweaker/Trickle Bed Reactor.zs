@@ -92,3 +92,17 @@ trickle_bed_reactor.recipeMap.recipeBuilder()
     .EUt(500)
     .duration(400)
     .buildAndRegister();
+
+trickle_bed_reactor.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:air>*1000,<liquid:1_butene>*1000)
+    .fluidOutputs(<liquid:methyl_isobutyl_carbonyl>*1000)
+    .duration(200)
+    .EUt(800)
+    .buildAndRegister();
+
+trickle_bed_reactor.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:divinylbenzene>*1000,<liquid:chloromethylstyrene>*1000)
+    .fluidOutputs(<liquid:poly_styrene_co_chloromethylstyrene_copolymeris>*1000)
+    .EUt(100)
+    .duration(100)
+    .buildAndRegister();
