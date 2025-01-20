@@ -87,20 +87,6 @@ fluidExtractor.recipeBuilder()
     .EUt(188)
     .buildAndRegister();
 
-lcr.recipeBuilder()
-    .fluidInputs(<liquid:treatedsulfuricfractions>*1000)
-    .fluidOutputs(<liquid:sourgas>*200,<liquid:oilfractions>*800)
-    .duration(200)
-    .EUt(400)
-    .buildAndRegister();
-
-chemReactor.recipeBuilder()
-    .fluidInputs(<liquid:treatedsulfuricfractions>*1000)
-    .fluidOutputs(<liquid:sourgas>*200,<liquid:oilfractions>*800)
-    .duration(200)
-    .EUt(400)
-    .buildAndRegister();
-
 lmixer.recipeBuilder()
     .fluidInputs(<liquid:water>*1500,<liquid:oil_heavy>*500)
     .fluidOutputs(<liquid:dilutedoil>*2000)
@@ -130,20 +116,6 @@ lmixer.recipeBuilder()
     .EUt(150)
     .buildAndRegister();
 
-lcr.recipeBuilder()
-    .fluidInputs(<liquid:sourgas>*1000,<liquid:ethanolamine>*500)
-    .fluidOutputs(<liquid:richamine>*1500)
-    .duration(900)
-    .EUt(600)
-    .buildAndRegister();
-
-chemReactor.recipeBuilder()
-    .fluidInputs(<liquid:sourgas>*1000,<liquid:ethanolamine>*500)
-    .fluidOutputs(<liquid:richamine>*1500)
-    .duration(900)
-    .EUt(600)
-    .buildAndRegister();
-
 lcentrifuge.recipeBuilder()
     .fluidInputs(<liquid:richamine>*1500)
     .fluidOutputs(<liquid:ethanolamine>*500,<liquid:hydrogen_sulfide>*1000)
@@ -156,13 +128,6 @@ centrifuge.recipeBuilder()
     .fluidOutputs(<liquid:ethanolamine>*500,<liquid:hydrogen_sulfide>*1000)
     .duration(122)
     .EUt(900)
-    .buildAndRegister();
-
-distillation_tower.recipeBuilder()
-    .fluidInputs(<liquid:oilfractions>*100)
-    .fluidOutputs(<liquid:sulfuric_heavy_fuel>*15,<liquid:sulfuric_light_fuel>*50,<liquid:sulfuric_naphtha>*20,<liquid:sulfuric_gas>*60)
-    .duration(400)
-    .EUt(120)
     .buildAndRegister();
 
 lcr.recipeBuilder()
