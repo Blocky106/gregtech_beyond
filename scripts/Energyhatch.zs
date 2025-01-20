@@ -243,3 +243,99 @@ assembly_line.recipeBuilder()
 	.EUt(131000)
 	.duration(300)
 	.buildAndRegister();
+
+assembly_line.recipeBuilder()
+	.inputs(<gregtech:meta_item_1:12636>*16, <gregtech:cable:1308>*16, <gtadditions:ga_meta_item:32424>*16, <contenttweaker:superconductingcoil>*8, <ore:circuitSuperconductor>, <ore:circuitSuperconductor>, <contenttweaker:onecryogeniccoolant>, <contenttweaker:onecryogeniccoolant>, <gregtech:machine:508>)
+	.fluidInputs(<liquid:soldering_alloy>*8192, <liquid:naquadah_alloy>*1200)
+	.outputs(<gregtech:machine:3050>)
+	.EUt(524000)
+	.duration(350)
+	.buildAndRegister();
+
+assembly_line.recipeBuilder()
+	.inputs(<gregtech:meta_item_1:12636>*16, <gregtech:cable:2308>*16, <gtadditions:ga_meta_item:32424>*16, <contenttweaker:superconductingcoil>*8, <ore:circuitSuperconductor>, <ore:circuitSuperconductor>, <contenttweaker:onecryogeniccoolant>, <contenttweaker:onecryogeniccoolant>, <gregtech:meta_item_1:12786>*2, <gregtech:machine:508>)
+	.fluidInputs(<liquid:soldering_alloy>*8540, <liquid:naquadah_alloy>*1600)
+	.outputs(<gregtech:machine:3051>)
+	.EUt(524000)
+	.duration(350)
+	.buildAndRegister();
+
+assembly_line.recipeBuilder()
+	.inputs(<gregtech:meta_item_1:12636>*16, <gregtech:cable:3308>*16 <gtadditions:ga_meta_item:32426>*24, <contenttweaker:superconductingcoil>*8, <ore:circuitSuperconductor>, <ore:circuitSuperconductor>, <contenttweaker:onecryogeniccoolant>, <contenttweaker:onecryogeniccoolant>, <gtadditions:ga_meta_item:1786>*2, <gregtech:machine:508>)
+	.fluidInputs(<liquid:soldering_alloy>*9000, <liquid:naquadah_alloy>*2000)
+	.outputs(<gregtech:machine:3052>)
+	.EUt(524000)
+	.duration(350)
+	.buildAndRegister();
+
+assembly_line.recipeBuilder()
+	.inputs(<gregtech:meta_item_1:12636>*20, <gregtech:cable:4308>*20, <gtadditions:ga_meta_item:32426>*24, <contenttweaker:superconductingcoil>*10, <ore:circuitSuperconductor>*2, <ore:circuitSuperconductor>*2, <contenttweaker:onecryogeniccoolant>*2, <contenttweaker:onecryogeniccoolant>*2, <gregtech:meta_item_1:32608>*2, <gregtech:meta_item_1:13786>*4, <gregtech:machine:508>)
+	.fluidInputs(<liquid:soldering_alloy>*12000, <liquid:naquadah_alloy>*2400)
+	.outputs(<gregtech:machine:3053>)
+	.EUt(550000)
+	.duration(400)
+	.buildAndRegister();
+
+assembly_line.recipeBuilder()
+	.inputs(<gtadditions:ga_meta_item:32422>*32, <gtadditions:ga_meta_item:32424>*16, <gregtech:cable:1312>*16, <contenttweaker:titansteelcoil>*10, <gregtech:machine:3239>, <contenttweaker:twocryogeniccoolant>, <contenttweaker:twocryogeniccoolant>, <ore:circuitInfinite>, <ore:circuitInfinite>)
+	.fluidInputs(<liquid:soldering_alloy>*16384, <liquid:osmiridium>*1400)
+	.outputs(<gregtech:machine:4035>)
+	.EUt(2009700)
+	.duration(400)
+	.buildAndRegister();
+
+assembly_line.recipeBuilder()
+	.inputs(<gtadditions:ga_meta_item:32422>*32, <gtadditions:ga_meta_item:32424>*16, <gregtech:cable:2312>*16, <contenttweaker:titansteelcoil>*10, <gregtech:machine:3239>, <contenttweaker:twocryogeniccoolant>, <contenttweaker:twocryogeniccoolant>, <ore:circuitInfinite>, <ore:circuitInfinite>, <contenttweaker:forcefieldgenerator>, <gregtech:meta_item_1:19730>*16)
+	.fluidInputs(<liquid:soldering_alloy>*24500, <liquid:osmiridium>*1600)
+	.outputs(<gregtech:machine:4036>)
+	.EUt(2009700)
+	.duration(400)
+	.buildAndRegister();
+
+assembly_line.recipeBuilder()
+	.inputs(<gtadditions:ga_meta_item:32422>*32, <gtadditions:ga_meta_item:32424>*16, <gregtech:cable:3312>*16, <contenttweaker:titansteelcoil>*10, <gregtech:machine:3239>, <contenttweaker:twocryogeniccoolant>, <contenttweaker:twocryogeniccoolant>, <ore:circuitInfinite>, <ore:circuitInfinite>, <contenttweaker:forcefieldgenerator>, <gregtech:meta_item_1:12730>*16)
+	.fluidInputs(<liquid:soldering_alloy>*30000, <liquid:osmiridium>*2000)
+	.outputs(<gregtech:machine:4037>)
+	.EUt(2009700)
+	.duration(400)
+	.buildAndRegister();
+
+assembly_line.recipeBuilder()
+	.inputs(<gtadditions:ga_meta_item:32422>*64, <gtadditions:ga_meta_item:32424>*24, <gregtech:cable:4312>*24, <contenttweaker:titansteelcoil>*12, <gregtech:machine:3239>, <contenttweaker:twocryogeniccoolant>*2, <contenttweaker:twocryogeniccoolant>*2, <ore:circuitInfinite>*2, <ore:circuitInfinite>*2, <contenttweaker:forcefieldgenerator>*2, <gtadditions:ga_meta_item:730>*32, <gregtech:meta_item_2:16709>*24)
+	.fluidInputs(<liquid:soldering_alloy>*37652, <liquid:osmiridium>*2560)
+	.outputs(<gregtech:machine:4038>)
+	.EUt(202000)
+	.duration(400)
+	.buildAndRegister();
+
+assembly_line.recipeBuilder()
+	.inputs(<gtadditions:ga_meta_item:32430>*10, <gregtech:ga_cable:1852>*16, <gtadditions:ga_cable>*5, <gtadditions:ga_meta_item:32499>*16, <contenttweaker:pykoniumcoil>*4, <gregtech:machine:3240>, <ore:circuitUev>, <ore:circuitUev>, <contenttweaker:tricryogeniccoolant>, <contenttweaker:tricryogeniccoolant>, <gregtech:meta_item_1:32687>*2)
+	.fluidInputs(<liquid:soldering_alloy>*32768, <liquid:osmiridium>*1400)
+	.outputs(<gregtech:machine:4043>)
+	.EUt(8000000)
+	.duration(450)
+	.buildAndRegister();
+
+assembly_line.recipeBuilder()
+	.inputs(<gtadditions:ga_meta_item:32430>*12, <gregtech:ga_cable:2852>*16, <gtadditions:ga_cable>*6, <gtadditions:ga_meta_item:32499>*16, <contenttweaker:pykoniumcoil>*4, <gregtech:machine:3240>, <ore:circuitUev>, <ore:circuitUev>, <contenttweaker:tricryogeniccoolant>, <contenttweaker:tricryogeniccoolant>, <gregtech:meta_item_1:12735>*2, <gregtech:meta_item_1:32687>*2)
+	.fluidInputs(<liquid:soldering_alloy>*40000, <liquid:osmiridium>*1800)
+	.outputs(<gregtech:machine:4044>)
+	.EUt(8000000)
+	.duration(450)
+	.buildAndRegister();
+
+assembly_line.recipeBuilder()
+	.inputs(<gtadditions:ga_meta_item:32430>*15, <gregtech:ga_cable:3852>*16, <gtadditions:ga_cable>*8, <gtadditions:ga_meta_item:32499>*16, <contenttweaker:pykoniumcoil>*4, <gregtech:machine:3240>, <ore:circuitUev>, <ore:circuitUev>, <contenttweaker:tricryogeniccoolant>, <contenttweaker:tricryogeniccoolant>, <gregtech:meta_item_1:13735>*2, <gregtech:meta_item_1:32687>*2)
+	.fluidInputs(<liquid:soldering_alloy>*46590, <liquid:osmiridium>*2000)
+	.outputs(<gregtech:machine:4045>)
+	.EUt(8000000)
+	.duration(450)
+	.buildAndRegister();
+
+assembly_line.recipeBuilder()
+	.inputs(<gtadditions:ga_meta_item:32430>*20, <gregtech:ga_cable:4852>*20, <gtadditions:ga_cable>*12, <gtadditions:ga_meta_item:32499>*20, <contenttweaker:pykoniumcoil>*6, <gregtech:machine:3240>, <ore:circuitUev>*2, <ore:circuitUev>*2, <contenttweaker:tricryogeniccoolant>*2, <contenttweaker:tricryogeniccoolant>*2, <gregtech:frame_bohrium>*4, <gregtech:meta_item_1:32687>*4)
+	.fluidInputs(<liquid:soldering_alloy>*52450, <liquid:osmiridium>*2400, <liquid:dark_naquatic_abyssal_alloy>*288)
+	.outputs(<gregtech:machine:4046>)
+	.EUt(8500000)
+	.duration(500)
+	.buildAndRegister();
