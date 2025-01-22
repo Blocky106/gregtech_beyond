@@ -536,6 +536,7 @@ util.registerDust("impure_naquadah_waste", 32231, 0x281414, "DULL");
 util.registerDust("cobalt_nitrate", 32232, 0x6d392e, "DULL");
 util.registerDust("sodium_cyandiamide", 32233, 0xfffba6, "DULL");
 util.registerDust("cadmium_oxide", 32234, 0xff6630, "DULL");
+util.registerDust("potassium_hydrofluoride", 32235, 0xcdcdcd, "DULL");
 
 
 

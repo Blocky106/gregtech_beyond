@@ -117,9 +117,9 @@ chemReactor.recipeBuilder()
 	.buildAndRegister();
 
 chemReactor.recipeBuilder()
-	.inputs(<gtadditions:ga_dust:32234>*2)
-	.fluidInputs(<liquid:chlorodifluoromethane>*1000)
-	.fluidOutputs(<liquid:trifluoroethylene>*1000)
+	.fluidInputs(<liquid:chlorodifluoromethane>*1000, <liquid:hydrogen>*2000)
+	.notConsumable(<gtadditions:ga_dust:32234>*2)
+	.fluidOutputs(<liquid:trifluoroethylene>*1000, <liquid:hydrochloric_acid>*2000)
 	.duration(2400)
 	.EUt(120)
 	.buildAndRegister();
@@ -128,6 +128,7 @@ mixer.recipeBuilder()
 	.inputs(<gregtech:meta_item_1:2772>*2)
 	.fluidInputs(<liquid:trifluoroethylene>*1000)
 	.fluidOutputs(<liquid:tetrafluoroethylene_mixture>*1000)
+	.outputs(<gregtech:ga_dust:32235>)
 	.duration(1200)
 	.EUt(350)
 	.buildAndRegister();
@@ -164,8 +165,8 @@ chemReactor.recipeBuilder()
 	.buildAndRegister();
 
 mixer.recipeBuilder()
-	.fluidInputs(<liquid:water>*1000, <liquid:ammonium_persulfate>*144, <liquid:triton_x100>*200)
-	.fluidOutputs(<liquid:ptfe_preparation_mixture>*1000)
+	.fluidInputs(<liquid:ammonium_persulfate>*288, <liquid:triton_x100>*200)
+	.fluidOutputs(<liquid:ptfe_preparation_mixture>*500)
 	.duration(1200)
 	.EUt(120)
 	.buildAndRegister();
