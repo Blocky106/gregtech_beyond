@@ -8,9 +8,13 @@
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 1,
-        "id:8": "thermalexpansion:capacitor",
+        "id:8": "betterquesting:placeholder",
         "tag:10": {
-          "Energy:3": 0
+          "orig_id:8": "thermalexpansion:capacitor",
+          "orig_meta:3": 1,
+          "orig_tag:10": {
+            "Energy:3": 0
+          }
         }
       },
       "name:8": "Flux Capacitor (Hardened)"
@@ -25,9 +29,13 @@
         "0:10": {
           "Count:3": 1,
           "Damage:2": 1,
-          "id:8": "thermalexpansion:capacitor",
+          "id:8": "betterquesting:placeholder",
           "tag:10": {
-            "Energy:3": 0
+            "orig_id:8": "thermalexpansion:capacitor",
+            "orig_meta:3": 1,
+            "orig_tag:10": {
+              "Energy:3": 0
+            }
           }
         }
       },
