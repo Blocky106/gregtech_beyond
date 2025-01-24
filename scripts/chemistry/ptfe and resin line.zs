@@ -13,6 +13,14 @@ import mods.contenttweaker.Block;
 import crafttweaker.item.IItemCondition;
 
 chemReactor.recipeBuilder()
+	.inputs(<gregtech:meta_item_1:2065>)
+	.fluidInputs(<liquid:fluorine>*6000)
+	.fluidOutputs(<liquid:sulfur_hexafluoride>*1000)
+	.duration(200)
+	.EUt(120)
+	.buildAndRegister();
+
+chemReactor.recipeBuilder()
 	.inputs(<ore:dustSodiumHydroxide>)
 	.fluidInputs(<liquid:acetic_acid>*144, <liquid:propylene>*600, <liquid:water>*144)
 	.fluidOutputs(<liquid:glycidol>*500)
