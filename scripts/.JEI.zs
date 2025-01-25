@@ -123,7 +123,7 @@ mods.jei.JEI.hideCategory("gregtech:primitive_blast_furnaces");
 mods.jei.JEI.hideCategory("gregtech:large_fluid_driller");
 mods.jei.JEI.hideCategory("gregtech:mocvd_unit");
 mods.jei.JEI.hideCategory("gregtech:trickle_bed_reactor");
-
+mods.jei.JEI.hideCategory("gregtech:tube_in_tube_reactor");
 
 
 
