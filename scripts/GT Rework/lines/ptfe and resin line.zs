@@ -162,7 +162,7 @@ chemReactor.recipeBuilder()
 chemReactor.recipeBuilder()
 	.inputs(<gregtech:meta_item_1:2013>*2)
 	.fluidInputs(<liquid:sulfuric_acid>*1000)
-	.outputs(<gtadditions:ga_dust:32260>*5)
+	.outputs(<gtadditions:ga_dust:32260>*4)
 	.fluidOutputs(<liquid:hydrogen_sulfide>*1000, <liquid:oxygen>*1000)
 	.duration(300)
 	.EUt(120)
@@ -171,8 +171,16 @@ chemReactor.recipeBuilder()
 chemReactor.recipeBuilder()
 	.inputs(<gtadditions:ga_dust:32260>*2)
 	.fluidInputs(<liquid:chlorodifluoromethane>*1000)
-	.fluidOutputs(<liquid:trifluoroethylene>*1000)
+	.fluidOutputs(<liquid:trifluoroethylene_mixture>*1000)
 	.duration(2400)
+	.EUt(120)
+	.buildAndRegister();
+
+distillation_tower.recipeBuilder()
+	.fluidInputs(<liquid:trifluoroethylene_mixture>*1000)
+	.fluidOutputs(<liquid:trifluoroethylene>*1000)
+	.outputs(<gregtech:meta_item_1:2013>)
+	.duration(240)
 	.EUt(120)
 	.buildAndRegister();
 
@@ -180,16 +188,30 @@ mixer.recipeBuilder()
 	.inputs(<gregtech:meta_item_1:2772>*2)
 	.fluidInputs(<liquid:trifluoroethylene>*1000)
 	.fluidOutputs(<liquid:tetrafluoroethylene_mixture>*1000)
+	.outputs(<gregtech:meta_item_1:2054>)
 	.duration(1200)
 	.EUt(350)
 	.buildAndRegister();
 
 pyro.recipeBuilder()
 	.fluidInputs(<liquid:tetrafluoroethylene_mixture>*1000)
+	.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+	.inputs(<gregtech:meta_item_1:14184>)
+	.outputs(<contenttweaker:wet_steel_rod>)
 	.fluidOutputs(<liquid:tetrafluoroethylene>*1000)
 	.duration(400)
 	.EUt(200)
 	.buildAndRegister();
+
+ebf.recipeBuilder()
+	.outputs(<gregtech:meta_item_1:14184>)
+	.inputs(<contenttweaker:wet_steel_rod>)
+	.duration(20)
+	.EUt(12)
+	.property("temperature", 400)
+	.buildAndRegister();
+
+Utils.removeRecipeByOutput(lcr, [],[<liquid:hydrochloric_acid>*6000,<liquid:tetrafluoroethylene>*1000],true);
 
 chemReactor.recipeBuilder()
 	.fluidInputs(<liquid:hydrogen>*1000, <liquid:nonene>*500)
@@ -216,7 +238,7 @@ chemReactor.recipeBuilder()
 	.buildAndRegister();
 
 mixer.recipeBuilder()
-	.fluidInputs(<liquid:water>*1000, <liquid:ammonium_persulfate>*144, <liquid:triton_x100>*200)
+	.fluidInputs(<liquid:ammonium_persulfate>*144, <liquid:triton_x100>*200)
 	.fluidOutputs(<liquid:ptfe_preparation_mixture>*1000)
 	.duration(1200)
 	.EUt(120)
