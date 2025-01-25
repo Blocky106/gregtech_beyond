@@ -1933,7 +1933,8 @@ centrifuge.recipeBuilder()
 	.buildAndRegister();
 
 electrolyzer.recipeBuilder()
-	.inputs(<gregtech:meta_item_1:2525>)
+	.fluidInputs(<liquid:aluminium_salt_solution>*1000)
+	.fluidOutputs(<liquid:water>*1000)
 	.outputs(<gregtech:meta_item_1:2001>,<gregtech:meta_item_1:2155>)
 	.duration(40)
 	.EUt(40)

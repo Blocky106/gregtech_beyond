@@ -213,6 +213,8 @@ var items = [
 "ga_as_wafer_die",
 "bonded_ga_as_wafer",
 "coated_layered_ga_as_wafer",
+"carbon_electrode",
+"wet_steel_rod",
 "p_type_doped_ga_as_wafer",
 "gallium_arsenide_substrate",
 "dried_ga_as_substrate",
