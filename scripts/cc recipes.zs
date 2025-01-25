@@ -56,8 +56,7 @@ recipes.addShaped(<contenttweaker:treatedwoodplanks>*8, [[<ore:plankWood>, <ore:
 recipes.addShaped(<contenttweaker:steel_plated_workbench>,[[<ore:plateSteel>,null,<ore:plateSteel>],[null,<minecraft:crafting_table>,null],[<ore:plateSteel>,null,<ore:plateSteel>]]);
 recipes.addShaped(<contenttweaker:seared_gear>, [[<ore:ingotBrickSeared>, null, <ore:ingotBrickSeared>], [null, <ore:gearIron>, null], [<ore:ingotBrickSeared>, null, <ore:ingotBrickSeared>]]);
 recipes.addShaped(<contenttweaker:fused_quartz_block>,[[<contenttweaker:fused_quartz>,<contenttweaker:fused_quartz>],[<contenttweaker:fused_quartz>,<contenttweaker:fused_quartz>]]);
-
-
+recipes.addShaped(<contenttweaker:servo>, [	[<ore:nuggetRedstoneAlloy>, null, <ore:nuggetRedstoneAlloy>], 	[<ore:plateDamascusSteel>, <ore:plateDamascusSteel>, <ore:plateDamascusSteel>], 	[<ore:nuggetRedstoneAlloy>, null, <ore:nuggetRedstoneAlloy>]]);
 
 
 
