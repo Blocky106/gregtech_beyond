@@ -106,3 +106,36 @@ trickle_bed_reactor.recipeMap.recipeBuilder()
     .EUt(100)
     .duration(100)
     .buildAndRegister();
+
+trickle_bed_reactor.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:nitric_acid>*2000)
+    .inputs(<gregtech:meta_item_1:2835>)
+    .outputs(<gtadditions:ga_dust:172>*2)
+    .fluidOutputs(<liquid:water>*1000)
+    .duration(200)
+    .EUt(120)
+    .buildAndRegister();
+
+trickle_bed_reactor.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:fluorine>*1000,<liquid:hydrogen>*1000)
+    .fluidOutputs(<liquid:hydrogen_fluoride>*1000)
+    .duration(80)
+    .EUt(12)
+    .buildAndRegister();
+
+trickle_bed_reactor.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:distilled_water>*1000)
+    .inputs(<gtadditions:ga_dust:32261>)
+    .notConsumable(<gregtech:meta_item_1:2524>)
+    .fluidOutputs(<liquid:borane_mixture>*1000)
+    .duration(80)
+    .EUt(12)
+    .buildAndRegister();
+
+trickle_bed_reactor.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:acetic_acid>*1000,<liquid:ethylene>*1000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .fluidOutputs(<liquid:vinyl_acetate>*1000)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();

@@ -361,3 +361,11 @@ vacuum_distillation_tower.recipeMap.recipeBuilder()
     .duration(800)
     .EUt(1200)
     .buildAndRegister();
+
+vacuum_distillation_tower.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2025>)
+    .notConsumable(<gregtech:meta_item_1:12204>)
+    .fluidOutputs(<liquid:sublimed_gallium_vapour>*1000)
+    .duration(800)
+    .EUt(120)
+    .buildAndRegister();

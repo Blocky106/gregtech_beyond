@@ -98,5 +98,10 @@ condensation_unit.recipeMap.recipeBuilder()
     .EUt(40)
     .buildAndRegister();
 
-
+condensation_unit.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:sublimed_gallium_vapour>*1000)
+    .outputs(<gtadditions:ga_dust:32263>*4)
+    .duration(400)
+    .EUt(80)
+    .buildAndRegister();
 

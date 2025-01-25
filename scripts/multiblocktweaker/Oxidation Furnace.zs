@@ -90,10 +90,27 @@ val oxidation_furnace = Builder.start(loc, meta)
                 .build())
 .withRecipeMap(
         FactoryRecipeMap.start(loc)
-                        .maxInputs(4)
+                        .maxInputs(2)
                         .maxFluidInputs(2)
-                        .maxOutputs(2)
-                        .maxFluidOutputs(2)
+                        .maxOutputs(1)
+                        .maxFluidOutputs(1)
                         .build())
 .withZoom(0.5f)
 .buildAndRegister() as Multiblock;
+
+oxidation_furnace.recipeMap.recipeBuilder()
+    .inputs(<minecraft:sand>)
+    .outputs(<minecraft:glass>)
+    .fluidInputs(<liquid:oxygen>*1000)
+    .duration(200)
+    .EUt(80)
+    .buildAndRegister();
+
+oxidation_furnace.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2009>)
+    .notConsumable(<gtadditions:ga_dust:32240>)
+    .outputs(<gtadditions:ga_dust:32261>)
+    .fluidInputs(<liquid:hydrogen>*1000)
+    .duration(400)
+    .EUt(90)
+    .buildAndRegister();

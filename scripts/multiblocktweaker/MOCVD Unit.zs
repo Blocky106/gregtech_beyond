@@ -138,8 +138,8 @@ mocvd_unit.recipeMap.recipeBuilder()
     .buildAndRegister();
 
 mocvd_unit.recipeMap.recipeBuilder()
-    .fluidInputs(<liquid:ozone>*1000,<liquid:ammonia>*1000)
-    .inputs(<contenttweaker:ga_as_wafer>,<gtadditions:ga_dust:32255>*3,<gregtech:meta_item_1:2410>,<gtadditions:ga_dust:32256>)
+    .fluidInputs(<liquid:ozone>*1000,<liquid:ammonia>*1000,<liquid:aluminium_gallium_arsenide>*300)
+    .inputs(<contenttweaker:ga_as_wafer>,<gregtech:meta_item_1:2410>,<gtadditions:ga_dust:32256>)
     .outputs(<contenttweaker:layered_ga_as_wafer>)
     .duration(2000)
     .EUt(700)

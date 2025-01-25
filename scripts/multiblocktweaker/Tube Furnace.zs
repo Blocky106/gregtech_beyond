@@ -108,3 +108,10 @@ tube_furnace.recipeMap.recipeBuilder()
     .duration(400)
     .EUt(1200)
     .buildAndRegister();
+
+tube_furnace.recipeMap.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:32263>,<gtadditions:ga_dust:32262>,<gtadditions:ga_dust:32213>)
+    .fluidOutputs(<liquid:aluminium_gallium_arsenide>*1000)
+    .duration(200)
+    .EUt(80)
+    .buildAndRegister();
