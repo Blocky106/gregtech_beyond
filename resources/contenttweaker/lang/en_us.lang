@@ -1696,7 +1696,7 @@ fluid.draconium_mother_liqour=Draconium Mother Liqour
 fluid.very_hot_argon=Very Hot Argon
 fluid.platinum_extract=Platinum Extract
 fluid.palladium_extract=Palladium Extract
-fluid.platinum_extraction_mixture=Platinum Extraction Mixutre
+fluid.platinum_extraction_mixture=Platinum Extraction Mixture
 fluid.draconium_extraction_mixture=Draconium Extraction Mixture
 fluid.palladium_mother_liqour=Palladium Mother Liqour
 fluid.draconium_extract=Draconium Extract
@@ -2106,6 +2106,7 @@ devtech.machine.dryer.luv.name=Elite Dryer II
 devtech.machine.dryer.zpm.name=Elite Dryer III
 devtech.machine.dryer.uv.name=Ultimate Dryer 
 recipemap.dryer.name=Drying
+recipemap.high_vacuum_evaporation_system.name=High Vacuum Evaporation System 
 multiblocktweaker.machine.high_vacuum_evaporation_system.name=High Vacuum Evaporation System 
 metaitem.silicon_nitride.name=Silicon Nitride Dust
 fluid.indium_gallium_arsenide_substrate=Indium Gallium Arsnide Substrate 
@@ -2125,4 +2126,47 @@ fluid.ptfe_preparation_mixture=PTFE Preparation Mixture
 fluid.chloromethylstyrene=Chloromethylstyrene 
 fluid.divinylbenzene=Divinylbenzene
 fluid.1_butene=1-Butene
-item.contenttweaker.
+fluid.divinylbenzenemixture=Divinylbenzene Mixture
+fluid.p_methylstyrene=p-Methylstyrene 
+fluid.ammonia_solution=Ammonia Solution
+fluid.chloromethylstyrene_mixture=Chloromethylstyrene Mixture
+fluid.isp_bromobenzylbromide=ISP Bromobenzylbromide
+fluid.1_3_divinylbenzene=1,3-Divinylbenzene
+fluid.n_butyl_bromide=n-Butyl Bromide 
+fluid.potassium_hydrogen_carbonate=Potassium Hydrogen Carbonite
+fluid.dimethylamine_solution=Dimethylamine Solution 
+multiblocktweaker.machine.tube_in_tube_reactor.name=Tube in Tube Reactor
+recipemap.tube_in_tube_reactor.name=Tube in Tube Reactions
+metaitem.trimethylammonium_salts.name=Trimethylammonium Salts
+item.contenttweaker.amberlyst_15_ion_exchange_beads.name=Amberlyst-15 Ion Exchange 
+fluid.vinyltoluene=Vinyltoluene
+fluid.aluminium_salt_solution=Aluminium Salt Solution
+fluid.formyl_fluoride=Formyl Fluoride
+fluid.hydrogen_fluoride=Hydrogen Fluoride
+fluid.borane_mixture=Borane Mixture
+fluid.heptaborane=Heptaborane 
+fluid.triborane=Triborane
+fluid.trimethylgallium_mixture=Trimethylgallium Mixture
+fluid.chloromethyl_methyl_ether=Chloromethyl Methyl Ether 
+fluid.bis_trimethylammonium_ethane=bis(trimethylammonium)ethane
+metaitem.borane.name=Borane Dust
+fluid.aluminium_gallium_arsenide=Aluminium Gallium Arsenide
+metaitem.high_purity_aluminium.name=High Purity Aluminium Dust
+metaitem.high_purity_gallium.name=High Purity Gallium Dust
+item.contenttweaker.carbon_electrode.name=Carbon Electrode
+item.contenttweaker.wet_steel_rod.name=Wet Steel Rod
+fluid.sublimed_gallium_vapour=Sublimed Gallium Vapour
+fluid.cryolite_solution=Cryolite Solution
+fluid.graphitic_anode_mixture=Graphitic Anode Mixture
+
+
+
+
+
+
+
+
+
+
+
+
