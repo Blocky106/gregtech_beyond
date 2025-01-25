@@ -678,27 +678,6 @@ assembler.recipeBuilder()
     .EUt(8000)
     .buildAndRegister();
 
-lcr.recipeBuilder()
-    .fluidInputs(<liquid:hydrogentetrafluoromehtane>*500,<liquid:methane>*500)
-    .fluidOutputs(<liquid:hydrogentetrafluorocarbidedioxide>*1000,<liquid:hydrogen_sulfide>*1000,<liquid:water>*1000)
-    .duration(90)
-    .EUt(500)
-    .buildAndRegister();
-
-chemReactor.recipeBuilder()
-    .fluidInputs(<liquid:hydrogentetrafluorocarbidedioxide>*2000,<liquid:ammonia>*1000)
-    .fluidOutputs(<liquid:fluorohydrideammoniumcarbamat>*2000)
-    .duration(90)
-    .EUt(500)
-    .buildAndRegister();
-
-lcr.recipeBuilder()
-    .fluidInputs(<liquid:hydrogentetrafluorocarbidedioxide>*2000,<liquid:ammonia>*1000)
-    .fluidOutputs(<liquid:fluorohydrideammoniumcarbamat>*2000)
-    .duration(90)
-    .EUt(500)
-    .buildAndRegister();
-
 chemical_plant.recipeBuilder()
     .inputs(<gtadditions:ga_dust:69>,<gtadditions:ga_dust:32112>)
     .fluidInputs(<liquid:styrene>*5000,<liquid:dichloromethane>*800,<liquid:phenylpentanoicacid>*1790,<liquid:ferrocene>*1900,<liquid:fluorohydrideammoniumcarbamat>*1000)
@@ -918,20 +897,6 @@ ebf.recipeBuilder()
     .property("temperature", 2600)
     .duration(800)
     .EUt(12000)
-    .buildAndRegister();
-
-chemReactor.recipeBuilder()
-    .fluidInputs(<liquid:fluorine>*3000,<liquid:hydrofluoric_acid>*1000,<liquid:methane>*2000)
-    .fluidOutputs(<liquid:hydrogentetrafluoromehtane>*6000)
-    .duration(200)
-    .EUt(480)
-    .buildAndRegister();
-
-lcr.recipeBuilder()
-    .fluidInputs(<liquid:fluorine>*3000,<liquid:hydrofluoric_acid>*1000,<liquid:methane>*2000)
-    .fluidOutputs(<liquid:hydrogentetrafluoromehtane>*6000)
-    .duration(200)
-    .EUt(480)
     .buildAndRegister();
 
 furnace.remove(<gregtech:meta_item_1:10736>);
