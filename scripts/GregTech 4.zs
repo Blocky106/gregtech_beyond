@@ -1028,15 +1028,15 @@ lcr.recipeBuilder()
     .buildAndRegister();
 
 chemReactor.recipeBuilder()
-    .fluidInputs(<liquid:npropanol>*150,<liquid:ammonia>*50)
-    .fluidOutputs(<liquid:tripropylamine>*50,<liquid:water>*150)
+    .fluidInputs(<liquid:npropanol>*1500,<liquid:ammonia>*1000)
+    .fluidOutputs(<liquid:tripropylamine>*1000,<liquid:water>*1500)
     .EUt(80)
     .duration(200)
     .buildAndRegister();
 
 lcr.recipeBuilder()
-    .fluidInputs(<liquid:npropanol>*150,<liquid:ammonia>*50)
-    .fluidOutputs(<liquid:tripropylamine>*50,<liquid:water>*150)
+    .fluidInputs(<liquid:npropanol>*1500,<liquid:ammonia>*1000)
+    .fluidOutputs(<liquid:tripropylamine>*1000,<liquid:water>*1500)
     .EUt(80)
     .duration(200)
     .buildAndRegister();
