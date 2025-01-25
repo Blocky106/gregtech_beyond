@@ -24,13 +24,20 @@
     "0:10": {
       "autoConsume:1": 1,
       "index:3": 0,
-      "requiredFluids:9": {
+      "requiredItems:9": {
         "0:10": {
-          "Amount:3": 1000,
-          "FluidName:8": "cloud_seed"
+          "Count:3": 1,
+          "Damage:2": 32762,
+          "id:8": "gregtech:meta_item_1",
+          "tag:10": {
+            "Fluid:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "cloud_seed"
+            }
+          }
         }
       },
-      "taskID:8": "bq_standard:fluid"
+      "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
       "index:3": 1,

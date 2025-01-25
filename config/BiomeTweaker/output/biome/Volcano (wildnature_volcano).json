@@ -22,8 +22,8 @@
   "Dictionary Types": [
     "SPARSE",
     "HOT",
-    "MOUNTAIN",
-    "DRY"
+    "DRY",
+    "MOUNTAIN"
   ],
   "BiomeManager Entries": {
     "DESERT Weights": [

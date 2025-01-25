@@ -1,2 +1,12 @@
 [
+    {   
+    "mob": "wildnature:camelmale",
+    "result": "deny"
+    },
+    {
+    "mob": "wildnature:camelfemale",
+    "result":  "deny"
+    }
+
+
 ]

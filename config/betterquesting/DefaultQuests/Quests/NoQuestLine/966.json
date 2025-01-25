@@ -8,11 +8,7 @@
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 514,
-        "id:8": "betterquesting:placeholder",
-        "tag:10": {
-          "orig_id:8": "thermalfoundation:material",
-          "orig_meta:3": 514
-        }
+        "id:8": "thermalfoundation:material"
       },
       "name:8": "Redstone Coils"
     }
@@ -26,29 +22,17 @@
         "0:10": {
           "Count:3": 1,
           "Damage:2": 514,
-          "id:8": "betterquesting:placeholder",
-          "tag:10": {
-            "orig_id:8": "thermalfoundation:material",
-            "orig_meta:3": 514
-          }
+          "id:8": "thermalfoundation:material"
         },
         "1:10": {
           "Count:3": 1,
           "Damage:2": 515,
-          "id:8": "betterquesting:placeholder",
-          "tag:10": {
-            "orig_id:8": "thermalfoundation:material",
-            "orig_meta:3": 515
-          }
+          "id:8": "thermalfoundation:material"
         },
         "2:10": {
           "Count:3": 1,
           "Damage:2": 513,
-          "id:8": "betterquesting:placeholder",
-          "tag:10": {
-            "orig_id:8": "thermalfoundation:material",
-            "orig_meta:3": 513
-          }
+          "id:8": "thermalfoundation:material"
         }
       },
       "taskID:8": "bq_standard:retrieval"

@@ -5,6 +5,19 @@
       "name": "Blocky_104",
       "uniqueId": "51c49505-912e-4f4b-b690-26b93a45f9c2"
     },
+    "time": 1736949305096,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/cUOUGO3lQn"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Blocky_104",
+      "uniqueId": "51c49505-912e-4f4b-b690-26b93a45f9c2"
+    },
     "time": 1736947443896,
     "type": "Profiler",
     "data": {

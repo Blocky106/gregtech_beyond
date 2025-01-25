@@ -1,9 +1,9 @@
 
 {
-  "ID": 40,
-  "Name": "A mod doesn\u0027t support extended biome IDs -- report to JEID",
+  "ID": 41,
+  "Name": "A mod doesn\u0027t support extended biome IDs -- report to REID",
   "Resource Location": "jeid:error_biome",
-  "Class": "net.minecraft.world.biome.BiomeVoid",
+  "Class": "org.dimdev.jeid.biome.BiomeError",
   "Root Height": 0.1,
   "Height Variation": 0.2,
   "Top Block": "minecraft:grass[snowy\u003dfalse]",
