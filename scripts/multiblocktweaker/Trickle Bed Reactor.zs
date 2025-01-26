@@ -117,13 +117,6 @@ trickle_bed_reactor.recipeMap.recipeBuilder()
     .buildAndRegister();
 
 trickle_bed_reactor.recipeMap.recipeBuilder()
-    .fluidInputs(<liquid:fluorine>*1000,<liquid:hydrogen>*1000)
-    .fluidOutputs(<liquid:hydrogen_fluoride>*1000)
-    .duration(80)
-    .EUt(12)
-    .buildAndRegister();
-
-trickle_bed_reactor.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:distilled_water>*1000)
     .inputs(<gtadditions:ga_dust:32261>)
     .notConsumable(<gregtech:meta_item_1:2524>)
