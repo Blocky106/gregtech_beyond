@@ -2158,9 +2158,10 @@ item.contenttweaker.wet_steel_rod.name=Wet Steel Rod
 fluid.sublimed_gallium_vapour=Sublimed Gallium Vapour
 fluid.cryolite_solution=Cryolite Solution
 fluid.graphitic_anode_mixture=Graphitic Anode Mixture
-
-
-
+recipemap.quencher.name=Quenching
+multiblocktweaker.multiblock.quencher.name=Quencher
+fluid.trifluoroethylene=Trifluoroethylene 
+multiblocktweaker.machine.quencher.name=Quencher
 
 
 
