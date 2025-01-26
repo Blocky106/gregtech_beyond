@@ -2580,15 +2580,6 @@ electrolyzer.recipeBuilder()
 
 lcr.findRecipe(30, [<gregtech:meta_item_1:32766>.withTag({Configuration: 9})], [<liquid:ammonium_chloride>*800,<liquid:platinum_concentrate>*8000]).remove();
 
-Utils.removeRecipeByOutput(assembler, [<gregtech:turbine_casing:5>*3],null);
-
-assembler.recipeBuilder()   
-    .inputs(<gregtech:turbine_casing:3>,<gregtech:meta_item_1:12183>*6)
-    .outputs(<gregtech:turbine_casing:5>*6)
-    .EUt(12)
-    .duration(200)
-    .buildAndRegister();
-
 cstr_s.recipeBuilder()
     .fluidOutputs(<liquid:platinum_concentrate>*2000)
     .inputs(<gregtech:meta_item_1:2900>*3)
