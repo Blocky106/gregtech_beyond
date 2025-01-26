@@ -14,7 +14,7 @@ import mods.devtech.OverlayRenderer;
 
 var tbr_overlay = OverlayRenderer.newOverlay("machines/tbr_overlay", OverlayFace.FRONT, OverlayFace.SIDE, OverlayFace.TOP);
 
-var tbr = IRecipeMap.recipeMapBuilder("tbr", 0,2,0,3,0,1,0,2)
+var tbr = IRecipeMap.recipeMapBuilder("tbr", 0,2,0,3,0,3,0,2)
 	.setOverlaySlots(OverlaySlot.newOverlaySlot(false, false, false, GUITextures.get("circuit_overlay")))
 	.setProgressBar(GUITextures.get("progress_bar_bending"), MoveType.VERTICAL)
 	.build();

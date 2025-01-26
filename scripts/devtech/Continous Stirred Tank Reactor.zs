@@ -14,7 +14,7 @@ import mods.devtech.OverlayRenderer;
 
 var cstr_s_overlay = OverlayRenderer.newOverlay("machines/cstr_s_overlay", OverlayFace.FRONT, OverlayFace.SIDE, OverlayFace.TOP);
 
-var cstr_s = IRecipeMap.recipeMapBuilder("cstr_s", 0,2,0,3,0,1,0,2)
+var cstr_s = IRecipeMap.recipeMapBuilder("cstr_s", 0,2,0,3,0,3,0,3)
 	.setOverlaySlots(OverlaySlot.newOverlaySlot(false, false, false, GUITextures.get("circuit_overlay")))
 	.setProgressBar(GUITextures.get("progress_bar_bending"), MoveType.VERTICAL)
 	.build();
