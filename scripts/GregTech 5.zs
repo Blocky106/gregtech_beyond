@@ -2179,8 +2179,6 @@ assembler.recipeBuilder()
     .buildAndRegister();
 
 Utils.removeRecipeByOutput(assembler,[<gregtech:metal_casing:5>*3],[],true);
-lcr.findRecipe(30, [<gregtech:meta_item_1:32766>.withTag({Configuration: 1})], [<liquid:ammonium_chloride>*200,<liquid:platinum_concentrate>*2000]).remove();
-lcr.findRecipe(30, [<gregtech:meta_item_1:32766>.withTag({Configuration: 9})], [<liquid:ammonium_chloride>*800,<liquid:platinum_concentrate>*8000]).remove();
 
 chemReactor.recipeBuilder()
     .fluidInputs(<liquid:methanol>*1000,<liquid:methane>*1000,<liquid:oxygen>*500)
@@ -2578,4 +2576,24 @@ electrolyzer.recipeBuilder()
     .outputs(<gtadditions:ga_dust:32262>*4)
     .duration(600)
     .EUt(90)
+    .buildAndRegister();
+
+lcr.findRecipe(30, [<gregtech:meta_item_1:32766>.withTag({Configuration: 9})], [<liquid:ammonium_chloride>*800,<liquid:platinum_concentrate>*8000]).remove();
+
+Utils.removeRecipeByOutput(assembler, [<gregtech:turbine_casing:5>*3],null);
+
+assembler.recipeBuilder()   
+    .inputs(<gregtech:turbine_casing:3>,<gregtech:meta_item_1:12183>*6)
+    .outputs(<gregtech:turbine_casing:5>*6)
+    .EUt(12)
+    .duration(200)
+    .buildAndRegister();
+
+cstr_s.recipeBuilder()
+    .fluidOutputs(<liquid:platinum_concentrate>*2000)
+    .inputs(<gregtech:meta_item_1:2900>*3)
+    .outputs(<gregtech:meta_item_1:2898>)
+    .fluidInputs(<liquid:aqua_regia>*2000)
+    .EUt(200)
+    .duration(200)
     .buildAndRegister();

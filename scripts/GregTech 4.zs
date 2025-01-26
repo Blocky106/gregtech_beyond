@@ -1490,20 +1490,6 @@ lcr.recipeBuilder()
     .EUt(12000000)
     .buildAndRegister();
 
-chemReactor.recipeBuilder()
-    .fluidInputs(<liquid:formaldehyde>*50,<liquid:phenol>*50)
-    .fluidOutputs(<liquid:novolacs_photoresist>*100)
-    .duration(200)
-    .EUt(129)
-    .buildAndRegister();
-
-lcr.recipeBuilder()
-    .fluidInputs(<liquid:formaldehyde>*50,<liquid:phenol>*50)
-    .fluidOutputs(<liquid:novolacs_photoresist>*100)
-    .duration(200)
-    .EUt(129)
-    .buildAndRegister();
-
 macerator.recipeBuilder()
     .inputs(<wildnature:dried_sand>)
     .outputs(<gregtech:meta_item_1:2960>)
@@ -3076,18 +3062,9 @@ roasters.recipeBuilder()
     .EUt(80)
     .buildAndRegister();
 
-chemReactor.recipeBuilder()
+cstr_s.recipeBuilder()
     .fluidInputs(<liquid:hydrogen>*1000,<liquid:chlorine>*1000)
     .fluidOutputs(<liquid:hydrogen_chloride>*1000)
-    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 2}))
-    .EUt(200)
-    .duration(80)
-    .buildAndRegister();
-
-lcr.recipeBuilder()
-    .fluidInputs(<liquid:hydrogen>*1000,<liquid:chlorine>*1000)
-    .fluidOutputs(<liquid:hydrogen_chloride>*1000)
-    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 2}))
     .EUt(200)
     .duration(80)
     .buildAndRegister();

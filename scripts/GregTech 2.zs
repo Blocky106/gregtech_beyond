@@ -30,20 +30,6 @@ mixer.recipeBuilder()
 	.EUt(9000)
 	.buildAndRegister();
 
-chemReactor.recipeBuilder()
-    .fluidInputs(<liquid:sulfuric_acid>*100,<liquid:ehtanol_water_azeotrope>*100)
-    .fluidOutputs(<liquid:diluted_sulfuric_acid>*120,<liquid:ethylene>*80)
-    .duration(80)
-    .EUt(120)
-    .buildAndRegister();
-
-lcr.recipeBuilder()
-    .fluidInputs(<liquid:sulfuric_acid>*100,<liquid:ehtanol_water_azeotrope>*100)
-    .fluidOutputs(<liquid:diluted_sulfuric_acid>*120,<liquid:ethylene>*80)
-    .duration(80)
-    .EUt(120)
-    .buildAndRegister();
-
 lcr.recipeBuilder()
     .inputs(<gtadditions:ga_dust:32038>,<gregtech:meta_item_1:5546>)
     .outputs(<gtadditions:ga_dust:32039>)
@@ -892,24 +878,6 @@ lcr.recipeBuilder()
 	.fluidOutputs(<liquid:ic2coolant> * 2000)
 	.duration(480)
 	.EUt(120)
-	.buildAndRegister();
-
-lcr.recipeBuilder()
-	.inputs(<gregtech:meta_item_1:2013>,<gregtech:meta_item_1:2065>)
-	.fluidInputs(<liquid:hydrofluoric_acid> * 4000,<liquid:chloroform> * 2000)
-	.fluidOutputs(<liquid:hydrochloric_acid> * 6000,<liquid:tetraethylene> * 1000)
-	.outputs(<gtadditions:ga_dust:282>*2)
-	.duration(240)
-	.EUt(256)
-	.buildAndRegister();
-
-chemReactor.recipeBuilder()
-	.inputs(<gregtech:meta_item_1:2013>,<gregtech:meta_item_1:2065>)
-	.fluidInputs(<liquid:hydrofluoric_acid> * 4000,<liquid:chloroform> * 2000)
-	.fluidOutputs(<liquid:hydrochloric_acid> * 6000,<liquid:tetraethylene> * 1000)
-	.outputs(<gtadditions:ga_dust:282>*2)
-	.duration(240)
-	.EUt(256)
 	.buildAndRegister();
 
 lcr.recipeBuilder()
@@ -2603,20 +2571,6 @@ distillation_tower.recipeBuilder()
     .outputs(<gtadditions:ga_dust:32213>*2)
     .EUt(12)
     .duration(200)
-    .buildAndRegister();
-
-chemReactor.recipeBuilder()
-    .fluidInputs(<liquid:hydrogen_chloride>*1500,<liquid:nitric_acid>*500)
-    .fluidOutputs(<liquid:aqua_regia>*2000)
-    .duration(80)
-    .EUt(120)
-    .buildAndRegister();
-
-lcr.recipeBuilder()
-    .fluidInputs(<liquid:hydrogen_chloride>*1500,<liquid:nitric_acid>*500)
-    .fluidOutputs(<liquid:aqua_regia>*2000)
-    .duration(80)
-    .EUt(120)
     .buildAndRegister();
 
 chemReactor.recipeBuilder()
