@@ -1,4 +1,3 @@
-
 import crafttweaker.world.IFacing;
 import crafttweaker.block.IBlock;
 import crafttweaker.block.IBlockState;
@@ -22,6 +21,8 @@ import mods.gregtech.render.ICubeRenderer;
 import mods.gregtech.render.Textures;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
+import mods.gregtech.recipe.functions.IUpdateFunction;
+import mods.gregtech.recipe.IRecipeLogic;
 
 var loc = "mega_alloy_blast_smelter";
 var meta = 10035;
@@ -358,3 +359,10 @@ val mega_alloy_blast_smelter = Builder.start(loc, meta)
 .withZoom(0.5f)
 .buildAndRegister() as Multiblock;
 
+
+mega_alloy_blast_smelter.recipeMap.copyAll(RecipeMap.getByName("blast_alloy"));
+
+mega_alloy_blast_smelter.update = function(recipeLogic as IRecipeLogic) {
+    var oldProgress = recipeLogic.recipeProgress;
+    recipeLogic.recipeProgress = oldProgress + 1;
+} as IUpdateFunction;
