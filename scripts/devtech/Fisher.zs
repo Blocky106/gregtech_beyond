@@ -18,8 +18,7 @@ var fisher = IRecipeMap.recipeMapBuilder("fisher",0,2,0,8,0,0,0,0)
 	.setProgressBar(GUITextures.get("progress_bar_bending"), MoveType.VERTICAL)
 	.build();
     
+RegisterMachine.CreateSimpleMachine(1400, "fisher.ev",  fisher, fisher_overlay, 4);
 RegisterMachine.CreateSimpleMachine(1401, "fisher.iv",  fisher, fisher_overlay, 5);
 RegisterMachine.CreateSimpleMachine(1402, "fisher.luv", fisher, fisher_overlay, 6);
-RegisterMachine.CreateSimpleMachine(1400, "fisher.ev",  fisher, fisher_overlay, 4);
-RegisterMachine.CreateSimpleMachine(1403, "fisher.zpm", fisher, fisher_overlay, 7);
 
