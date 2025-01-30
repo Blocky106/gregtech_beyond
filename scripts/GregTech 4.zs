@@ -1027,20 +1027,6 @@ lcr.recipeBuilder()
     .EUt(290)
     .buildAndRegister();
 
-chemReactor.recipeBuilder()
-    .fluidInputs(<liquid:npropanol>*1500,<liquid:ammonia>*1000)
-    .fluidOutputs(<liquid:tripropylamine>*1000,<liquid:water>*1500)
-    .EUt(80)
-    .duration(200)
-    .buildAndRegister();
-
-lcr.recipeBuilder()
-    .fluidInputs(<liquid:npropanol>*1500,<liquid:ammonia>*1000)
-    .fluidOutputs(<liquid:tripropylamine>*1000,<liquid:water>*1500)
-    .EUt(80)
-    .duration(200)
-    .buildAndRegister();
-
 lcr.recipeBuilder()
     .fluidInputs(<liquid:tetra_propyl_ammonium_bromide>*100,<liquid:sulfuric_acid>*100)
     .inputs(<gtadditions:ga_dust:116>*51,<gregtech:meta_item_1:2373>,<gregtech:meta_item_1:2159>*6)
@@ -2455,7 +2441,6 @@ fisher.recipeBuilder()
 recipes.addShaped(<gregtech:machine:1400>, [	[<gregtech:meta_item_1:32603>, <minecraft:fishing_rod>, <gregtech:meta_item_1:32603>], 	[<ore:cableGtSingleAluminium>, <gregtech:machine:504>, <ore:cableGtSingleAluminium>], 	[<gregtech:meta_item_1:32643>, <ore:circuitExtreme>, <gregtech:meta_item_1:32643>]]);
 recipes.addShaped(<gregtech:machine:1401>, [	[<gregtech:meta_item_1:32604>, <minecraft:fishing_rod>, <gregtech:meta_item_1:32604>], 	[<ore:cableGtSingleAluminium>, <gregtech:machine:505>, <ore:cableGtSingleAluminium>], 	[<gregtech:meta_item_1:32644>, <ore:circuitElite>, <gregtech:meta_item_1:32644>]]);
 recipes.addShaped(<gregtech:machine:1402>, [	[<gregtech:meta_item_1:32605>, <minecraft:fishing_rod>, <gregtech:meta_item_1:32605>], 	[<ore:cableGtSingleAluminium>, <gregtech:machine:506>, <ore:cableGtSingleAluminium>], 	[<gregtech:meta_item_1:32645>, <ore:circuitMaster>, <gregtech:meta_item_1:32645>]]);
-recipes.addShaped(<gregtech:machine:1403>, [	[<gregtech:meta_item_1:32606>, <minecraft:fishing_rod>, <gregtech:meta_item_1:32606>], 	[<ore:cableGtSingleAluminium>, <gregtech:machine:507>, <ore:cableGtSingleAluminium>], 	[<gregtech:meta_item_1:32646>, <ore:circuitUltimate>, <gregtech:meta_item_1:32646>]]);
 
 centrifuge.recipeBuilder()
     .fluidInputs(<liquid:sulfur_carbon_mixture>*1000)
