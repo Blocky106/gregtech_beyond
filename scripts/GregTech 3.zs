@@ -3112,14 +3112,7 @@ assembler.recipeBuilder()
 recipes.addShaped(<gregtech:meta_item_1:32603>, [	[<ore:cableGtSingleAluminium>, <gregtech:cable:3231>, <ore:stickTitanium>], 	[<gregtech:cable:3231>, <ore:stickNeodymiumMagnetic>,<gregtech:cable:3231>], 	[<ore:stickTitanium>, <gregtech:cable:3231>, <ore:cableGtSingleAluminium>]]);
 assembler.findRecipe(1980,[<gregtech:meta_item_1:14072>*2,<gregtech:cable:3087>*4,<gregtech:meta_item_1:14299>,<gregtech:cable:5001>*2],null).remove();
 #--------IV Components-------------------------#
-recipes.addShaped(<gregtech:meta_item_1:32604>, [	[<ore:cableGtSingleTungsten>, <ore:wireGtOctalTgtalloy>, <ore:stickTungstenSteel>], 	[<ore:wireGtOctalTgtalloy>, <ore:stickNeodymiumMagnetic>, <ore:wireGtOctalTgtalloy>], 	[<ore:stickTungstenSteel>, <ore:wireGtOctalTgtalloy>, <ore:cableGtSingleTungsten>]]);
-assembler.findRecipe(7680,[<gregtech:cable:4087>*4,<gregtech:cable:5074>*2,<gregtech:meta_item_1:14235>*2,<gregtech:meta_item_1:14299>], null).remove();
-assembler.recipeBuilder()
-    .inputs(<ore:wireGtOctalTgtalloy>*4,<gregtech:cable:5074>*2,<gregtech:meta_item_1:14235>*2,<gregtech:meta_item_1:14299>)
-    .outputs(<gregtech:meta_item_1:32604>)
-    .duration(80)
-    .EUt(7680)
-    .buildAndRegister();
+
 
 #-------LUV Components-------------------------#
 
