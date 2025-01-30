@@ -124,8 +124,9 @@ mods.jei.JEI.hideCategory("gregtech:large_fluid_driller");
 mods.jei.JEI.hideCategory("gregtech:mocvd_unit");
 mods.jei.JEI.hideCategory("gregtech:trickle_bed_reactor");
 mods.jei.JEI.hideCategory("gregtech:tube_in_tube_reactor");
-
-
+mods.jei.JEI.hideCategory("gregtech:quencher");
+mods.jei.JEI.hideCategory("gregtech:mega_alloy_blast_smelter");
+mods.jei.JEI.hideCategory("gregtech:electrowinning_cell");
 
 
 
