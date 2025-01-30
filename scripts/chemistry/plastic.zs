@@ -100,14 +100,14 @@ Utils.removeRecipeByOutput(lcr, [], [<liquid:polybenzimidazole>*1008], true);
 
 lcr.recipeBuilder()
     .fluidInputs(<liquid:diphenylisophtalate>*1000,<liquid:diaminobenzidine>*1000)  
-    .fluidOutputs(<liquid:water>*2000,<liquid:phenol>*2000,<liquid:polybenzimidazoleprepolymerfoam>*1008) 
+    .fluidOutputs(<liquid:water>*2000,<liquid:phenol>*2000,<liquid:polybenzimidazoleprepolymerfoam>*1000) 
     .duration(200)
     .EUt(300)
     .buildAndRegister();
 
 centrifuge.recipeBuilder()
-    .fluidInputs(<liquid:impurepolybenzimidazolesolution>*7000)
-    .fluidOutputs(<liquid:polybenzimidazolesolution>*4000,<liquid:polybenzimidazolewaste>*3000)
+    .fluidInputs(<liquid:impurepolybenzimidazolesolution>*2000)
+    .fluidOutputs(<liquid:polybenzimidazolesolution>*1000,<liquid:polybenzimidazolewaste>*1000)
     .duration(120)
     .EUt(290)
     .buildAndRegister();
@@ -121,8 +121,8 @@ distillation_tower.recipeBuilder()
     .buildAndRegister();
 
 distillation_tower.recipeBuilder()
-    .fluidInputs(<liquid:polybenzimidazolewaste>*7000)
-    .fluidOutputs(<liquid:water>*4000,<liquid:phenol>*1000,<liquid:toluene>*1000,<liquid:dichloromethane>*1000)
+    .fluidInputs(<liquid:polybenzimidazolewaste>*1000)
+    .fluidOutputs(<liquid:water>*4000,<liquid:dimethylacetamide>*1000,<liquid:phenol>*1000)
     .outputs(<gregtech:meta_item_1:2155>*4)
     .duration(800)
     .EUt(200)
