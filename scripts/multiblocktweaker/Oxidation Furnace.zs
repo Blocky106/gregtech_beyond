@@ -114,3 +114,12 @@ oxidation_furnace.recipeMap.recipeBuilder()
     .duration(400)
     .EUt(90)
     .buildAndRegister();
+
+oxidation_furnace.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:oxygen>*1000)
+    .inputs(<gregtech:meta_item_1:2888>*11,<gregtech:meta_item_1:2898>*5)
+    .outputs(<gregtech:meta_item_1:2887>*4,<gtadditions:ga_dust:115>*7)
+    .fluidOutputs(<liquid:rhodium_sulfate>*1000)
+    .duration(400)
+    .EUt(800)
+    .buildAndRegister();

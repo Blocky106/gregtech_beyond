@@ -121,13 +121,13 @@ for i in CarbonSource {
 
 primitive_blast_furnaces.recipeMap.recipeBuilder()
     .inputs(<gregtech:meta_item_1:10197>, i)
-    .outputs(<gregtech:meta_item_1:10184>,<gregtech:meta_item_1:89>)
+    .outputs(<gregtech:meta_item_1:10184>)
     .duration(1000)
     .buildAndRegister();
 
 primitive_blast_furnaces.recipeMap.recipeBuilder()
     .inputs(<minecraft:iron_ingot>, i)
-    .outputs(<gregtech:meta_item_1:10184>,<gregtech:meta_item_1:89>)
+    .outputs(<gregtech:meta_item_1:10184>)
     .duration(500)
     .buildAndRegister();
 
