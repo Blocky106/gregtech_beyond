@@ -320,6 +320,8 @@ trinaquadalloy.addFlags(["GENERATE_PLATE","GENERATE_FRAME","GENERATE_ROD"]);
 val nylon610 = MaterialRegistry.createIngotMaterial(636, "nylon610", 0xF3A33D, "DULL", 1);
 nylon610.addFlags(["GENERATE_PLATE","GENERATE_FRAME","GENERATE_ROD","GENERATE_FOIL"]);
 
+val di_n_propyl_ether  = MaterialRegistry.createIngotMaterial(637, "di_n_propyl_ether", 0xBDA873, "DULL", 1);
+di_n_propyl_ether.addFlags(["GENERATE_PLATE","GENERATE_FLUID_BLOCK","GENERATE_FRAME","GENERATE_ROTOR","GENERATE_FOIL","GENERATE_ROD"]);
 
 
 
@@ -572,9 +574,27 @@ util.registerDust("cadmium_oxide", 32260, 0xff6630, "DULL");
 util.registerDust("borane", 32261, 0x78A9A5, "DULL");
 util.registerDust("high_purity_aluminium", 32262, 0x7EBFDC, "SHINY");
 util.registerDust("high_purity_gallium", 32263, 0x6B6B6B, "SHINY");
+util.registerDust("high_purity_cadmium", 32264, 0x3D3D3D, "SHINY");
+util.registerDust("potassium_persulfate", 32265, 0x3D3D39, "DULL");
 
-
-
+util.registerFluid("n_propyl_chloride", 0xE7C87A);
+util.registerFluid("propene_emulsion", 0x6D551A);
+util.registerFluid("propyl_base_liqour", 0xE0C584);
+util.registerFluid("npropanol_base", 0xFAC33C);
+util.registerFluid("dimethylacetamide", 0x64AC68);
+util.registerFluid("pbi_polymerization_mix", 0x588C35);
+util.registerFluid("polycyclopentene_solution", 0x5B7C43);
+util.registerFluid("polystyrene_suspension", 0x98978D);
+util.registerFluid("polyethylene_naphthalate_solution", 0xE3DFBE);
+util.registerFluid("chromium_trioxide_solution", 0xDBC6CD);
+util.registerFluid("polypropelene_suspension", 0xCCA362);
+util.registerFluid("potassium_persulfate_solution", 0x97BCCD);
+util.registerFluid("rock_salt_solution", 0xDBC0C0);
+util.registerFluid("styrene_suspension", 0x558DC0);
+util.registerFluid("polyvinyl_chloride_solution", 0xCDDBE7);
+util.registerFluid("high_purity_cadmium_solution", 0x505458);
+util.registerFluid("cadmium_rich_solution", 0x323232);
+util.registerFluid("polyvinyl_acetate_solution", 0xEB9D72);
 util.registerFluid("trifluoroethylene_mixture", 0x979EA5);
 util.registerFluid("graphitic_anode_mixture", 0x666565);
 util.registerFluid("cryolite_solution", 0x6B91B8);
