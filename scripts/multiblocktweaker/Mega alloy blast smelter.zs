@@ -351,9 +351,9 @@ val mega_alloy_blast_smelter = Builder.start(loc, meta)
                 .build())
 .withRecipeMap(
         FactoryRecipeMap.start(loc)
-                        .maxInputs(1)
-                        .maxFluidInputs(1)
-                        .maxOutputs(1)
+                        .maxInputs(9)
+                        .maxFluidInputs(2)
+                        .maxFluidOutputs(1)
                         .build())
 .withTexture(ICubeRenderer.sided("contenttweaker:blocks/zirconium_carbide"))
 .withZoom(0.5f)
@@ -361,8 +361,3 @@ val mega_alloy_blast_smelter = Builder.start(loc, meta)
 
 
 mega_alloy_blast_smelter.recipeMap.copyAll(RecipeMap.getByName("blast_alloy"));
-
-mega_alloy_blast_smelter.update = function(recipeLogic as IRecipeLogic) {
-    var oldProgress = recipeLogic.recipeProgress;
-    recipeLogic.recipeProgress = oldProgress + 1;
-} as IUpdateFunction;
