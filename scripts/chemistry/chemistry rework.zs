@@ -406,3 +406,15 @@ tbr.recipeBuilder()
     .duration(200)
     .EUt(12)
     .buildAndRegister();
+
+Utils.removeRecipeByOutput(chemReactor,[],[<liquid:isopropyl_alcohol>*1000],true);
+Utils.removeRecipeByOutput(lcr,[],[<liquid:isopropyl_alcohol>*1000],true);
+
+cstr_s.recipeBuilder()
+    .fluidInputs(<liquid:water>*1000,<liquid:propene>*1000)
+    .notConsumable(<gtadditions:ga_dust:152>)
+    .notConsumable(<gtadditions:ga_dust:153>)
+    .fluidOutputs(<liquid:isopropyl_alcohol>*1600,<liquid:n_propyl_alcohol>*400)
+    .duration(530)
+    .EUt(120)
+    .buildAndRegister();
