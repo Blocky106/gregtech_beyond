@@ -2162,12 +2162,47 @@ recipemap.quencher.name=Quenching
 multiblocktweaker.multiblock.quencher.name=Quencher
 fluid.trifluoroethylene=Trifluoroethylene 
 multiblocktweaker.machine.quencher.name=Quencher
-
-
-
-
-
-
-
-
+devtech.machine.cstr_s.lv.name=Basic Continous Stirring Tank Reactor  
+devtech.machine.cstr_s.mv.name=Advanced Continous Stirring Tank Reactor   
+devtech.machine.cstr_s.hv.name=Advanced Continous Stirring Tank Reactor II
+devtech.machine.cstr_s.ev.name=Advanced Continous Stirring Tank Reactor III
+devtech.machine.cstr_s.iv.name=Elite Continous Stirring Tank Reactor   
+devtech.machine.cstr_s.luv.name=Elite Continous Stirring Tank Reactor II
+devtech.machine.cstr_s.zpm.name=Elite Continous Stirring Tank Reactor III
+devtech.machine.cstr_s.uv.name=Ultimate Continous Stirring Tank Reactor
+devtech.machine.tbr.lv.name=Basic Trickle Bed Reactor  
+devtech.machine.tbr.mv.name=Advanced Trickle Bed Reactor   
+devtech.machine.tbr.hv.name=Advanced Trickle Bed Reactor II
+devtech.machine.tbr.ev.name=Advanced Trickle Bed Reactor III
+devtech.machine.tbr.iv.name=Elite Trickle Bed Reactor   
+devtech.machine.tbr.luv.name=Elite Trickle Bed Reactor II
+devtech.machine.tbr.zpm.name=Elite Trickle Bed Reactor III
+devtech.machine.tbr.uv.name=Ultimate Trickle Bed Reactor
+recipemap.tbr.name=Trickle Bed Reaction
+recipemap.cstr_s.name=Continous Stirring Tank Reactor
+recipemap.mega_alloy_blast_smelter.name=Mega Alloy Blast Smelter 
+multiblocktweaker.machine.mega_alloy_blast_smelter.name=Mega Alloy Blast Smelter
+multiblocktweaker.machine.electrowinning_cell.name=Electrowinning Cell 
+recipemap.electrowinning_cell.name=Electrowinning Cell 
+metaitem.high_purity_cadmium.name=High Purity Cadmium 
+metaitem.potassium_persulfate.name=Potassium Persulfate
+fluid.trifluoroethylene_mixture=Trifluoroethylene Mixture
+fluid.polyvinyl_acetate_solution=Polyvinyl Acetate Solution 
+fluid.cadmium_rich_solution=Cadmium Rich Solution
+fluid.high_purity_cadmium_solution=High Purity Cadmium Solution
+fluid.polyvinyl_chloride_solution=Polyvinyl Chloride Solution
+fluid.styrene_suspension=Styrene Suspension 
+fluid.polystyrene_suspension=Polystyrene Suspension 
+fluid.rock_salt_solution=Rock Salt Solution
+fluid.potassium_persulfate_solution=Potassium Persulfate Solution
+fluid.polypropelene_suspension=Polypropelene Suspension
+fluid.chromium_trioxide_solution=Chromium Trioxide Solution
+fluid.polyethylene_naphthalate_solution=Polyethylene Naphthalate Solution
+fluid.polycyclopentene_solution=Poly(cyclopentene) Solution
+fluid.pbi_polymerization_mix=Polybenzimidazole Polymerization Mix
+fluid.dimethylacetamide=Dimethylacetamide
+fluid.n_propyl_chloride=n-Propyl Chloride
+fluid.propene_emulsion=Propene Emulsion
+fluid.propyl_base_liqour=Propyl Base Liqour
+fluid.npropanol_base=n-Propanol Base
 
