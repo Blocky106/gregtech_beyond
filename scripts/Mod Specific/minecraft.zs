@@ -13,7 +13,7 @@ recipes.addShaped(<minecraft:paper> * 3, [	[<gregtech:meta_item_1:2325>, <gregte
 recipes.addShaped(<minecraft:bed>, [	[null, null, null], [<contenttweaker:stretchedwool>, <contenttweaker:stretchedwool>, <contenttweaker:stretchedwool>], 	[<ore:fenceWood>, <ore:logWood>, <ore:fenceWood>]]);
 recipes.addShaped(<minecraft:piston>, [	[<ore:logWood>, <contenttweaker:woodgear>, <ore:logWood>], 	[<ore:dustStone>, <ore:ingotSteel>, <ore:dustStone>], 	[<ore:dustStone>, <gregtech:meta_item_1:32640>, <ore:dustStone>]]);
 recipes.addShaped(<minecraft:flint_and_steel>, [	[<ore:ingotIron>, null], 	[null, <ore:itemFlint>]]);
-recipes.addShaped(<minecraft:wooden_pressure_plate>, [	[null, null, null], 	[<ore:boltWood>, <ore:plankWood>, <ore:boltWood>], 	[<ore:voodooPoppetProtectionLightning>, <contenttweaker:woodgear>, <ore:voodooPoppetProtectionLightning>]]);
+recipes.addShaped(<minecraft:wooden_pressure_plate>, [	[null, null, null], 	[<ore:boltWood>, <ore:plankWood>, <ore:boltWood>], 	[null, <contenttweaker:woodgear>, null]]);
 recipes.addShaped(<minecraft:cobblestone_wall>*6, [	[null, <gregtech:meta_tool:6>, null], 	[<ore:stoneCobble>, <ore:stoneCobble>, <ore:stoneCobble>], 	[<ore:stoneCobble>, <ore:stoneCobble>, <ore:stoneCobble>]]);
 recipes.addShaped(<minecraft:cobblestone_wall>*4, [	[null, null, null], 	[<ore:stoneCobble>, <ore:stoneCobble>, <ore:stoneCobble>], 	[<ore:stoneCobble>, <ore:stoneCobble>, <ore:stoneCobble>]]);
 recipes.addShaped(<minecraft:chest>,[[<ore:logWood>,<ore:plankWood>,<ore:logWood>],[<ore:plankWood>, null, <ore:plankWood>],[<ore:logWood>,<ore:plankWood>,<ore:logWood>]]);
