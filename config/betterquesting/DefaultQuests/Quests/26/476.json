@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    475,
+    474
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "qmd:neutral_containment_controller"
+      },
+      "name:8": "Exotic Contaminant Chamber"
+    }
+  },
+  "questID:3": 476,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "qmd:neutral_containment_controller"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

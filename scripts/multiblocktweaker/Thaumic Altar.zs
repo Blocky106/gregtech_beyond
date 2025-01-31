@@ -54,6 +54,7 @@ val altar = Builder.start(loc, meta)
                     "~G~G~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 12)
                 .whereOr("C", 
                 <metastate:contenttweaker:thaumic_casing>,
                     IBlockMatcher.abilityPartPredicate(

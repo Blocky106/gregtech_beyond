@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/refabricateddraconiumore",
+		"left" : "contenttweaker:blocks/refabricateddraconiumore",
+		"right" : "contenttweaker:blocks/refabricateddraconiumore",
+		"back" : "contenttweaker:blocks/refabricateddraconiumore",
+		"top" : "contenttweaker:blocks/refabricateddraconiumore",
+		"bottom" : "contenttweaker:blocks/refabricateddraconiumore"
+
+	}
+	
+
+}

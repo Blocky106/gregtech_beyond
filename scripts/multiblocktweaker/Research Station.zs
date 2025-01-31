@@ -86,6 +86,7 @@ val research_station = Builder.start(loc, meta)
                     "~~~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 60)
                 .whereOr("C", 
                 <metastate:contenttweaker:computercasing>,
                     IBlockMatcher.abilityPartPredicate(

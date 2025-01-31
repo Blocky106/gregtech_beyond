@@ -51,6 +51,7 @@ val vacuum_furnace = Builder.start(loc, meta)
                     "WCW")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 4)
                 .whereOr("C", 
                 <metastate:contenttweaker:vacuumfurnacecasing>,
                     IBlockMatcher.abilityPartPredicate(
@@ -247,4 +248,18 @@ vacuum_furnace.recipeMap.recipeBuilder()
     .outputs(<gregtech:meta_item_1:10470>)
     .EUt(120)
     .duration(20)
+    .buildAndRegister();
+
+vacuum_furnace.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2705>)
+    .outputs(<gregtech:meta_item_1:10705>)
+    .duration(120)
+    .EUt(20)
+    .buildAndRegister();
+
+vacuum_furnace.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2637>)
+    .outputs(<gregtech:meta_item_1:10637>)
+    .duration(120)
+    .EUt(20)
     .buildAndRegister();

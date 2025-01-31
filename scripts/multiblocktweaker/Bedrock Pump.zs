@@ -38,6 +38,7 @@ val bedrock_pump = Builder.start(loc, meta)
                 .aisle("~~C~~","~HCH~","CCCCC","~HCH~","~~C~~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 30)
                 .whereOr("C", 
                 <metastate:gregtech:metal_casing:7>,
                     IBlockMatcher.abilityPartPredicate(

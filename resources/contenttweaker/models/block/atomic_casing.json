@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/atomic_casing",
+		"left" : "contenttweaker:blocks/atomic_casing",
+		"right" : "contenttweaker:blocks/atomic_casing",
+		"back" : "contenttweaker:blocks/atomic_casing",
+		"top" : "contenttweaker:blocks/atomic_casing",
+		"bottom" : "contenttweaker:blocks/atomic_casing"
+
+	}
+	
+
+}

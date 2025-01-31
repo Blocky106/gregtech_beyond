@@ -79,6 +79,7 @@ val engraving_unit = Builder.start(loc, meta)
                     "~~~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 70)
                 .whereOr("C", 
                 <metastate:gtadditions:ga_metal_casing_2:4>,
                     IBlockMatcher.abilityPartPredicate(
@@ -219,5 +220,14 @@ engraving_unit.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:superfluid_helium>*1000)
     .fluidOutputs(<liquid:helium>*1000)
     .duration(900)
+    .EUt(800)
+    .buildAndRegister();
+
+engraving_unit.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:hydrogen_peroxide>*1000)
+    .fluidOutputs(<liquid:water>*1000)
+    .inputs(<gregtech:meta_item_1:2051>)
+    .outputs(<gtadditions:ga_dust:32232>)
+    .duration(200)
     .EUt(800)
     .buildAndRegister();

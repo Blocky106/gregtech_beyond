@@ -43,6 +43,7 @@ val tree_farm = Builder.start(loc, meta)
 
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 10)
                 .whereOr("C", 
                 <metastate:contenttweaker:logcasing>,
                     IBlockMatcher.abilityPartPredicate(
@@ -56,19 +57,9 @@ val tree_farm = Builder.start(loc, meta)
                 .build())
         .addDesign(
                 FactoryMultiblockShapeInfo.start()
-                .aisle(
-                    "CCC",
-                    "WWW",
-                    "CCC")
-                .aisle(
-                    "SCE",
-                    "W W",
-                    "CCC")
-                .aisle(
-                    "CCC",
-                    "WWW",
-                    "CCC")
-                                   
+                .aisle("CCC","WWW","CCC")
+                .aisle("SCE","W W","CCC")
+                .aisle("CCC","WWW","CCC")
                 .where("C", <metastate:contenttweaker:logcasing>)
                 .where("S", IBlockInfo.controller(loc))
                 .where("W", <metastate:contenttweaker:woodeneglinsteelcasing>)
@@ -82,6 +73,7 @@ val tree_farm = Builder.start(loc, meta)
                         .maxInputs(2)
                         .maxFluidInputs(2)
                         .maxFluidOutputs(1)
+                        .maxOutputs(3)
                         .build())
 .withZoom(0.5f)
 .buildAndRegister() as Multiblock;

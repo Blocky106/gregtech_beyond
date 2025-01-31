@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/stella_anvil_module",
+		"left" : "contenttweaker:blocks/stella_anvil_module",
+		"right" : "contenttweaker:blocks/stella_anvil_module",
+		"back" : "contenttweaker:blocks/stella_anvil_module",
+		"top" : "contenttweaker:blocks/stella_anvil_module",
+		"bottom" : "contenttweaker:blocks/stella_anvil_module"
+
+	}
+	
+
+}

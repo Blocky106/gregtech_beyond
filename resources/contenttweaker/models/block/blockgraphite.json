@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/blockgraphite",
+		"left" : "contenttweaker:blocks/blockgraphite",
+		"right" : "contenttweaker:blocks/blockgraphite",
+		"back" : "contenttweaker:blocks/blockgraphite",
+		"top" : "contenttweaker:blocks/blockgraphite",
+		"bottom" : "contenttweaker:blocks/blockgraphite"
+
+	}
+	
+
+}

@@ -34,6 +34,7 @@ val bacterial_vat = Builder.start(loc, meta)
                 .aisle("CCCCC","CCCCC","CCCCC","CCCCC","CCCCC")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 40)
                 .whereOr("C", 
                 <metastate:gregtech:metal_casing:5>,
                     IBlockMatcher.abilityPartPredicate(

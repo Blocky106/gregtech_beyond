@@ -61,6 +61,7 @@ val ore_factory = Builder.start(loc, meta)
                     "~CCCCCC~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 85)
                 .whereOr("C", 
                 <metastate:gtadditions:ga_metal_casing_2:4>,
                     IBlockMatcher.abilityPartPredicate(
@@ -102,7 +103,7 @@ val ore_factory = Builder.start(loc, meta)
 .buildAndRegister() as Multiblock;
 
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_nickel_0>*10)
     .outputs(<gregtech:meta_item_1:2044>*64)
@@ -110,7 +111,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_kyanite_0>*10)
     .outputs(<gregtech:meta_item_1:2292>*64)
@@ -118,7 +119,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .inputs(<gregtech:ore_platinum_metallic_powder_0>*10)
     .fluidInputs(<liquid:water>*32000)
     .outputs(<gregtech:meta_item_1:2900>*64)
@@ -126,7 +127,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .inputs(<gregtech:ore_prasiolite_0>*10)
     .fluidInputs(<liquid:water>*32000)
     .outputs(<gregtech:meta_item_1:2910>*64)
@@ -134,7 +135,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .inputs(<gregtech:ore_dolomite_0>*10)
     .outputs(<gregtech:meta_item_1:2289>*64)
     .fluidInputs(<liquid:water>*32000)
@@ -142,7 +143,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .inputs(<gregtech:ore_banded_iron_0>*10)
     .outputs(<gregtech:meta_item_1:2090>*64)
     .fluidInputs(<liquid:water>*32000)
@@ -150,7 +151,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .inputs(<gregtech:ore_alumina_0>*10)
     .fluidInputs(<liquid:water>*32000)
     .outputs(<gregtech:meta_item_1:2524>*64)
@@ -158,7 +159,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .inputs(<gregtech:ore_zinc_0>*10)
     .fluidInputs(<liquid:water>*32000)
     .outputs(<gregtech:meta_item_1:2079>*64)
@@ -166,7 +167,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .inputs(<gregtech:ore_brown_limonite_0>*10)
     .fluidInputs(<liquid:water>*32000)
     .outputs(<gregtech:meta_item_1:2096>*64)
@@ -174,7 +175,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .inputs(<gregtech:ore_yellow_limonite_0>*10)
     .fluidInputs(<liquid:water>*32000)
     .outputs(<gregtech:meta_item_1:2199>*64)
@@ -182,7 +183,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_witherite_0>*10)
     .outputs(<gregtech:meta_item_1:2669>*64)
@@ -190,7 +191,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_titanium_0>*10)
     .outputs(<gregtech:meta_item_1:2072>*64)
@@ -198,7 +199,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_aikinite_0>*10)
     .outputs(<gregtech:meta_item_1:2601>*64)
@@ -206,7 +207,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_uranium_0>*10)
     .outputs(<gregtech:meta_item_1:2075>*64)
@@ -214,7 +215,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_iron_0>*10)
     .outputs(<gregtech:meta_item_1:2033>*64)
@@ -222,7 +223,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_lithium_0>*10)
     .outputs(<gregtech:meta_item_1:2036>*64)
@@ -230,7 +231,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_chromite_0>*10)
     .outputs(<gregtech:meta_item_1:2102>*64)
@@ -238,7 +239,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_tetrahedrite_0>*10)
     .outputs(<gregtech:meta_item_1:2188>*64)
@@ -246,7 +247,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_bauxite_0>*10)
     .outputs(<gregtech:meta_item_1:2123>*64)
@@ -254,7 +255,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_opal_0>*10)
     .outputs(<gregtech:meta_item_1:2213>*64)
@@ -262,7 +263,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_ardite_0>*10)
     .outputs(<gregtech:meta_item_1:2518>*64)
@@ -270,7 +271,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_apatite_0>*10)
     .outputs(<gregtech:meta_item_1:2226>*64)
@@ -278,7 +279,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_silver_0>*10)
     .outputs(<gregtech:meta_item_1:2062>*64)
@@ -286,7 +287,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_triniite_0>*10)
     .outputs(<gregtech:meta_item_1:2836>*64)
@@ -294,7 +295,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_iridium_0>*10)
     .outputs(<gregtech:meta_item_1:2032>*64)
@@ -302,7 +303,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_pollucite_0>*10)
     .outputs(<gregtech:meta_item_1:2273>*64)
@@ -310,7 +311,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_glauconite_sand_0>*10)
     .outputs(<gregtech:meta_item_1:2276>*64)
@@ -318,7 +319,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_aluminiumsalt_0>*10)
     .outputs(<gregtech:meta_item_1:2525>*64)
@@ -326,7 +327,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_uvarovite_0>*10)
     .outputs(<gregtech:meta_item_1:2194>*64)
@@ -334,7 +335,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_powellite_0>*10)
     .outputs(<gregtech:meta_item_1:2146>*64)
@@ -342,7 +343,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_saltpeter_0>*10)
     .outputs(<gregtech:meta_item_1:2156>*64)
@@ -350,7 +351,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_tenorite_0>*10)
     .outputs(<gregtech:meta_item_1:2358>*64)
@@ -358,7 +359,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_pentlandite_0>*10)
     .outputs(<gregtech:meta_item_1:2271>*64)
@@ -366,7 +367,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_phosphate_0>*10)
     .outputs(<gregtech:meta_item_1:2139>*64)
@@ -374,7 +375,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_cobaltite_0>*10)
     .outputs(<gregtech:meta_item_1:2107>*64)
@@ -382,7 +383,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_fullers_earth_0>*10)
     .outputs(<gregtech:meta_item_1:2279>*64)
@@ -390,7 +391,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_nether_star_0>*10)
     .outputs(<gregtech:meta_item_1:2331>*64)
@@ -398,7 +399,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_talc_0>*10)
     .outputs(<gregtech:meta_item_1:2294>*64)
@@ -406,7 +407,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_bornite_0>*10)
     .outputs(<gregtech:meta_item_1:2360>*64)
@@ -414,7 +415,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_aluminium_0>*10)
     .outputs(<gregtech:meta_item_1:2001>*64)
@@ -422,7 +423,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_chalcopyrite_0>*10)
     .outputs(<gregtech:meta_item_1:2100>*64)
@@ -430,7 +431,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_stannite_0>*10)
     .outputs(<gregtech:meta_item_1:2608>*64)
@@ -438,7 +439,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_lazurite_0>*10)
     .outputs(<gregtech:meta_item_1:2128>*64)
@@ -446,7 +447,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_ilmenite_0>*10)
     .outputs(<gregtech:meta_item_1:2121>*64)
@@ -454,7 +455,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_bismuth_0>*10)
     .outputs(<gregtech:meta_item_1:2008>*64)
@@ -462,7 +463,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_pitchblende_0>*10)
     .outputs(<gregtech:meta_item_1:2280>*64)
@@ -470,7 +471,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_garnierite_0>*10)
     .outputs(<gregtech:meta_item_1:2115>*64)
@@ -478,7 +479,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_uranium_radioactive_0>*10)
     .outputs(<gregtech:meta_item_1:2076>*64)
@@ -486,7 +487,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_amethyst_0>*10)
     .outputs(<gregtech:meta_item_1:2214>*64)
@@ -494,7 +495,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_chrome_0>*10)
     .outputs(<gregtech:meta_item_1:2016>*64)
@@ -502,7 +503,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_barytocalcite_0>*10)
     .outputs(<gregtech:meta_item_1:2670>*64)
@@ -510,7 +511,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_thorite_0>*10)
     .outputs(<gregtech:meta_item_1:2610>*64)
@@ -518,7 +519,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_topaz_0>*10)
     .outputs(<gregtech:meta_item_1:2190>*64)
@@ -526,7 +527,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_granitic_mineral_sand_0>*10)
     .outputs(<gregtech:meta_item_1:2267>*64)
@@ -534,7 +535,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_pyrope_0>*10)
     .outputs(<gregtech:meta_item_1:2150>*64)
@@ -542,7 +543,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_gypsum_0>*10)
     .outputs(<gregtech:meta_item_1:2287>*64)
@@ -550,7 +551,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_beryllium_0>*10)
     .outputs(<gregtech:meta_item_1:2007>*64)
@@ -558,7 +559,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_pyrolusite_0>*10)
     .outputs(<gregtech:meta_item_1:2149>*64)
@@ -566,7 +567,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_cinnabar_0>*10)
     .outputs(<gregtech:meta_item_1:2103>*64)
@@ -574,7 +575,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_wolframite_0>*10)
     .outputs(<gregtech:meta_item_1:2615>*64)
@@ -582,7 +583,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_arsenopyrite_0>*10)
     .outputs(<gregtech:meta_item_1:2668>*64)
@@ -590,7 +591,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_molybdenum_0>*10)
     .outputs(<gregtech:meta_item_1:2041>*64)
@@ -598,7 +599,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_cassiterite_0>*10)
     .outputs(<gregtech:meta_item_1:2098>*64)
@@ -606,7 +607,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_spessartine_0>*10)
     .outputs(<gregtech:meta_item_1:2181>*64)
@@ -614,7 +615,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_blackopal_0>*10)
     .outputs(<gregtech:meta_item_1:2562>*64)
@@ -622,7 +623,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_tellurite_0>*10)
     .outputs(<gregtech:meta_item_1:2538>*64)
@@ -630,7 +631,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_soapstone_0>*10)
     .outputs(<gregtech:meta_item_1:2295>*64)
@@ -638,7 +639,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_bentonite_0>*10)
     .outputs(<gregtech:meta_item_1:2278>*64)
@@ -646,7 +647,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_lignite_0>*10)
     .outputs(<gregtech:meta_item_1:2211>*64)
@@ -654,7 +655,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_grossular_0>*10)
     .outputs(<gregtech:meta_item_1:2118>*64)
@@ -662,7 +663,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_rarest_metal_residue_0>*10)
     .outputs(<gregtech:meta_item_1:2878>*64)
@@ -670,7 +671,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_sphalerite_0>*10)
     .outputs(<gregtech:meta_item_1:2182>*64)
@@ -678,7 +679,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_almandine_0>*10)
     .outputs(<gregtech:meta_item_1:2085>*64)
@@ -686,7 +687,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_stibnite_0>*10)
     .outputs(<gregtech:meta_item_1:2185>*64)
@@ -694,7 +695,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_infusedgold_0>*10)
     .outputs(<gregtech:meta_item_1:2578>*64)
@@ -702,7 +703,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_quantium_0>*10)
     .outputs(<gregtech:meta_item_1:2543>*64)
@@ -710,7 +711,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_diamond_0>*10)
     .outputs(<gregtech:meta_item_1:2111>*64)
@@ -718,7 +719,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_xenotime_0>*10)
     .outputs(<gregtech:meta_item_1:2622>*64)
@@ -726,7 +727,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_bertrandite_0>*10)
     .outputs(<gregtech:meta_item_1:2602>*64)
@@ -734,7 +735,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_platinum_0>*10)
     .outputs(<gregtech:meta_item_1:2051>*64)
@@ -742,7 +743,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_spodumene_0>*10)
     .outputs(<gregtech:meta_item_1:2272>*64)
@@ -750,7 +751,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_basaltic_mineral_sand_0>*10)
     .outputs(<gregtech:meta_item_1:2266>*64)
@@ -758,7 +759,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_carnotite_0>*10)
     .outputs(<gregtech:meta_item_1:2604>*64)
@@ -766,7 +767,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_green_sapphire_0>*10)
     .outputs(<gregtech:meta_item_1:2117>*64)
@@ -774,7 +775,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_cooperite_0>*10)
     .outputs(<gregtech:meta_item_1:2108>*64)
@@ -782,7 +783,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_quartzite_0>*10)
     .outputs(<gregtech:meta_item_1:2203>*64)
@@ -790,7 +791,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_vanadinite_0>*10)
     .outputs(<gregtech:meta_item_1:2613>*64)
@@ -798,7 +799,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_pyrochlore_0>*10)
     .outputs(<gregtech:meta_item_1:2701>*64)
@@ -806,7 +807,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_jasper_0>*10)
     .outputs(<gregtech:meta_item_1:2206>*64)
@@ -814,7 +815,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_diatomite_0>*10)
     .outputs(<gregtech:meta_item_1:2221>*64)
@@ -822,7 +823,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_sapphire_0>*10)
     .outputs(<gregtech:meta_item_1:2157>*64)
@@ -830,7 +831,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_fluoroapatite_0>*10)
     .outputs(<gregtech:meta_item_1:2689>*64)
@@ -838,7 +839,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_graphite_0>*10)
     .outputs(<gregtech:meta_item_1:2204>*64)
@@ -846,7 +847,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_alunite_0>*10)
     .outputs(<gregtech:meta_item_1:2288>*64)
@@ -854,7 +855,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_caliche_0>*10)
     .outputs(<gregtech:meta_item_1:2712>*64)
@@ -862,7 +863,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_trona_0>*10)
     .outputs(<gregtech:meta_item_1:2285>*64)
@@ -870,7 +871,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_tennantite_0>*10)
     .outputs(<gregtech:meta_item_1:2363>*64)
@@ -878,7 +879,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_magnesite_0>*10)
     .outputs(<gregtech:meta_item_1:2130>*64)
@@ -886,7 +887,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_calcite_0>*10)
     .outputs(<gregtech:meta_item_1:2097>*64)
@@ -894,7 +895,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_naquadah_enriched_0>*10)
     .outputs(<gregtech:meta_item_1:2309>*64)
@@ -902,7 +903,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_diamandine_0>*10)
     .outputs(<gregtech:meta_item_1:2566>*64)
@@ -910,7 +911,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_precious_metal_0>*10)
     .outputs(<gregtech:meta_item_1:2827>*64)
@@ -918,7 +919,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_redstone_0>*10)
     .outputs(<minecraft:redstone>*64)
@@ -926,7 +927,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_gadolinite_0>*10)
     .outputs(<gregtech:meta_item_1:2621>*64)
@@ -934,7 +935,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_ruby_0>*10)
     .outputs(<gregtech:meta_item_1:2154>*64)
@@ -942,7 +943,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_mythril_0>*10)
     .outputs(<gregtech:meta_item_1:2548>*64)
@@ -950,7 +951,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_rheniite_0>*10)
     .outputs(<gregtech:meta_item_1:2611>*64)
@@ -958,7 +959,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_tantalite_0>*10)
     .outputs(<gregtech:meta_item_1:2224>*64)
@@ -966,7 +967,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_lapis_0>*10)
     .outputs(<gregtech:meta_item_1:2216>*64)
@@ -974,7 +975,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_blue_topaz_0>*10)
     .outputs(<gregtech:meta_item_1:2092>*64)
@@ -982,7 +983,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_tin_0>*10)
     .outputs(<gregtech:meta_item_1:2071>*64)
@@ -990,7 +991,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_malachite_0>*10)
     .outputs(<gregtech:meta_item_1:2282>*64)
@@ -998,7 +999,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_emerald_0>*10)
     .outputs(<gregtech:meta_item_1:2113>*64)
@@ -1006,7 +1007,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_naquadriatic_compound_0>*10)
     .outputs(<gregtech:meta_item_1:2113>*64)
@@ -1014,7 +1015,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_zeolite_0>*10)
     .outputs(<gregtech:meta_item_1:2291>*64)
@@ -1022,7 +1023,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_deshite_0>*10)
     .outputs(<gregtech:meta_item_1:2788>*64)
@@ -1030,7 +1031,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_perlite_0>*10)
     .outputs(<gregtech:meta_item_1:2210>*64)
@@ -1038,7 +1039,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_garnet_red_0>*10)
     .outputs(<gregtech:meta_item_1:2243>*64)
@@ -1046,7 +1047,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_trinium_0>*10)
     .outputs(<gregtech:meta_item_1:2719>*64)
@@ -1054,7 +1055,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_galena_0>*10)
     .outputs(<gregtech:meta_item_1:2114>*64)
@@ -1062,7 +1063,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_glauconite_0>*10)
     .outputs(<gregtech:meta_item_1:2275>*64)
@@ -1070,7 +1071,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_uraninite_0>*10)
     .outputs(<gregtech:meta_item_1:2193>*64)
@@ -1078,7 +1079,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_amblygonite_0>*10)
     .outputs(<gregtech:meta_item_1:2600>*64)
@@ -1086,7 +1087,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_coal_0>*10)
     .outputs(<gregtech:meta_item_1:2106>*64)
@@ -1094,7 +1095,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_cobalt_0>*10)
     .outputs(<gregtech:meta_item_1:2017>*64)
@@ -1102,7 +1103,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_tellurium_0>*10)
     .outputs(<gregtech:meta_item_1:2067>*64)
@@ -1110,7 +1111,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_tungstate_0>*10)
     .outputs(<gregtech:meta_item_1:2191>*64)
@@ -1118,7 +1119,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_vinteum_0>*10)
     .outputs(<gregtech:meta_item_1:2247>*64)
@@ -1126,7 +1127,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_naquadric_compound_0>*10)
     .outputs(<gregtech:meta_item_1:2748>*64)
@@ -1134,7 +1135,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_sodalite_0>*10)
     .outputs(<gregtech:meta_item_1:2161>*64)
@@ -1142,7 +1143,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_neodymium_0>*10)
     .outputs(<gregtech:meta_item_1:2042>*64)
@@ -1150,7 +1151,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_cuprite_0>*10)
     .outputs(<gregtech:meta_item_1:2359>*64)
@@ -1158,7 +1159,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_niobium_0>*10)
     .outputs(<gregtech:meta_item_1:2045>*64)
@@ -1166,7 +1167,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_bastnasite_0>*10)
     .outputs(<gregtech:meta_item_1:2270>*64)
@@ -1174,7 +1175,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_tanzanite_0>*10)
     .outputs(<gregtech:meta_item_1:2187>*64)
@@ -1182,7 +1183,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_neodymium_monazite_0>*10)
     .outputs(<gregtech:meta_item_1:2606>*64)
@@ -1190,7 +1191,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_barite_0>*10)
     .outputs(<gregtech:meta_item_1:2286>*64)
@@ -1198,7 +1199,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_thorium_0>*10)
     .outputs(<gregtech:meta_item_1:2069>*64)
@@ -1206,7 +1207,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_fluorite_0>*10)
     .outputs(<gregtech:meta_item_1:2703>*64)
@@ -1214,7 +1215,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_garnet_sand_0>*10)
     .outputs(<gregtech:meta_item_1:2268>*64)
@@ -1222,7 +1223,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_gold_0>*10)
     .outputs(<gregtech:meta_item_1:2026>*64)
@@ -1230,7 +1231,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_andradite_0>*10)
     .outputs(<gregtech:meta_item_1:2086>*64)
@@ -1238,7 +1239,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_nether_quartz_0>*10)
     .outputs(<gregtech:meta_item_1:2201>*64)
@@ -1246,7 +1247,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_columbite_0>*10)
     .outputs(<gregtech:meta_item_1:2702>*64)
@@ -1254,7 +1255,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_copper_0>*10)
     .outputs(<gregtech:meta_item_1:2018>*64)
@@ -1262,7 +1263,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_lead_0>*10)
     .outputs(<gregtech:meta_item_1:2035>*64)
@@ -1270,7 +1271,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_vermiculite_0>*10)
     .outputs(<gregtech:meta_item_1:2277>*64)
@@ -1278,7 +1279,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_wulfenite_0>*10)
     .outputs(<gregtech:meta_item_1:2198>*64)
@@ -1286,7 +1287,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_monazite_0>*10)
     .outputs(<gregtech:meta_item_1:2281>*64)
@@ -1294,7 +1295,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_lepidolite_0>*10)
     .outputs(<gregtech:meta_item_1:2274>*64)
@@ -1302,7 +1303,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_scheelite_0>*10)
     .outputs(<gregtech:meta_item_1:2158>*64)
@@ -1310,7 +1311,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_garnet_yellow_0>*10)
     .outputs(<gregtech:meta_item_1:2244>*64)
@@ -1318,7 +1319,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_olivine_0>*10)
     .outputs(<gregtech:meta_item_1:2212>*64)
@@ -1326,7 +1327,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_enargite_0>*10)
     .outputs(<gregtech:meta_item_1:2362>*64)
@@ -1334,7 +1335,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_molybdenite_0>*10)
     .outputs(<gregtech:meta_item_1:2132>*64)
@@ -1342,7 +1343,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_salt_0>*10)
     .outputs(<gregtech:meta_item_1:2155>*64)
@@ -1350,7 +1351,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_palladium_metallic_powder_0>*10)
     .outputs(<gregtech:meta_item_1:2894>*64)
@@ -1358,7 +1359,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_naquadah_0>*10)
     .outputs(<gregtech:meta_item_1:2307>*64)
@@ -1366,7 +1367,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_mica_0>*10)
     .outputs(<gregtech:meta_item_1:2284>*64)
@@ -1374,7 +1375,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_platinumsalt_0>*10)
     .outputs(<gregtech:meta_item_1:2537>*64)
@@ -1382,7 +1383,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_cerium_monazite_0>*10)
     .outputs(<gregtech:meta_item_1:2605>*64)
@@ -1390,7 +1391,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_niter_0>*10)
     .outputs(<gregtech:meta_item_1:2223>*64)
@@ -1398,7 +1399,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_enriched_naquadric_compound_0>*10)
     .outputs(<gregtech:meta_item_1:2747>*64)
@@ -1406,7 +1407,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_certus_quartz_0>*10)
     .outputs(<gregtech:meta_item_1:2202>*64)
@@ -1414,7 +1415,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_zircon_0>*10)
     .outputs(<gregtech:meta_item_1:2713>*64)
@@ -1422,7 +1423,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_palladium_0>*10)
     .outputs(<gregtech:meta_item_1:2049>*64)
@@ -1430,7 +1431,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_sulfur_0>*10)
     .outputs(<gregtech:meta_item_1:2065>*64)
@@ -1438,7 +1439,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_osmium_0>*10)
     .outputs(<gregtech:meta_item_1:2047>*64)
@@ -1446,7 +1447,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_kaolinite_0>*10)
     .outputs(<gregtech:meta_item_1:2293>*64)
@@ -1454,7 +1455,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_rhodocrosite_0>*10)
     .outputs(<gregtech:meta_item_1:2704>*64)
@@ -1462,7 +1463,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_phosphor_0>*10)
     .outputs(<gregtech:meta_item_1:2050>*64)
@@ -1470,7 +1471,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_uranium235_0>*10)
     .outputs(<gregtech:meta_item_1:2076>*64)
@@ -1478,7 +1479,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_vanadium_magnetite_0>*10)
     .outputs(<gregtech:meta_item_1:2255>*64)
@@ -1486,7 +1487,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_pyrite_0>*10)
     .outputs(<gregtech:meta_item_1:2148>*64)
@@ -1494,7 +1495,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_magnetite_0>*10)
     .outputs(<gregtech:meta_item_1:2131>*64)
@@ -1502,7 +1503,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_chalcocite_0>*10)
     .outputs(<gregtech:meta_item_1:2361>*64)
@@ -1510,7 +1511,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_celestine_0>*10)
     .outputs(<gregtech:meta_item_1:2665>*64)
@@ -1518,7 +1519,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_realgar_0>*10)
     .outputs(<gregtech:meta_item_1:2254>*64)
@@ -1526,7 +1527,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_bowieite_0>*10)
     .outputs(<gregtech:meta_item_1:2666>*64)
@@ -1534,7 +1535,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_cassiterite_sand_0>*10)
     .outputs(<gregtech:meta_item_1:2099>*64)
@@ -1542,7 +1543,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_oilsands_0>*10)
     .outputs(<gregtech:meta_item_1:2324>*64)
@@ -1550,7 +1551,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_rutile_0>*10)
     .outputs(<gregtech:meta_item_1:2122>*64)
@@ -1558,7 +1559,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_gallite_0>*10)
     .outputs(<gregtech:meta_item_1:2667>*64)
@@ -1566,7 +1567,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_asbestos_0>*10)
     .outputs(<gregtech:meta_item_1:2088>*64)
@@ -1574,7 +1575,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_rock_salt_0>*10)
     .outputs(<gregtech:meta_item_1:2151>*64)
@@ -1582,7 +1583,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_wollastonite_0>*10)
     .outputs(<gregtech:meta_item_1:2290>*64)
@@ -1590,7 +1591,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_sylvanite_0>*10)
     .outputs(<gregtech:meta_item_1:2609>*64)
@@ -1598,7 +1599,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_carrolite_0>*10)
     .outputs(<gregtech:meta_item_1:2614>*64)
@@ -1606,7 +1607,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_zirkelite_0>*10)
     .outputs(<gregtech:meta_item_1:2904>*64)
@@ -1614,7 +1615,7 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_iridium_metal_residue_0>*10)
     .outputs(<gregtech:meta_item_1:2877>*64)
@@ -1622,10 +1623,18 @@ ore_factory.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
-ore_factory.recipeBuilder()
+ore_factory.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:water>*32000)
     .inputs(<gregtech:ore_bismite_0>*10)
     .outputs(<gregtech:meta_item_1:2603>*64)
+    .duration(8000)
+    .EUt(1200)
+    .buildAndRegister();
+
+ore_factory.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:water>*32000)
+    .inputs(<gregtech:ore_tourmaline_0>*10)
+    .outputs(<gregtech:meta_item_1:2612>*64)
     .duration(8000)
     .EUt(1200)
     .buildAndRegister();

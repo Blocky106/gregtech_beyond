@@ -61,6 +61,7 @@ val roaster = Builder.start(loc, meta)
                 .where("H", <metastate:gregtech:metal_casing:2>)
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 40)
                 .whereOr("C", 
                 <metastate:gregtech:metal_casing:4>,
                     IBlockMatcher.abilityPartPredicate(
@@ -117,7 +118,7 @@ val roaster = Builder.start(loc, meta)
 .withRecipeMap(
         FactoryRecipeMap.start(loc)
                         .maxInputs(2)
-                        .maxFluidInputs(2)
+                        .maxFluidInputs(3)
                         .maxFluidOutputs(2)
                         .maxOutputs(4)
                         .build())
@@ -201,3 +202,268 @@ roaster.recipeMap.recipeBuilder()
     .duration(20)
     .EUt(12)
     .buildAndRegister();
+
+roaster.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:darmstadtium_hexafluoride>*2000,<liquid:sulfuric_acid>*2000,<liquid:hydrochloric_acid>*1000)
+    .inputs(<gregtech:meta_item_1:2079>)
+    .outputs(<gregtech:meta_item_1:2863>*3)
+    .fluidOutputs(<liquid:fluorodarmstadtic_acid>*1000)
+    .duration(200)
+    .EUt(800)
+    .buildAndRegister();
+
+roaster.recipeMap.recipeBuilder()
+    .inputs(<gtadditions:ga_meta_item:3052>*3)
+    .outputs(<gregtech:meta_item_1:10052>)
+    .duration(200)
+    .EUt(200)
+    .buildAndRegister();
+
+roaster.recipeMap.recipeBuilder()
+    .inputs(<gtadditions:ga_meta_item:3069>*3)
+    .outputs(<gregtech:meta_item_1:10069>)
+    .duration(200)
+    .EUt(200)
+    .buildAndRegister();
+
+roaster.recipeMap.recipeBuilder()
+    .inputs(<gtadditions:ga_meta_item:3053>*3)
+    .outputs(<gregtech:meta_item_1:10053>)
+    .duration(200)
+    .EUt(200)
+    .buildAndRegister();
+
+roaster.recipeMap.recipeBuilder()
+    .inputs(<gtadditions:ga_meta_item:3075>*3)
+    .outputs(<gregtech:meta_item_1:10075>)
+    .duration(200)
+    .EUt(200)
+    .buildAndRegister();
+
+roaster.recipeMap.recipeBuilder()
+    .inputs(<gtadditions:ga_meta_item:3076>*3)
+    .outputs(<gregtech:meta_item_1:10076>)
+    .duration(200)
+    .EUt(200)
+    .buildAndRegister();
+
+roaster.recipeMap.recipeBuilder()
+    .inputs(<gtadditions:ga_meta_item:3076>*3)
+    .outputs(<gregtech:meta_item_1:10076>)
+    .duration(200)
+    .EUt(200)
+    .buildAndRegister();
+
+roaster.recipeMap.recipeBuilder()
+    .inputs(<gtadditions:ga_meta_item:3779>*3)
+    .outputs(<gregtech:meta_item_1:10779>)
+    .duration(200)
+    .EUt(200)
+    .buildAndRegister();
+
+roaster.recipeMap.recipeBuilder()
+    .inputs(<gtadditions:ga_meta_item:3778>*3)
+    .outputs(<gregtech:meta_item_1:10778>)
+    .duration(200)
+    .EUt(200)
+    .buildAndRegister();
+
+roaster.recipeMap.recipeBuilder()
+    .inputs(<gtadditions:ga_meta_item:3777>*3)
+    .outputs(<gregtech:meta_item_1:10777>)
+    .duration(200)
+    .EUt(200)
+    .buildAndRegister();
+
+roaster.recipeMap.recipeBuilder()
+    .inputs(<gtadditions:ga_meta_item:3782>*3)
+    .outputs(<gregtech:meta_item_1:10782>)
+    .duration(200)
+    .EUt(200)
+    .buildAndRegister();
+
+roaster.recipeMap.recipeBuilder()
+    .inputs(<gtadditions:ga_meta_item:3783>*3)
+    .outputs(<gregtech:meta_item_1:10783>)
+    .duration(200)
+    .EUt(200)
+    .buildAndRegister();
+
+roaster.recipeMap.recipeBuilder()
+    .inputs(<gtadditions:ga_meta_item:3784>*3)
+    .outputs(<gregtech:meta_item_1:10784>)
+    .duration(200)
+    .EUt(200)
+    .buildAndRegister();
+
+roaster.recipeMap.recipeBuilder()
+    .inputs(<gtadditions:ga_meta_item:3782>*3)
+    .outputs(<gregtech:meta_item_1:10782>)
+    .duration(200)
+    .EUt(200)
+    .buildAndRegister();
+
+roaster.recipeMap.recipeBuilder()
+    .inputs(<gtadditions:ga_meta_item:3783>*3)
+    .outputs(<gregtech:meta_item_1:10783>)
+    .duration(200)
+    .EUt(200)
+    .buildAndRegister();
+
+roaster.recipeMap.recipeBuilder()
+    .inputs(<gtadditions:ga_meta_item:3784>*3)
+    .outputs(<gregtech:meta_item_1:10784>)
+    .duration(200)
+    .EUt(200)
+    .buildAndRegister();
+
+roaster.recipeMap.recipeBuilder()
+    .inputs(<gtadditions:ga_meta_item:3798>*3)
+    .outputs(<gregtech:meta_item_1:10798>)
+    .duration(200)
+    .EUt(200)
+    .buildAndRegister();
+
+roaster.recipeMap.recipeBuilder()
+    .inputs(<gtadditions:ga_meta_item:3799>*3)
+    .outputs(<gregtech:meta_item_1:10799>)
+    .duration(200)
+    .EUt(200)
+    .buildAndRegister();
+
+roaster.recipeMap.recipeBuilder()
+    .inputs(<gtadditions:ga_meta_item:3800>*3)
+    .outputs(<gregtech:meta_item_1:10800>)
+    .duration(200)
+    .EUt(200)
+    .buildAndRegister();
+
+roaster.recipeMap.recipeBuilder()
+    .inputs(<gtadditions:ga_meta_item:3787>*3)
+    .outputs(<gregtech:meta_item_1:10787>)
+    .duration(200)
+    .EUt(200)
+    .buildAndRegister();
+
+roaster.recipeMap.recipeBuilder()
+    .inputs(<gtadditions:ga_meta_item:3789>*3)
+    .outputs(<gregtech:meta_item_1:10789>)
+    .duration(200)
+    .EUt(200)
+    .buildAndRegister();
+
+roaster.recipeMap.recipeBuilder()
+    .inputs(<gtadditions:ga_meta_item:3790>*3)
+    .outputs(<gregtech:meta_item_1:10790>)
+    .duration(200)
+    .EUt(200)
+    .buildAndRegister();
+
+roaster.recipeMap.recipeBuilder()
+    .inputs(<gtadditions:ga_meta_item:3805>*3)
+    .outputs(<gtadditions:ga_meta_item:10805>)
+    .duration(200)
+    .EUt(200)
+    .buildAndRegister();
+
+roaster.recipeMap.recipeBuilder()
+    .inputs(<gtadditions:ga_meta_item:3804>*3)
+    .outputs(<gregtech:meta_item_1:10804>)
+    .duration(200)
+    .EUt(200)
+    .buildAndRegister();
+
+roaster.recipeMap.recipeBuilder()
+    .inputs(<gtadditions:ga_meta_item:3803>*3)
+    .outputs(<gregtech:meta_item_1:10803>)
+    .duration(200)
+    .EUt(200)
+    .buildAndRegister();
+
+roaster.recipeMap.recipeBuilder()
+    .inputs(<gtadditions:ga_meta_item:3812>*3)
+    .outputs(<gregtech:meta_item_1:10812>)
+    .duration(200)
+    .EUt(200)
+    .buildAndRegister();
+
+roaster.recipeMap.recipeBuilder()
+    .inputs(<gtadditions:ga_meta_item:3817>*3)
+    .outputs(<gregtech:meta_item_1:10817>)
+    .duration(200)
+    .EUt(200)
+    .buildAndRegister();
+
+roaster.recipeMap.recipeBuilder()
+    .inputs(<gtadditions:ga_meta_item:3816>*3)
+    .outputs(<gregtech:meta_item_1:10816>)
+    .duration(200)
+    .EUt(200)
+    .buildAndRegister();
+
+roaster.recipeMap.recipeBuilder()
+    .inputs(<gtadditions:ga_meta_item:3815>*3)
+    .outputs(<gregtech:meta_item_1:10815>)
+    .duration(200)
+    .EUt(200)
+    .buildAndRegister();
+
+roaster.recipeMap.recipeBuilder()
+    .inputs(<gtadditions:ga_meta_item:3820>*3)
+    .outputs(<gregtech:meta_item_1:10820>)
+    .duration(200)
+    .EUt(200)
+    .buildAndRegister();
+
+roaster.recipeMap.recipeBuilder()
+    .inputs(<gtadditions:ga_meta_item:3810>*3)
+    .outputs(<gregtech:meta_item_1:10810>)
+    .duration(200)
+    .EUt(200)
+    .buildAndRegister();
+
+roaster.recipeMap.recipeBuilder()
+    .inputs(<gtadditions:ga_meta_item:3809>*3)
+    .outputs(<gregtech:meta_item_1:10809>)
+    .duration(200)
+    .EUt(200)
+    .buildAndRegister();
+
+roaster.recipeMap.recipeBuilder()
+    .inputs(<gtadditions:ga_meta_item:3808>*3)
+    .outputs(<gregtech:meta_item_1:10808>)
+    .duration(200)
+    .EUt(200)
+    .buildAndRegister();
+
+roaster.recipeMap.recipeBuilder()
+    .inputs(<gtadditions:ga_meta_item:3795>*3)
+    .outputs(<gregtech:meta_item_1:10795>)
+    .duration(200)
+    .EUt(200)
+    .buildAndRegister();
+
+roaster.recipeMap.recipeBuilder()
+    .inputs(<gtadditions:ga_meta_item:3794>*3)
+    .outputs(<gregtech:meta_item_1:10794>)
+    .duration(200)
+    .EUt(200)
+    .buildAndRegister();
+
+roaster.recipeMap.recipeBuilder()
+    .inputs(<gtadditions:ga_meta_item:3793>*3)
+    .outputs(<gregtech:meta_item_1:10793>)
+    .duration(200)
+    .EUt(200)
+    .buildAndRegister();
+
+roaster.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2691>*3)
+    .fluidOutputs(<liquid:oxygen>*2000)
+    .outputs(<gregtech:meta_item_1:2883>)
+    .duration(800)
+    .EUt(800)
+    .buildAndRegister();
+
+
+    

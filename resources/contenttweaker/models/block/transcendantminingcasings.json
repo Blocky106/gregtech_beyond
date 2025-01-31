@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/transcendantminingcasings",
+		"left" : "contenttweaker:blocks/transcendantminingcasings",
+		"right" : "contenttweaker:blocks/transcendantminingcasings",
+		"back" : "contenttweaker:blocks/transcendantminingcasings",
+		"top" : "contenttweaker:blocks/transcendantminingcasings",
+		"bottom" : "contenttweaker:blocks/transcendantminingcasings"
+
+	}
+	
+
+}

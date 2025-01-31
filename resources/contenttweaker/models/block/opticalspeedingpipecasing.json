@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/opticalspeedingpipecasing",
+		"left" : "contenttweaker:blocks/opticalspeedingpipecasing",
+		"right" : "contenttweaker:blocks/opticalspeedingpipecasing",
+		"back" : "contenttweaker:blocks/opticalspeedingpipecasing",
+		"top" : "contenttweaker:blocks/opticalspeedingpipecasing",
+		"bottom" : "contenttweaker:blocks/opticalspeedingpipecasing"
+
+	}
+	
+
+}

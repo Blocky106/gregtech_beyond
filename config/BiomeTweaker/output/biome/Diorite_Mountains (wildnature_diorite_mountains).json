@@ -1,6 +1,6 @@
 
 {
-  "ID": 68,
+  "ID": 72,
   "Name": "Diorite Mountains",
   "Resource Location": "wildnature:diorite_mountains",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeDioriteMountains",
@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
-    "HILLS",
+    "MOUNTAIN",
     "RARE",
-    "MOUNTAIN"
+    "HILLS"
   ],
   "BiomeManager Entries": {
     "COOL Weights": [

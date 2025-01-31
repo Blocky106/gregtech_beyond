@@ -42,6 +42,7 @@ val pvd_unit = Builder.start(loc, meta)
                     "~~~~~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 10)
                 .whereOr("C", 
                 <metastate:gtadditions:ga_metal_casing_2:8>,
                     IBlockMatcher.abilityPartPredicate(
@@ -85,8 +86,9 @@ val pvd_unit = Builder.start(loc, meta)
 .withRecipeMap(
         FactoryRecipeMap.start(loc)
                         .maxInputs(4)
-                        .maxFluidInputs(1)
+                        .maxFluidInputs(3)
                         .maxOutputs(1)
+                        .maxFluidOutputs(1)
                         .build())
 .withTexture(ICubeRenderer.sided("contenttweaker:blocks/hss_g"))
 .withZoom(0.5f)
@@ -99,6 +101,24 @@ pvd_unit.recipeMap.recipeBuilder()
     .outputs(<contenttweaker:sputtered_sapphire_substrate>)
     .duration(200)
     .EUt(2000)
+    .buildAndRegister();
+
+pvd_unit.recipeMap.recipeBuilder()
+    .inputs(<gregtech:fluid_pipe:851>*9)
+    .fluidInputs(<liquid:waterplasma>*100,<liquid:superfluid_carbon_oxygen_mixture_plasma>*100)
+    .notConsumable(<gregtech:meta_item_1:32351>)
+    .fluidOutputs(<liquid:hydrogen>*1000)
+    .outputs(<contenttweaker:uev_superconductor_assembly>)
+    .duration(8000)
+    .EUt(12000)
+    .buildAndRegister();
+
+pvd_unit.recipeMap.recipeBuilder()
+    .inputs(<contenttweaker:passivated_epitaxial_ga_as_wafer>,<gregtech:meta_item_2:16470>)
+    .fluidInputs(<liquid:ammonia>*1000,<liquid:silane>*1000,<liquid:helium>*1000)
+    .outputs(<contenttweaker:nano_smd_diode_wafer>)
+    .duration(200)
+    .EUt(80)
     .buildAndRegister();
 
 

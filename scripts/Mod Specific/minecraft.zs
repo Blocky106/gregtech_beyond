@@ -1,8 +1,19 @@
+import crafttweaker.item.IItemStack;
+import crafttweaker.liquid.ILiquidStack;
+import crafttweaker.item.IIngredient;
+import mods.gregtech.recipe.RecipeMap;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.oredict.IOreDictEntry;
+import mods.contenttweaker.VanillaFactory;
+import mods.contenttweaker.Block;
+import crafttweaker.item.IItemCondition;
+
+
 recipes.addShaped(<minecraft:paper> * 3, [	[<gregtech:meta_item_1:2325>, <gregtech:meta_item_1:2325>, <gregtech:meta_item_1:2325>], 	[<ore:dustSmallWood>, <minecraft:water_bucket>, <ore:dustSmallWood>], 	[<gregtech:meta_item_1:2325>, <gregtech:meta_item_1:2325>, <gregtech:meta_item_1:2325>]]);
 recipes.addShaped(<minecraft:bed>, [	[null, null, null], [<contenttweaker:stretchedwool>, <contenttweaker:stretchedwool>, <contenttweaker:stretchedwool>], 	[<ore:fenceWood>, <ore:logWood>, <ore:fenceWood>]]);
 recipes.addShaped(<minecraft:piston>, [	[<ore:logWood>, <contenttweaker:woodgear>, <ore:logWood>], 	[<ore:dustStone>, <ore:ingotSteel>, <ore:dustStone>], 	[<ore:dustStone>, <gregtech:meta_item_1:32640>, <ore:dustStone>]]);
 recipes.addShaped(<minecraft:flint_and_steel>, [	[<ore:ingotIron>, null], 	[null, <ore:itemFlint>]]);
-recipes.addShaped(<minecraft:wooden_pressure_plate>, [	[null, null, null], 	[<ore:boltWood>, <ore:plankWood>, <ore:boltWood>], 	[<ore:voodooPoppetProtectionLightning>, <contenttweaker:woodgear>, <ore:voodooPoppetProtectionLightning>]]);
+recipes.addShaped(<minecraft:wooden_pressure_plate>, [	[null, null, null], 	[<ore:boltWood>, <ore:plankWood>, <ore:boltWood>], 	[null, <contenttweaker:woodgear>, null]]);
 recipes.addShaped(<minecraft:cobblestone_wall>*6, [	[null, <gregtech:meta_tool:6>, null], 	[<ore:stoneCobble>, <ore:stoneCobble>, <ore:stoneCobble>], 	[<ore:stoneCobble>, <ore:stoneCobble>, <ore:stoneCobble>]]);
 recipes.addShaped(<minecraft:cobblestone_wall>*4, [	[null, null, null], 	[<ore:stoneCobble>, <ore:stoneCobble>, <ore:stoneCobble>], 	[<ore:stoneCobble>, <ore:stoneCobble>, <ore:stoneCobble>]]);
 recipes.addShaped(<minecraft:chest>,[[<ore:logWood>,<ore:plankWood>,<ore:logWood>],[<ore:plankWood>, null, <ore:plankWood>],[<ore:logWood>,<ore:plankWood>,<ore:logWood>]]);
@@ -37,7 +48,13 @@ game.getEntity("sheep").addDrop(<contenttweaker:pancreas>,0,1);
 game.getEntity("chicken").addDrop(<contenttweaker:pancreas>,0,1);
 
 
-recipes.remove(<minecraft:paper>);
-recipes.remove(<minecraft:chest>);
-
 recipes.addShaped(<minecraft:fermented_spider_eye>, [[<minecraft:spider_eye>, <minecraft:red_mushroom>, null], [<ore:dustSugar>, null, null], 	[null, null, null]]);
+recipes.remove(<minecraft:flower_pot>);
+
+forming_press.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:32174>*3)
+    .outputs(<minecraft:flower_pot>)
+    .notConsumable(<gregtech:meta_item_1:32307>)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();

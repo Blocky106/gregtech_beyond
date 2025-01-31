@@ -33,6 +33,7 @@ val arcane_assembler = Builder.start(loc, meta)
                 .aisle("CAC","AAA","CAC")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('A', 4)
                 .whereOr("A", 
                 <metastate:thaumcraft:stone_arcane>,
                     IBlockMatcher.abilityPartPredicate(

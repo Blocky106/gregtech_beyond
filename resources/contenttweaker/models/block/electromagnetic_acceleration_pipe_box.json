@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/electromagnetic_acceleration_pipe_box",
+		"left" : "contenttweaker:blocks/electromagnetic_acceleration_pipe_box",
+		"right" : "contenttweaker:blocks/electromagnetic_acceleration_pipe_box",
+		"back" : "contenttweaker:blocks/electromagnetic_acceleration_pipe_box",
+		"top" : "contenttweaker:blocks/electromagnetic_acceleration_pipe_box",
+		"bottom" : "contenttweaker:blocks/electromagnetic_acceleration_pipe_box"
+
+	}
+	
+
+}

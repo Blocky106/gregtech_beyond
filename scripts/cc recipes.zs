@@ -36,7 +36,6 @@ recipes.addShaped(<contenttweaker:stoneknife>, [[null, null, <ore:stoneCobble>],
 recipes.addShaped(<contenttweaker:copperalloycoilblock>, [	[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], 	[<contenttweaker:copperalloycoil>, <contenttweaker:copperalloycoil>, <contenttweaker:copperalloycoil>], 	[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
 recipes.addShaped(<contenttweaker:copperalloycoil>, [	[<ore:wireFineCopperalloy>, <ore:wireFineCopperalloy>, <ore:wireFineCopperalloy>], 	[<ore:wireFineCopperalloy>, <ore:stickSteel>, <ore:wireFineCopperalloy>], 	[<ore:wireFineCopperalloy>, <ore:wireFineCopperalloy>, <ore:wireFineCopperalloy>]]);
 recipes.addShaped(<contenttweaker:thermalcasing>*2, [	[<ore:plateSignalum>, <ore:frameGtAluminium>, <ore:plateSignalum>], 	[<ore:plateSignalum>, <gregtech:meta_item_1:32613>, <ore:plateSignalum>], 	[<ore:plateSignalum>, <ore:frameGtAluminium>, <ore:plateSignalum>]]);
-recipes.addShaped(<contenttweaker:carbonmyogel>, [	[null, <ore:voodooPoppetProtectionBurn>, null],	[<gregtech:meta_item_2:32506>, <ore:ingotDarkSteel>, <gregtech:meta_item_2:32506>], 	[<gregtech:meta_item_2:32506>, <ore:ingotDarkSteel>, <gregtech:meta_item_2:32506>]]);
 recipes.addShaped(<contenttweaker:wiring>*4, [	[<ore:wireGtSingleCopper>, <ore:wireGtSingleCopper>, <ore:wireGtSingleCopper>], 	[<ore:wireGtSingleCopper>, null, <ore:wireGtSingleCopper>], 	[<ore:wireGtSingleCopper>, <ore:wireGtSingleCopper>, <ore:wireGtSingleCopper>]]);
 recipes.addShaped(<contenttweaker:solenoid>*2, [	[<contenttweaker:wiring>, <contenttweaker:wiring>, <contenttweaker:wiring>], 	[<contenttweaker:wiring>, <ore:stickSteel>, <contenttweaker:wiring>], 	[<contenttweaker:wiring>, <contenttweaker:wiring>, <contenttweaker:wiring>]]);
 recipes.addShaped(<contenttweaker:coolantcontainmentcell>, [	[<ore:plateBlackSteel>, <ore:plateNickelZincFerrite>, <ore:plateBlackSteel>], 	[<ore:plateBlackSteel>, <gregtech:meta_item_1:32406>, <ore:plateBlackSteel>], 	[<ore:plateBlackSteel>, <ore:plateNickelZincFerrite>, <ore:plateBlackSteel>]]);
@@ -55,9 +54,8 @@ furnace.addRecipe(<gtadditions:ga_dust:32007>, <contenttweaker:cryoliteore>);
 recipes.addShaped(<contenttweaker:treatedwoodplanks>*8, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], 	[<ore:plankWood>, <contenttweaker:paraffinwax>, <ore:plankWood>], 	[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]);
 recipes.addShaped(<contenttweaker:steel_plated_workbench>,[[<ore:plateSteel>,null,<ore:plateSteel>],[null,<minecraft:crafting_table>,null],[<ore:plateSteel>,null,<ore:plateSteel>]]);
 recipes.addShaped(<contenttweaker:seared_gear>, [[<ore:ingotBrickSeared>, null, <ore:ingotBrickSeared>], [null, <ore:gearIron>, null], [<ore:ingotBrickSeared>, null, <ore:ingotBrickSeared>]]);
-
-
-
+recipes.addShaped(<contenttweaker:fused_quartz_block>,[[<contenttweaker:fused_quartz>,<contenttweaker:fused_quartz>],[<contenttweaker:fused_quartz>,<contenttweaker:fused_quartz>]]);
+recipes.addShaped(<contenttweaker:servo>, [	[<ore:nuggetRedstoneAlloy>, null, <ore:nuggetRedstoneAlloy>], 	[<ore:plateDamascusSteel>, <ore:plateDamascusSteel>, <ore:plateDamascusSteel>], 	[<ore:nuggetRedstoneAlloy>, null, <ore:nuggetRedstoneAlloy>]]);
 
 
 

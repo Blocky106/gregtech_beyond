@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/machine_casing_solid_steel",
+		"left" : "contenttweaker:blocks/machine_casing_solid_steel",
+		"right" : "contenttweaker:blocks/machine_casing_solid_steel",
+		"back" : "contenttweaker:blocks/machine_casing_solid_steel",
+		"top" : "contenttweaker:blocks/machine_casing_solid_steel",
+		"bottom" : "contenttweaker:blocks/machine_casing_solid_steel"
+
+	}
+	
+
+}

@@ -1,6 +1,6 @@
 
 {
-  "ID": 47,
+  "ID": 51,
   "Name": "Emptiness",
   "Resource Location": "thaumicaugmentation:emptiness",
   "Class": "thecodex6824.thaumicaugmentation.common.world.biome.BiomeEmptiness",
@@ -20,10 +20,10 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
+    "COLD",
     "VOID",
-    "SPARSE",
     "SPOOKY",
-    "COLD"
+    "SPARSE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

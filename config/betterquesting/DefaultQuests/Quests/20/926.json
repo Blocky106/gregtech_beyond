@@ -1,0 +1,47 @@
+{
+  "preRequisites:11": [
+    548
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 32494,
+        "id:8": "gtadditions:ga_meta_item"
+      },
+      "name:8": "Optical Smd\u0027s",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 926,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32494,
+          "id:8": "gtadditions:ga_meta_item"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 32495,
+          "id:8": "gtadditions:ga_meta_item"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 32496,
+          "id:8": "gtadditions:ga_meta_item"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 32497,
+          "id:8": "gtadditions:ga_meta_item"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

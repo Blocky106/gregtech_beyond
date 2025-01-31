@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/bismuth_bronze",
+		"left" : "contenttweaker:blocks/bismuth_bronze",
+		"right" : "contenttweaker:blocks/bismuth_bronze",
+		"back" : "contenttweaker:blocks/bismuth_bronze",
+		"top" : "contenttweaker:blocks/bismuth_bronze",
+		"bottom" : "contenttweaker:blocks/bismuth_bronze"
+
+	}
+	
+
+}

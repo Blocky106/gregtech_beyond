@@ -1,6 +1,6 @@
 
 {
-  "ID": 84,
+  "ID": 88,
   "Name": "Lupine Field",
   "Resource Location": "wildnature:lupine_field",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeLupineField",

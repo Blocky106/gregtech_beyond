@@ -42,6 +42,7 @@ val vis_breaker = Builder.start(loc, meta)
                 .aisle("~~~~~~~","~~~~~~~","~~CCC~~","~~CCC~~","~~CCC~~","~~~~~~~","~~~~~~~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 130)
                 .whereOr("C", 
                <metastate:gregtech:metal_casing:4>,
                     IBlockMatcher.abilityPartPredicate(
@@ -74,6 +75,7 @@ val vis_breaker = Builder.start(loc, meta)
                         .maxInputs(1)
                         .maxFluidInputs(1)
                         .maxFluidOutputs(2)
+                        .maxOutputs(1)
                         .build())
 .withZoom(0.5f)
 

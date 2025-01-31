@@ -1,0 +1,47 @@
+{
+  "preRequisites:11": [
+    852
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "betterquesting:placeholder",
+        "tag:10": {
+          "orig_id:8": "powersuits:powerarmor_legs",
+          "orig_meta:3": 0,
+          "orig_tag:10": {
+            "MMModItem:10": {
+              "commonValues:10": {}
+            }
+          }
+        }
+      },
+      "name:8": "Power Armor Leggings"
+    }
+  },
+  "questID:3": 845,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "powersuits:powerarmor_legs",
+            "orig_meta:3": 0,
+            "orig_tag:10": {
+              "MMModItem:10": {
+                "commonValues:10": {}
+              }
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

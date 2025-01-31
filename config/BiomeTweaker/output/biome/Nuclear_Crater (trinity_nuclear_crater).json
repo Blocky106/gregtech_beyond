@@ -1,6 +1,6 @@
 
 {
-  "ID": 50,
+  "ID": 54,
   "Name": "Nuclear Crater",
   "Resource Location": "trinity:nuclear_crater",
   "Class": "trinity.world.BiomeNuclearCrater",
@@ -20,11 +20,11 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DEAD",
-    "HOT",
-    "SPARSE",
     "DRY",
-    "WASTELAND"
+    "DEAD",
+    "WASTELAND",
+    "SPARSE",
+    "HOT"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

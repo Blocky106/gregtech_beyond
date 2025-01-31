@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/motorblock",
+		"left" : "contenttweaker:blocks/motorblock",
+		"right" : "contenttweaker:blocks/motorblock",
+		"back" : "contenttweaker:blocks/motorblock",
+		"top" : "contenttweaker:blocks/motorblock",
+		"bottom" : "contenttweaker:blocks/motorblock"
+
+	}
+	
+
+}

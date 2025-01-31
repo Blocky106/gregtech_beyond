@@ -45,6 +45,7 @@ val matter_quantizer = Builder.start(loc, meta)
                     "HHH")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('H', 7)
                 .whereOr("H", 
                 <metastate:contenttweaker:highpowercasing>,
                     IBlockMatcher.abilityPartPredicate(

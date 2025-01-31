@@ -55,14 +55,6 @@ centrifuge.recipeBuilder()
     .duration(900)
     .buildAndRegister();
 
-ebf.recipeBuilder()
-    .fluidInputs(<liquid:filteredbsatnasitemud>*200)
-    .fluidOutputs(<liquid:bastnasiteoxidecompositeliquid>*200)
-    .property("temperature", 3400)
-    .EUt(6000)
-    .duration(920)
-    .buildAndRegister();
-
 lcentrifuge.recipeBuilder()
     .fluidInputs(<liquid:ceriumcontainingbastnasiteconcentrate>*1000)
     .outputs(<gtadditions:ga_dust:11>)
@@ -190,14 +182,6 @@ lcr.recipeBuilder()
     .EUt(2400)
     .buildAndRegister();
 
-chemical_bath.recipeBuilder()
-    .fluidOutputs(<liquid:bastnasiterarerearthconcentrate>*1000)
-    .fluidInputs(<liquid:hydrochloric_acid>*1000)
-    .inputs(<gtadditions:ga_dust:32061>)
-    .duration(200)
-    .EUt(19000)
-    .buildAndRegister();
-
 ebf.recipeBuilder()
     .inputs(<gtadditions:ga_dust:32075>,<gregtech:meta_item_1:2011>)
     .outputs(<gtadditions:ga_dust:32076>,<gtadditions:ga_dust:17>)
@@ -312,8 +296,8 @@ distillation_tower.recipeBuilder()
     .EUt(280)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(chemReactor,null, [<liquid:rare_earth_hydroxides_solution>*1000,<liquid:hydrogen>*3000], false);
-Utils.removeRecipeByOutput(lcr,null, [<liquid:rare_earth_hydroxides_solution>*1000,<liquid:hydrogen>*3000], false);
+Utils.removeRecipeByOutput(chemReactor,null, [<liquid:rare_earth_hydroxides_solution>*1000,<liquid:hydrogen>*3000], true);
+Utils.removeRecipeByOutput(lcr,null, [<liquid:rare_earth_hydroxides_solution>*1000,<liquid:hydrogen>*3000], true);
 
 
 chemReactor.findRecipe(480,null,[<liquid:hydrochloric_acid>*3000,<liquid:rare_earth_hydroxides_solution>*1000]).remove();
@@ -333,31 +317,6 @@ dehydrator.recipeBuilder()
     .EUt(480)
     .duration(200)
     .buildAndRegister();
-
-dehydrator.recipeBuilder()
-    .inputs(<contenttweaker:rareearthone>)
-    .outputs(<gtadditions:ga_dust:32073>)
-    .EUt(12000)
-    .duration(800)
-    .buildAndRegister();
-
-dehydrator.recipeBuilder()
-    .inputs(<contenttweaker:rareearthtwo>)
-    .outputs(<gtadditions:ga_dust:32068>)
-    .EUt(12000)
-    .duration(800)
-    .buildAndRegister();
-
-dehydrator.recipeBuilder()
-    .inputs(<contenttweaker:rareearththree>)
-    .outputs(<gtadditions:ga_dust:32074>)
-    .EUt(12000)
-    .duration(800)
-    .buildAndRegister();
-
-chemReactor.findRecipe(96,[<gregtech:meta_item_1:2061>],[<liquid:methanol>*2000,<liquid:hydrochloric_acid>*2000]).remove();
-lcr.findRecipe(96,[<gregtech:meta_item_1:2061>,<gregtech:meta_item_1:32766>.withTag({Configuration: 2})],[<liquid:methane>*2000,<liquid:water>*1000,<liquid:chlorine>*4000]).remove();
-
 
 centrifuge.recipeBuilder()
 	.inputs(<gtadditions:ga_dust:32030>*3)
@@ -383,6 +342,30 @@ mixer.recipeBuilder()
     .EUt(1200)
     .duration(700)
     .buildAndRegister();
+
+distillation_tower.recipeBuilder()
+    .fluidInputs(<liquid:neodymium_rich_monazite_solution>*2000)
+    .fluidOutputs(<liquid:monazite_solution>*400,<liquid:neodymium_oxide_solution>*1600)
+    .duration(400)
+    .EUt(2000)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:neodymium_oxide_solution>*1000,<liquid:hydrogen>*1000)
+    .EUt(400)
+    .fluidOutputs(<liquid:neodymium_solution>*1000,<liquid:water>*1000)
+    .duration(800)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:neodymium_oxide_solution>*1000,<liquid:hydrogen>*1000)
+    .EUt(400)
+    .fluidOutputs(<liquid:neodymium_solution>*1000,<liquid:water>*1000)
+    .duration(800)
+    .buildAndRegister();
+
+
+
 
 
 

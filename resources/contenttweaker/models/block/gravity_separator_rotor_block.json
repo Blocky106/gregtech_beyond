@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/gravity_separator_rotor_block",
+		"left" : "contenttweaker:blocks/gravity_separator_rotor_block",
+		"right" : "contenttweaker:blocks/gravity_separator_rotor_block",
+		"back" : "contenttweaker:blocks/gravity_separator_rotor_block",
+		"top" : "contenttweaker:blocks/gravity_separator_rotor_block",
+		"bottom" : "contenttweaker:blocks/gravity_separator_rotor_block"
+
+	}
+	
+
+}

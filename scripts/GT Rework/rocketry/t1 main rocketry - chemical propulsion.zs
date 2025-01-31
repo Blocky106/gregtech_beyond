@@ -53,7 +53,7 @@ assembler.recipeBuilder()
     .inputs( <contenttweaker:oxidizer_tank>, <contenttweaker:propellant_tank>, <ore:pipeMediumStainlessSteel>*5, 
 	<contenttweaker:heavydutyplatet1>*6, <gtadditions:ga_pump_casing:2>, <gregtech:machine:2542>, 
 	<ore:platePlastic>*4, <ore:frameGtCupronickel>, <contenttweaker:rocket_combustion_chamber>)
-    .outputs(<contenttweaker:turbopump>)
+    .outputs(<contenttweaker:rocket_turbo_pump>)
     .duration(2400)
     .EUt(120)
     .buildAndRegister();

@@ -1,0 +1,38 @@
+{
+  "preRequisites:11": [
+    1448,
+    1453
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "betterquesting:placeholder",
+        "tag:10": {
+          "orig_id:8": "contenttweaker:naquadahdopedmonazite",
+          "orig_meta:3": 0
+        }
+      },
+      "name:8": "Naquadah Doped Monazite"
+    }
+  },
+  "questID:3": 1449,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "contenttweaker:naquadahdopedmonazite",
+            "orig_meta:3": 0
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

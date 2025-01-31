@@ -1,0 +1,49 @@
+{
+  "preRequisites:11": [
+    413
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "qmd:target_chamber_controller"
+      },
+      "name:8": "Targetting"
+    }
+  },
+  "questID:3": 427,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "qmd:target_chamber_controller"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "qmd:particle_chamber_casing"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "qmd:particle_chamber_beam"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "qmd:particle_chamber"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "qmd:particle_chamber_beam_port"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "qmd:particle_chamber_energy_port"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

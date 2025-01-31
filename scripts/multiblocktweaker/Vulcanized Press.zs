@@ -33,6 +33,7 @@ val vulcanized_press = Builder.start(loc, meta)
                 .aisle("PCP","CCC","PCP")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 3)
                 .whereOr("C", 
                 <metastate:gregtech:boiler_firebox_casing:1>,
                     IBlockMatcher.abilityPartPredicate(

@@ -42,6 +42,16 @@ import mods.nuclearcraft.Turbine;
 import mods.nuclearcraft.Supercooler;
 
 
+mods.nuclearcraft.IngotFormer.removeAllRecipes();
+mods.nuclearcraft.ChemicalReactor.removeAllRecipes();
+mods.nuclearcraft.Centrifuge.removeAllRecipes();
+mods.nuclearcraft.FuelReprocessor.removeAllRecipes();
+mods.nuclearcraft.Infuser.removeAllRecipes();
+mods.nuclearcraft.SaltMixer.removeAllRecipes();
+mods.nuclearcraft.Separator.removeAllRecipes();
+mods.nuclearcraft.DecayHastener.removeAllRecipes();
+mods.qmd.ore_leacher.removeAllRecipes();
+mods.qmd.mass_spectrometer.removeAllRecipes();
 
 alloy_smelter.recipeBuilder()
     .inputs(<gregtech:meta_item_1:13231>*2,<gregtech:meta_item_1:13035>*2)
@@ -73,6 +83,7 @@ recipes.addShaped(<nuclearcraft:part:4>, [	[<ore:wireGtSingleCopper>, <ore:wireG
 fluid_solidifier.recipeBuilder()
     .fluidInputs(<liquid:mercury>*1000)
     .outputs(<qmd:ingot2:2>)
+    .notConsumable(<gregtech:meta_item_1:32306>)
     .duration(200)
     .EUt(1200)
     .buildAndRegister();
@@ -511,6 +522,7 @@ electrolyzer.recipeBuilder()
 
 fluid_solidifier.recipeBuilder()
     .fluidInputs(<liquid:sodium_hydroxide_solution>*1000)
+    .notConsumable(<gregtech:meta_item_1:32307>)
     .outputs(<gregtech:meta_item_1:2373>)
     .duration(400)
     .EUt(240)
@@ -1133,8 +1145,6 @@ wiremill.recipeBuilder()
 
 furnace.remove(<qmd:ingot2:1>);
 
-recipes.remove(<nuclearcraft:part:1>);
-
 assembler.recipeBuilder()
     .inputs(<nuclearcraft:part>,<ore:plateRedstone>*2,<ore:ingotTough>*2,<ore:plateAluminium>*2)
     .outputs(<nuclearcraft:part:1>)
@@ -1142,16 +1152,12 @@ assembler.recipeBuilder()
     .EUt(100)
     .buildAndRegister();
     
-recipes.remove(<nuclearcraft:part:2>);
-
 assembler.recipeBuilder()
     .inputs(<nuclearcraft:part:1>*2,<gregtech:meta_item_1:12075>*4,<gregtech:meta_item_1:12076>,<ore:dustSulfur>*4)
     .outputs(<nuclearcraft:part:2>)
     .duration(500)
     .EUt(4000)
     .buildAndRegister();
-    
-recipes.remove(<nuclearcraft:part:3>);
 
 assembler.recipeBuilder()
     .fluidInputs(<liquid:stainless_steel>*288)
@@ -1205,4 +1211,49 @@ alloy_smelter.recipeBuilder()
     .EUt(180)
     .buildAndRegister();
 
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:precious_leach_nitrate>*1000)
+    .inputs(<gtadditions:ga_explosive:4>)
+    .outputs(<trinity:compression_charge>)
+    .duration(200)
+    .EUt(5000)
+    .buildAndRegister();
 
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:precious_leach_nitrate>*1000)
+    .inputs(<gtadditions:ga_explosive:4>)
+    .outputs(<trinity:compression_charge>)
+    .duration(200)
+    .EUt(5000)
+    .buildAndRegister();
+
+alloy_smelter.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:10912>,<gregtech:meta_item_1:10041>)
+    .outputs(<nuclearcraft:alloy:16>*2)
+    .duration(200)
+    .EUt(80)
+    .buildAndRegister();
+
+alloy_smelter.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2912>,<gregtech:meta_item_1:10041>)
+    .outputs(<nuclearcraft:alloy:16>*2)
+    .duration(200)
+    .EUt(80)
+    .buildAndRegister();
+
+alloy_smelter.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:10912>,<gregtech:meta_item_1:2041>)
+    .outputs(<nuclearcraft:alloy:16>*2)
+    .duration(200)
+    .EUt(80)
+    .buildAndRegister();
+
+alloy_smelter.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2912>,<gregtech:meta_item_1:2041>)
+    .outputs(<nuclearcraft:alloy:16>*2)
+    .duration(200)
+    .EUt(80)
+    .buildAndRegister();
+
+recipes.remove(<nuclearcraft:ingot_former>);
+recipes.remove(<nuclearcraft:fission_irradiator>);

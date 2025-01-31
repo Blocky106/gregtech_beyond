@@ -1,6 +1,6 @@
 
 {
-  "ID": 80,
+  "ID": 84,
   "Name": "Deciduous Mountain",
   "Resource Location": "wildnature:deciduous_mountain",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeDeciduousMountain",
@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DENSE",
+    "MOUNTAIN",
     "FOREST",
-    "MOUNTAIN"
+    "DENSE"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [

@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/reactorsimulator",
+		"left" : "contenttweaker:blocks/reactorsimulator",
+		"right" : "contenttweaker:blocks/reactorsimulator",
+		"back" : "contenttweaker:blocks/reactorsimulator",
+		"top" : "contenttweaker:blocks/reactorsimulator",
+		"bottom" : "contenttweaker:blocks/reactorsimulator"
+
+	}
+	
+
+}

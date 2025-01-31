@@ -26,7 +26,7 @@ mods.jei.JEI.hideCategory("gregtech:rock_crusher");
 mods.jei.JEI.hideCategory("gregtech:rotary_evaporator");
 mods.jei.JEI.hideCategory("gregtech:drone_pad");
 mods.jei.JEI.hideCategory("gregtech:scanner");
-mods.jei.JEI.hideCategory("gregtecy:steam_foundry")
+mods.jei.JEI.hideCategory("gregtech:steam_foundry");
 mods.jei.JEI.hideCategory("gregtech:vacuum_ejection_chamber");
 mods.jei.JEI.hideCategory("gregtech:water_collector");
 mods.jei.JEI.hideCategory("gregtech:astro_mining_station");
@@ -36,7 +36,6 @@ mods.jei.JEI.hideCategory("gregtech:black_hole_compressor");
 mods.jei.JEI.hideCategory("gregtech:catalytic_reformation_unit");
 mods.jei.JEI.hideCategory("gregtech:condensation_unit");
 mods.jei.JEI.hideCategory("gregtech:coker");
-mods.jei.JEI.hideCategory("gregtech:cosmic_pneumatic_chamber");
 mods.jei.JEI.hideCategory("gregtech:cryogenic_distillation_plant");
 mods.jei.JEI.hideCategory("gregtech:cstr");
 mods.jei.JEI.hideCategory("gregtech:cvd_unit");
@@ -102,19 +101,50 @@ mods.jei.JEI.hideCategory("gregtech:mega_chemical_reactor");
 mods.jei.JEI.hideCategory("gregtech:bacterial_vat");
 mods.jei.JEI.hideCategory("gregtech:gravity_settler_tank");
 mods.jei.JEI.hideCategory("gregtech:enzymatic_hydrolisis_tank");
-
-
-
-
-
+mods.jei.JEI.hideCategory("gregtech:ore_factory");
+mods.jei.JEI.hideCategory("gregtech:sonicator");
+mods.jei.JEI.hideCategory("gregtech:engraving_unit");
+mods.jei.JEI.hideCategory("gregtech:pressure_swing_adsorber");
+mods.jei.JEI.hideCategory("gregtech:superheavy_reactor");
+mods.jei.JEI.hideCategory("gregtech:catalytic_cracking_unit");
+mods.jei.JEI.hideCategory("gregtech:tube_furnace");
+mods.jei.JEI.hideCategory("gregtech:space_elevator");
+mods.jei.JEI.hideCategory("gregtech:sealed_reaction_chamber");
+mods.jei.JEI.hideCategory("gregtech:vacuum_metallizer");
+mods.jei.JEI.hideCategory("gregtech:flash_chromatography_system");
+mods.jei.JEI.hideCategory("gregtech:cryogenic_reactor");
+mods.jei.JEI.hideCategory("gregtech:crystallization_cruicible");
+mods.jei.JEI.hideCategory("gregtech:tree_farm");
+mods.jei.JEI.hideCategory("gregtech:reactive_ion_etcher");
+mods.jei.JEI.hideCategory("gregtech:stellar_pressure_generator");
+mods.jei.JEI.hideCategory("gregtech:electron_beam_lithographer");
+mods.jei.JEI.hideCategory("gregtech:high_vacuum_evaporation_system");
+mods.jei.JEI.hideCategory("gregtech:primitive_blast_furnaces");
+mods.jei.JEI.hideCategory("gregtech:large_fluid_driller");
+mods.jei.JEI.hideCategory("gregtech:mocvd_unit");
+mods.jei.JEI.hideCategory("gregtech:trickle_bed_reactor");
+mods.jei.JEI.hideCategory("gregtech:tube_in_tube_reactor");
+mods.jei.JEI.hideCategory("gregtech:quencher");
+mods.jei.JEI.hideCategory("gregtech:mega_alloy_blast_smelter");
+mods.jei.JEI.hideCategory("gregtech:electrowinning_cell");
 
 
 
 val itemstoRemove =
 [
 <gregtech:machine:2>,
+<minecraft:snow>,
+<gregtech:machine:4178>,
+<gregtech:machine:4177>,
+<gregtech:metal_casing:8>,
+<gregtech:machine:4176>,
+<gregtech:machine:2538>,
 <gregtech:machine:3>,
+<packagedauto:package_component>,
+<gregtech:machine:508>,
+<gregtech:machine:2553>,
 <gregtech:machine:4>,
+<gregtech:frame_maraging_steel_a>,
 <gregtech:machine:6>,
 <morphtool:tool>,
 <gregtech:machine:2242>,
@@ -221,7 +251,6 @@ val itemstoRemove =
 <gregtech:meta_item_1:2127>,
 <gregtech:meta_item_1:2301>,
 <gregtech:meta_item_1:2302>,
-<thermalexpansion:machine:3>,
 <enderio:block_simple_alloy_smelter>,
 <enderio:block_alloy_smelter>,
 <enderio:block_enhanced_alloy_smelter>,
@@ -235,17 +264,11 @@ val itemstoRemove =
 <gregtech:machine:211>,
 <gregtech:wire_coil:1>,
 <minecraft:compass>,
-<thermalexpansion:dynamo>,
 <gregtech:meta_item_1:2230>,
 <gregtech:meta_item_1:2094>,
 <gregtech:machine:2534>,
 <gregtech:meta_item_1:32721>,
-<thermalfoundation:upgrade:1>,
-<thermalfoundation:upgrade:33>,
-<thermalfoundation:upgrade:34>,
-<thermalfoundation:upgrade:35>,
 <gregtech:meta_item_1:2364>,
-<gregtech:metal_casing:3>,
 <gregtech:machine:2535>,
 <forestry:worktable>,
 <forestry:sturdy_machine>,
@@ -260,22 +283,16 @@ val itemstoRemove =
 <extendedcrafting:table_advanced>,
 <gregtech:machine:2221>,
 <gtadditions:ga_meta_item:32572>,
-<thermalfoundation:upgrade>,
-<thermalexpansion:augment:513>,
 <gregtech:meta_item_1:2233>,
 <gregtech:meta_item_1:2231>,
 <gregtech:meta_item_1:2229>,
 <minecraft:iron_ingot>,
-<thermalexpansion:machine:14>,
 <gregtech:meta_item_1:2423>,
 <gregtech:machine:2502>,
 <gregtech:meta_item_1:2304>,
 <appliedenergistics2:controller>,
 <appliedenergistics2:drive>,
 <ironchest:iron_chest>,
-<thermalexpansion:frame>,
-<thermalexpansion:capacitor>,
-<thermalexpansion:capacitor:1>,
 <appliedenergistics2:inscriber>,
 <extendedcrafting:material:9>,
 <extendedcrafting:material:16>,
@@ -287,21 +304,15 @@ val itemstoRemove =
 <minecraft:piston>,
 <gregtech:meta_item_1:2228>,
 <theoneprobe:probe>,
-<thermalfoundation:storage_alloy:6>,
-<thermalfoundation:storage_alloy:5>,
 <appliedenergistics2:material:9>,
 <torchmaster:dread_lamp>,
 <appliedenergistics2:part:380>,
 <simplevoidworld:portal>,
 <appliedenergistics2:part:460>,
-<thermalexpansion:capacitor:2>,
 <minecraft:flint_and_steel>,
 <torchmaster:mega_torch>,
 <gregtech:meta_item_1:14297>,
 <torchmaster:feral_flare_lantern>,
-<thermalfoundation:material:136>,
-<thermalfoundation:material:165>,
-<thermalfoundation:material:166>,
 <appliedenergistics2:part:360>,
 <projectred-core:resource_item:310>,
 <projectred-core:resource_item:311>,
@@ -311,10 +322,8 @@ val itemstoRemove =
 <gregtech:machine:230>,
 <gregtech:machine:240>,
 <gregtech:machine:2536>,
-<thermalexpansion:frame:64>,
 <minecraft:stone_button>,
 <minecraft:nether_star>,
-<thermalexpansion:cell>,
 <gregtech:machine:2994>,
 <gregtech:machine:2995>,
 <gregtech:machine:2996>,
@@ -323,7 +332,6 @@ val itemstoRemove =
 <gregtech:machine:2999>,
 <gregtech:machine:2930>,
 <gregtech:machine:2931>,
-<thermalexpansion:frame:128>,
 <gregtech:meta_item_1:32603>,
 <gregtech:meta_item_1:32604>,
 <gregtech:meta_item_1:32602>,
@@ -364,20 +372,6 @@ val itemstoRemove =
 <tconstruct:tooltables>,
 <tconstruct:soil>,
 <tconstruct:materials:14>,
-<thermalfoundation:material:101>,
-<thermalfoundation:wrench>,
-<thermalfoundation:material:657>,
-<thermalfoundation:security>,
-<thermalexpansion:strongbox>,
-<thermalexpansion:cache>,
-<thermalexpansion:dynamo:1>,
-<thermalexpansion:dynamo:2>,
-<thermalexpansion:dynamo:4>,
-<thermalexpansion:dynamo:3>,
-<thermalexpansion:tank>,
-<thermalfoundation:material:1027>,
-<thermalfoundation:material:1026>,
-<thermalinnovation:drill:1>,
 <thaumcraft:ingot:2>,
 <thaumcraft:nugget>,
 <thaumcraft:plate:2>,
@@ -518,34 +512,6 @@ val itemstoRemove =
 <projectred-transmission:wire:16>,
 <projectred-core:resource_item:251>,
 <projectred-core:resource_item:252>,
-<pneumaticcraft:network_component:5>,
-<pneumaticcraft:crop_support>,
-<pneumaticcraft:pressure_chamber_wall>,
-<pneumaticcraft:gun_ammo_incendiary>,
-<pneumaticcraft:gun_ammo_weighted>,
-<pneumaticcraft:gun_ammo_ap>,
-<pneumaticcraft:gun_ammo_explosive>,
-<pneumaticcraft:gun_ammo_freezing>,
-<pneumaticcraft:minigun>,
-<pneumaticcraft:air_canister>,
-<pneumaticcraft:pressure_tube>,
-<pneumaticcraft:pressure_chamber_valve>,
-<pneumaticcraft:assembly_controller>,
-<pneumaticcraft:assembly_platform>,
-<pneumaticcraft:assembly_drill>,
-<pneumaticcraft:assembly_laser>,
-<pneumaticcraft:assembly_io_unit>,
-<pneumaticcraft:pressure_chamber_glass>,
-<pneumaticcraft:air_compressor>,
-<pneumaticcraft:cannon_barrel>,
-<pneumaticcraft:advanced_air_compressor>,
-<pneumaticcraft:turbine_rotor>,
-<pneumaticcraft:electrostatic_compressor>,
-<pneumaticcraft:network_component:3>,
-<pneumaticcraft:uv_light_box>,
-<pneumaticcraft:gun_ammo>,
-<pneumaticcraft:plastic_mixer>,
-<pneumaticcraft:liquid_hopper> ,
 <overloaded:nether_star_block>,
 <overloaded:compressed_cobblestone:1>,
 <overloaded:compressed_cobblestone>,
@@ -897,12 +863,23 @@ val itemstoRemove =
 <appliedenergistics2:material:41>,
 <ae2stuff:visualiser>,
 <ae2stuff:wireless_kit>,
-<ae2stuff:encoder>,
 <threng:material:1>,
+<tconstruct:ingots>,
+<tconstruct:seared_tank>,
+<tconstruct:wooden_hopper>,
+<nuclearcraft:part:3>,
+<trinity:compression_charge>,
+<nuclearcraft:part:2>,
+<nuclearcraft:part:1>,
+<threng:material:9>,
+<threng:machine:1>,
+<minecraft:paper>,
+<minecraft:chest>,
+<appliedenergistics2:part:220>,
 <threng:machine>,
 <ae2stuff:wireless>,
 <ae2stuff:inscriber>,
-<pneumaticcraft:refinery>,
+
 ]
  as IItemStack[];
 
@@ -926,12 +903,13 @@ for item in itemstoRemove {
 
 val itemstoRemoveAndHide =
 [
-<thermalexpansion:machine:11>,
+<nuclearcraft:extractor>,
 <projectred-expansion:machine2:11>,
 <projectred-expansion:machine2:10>,
 <wildnature:amethyst_ore>,
 <wildnature:malachite_block>,
 <wildnature:ruby_block>,
+<projectred-expansion:machine1>,
 <wildnature:ruby_ore>,
 <wildnature:silver_block>,
 <wildnature:malachite_ore>,
@@ -1113,16 +1091,13 @@ val itemstoRemoveAndHide =
 <nuclearcraft:cobblestone_generator_compact>,
 <nuclearcraft:cobblestone_generator>,
 <appliedenergistics2:quartz_block>,
-<gregtech:meta_block_compressed_35:1>,
 <gregtech:meta_item_1:10561>,
 <thaumcraft:nugget:2>,
 <thaumcraft:nugget:1>,
 <thaumcraft:nugget>,
 <gregtech:meta_item_1:9523>,
-<gregtech:meta_block_compressed_32:11>,
 <thaumcraft:plate>,
 <thaumcraft:plate:1>,
-<thermalfoundation:material:772>,
 <appliedenergistics2:material:2>,
 <extendedcrafting:storage:2>,
 <appliedenergistics2:material:3>,
@@ -1130,39 +1105,6 @@ val itemstoRemoveAndHide =
 <appliedenergistics2:material:46>,
 <enderio:block_simple_furnace>,
 <zerocore:debugtool>,
-<thermalfoundation:material:359>,
-<thermalfoundation:material:295>,
-<thermalfoundation:material:231>,
-<thermalfoundation:material:103>,
-<thermalfoundation:storage_alloy:7>,
-<thermalfoundation:material:2049>,
-<thermalfoundation:material:1024>,
-<thermalfoundation:material:1025>,
-<thermalfoundation:material:167>,
-<thermalexpansion:augment:129>,
-<thermalexpansion:augment:256>,
-<thermalexpansion:augment:257>,
-<thermalexpansion:augment:258>,
-<thermalexpansion:augment:273>,
-<thermalexpansion:augment:288>,
-<thermalexpansion:augment:448>,
-<thermalexpansion:augment:320>,
-<thermalexpansion:augment:323>,
-<thermalexpansion:augment:401>,
-<thermalexpansion:augment:402>,
-<thermalexpansion:augment:416>,
-<thermalexpansion:augment:432>,
-<thermalexpansion:augment:433>,
-<thermalexpansion:augment:496>,
-<thermalexpansion:augment:497>,
-<thermalexpansion:augment:400>,
-<thermalexpansion:augment:369>,
-<thermalexpansion:augment:324>,
-<thermalexpansion:augment:336>,
-<thermalexpansion:augment:337>,
-<thermalexpansion:augment:352>,
-<thermalexpansion:augment:368>,
-<thermalfoundation:material:768>,
 <gtadditions:ga_meta_item:32347>,
 <gtadditions:ga_meta_item:32346>,
 <gtadditions:ga_meta_item:32571>,
@@ -1200,172 +1142,7 @@ val itemstoRemoveAndHide =
 <gregtech:machine:2179>,
 <gregtech:machine:2180>,
 <gregtech:machine:2181>,
-<thermalfoundation:material:128>,
-<thermalfoundation:material:129>,
-<thermalfoundation:material:130>,
-<thermalfoundation:material:131>,
-<thermalfoundation:material:132>,
-<thermalfoundation:material:133>,
-<thermalfoundation:material:134>,
-<thermalfoundation:material:135>,
-<thermalfoundation:material:160>,
-<thermalfoundation:material:161>,
-<thermalfoundation:material:162>,
-<thermalfoundation:material:163>,
-<thermalfoundation:material:164>,
-<thermalfoundation:material>,
-<thermalfoundation:material:1>,
-<thermalfoundation:material:22>,
-<thermalfoundation:material:23>,
-<thermalfoundation:material:24>,
-<thermalfoundation:material:25>,
-<thermalfoundation:material:26>,
-<thermalfoundation:material:27>,
-<thermalfoundation:material:256>,
-<thermalfoundation:material:257>,
-<thermalfoundation:material:258>,
-<thermalfoundation:material:259>,
-<thermalfoundation:material:260>,
-<thermalfoundation:material:261>,
-<thermalfoundation:material:262>,
-<thermalfoundation:material:263>,
-<thermalfoundation:material:288>,
-<thermalfoundation:material:289>,
-<thermalfoundation:material:290>,
-<thermalfoundation:material:291>,
-<thermalfoundation:material:292>,
-<thermalfoundation:material:325>,
-<thermalfoundation:material:326>,
-<thermalfoundation:material:327>,
-<thermalfoundation:material:321>,
-<thermalfoundation:material:322>,
-<thermalfoundation:material:323>,
-<thermalfoundation:material:324>,
-<thermalfoundation:material:320>,
-<thermalfoundation:material:352>,
 <appliedenergistics2:material:49>,
-<thermalfoundation:material:64>,
-<thermalfoundation:material:65>,
-<thermalfoundation:material:66>,
-<thermalfoundation:material:67>,
-<thermalfoundation:material:68>,
-<thermalfoundation:material:69>,
-<thermalfoundation:material:70>,
-<thermalfoundation:material:71>,
-<thermalfoundation:material:96>,
-<thermalfoundation:material:97>,
-<thermalfoundation:material:98>,
-<thermalfoundation:material:99>,
-<thermalfoundation:material:100>,
-<thermalfoundation:material:353>,
-<thermalfoundation:material:354>,
-<thermalfoundation:material:355>,
-<thermalfoundation:material:356>,
-<thermalfoundation:material:192>,
-<thermalfoundation:material:193>,
-<thermalfoundation:material:194>,
-<thermalfoundation:material:195>,
-<thermalfoundation:material:196>,
-<thermalfoundation:material:197>,
-<thermalfoundation:material:198>,
-<thermalfoundation:material:199>,
-<thermalfoundation:material:224>,
-<thermalfoundation:material:228>,
-<thermalfoundation:material:227>,
-<thermalfoundation:material:226>,
-<thermalfoundation:material:225>,
-<thermalfoundation:storage>,
-<thermalfoundation:storage:1>,
-<thermalfoundation:storage:2>,
-<thermalfoundation:storage:3>,
-<thermalfoundation:storage:4>,
-<thermalfoundation:storage:5>,
-<thermalfoundation:storage:6>,
-<thermalfoundation:storage:7>,
-<thermalfoundation:storage:8>,
-<thermalfoundation:storage_alloy:1>,
-<thermalfoundation:storage_alloy>,
-<thermalfoundation:storage_alloy:2>,
-<thermalfoundation:storage_alloy:3>,
-<thermalfoundation:storage_alloy:4>,
-<thermalexpansion:device>,
-<thermalexpansion:device:1>,
-<thermalexpansion:device:2>,
-<thermalexpansion:device:3>,
-<thermalexpansion:device:4>,
-<thermalexpansion:device:5>,
-<thermalexpansion:device:6>,
-<thermalexpansion:device:7>,
-<thermalexpansion:device:8>,
-<thermalexpansion:device:9>,
-<thermalexpansion:device:10>,
-<thermalexpansion:device:11>,
-<thermalexpansion:device:12>,
-<thermalexpansion:machine>,
-<thermalexpansion:machine:2>,
-<thermalexpansion:machine:4>,
-<thermalexpansion:machine:6>,
-<thermalexpansion:machine:7>,
-<thermalexpansion:machine:8>,
-<thermalexpansion:machine:9>,
-<thermalexpansion:machine:10>,
-<thermalexpansion:machine:11>,
-<thermalexpansion:machine:12>,
-<thermalexpansion:machine:13>,
-<thermalfoundation:dye>,
-<thermalfoundation:dye:1>,
-<thermalfoundation:dye:2>,
-<thermalfoundation:dye:3>,
-<thermalfoundation:dye:4>,
-<thermalfoundation:dye:5>,
-<thermalfoundation:dye:6>,
-<thermalfoundation:dye:7>,
-<thermalfoundation:dye:8>,
-<thermalfoundation:dye:9>,
-<thermalfoundation:dye:10>,
-<thermalfoundation:dye:11>,
-<thermalfoundation:dye:12>,
-<thermalfoundation:dye:13>,
-<thermalfoundation:dye:14>,
-<thermalfoundation:dye:15>,
-<thermalfoundation:ore>,
-<thermalfoundation:ore:1>,
-<thermalfoundation:ore:2>,
-<thermalfoundation:ore:3>,
-<thermalfoundation:ore:4>,
-<thermalfoundation:ore:5>,
-<thermalfoundation:ore:6>,
-<thermalfoundation:ore:7>,
-<thermalfoundation:ore_fluid>,
-<thermalfoundation:ore_fluid:1>,
-<thermalfoundation:ore_fluid:2>,
-<thermalfoundation:ore_fluid:3>,
-<thermalfoundation:ore_fluid:4>,
-<thermalfoundation:ore_fluid:5>,
-<thermalfoundation:armor.helmet_aluminum>,
-<thermalfoundation:armor.plate_aluminum>,
-<thermalfoundation:armor.legs_aluminum>,
-<thermalfoundation:armor.boots_aluminum>,
-<thermalfoundation:rockwool>,
-<thermalfoundation:rockwool:1>,
-<thermalfoundation:rockwool:2>,
-<thermalfoundation:rockwool:3>,
-<thermalfoundation:rockwool:4>,
-<thermalfoundation:rockwool:5>,
-<thermalfoundation:rockwool:6>,
-<thermalfoundation:rockwool:7>,
-<thermalfoundation:rockwool:8>,
-<thermalfoundation:rockwool:9>,
-<thermalfoundation:rockwool:10>,
-<thermalfoundation:rockwool:11>,
-<thermalfoundation:rockwool:12>,
-<thermalfoundation:rockwool:13>,
-<thermalfoundation:rockwool:14>,
-<thermalfoundation:rockwool:15>,
-<thermalfoundation:material:16>,
-<thermalfoundation:material:33>,
-<thermalfoundation:material:32>,
-<thermalfoundation:material:17>,
 <enderio:block_simple_alloy_smelter>,
 <enderio:block_alloy_smelter>,
 <enderio:item_alloy_endergy_ball>,
@@ -1423,18 +1200,11 @@ val itemstoRemoveAndHide =
 <gregtech:machine:4208>,
 <enderio:block_enhanced_alloy_smelter>,
 <gregtech:machine:2235>,
-<gregtech:machine:4175>,
-<gregtech:machine:4176>,
-<gregtech:machine:4177>,
 <gregtech:machine:2278>,
 <gregtech:machine:2232>,
 <gregtech:machine:4197>,
 <gregtech:machine:4212>,
-<thermalfoundation:storage_resource>,
-<thermalfoundation:storage_resource:1>,
-<thermalfoundation:material:802>,
 <forestry:wood_pile>,
-<thermalexpansion:dynamo:5>,
 <forestry:charcoal>,
 <nuclearcraft:ingot>,
 <nuclearcraft:dust>,
@@ -1472,38 +1242,6 @@ for item in itemstoRemoveAndHide {
 
 
 
-
-mods.jei.JEI.addDescription(<contenttweaker:io>,"Planet Properties:              Rocket Requirement:        T5   Breathable: No                   Corrosive: No                   Atmosphere: No                    Temperature: -174.0 C, Gravity: 48%   Type : Moon, Class: Cold Selena   Day Lenght: 42h   Has Dungeon: Yes");
-mods.jei.JEI.addDescription(<contenttweaker:callisto>,"Planet Properties:        Rocket Requirement:   T6   Breathable: No, Corrosive: No, No Atmosphere   Temperature: -174.0 C, Gravity: 46%   Type : Moon, Class: Cold Selena   Day Lenght: 154h   Has Dungeon: No");
-mods.jei.JEI.addDescription(<contenttweaker:europa>,"Planet Properties:      Rocket Requirement:   T5   Breathable: No, Corrosive: No, No Atmosphere   Temperature: -174.0 C, Gravity: 38%   Type : Moon, Class: Cold Selena   Day Lenght: 58h   Has Dungeon: No");
-mods.jei.JEI.addDescription(<contenttweaker:ganymede>,"Planet Properties:       Rocket Requirement:   T5   Breathable: No, Corrosive: No, No Atmosphere   Temperature: -174.0 C, Gravity: 43%   Type : Moon, Class: Cold Selena   Day Lenght: 102h   Has Dungeon: No");
-mods.jei.JEI.addDescription(<contenttweaker:mercury>,"Planet Properties:       Rocket Requirement:   T3   Breathable: No, Corrosive: No, No Atmosphere   Temperature: 120.0 C, Gravity: 48%   Type : Planet, Class: Hot Selena   Day Lenght: 176h   Has Dungeon: No");
-mods.jei.JEI.addDescription(<contenttweaker:venus>,"Planet Properties:       Rocket Requirement:   T2   Breathable: No, Corrosive: No, Atmosphere: CO2, Nitrogen   Temperature: 150.0 C, Gravity: 62%   Type : Planet, Class: Hot Desert   Day Lenght: 720h   Has Dungeon: Yes");
-mods.jei.JEI.addDescription(<contenttweaker:moon>,"Planet Properties:        Rocket Requirement:   T1   Breathable: No, Corrosive: No, No Atmosphere   Temperature: 30.0 C, Gravity: 38%   Type : Moon, Class: Comfort Selena   Day Lenght: 192h   Has Dungeon: Yes");
-mods.jei.JEI.addDescription(<contenttweaker:mars>,"Planet Properties:        Rocket Requirement:   T2   Breathable: No, Corrosive: No, Atmosphere:CO2, Argon, Nitrogen   Temperature: -60.0 C, Gravity: 42%   Type : Planet, Class: Cold Desert   Day Lenght: 24h   Has Dungeon: Yes");
-mods.jei.JEI.addDescription(<contenttweaker:phobos>,"Planet Properties:       Rocket Requirement:   T2   Breathable: No, Corrosive: No, No Atmosphere   Temperature: -48.0 C, Gravity: 34%   Type : Moon, Class: Cool Selena   Day Lenght: 12h   Has Dungeon: No");
-mods.jei.JEI.addDescription(<contenttweaker:ceres>,"Planet Properties:        Rocket Requirement:   T4   Breathable: No, Corrosive: No, No Atmosphere   Temperature: -120.0 C, Gravity: 36%   Type : Planet, Class: Cold Selena   Day Lenght: 10h   Has Dungeon: Yes");
-mods.jei.JEI.addDescription(<contenttweaker:asteroids>,"Planet Properties:        Rocket Requirement:   T4   Breathable: No, Corrosive: No, No Atmosphere   Temperature: -45.0 C, Gravity: 28%   Type : Asteroid, Class: Asteroid   Day Lenght: 0h   Has Dungeon: Yes");
-mods.jei.JEI.addDescription(<contenttweaker:enceladus>,"Planet Properties:         Rocket Requirement:   T6   Breathable: No, Corrosive: No, No Atmosphere   Temperature: -240.0 C, Gravity: 42%   Type : Moon, Class: Cold Selena   Day Lenght: 32h   Has Dungeon: No");
-mods.jei.JEI.addDescription(<contenttweaker:titan>,"Planet Properties:       Rocket Requirement:   T6   Breathable: No, Corrosive: No, No Atmosphere   Temperature: -240.0 C, Gravity: 42%   Type : Moon, Class: Cold Selena   Day Lenght: 32h   Has Dungeon: No");
-mods.jei.JEI.addDescription(<contenttweaker:miranda>,"Planet Properties:       Rocket Requirement:   T6   Breathable: No, Corrosive: No, No Atmosphere   Temperature: -216.0 C, Gravity: 43%   Type : Moon, Class: Cold Selena   Day Lenght: 33h   Has Dungeon: No");
-mods.jei.JEI.addDescription(<contenttweaker:triton>,"Planet Properties:       Rocket Requirement:   T6   Breathable: No, Corrosive: No, No Atmosphere   Temperature: -237.0 C, Gravity: 41%   Type : Moon, Class: Cold Selena   Day Lenght: 145h   Has Dungeon: No");
-mods.jei.JEI.addDescription(<contenttweaker:pluto>,"Planet Properties:       Rocket Requirement:   T6   Breathable: No, Corrosive: No,Atmosphere: Nitrogen   Temperature: -234.0 C, Gravity: 38%   Type : Planet, Class: Cold Selena   Day Lenght: 98h   Has Dungeon: No");
-mods.jei.JEI.addDescription(<contenttweaker:kupiterbelt>,"Planet Properties:        Rocket Requirement:   T6   Breathable: No, Corrosive: No, No Atmosphere   Temperature: -246.0 C, Gravity: 0%   Type : Planet, Class: Cold Asteroid   Day Lenght: 0h   Has Dungeon: No");
-mods.jei.JEI.addDescription(<contenttweaker:haumea>,"Planet Properties:         Rocket Requirement:   T6   Breathable: No, Corrosive: No, No Atmosphere   Temperature: -249.0 C, Gravity: 33%   Type : Planet, Class: Cold Selena   Day Lenght: 12h   Has Dungeon: No");
-mods.jei.JEI.addDescription(<contenttweaker:barnadac>,"Planet Properties:       Rocket Requirement:   T6 + Sublight   Breathable: Yes, Corrosive: No, Atmosphere: CO2, Oxygen, Argon   Temperature: 30.0 C, Gravity: 89%   Type : Planet, Class: Comfort Selena   Day Lenght: 24h   Has Dungeon: No");
-mods.jei.JEI.addDescription(<contenttweaker:fronos>,"Planet Properties:        Rocket Requirement:   T6 + Sublight   Breathable: Yes, Corrosive: No, No Atmosphere   Temperature: 30.0 C, Gravity: 0%   Type : Planet, Class: Comfort Terra   Day Lenght: 24h   Has Dungeon: Yes");
-mods.jei.JEI.addDescription(<contenttweaker:nibiru>,"Planet Properties:         Rocket Requirement:   T6 + Sublight   Breathable: No, Corrosive: Yes, No Atmosphere   Temperature: 30.0 C, Gravity: 87%   Type : Planet, Class: Comfort Selena   Day Lenght: 144h   Has Dungeon: Yes");
-mods.jei.JEI.addDescription(<contenttweaker:chalos>,"Planet Properties:      Rocket Requirement:   T6 + Sublight   Breathable: No, Corrosive: No, No Atmosphere   Temperature: 30.0 C, Gravity: 73%   Type : Planet, Class: Comfort Selena   Day Lenght: 48h   Has Dungeon: Yes");
-mods.jei.JEI.addDescription(<contenttweaker:diona>,"Planet Properties:         Rocket Requirement:   T6 + Sublight   Breathable: No, Corrosive: No, No Atmosphere   Temperature: 30.0 C, Gravity: 35%   Type : Planet, Class: Comfort Selena   Day Lenght: 96h   Has Dungeon: Yes");
-mods.jei.JEI.addDescription(<contenttweaker:proximab>,"Planet Properties:          Rocket Requirement:   T6 + Sublight   Breathable: No, Corrosive: No,Atmosphere: CO2, Oxygen   Temperature: -15.0 C, Gravity: 84%   Type : Planet, Class: Comfort Selena   Day Lenght: 175h   Has Dungeon: No");
-mods.jei.JEI.addDescription(<contenttweaker:taucetif>,"Planet Properties:         Rocket Requirement:	T6 + Sublight   Breathable: No, Corrosive: No, No Atmosphere   Temperature: -6.0 C, Gravity: 83%   Type : Planet, Class: Comfort Selena   Day Lenght: 36h   Has Dungeon: No");
-mods.jei.JEI.addDescription(<contenttweaker:trappist1c>,"Planet Properties:         Rocket Requirement:   T6 + Sublight   Breathable: No, Corrosive: No, No Atmosphere   Temperature: 60.0 C, Gravity: 35%   Type : Planet, Class: Hot Selena   Day Lenght: 32h   Has Dungeon: No");
-mods.jei.JEI.addDescription(<contenttweaker:trappist1e>,"Planet Properties:        Rocket Requirement:   T6 + Sublight   Breathable: No, Corrosive: No, No Atmosphere   Temperature: 150.0 C, Gravity: 35%   Type : Planet, Class: Hot Selena   Day Lenght: 24h   Has Dungeon: No");
-mods.jei.JEI.addDescription(<contenttweaker:yzcetib>,"Planet Properties:       Rocket Requirement:   T6 + Sublight   Breathable: No, Corrosive: No, No Atmosphere   Temperature: 60.0 C, Gravity: 70%   Type : Planet, Class: Hot Selena   Day Lenght: 23h   Has Dungeon: Yes");
-mods.jei.JEI.addDescription(<contenttweaker:yzcetic>,"Planet Properties:        Rocket Requirement:   T6 + Sublight   Breathable: No, Corrosive: No, No Atmosphere   Temperature: 240.0 C, Gravity: 70%   Type : Planet, Class: Hot Selena   Day Lenght: 28h   Has Dungeon: Yes");
-mods.jei.JEI.addDescription(<contenttweaker:yzcetid>,"Planet Properties:      Rocket Requirement:   T6 + Sublight   Breathable: No, Corrosive: No, No Atmosphere   Temperature: 60.0 C, Gravity: 63%   Type : Planet, Class: Hot Selena   Day Lenght: 35h   Has Dungeon: No");
-mods.jei.JEI.addDescription(<contenttweaker:overworld>,"Planet Properties:    Rocket Requirement:   T0   Breathable: Yes, Corrosive: No, Atmosphere: Nitrogen, Oxygen, Argon   Temperature: 30.0 C, Gravity: 100%   Type : Planet, Class: Comfort Terra   Day Lenght: 24h   Has Dungeon: Yes");
 
 
 

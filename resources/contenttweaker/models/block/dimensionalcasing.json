@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/dimensionalcasing",
+		"left" : "contenttweaker:blocks/dimensionalcasing",
+		"right" : "contenttweaker:blocks/dimensionalcasing",
+		"back" : "contenttweaker:blocks/dimensionalcasing",
+		"top" : "contenttweaker:blocks/dimensionalcasing",
+		"bottom" : "contenttweaker:blocks/dimensionalcasing"
+
+	}
+	
+
+}

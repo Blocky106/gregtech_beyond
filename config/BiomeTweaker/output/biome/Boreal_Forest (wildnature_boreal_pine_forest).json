@@ -1,6 +1,6 @@
 
 {
-  "ID": 57,
+  "ID": 61,
   "Name": "Boreal Forest",
   "Resource Location": "wildnature:boreal_pine_forest",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeBorealPineForest",
@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "FOREST",
-    "COLD"
+    "COLD",
+    "FOREST"
   ],
   "BiomeManager Entries": {
     "COOL Weights": [

@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/t1_rocket_combustion_engine",
+		"left" : "contenttweaker:blocks/t1_rocket_combustion_engine",
+		"right" : "contenttweaker:blocks/t1_rocket_combustion_engine",
+		"back" : "contenttweaker:blocks/t1_rocket_combustion_engine",
+		"top" : "contenttweaker:blocks/t1_rocket_combustion_engine",
+		"bottom" : "contenttweaker:blocks/t1_rocket_combustion_engine"
+
+	}
+	
+
+}

@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/particleprotectioncasing",
+		"left" : "contenttweaker:blocks/particleprotectioncasing",
+		"right" : "contenttweaker:blocks/particleprotectioncasing",
+		"back" : "contenttweaker:blocks/particleprotectioncasing",
+		"top" : "contenttweaker:blocks/particleprotectioncasing",
+		"bottom" : "contenttweaker:blocks/particleprotectioncasing"
+
+	}
+	
+
+}

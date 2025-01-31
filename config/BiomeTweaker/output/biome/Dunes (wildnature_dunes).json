@@ -1,6 +1,6 @@
 
 {
-  "ID": 91,
+  "ID": 95,
   "Name": "Dunes",
   "Resource Location": "wildnature:dunes",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeDunes",

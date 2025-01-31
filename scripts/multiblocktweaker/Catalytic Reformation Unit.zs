@@ -50,6 +50,7 @@ val catalytic_reformation_unit = Builder.start(loc, meta)
                     "~~~~~~~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 32)
                 .whereOr("C", 
                 <metastate:gtadditions:ga_metal_casing_1:9>,
                     IBlockMatcher.abilityPartPredicate(
@@ -128,4 +129,12 @@ catalytic_reformation_unit.recipeMap.recipeBuilder()
     .notConsumable(<gtadditions:ga_dust:32158>)
     .duration(200)
     .EUt(200)
+    .buildAndRegister();
+
+catalytic_reformation_unit.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:diethylketone>*1000,<liquid:hydrogen>*1000)
+    .fluidOutputs(<liquid:triethylamine>*1000)
+    .notConsumable(<gtadditions:ga_dust:32240>)
+    .duration(1000)
+    .EUt(700)
     .buildAndRegister();

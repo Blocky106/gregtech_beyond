@@ -1,0 +1,6 @@
+
+{
+  "Name": "mobgoldeneagle",
+  "Registry ID": "desert_expansion:mobgoldeneagle",
+  "Class": "net.desert_expansion.entity.EntityMobGoldenEagle.EntityCustom"
+}

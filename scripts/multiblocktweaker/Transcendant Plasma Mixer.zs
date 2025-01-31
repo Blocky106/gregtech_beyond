@@ -72,6 +72,7 @@ val transcendant_plasma_mixer = Builder.start(loc, meta)
                     "~CCC~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 50)
                 .whereOr("C", 
                 <metastate:contenttweaker:dimensionalcasing>,
                     IBlockMatcher.abilityPartPredicate(

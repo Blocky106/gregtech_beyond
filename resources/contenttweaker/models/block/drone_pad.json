@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/drone_pad",
+		"left" : "contenttweaker:blocks/drone_pad",
+		"right" : "contenttweaker:blocks/drone_pad",
+		"back" : "contenttweaker:blocks/drone_pad",
+		"top" : "contenttweaker:blocks/drone_pad",
+		"bottom" : "contenttweaker:blocks/drone_pad"
+
+	}
+	
+
+}

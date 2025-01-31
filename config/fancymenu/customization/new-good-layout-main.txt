@@ -354,3 +354,8 @@ customization {
   height = 24
 }
 
+customization {
+  identifier = %id=376346%
+  action = hidebutton
+}
+

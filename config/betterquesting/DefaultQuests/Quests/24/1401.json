@@ -1,0 +1,42 @@
+{
+  "preRequisites:11": [
+    1400
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:salis_mundus"
+      },
+      "name:8": "Salis Mundus"
+    }
+  },
+  "questID:3": 1401,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "thaumcraft:thaumonomicon"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:salis_mundus"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

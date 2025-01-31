@@ -72,6 +72,7 @@ val quantum_circuit_assembler = Builder.start(loc, meta)
                     "CCCCCCCCCCC")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 100)
                 .whereOr("C", 
                 <metastate:gregtech:metal_casing:7>,
                     IBlockMatcher.abilityPartPredicate(

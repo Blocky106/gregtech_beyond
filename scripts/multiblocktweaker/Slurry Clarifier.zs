@@ -35,6 +35,7 @@ val slurry_clarifier = Builder.start(loc, meta)
                 .aisle("~CCC~","C~~~C","C~~~C","C~~~C","~CCC~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 48)
                 .whereOr("C", 
                 <metastate:gregtech:metal_casing:5>,
                     IBlockMatcher.abilityPartPredicate(
@@ -48,36 +49,11 @@ val slurry_clarifier = Builder.start(loc, meta)
                 .build())
         .addDesign(
                 FactoryMultiblockShapeInfo.start()
-                .aisle(
-"     ",
-" CCC ",
-" CCC ",
-" CCC ",
-" CCC ")
-                .aisle(
-" CCC ",
-"C   C",
-"C   C",
-"CGGGC",
-"C   C")
-                .aisle(
-" CCC ",
-"S   E",
-"C   C",
-"CGGGC",
-"C   C")
-                .aisle(
-" CCC ",
-"C   C",
-"C   C",
-"CGGGC",
-"C   C")
-                .aisle(
-"     ",
-" CCC ",
-" CCC ",
-" CCC ",
-" CCC ")
+                .aisle("     "," CCC "," CCC "," CCC "," CCC ")
+                .aisle(" CCC ","C   C","C   C","CGGGC","C   C")
+                .aisle(" CCC ","S   E","C   C","CGGGC","C   C")
+                .aisle(" CCC ","C   C","C   C","CGGGC","C   C")
+                .aisle("     "," CCC "," CCC "," CCC "," CCC ")
                 .where("C", <metastate:gregtech:metal_casing:5>)
                 .where("S", IBlockInfo.controller(loc))
                 .where("G", <metastate:gregtech:multiblock_casing:1>)

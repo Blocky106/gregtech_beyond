@@ -1,6 +1,6 @@
 
 {
-  "ID": 54,
+  "ID": 58,
   "Name": "Snowy Bialowieza Forest",
   "Resource Location": "wildnature:snowy_bialowieza_forest",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeSnowyBialowiezaForest",
@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
-    "DENSE",
-    "CONIFEROUS",
-    "SNOWY",
     "FOREST",
-    "RARE"
+    "DENSE",
+    "SNOWY",
+    "RARE",
+    "CONIFEROUS"
   ],
   "BiomeManager Entries": {
     "ICY Weights": [

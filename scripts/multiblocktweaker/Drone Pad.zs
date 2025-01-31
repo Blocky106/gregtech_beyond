@@ -35,6 +35,7 @@ val drone_pad = Builder.start(loc, meta)
                 .aisle("~CSC~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 5)
                 .whereOr("C", 
                 <metastate:gregtech:metal_casing:4>,
                     IBlockMatcher.abilityPartPredicate(

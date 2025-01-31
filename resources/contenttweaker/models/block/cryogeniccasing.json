@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/cryogeniccasing",
+		"left" : "contenttweaker:blocks/cryogeniccasing",
+		"right" : "contenttweaker:blocks/cryogeniccasing",
+		"back" : "contenttweaker:blocks/cryogeniccasing",
+		"top" : "contenttweaker:blocks/cryogeniccasing",
+		"bottom" : "contenttweaker:blocks/cryogeniccasing"
+
+	}
+	
+
+}

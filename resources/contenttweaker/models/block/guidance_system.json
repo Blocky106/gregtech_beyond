@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/guidance_system",
+		"left" : "contenttweaker:blocks/guidance_system",
+		"right" : "contenttweaker:blocks/guidance_system",
+		"back" : "contenttweaker:blocks/guidance_system",
+		"top" : "contenttweaker:blocks/guidance_system",
+		"bottom" : "contenttweaker:blocks/guidance_system"
+
+	}
+	
+
+}

@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    219
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "As soon as you have made your first Tetrafluoroethylene, this annoying way, you can use the Large Chemical Reactor, to get it cheaper",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forge:bucketfilled",
+        "tag:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "tetrafluoroethylene"
+        }
+      },
+      "name:8": "Tetrafluoroethylene",
+      "visibility:8": "CHAIN"
+    }
+  },
+  "questID:3": 220,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "tetrafluoroethylene"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "preRequisites:11": [
+    1
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": " ",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:filled_map"
+      },
+      "name:8": "Periodic Table",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1391,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

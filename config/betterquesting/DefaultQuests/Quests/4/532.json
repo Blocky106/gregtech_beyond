@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    324
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2545,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "Nuclear Reactor",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 532,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2545,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

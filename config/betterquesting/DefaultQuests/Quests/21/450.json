@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    958,
+    1396
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "enderio:block_farm_station"
+      },
+      "name:8": "Farming Station",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 450,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "enderio:block_farm_station"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

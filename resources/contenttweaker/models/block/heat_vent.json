@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/heat_vent",
+		"left" : "contenttweaker:blocks/heat_vent",
+		"right" : "contenttweaker:blocks/heat_vent",
+		"back" : "contenttweaker:blocks/heat_vent",
+		"top" : "contenttweaker:blocks/heat_vent",
+		"bottom" : "contenttweaker:blocks/heat_vent"
+
+	}
+	
+
+}

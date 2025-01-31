@@ -35,6 +35,7 @@ val digester = Builder.start(loc, meta)
                 .aisle("~~~~~~~","~~~~~~~","~~HHH~~","~~HHH~~","~~HHH~~","~~~~~~~","~~~~~~~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 28)
                 .whereOr("C", 
                 <metastate:gregtech:metal_casing:7>,
                     IBlockMatcher.abilityPartPredicate(

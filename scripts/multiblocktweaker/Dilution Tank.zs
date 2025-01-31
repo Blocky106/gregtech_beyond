@@ -58,6 +58,7 @@ val dilution_tank = Builder.start(loc, meta)
                     "~C~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 12)
                 .whereOr("C", 
                 <metastate:gregtech:metal_casing:5>,
                     IBlockMatcher.abilityPartPredicate(
@@ -107,7 +108,7 @@ val dilution_tank = Builder.start(loc, meta)
 .withRecipeMap(
         FactoryRecipeMap.start(loc)
                         .maxInputs(1)
-                        .maxFluidInputs(1)
+                        .maxFluidInputs(2)
                         .maxFluidOutputs(1)
                         .maxOutputs(1)
                         .build())
@@ -129,6 +130,14 @@ recipes.addShaped(<gregtech:machine:1008>, [	[<gregtech:meta_item_1:32613>, <gre
 dilution_tank.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:neodymium_rich_monazite_solution>*1000,<liquid:water>*3000)
     .fluidOutputs(<liquid:diluted_neodymium_rich_monazite_solution>*4000)
+    .duration(80)
+    .EUt(2000)
+    .buildAndRegister();
+
+dilution_tank.recipeMap.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:32228>)
+    .fluidInputs(<liquid:water>*2000)
+    .fluidOutputs(<liquid:diluted_impure_naquahamericium_hydroxide>*2000)
     .duration(80)
     .EUt(2000)
     .buildAndRegister();

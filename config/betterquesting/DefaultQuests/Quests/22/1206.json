@@ -1,0 +1,39 @@
+{
+  "preRequisites:11": [
+    1207,
+    1205
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Generates Compressed air, when striked by a lightning",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "betterquesting:placeholder",
+        "tag:10": {
+          "orig_id:8": "pneumaticcraft:electrostatic_compressor",
+          "orig_meta:3": 0
+        }
+      },
+      "name:8": "Electrostatic Compressor",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1206,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "pneumaticcraft:electrostatic_compressor",
+            "orig_meta:3": 0
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

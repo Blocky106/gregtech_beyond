@@ -65,7 +65,7 @@ distillation_tower.recipeBuilder()
 
 mixer.recipeBuilder()
     .fluidInputs(<liquid:water>*288)
-    .inputs(<thermalfoundation:material:892>*2,<gregtech:meta_item_1:2960>*2)
+    .inputs(<contenttweaker:bitumen_crystal>*2,<gregtech:meta_item_1:2960>*2)
     .outputs(<contenttweaker:asphalt>*6)
     .duration(140)
     .EUt(150)
@@ -80,25 +80,11 @@ fluidExtractor.recipeBuilder()
     .buildAndRegister();
 
 fluidExtractor.recipeBuilder()
-    .fluidInputs(<liquid:lubricant>*24)
+    .fluidOutputs(<liquid:lubricant>*24)
     .outputs(<gregtech:meta_item_1:32627>)
     .inputs(<contenttweaker:paraffinwax>)
     .duration(244)
     .EUt(188)
-    .buildAndRegister();
-
-lcr.recipeBuilder()
-    .fluidInputs(<liquid:treatedsulfuricfractions>*1000)
-    .fluidOutputs(<liquid:sourgas>*200,<liquid:oilfractions>*800)
-    .duration(200)
-    .EUt(400)
-    .buildAndRegister();
-
-chemReactor.recipeBuilder()
-    .fluidInputs(<liquid:treatedsulfuricfractions>*1000)
-    .fluidOutputs(<liquid:sourgas>*200,<liquid:oilfractions>*800)
-    .duration(200)
-    .EUt(400)
     .buildAndRegister();
 
 lmixer.recipeBuilder()
@@ -124,24 +110,10 @@ lmixer.recipeBuilder()
 
 lmixer.recipeBuilder()
     .fluidInputs(<liquid:water>*288)
-    .inputs(<thermalfoundation:material:892>*2,<gregtech:meta_item_1:2960>*2)
+    .inputs(<contenttweaker:bitumen_crystal>*2,<gregtech:meta_item_1:2960>*2)
     .outputs(<contenttweaker:asphalt>*6)
     .duration(140)
     .EUt(150)
-    .buildAndRegister();
-
-lcr.recipeBuilder()
-    .fluidInputs(<liquid:sourgas>*1000,<liquid:ethanolamine>*500)
-    .fluidOutputs(<liquid:richamine>*1500)
-    .duration(900)
-    .EUt(600)
-    .buildAndRegister();
-
-chemReactor.recipeBuilder()
-    .fluidInputs(<liquid:sourgas>*1000,<liquid:ethanolamine>*500)
-    .fluidOutputs(<liquid:richamine>*1500)
-    .duration(900)
-    .EUt(600)
     .buildAndRegister();
 
 lcentrifuge.recipeBuilder()
@@ -156,13 +128,6 @@ centrifuge.recipeBuilder()
     .fluidOutputs(<liquid:ethanolamine>*500,<liquid:hydrogen_sulfide>*1000)
     .duration(122)
     .EUt(900)
-    .buildAndRegister();
-
-distillation_tower.recipeBuilder()
-    .fluidInputs(<liquid:oilfractions>*100)
-    .fluidOutputs(<liquid:sulfuric_heavy_fuel>*15,<liquid:sulfuric_light_fuel>*50,<liquid:sulfuric_naphtha>*20,<liquid:sulfuric_gas>*60)
-    .duration(400)
-    .EUt(120)
     .buildAndRegister();
 
 lcr.recipeBuilder()
@@ -360,20 +325,6 @@ distillation_tower.recipeBuilder()
     .fluidOutputs(<liquid:propane>*250,<liquid:ethane>*200,<liquid:methane>*100,<liquid:hexane>*100,<liquid:pentane>*150,<liquid:butane>*250)
     .duration(200)
     .EUt(480)
-    .buildAndRegister();
-
-cracker.recipeBuilder()
-    .fluidInputs(<liquid:steam>*1000,<liquid:kerosene>*1000)
-    .fluidOutputs(<liquid:steam_cracked_kerosene>*1000)
-    .duration(200)
-    .EUt(12)
-    .buildAndRegister();
-
-cracker.recipeBuilder()
-    .fluidInputs(<liquid:hydrogen>*1000,<liquid:kerosene>*1000)
-    .fluidOutputs(<liquid:hydro_cracked_kerosene>*1000)
-    .duration(200)
-    .EUt(12)
     .buildAndRegister();
 
 distillation_tower.recipeBuilder()

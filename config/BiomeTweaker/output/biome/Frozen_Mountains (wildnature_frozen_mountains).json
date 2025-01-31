@@ -1,6 +1,6 @@
 
 {
-  "ID": 71,
+  "ID": 75,
   "Name": "Frozen Mountains",
   "Resource Location": "wildnature:frozen_mountains",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeFrozenMountains",
@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
-    "RARE",
-    "MOUNTAIN"
+    "MOUNTAIN",
+    "RARE"
   ],
   "BiomeManager Entries": {
     "ICY Weights": [

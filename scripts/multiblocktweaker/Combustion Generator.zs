@@ -60,6 +60,7 @@ val combustion_generator = Builder.start(loc, meta)
                     "~~~~~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 60)
                 .whereOr("C", 
                 <metastate:gregtech:metal_casing:4>,
                     IBlockMatcher.abilityPartPredicate(

@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/machine_bronze_plated_bricks",
+		"left" : "contenttweaker:blocks/machine_bronze_plated_bricks",
+		"right" : "contenttweaker:blocks/machine_bronze_plated_bricks",
+		"back" : "contenttweaker:blocks/machine_bronze_plated_bricks",
+		"top" : "contenttweaker:blocks/machine_bronze_plated_bricks",
+		"bottom" : "contenttweaker:blocks/machine_bronze_plated_bricks"
+
+	}
+	
+
+}

@@ -1,6 +1,6 @@
 
 {
-  "ID": 136,
+  "ID": 141,
   "Name": "Flower Field",
   "Resource Location": "wildnature:flower_field",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeFlowerField",
@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "PLAINS",
-    "RARE"
+    "RARE",
+    "PLAINS"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [

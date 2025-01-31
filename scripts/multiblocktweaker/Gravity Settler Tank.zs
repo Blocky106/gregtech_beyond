@@ -62,6 +62,7 @@ val gravity_settler_tank = Builder.start(loc, meta)
                     "~~~~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 32)
                 .whereOr("C", 
                 <metastate:gregtech:metal_casing:5>,
                     IBlockMatcher.abilityPartPredicate(
@@ -73,7 +74,7 @@ val gravity_settler_tank = Builder.start(loc, meta)
                 ))
                 .where("P", <metastate:gregtech:boiler_casing:1>)
                 .where("F", <metastate:gregtech:multiblock_casing:1>)
-                .where("G", <metastate:thermalfoundation:glass:2>)
+                .where("G", <metastate:gtadditions:ga_transparent_casing>)
                 .build())
         .addDesign(
                 FactoryMultiblockShapeInfo.start()
@@ -85,7 +86,7 @@ val gravity_settler_tank = Builder.start(loc, meta)
                 .where("S", IBlockInfo.controller(loc))
                 .where("P", <metastate:gregtech:boiler_casing:1>)
                 .where("F", <metastate:gregtech:multiblock_casing:1>)
-                .where("G", <metastate:thermalfoundation:glass:2>)
+                .where("G", <metastate:gtadditions:ga_transparent_casing>)
                 .where("E", MetaTileEntities.ENERGY_INPUT_HATCH[4], IFacing.east())
                 .build())
 .withRecipeMap(

@@ -11,7 +11,7 @@ import mods.gregtech.recipe.CokeOvenRecipeBuilder;
 import mods.gtadditions.recipe.Utils;
 
 
-Utils.removeRecipeByOutput(ebf,[<gregtech:meta_item_1:10519>],[],false);
+Utils.removeRecipeByOutput(ebf,[<gregtech:meta_item_1:10519>],[],true);
 
 ebf.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2519>)
@@ -43,7 +43,7 @@ ebf.recipeBuilder()
     .property("temperature", 4300)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(vacfreezer,[<gregtech:meta_item_1:10519>],[],false);
+Utils.removeRecipeByOutput(vacfreezer,[<gregtech:meta_item_1:10519>],[],true);
 
 vacfreezer.recipeBuilder()
     .inputs(<gregtech:meta_item_1:11519>)

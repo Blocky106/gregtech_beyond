@@ -1,0 +1,49 @@
+{
+  "preRequisites:11": [
+    1488
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "betterquesting:placeholder",
+        "tag:10": {
+          "orig_id:8": "ic2:fluid_cell",
+          "orig_meta:3": 0,
+          "orig_tag:10": {
+            "Fluid:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "plutoniumbasedliquidfuel"
+            }
+          }
+        }
+      },
+      "name:8": "Plutonium Based Liquid Fuel"
+    }
+  },
+  "questID:3": 1487,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "ic2:fluid_cell",
+            "orig_meta:3": 0,
+            "orig_tag:10": {
+              "Fluid:10": {
+                "Amount:3": 1000,
+                "FluidName:8": "plutoniumbasedliquidfuel"
+              }
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

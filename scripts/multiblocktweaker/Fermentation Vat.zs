@@ -73,6 +73,7 @@ val fermentation_vat = Builder.start(loc, meta)
                     "~~~~~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('P', 18)
                 .whereOr("P", 
                 <metastate:gregtech:boiler_casing:1>,
                     IBlockMatcher.abilityPartPredicate(

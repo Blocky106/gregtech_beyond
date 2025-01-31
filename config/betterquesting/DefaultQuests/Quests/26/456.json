@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    446
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "qmd:accelerator_yoke"
+      },
+      "name:8": "Yoke"
+    }
+  },
+  "questID:3": 456,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "qmd:accelerator_yoke"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

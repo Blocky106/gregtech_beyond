@@ -78,6 +78,7 @@ val primordial_forge = Builder.start(loc, meta)
                     "CCCCCCC")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 108)
                 .whereOr("C", 
                 <metastate:contenttweaker:computercasing>,
                     IBlockMatcher.abilityPartPredicate(

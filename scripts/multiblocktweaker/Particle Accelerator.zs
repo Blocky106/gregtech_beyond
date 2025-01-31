@@ -99,6 +99,7 @@ val particle_accelerator = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
+                .setAmountAtLeast('C', 116)
                 .where("C", <metastate:gregtech:wire_coil:7>)
                 .build())
         .addDesign(

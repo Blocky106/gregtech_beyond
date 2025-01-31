@@ -27,20 +27,12 @@ var meta = 10038;
 val cvd_unit = Builder.start(loc, meta)
     .withPattern(
             FactoryBlockPattern.start(RelativeDirection.RIGHT, RelativeDirection.BACK, RelativeDirection.UP)
-                .aisle(
-                    "CCCCC",
-                    "CCCCC",
-                    "SCCCC")
-                .aisle(
-                    "PPPPP",
-                    "P~~~P",
-                    "~GGG~")
-                .aisle(
-                    "~CCC~",
-                    "~GGG~",
-                    "~~~~~")
+                .aisle("CCCCC","CCCCC","SCCCC")
+                .aisle("PPPPP","P~~~P","~GGG~")
+                .aisle("~CCC~","~GGG~","~~~~~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 10)  
                 .whereOr("C", 
                 <metastate:gtadditions:ga_metal_casing_2:9>,
                     IBlockMatcher.abilityPartPredicate(
@@ -55,26 +47,11 @@ val cvd_unit = Builder.start(loc, meta)
                 .build())
         .addDesign(
                 FactoryMultiblockShapeInfo.start()
-                .aisle(
-                    "SCE",
-                    " PP",
-                    "   ")
-                .aisle(
-                    "CCC",
-                    "G P",
-                    " GC")
-                .aisle(
-                    "CCC",
-                    "G P",
-                    " GC")
-                .aisle(
-                    "CCC",
-                    "G P",
-                    " GC")
-                .aisle(
-                    "CCC",
-                    " PP",
-                    "   ")
+                .aisle("SCE"," PP","   ")
+                .aisle("CCC","G P"," GC")
+                .aisle("CCC","G P"," GC")
+                .aisle("CCC","G P"," GC")
+                .aisle("CCC"," PP","   ")
                 .where("G", <metastate:gtadditions:ga_transparent_casing>)
                 .where("C", <metastate:gtadditions:ga_metal_casing_2:9>)
                 .where("P", <metastate:gregtech:boiler_casing:1>)

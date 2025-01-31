@@ -1,6 +1,6 @@
 
 {
-  "ID": 69,
+  "ID": 73,
   "Name": "Granite Mountains",
   "Resource Location": "wildnature:granite_mountains",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeGraniteMountains",
@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
-    "HILLS",
+    "MOUNTAIN",
     "RARE",
-    "MOUNTAIN"
+    "HILLS"
   ],
   "BiomeManager Entries": {
     "COOL Weights": [

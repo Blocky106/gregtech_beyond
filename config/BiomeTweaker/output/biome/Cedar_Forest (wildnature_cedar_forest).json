@@ -1,6 +1,6 @@
 
 {
-  "ID": 82,
+  "ID": 86,
   "Name": "Cedar Forest",
   "Resource Location": "wildnature:cedar_forest",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeCedarForest",
@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DENSE",
-    "FOREST"
+    "FOREST",
+    "DENSE"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [

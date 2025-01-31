@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/reactor_core_stabilizer",
+		"left" : "contenttweaker:blocks/reactor_core_stabilizer",
+		"right" : "contenttweaker:blocks/reactor_core_stabilizer",
+		"back" : "contenttweaker:blocks/reactor_core_stabilizer",
+		"top" : "contenttweaker:blocks/reactor_core_stabilizer",
+		"bottom" : "contenttweaker:blocks/reactor_core_stabilizer"
+
+	}
+	
+
+}

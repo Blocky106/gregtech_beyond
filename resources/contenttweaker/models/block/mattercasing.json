@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/mattercasing",
+		"left" : "contenttweaker:blocks/mattercasing",
+		"right" : "contenttweaker:blocks/mattercasing",
+		"back" : "contenttweaker:blocks/mattercasing",
+		"top" : "contenttweaker:blocks/mattercasing",
+		"bottom" : "contenttweaker:blocks/mattercasing"
+
+	}
+	
+
+}

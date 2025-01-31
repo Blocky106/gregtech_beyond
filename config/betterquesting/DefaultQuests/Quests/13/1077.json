@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    831
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Polytheretherketone aka PEEK, is one of the Endgame Plastics\nbeing used in §5Exotic§r Smd\u0027s, UHV Machine Hulls and some other endgame crafts\nThis is one of the things, gating the Void Ore Miner T2\n",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 12730,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "(PEEK)",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1077,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 12730,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

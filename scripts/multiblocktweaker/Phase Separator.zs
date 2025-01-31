@@ -33,6 +33,7 @@ val phase_separator = Builder.start(loc, meta)
                 .aisle("~C~","~C~","~C~","~C~","~C~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 12)
                 .whereOr("C", 
                 <metastate:gregtech:metal_casing:4>,
                     IBlockMatcher.abilityPartPredicate(
@@ -46,18 +47,9 @@ val phase_separator = Builder.start(loc, meta)
                 .build())
         .addDesign(
                 FactoryMultiblockShapeInfo.start()
-                .aisle(
-"F   F",
-"CCCCC",
-"     ")
-                .aisle(
-"CCCCC",
-"S   E",
-"CCCCC")
-                .aisle(
-"F   F",
-"CCCCC",
-"     ")
+                .aisle("F   F","CCCCC","     ")
+                .aisle("CCCCC","S   E","CCCCC")
+                .aisle("F   F","CCCCC","     ")
                 .where("C", <metastate:gregtech:metal_casing:4>)
                 .where("S", IBlockInfo.controller(loc))
                 .where("F", <metastate:gregtech:frame_steel>)
@@ -66,13 +58,14 @@ val phase_separator = Builder.start(loc, meta)
 .withRecipeMap(
         FactoryRecipeMap.start(loc)
                         .maxInputs(1)
-                        .maxFluidInputs(1)
+                        .maxFluidInputs(2)
                         .maxFluidOutputs(1)
                         .build())
 .withZoom(0.5f)
 .buildAndRegister() as Multiblock;
 
 phase_separator.recipeMap.recipeBuilder()
+    .notConsumable(<liquid:bis_trimethylammonium_ethane>)
     .fluidInputs(<liquid:partially_liquid_argon>*1000)
     .fluidOutputs(<liquid:liquid_argon>*1000)
     .duration(200)
@@ -80,6 +73,7 @@ phase_separator.recipeMap.recipeBuilder()
     .buildAndRegister();
 
 phase_separator.recipeMap.recipeBuilder()
+    .notConsumable(<liquid:bis_trimethylammonium_ethane>)
     .fluidInputs(<liquid:partially_liquid_helium>*1000)
     .fluidOutputs(<liquid:liquid_helium>*1000)
     .duration(200)
@@ -87,6 +81,7 @@ phase_separator.recipeMap.recipeBuilder()
     .buildAndRegister();
     
 phase_separator.recipeMap.recipeBuilder()
+    .notConsumable(<liquid:bis_trimethylammonium_ethane>)
     .fluidInputs(<liquid:partially_liquid_neon>*1000)
     .fluidOutputs(<liquid:liquid_neon>*1000)
     .duration(200)
@@ -94,6 +89,7 @@ phase_separator.recipeMap.recipeBuilder()
     .buildAndRegister();
     
 phase_separator.recipeMap.recipeBuilder()
+    .notConsumable(<liquid:bis_trimethylammonium_ethane>)
     .fluidInputs(<liquid:partially_liquid_krypton>*1000)
     .fluidOutputs(<liquid:liquid_krypton>*1000)
     .duration(200)
@@ -101,6 +97,7 @@ phase_separator.recipeMap.recipeBuilder()
     .buildAndRegister();
     
 phase_separator.recipeMap.recipeBuilder()
+    .notConsumable(<liquid:bis_trimethylammonium_ethane>)
     .fluidInputs(<liquid:partially_liquid_xenon>*1000)
     .fluidOutputs(<liquid:liquid_xenon>*1000)
     .duration(200)

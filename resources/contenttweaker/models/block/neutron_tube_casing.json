@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/neutron_tube_casing",
+		"left" : "contenttweaker:blocks/neutron_tube_casing",
+		"right" : "contenttweaker:blocks/neutron_tube_casing",
+		"back" : "contenttweaker:blocks/neutron_tube_casing",
+		"top" : "contenttweaker:blocks/neutron_tube_casing",
+		"bottom" : "contenttweaker:blocks/neutron_tube_casing"
+
+	}
+	
+
+}

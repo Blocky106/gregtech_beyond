@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/platinumsaltore",
+		"left" : "contenttweaker:blocks/platinumsaltore",
+		"right" : "contenttweaker:blocks/platinumsaltore",
+		"back" : "contenttweaker:blocks/platinumsaltore",
+		"top" : "contenttweaker:blocks/platinumsaltore",
+		"bottom" : "contenttweaker:blocks/platinumsaltore"
+
+	}
+	
+
+}

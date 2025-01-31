@@ -159,6 +159,7 @@ val vacuum_distillation_tower = Builder.start(loc, meta)
 
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 120)
                 .whereOr("C", 
                 <metastate:gregtech:metal_casing:5>,
                     IBlockMatcher.abilityPartPredicate(
@@ -171,9 +172,7 @@ val vacuum_distillation_tower = Builder.start(loc, meta)
                 .where("F", <metastate:gregtech:frame_blue_steel>)
                 .where("H", <metastate:gregtech:metal_casing:2>)
                 .where("P", <metastate:gregtech:boiler_casing:1>)
-                
-                
-                                .build())
+                .build())
         .addDesign(
                 FactoryMultiblockShapeInfo.start()
                 .aisle(
@@ -308,7 +307,7 @@ val vacuum_distillation_tower = Builder.start(loc, meta)
 .withRecipeMap(
         FactoryRecipeMap.start(loc)
                         .maxInputs(1)
-                        .maxFluidInputs(1)
+                        .maxFluidInputs(2)
                         .maxFluidOutputs(5)
                         .maxOutputs(3)
                         .build())
@@ -346,4 +345,27 @@ vacuum_distillation_tower.recipeMap.recipeBuilder()
     .outputs(<gtadditions:ga_dust:32184>)
     .duration(1200)
     .EUt(800)
+    .buildAndRegister();
+
+vacuum_distillation_tower.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:argon>*100,<liquid:pmda_solution>*1000)
+    .outputs(<gtadditions:ga_dust:32169>)
+    .duration(400)
+    .EUt(700)
+    .buildAndRegister();
+
+vacuum_distillation_tower.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:peracetic_acid_mixture>*1000)
+    .notConsumable(<gtadditions:ga_dust:32244>)
+    .fluidOutputs(<liquid:water>*300,<liquid:glacial_acetic_acid>*700)
+    .duration(800)
+    .EUt(1200)
+    .buildAndRegister();
+
+vacuum_distillation_tower.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2025>)
+    .notConsumable(<gregtech:meta_item_1:12204>)
+    .fluidOutputs(<liquid:sublimed_gallium_vapour>*1000)
+    .duration(800)
+    .EUt(120)
     .buildAndRegister();

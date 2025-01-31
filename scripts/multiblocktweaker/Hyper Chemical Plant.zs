@@ -60,6 +60,7 @@ val hyper_chemical_plant = Builder.start(loc, meta)
                     "CCCCC")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 42)
                 .whereOr("C", 
                 <metastate:contenttweaker:pbistrengthenedtetrixcasing>,
                     IBlockMatcher.abilityPartPredicate(

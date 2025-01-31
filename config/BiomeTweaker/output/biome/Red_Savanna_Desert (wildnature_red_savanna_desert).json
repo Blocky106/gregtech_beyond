@@ -1,6 +1,6 @@
 
 {
-  "ID": 97,
+  "ID": 101,
   "Name": "Red Savanna Desert",
   "Resource Location": "wildnature:red_savanna_desert",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeRedSavannaDesert",
@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
+    "DRY",
     "SANDY",
     "SAVANNA",
-    "DRY"
+    "HOT"
   ],
   "BiomeManager Entries": {
     "DESERT Weights": [

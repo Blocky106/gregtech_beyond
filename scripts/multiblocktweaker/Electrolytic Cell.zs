@@ -33,6 +33,7 @@ val electrolytic_cell = Builder.start(loc, meta)
                 .aisle("CCCCC","CCCCC","CCCCC")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 32)
                 .whereOr("C", 
                 <metastate:gtadditions:ga_metal_casing_2:5>,
                     IBlockMatcher.abilityPartPredicate(

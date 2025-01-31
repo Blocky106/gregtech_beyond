@@ -60,6 +60,7 @@ val large_rock_breaker = Builder.start(loc, meta)
                     "CCCCC")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 40)
                 .whereOr("C", 
                 <metastate:gregtech:metal_casing:6>,
                     IBlockMatcher.abilityPartPredicate(

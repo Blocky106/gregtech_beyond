@@ -66,7 +66,7 @@ fluid_solidifier.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(bio, [<gtadditions:ga_meta_item:32541>], [], false);
+Utils.removeRecipeByOutput(bio, [<gtadditions:ga_meta_item:32541>], [], true);
 
 chemReactor.recipeBuilder()
     .fluidInputs(<liquid:phenylethyl_alcohol_blood_agar>*100)
@@ -292,8 +292,7 @@ lcr.recipeBuilder()
     .buildAndRegister();
 
 assembler.recipeBuilder()
-    .inputs(<gregtech:meta_item_2:32454>,<gregtech:meta_item_1:14184>,<contenttweaker:thin_kapton_k_sheet>)
-    .outputs(<contenttweaker:syringe>)
+.inputs(<gregtech:meta_item_2:32454>,<gregtech:meta_item_1:14184>,<contenttweaker:thin_kapton_k_sheet>)    .outputs(<contenttweaker:syringe>)
     .duration(299)
     .EUt(80)
     .buildAndRegister();
@@ -520,7 +519,7 @@ mixer.recipeBuilder()
     .EUt(800)
     .buildAndRegister();
 
-centrifuge.recipeBuilder()
+chemReactor.recipeBuilder()
     .fluidInputs(<liquid:homogenized_pancreas_mixture>*1000)
     .notConsumable(<liquid:nonylphenol>)
     .fluidOutputs(<liquid:trypsin>*50)

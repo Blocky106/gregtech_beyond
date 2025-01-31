@@ -84,6 +84,7 @@ val molecular_transformer = Builder.start(loc, meta)
                     "~PPP~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 50)
                 .whereOr("C", 
                 <metastate:gtadditions:ga_metal_casing_2:9>,
                     IBlockMatcher.abilityPartPredicate(

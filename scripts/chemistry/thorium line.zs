@@ -200,13 +200,6 @@ chemReactor.recipeBuilder()
     .EUt(202)
     .buildAndRegister();
 
-cracker.recipeBuilder()
-    .fluidInputs(<liquid:sulfuricthoriumsolution>*1000,<liquid:hydrogen>*1000)
-    .fluidOutputs(<liquid:hydrocrackedthoriumsolution>*1000)
-    .duration(777)
-    .EUt(777)
-    .buildAndRegister();
-
 lcr.recipeBuilder()
     .fluidInputs(<liquid:hydrochloric_acid>*500,<liquid:thoriumleachsolution>*500)
     .fluidOutputs(<liquid:thoriumsolution>*500)

@@ -1,6 +1,6 @@
 
 {
-  "ID": 79,
+  "ID": 83,
   "Name": "Deciduous Forest",
   "Resource Location": "wildnature:deciduous_forest",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeDeciduousForest",
@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DENSE",
-    "FOREST"
+    "FOREST",
+    "DENSE"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [

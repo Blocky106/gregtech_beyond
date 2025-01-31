@@ -34,6 +34,7 @@ val cryogenic_distillation_plant = Builder.start(loc, meta)
                 .aisle("CCC","CCC","CCC")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 26)
                 .whereOr("C", 
                 <metastate:gregtech:metal_casing:3>,
                     IBlockMatcher.abilityPartPredicate(
@@ -46,21 +47,9 @@ val cryogenic_distillation_plant = Builder.start(loc, meta)
                 .build())
         .addDesign(
                 FactoryMultiblockShapeInfo.start()
-                .aisle(
-"CCC",
-"CCC",
-"CCC",
-"CCC")
-                .aisle(
-"SCE",
-"C C",
-"C C",
-"CCC")
-                .aisle(
-"CCC",
-"CCC",
-"CCC",
-"CCC")
+                .aisle("CCC","CCC","CCC","CCC")
+                .aisle("SCE","C C","C C","CCC")
+                .aisle("CCC","CCC","CCC","CCC")
                 .where("C", <metastate:gregtech:metal_casing:3>)
                 .where("S", IBlockInfo.controller(loc))
                 .where("L", MetaTileEntities.FLUID_IMPORT_HATCH[1], IFacing.south())

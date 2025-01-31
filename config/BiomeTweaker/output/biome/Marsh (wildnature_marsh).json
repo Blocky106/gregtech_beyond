@@ -1,6 +1,6 @@
 
 {
-  "ID": 107,
+  "ID": 111,
   "Name": "Marsh",
   "Resource Location": "wildnature:marsh",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeMarsh",
@@ -21,8 +21,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "DRY",
-    "WET",
-    "WATER"
+    "WATER",
+    "WET"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [

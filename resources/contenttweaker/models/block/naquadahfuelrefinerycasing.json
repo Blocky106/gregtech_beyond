@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/naquadahfuelrefinerycasing",
+		"left" : "contenttweaker:blocks/naquadahfuelrefinerycasing",
+		"right" : "contenttweaker:blocks/naquadahfuelrefinerycasing",
+		"back" : "contenttweaker:blocks/naquadahfuelrefinerycasing",
+		"top" : "contenttweaker:blocks/naquadahfuelrefinerycasing",
+		"bottom" : "contenttweaker:blocks/naquadahfuelrefinerycasing"
+
+	}
+	
+
+}

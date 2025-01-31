@@ -1,6 +1,6 @@
 
 {
-  "ID": 112,
+  "ID": 116,
   "Name": "Prairie",
   "Resource Location": "wildnature:prairie",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomePrairie",

@@ -89,6 +89,7 @@ val naquadah_fuel_refinery = Builder.start(loc, meta)
                     "~~~~~~~~~~~~~~~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('G', 110)
                 .whereOr("G", 
                 <metastate:contenttweaker:naquadahfuelrefinerycasing>,
                     IBlockMatcher.abilityPartPredicate(

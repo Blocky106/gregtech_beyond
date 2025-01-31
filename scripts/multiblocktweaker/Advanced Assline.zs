@@ -99,6 +99,7 @@ var advanced_assembly_line = Builder.start(loc, meta)
             "~C~",
             "~C~",
             "~C~")
+            .setAmountAtLeast('C', 40)
             .whereOr("C",
                 <metastate:gregtech:metal_casing:4>,
                 IBlockMatcher.abilityPartPredicate(

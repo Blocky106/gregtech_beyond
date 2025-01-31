@@ -1,6 +1,6 @@
 
 {
-  "ID": 55,
+  "ID": 59,
   "Name": "Pine Forest",
   "Resource Location": "wildnature:pine_forest",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomePineForest",
@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "FOREST",
-    "COLD"
+    "COLD",
+    "FOREST"
   ],
   "BiomeManager Entries": {
     "COOL Weights": [

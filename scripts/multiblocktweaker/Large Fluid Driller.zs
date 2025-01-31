@@ -110,6 +110,7 @@ val large_fluid_driller = Builder.start(loc, meta)
                     "~~~~~~~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 80)
                 .whereOr("C", 
                 <metastate:gregtech:metal_casing:4>,
                     IBlockMatcher.abilityPartPredicate(

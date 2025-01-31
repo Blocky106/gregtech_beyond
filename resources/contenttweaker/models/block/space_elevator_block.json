@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "contenttweaker:blocks/space_elevator_block"
+  }
+}

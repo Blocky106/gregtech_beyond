@@ -72,6 +72,7 @@ val pressurized_sterile_tank = Builder.start(loc, meta)
                     "~~C~~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 76)
                 .whereOr("C", 
                <metastate:gtadditions:ga_metal_casing_2:4>,
                     IBlockMatcher.abilityPartPredicate(

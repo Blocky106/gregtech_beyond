@@ -1,4 +1,3 @@
-
 import crafttweaker.world.IFacing;
 import crafttweaker.block.IBlock;
 import crafttweaker.block.IBlockState;
@@ -22,6 +21,8 @@ import mods.gregtech.render.ICubeRenderer;
 import mods.gregtech.render.Textures;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
+import mods.gregtech.recipe.functions.IUpdateFunction;
+import mods.gregtech.recipe.IRecipeLogic;
 
 var loc = "mega_alloy_blast_smelter";
 var meta = 10035;
@@ -180,6 +181,7 @@ val mega_alloy_blast_smelter = Builder.start(loc, meta)
                     "~~~~~~~~~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 230)
                 .whereOr("C", 
                 <metastate:gtadditions:ga_metal_casing_1:14>,
                     IBlockMatcher.abilityPartPredicate(
@@ -349,11 +351,13 @@ val mega_alloy_blast_smelter = Builder.start(loc, meta)
                 .build())
 .withRecipeMap(
         FactoryRecipeMap.start(loc)
-                        .maxInputs(1)
-                        .maxFluidInputs(1)
-                        .maxOutputs(1)
+                        .maxInputs(9)
+                        .maxFluidInputs(2)
+                        .maxFluidOutputs(1)
                         .build())
 .withTexture(ICubeRenderer.sided("contenttweaker:blocks/zirconium_carbide"))
 .withZoom(0.5f)
 .buildAndRegister() as Multiblock;
 
+
+mega_alloy_blast_smelter.recipeMap.copyAll(RecipeMap.getByName("blast_alloy"));

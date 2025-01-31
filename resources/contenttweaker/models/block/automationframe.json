@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/automationframe",
+		"left" : "contenttweaker:blocks/automationframe",
+		"right" : "contenttweaker:blocks/automationframe",
+		"back" : "contenttweaker:blocks/automationframe",
+		"top" : "contenttweaker:blocks/automationframe",
+		"bottom" : "contenttweaker:blocks/automationframe"
+
+	}
+	
+
+}

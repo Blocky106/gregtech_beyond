@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/internalstructure",
+		"left" : "contenttweaker:blocks/internalstructure",
+		"right" : "contenttweaker:blocks/internalstructure",
+		"back" : "contenttweaker:blocks/internalstructure",
+		"top" : "contenttweaker:blocks/internalstructure",
+		"bottom" : "contenttweaker:blocks/internalstructure"
+
+	}
+	
+
+}

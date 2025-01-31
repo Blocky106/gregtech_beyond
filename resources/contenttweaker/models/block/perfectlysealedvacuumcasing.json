@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/perfectlysealedvacuumcasing",
+		"left" : "contenttweaker:blocks/perfectlysealedvacuumcasing",
+		"right" : "contenttweaker:blocks/perfectlysealedvacuumcasing",
+		"back" : "contenttweaker:blocks/perfectlysealedvacuumcasing",
+		"top" : "contenttweaker:blocks/perfectlysealedvacuumcasing",
+		"bottom" : "contenttweaker:blocks/perfectlysealedvacuumcasing"
+
+	}
+	
+
+}

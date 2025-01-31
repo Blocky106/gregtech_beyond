@@ -1,6 +1,6 @@
 
 {
-  "ID": 81,
+  "ID": 85,
   "Name": "Redwood Forest",
   "Resource Location": "wildnature:redwood_forest",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeRedwoodForest",
@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DENSE",
-    "FOREST"
+    "FOREST",
+    "DENSE"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [

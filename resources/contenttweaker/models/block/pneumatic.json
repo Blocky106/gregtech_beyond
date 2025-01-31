@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/pneumatic",
+		"left" : "contenttweaker:blocks/pneumatic",
+		"right" : "contenttweaker:blocks/pneumatic",
+		"back" : "contenttweaker:blocks/pneumatic",
+		"top" : "contenttweaker:blocks/pneumatic",
+		"bottom" : "contenttweaker:blocks/pneumatic"
+
+	}
+	
+
+}

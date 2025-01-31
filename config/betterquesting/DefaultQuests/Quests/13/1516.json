@@ -1,0 +1,50 @@
+{
+  "preRequisites:11": [
+    1067
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Is it a bit slow? build 10 of them, welcome to endgame\n\nThe Advanced Quantum Computer uses the force, created by neutrons clashing and interacting with each other\n§cProvide it with some power, give it some time and it will give you back computation\nThe Quatum Computer Consists of:\n\n§9-21 Robust Tungstensteel Casings\n-12 Osmiridium Reinforced Glass\n-59 High Power Casings\n-36 Natural Mendelevium Casings\n-1  Advanced Quantum Computer Casings",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 10012,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "Advanced Quantum Computer"
+    }
+  },
+  "questID:3": 1516,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 10012,
+          "id:8": "gregtech:machine"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:highpowercasing"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 11,
+          "id:8": "gtadditions:ga_nuclear_casing"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 7,
+          "id:8": "gregtech:metal_casing"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 6,
+          "id:8": "gtadditions:ga_transparent_casing"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

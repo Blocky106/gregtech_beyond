@@ -1,0 +1,72 @@
+{
+  "preRequisites:11": [
+    49,
+    30,
+    51,
+    72,
+    369
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 511,
+        "id:8": "gregtech:machine"
+      },
+      "ismain:1": 1,
+      "name:8": "EBF",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 50,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2534,
+          "id:8": "gregtech:machine"
+        },
+        "1:10": {
+          "Count:3": 16,
+          "id:8": "gregtech:wire_coil"
+        },
+        "2:10": {
+          "Count:3": 14,
+          "Damage:2": 2,
+          "id:8": "gregtech:metal_casing"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 714,
+          "id:8": "gregtech:machine"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 710,
+          "id:8": "gregtech:machine"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 711,
+          "id:8": "gregtech:machine"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "Damage:2": 4213,
+          "id:8": "gregtech:machine"
+        },
+        "7:10": {
+          "Count:3": 1,
+          "Damage:2": 4216,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

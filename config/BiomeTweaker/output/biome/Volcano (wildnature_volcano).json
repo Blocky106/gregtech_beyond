@@ -1,6 +1,6 @@
 
 {
-  "ID": 114,
+  "ID": 118,
   "Name": "Volcano",
   "Resource Location": "wildnature:volcano",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeVulcanic",
@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
-    "SPARSE",
     "DRY",
-    "MOUNTAIN"
+    "MOUNTAIN",
+    "SPARSE",
+    "HOT"
   ],
   "BiomeManager Entries": {
     "DESERT Weights": [

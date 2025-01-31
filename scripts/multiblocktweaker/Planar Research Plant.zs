@@ -28,30 +28,10 @@ var meta = 10019;
 val planar_research_plant = Builder.start(loc, meta)
     .withPattern(
             FactoryBlockPattern.start(RelativeDirection.RIGHT, RelativeDirection.BACK, RelativeDirection.UP)
-                .aisle(
-                    "~CCC~",
-                    "CCCCC",
-                    "CCCCC",
-                    "CCCCC",
-                    "~CSC~")
-                .aisle(
-                    "~CCC~",
-                    "C~~~C",
-                    "C~~~C",
-                    "C~~~C",
-                    "~CCC~")
-                .aisle(
-                    "~~C~~",
-                    "~GGG~",
-                    "CG~GC",
-                    "~GGG~",
-                    "~~C~~")
-                .aisle(
-                    "~~~~~",
-                    "~~G~~",
-                    "~GGG~",
-                    "~~G~~",
-                    "~~~~~")
+                .aisle("~CCC~","CCCCC","CCCCC","CCCCC","~CSC~")
+                .aisle("~CCC~","C~~~C","C~~~C","C~~~C","~CCC~")
+                .aisle("~~C~~","~GGG~","CG~GC","~GGG~","~~C~~")
+                .aisle("~~~~~","~~G~~","~GGG~","~~G~~","~~~~~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
                 .whereOr("C", 

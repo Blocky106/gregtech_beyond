@@ -13,11 +13,11 @@
         "value": {
             "type": "weight_random",
             "values": [{
-                    "weight": 20,
+                    "weight": 30,
                     "value": "ore:gadolinite"
                 },
                 {
-                    "weight": 20,
+                    "weight": 30,
                     "value": "ore:monazite"
 
                 },

@@ -42,7 +42,7 @@ mods.forestry.ThermionicFabricator.removeCast(<forestry:thermionic_tubes:11>);
 mods.forestry.ThermionicFabricator.removeCast(<forestry:thermionic_tubes:12>);
 
 recipes.addShaped(<forestry:worktable>, [	[<ore:ingotCopper>, <ore:itemSimpleMachineChassi>, <ore:ingotCopper>], 	[<ore:ingotCopper>, <ore:circuitBasic>, <ore:ingotCopper>], 	[<ore:ingotCopper>, <gregtech:machine_casing:10>, <ore:ingotCopper>]]);
-recipes.addShaped(<forestry:carpenter>, [	[<ore:compressedBronze>, <gregtech:machine_casing:10>, <ore:compressedBronze>], 	[<ore:plateBronze>, <thermalfoundation:material:512>, <ore:plateBronze>], 	[<forestry:impregnated_casing>, <contenttweaker:engine>, <forestry:impregnated_casing>]]);
+recipes.addShaped(<forestry:carpenter>, [	[<ore:compressedBronze>, <gregtech:machine_casing:10>, <ore:compressedBronze>], 	[<ore:plateBronze>, <contenttweaker:servo>, <ore:plateBronze>], 	[<forestry:impregnated_casing>, <contenttweaker:engine>, <forestry:impregnated_casing>]]);
 recipes.addShaped(<forestry:analyzer>, [	[<ore:plateBlueSteel>, <forestry:portable_alyzer>, <ore:plateBlueSteel>], 	[<ore:plateBlueSteel>, <gregtech:machine:502>, <ore:plateBlueSteel>], 	[<contenttweaker:bisphenolbingot>, <ore:circuitBasic>, <contenttweaker:bisphenolbingot>]]);
 recipes.addShaped(<forestry:fabricator>, [[<ore:plateRoseGold>, <ore:itemMachineChassi>, <ore:plateRoseGold>], 	[<ore:plateRoseGold>, <gregtech:machine:502>, <ore:plateRoseGold>], 	[<contenttweaker:electricalsteelplate>, <contenttweaker:engine>, <contenttweaker:electricalsteelplate>]]);
 recipes.addShaped(<forestry:wrench>, [	[<ore:screwCopper>, null, <ore:screwCopper>], 	[<ore:plateCopper>, <ore:stickCopper>, <ore:plateCopper>], 	[null, <ore:stickCopper>, null]]);

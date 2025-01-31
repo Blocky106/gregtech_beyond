@@ -81,6 +81,7 @@ val mega_chemical_reactor = Builder.start(loc, meta)
                     "CCCCC")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 114)
                 .whereOr("C", 
                 <metastate:gtadditions:ga_multiblock_casing:1>,
                     IBlockMatcher.abilityPartPredicate(

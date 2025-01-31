@@ -78,6 +78,7 @@ val quantum_computer = Builder.start(loc, meta)
                     "CCHCC")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 20)
                 .whereOr("C", 
                 <metastate:gregtech:metal_casing:7>,
                     IBlockMatcher.abilityPartPredicate(

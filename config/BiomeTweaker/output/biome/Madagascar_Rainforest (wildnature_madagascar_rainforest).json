@@ -1,6 +1,6 @@
 
 {
-  "ID": 142,
+  "ID": 146,
   "Name": "Madagascar Rainforest",
   "Resource Location": "wildnature:madagascar_rainforest",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeMadascarRainforest",
@@ -20,13 +20,13 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
+    "FOREST",
     "DENSE",
     "LUSH",
-    "HOT",
-    "JUNGLE",
-    "FOREST",
+    "WET",
     "RARE",
-    "WET"
+    "JUNGLE",
+    "HOT"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [

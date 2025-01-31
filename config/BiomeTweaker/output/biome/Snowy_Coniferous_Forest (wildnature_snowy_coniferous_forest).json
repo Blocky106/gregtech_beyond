@@ -1,6 +1,6 @@
 
 {
-  "ID": 64,
+  "ID": 68,
   "Name": "Snowy Coniferous Forest",
   "Resource Location": "wildnature:snowy_coniferous_forest",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeSnowyConiferousForest",
@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
+    "FOREST",
     "DENSE",
-    "CONIFEROUS",
-    "FOREST"
+    "CONIFEROUS"
   ],
   "BiomeManager Entries": {
     "ICY Weights": [

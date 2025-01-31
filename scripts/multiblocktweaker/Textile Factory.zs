@@ -60,6 +60,7 @@ val textile_factory = Builder.start(loc, meta)
                     "~C~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 19)
                 .whereOr("C", 
                 <metastate:gtadditions:ga_metal_casing_1:3>,
                     IBlockMatcher.abilityPartPredicate(
@@ -131,4 +132,20 @@ textile_factory.recipeMap.recipeBuilder()
     .outputs(<gregtech:meta_item_1:12630>)
     .duration(700)
     .EUt(180)
+    .buildAndRegister();
+
+textile_factory.recipeMap.recipeBuilder()
+    .inputs(<contenttweaker:nylon610_spinneret>)
+    .outputs(<gregtech:meta_item_1:12636>)
+    .notConsumable(<gregtech:meta_item_1:32301>)
+    .duration(400)
+    .EUt(8000)
+    .buildAndRegister();
+
+textile_factory.recipeMap.recipeBuilder()
+    .inputs(<contenttweaker:nylon610_spinneret>)
+    .outputs(<gregtech:meta_item_1:10636>)
+    .notConsumable(<gregtech:meta_item_1:32306>)
+    .duration(400)
+    .EUt(8000)
     .buildAndRegister();

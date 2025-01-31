@@ -19,6 +19,8 @@ import mods.contenttweaker.SoundType;
 import crafttweaker.item.IItemStack;
 import mods.contenttweaker.DropHandler;
 import mods.contenttweaker.ItemList;
+import mods.contenttweaker.Facing;
+
 
 function registerItem(name as string) {
     var item = VanillaFactory.createItem(name);
@@ -31,15 +33,11 @@ function registerMetalBlock(name as string, hardness as float, resistance as flo
 
     block.setBlockHardness(hardness);
     block.setBlockResistance(resistance);
+    block.setEntitySpawnable(false);
     block.setToolClass("pickaxe");
     block.setToolLevel(0);
     block.register();
 }
-
-
-
-
-
 
 
 
@@ -52,7 +50,7 @@ fieldrestrictionglass.setTranslucent(true);
 fieldrestrictionglass.setFullBlock(false);
 fieldrestrictionglass.setToolClass("pickaxe");
 fieldrestrictionglass.setToolLevel(2);
-fieldrestrictionglass.setBlockSoundType(<soundtype:stone>);
+fieldrestrictionglass.setBlockSoundType(<soundtype:glass>);
 fieldrestrictionglass.register();
 
 var highresistanceglass = VanillaFactory.createBlock("highresistanceglass", <blockmaterial:glass>);
@@ -64,14 +62,44 @@ highresistanceglass.setTranslucent(true);
 highresistanceglass.setFullBlock(false);
 highresistanceglass.setToolClass("pickaxe");
 highresistanceglass.setToolLevel(2);
-highresistanceglass.setBlockSoundType(<soundtype:stone>);
+highresistanceglass.setBlockSoundType(<soundtype:glass>);
 highresistanceglass.register();
 
+var ultrahighresistanceglass = VanillaFactory.createBlock("ultrahighresistanceglass", <blockmaterial:glass>);
+ultrahighresistanceglass.setBlockHardness(1.5);
+ultrahighresistanceglass.setBlockResistance(3.0);
+ultrahighresistanceglass.setBlockLayer("TRANSLUCENT");
+ultrahighresistanceglass.setLightOpacity(5);
+ultrahighresistanceglass.setTranslucent(true);
+ultrahighresistanceglass.setFullBlock(false);
+ultrahighresistanceglass.setToolClass("pickaxe");
+ultrahighresistanceglass.setToolLevel(2);
+ultrahighresistanceglass.setBlockSoundType(<soundtype:glass>);
+ultrahighresistanceglass.register();
+
+var maraging_steel_frame_300 = VanillaFactory.createBlock("maraging_steel_frame_300", <blockmaterial:rock>);
+maraging_steel_frame_300.setBlockHardness(1.5);
+maraging_steel_frame_300.setBlockResistance(3.0);
+maraging_steel_frame_300.setLightOpacity(5);
+maraging_steel_frame_300.setFullBlock(false);
+maraging_steel_frame_300.setBlockLayer("TRANSLUCENT");
+maraging_steel_frame_300.setToolClass("pickaxe");
+maraging_steel_frame_300.setToolLevel(2);
+maraging_steel_frame_300.setBlockSoundType(<soundtype:metal>);
+maraging_steel_frame_300.register();
 
 
-
+registerMetalBlock("heat_vent", 12.0 , 10.0, 1);
+registerMetalBlock("mervin_tara_carbonoxygen_casing", 12.0, 10.0, 1);
+registerMetalBlock("neutron_tube_casing", 12.0, 10.0, 1);
+registerMetalBlock("electromagnetic_acceleration_pipe_box", 12.0, 10.0, 1);
+registerMetalBlock("stella_anvil_module", 12.0, 10.0, 1);
 registerMetalBlock("cryoliteore", 12.0, 10.0, 1);
+registerMetalBlock("sonicator_casing", 12.0, 10.0, 1);
+registerMetalBlock("electrolyticcell", 12.0, 10.0, 1);
 registerMetalBlock("platinumsaltore", 12.0, 10.0, 1);
+registerMetalBlock("reactor_core_stabilizer", 12.0, 10.0, 1);
+registerMetalBlock("atomic_casing", 12.0, 10.0, 1);
 registerMetalBlock("advcomputercasing", 12.0, 10.0, 1);
 registerMetalBlock("computercasing", 12.0, 10.0, 1);
 registerMetalBlock("mattercasing", 12.0, 10.0, 1);
@@ -96,11 +124,10 @@ registerMetalBlock("naquadahfuelrefinerycasing", 12.0, 10.0, 1);
 registerMetalBlock("copperalloycoilblock", 12.0, 10.0, 1);
 registerMetalBlock("vacuumfurnacecasing", 12.0, 10.0, 1);
 registerMetalBlock("treatedwoodplanks", 12.0, 10.0, 1);
-registerMetalBlock("motorfour", 12.0, 10.0, 1);
-registerMetalBlock("motorfive", 12.0, 10.0, 1);
 registerMetalBlock("basecasing", 12.0, 10.0, 1);
 registerMetalBlock("supportstructure", 12.0, 10.0, 1);
 registerMetalBlock("asphaltblock", 12.0, 10.0, 1);
+registerMetalBlock("fused_quartz_block", 12.0, 10.0, 1);
 registerMetalBlock("scsteamturbinecasing", 12.0, 10.0, 1);
 registerMetalBlock("millcasing", 12.0, 10.0, 1);
 registerMetalBlock("blockgraphite", 12.0, 10.0, 1);
@@ -116,10 +143,6 @@ registerMetalBlock("woodeneglinsteelcasing", 12.0, 10.0, 1);
 registerMetalBlock("pbistrengthenedtetrixcasing", 12.0, 10.0, 1);
 registerMetalBlock("soulariumreinforcedglass", 12.0, 10.0, 1);
 registerMetalBlock("internalstructure", 12.0, 10.0, 1);
-registerMetalBlock("motorblock", 12.0, 10.0, 1);
-registerMetalBlock("motorone", 12.0, 10.0, 1);
-registerMetalBlock("motortwo", 12.0, 10.0, 1);
-registerMetalBlock("motorthree", 12.0, 10.0, 1);
 registerMetalBlock("climateproofcasing", 12.0, 10.0, 1);
 registerMetalBlock("dense_ice", 12.0, 10.0, 1);
 registerMetalBlock("dimensionalcasing", 12.0, 10.0, 1);
@@ -171,12 +194,59 @@ registerMetalBlock("rocket_thruster_top", 12.0, 10.0, 1);
 registerMetalBlock("rocket_thruster_bottom", 12.0, 10.0, 1);
 registerMetalBlock("rocket_turbo_pump", 12.0, 10.0, 1);
 registerMetalBlock("t1_rocket_combustion_engine", 12.0, 10.0, 1);
-
+registerMetalBlock("space_elevator_block", 10.0, 10.0, 1);
+registerMetalBlock("space_elevator_railway_block", 10.0, 10.0, 1);
+registerMetalBlock("carved_pumpkin", 1.0, 1.0, 1);
+registerMetalBlock("bauxite_deposit_block", 5.0, 5.0, 1);
+registerMetalBlock("alumina_rich_bauxite_deposit_block", 5.0, 5.0, 1);
 
 
 
 var items = [
-"trenched_superconductor_layered_uhasoc_wafer",
+"ga_as_wafer",
+"sifted_tantalite",
+"passivated_spincoated_ga_as_wafer",
+"spincoated_ga_as_wafer",
+"exposed_ga_as_substrate",
+"ga_as_wafer_die",
+"bonded_ga_as_wafer",
+"coated_layered_ga_as_wafer",
+"carbon_electrode",
+"wet_steel_rod",
+"p_type_doped_ga_as_wafer",
+"gallium_arsenide_substrate",
+"dried_ga_as_substrate",
+"removed_ga_as_substrate",
+"amberlyst_15_ion_exchange_beads",
+"spincoated_dried_ga_as_substrate",
+"sputtered_ga_as_substrate",
+"chromium_shadow_mask",
+"cured_ga_as_substrate",
+"bitumen_crystal",
+"servo",
+"tar",
+"nano_smd_resistor_substrate",
+"fused_quartz",
+"doped_ga_as_wafer",
+"layered_ga_as_wafer",
+"transistor_lithography_mask",
+"spincoated_ga_as_substrate",
+"coated_ga_as_substrate",
+"electrode_deposited_ga_as_substrate",
+"masked_ga_as_wafer",
+"sputtered_ga_as_wafer",
+"etched_spincoated_ga_as_wafer",
+"engraved_ga_as_wafer",
+"etched_ga_as_wafer",
+"passivated_epitaxial_ga_as_wafer",
+"nano_smd_diode_wafer",
+"uev_superconductor_assembly",
+"nylon610_spinneret",
+"fume_hood",
+"optical_capacitor_base",
+"lafeaso1_pellets",
+"lafeaso1_catalyst",
+"used_lafeAso1_catalyst",
 "steel_item_casing",
 "enhancedenderiumlense",
 "alumino_silicate_wool_sheet",
@@ -186,10 +256,14 @@ var items = [
 "cupriavidusnecator",
 "annealed_nickel_plate",
 "pad_petri",
+"sintered_neodymium_plate",
+"annealed_neodymium_plate",
+"coated_neodymium_plate",
 "soy_bean",
 "nickel_breeding_bed",
 "superconducting_wire_insulation_base",
 "aluminium_item_casing",
+"au_ge_ni_alloy_stack",
 "syringe",
 "sheep_blood_syringe",
 "sterilized_syringe",
@@ -201,13 +275,21 @@ var items = [
 "raw_high_power_ic_wafer",
 "nether",
 "beneath",
+"thin_nylon_sheet",
+"space_assembler_module",
+"space_assembler_module_mk2",
+"space_assembler_module_mk3",
+"space_mining_module",
+"space_mining_module_mk2",
+"space_mining_module_mk3",
+"space_ultraclean_module",
+"space_crystal_growth_module",
 "cotton_sheet",
 "aether",
 "twilight_forest",
 "end",
 "engraved_ic_wafer",
 "patterned_sapphire_substrate",
-"raw_ic_wafer",
 "biologically_approved_lense",
 "etched_sapphire_substrate",
 "integrated_circuit_photolithography_mask",
@@ -352,16 +434,16 @@ var items = [
 "seperationfilter",
 "rotarryspinningwhisker",
 "spectreplate",
-"carbonmyogel",
 "solenoid",
 "wiring",
-"articficialmuscle",
 "ionthruster",
 "soc_wafer_base",
 "cotton",
 "forcefieldgenerator",
-"buildingwrench",
 "wrapofhsssfoil",
+"ga_as_seed_crystal",
+"zone_refined_ga_as_boule",
+"ga_as_boule",
 "wrapofelectrumfoil",
 "wrapofosmiumfinewire",
 "engraved_soc_wafer",
@@ -426,18 +508,33 @@ var items = [
 "datadiskassemblyline",
 "usedcrackingcatalyst",
 "crackingcatalyst",
-"rareearththree",
-"rareearthtwo",
-"rareearthone",
 "boiledleather",
+"dielectric_film",
+"electrode_pasted_ceramic_plate",
+"silicon_dioxide_chip",
+"lasered_silicon_chip",
+"diode_imprinted_polysilicon_chip",
+"sputtered_silicon_chip",
+"coated_silicon_chip",
 "asphalt",
+"silicon_nitride_wafer",
+"circiut_board_lithography_mask",
+"electroplated_expoy_board",
+"coated_epoxy_board",
+"silicon_nitride_chip",
+"gold_electrode",
+"etched_circuit_board",
 "petreulumcoke",
 "bitominousresidue",
+"silicon_nitride_implanted_polysilicon_wafer",
 "stackwax",
 "oganesson_seed_crystal",
 "oganesson_boule",
 "hasoc_lithography_mask",
 "monocrystalline_oganesson_ingot",
+"coated_polysilicon_wafer",
+"diode_lithography_mask",
+"diode_imprinted_polysilicon_wafer",
 "oganesson_wafer",
 "treated_oganesson_wafer",
 "pre_engraving_oganesson_lithography_mask",
@@ -486,7 +583,6 @@ var items = [
 "algaebreedingbase",
 "mutationbasedpetridish",
 "petridishmold",
-"enrichedenderium",
 "tinyoranorhodiumcatalystdust",
 "highdensityuranium",
 "reinfrocedkevlarcloth",

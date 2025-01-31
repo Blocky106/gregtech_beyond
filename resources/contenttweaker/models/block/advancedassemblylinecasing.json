@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/advancedassemblylinecasing",
+		"left" : "contenttweaker:blocks/advancedassemblylinecasing",
+		"right" : "contenttweaker:blocks/advancedassemblylinecasing",
+		"back" : "contenttweaker:blocks/advancedassemblylinecasing",
+		"top" : "contenttweaker:blocks/advancedassemblylinecasing",
+		"bottom" : "contenttweaker:blocks/advancedassemblylinecasing"
+
+	}
+	
+
+}

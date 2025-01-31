@@ -16,7 +16,7 @@ import mods.gregtech.recipe.CokeOvenRecipeBuilder;
 import mods.gtadditions.recipe.Utils;
 
 
-Utils.removeRecipeByOutput(implosion,[<minecraft:ender_eye>*3,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<minecraft:ender_eye>*3,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2219>*4)
@@ -26,7 +26,7 @@ implosion.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(implosion,[<minecraft:ender_pearl>*3,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<minecraft:ender_pearl>*3,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2218>*4)
@@ -44,7 +44,7 @@ implosion.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_1:8713>*3,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_1:8713>*3,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2713>*4)
@@ -54,7 +54,7 @@ implosion.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:24713>,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:24713>,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_1:8713>*3)
@@ -64,7 +64,7 @@ implosion.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:25713>,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:25713>,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_2:24713>*3)
@@ -77,7 +77,7 @@ implosion.recipeBuilder()
 //Tourmaline
 
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_1:8612>*3,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_1:8612>*3,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2612>*4)
@@ -87,7 +87,7 @@ implosion.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:24612>,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:24612>,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_1:8612>*3)
@@ -97,7 +97,7 @@ implosion.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:25612>,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:25612>,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_2:24612>*3)
@@ -109,7 +109,7 @@ implosion.recipeBuilder()
 
 //topaz
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_1:8190>*3,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_1:8190>*3,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2190>*4)
@@ -119,7 +119,7 @@ implosion.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:24190>,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:24190>,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_1:8190>*3)
@@ -129,7 +129,7 @@ implosion.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:25190>,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:25190>,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_2:24190>*3)
@@ -141,7 +141,7 @@ implosion.recipeBuilder()
 
 //Glass
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_1:8209>*3,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_1:8209>*3,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2209>*4)
@@ -151,7 +151,7 @@ implosion.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:24209>,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:24209>,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_1:8209>*3)
@@ -161,7 +161,7 @@ implosion.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:25209>,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:25209>,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_2:24209>*3)
@@ -173,7 +173,7 @@ implosion.recipeBuilder()
 
 //Rutile
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_1:8122>*3,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_1:8122>*3,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2122>*4)
@@ -183,7 +183,7 @@ implosion.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:24122>,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:24122>,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_1:8122>*3)
@@ -193,7 +193,7 @@ implosion.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:25122>,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:25122>,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_2:24122>*3)
@@ -205,7 +205,7 @@ implosion.recipeBuilder()
 
 //Ruby
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_1:8154>*3,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_1:8154>*3,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2154>*4)
@@ -215,7 +215,7 @@ implosion.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:24154>,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:24154>,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_1:8154>*3)
@@ -225,7 +225,7 @@ implosion.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:25154>,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:25154>,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_2:24154>*3)
@@ -237,7 +237,7 @@ implosion.recipeBuilder()
 
 //Opal
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_1:8213>*3,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_1:8213>*3,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2213>*4)
@@ -247,7 +247,7 @@ implosion.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:24213>,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:24213>,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_1:8213>*3)
@@ -257,7 +257,7 @@ implosion.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:25213>,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:25213>,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_2:24213>*3)
@@ -269,7 +269,7 @@ implosion.recipeBuilder()
 
 //Tanzanite
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_1:8871>*3,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_1:8871>*3,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2871>*4)
@@ -279,7 +279,7 @@ implosion.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:24871>,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:24871>,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_1:8871>*3)
@@ -289,7 +289,7 @@ implosion.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:25871>,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:25871>,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_2:24871>*3)
@@ -301,7 +301,7 @@ implosion.recipeBuilder()
 
 //Jasper
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_1:8206>*3,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_1:8206>*3,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2206>*4)
@@ -311,7 +311,7 @@ implosion.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:24206>,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:24206>,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_1:8206>*3)
@@ -321,7 +321,7 @@ implosion.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:25206>,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:25206>,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_2:24206>*3)
@@ -333,7 +333,7 @@ implosion.recipeBuilder()
 
 //Rhodium Salt
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_1:8867>*3,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_1:8867>*3,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2867>*4)
@@ -343,7 +343,7 @@ implosion.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:24867>,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:24867>,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_1:8867>*3)
@@ -353,7 +353,7 @@ implosion.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:25867>,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:25867>,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_2:24867>*3)
@@ -365,7 +365,7 @@ implosion.recipeBuilder()
 
 //Prasiolite
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_1:8910>*3,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_1:8910>*3,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2910>*4)
@@ -375,7 +375,7 @@ implosion.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:24910>,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:24910>,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_1:8910>*3)
@@ -385,7 +385,7 @@ implosion.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:25910>,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:25910>,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_2:24910>*3)
@@ -397,7 +397,7 @@ implosion.recipeBuilder()
 
 //Chromatic Glass
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_1:8584>*3,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_1:8584>*3,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2584>*4)
@@ -407,7 +407,7 @@ implosion.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:24584>,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:24584>,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_1:8584>*3)
@@ -417,7 +417,7 @@ implosion.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:25584>,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:25584>,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_2:24584>*3)
@@ -429,7 +429,7 @@ implosion.recipeBuilder()
 
 //Cubic Zirconia
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_1:8911>*3,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_1:8911>*3,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2911>*4)
@@ -439,7 +439,7 @@ implosion.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:24911>,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:24911>,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_1:8911>*3)
@@ -449,7 +449,7 @@ implosion.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:25911>,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:25911>,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_2:24911>*3)
@@ -461,7 +461,7 @@ implosion.recipeBuilder()
 
 //Black Opal
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_1:8562>*3,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_1:8562>*3,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2562>*4)
@@ -471,7 +471,7 @@ implosion.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:24562>,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:24562>,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_1:8562>*3)
@@ -481,7 +481,7 @@ implosion.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:25562>,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:25562>,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_2:24562>*3)
@@ -493,7 +493,7 @@ implosion.recipeBuilder()
 
 //Green Sapphire
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_1:8117>*3,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_1:8117>*3,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2117>*4)
@@ -503,7 +503,7 @@ implosion.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:24117>,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:24117>,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_1:8117>*3)
@@ -513,7 +513,7 @@ implosion.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:25117>,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:25117>,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_2:24117>*3)
@@ -525,7 +525,7 @@ implosion.recipeBuilder()
 
 //Green Sapphire
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_1:8157>*3,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_1:8157>*3,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2157>*4)
@@ -535,7 +535,7 @@ implosion.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:24157>,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:24157>,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_1:8157>*3)
@@ -545,7 +545,7 @@ implosion.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:25157>,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:25157>,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_2:24157>*3)
@@ -557,7 +557,7 @@ implosion.recipeBuilder()
 
 //Yellow Garnet
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_1:8244>*3,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_1:8244>*3,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2244>*4)
@@ -567,7 +567,7 @@ implosion.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:24244>,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:24244>,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_1:8244>*3)
@@ -577,7 +577,7 @@ implosion.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:25244>,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:25244>,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_2:24244>*3)
@@ -589,7 +589,7 @@ implosion.recipeBuilder()
 
 //Amethyst
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_1:8214>*3,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_1:8214>*3,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2214>*4)
@@ -599,7 +599,7 @@ implosion.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:24214>,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:24214>,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_1:8214>*3)
@@ -609,7 +609,7 @@ implosion.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:25214>,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:25214>,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_2:24214>*3)
@@ -621,7 +621,7 @@ implosion.recipeBuilder()
 
 //Vinteum
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_1:8247>*3,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_1:8247>*3,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2247>*4)
@@ -631,7 +631,7 @@ implosion.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:24247>,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:24247>,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_1:8247>*3)
@@ -641,7 +641,7 @@ implosion.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:25247>,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:25247>,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_2:24247>*3)
@@ -653,7 +653,7 @@ implosion.recipeBuilder()
 
 //Red Garnet
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_1:8243>*3,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_1:8243>*3,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2243>*4)
@@ -663,7 +663,7 @@ implosion.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:24243>,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:24243>,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_1:8243>*3)
@@ -673,7 +673,7 @@ implosion.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:25243>,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:25243>,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_2:24243>*3)
@@ -685,7 +685,7 @@ implosion.recipeBuilder()
 
 //Olivine
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_1:8212>*3,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_1:8212>*3,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2212>*4)
@@ -695,7 +695,7 @@ implosion.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:24212>,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:24212>,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_1:8212>*3)
@@ -705,7 +705,7 @@ implosion.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:25212>,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:25212>,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_2:24212>*3)
@@ -717,7 +717,7 @@ implosion.recipeBuilder()
 
 //Almandine
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_1:8085>*3,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_1:8085>*3,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2085>*4)
@@ -727,7 +727,7 @@ implosion.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:24085>,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:24085>,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_1:8085>*3)
@@ -737,7 +737,7 @@ implosion.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:25085>,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<gregtech:meta_item_2:25085>,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_2:24085>*3)
@@ -749,7 +749,7 @@ implosion.recipeBuilder()
 
 //Nether Star
 
-Utils.removeRecipeByOutput(implosion,[<minecraft:nether_star>*3,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<minecraft:nether_star>*3,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2331>*4)
@@ -761,7 +761,7 @@ implosion.recipeBuilder()
 
 //Diamond
 
-Utils.removeRecipeByOutput(implosion,[<minecraft:diamond>*3,<gregtech:meta_item_1:110>*2],[],false);
+Utils.removeRecipeByOutput(implosion,[<minecraft:diamond>*3,<gregtech:meta_item_1:110>*2],[],true);
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2111>*4)

@@ -62,6 +62,7 @@ val enzymatic_hydrolisis_tank = Builder.start(loc, meta)
                     "~~~~C~~~~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 46)
                 .whereOr("C", 
                 <metastate:gregtech:metal_casing:4>,
                     IBlockMatcher.abilityPartPredicate(

@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/asphaltblock",
+		"left" : "contenttweaker:blocks/asphaltblock",
+		"right" : "contenttweaker:blocks/asphaltblock",
+		"back" : "contenttweaker:blocks/asphaltblock",
+		"top" : "contenttweaker:blocks/asphaltblock",
+		"bottom" : "contenttweaker:blocks/asphaltblock"
+
+	}
+	
+
+}

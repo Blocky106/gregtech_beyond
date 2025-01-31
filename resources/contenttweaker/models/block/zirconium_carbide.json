@@ -1,0 +1,16 @@
+
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/zirconium_carbide",
+		"left" : "contenttweaker:blocks/zirconium_carbide",
+		"right" : "contenttweaker:blocks/zirconium_carbide",
+		"back" : "contenttweaker:blocks/zirconium_carbide",
+		"top" : "contenttweaker:blocks/zirconium_carbide",
+		"bottom" : "contenttweaker:blocks/zirconium_carbide"
+
+	}
+	
+
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "contenttweaker:items/diode_imprinted_polysilicon_chip"
+  }
+}

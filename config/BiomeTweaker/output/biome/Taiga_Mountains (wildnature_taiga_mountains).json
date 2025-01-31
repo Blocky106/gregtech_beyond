@@ -1,6 +1,6 @@
 
 {
-  "ID": 67,
+  "ID": 71,
   "Name": "Taiga Mountains",
   "Resource Location": "wildnature:taiga_mountains",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeTaigaMountains",
@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "FOREST",
-    "MOUNTAIN"
+    "MOUNTAIN",
+    "FOREST"
   ],
   "BiomeManager Entries": {
     "COOL Weights": [

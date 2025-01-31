@@ -34,6 +34,7 @@ val fischer_tropsch_reactor = Builder.start(loc, meta)
                 .aisle("CCC","CCC","CCC")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 20)
                 .whereOr("C", 
                 <metastate:gregtech:metal_casing:4>,
                     IBlockMatcher.abilityPartPredicate(
@@ -47,21 +48,9 @@ val fischer_tropsch_reactor = Builder.start(loc, meta)
                 .build())
         .addDesign(
                 FactoryMultiblockShapeInfo.start()
-                .aisle(
-"F F",
-"CCC",
-"CCC",
-"CCC")
-                .aisle(
-"   ",
-"SCE",
-"C C",
-"CCC")
-                .aisle(
-"F F",
-"CCC",
-"CCC",
-"CCC")
+                .aisle("F F","CCC","CCC","CCC")
+                .aisle("   ","SCE","C C","CCC")
+                .aisle("F F","CCC","CCC","CCC")
                 .where("F", <metastate:gregtech:frame_titanium>)
                 .where("C", <metastate:gregtech:metal_casing:4>)
                 .where("S", IBlockInfo.controller(loc))

@@ -1,0 +1,92 @@
+{
+  "preRequisites:11": [
+    992
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "betterquesting:placeholder",
+        "tag:10": {
+          "orig_id:8": "ic2:casing",
+          "orig_meta:3": 0
+        }
+      },
+      "name:8": "Item Casings",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 407,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "ic2:casing",
+            "orig_meta:3": 0
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "ic2:casing",
+            "orig_meta:3": 1
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "ic2:casing",
+            "orig_meta:3": 2
+          }
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "ic2:casing",
+            "orig_meta:3": 3
+          }
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "ic2:casing",
+            "orig_meta:3": 5
+          }
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "ic2:casing",
+            "orig_meta:3": 4
+          }
+        },
+        "6:10": {
+          "Count:3": 1,
+          "Damage:2": 6,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "ic2:casing",
+            "orig_meta:3": 6
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

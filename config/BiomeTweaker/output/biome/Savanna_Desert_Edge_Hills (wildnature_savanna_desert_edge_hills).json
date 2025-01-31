@@ -1,6 +1,6 @@
 
 {
-  "ID": 96,
+  "ID": 100,
   "Name": "Savanna Desert Edge Hills",
   "Resource Location": "wildnature:savanna_desert_edge_hills",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeSavannaEdgeHills",
@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
+    "DRY",
     "SANDY",
     "SAVANNA",
-    "DRY",
-    "HILLS"
+    "HILLS",
+    "HOT"
   ],
   "BiomeManager Entries": {
     "DESERT Weights": [

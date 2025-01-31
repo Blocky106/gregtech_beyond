@@ -1,6 +1,6 @@
 
 {
-  "ID": 139,
+  "ID": 144,
   "Name": "Masuria",
   "Resource Location": "wildnature:masuria",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeMasuria",
@@ -20,12 +20,12 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "LUSH",
-    "HOT",
     "FOREST",
-    "RARE",
+    "LUSH",
     "WET",
-    "WATER"
+    "WATER",
+    "RARE",
+    "HOT"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [

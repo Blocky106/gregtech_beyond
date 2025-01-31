@@ -61,6 +61,7 @@ val solar_thermal_concentrator = Builder.start(loc, meta)
                     "~GGG~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 10)
                 .whereOr("C", 
                 <metastate:gregtech:metal_casing>,
                     IBlockMatcher.abilityPartPredicate(

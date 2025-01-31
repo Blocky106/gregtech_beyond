@@ -1,0 +1,93 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "Blocky_104",
+      "uniqueId": "51c49505-912e-4f4b-b690-26b93a45f9c2"
+    },
+    "time": 1738344148339,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/zNK2A4kItA"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Blocky_104",
+      "uniqueId": "51c49505-912e-4f4b-b690-26b93a45f9c2"
+    },
+    "time": 1738335111674,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/c2oC7jJXyF"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Blocky_104",
+      "uniqueId": "51c49505-912e-4f4b-b690-26b93a45f9c2"
+    },
+    "time": 1738335008310,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/R4p39zQpjZ"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Blocky_104",
+      "uniqueId": "51c49505-912e-4f4b-b690-26b93a45f9c2"
+    },
+    "time": 1738248169015,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/xkHDhgiky5"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Blocky_104",
+      "uniqueId": "51c49505-912e-4f4b-b690-26b93a45f9c2"
+    },
+    "time": 1736949305096,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/cUOUGO3lQn"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Blocky_104",
+      "uniqueId": "51c49505-912e-4f4b-b690-26b93a45f9c2"
+    },
+    "time": 1736947443896,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/aqD2fnJOEW"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Blocky_104",
+      "uniqueId": "51c49505-912e-4f4b-b690-26b93a45f9c2"
+    },
+    "time": 1736946321415,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/qEKQUGqtGU"
+    }
+  }
+]

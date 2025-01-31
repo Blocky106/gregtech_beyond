@@ -1,6 +1,6 @@
 
 {
-  "ID": 105,
+  "ID": 109,
   "Name": "Tropical Mesa",
   "Resource Location": "wildnature:tropical_mesa",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeTropicalMesa",
@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
+    "MESA",
     "JUNGLE",
-    "MESA"
+    "HOT"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [

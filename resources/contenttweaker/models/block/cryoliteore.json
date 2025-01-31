@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/cryoliteore",
+		"left" : "contenttweaker:blocks/cryoliteore",
+		"right" : "contenttweaker:blocks/cryoliteore",
+		"back" : "contenttweaker:blocks/cryoliteore",
+		"top" : "contenttweaker:blocks/cryoliteore",
+		"bottom" : "contenttweaker:blocks/cryoliteore"
+
+	}
+	
+
+}

@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/laserbindingmodule",
+		"left" : "contenttweaker:blocks/laserbindingmodule",
+		"right" : "contenttweaker:blocks/laserbindingmodule",
+		"back" : "contenttweaker:blocks/laserbindingmodule",
+		"top" : "contenttweaker:blocks/laserbindingmodule",
+		"bottom" : "contenttweaker:blocks/laserbindingmodule"
+
+	}
+	
+
+}

@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/treatedwoodplanks",
+		"left" : "contenttweaker:blocks/treatedwoodplanks",
+		"right" : "contenttweaker:blocks/treatedwoodplanks",
+		"back" : "contenttweaker:blocks/treatedwoodplanks",
+		"top" : "contenttweaker:blocks/treatedwoodplanks",
+		"bottom" : "contenttweaker:blocks/treatedwoodplanks"
+
+	}
+	
+
+}

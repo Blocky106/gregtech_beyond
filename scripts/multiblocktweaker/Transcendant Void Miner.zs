@@ -58,6 +58,7 @@ val transcendant_void_miner = Builder.start(loc, meta)
                     "~~~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 3)
                 .whereOr("C", 
                 <metastate:contenttweaker:transcendantminingcasings>,
                     IBlockMatcher.abilityPartPredicate(

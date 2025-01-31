@@ -1,0 +1,67 @@
+{
+  "preRequisites:11": [
+    334
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2537,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "Distillation Tower",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 411,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2537,
+          "id:8": "gregtech:machine"
+        },
+        "1:10": {
+          "Count:3": 39,
+          "Damage:2": 5,
+          "id:8": "gregtech:metal_casing"
+        },
+        "2:10": {
+          "Count:3": 5,
+          "Damage:2": 743,
+          "id:8": "gregtech:machine"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 744,
+          "id:8": "gregtech:machine"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 742,
+          "id:8": "gregtech:machine"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 4216,
+          "id:8": "gregtech:machine"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "Damage:2": 4213,
+          "id:8": "gregtech:machine"
+        },
+        "7:10": {
+          "Count:3": 1,
+          "Damage:2": 741,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

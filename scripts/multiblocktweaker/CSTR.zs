@@ -66,6 +66,7 @@ val cstr = Builder.start(loc, meta)
                     "~~~~~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 40)
                 .whereOr("C", 
                 <metastate:gregtech:metal_casing:5>,
                     IBlockMatcher.abilityPartPredicate(
@@ -79,41 +80,11 @@ val cstr = Builder.start(loc, meta)
                 .build())
         .addDesign(
                 FactoryMultiblockShapeInfo.start()
-                .aisle(
-                    "     ",
-                    " CCC ",
-                    " CCC ",
-                    " CCC ",
-                    " CCC ",
-                    "     ")
-                .aisle(
-                    " PPP ",
-                    "C   C",
-                    "C   C",
-                    "C   C",
-                    "C   C",
-                    " PPP ")
-                .aisle(
-                    " PPP ",
-                    "C   C",
-                    "S   E",
-                    "C   C",
-                    "C   C",
-                    " PPP ")
-                .aisle(
-                    " PPP ",
-                    "C   C",
-                    "C   C",
-                    "C   C",
-                    "C   C",
-                    " PPP ")
-                .aisle(
-                    "     ",
-                    " CCC ",
-                    " CCC ",
-                    " CCC ",
-                    " CCC ",
-                    "     ")
+                .aisle("     "," CCC "," CCC "," CCC "," CCC ","     ")
+                .aisle(" PPP ","C   C","C   C","C   C","C   C"," PPP ")
+                .aisle(" PPP ","C   C","S   E","C   C","C   C"," PPP ")
+                .aisle(" PPP ","C   C","C   C","C   C","C   C"," PPP ")
+                .aisle("     "," CCC "," CCC "," CCC "," CCC ","     ")
                 .where("P", <metastate:gregtech:boiler_casing:1>)
                 .where("C", <metastate:gregtech:metal_casing:5>)
                 .where("S", IBlockInfo.controller(loc))
@@ -125,7 +96,7 @@ val cstr = Builder.start(loc, meta)
         FactoryRecipeMap.start(loc)
                         .maxInputs(3)
                         .maxFluidInputs(3)
-                        .maxFluidOutputs(3)
+                        .maxFluidOutputs(4)
                         .maxOutputs(3)
                         .build())
 .withTexture(ICubeRenderer.sided("contenttweaker:blocks/machine_casing_clean_stainless_steel"))
@@ -174,4 +145,62 @@ cstr.recipeMap.recipeBuilder()
     .fluidOutputs(<liquid:hydrogen_chloride>*1000)
     .duration(200)
     .EUt(80)
+    .buildAndRegister();
+
+cstr.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:sodium_hydroxide_solution>*1000)
+    .inputs(<gtadditions:ga_dust:164>*2)
+    .outputs(<gtadditions:ga_dust:32240>)
+    .fluidOutputs(<liquid:fuming_hydrogen>*1000)
+    .duration(200)
+    .EUt(800)
+    .buildAndRegister();
+
+cstr.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:oleic_acid_mixture>*1000)
+    .notConsumable(<gtadditions:ga_dust:270>)
+    .fluidOutputs(<liquid:dihydroxystearic_acid>*1000)
+    .duration(500)
+    .EUt(1200)
+    .buildAndRegister();
+
+cstr.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:sulfuric_acid>*1000,<liquid:selenite_tellurite_mixture>*1000)
+    .EUt(800)
+    .outputs(<gtadditions:ga_dust:174>*3)
+    .fluidOutputs(<liquid:water>*1000,<liquid:sulfur_trioxide>*1000,<liquid:carbon_dioxide>*1000,<liquid:selenite_solution>*1000)
+    .duration(400)
+    .buildAndRegister();
+
+cstr.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:nitrous_acid>*1000)
+    .inputs(<gregtech:meta_item_1:2373>*3)
+    .outputs(<gtadditions:ga_dust:76>*3)
+    .duration(440)
+    .EUt(80)
+    .buildAndRegister();
+
+cstr.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:boron_fluoride>*1000,<liquid:nitric_acid>*1000)
+    .outputs(<gtadditions:ga_dust:920>*4)
+    .fluidOutputs(<liquid:oxygen>*1000)
+    .duration(200)
+    .EUt(800)
+    .buildAndRegister();
+
+cstr.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:chloroform>*1000)
+    .inputs(<gregtech:meta_item_1:2025>,<gregtech:meta_item_1:2038>)
+    .fluidOutputs(<liquid:trimethylgallium_mixture>*1000)
+    .duration(200)
+    .EUt(90)
+    .buildAndRegister();
+
+cstr.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:diethylether>*1000)
+    .notConsumable(<contenttweaker:fume_hood>)
+    .inputs(<gregtech:meta_item_1:2079>)
+    .fluidOutputs(<liquid:diethylzinc>*1000)
+    .duration(200)
+    .EUt(90)
     .buildAndRegister();

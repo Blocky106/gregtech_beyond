@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/woodeneglinsteelcasing",
+		"left" : "contenttweaker:blocks/woodeneglinsteelcasing",
+		"right" : "contenttweaker:blocks/woodeneglinsteelcasing",
+		"back" : "contenttweaker:blocks/woodeneglinsteelcasing",
+		"top" : "contenttweaker:blocks/woodeneglinsteelcasing",
+		"bottom" : "contenttweaker:blocks/woodeneglinsteelcasing"
+
+	}
+	
+
+}

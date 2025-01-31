@@ -36,6 +36,7 @@ val astro_mining_station = Builder.start(loc, meta)
                 .aisle("~~~~~~~","~FFFFF~","~F~~~F~","~F~~~F~","~F~~~F~","~F~~~F~","~FFFFF~","~~~~~~~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 120)
                 .whereOr("C", 
                 <metastate:contenttweaker:climateproofcasing>,
                     IBlockMatcher.abilityPartPredicate(

@@ -1,6 +1,6 @@
 
 {
-  "ID": 119,
+  "ID": 123,
   "Name": "Natural Maze",
   "Resource Location": "wildnature:natural_maze",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeNaturalMaze",
@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "PLAINS",
     "SPOOKY",
-    "RARE"
+    "RARE",
+    "PLAINS"
   ],
   "BiomeManager Entries": {
     "COOL Weights": [

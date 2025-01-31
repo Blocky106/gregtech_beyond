@@ -1,11 +1,11 @@
 
 {
-  "ID": 70,
+  "ID": 74,
   "Name": "Prismarine Mountains",
   "Resource Location": "wildnature:prismarine_mountains",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomePrismarineMountains",
   "Root Height": 2.5,
-  "Height Variation": 1.5,
+  "Height Variation": 0.9,
   "Top Block": "minecraft:stone[variant\u003dgranite]",
   "Filler Block": "minecraft:stone[variant\u003dstone]",
   "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
-    "HILLS",
-    "RARE",
-    "OCEAN",
     "MOUNTAIN",
-    "WATER"
+    "RARE",
+    "WATER",
+    "OCEAN",
+    "HILLS"
   ],
   "BiomeManager Entries": {
     "COOL Weights": [

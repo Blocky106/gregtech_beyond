@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/dense_ice",
+		"left" : "contenttweaker:blocks/dense_ice",
+		"right" : "contenttweaker:blocks/dense_ice",
+		"back" : "contenttweaker:blocks/dense_ice",
+		"top" : "contenttweaker:blocks/dense_ice",
+		"bottom" : "contenttweaker:blocks/dense_ice"
+
+	}
+	
+
+}

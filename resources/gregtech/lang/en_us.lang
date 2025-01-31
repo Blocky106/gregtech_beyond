@@ -91,8 +91,14 @@ material.bscco=BSCCO
 material.deshite=Deshite
 material.naquadah_dioxide=Naquadah Dioxide
 material.electron_degenerate_rhenium=Electron Degenerate Rhenium
-
-
+material.nylon=Nylon
+material.dark_naquatic_abyssal_alloy=Dark Naquatic Abyssal Alloy
+material.polycyclopentene=Poly(cyclopentene)
+material.metallic_hydrogen=Metallic Hydrogen
+material.tara_c_o_alloy=Tara-C-O-Alloy
+material.trinaquadalloy=Trinaquadallloy
+material.nylon610=Nylon-6,10
+material.di_n_propyl_ether=Di-n-propyl Ether
 
 gtadditions.machine.convert_forge.uxv.4.name=Forge Energy Converter (UXV)
 gtadditions.machine.convert_forge.uxv.16.name=Forge Energy Converter (UXV)

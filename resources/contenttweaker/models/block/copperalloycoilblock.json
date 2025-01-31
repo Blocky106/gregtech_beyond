@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/copperalloycoilblock",
+		"left" : "contenttweaker:blocks/copperalloycoilblock",
+		"right" : "contenttweaker:blocks/copperalloycoilblock",
+		"back" : "contenttweaker:blocks/copperalloycoilblock",
+		"top" : "contenttweaker:blocks/copperalloycoilblock",
+		"bottom" : "contenttweaker:blocks/copperalloycoilblock"
+
+	}
+	
+
+}

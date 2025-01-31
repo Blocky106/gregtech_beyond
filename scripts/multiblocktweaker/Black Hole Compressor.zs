@@ -35,6 +35,7 @@ val black_hole_compressor = Builder.start(loc, meta)
                 .aisle("~DFD~","DCCCD","FCCCF","DCCCD","~DFD~")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 10)
                 .whereOr("C", 
                 <metastate:contenttweaker:quantumcasing>,
                     IBlockMatcher.abilityPartPredicate(

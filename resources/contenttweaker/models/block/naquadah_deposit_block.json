@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/naquadah_deposit_block",
+		"left" : "contenttweaker:blocks/naquadah_deposit_block",
+		"right" : "contenttweaker:blocks/naquadah_deposit_block",
+		"back" : "contenttweaker:blocks/naquadah_deposit_block",
+		"top" : "contenttweaker:blocks/naquadah_deposit_block",
+		"bottom" : "contenttweaker:blocks/naquadah_deposit_block"
+
+	}
+	
+
+}

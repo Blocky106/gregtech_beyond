@@ -33,6 +33,7 @@ val gravity_separator = Builder.start(loc, meta)
                 .aisle("~~~~","~~~~","CCCC","CDDC","C~~C","CDDC","CCCC")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
+                .setAmountAtLeast('C', 40)
                 .whereOr("C", 
                 <metastate:gregtech:metal_casing:4>,
                     IBlockMatcher.abilityPartPredicate(

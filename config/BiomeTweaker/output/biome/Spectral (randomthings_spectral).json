@@ -1,6 +1,6 @@
 
 {
-  "ID": 41,
+  "ID": 40,
   "Name": "Spectral",
   "Resource Location": "randomthings:spectral",
   "Class": "lumien.randomthings.biomes.BiomeSpectral",

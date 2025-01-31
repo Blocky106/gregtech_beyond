@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/rocket_thruster",
+		"left" : "contenttweaker:blocks/rocket_thruster",
+		"right" : "contenttweaker:blocks/rocket_thruster",
+		"back" : "contenttweaker:blocks/rocket_thruster",
+		"top" : "contenttweaker:blocks/rocket_thruster",
+		"bottom" : "contenttweaker:blocks/rocket_thruster"
+
+	}
+	
+
+}

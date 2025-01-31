@@ -1,6 +1,6 @@
 
 {
-  "ID": 73,
+  "ID": 77,
   "Name": "Glacier",
   "Resource Location": "wildnature:glacier",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeGlacier",
@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
-    "RARE",
-    "MOUNTAIN"
+    "MOUNTAIN",
+    "RARE"
   ],
   "BiomeManager Entries": {
     "ICY Weights": [
