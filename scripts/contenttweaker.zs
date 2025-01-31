@@ -33,6 +33,7 @@ function registerMetalBlock(name as string, hardness as float, resistance as flo
 
     block.setBlockHardness(hardness);
     block.setBlockResistance(resistance);
+    block.setEntitySpawnable(false);
     block.setToolClass("pickaxe");
     block.setToolLevel(0);
     block.register();
@@ -195,12 +196,15 @@ registerMetalBlock("rocket_turbo_pump", 12.0, 10.0, 1);
 registerMetalBlock("t1_rocket_combustion_engine", 12.0, 10.0, 1);
 registerMetalBlock("space_elevator_block", 10.0, 10.0, 1);
 registerMetalBlock("space_elevator_railway_block", 10.0, 10.0, 1);
-
+registerMetalBlock("carved_pumpkin", 1.0, 1.0, 1);
+registerMetalBlock("bauxite_deposit_block", 5.0, 5.0, 1);
+registerMetalBlock("alumina_rich_bauxite_deposit_block", 5.0, 5.0, 1);
 
 
 
 var items = [
 "ga_as_wafer",
+"sifted_tantalite",
 "passivated_spincoated_ga_as_wafer",
 "spincoated_ga_as_wafer",
 "exposed_ga_as_substrate",
@@ -430,10 +434,8 @@ var items = [
 "seperationfilter",
 "rotarryspinningwhisker",
 "spectreplate",
-"carbonmyogel",
 "solenoid",
 "wiring",
-"articficialmuscle",
 "ionthruster",
 "soc_wafer_base",
 "cotton",
