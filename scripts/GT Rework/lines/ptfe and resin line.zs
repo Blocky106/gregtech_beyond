@@ -169,17 +169,9 @@ chemReactor.recipeBuilder()
 	.buildAndRegister();
 
 chemReactor.recipeBuilder()
-	.inputs(<gtadditions:ga_dust:32260>*2)
-	.fluidInputs(<liquid:chlorodifluoromethane>*1000)
-	.fluidOutputs(<liquid:trifluoroethylene_mixture>*1000)
-	.duration(2400)
-	.EUt(120)
-	.buildAndRegister();
-
-distillation_tower.recipeBuilder()
-	.fluidInputs(<liquid:trifluoroethylene_mixture>*1000)
-	.fluidOutputs(<liquid:trifluoroethylene>*1000)
-	.outputs(<gregtech:meta_item_1:2013>)
+	.fluidInputs(<liquid:chlorodifluoromethane>*1000, <liquid:hydrogen>*2000)
+	.notConsumable(<gtadditions:ga_dust:32234>*2)
+	.fluidOutputs(<liquid:trifluoroethylene>*1000, <liquid:hydrochloric_acid>*2000)
 	.duration(240)
 	.EUt(120)
 	.buildAndRegister();
@@ -188,9 +180,17 @@ mixer.recipeBuilder()
 	.inputs(<gregtech:meta_item_1:2772>*2)
 	.fluidInputs(<liquid:trifluoroethylene>*1000)
 	.fluidOutputs(<liquid:tetrafluoroethylene_mixture>*1000)
-	.outputs(<gregtech:meta_item_1:2054>)
+	.outputs(<gregtech:ga_dust:32266>)
 	.duration(1200)
 	.EUt(350)
+	.buildAndRegister();
+
+chemReactor.recipeBuilder()
+	.inputs(<gregtech:meta_item_1:2065>)
+	.fluidInputs(<liquid:fluorine>*6000)
+	.fluidOutputs(<liquid:sulfur_hexafluoride>*1000)
+	.duration(200)
+	.EUt(120)
 	.buildAndRegister();
 
 pyro.recipeBuilder()

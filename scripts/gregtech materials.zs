@@ -576,6 +576,8 @@ util.registerDust("high_purity_aluminium", 32262, 0x7EBFDC, "SHINY");
 util.registerDust("high_purity_gallium", 32263, 0x6B6B6B, "SHINY");
 util.registerDust("high_purity_cadmium", 32264, 0x3D3D3D, "SHINY");
 util.registerDust("potassium_persulfate", 32265, 0x3D3D39, "DULL");
+util.registerDust("potassium_hydrofluoride", 32266, 0xcdcdcd, "DULL");
+
 
 util.registerFluid("n_propyl_chloride", 0xE7C87A);
 util.registerFluid("propene_emulsion", 0x6D551A);
