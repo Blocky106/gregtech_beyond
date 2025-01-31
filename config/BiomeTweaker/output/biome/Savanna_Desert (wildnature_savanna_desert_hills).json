@@ -1,6 +1,6 @@
 
 {
-  "ID": 94,
+  "ID": 98,
   "Name": "Savanna Desert",
   "Resource Location": "wildnature:savanna_desert_hills",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeSavannaDesertHills",
@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "SAVANNA",
     "DRY",
-    "HOT",
+    "SANDY",
+    "SAVANNA",
     "HILLS",
-    "SANDY"
+    "HOT"
   ],
   "BiomeManager Entries": {
     "DESERT Weights": [

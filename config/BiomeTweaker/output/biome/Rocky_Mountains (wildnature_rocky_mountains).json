@@ -1,6 +1,6 @@
 
 {
-  "ID": 128,
+  "ID": 138,
   "Name": "Rocky Mountains",
   "Resource Location": "wildnature:rocky_mountains",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeRockyMountains",
@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HILLS",
+    "MOUNTAIN",
     "DEAD",
-    "MOUNTAIN"
+    "HILLS"
   ],
   "BiomeManager Entries": {
     "ICY Weights": [

@@ -1,6 +1,6 @@
 
 {
-  "ID": 86,
+  "ID": 90,
   "Name": "Dense Forest",
   "Resource Location": "wildnature:dense_forest",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeDenseForest",

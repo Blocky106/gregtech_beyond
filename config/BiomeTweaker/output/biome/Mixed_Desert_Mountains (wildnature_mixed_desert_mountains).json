@@ -1,6 +1,6 @@
 
 {
-  "ID": 102,
+  "ID": 106,
   "Name": "Mixed Desert Mountains",
   "Resource Location": "wildnature:mixed_desert_mountains",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeMixedDesertMountains",
@@ -21,9 +21,9 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "DRY",
-    "HOT",
     "SANDY",
-    "MOUNTAIN"
+    "MOUNTAIN",
+    "HOT"
   ],
   "BiomeManager Entries": {
     "DESERT Weights": [

@@ -1,6 +1,6 @@
 
 {
-  "ID": 79,
+  "ID": 83,
   "Name": "Deciduous Forest",
   "Resource Location": "wildnature:deciduous_forest",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeDeciduousForest",

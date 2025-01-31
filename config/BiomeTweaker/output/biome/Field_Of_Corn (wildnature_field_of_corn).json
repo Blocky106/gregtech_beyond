@@ -1,6 +1,6 @@
 
 {
-  "ID": 138,
+  "ID": 143,
   "Name": "Field Of Corn",
   "Resource Location": "wildnature:field_of_corn",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeFieldOfCorn",
@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "PLAINS",
+    "DENSE",
     "RARE",
-    "DENSE"
+    "PLAINS"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [

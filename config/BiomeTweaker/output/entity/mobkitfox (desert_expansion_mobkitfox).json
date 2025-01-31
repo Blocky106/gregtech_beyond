@@ -1,0 +1,6 @@
+
+{
+  "Name": "mobkitfox",
+  "Registry ID": "desert_expansion:mobkitfox",
+  "Class": "net.desert_expansion.entity.EntityMobKitFox.EntityCustom"
+}

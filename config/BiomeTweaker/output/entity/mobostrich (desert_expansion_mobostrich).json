@@ -1,0 +1,6 @@
+
+{
+  "Name": "mobostrich",
+  "Registry ID": "desert_expansion:mobostrich",
+  "Class": "net.desert_expansion.entity.EntityMobOstrich.EntityCustom"
+}

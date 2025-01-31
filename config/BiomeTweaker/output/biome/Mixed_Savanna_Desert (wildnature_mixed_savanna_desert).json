@@ -1,6 +1,6 @@
 
 {
-  "ID": 99,
+  "ID": 103,
   "Name": "Mixed Savanna Desert",
   "Resource Location": "wildnature:mixed_savanna_desert",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeMixedSavannaDesert",
@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "SAVANNA",
     "DRY",
-    "HOT",
-    "SANDY"
+    "SANDY",
+    "SAVANNA",
+    "HOT"
   ],
   "BiomeManager Entries": {
     "DESERT Weights": [

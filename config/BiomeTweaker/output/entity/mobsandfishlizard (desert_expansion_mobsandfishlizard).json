@@ -1,0 +1,6 @@
+
+{
+  "Name": "mobsandfishlizard",
+  "Registry ID": "desert_expansion:mobsandfishlizard",
+  "Class": "net.desert_expansion.entity.EntityMobSandfishLizard.EntityCustom"
+}

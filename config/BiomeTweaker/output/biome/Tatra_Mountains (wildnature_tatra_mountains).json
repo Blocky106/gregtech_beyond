@@ -1,6 +1,6 @@
 
 {
-  "ID": 62,
+  "ID": 66,
   "Name": "Tatra Mountains",
   "Resource Location": "wildnature:tatra_mountains",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeTatraMountains",
@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
+    "MOUNTAIN",
     "FOREST",
-    "RARE",
-    "MOUNTAIN"
+    "RARE"
   ],
   "BiomeManager Entries": {
     "COOL Weights": [

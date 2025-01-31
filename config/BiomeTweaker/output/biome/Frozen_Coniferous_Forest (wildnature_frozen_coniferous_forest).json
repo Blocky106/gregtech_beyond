@@ -1,6 +1,6 @@
 
 {
-  "ID": 65,
+  "ID": 69,
   "Name": "Frozen Coniferous Forest",
   "Resource Location": "wildnature:frozen_coniferous_forest",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeFrozenConiferousForest",
@@ -21,8 +21,8 @@
   "Enable Snow": true,
   "Dictionary Types": [
     "FOREST",
-    "CONIFEROUS",
-    "DENSE"
+    "DENSE",
+    "CONIFEROUS"
   ],
   "BiomeManager Entries": {
     "ICY Weights": [

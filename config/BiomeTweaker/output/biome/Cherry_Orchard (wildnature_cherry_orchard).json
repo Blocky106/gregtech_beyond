@@ -1,6 +1,6 @@
 
 {
-  "ID": 60,
+  "ID": 64,
   "Name": "Cherry Orchard",
   "Resource Location": "wildnature:cherry_orchard",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeCherryOrchard",
@@ -21,10 +21,10 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "FOREST",
-    "RARE",
-    "HOT",
+    "DENSE",
     "WET",
-    "DENSE"
+    "RARE",
+    "HOT"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [

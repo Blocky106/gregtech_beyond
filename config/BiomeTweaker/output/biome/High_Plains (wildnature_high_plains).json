@@ -1,6 +1,6 @@
 
 {
-  "ID": 135,
+  "ID": 139,
   "Name": "High Plains",
   "Resource Location": "wildnature:high_plains",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeHighPlains",
@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "PLAINS",
-    "MOUNTAIN"
+    "MOUNTAIN",
+    "PLAINS"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [

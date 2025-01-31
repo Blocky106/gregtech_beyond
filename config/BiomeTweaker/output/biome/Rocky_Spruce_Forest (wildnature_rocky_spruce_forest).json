@@ -1,6 +1,6 @@
 
 {
-  "ID": 120,
+  "ID": 124,
   "Name": "Rocky Spruce Forest",
   "Resource Location": "wildnature:rocky_spruce_forest",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeRockySpruceForest",
@@ -21,8 +21,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "FOREST",
-    "CONIFEROUS",
-    "HILLS"
+    "HILLS",
+    "CONIFEROUS"
   ],
   "BiomeManager Entries": {
     "COOL Weights": [

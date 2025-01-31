@@ -1,6 +1,6 @@
 
 {
-  "ID": 115,
+  "ID": 119,
   "Name": "Amazonia",
   "Resource Location": "wildnature:amazonia",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeAmazonia",
@@ -21,11 +21,11 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "FOREST",
-    "HOT",
+    "DENSE",
     "LUSH",
     "WET",
     "JUNGLE",
-    "DENSE"
+    "HOT"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [

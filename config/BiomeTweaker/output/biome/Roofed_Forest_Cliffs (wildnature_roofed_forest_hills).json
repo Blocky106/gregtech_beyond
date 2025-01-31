@@ -1,6 +1,6 @@
 
 {
-  "ID": 121,
+  "ID": 125,
   "Name": "Roofed Forest Cliffs",
   "Resource Location": "wildnature:roofed_forest_hills",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeRoofedForestHills",
@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
+    "MOUNTAIN",
     "FOREST",
-    "HILLS",
-    "MOUNTAIN"
+    "HILLS"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [

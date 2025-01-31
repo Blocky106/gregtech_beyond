@@ -1,6 +1,6 @@
 
 {
-  "ID": 85,
+  "ID": 89,
   "Name": "Blue Valley",
   "Resource Location": "wildnature:blue_plains",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeBlueField",
@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "PLAINS",
-    "RARE"
+    "RARE",
+    "PLAINS"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [

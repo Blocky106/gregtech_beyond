@@ -1,6 +1,6 @@
 
 {
-  "ID": 87,
+  "ID": 91,
   "Name": "Dark Dense Forest",
   "Resource Location": "wildnature:dark_dense_forest",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeDenseDarkForest",
@@ -21,8 +21,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "FOREST",
-    "HILLS",
-    "DENSE"
+    "DENSE",
+    "HILLS"
   ],
   "BiomeManager Entries": {
     "COOL Weights": [

@@ -1,6 +1,6 @@
 
 {
-  "ID": 125,
+  "ID": 136,
   "Name": "Dense Swamp",
   "Resource Location": "wildnature:misty_swamp",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeMistySwamp",

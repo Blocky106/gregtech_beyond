@@ -1,6 +1,6 @@
 
 {
-  "ID": 108,
+  "ID": 112,
   "Name": "Land Of Rivers",
   "Resource Location": "wildnature:land_of_rivers",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeLandOfRivers",

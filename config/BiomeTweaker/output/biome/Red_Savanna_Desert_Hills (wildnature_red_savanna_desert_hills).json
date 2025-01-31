@@ -1,6 +1,6 @@
 
 {
-  "ID": 98,
+  "ID": 102,
   "Name": "Red Savanna Desert Hills",
   "Resource Location": "wildnature:red_savanna_desert_hills",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeRedSavannaDesertHills",
@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "SAVANNA",
     "DRY",
-    "HOT",
+    "SANDY",
+    "SAVANNA",
     "HILLS",
-    "SANDY"
+    "HOT"
   ],
   "BiomeManager Entries": {
     "DESERT Weights": [

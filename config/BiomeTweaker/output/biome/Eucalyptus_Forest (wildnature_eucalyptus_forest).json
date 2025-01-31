@@ -1,6 +1,6 @@
 
 {
-  "ID": 75,
+  "ID": 79,
   "Name": "Eucalyptus Forest",
   "Resource Location": "wildnature:eucalyptus_forest",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeEucalyptusForest",
@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
     "WET",
-    "JUNGLE"
+    "JUNGLE",
+    "HOT"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [

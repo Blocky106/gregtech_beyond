@@ -1,0 +1,6 @@
+
+{
+  "Name": "mobdeserttortoise",
+  "Registry ID": "desert_expansion:mobdeserttortoise",
+  "Class": "net.desert_expansion.entity.EntityMobDesertTortoise.EntityCustom"
+}

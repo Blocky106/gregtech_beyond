@@ -1,6 +1,6 @@
 
 {
-  "ID": 118,
+  "ID": 122,
   "Name": "Prairie Plateau",
   "Resource Location": "wildnature:prairie_plateau",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomePrairiePlateau",
@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
+    "MOUNTAIN",
     "PLAINS",
-    "HILLS",
-    "MOUNTAIN"
+    "HILLS"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [

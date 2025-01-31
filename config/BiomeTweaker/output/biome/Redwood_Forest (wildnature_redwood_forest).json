@@ -1,6 +1,6 @@
 
 {
-  "ID": 81,
+  "ID": 85,
   "Name": "Redwood Forest",
   "Resource Location": "wildnature:redwood_forest",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeRedwoodForest",

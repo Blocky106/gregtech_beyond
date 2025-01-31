@@ -1,6 +1,6 @@
 
 {
-  "ID": 100,
+  "ID": 104,
   "Name": "Mixed Savanna Desert Hills",
   "Resource Location": "wildnature:mixed_savanna_desert_hills",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeMixedSavannaDesertHills",
@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "SAVANNA",
     "DRY",
-    "HOT",
+    "SANDY",
+    "SAVANNA",
     "HILLS",
-    "SANDY"
+    "HOT"
   ],
   "BiomeManager Entries": {
     "DESERT Weights": [

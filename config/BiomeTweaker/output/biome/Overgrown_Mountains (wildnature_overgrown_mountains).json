@@ -1,6 +1,6 @@
 
 {
-  "ID": 77,
+  "ID": 81,
   "Name": "Overgrown Mountains",
   "Resource Location": "wildnature:overgrown_mountains",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeOvergrownMountains",
@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
+    "JUNGLE",
     "HOT",
-    "HILLS",
-    "JUNGLE"
+    "HILLS"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [

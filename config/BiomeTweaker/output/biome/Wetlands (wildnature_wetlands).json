@@ -1,6 +1,6 @@
 
 {
-  "ID": 58,
+  "ID": 62,
   "Name": "Wetlands",
   "Resource Location": "wildnature:wetlands",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeWetlands",

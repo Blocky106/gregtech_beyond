@@ -1,6 +1,6 @@
 
 {
-  "ID": 82,
+  "ID": 86,
   "Name": "Cedar Forest",
   "Resource Location": "wildnature:cedar_forest",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeCedarForest",

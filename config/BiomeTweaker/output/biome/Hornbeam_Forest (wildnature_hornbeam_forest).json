@@ -1,6 +1,6 @@
 
 {
-  "ID": 88,
+  "ID": 92,
   "Name": "Hornbeam Forest",
   "Resource Location": "wildnature:hornbeam_forest",
   "Class": "com.matez.wildnature.worldgen.biomes.BiomeHornbeamForest",

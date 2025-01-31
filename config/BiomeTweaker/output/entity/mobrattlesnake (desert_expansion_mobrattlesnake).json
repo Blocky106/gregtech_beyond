@@ -1,0 +1,6 @@
+
+{
+  "Name": "mobrattlesnake",
+  "Registry ID": "desert_expansion:mobrattlesnake",
+  "Class": "net.desert_expansion.entity.EntityMobRattlesnake.EntityCustom"
+}
