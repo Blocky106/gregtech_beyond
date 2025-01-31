@@ -2825,6 +2825,3 @@ furnace.remove(<gregtech:meta_item_1:10637>);
 recipes.addShaped(<gregtech:machine:1403>, [	[<gregtech:meta_item_1:32653>, <ore:circuitExtreme>, <gregtech:meta_item_1:32653>], 	[<ore:cableGtSingleAluminium>, <gregtech:machine:504>, <ore:cableGtSingleAluminium>], 	[<gregtech:meta_item_1:32643>, <ore:circuitExtreme>, <gregtech:meta_item_1:32643>]]);
 recipes.addShaped(<gregtech:machine:10129>, [	[<ore:circuitGood>, <gregtech:meta_item_1:32611>, <ore:circuitGood>], 	[<gregtech:metal_casing:4>, <gregtech:machine:502>, <gregtech:metal_casing:4>], 	[<ore:circuitGood>, <gregtech:meta_item_1:32641>, <ore:circuitGood>]]);
 
-
-
-

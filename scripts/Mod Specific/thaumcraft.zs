@@ -198,3 +198,8 @@ cutting_saw.recipeBuilder()
     .buildAndRegister();
 
 recipes.addShapeless(<minecraft:cooked_mutton>, [<thaumcraft:chunk:5>,<thaumcraft:chunk:5>,<thaumcraft:chunk:5>,<thaumcraft:chunk:5>,<thaumcraft:chunk:5>,<thaumcraft:chunk:5>,<thaumcraft:chunk:5>,<thaumcraft:chunk:5>,<thaumcraft:chunk:5>]);
+
+
+mods.thaumcraft.Infusion.removeRecipe(<thaumadditions:crystal_bore>);
+
+mods.thaumcraft.Infusion.registerRecipe("crystal_bore_recipes", "", <thaumadditions:crystal_bore>, 30, [<aspect:perditio> * 20, <aspect:exitium>*20, <aspect:terra>*10], <thaumcraft:morphic_resonator>, [<thaumcraft:mechanism_complex>, <thaumcraft:stone_arcane>,<gregtech:meta_item_1:12094>,<thaumcraft:stone_arcane>,<gregtech:meta_item_1:12094>,<thaumcraft:stone_arcane>]);
