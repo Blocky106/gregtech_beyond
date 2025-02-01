@@ -2833,3 +2833,30 @@ roasters.recipeBuilder()
     .duration(80)
     .buildAndRegister();
 
+electrolyzer.findRecipe(30 , [<gregtech:meta_item_1:2361>*3], null).remove();
+
+chemical_bath.recipeBuilder()
+    .fluidInputs(<liquid:sulfuric_acid_solution>*1000)
+    .inputs(<gregtech:meta_item_1:2361>)
+    .fluidOutputs(<liquid:dissolved_chalcocite_solution>*1000)
+    .duration(380)
+    .EUt(20)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:air>*2000,<liquid:dissolved_chalcocite_solution>*4000)
+    .fluidOutputs(<liquid:water>*2000,<liquid:copper_leach>*2000)
+    .duration(380)
+    .EUt(20)
+    .buildAndRegister();
+
+electrolyzer.recipeBuilder()
+    .notConsumable(<gregtech:meta_item_1:14033>)
+    .fluidInputs(<liquid:copper_leach>*2000)
+    .fluidOutputs(<liquid:sulfur_dioxide>*1000)
+    .outputs(<gregtech:meta_item_1:2018>*3)
+    .duration(380)
+    .EUt(20)
+    .buildAndRegister();
+
+

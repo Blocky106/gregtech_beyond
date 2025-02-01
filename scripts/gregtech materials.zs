@@ -579,6 +579,8 @@ util.registerDust("potassium_persulfate", 32265, 0x3D3D39, "DULL");
 util.registerDust("potassium_hydrofluoride", 32266, 0xcdcdcd, "DULL");
 
 
+util.registerFluid("copper_leach", 0xDF7E34);
+util.registerFluid("dissolved_chalcocite_solution", 0x171312);
 util.registerFluid("n_propyl_chloride", 0xE7C87A);
 util.registerFluid("propene_emulsion", 0x6D551A);
 util.registerFluid("propyl_base_liqour", 0xE0C584);
