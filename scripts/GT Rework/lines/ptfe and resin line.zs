@@ -180,7 +180,7 @@ mixer.recipeBuilder()
 	.inputs(<gregtech:meta_item_1:2772>*2)
 	.fluidInputs(<liquid:trifluoroethylene>*1000)
 	.fluidOutputs(<liquid:tetrafluoroethylene_mixture>*1000)
-	.outputs(<gregtech:ga_dust:32266>)
+	.outputs(<gtadditions:ga_dust:32266>)
 	.duration(1200)
 	.EUt(350)
 	.buildAndRegister();
