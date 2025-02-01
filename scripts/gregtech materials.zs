@@ -584,6 +584,11 @@ util.registerDust("high_purity_gallium", 32263, 0x6B6B6B, "SHINY");
 util.registerDust("high_purity_cadmium", 32264, 0x3D3D3D, "SHINY");
 util.registerDust("potassium_persulfate", 32265, 0x3D3D39, "DULL");
 util.registerDust("potassium_hydrofluoride", 32266, 0xcdcdcd, "DULL");
+util.registerDust("Cobalt_manganese_oxide", 32267, 0x64a47a, "SHINY");
+util.registerDust("Antimony_pentafluoride", 32268, 0xbfd1c6, "DULL");
+util.registerDust("Silver_fluoride", 32269, 0xfac8c8, "SHINY");
+util.registerDust("Nickel_boride", 32270, 0xff9b00, "DULL");+
+util.registerDust("Magnesium_silicate", 32271, 0xa46681, "DULL");
 
 
 util.registerFluid("n_propyl_chloride", 0xE7C87A);
@@ -1147,10 +1152,23 @@ util.registerFluid("triton_x100", 0xe4dfcd);
 util.registerFluid("ptfe_preparation_mixture", 0x88df97);
 util.registerFluid("superfluid_carbon_oxygen_mixture_plasma", 0xBDC0DB);
 util.registerFluid("1_butene", 0xB75B5B);
-
-
-
-
+util.registerFluid("trifluorotoluene", 0x8bae9c);
+util.registerFluid("fluorinated_isophthalic_acid", 0x899b94);
+util.registerFluid("fluorinated_diaminodiphenyl_ether", 0xa7c4b9);
+util.registerFluid("4-Nitrofluorophenol", 0x92704c);
+util.registerFluid("Chromic_acid", 0x44cd74);
+util.registerFluid("4-nitrophenol", 0xa88f55);
+util.registerFluid("4,4'-Dinitrofluorodiphenyl_ether", 0xb2a471);
+util.registerFluid("fluorinated_nitrophenol_residue", 0x574a2d);
+util.registerFluid("Dinitrofluorophenol", 0xb6964d);
+util.registerFluid("Trinitrofluorophenol", 0x927d4e);
+util.registerFluid("Tetranitrofluorophenol", 0x7b6c49);
+util.registerFluid("Fluorinated_benzimidazole_mixture", 0x493737);
+util.registerFluid("Fluorinated_benzimidazole", 0x604f4f);
+util.registerFluid("PBI_preparation_mixture", 0x6d77a4);
+util.registerFluid("N-methylpyrrolidone", 0x98aaff);
+util.registerFluid("2-pyrrolidone", 0x5361a4);
+util.registerFluid("benzimidazole", 0x000000);
 
 
 
