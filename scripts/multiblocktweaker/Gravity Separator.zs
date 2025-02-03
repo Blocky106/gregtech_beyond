@@ -120,3 +120,17 @@ gravity_separator.recipeMap.recipeBuilder()
     .duration(100)
     .EUt(600)
     .buildAndRegister();
+
+gravity_separator.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2086>)
+    .outputs(<contenttweaker:sifted_andradite>)
+    .duration(400)
+    .EUt(80)
+    .buildAndRegister();
+
+gravity_separator.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2224>)
+    .outputs(<contenttweaker:sifted_tantalite>)
+    .duration(400)
+    .EUt(80)
+    .buildAndRegister();

@@ -2859,4 +2859,29 @@ electrolyzer.recipeBuilder()
     .EUt(20)
     .buildAndRegister();
 
+electrolyzer.findRecipe(30 , [<gregtech:meta_item_1:2188>*8], null).remove();
+
+electromagnetic_separator.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2188>*4)
+    .outputs(<gregtech:meta_item_1:2185>,<gregtech:meta_item_1:2100>,<gregtech:meta_item_1:2361>)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
+electromagnetic_separator.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2131>)
+    .outputs(<contenttweaker:iron_concentrate>)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
+recipes.addShaped(<gregtech:machine:1580>, [	[<ore:blockGlassColorless>, <ore:rotorTin>, <ore:blockGlassColorless>], 	[<gregtech:meta_item_1:32610>, <gregtech:machine:501>, <gregtech:meta_item_1:32610>], 	[<ore:circuitBasic>, <gregtech:meta_item_2:32700>, <ore:circuitBasic>]]);
+recipes.addShaped(<gregtech:machine:1581>, [	[<ore:blockGlassColorless>, <ore:rotorTin>, <ore:blockGlassColorless>], 	[<gregtech:meta_item_1:32611>, <gregtech:machine:502>, <gregtech:meta_item_1:32611>], 	[<ore:circuitGood>, <gregtech:meta_item_2:32701>, <ore:circuitGood>]]);
+recipes.addShaped(<gregtech:machine:1582>, [	[<ore:blockGlassColorless>, <ore:rotorTin>, <ore:blockGlassColorless>], 	[<gregtech:meta_item_1:32612>, <gregtech:machine:503>, <gregtech:meta_item_1:32612>], 	[<ore:circuitAdvanced>, <gregtech:meta_item_2:32702>, <ore:circuitAdvanced>]]);
+recipes.addShaped(<gregtech:machine:1583>, [	[<ore:blockGlassColorless>, <ore:rotorTin>, <ore:blockGlassColorless>], 	[<gregtech:meta_item_1:32613>, <gregtech:machine:504>, <gregtech:meta_item_1:32613>], 	[<ore:circuitExtreme>, <gregtech:meta_item_2:32703>, <ore:circuitExtreme>]]);
+recipes.addShaped(<gregtech:machine:1584>, [	[<ore:blockGlassColorless>, <ore:rotorTin>, <ore:blockGlassColorless>], 	[<gregtech:meta_item_1:32614>, <gregtech:machine:505>, <gregtech:meta_item_1:32614>], 	[<ore:circuitElite>, <gregtech:meta_item_2:32704>, <ore:circuitElite>]]);
+recipes.addShaped(<gregtech:machine:1585>, [	[<ore:blockGlassColorless>, <ore:rotorTin>, <ore:blockGlassColorless>], 	[<gregtech:meta_item_1:32615>, <gregtech:machine:506>, <gregtech:meta_item_1:32615>], 	[<ore:circuitMaster>, <gregtech:meta_item_2:32705>, <ore:circuitMaster>]]);
+recipes.addShaped(<gregtech:machine:1586>, [	[<ore:blockGlassColorless>, <ore:rotorTin>, <ore:blockGlassColorless>], 	[<gregtech:meta_item_1:32616>, <gregtech:machine:507>, <gregtech:meta_item_1:32616>], 	[<ore:circuitUltimate>, <gregtech:meta_item_2:32706>, <ore:circuitUltimate>]]);
+recipes.addShaped(<gregtech:machine:1587>, [	[<ore:blockGlassColorless>, <ore:rotorTin>, <ore:blockGlassColorless>], 	[<gregtech:meta_item_1:32617>, <gregtech:machine:508>, <gregtech:meta_item_1:32617>], 	[<ore:circuitSuperconductor>, <gregtech:meta_item_2:32707>, <ore:circuitSuperconductor>]]);
+
 
