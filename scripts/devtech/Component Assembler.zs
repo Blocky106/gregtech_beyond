@@ -24,4 +24,3 @@ RegisterMachine.CreateSimpleMachine(1403, "componentassembler.ev" , componentass
 RegisterMachine.CreateSimpleMachine(1404, "componentassembler.iv" , componentassembler, componentassembler_overlay, 5);
 RegisterMachine.CreateSimpleMachine(1405, "componentassembler.luv", componentassembler, componentassembler_overlay, 6);
 RegisterMachine.CreateSimpleMachine(1406, "componentassembler.zpm", componentassembler, componentassembler_overlay, 7);
-
