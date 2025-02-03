@@ -18,8 +18,17 @@
       "type": "weight_random",
       "values": [
         {
-          "weight": 100,
+          "weight": 40,
           "value": "ore:nether_quartz"
+        },
+
+        {
+          "weight": 30,
+          "value": "ore:molybdenite"
+        },
+        {
+          "weight": 30,
+          "value": "ore:gold"
         }
       ]
     }
