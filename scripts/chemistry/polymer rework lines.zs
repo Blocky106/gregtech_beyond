@@ -366,8 +366,15 @@ chemReactor.recipeBuilder()
     .duration(400)
     .buildAndRegister();
 
-lmixer.recipeBuilder()
-	.fluidInputs(<liquid:dimethylacetamide*>*1000, <liquid:triton_x100>*1000, <liquid:acetic_anhydride>*1000, <liquid:phosphoric_acid>*1000, <liquid:n-methylpyrrolidone>*1000)
+mixer.recipeBuilder()
+	.fluidInputs(<liquid:dimethylacetamide*>*1000, <liquid:triton_x100>*1000, <liquid:acetic_anhydride>*1000)
+	.fluidOutputs(<liquid:PBI_preparation_mixture_precurser>*5000)
+	.EUt(5000)
+	.duration(880)
+	.buildAndRegister();
+
+mixer.recipeBuilder()
+	.fluidInputs(<liquid:PBI_preparation_mixture_precurser>*1000, <liquid:phosphoric_acid>*1000, <liquid:n-methylpyrrolidone>*1000)
 	.fluidOutputs(<liquid:PBI_preparation_mixture>*5000)
 	.EUt(5000)
 	.duration(880)

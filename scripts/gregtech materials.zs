@@ -1169,7 +1169,7 @@ util.registerFluid("PBI_preparation_mixture", 0x6d77a4);
 util.registerFluid("N-methylpyrrolidone", 0x98aaff);
 util.registerFluid("2-pyrrolidone", 0x5361a4);
 util.registerFluid("benzimidazole", 0x000000);
-
+util.registerFluid("PBI_preparation_mixture_precurser", 0x6d77a4);
 
 
 
