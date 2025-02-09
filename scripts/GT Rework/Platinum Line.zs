@@ -88,3 +88,18 @@ roasters.recipeBuilder()
     .buildAndRegister();
 
 Utils.removeRecipeByOutput(dehydrator,[<gregtech:meta_item_1:2869>],[<liquid:ammonia>*2000],true);
+
+fluidExtractor.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2888>)
+    .fluidOutputs(<liquid:potassium_disulfate>*1000)
+    .duration(800)
+    .EUt(280)
+    .buildAndRegister();
+
+cstr_s.recipeBuilder()
+    .fluidInputs(<liquid:potassium_disulfate>*1000)
+    .inputs(<gregtech:meta_item_1:2898>)
+    .fluidOutputs(<liquid:rhodium_sulfate>*1000)
+    .duration(300)
+    .EUt(170)
+    .buildAndRegister();
