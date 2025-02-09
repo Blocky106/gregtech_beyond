@@ -2859,7 +2859,7 @@ electrolyzer.recipeBuilder()
     .EUt(20)
     .buildAndRegister();
 
-electrolyzer.findRecipe(30 , [<gregtech:meta_item_1:2188>*8], null).remove();
+electrolyzer.findRecipe(60 , [<gregtech:meta_item_1:2188>*8], null).remove();
 
 electromagnetic_separator.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2188>*4)
@@ -2884,4 +2884,84 @@ recipes.addShaped(<gregtech:machine:1585>, [	[<ore:blockGlassColorless>, <ore:ro
 recipes.addShaped(<gregtech:machine:1586>, [	[<ore:blockGlassColorless>, <ore:rotorTin>, <ore:blockGlassColorless>], 	[<gregtech:meta_item_1:32616>, <gregtech:machine:507>, <gregtech:meta_item_1:32616>], 	[<ore:circuitUltimate>, <gregtech:meta_item_2:32706>, <ore:circuitUltimate>]]);
 recipes.addShaped(<gregtech:machine:1587>, [	[<ore:blockGlassColorless>, <ore:rotorTin>, <ore:blockGlassColorless>], 	[<gregtech:meta_item_1:32617>, <gregtech:machine:508>, <gregtech:meta_item_1:32617>], 	[<ore:circuitSuperconductor>, <gregtech:meta_item_2:32707>, <ore:circuitSuperconductor>]]);
 
+furnace.remove(<gregtech:meta_item_1:10041>, <gregtech:ore_molybdenite_0>);
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:nitric_acid>*2000)
+    .inputs(<gregtech:meta_item_1:2039>)
+    .outputs(<gtadditions:ga_dust:32267>*3)
+    .fluidOutputs(<liquid:hydrogen>*2000)
+    .duration(80)
+    .EUt(200)
+    .buildAndRegister();
+
+roasters.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:32267>*3)
+    .outputs(<nuclearcraft:dust:15>)
+    .fluidOutputs(<liquid:nitric_oxide>*2000)
+    .duration(80)
+    .EUt(200)
+    .buildAndRegister();
+
+furnace.remove(<nuclearcraft:ingot:11>);
+
+roasters.recipeBuilder()
+    .inputs(<nuclearcraft:ingot:14>)
+    .outputs(<gregtech:meta_item_1:10039>)
+    .duration(800)
+    .EUt(8)
+    .buildAndRegister();
+
+alloy_smelter.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2049>,<gregtech:meta_item_1:2524>)
+    .outputs(<gregicalityoreaddon:gaoe_oredict_item:2001>)
+    .duration(800)
+    .EUt(8)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:acetylene>*1000,<liquid:hydrogen_chloride>*1000)
+    .fluidOutputs(<liquid:vinyl_chloride>*1000)
+    .duration(800)
+    .EUt(100)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:acetylene>*1000,<liquid:hydrogen_chloride>*1000)
+    .fluidOutputs(<liquid:vinyl_chloride>*1000)
+    .duration(800)
+    .EUt(100)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .fluidInputs(<liquid:ethylene>*1000,<liquid:chlorine>*2000,<liquid:oxygen>*1000)
+    .fluidOutputs(<liquid:dichloroethane>*1000)
+    .duration(800)
+    .EUt(280)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .fluidInputs(<liquid:ethylene>*1000,<liquid:chlorine>*2000,<liquid:oxygen>*1000)
+    .fluidOutputs(<liquid:dichloroethane>*1000)
+    .duration(800)
+    .EUt(280)
+    .buildAndRegister();
+
+Utils.removeRecipeByOutput(chemReactor, [],[<liquid:hydrogen_cyanide>*1000,<liquid:water>*3000],true);
+Utils.removeRecipeByOutput(lcr, [],[<liquid:hydrogen_cyanide>*1000,<liquid:water>*3000],true);
+
+cstr_s.recipeBuilder()
+    .fluidInputs(<liquid:oxygen>*3000,<liquid:methane>*1000,<liquid:ammonia>*1000)
+    .fluidOutputs(<liquid:hydrogen_cyanide>*1000,<liquid:water>*3000)
+    .duration(200)
+    .EUt(280)
+    .buildAndRegister();
+
+tbr.recipeBuilder()
+    .fluidInputs(<liquid:hydrogen_cyanide>*2000)
+    .inputs(<gregtech:meta_item_1:2373>*2)
+    .fluidOutputs(<liquid:water>*2000,<liquid:sodium_cyanide>*2000)
+    .duration(200)
+    .EUt(280)
+    .buildAndRegister();
 
