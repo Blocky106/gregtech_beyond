@@ -577,8 +577,14 @@ util.registerDust("high_purity_gallium", 32263, 0x6B6B6B, "SHINY");
 util.registerDust("high_purity_cadmium", 32264, 0x3D3D3D, "SHINY");
 util.registerDust("potassium_persulfate", 32265, 0x3D3D39, "DULL");
 util.registerDust("potassium_hydrofluoride", 32266, 0xcdcdcd, "DULL");
+util.registerDust("manganese_nitride", 32267, 0xAAB7C4, "DULL");
 
 
+
+util.registerFluid("boron_trichloride", 0x88C7C1);
+util.registerFluid("dichloroethane", 0xA9BBCA);
+util.registerFluid("copper_leach", 0xDF7E34);
+util.registerFluid("dissolved_chalcocite_solution", 0x171312);
 util.registerFluid("n_propyl_chloride", 0xE7C87A);
 util.registerFluid("propene_emulsion", 0x6D551A);
 util.registerFluid("propyl_base_liqour", 0xE0C584);

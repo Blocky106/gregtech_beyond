@@ -168,6 +168,7 @@ roaster.recipeMap.recipeBuilder()
 roaster.recipeMap.recipeBuilder()
     .inputs(<gtadditions:ga_dust:192>*2)
     .fluidOutputs(<liquid:sulfur_trioxide>*1000,<liquid:sulfur_dioxide>*1000)
+    .outputs(<gregtech:meta_item_1:2090>)
     .EUt(22)
     .duration(80)
     .buildAndRegister();

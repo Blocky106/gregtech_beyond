@@ -154,3 +154,11 @@ planar_research_plant.recipeMap.recipeBuilder()
     .duration(800)
     .EUt(250)
     .buildAndRegister();
+
+planar_research_plant.recipeMap.recipeBuilder()
+    .inputs(<minecraft:paper>)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 9}))
+    .chancedOutput(<contenttweaker:researchpaperganymede>, 100, 0)
+    .duration(800)
+    .EUt(250)
+    .buildAndRegister();

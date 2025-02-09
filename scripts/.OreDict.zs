@@ -417,9 +417,3 @@ furnace.addRecipe(<gregtech:meta_item_1:10062>*2,<thaumcraft:cluster:4>);
 <ore:gemAmber>.add(<wildnature:amber>);
 <ore:ingotAmber>.add(<thaumcraft:amber>);
 <ore:stoneBasalt>.add(<lavatweaks:basalt>);
-
-
-
-
-<ore:oreAluminaRichBauxiteDepositBlock>.add(<contenttweaker:alumina_rich_bauxite_deposit_block>);
-<ore:oreBauxiteDepositBlock>.add(<contenttweaker:bauxite_deposit_block>);

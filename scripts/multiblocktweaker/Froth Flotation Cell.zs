@@ -346,7 +346,7 @@ froth_flotation_cell.recipeMap.recipeBuilder()
     .buildAndRegister();
 
 froth_flotation_cell.recipeMap.recipeBuilder()
-    .inputs(<gregtech:meta_item_1:5154>*5)
+    .inputs(<gregtech:meta_item_1:5615>*5)
     .outputs(<gtadditions:ga_dust:32135>)
     .fluidInputs(<liquid:froth_flotation_fluid>*100,<liquid:water>*32000)
     .notConsumable(<gregtech:meta_item_1:2624>*3)
