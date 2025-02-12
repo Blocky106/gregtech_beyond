@@ -81,12 +81,8 @@ minecraft:llama_spit
 minecraft:parrot
 minecraft:villager
 minecraft:ender_crystal
+quark:chest_passenger
 quark:gravisand
-quark:flat_item_frame
-quark:leash_knot
-quark:colored_item_frame
-quark:glass_item_frame
-quark:seat
 quark:stoneling
 quark:archaeologist
 quark:foxhound
@@ -96,7 +92,11 @@ quark:frog
 quark:pirate
 quark:crab
 quark:wraith
-quark:chest_passenger
+quark:seat
+quark:flat_item_frame
+quark:leash_knot
+quark:colored_item_frame
+quark:glass_item_frame
 quark:pickarang
 quark:arrow_ender
 quark:arrow_explosive
@@ -174,8 +174,8 @@ thaumcraft:taintacletiny
 thaumcraft:taintswarm
 thaumcraft:taintseed
 thaumcraft:taintseedprime
-enderio:falling_machine
 enderio:primed_charge
+enderio:falling_machine
 enderio:owl_egg
 tconstruct:blueslime
 tconstruct:indestructible
@@ -234,9 +234,9 @@ desert_expansion:mobdesertcreeper
 desert_expansion:mobdesertcow
 desert_expansion:mobmummy
 betterquesting:placeholder
-forestry:butterflyge
 forestry:cart.beehouse
 forestry:cart.apiary
+forestry:butterflyge
 p455w0rdslib:sitting_entity
 nuclearcraft:feral_ghoul
 qmd:gamma_flash
