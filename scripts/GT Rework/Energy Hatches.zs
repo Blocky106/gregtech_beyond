@@ -1,4 +1,3 @@
-
 import mods.gregtech.recipe.PBFRecipeBuilder;
 import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
