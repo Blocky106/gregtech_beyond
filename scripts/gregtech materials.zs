@@ -590,7 +590,9 @@ util.registerDust("potassium_hydrofluoride", 32266, 0xcdcdcd, "DULL");
 util.registerDust("manganese_nitride", 32267, 0xAAB7C4, "DULL");
 
 
-
+util.registerFluid("radon_rich_air", 0xB17BBA);
+util.registerFluid("chilled_radon_rich_air", 0x9863A2);
+util.registerFluid("radon_containing_noble_gasses", 0x86618C);
 util.registerFluid("diluted_iron_concentrate", 0x5A5857);
 util.registerFluid("diluted_leach_residue", 0x5B463F);
 util.registerFluid("platinum_residue_solution", 0x706F61);

@@ -108,3 +108,12 @@ gravity_settler_tank.recipeMap.recipeBuilder()
     .duration(40)
     .EUt(50)
     .buildAndRegister();
+
+gravity_separator.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:air>*20000)
+    .inputs(<gregtech:ore_pitchblende_0>)
+    .outputs(<minecraft:stone>)
+    .fluidOutputs(<liquid:cold_air>*19000,<liquid:radon_rich_air>*1000)
+    .duration(4000)
+    .EUt(2000)
+    .buildAndRegister();
