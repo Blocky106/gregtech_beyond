@@ -42,6 +42,13 @@ mods.jei.JEI.addDescription(<contenttweaker:yzcetic>,"Planet Properties:        
 mods.jei.JEI.addDescription(<contenttweaker:yzcetid>,"Planet Properties:      Rocket Requirement:   T6 + Sublight   Breathable: No, Corrosive: No, No Atmosphere   Temperature: 60.0 C, Gravity: 63%   Type : Planet, Class: Hot Selena   Day Lenght: 35h   Has Dungeon: No");
 mods.jei.JEI.addDescription(<contenttweaker:overworld>,"Planet Properties:    Rocket Requirement:   T0   Breathable: Yes, Corrosive: No, Atmosphere: Nitrogen, Oxygen, Argon   Temperature: 30.0 C, Gravity: 100%   Type : Planet, Class: Comfort Terra   Day Lenght: 24h   Has Dungeon: Yes");
 
-#Baubles
+<appliedenergistics2:energy_acceptor>.addTooltip(format.red("This is not needed. just hook up your gt wires to your AE Network."));
+<thaumcraft:paving_stone_barrier>.addTooltip(format.red("This can block GregTech Multiblocks when placed below or above"));
+<contenttweaker:quantumcontrolcomputermk2>.addTooltip(format.red("WIP"));
+<contenttweaker:quantumcontrolcomputermk3>.addTooltip(format.red("WIP"));
+<contenttweaker:stablestar>.addTooltip(format.red("WIP"));
+<contenttweaker:spacetimecontainingcomputationalunit>.addTooltip(format.red("WIP"));
+<contenttweaker:heavydutyalloyt6>.addTooltip(format.red("WIP"));
 
-<contenttweaker:fire_mask>.addTooltip("Use this to Traverse the Nether! It will provide you with Fire Resistance, throw it in your Trinket slot in order for it to work");
+<forestry:apatite>.displayName="Apatite Gemstone";
+<forestry:ash>.displayName="Ash Nanoparticles";

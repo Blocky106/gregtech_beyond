@@ -99,6 +99,14 @@ material.tara_c_o_alloy=Tara-C-O-Alloy
 material.trinaquadalloy=Trinaquadallloy
 material.nylon610=Nylon-6,10
 material.di_n_propyl_ether=Di-n-propyl Ether
+material.skutterudite=Skutterudite
+material.serpentine=Serpentine
+material.nickeliferous_limonite=Nickeliferous Limonite
+material.hematite=Hematite
+
+
+
+
 
 gtadditions.machine.convert_forge.uxv.4.name=Forge Energy Converter (UXV)
 gtadditions.machine.convert_forge.uxv.16.name=Forge Energy Converter (UXV)

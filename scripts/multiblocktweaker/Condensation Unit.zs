@@ -101,7 +101,15 @@ condensation_unit.recipeMap.recipeBuilder()
 condensation_unit.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:sublimed_gallium_vapour>*1000)
     .outputs(<gtadditions:ga_dust:32263>*4)
+    .fluidOutputs(<liquid:water>*1000)
     .duration(400)
     .EUt(80)
     .buildAndRegister();
 
+condensation_unit.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:diluted_leach_residue>*1000)
+    .fluidOutputs(<liquid:water>*1000)
+    .outputs(<gregtech:meta_item_1:2887>*4)
+    .duration(400)
+    .EUt(280)
+    .buildAndRegister();

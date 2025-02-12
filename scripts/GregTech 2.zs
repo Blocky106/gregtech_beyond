@@ -1708,29 +1708,6 @@ fluid_solidifier.recipeBuilder()
     .EUt(18)
     .buildAndRegister();
 
-chemReactor.recipeBuilder()
-    .inputs(<gregtech:meta_item_1:2062>)
-    .fluidInputs(<liquid:methanol>*144)
-    .outputs(<gtadditions:ga_dust:32056>*2)
-    .duration(90)
-    .EUt(16)
-    .buildAndRegister();
-
-lcr.recipeBuilder()
-    .inputs(<gregtech:meta_item_1:2062>)
-    .fluidInputs(<liquid:methanol>*144)
-    .outputs(<gtadditions:ga_dust:32056>*2)
-    .duration(90)
-    .EUt(16)
-    .buildAndRegister();
-
-chemReactor.recipeBuilder()
-    .inputs(<gregtech:meta_item_1:2062>)
-    .fluidInputs(<liquid:methanol>*144)
-    .outputs(<gtadditions:ga_dust:32056>*2)
-    .duration(90)
-    .EUt(16)
-    .buildAndRegister();
 
 chemReactor.recipeBuilder()
     .inputs(<gtadditions:ga_dust:32056>)

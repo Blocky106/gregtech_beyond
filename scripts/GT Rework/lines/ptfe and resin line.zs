@@ -150,7 +150,7 @@ lcr.recipeBuilder()
 	.EUt(40)
 	.buildAndRegister();
 
-Utils.removeRecipeByOutput(lcr, [], [<liquid:epoxid>*1000], false);
+Utils.removeRecipeByOutput(lcr, [], [<liquid:epoxid>*1000], true);
 
 chemReactor.recipeBuilder()
 	.fluidInputs(<liquid:chloroform>*1000, <liquid:hydrofluoric_acid>*500)

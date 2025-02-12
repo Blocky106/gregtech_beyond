@@ -21,11 +21,11 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "BEACH",
-    "SANDY",
-    "WET",
-    "RARE",
+    "HOT",
     "JUNGLE",
-    "HOT"
+    "RARE",
+    "SANDY",
+    "WET"
   ],
   "BiomeManager Entries": {
     "DESERT Weights": [

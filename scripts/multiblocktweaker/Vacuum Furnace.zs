@@ -263,3 +263,10 @@ vacuum_furnace.recipeMap.recipeBuilder()
     .duration(120)
     .EUt(20)
     .buildAndRegister();
+
+vacuum_furnace.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2632>)
+    .outputs(<gregtech:meta_item_1:10632>)
+    .duration(120)
+    .EUt(20)
+    .buildAndRegister();

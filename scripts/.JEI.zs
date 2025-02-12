@@ -127,6 +127,7 @@ mods.jei.JEI.hideCategory("gregtech:tube_in_tube_reactor");
 mods.jei.JEI.hideCategory("gregtech:quencher");
 mods.jei.JEI.hideCategory("gregtech:mega_alloy_blast_smelter");
 mods.jei.JEI.hideCategory("gregtech:electrowinning_cell");
+mods.jei.JEI.hideCategory("gregtech:primitive_blast_furnace");
 
 
 
@@ -917,6 +918,7 @@ val itemstoRemoveAndHide =
 <wildnature:sapphire_ore>,
 <wildnature:steel_block>,
 <wildnature:amethyst_block>,
+<gregtech:meta_item_1:2326>,
 <wildnature:steel_rod>,
 <wildnature:ironworks>,
 <wildnature:steel_sword>,
@@ -1091,7 +1093,6 @@ val itemstoRemoveAndHide =
 <nuclearcraft:cobblestone_generator_compact>,
 <nuclearcraft:cobblestone_generator>,
 <appliedenergistics2:quartz_block>,
-<gregtech:meta_item_1:10561>,
 <thaumcraft:nugget:2>,
 <thaumcraft:nugget:1>,
 <thaumcraft:nugget>,

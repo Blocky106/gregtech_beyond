@@ -13,7 +13,7 @@ import mods.devtech.OverlayRenderer;
 
 var rotary_evaporator_overlay = OverlayRenderer.newOverlay("machines/rotary_evaporator_overlay", OverlayFace.FRONT, OverlayFace.SIDE, OverlayFace.TOP);
 
-var rotary_evaporator = IRecipeMap.recipeMapBuilder("rotary_evaporator",0,1,0,2,0,1,0,1)
+var rotary_evaporator = IRecipeMap.recipeMapBuilder("rotary_evaporator",0,1,0,2,0,2,0,3)
     .setOverlaySlots(OverlaySlot.newOverlaySlot(false, false,false,GUITextures.get("hammer_overlay")))
     .setProgressBar(GUITextures.get("progress_bar_bending"), MoveType.VERTICAL)
     .build();

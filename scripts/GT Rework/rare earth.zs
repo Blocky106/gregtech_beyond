@@ -364,14 +364,162 @@ lcr.recipeBuilder()
     .duration(800)
     .buildAndRegister();
 
+macerator.findRecipe(12,[<gregtech:meta_item_1:7270>],null).remove();
+macerator.findRecipe(12,[<gregtech:meta_item_1:7042>],null).remove();
+macerator.findRecipe(12,[<gregtech:meta_item_1:7281>],null).remove();
+
+macerator.findRecipe(12,[<gregtech:meta_item_1:6270>],null).remove();
+macerator.findRecipe(12,[<gregtech:meta_item_1:6042>],null).remove();
+macerator.findRecipe(12,[<gregtech:meta_item_1:6215>],null).remove();
 
 
+thermal.findRecipe(60,[<gregtech:meta_item_1:6215>],null).remove();
+thermal.findRecipe(60,[<gregtech:meta_item_1:6042>],null).remove();
+thermal.findRecipe(60,[<gregtech:meta_item_1:6270>],null).remove();
+
+thermal.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:6215>)
+    .outputs(<gregtech:meta_item_1:7215>)
+    .duration(400)
+    .EUt(20)
+    .buildAndRegister();
+
+thermal.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:6042>)
+    .outputs(<gregtech:meta_item_1:7042>)
+    .duration(400)
+    .EUt(20)
+    .buildAndRegister();
+
+thermal.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:6270>)
+    .outputs(<gregtech:meta_item_1:7270>)
+    .duration(400)
+    .EUt(20)
+    .buildAndRegister();
+
+centrifuge.findRecipe(24,[<gregtech:meta_item_1:4215>],null).remove();
+centrifuge.findRecipe(24,[<gregtech:meta_item_1:4042>],null).remove();
+centrifuge.findRecipe(24,[<gregtech:meta_item_1:3270>],null).remove();
+centrifuge.findRecipe(24,[<gregtech:meta_item_1:3042>],null).remove();
+centrifuge.findRecipe(24,[<gregtech:meta_item_1:3281>],null).remove();
+centrifuge.findRecipe(24,[<gregtech:meta_item_1:4270>],null).remove();
+
+electrolyzer.findRecipe(30,[<gregtech:meta_item_1:2281>*2],null).remove();
+electrolyzer.findRecipe(60,[<gregtech:meta_item_1:2605>*6],null).remove();
+
+dehydrator.findRecipe(120,null,[<liquid:zircon_chlorinating_residue>*1000]).remove();
+
+lcentrifuge.findRecipe(24,[<gregtech:meta_item_1:4215>],null).remove();
+lcentrifuge.findRecipe(24,[<gregtech:meta_item_1:4042>],null).remove();
+lcentrifuge.findRecipe(24,[<gregtech:meta_item_1:3270>],null).remove();
+lcentrifuge.findRecipe(24,[<gregtech:meta_item_1:3042>],null).remove();
+lcentrifuge.findRecipe(24,[<gregtech:meta_item_1:3281>],null).remove();
+lcentrifuge.findRecipe(24,[<gregtech:meta_item_1:4270>],null).remove();
+
+dehydrator.recipeBuilder()
+    .fluidInputs(<liquid:zircon_chlorinating_residue>*1000)
+    .outputs(<gregtech:meta_item_1:2017>,<gtadditions:ga_dust:119>*5)
+    .duration(2000)
+    .EUt(600)
+    .buildAndRegister();
 
 
+macerator.recipeBuilder()
+    .EUt(12)
+    .inputs(<gregtech:meta_item_1:6270>)
+    .outputs(<gregtech:meta_item_1:4270>)
+    .duration(270)
+    .buildAndRegister();
+
+macerator.recipeBuilder()
+    .EUt(12)
+    .inputs(<gregtech:meta_item_1:6042>)
+    .outputs(<gregtech:meta_item_1:4042>)
+    .duration(270)
+    .buildAndRegister();
+
+macerator.recipeBuilder()
+    .EUt(12)
+    .inputs(<gregtech:meta_item_1:6215>)
+    .outputs(<gregtech:meta_item_1:4215>)
+    .duration(270)
+    .buildAndRegister();
+
+macerator.recipeBuilder()
+    .EUt(12)
+    .inputs(<gregtech:meta_item_1:7270>)
+    .outputs(<gregtech:meta_item_1:2270>)
+    .duration(270)
+    .buildAndRegister();
+
+macerator.recipeBuilder()
+    .EUt(12)
+    .inputs(<gregtech:meta_item_1:7042>)
+    .outputs(<gregtech:meta_item_1:2042>)
+    .duration(270)
+    .buildAndRegister();
+
+macerator.recipeBuilder()
+    .EUt(12)
+    .inputs(<gregtech:meta_item_1:7215>)
+    .outputs(<gregtech:meta_item_1:2215>)
+    .duration(270)
+    .buildAndRegister();
+
+lcentrifuge.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:3215>)
+    .EUt(24)
+    .duration(200)
+    .outputs(<gregtech:meta_item_1:2215>)
+    .buildAndRegister();
+
+lcentrifuge.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:3042>)
+    .EUt(24)
+    .duration(200)
+    .outputs(<gregtech:meta_item_1:2042>)
+    .buildAndRegister();
+
+lcentrifuge.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:3281>)
+    .EUt(24)
+    .duration(200)
+    .outputs(<gregtech:meta_item_1:2281>)
+    .buildAndRegister();
+
+lcentrifuge.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:4270>)
+    .EUt(24)
+    .duration(200)
+    .outputs(<gregtech:meta_item_1:2270>)
+    .buildAndRegister();
+
+lcentrifuge.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:4215>)
+    .EUt(24)
+    .duration(200)
+    .outputs(<minecraft:redstone>)
+    .buildAndRegister();
+
+lcentrifuge.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:4042>)
+    .EUt(24)
+    .duration(200)
+    .outputs(<gregtech:meta_item_1:2042>)
+    .buildAndRegister();
 
 
+electrolyzer.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2281>*2)
+    .outputs(<gregtech:meta_item_1:2139>*2)
+    .EUt(24)
+    .duration(200)
+    .buildAndRegister();
 
-
-
-
-
+electrolyzer.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2605>*2)
+    .outputs(<gregtech:meta_item_1:2139>*4,<gregtech:meta_item_1:2014>*2)
+    .EUt(24)
+    .duration(200)
+    .buildAndRegister();

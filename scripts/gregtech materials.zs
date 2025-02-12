@@ -323,7 +323,17 @@ nylon610.addFlags(["GENERATE_PLATE","GENERATE_FRAME","GENERATE_ROD","GENERATE_FO
 val di_n_propyl_ether  = MaterialRegistry.createIngotMaterial(637, "di_n_propyl_ether", 0xBDA873, "DULL", 1);
 di_n_propyl_ether.addFlags(["GENERATE_PLATE","GENERATE_FLUID_BLOCK","GENERATE_FRAME","GENERATE_ROTOR","GENERATE_FOIL","GENERATE_ROD"]);
 
+val skutterudite = MaterialRegistry.createDustMaterial(638,"skutterudite",0xD0D0D0, "DULL",  2);
+skutterudite.addFlags(["GENERATE_ORE"]);
 
+val serpentine = MaterialRegistry.createDustMaterial(639,"serpentine",0xBBD3BD, "DULL",  2);
+serpentine.addFlags(["GENERATE_ORE"]);
+
+val nickeliferous_limonite = MaterialRegistry.createDustMaterial(640,"nickeliferous_limonite",0xA29880, "DULL",  2);
+nickeliferous_limonite.addFlags(["GENERATE_ORE"]);
+
+val hematite = MaterialRegistry.createDustMaterial(641,"hematite",0xACB2A4, "DULL",  2);
+hematite.addFlags(["GENERATE_ORE"]);
 
 
 util.registerDust("kaminskycatalyst", 32000, 0x372927, "DULL");
@@ -589,8 +599,29 @@ util.registerDust("Antimony_pentafluoride", 32268, 0xbfd1c6, "DULL");
 util.registerDust("Silver_fluoride", 32269, 0xfac8c8, "SHINY");
 util.registerDust("Nickel_boride", 32270, 0xff9b00, "DULL");+
 util.registerDust("Magnesium_silicate", 32271, 0xa46681, "DULL");
+util.registerDust("manganese_nitride", 32272, 0xAAB7C4, "DULL");
 
 
+
+util.registerFluid("diluted_iron_concentrate", 0x5A5857);
+util.registerFluid("diluted_leach_residue", 0x5B463F);
+util.registerFluid("platinum_residue_solution", 0x706F61);
+util.registerFluid("purified_olefin", 0xCCABD5);
+util.registerFluid("1_hexene", 0xCCABD5);
+util.registerFluid("tetradecanol", 0xCCABD5);
+util.registerFluid("hydrogenated_olefin", 0xCCABD5);
+util.registerFluid("succinimidyl_acetate_solution", 0xCCABD5);
+util.registerFluid("olefin_drilling_mud", 0xAA4020);
+util.registerFluid("used_olefin_drilling_mud", 0x8E361B);
+util.registerFluid("purified_1_decene", 0x9D3331);
+util.registerFluid("purified_1_dodecene", 0x832422);
+util.registerFluid("1_decene", 0xAC2D2A);
+util.registerFluid("1_dodecene", 0x962826);
+util.registerFluid("olefin_mixture", 0xCE6867);
+util.registerFluid("boron_trichloride", 0x88C7C1);
+util.registerFluid("dichloroethane", 0xA9BBCA);
+util.registerFluid("copper_leach", 0xDF7E34);
+util.registerFluid("dissolved_chalcocite_solution", 0x171312);
 util.registerFluid("n_propyl_chloride", 0xE7C87A);
 util.registerFluid("propene_emulsion", 0x6D551A);
 util.registerFluid("propyl_base_liqour", 0xE0C584);

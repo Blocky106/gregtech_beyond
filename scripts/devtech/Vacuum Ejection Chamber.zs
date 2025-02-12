@@ -21,5 +21,6 @@ var vacuum_ejection_chamber = IRecipeMap.recipeMapBuilder("vacuum_ejection_chamb
 
 RegisterMachine.CreateSimpleMachine(1416, "vacuum_ejection_chamber.lv",vacuum_ejection_chamber, vacuum_ejection_chamber_overlay, 1);
 RegisterMachine.CreateSimpleMachine(1417, "vacuum_ejection_chamber.mv",vacuum_ejection_chamber, vacuum_ejection_chamber_overlay, 2);
+RegisterMachine.CreateSimpleMachine(1418, "vacuum_ejection_chamber.hv",vacuum_ejection_chamber, vacuum_ejection_chamber_overlay, 3);
 
 

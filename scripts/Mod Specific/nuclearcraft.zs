@@ -1257,3 +1257,4 @@ alloy_smelter.recipeBuilder()
 
 recipes.remove(<nuclearcraft:ingot_former>);
 recipes.remove(<nuclearcraft:fission_irradiator>);
+recipes.remove(<nuclearcraft:salt_mixer>);

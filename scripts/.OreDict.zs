@@ -16,21 +16,6 @@ import mods.nuclearcraft.IngotFormer;
 
 
 
-<forestry:apatite>.displayName="Apatite Gemstone";
-<forestry:ash>.displayName="Ash Nanoparticles";
-
-
-
-
-<thaumcraft:paving_stone_barrier>.addTooltip(format.red("This can block GregTech Multiblocks when placed below or above"));
-<contenttweaker:quantumcontrolcomputermk2>.addTooltip(format.red("WIP"));
-<contenttweaker:quantumcontrolcomputermk3>.addTooltip(format.red("WIP"));
-<contenttweaker:stablestar>.addTooltip(format.red("WIP"));
-<contenttweaker:spacetimecontainingcomputationalunit>.addTooltip(format.red("WIP"));
-<contenttweaker:heavydutyalloyt6>.addTooltip(format.red("WIP"));
-
-
-
 
 
 
@@ -72,6 +57,7 @@ import mods.nuclearcraft.IngotFormer;
 <ore:translucentluminousblock>.add(<randomthings:translucentluminousblock:15>);
 #------------------------ luminous blocks end ------------------------
 
+<ore:gemBiotite:>.add(<quark:biotite>);
 #------------------------ goofy ahh ingots start----------------------
 
 
@@ -417,9 +403,3 @@ furnace.addRecipe(<gregtech:meta_item_1:10062>*2,<thaumcraft:cluster:4>);
 <ore:gemAmber>.add(<wildnature:amber>);
 <ore:ingotAmber>.add(<thaumcraft:amber>);
 <ore:stoneBasalt>.add(<lavatweaks:basalt>);
-
-
-
-
-<ore:oreAluminaRichBauxiteDepositBlock>.add(<contenttweaker:alumina_rich_bauxite_deposit_block>);
-<ore:oreBauxiteDepositBlock>.add(<contenttweaker:bauxite_deposit_block>);
