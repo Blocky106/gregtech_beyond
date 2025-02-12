@@ -72,3 +72,29 @@ assembler.recipeBuilder()
     .duration(100)
     .EUt(12)
     .buildAndRegister();
+
+recipes.remove(<quark:iron_rod>);
+
+cutting_saw.recipeBuilder()
+    .inputs(<minecraft:iron_bars>)
+    .outputs(<quark:iron_rod>*3)
+    .fluidInputs()
+    .duration(200)
+    .EUt(7)
+    .buildAndRegister();
+
+lathe.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:14033>)
+    .outputs(<quark:iron_rod>)
+    .EUt(9)
+    .duration(40)
+    .buildAndRegister();
+
+recipes.remove(<quark:chute>);
+
+assembler.recipeBuilder()
+    .inputs(<tconstruct:wooden_hopper>,<gregtech:meta_item_1:12196>*3,<gregtech:meta_item_1:9184>*4)
+    .outputs(<quark:chute>)
+    .duration(80)
+    .EUt(9)
+    .buildAndRegister();

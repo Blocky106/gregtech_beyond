@@ -591,7 +591,7 @@ util.registerDust("manganese_nitride", 32267, 0xAAB7C4, "DULL");
 
 
 
-
+util.registerFluid("diluted_iron_concentrate", 0x5A5857);
 util.registerFluid("diluted_leach_residue", 0x5B463F);
 util.registerFluid("platinum_residue_solution", 0x706F61);
 util.registerFluid("purified_olefin", 0xCCABD5);
