@@ -57,6 +57,7 @@ import mods.nuclearcraft.IngotFormer;
 <ore:translucentluminousblock>.add(<randomthings:translucentluminousblock:15>);
 #------------------------ luminous blocks end ------------------------
 
+<ore:gemBiotite:>.add(<quark:biotite>);
 #------------------------ goofy ahh ingots start----------------------
 
 
