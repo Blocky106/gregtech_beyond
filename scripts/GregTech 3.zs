@@ -829,14 +829,6 @@ ebf.recipeBuilder()
     .EUt(32000)
     .buildAndRegister();
 
-chemical_bath.recipeBuilder()
-    .inputs(<thaumcraft:nugget:10>)
-    .outputs(<gregtech:meta_item_1:2326>)
-    .duration(400)
-    .EUt(24000)
-    .fluidInputs(<liquid:sulfuric_acid>*2000)
-    .buildAndRegister();
-
 lmixer.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2353>*16,<gregtech:meta_item_1:2014>*2,<gregtech:meta_item_1:2309>*4,<gregtech:meta_item_1:2235>*2,<gregtech:meta_item_1:2533>*2,<gregtech:meta_item_1:2037>*6,<gregtech:meta_item_1:2022>*12,<gregtech:meta_item_1:2059>*8)
     .outputs(<gregtech:meta_item_1:2572>*64)
