@@ -123,3 +123,12 @@ oxidation_furnace.recipeMap.recipeBuilder()
     .duration(400)
     .EUt(800)
     .buildAndRegister();
+
+oxidation_furnace.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2750>*4)
+    .outputs(<gregtech:meta_item_1:2074>)
+    .fluidOutputs(<liquid:oxygen>*3000)
+    .duration(400)
+    .EUt(800)
+    .buildAndRegister();
+    

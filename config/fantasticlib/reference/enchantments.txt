@@ -46,11 +46,11 @@ tombstone:curse_of_bones
 gregtech:disjunction
 endercore:autosmelt
 endercore:xpboost
-enderio:witherarrow
-enderio:shimmer
 enderio:repellent
-enderio:witherweapon
 enderio:soulbound
+enderio:shimmer
+enderio:witherweapon
+enderio:witherarrow
 cofhcore:holding
 cofhcore:insight
 cofhcore:leech

@@ -134,3 +134,11 @@ gravity_separator.recipeMap.recipeBuilder()
     .duration(400)
     .EUt(80)
     .buildAndRegister();
+
+gravity_separator.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2953>*4)
+    .outputs(<gregtech:meta_item_1:2090>*2,<gregtech:meta_item_1:2159>)
+    .fluidOutputs(<liquid:oxygen>*1000)
+    .duration(200)
+    .EUt(120)
+    .buildAndRegister();

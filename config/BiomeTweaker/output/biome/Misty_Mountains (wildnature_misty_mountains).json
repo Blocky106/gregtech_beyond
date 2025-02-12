@@ -22,8 +22,8 @@
   "Dictionary Types": [
     "DEAD",
     "RARE",
-    "SPOOKY",
     "MOUNTAIN",
+    "SPOOKY",
     "COLD"
   ],
   "BiomeManager Entries": {

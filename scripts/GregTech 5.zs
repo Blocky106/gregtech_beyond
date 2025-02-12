@@ -3070,3 +3070,14 @@ electrolyzer.recipeBuilder()
     .buildAndRegister();
 
 furnace.remove(<gregtech:meta_item_1:10632>);
+
+Utils.removeRecipeByOutput(ebf, [<gtadditions:ga_dust:185>*4,<gtadditions:ga_dust:182>*9],[<liquid:water>*1000],true);
+
+ebf.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2373>*3,<gtadditions:ga_dust:190>*3,<contenttweaker:floated_tantalite>*5)
+    .outputs(<gtadditions:ga_dust:185>*4,<gtadditions:ga_dust:182>*9)
+    .fluidOutputs(<liquid:water>*1000)
+    .property("temperature", 2000)
+    .EUt(200)
+    .duration(100)
+    .buildAndRegister();

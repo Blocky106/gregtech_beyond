@@ -139,3 +139,10 @@ flash_chromatography_system.recipeMap.recipeBuilder()
     .duration(400)
     .EUt(800)
     .buildAndRegister();
+
+flash_chromatography_system.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:radon_containing_noble_gasses>*1000)
+    .fluidOutputs(<liquid:radon>*700,<liquid:rare_gas_mixture>*300)
+    .duration(400)
+    .EUt(800)
+    .buildAndRegister();
