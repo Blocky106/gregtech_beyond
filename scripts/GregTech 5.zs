@@ -3052,3 +3052,21 @@ chemical_bath.recipeBuilder()
     .EUt(280)
     .duration(700)
     .buildAndRegister();
+
+tbr.recipeBuilder()
+    .inputs(<contenttweaker:iron_concentrate>)
+    .fluidInputs(<liquid:sulfuric_acid>*1000)
+    .duration(200)
+    .EUt(8)
+    .fluidOutputs(<liquid:diluted_iron_concentrate>*1000)
+    .buildAndRegister();
+
+electrolyzer.recipeBuilder()
+    .fluidInputs(<liquid:diluted_iron_concentrate>*1000)
+    .notConsumable(<gregtech:meta_item_1:14184>)
+    .outputs(<gregtech:meta_item_1:2033>*4)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
+furnace.remove(<gregtech:meta_item_1:10632>);
