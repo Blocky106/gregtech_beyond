@@ -78,8 +78,24 @@ recipes.remove(<quark:iron_rod>);
 cutting_saw.recipeBuilder()
     .inputs(<minecraft:iron_bars>)
     .outputs(<quark:iron_rod>*3)
-    .fluidInputs()
+    .fluidInputs(<liquid:water>*12)
     .duration(200)
+    .EUt(7)
+    .buildAndRegister();
+
+cutting_saw.recipeBuilder()
+    .inputs(<minecraft:iron_bars>)
+    .outputs(<quark:iron_rod>*3)
+    .fluidInputs(<liquid:distilled_water>*10)
+    .duration(150)
+    .EUt(7)
+    .buildAndRegister();
+
+cutting_saw.recipeBuilder()
+    .inputs(<minecraft:iron_bars>)
+    .outputs(<quark:iron_rod>*3)
+    .fluidInputs(<liquid:lubricant>*8)
+    .duration(100)
     .EUt(7)
     .buildAndRegister();
 
@@ -97,4 +113,20 @@ assembler.recipeBuilder()
     .outputs(<quark:chute>)
     .duration(80)
     .EUt(9)
+    .buildAndRegister();
+
+recipes.remove(<quark:chain>);
+
+assembler.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:18033>*3)
+    .outputs(<quark:chain>)
+    .EUt(19)
+    .duration(240)
+    .buildAndRegister();
+
+macerator.recipeBuilder()
+    .inputs(<quark:biotite>)
+    .outputs(<gregtech:meta_item_1:2250>)
+    .EUt(19)
+    .duration(200)
     .buildAndRegister();
