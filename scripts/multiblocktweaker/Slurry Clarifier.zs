@@ -291,4 +291,12 @@ slurry_clarifier.recipeMap.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
+slurry_clarifier.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:tantalite_slurry>*1000)
+    .fluidOutputs(<liquid:oleic_acid>*1000,<liquid:methyl_isobutyl_carbonyl>*1000)
+    .outputs(<gregtech:meta_item_1:2373>*2,<contenttweaker:floated_tantalite>*8)
+    .duration(200)
+    .EUt(1200)
+    .buildAndRegister();
+
 

@@ -215,3 +215,6 @@ heat_exchanger.recipeMap.recipeBuilder()
 heat_exchanger.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:radon_rich_air>*1000)
     .fluidOutputs(<liquid:chilled_radon_rich_air>*1000)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
