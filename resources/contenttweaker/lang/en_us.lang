@@ -2031,7 +2031,7 @@ fluid.trimethylgallium=Trimethylgallium
 fluid.glycidol_ether=Glycidol Ether
 fluid.resin_enhancer=Resin Enhancer
 fluid.sulfur_hexafluoride=Sulfur Hexafluoride 
-fluid.dicyandiamide=dicyandiamide
+fluid.dicyandiamide=Dicyandiamide
 fluid.glycidol_preparation_mixture=Glycidol Preparation Mixture
 fluid.cyandiamide=Cyandiamide
 fluid.unrefined_epoxy_resin=Unrefined Epoxy Resin 
@@ -2211,3 +2211,18 @@ multiblocktweaker.multiblock.vulcanized_press.description=In a rubber factory, t
 multiblocktweaker.multiblock.astro_mining_station.description=The Astro Mining Station is a marvel of engineering, designed to extract precious ores from the depths of distant worlds
 fluid.dichloroethane=1,2-Dichloroethane
 multiblocktweaker.machine.blender.name=Blender
+fluid.copper_leach=Copper Leach
+fluid.dissolved_chalcocite_solution=Dissolved Chalcocite Solution
+fluid.boron_trichloride=Boron Trichloride
+metaitem.potassium_hydrofluoride.name=Potassium Hydrofluoride Dust 
+metaitem.magnanese_nitride.name=Manganese Nitride Dust
+item.contenttweaker.sifted_tantalite.name=Sifted Tantalite
+item.contenttweaker.sifted_andradite.name=Sifted Andradite
+item.contenttweaker.iron_concentrate.name=Iron Concentrate
+tile.contenttweaker.carved_pumpkin.name=Carved Pumpkin
+
+
+
+
+
+
