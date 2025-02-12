@@ -790,3 +790,12 @@ catalytic_cracking_unit.recipeMap.recipeBuilder()
     .duration(200)
     .EUt(80)
     .buildAndRegister();
+
+catalytic_cracking_unit.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:ethylene>*2000)
+    .notConsumable(<gtadditions:ga_dust:32002>)
+    .notConsumable(<gtadditions:ga_dust:249>)
+    .fluidOutputs(<liquid:olefin_mixture>*2000)
+    .duration(200)
+    .EUt(80)
+    .buildAndRegister();
