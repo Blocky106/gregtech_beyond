@@ -16,21 +16,6 @@ import mods.nuclearcraft.IngotFormer;
 
 
 
-<forestry:apatite>.displayName="Apatite Gemstone";
-<forestry:ash>.displayName="Ash Nanoparticles";
-
-
-
-
-<thaumcraft:paving_stone_barrier>.addTooltip(format.red("This can block GregTech Multiblocks when placed below or above"));
-<contenttweaker:quantumcontrolcomputermk2>.addTooltip(format.red("WIP"));
-<contenttweaker:quantumcontrolcomputermk3>.addTooltip(format.red("WIP"));
-<contenttweaker:stablestar>.addTooltip(format.red("WIP"));
-<contenttweaker:spacetimecontainingcomputationalunit>.addTooltip(format.red("WIP"));
-<contenttweaker:heavydutyalloyt6>.addTooltip(format.red("WIP"));
-
-
-
 
 
 
