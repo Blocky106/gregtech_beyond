@@ -121,3 +121,21 @@ flash_chromatography_system.recipeMap.recipeBuilder()
     .duration(400)
     .EUt(800)
     .buildAndRegister();
+
+flash_chromatography_system.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:1_dodecene>)
+    .notConsumable(<liquid:hexane>)
+    .notConsumable(<gtadditions:ga_dust:28>)
+    .fluidOutputs(<liquid:purified_1_dodecene>*1000)
+    .duration(400)
+    .EUt(800)
+    .buildAndRegister();
+
+flash_chromatography_system.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:1_decene>)
+    .notConsumable(<liquid:hexane>)
+    .notConsumable(<gtadditions:ga_dust:28>)
+    .fluidOutputs(<liquid:purified_1_decene>*1000)
+    .duration(400)
+    .EUt(800)
+    .buildAndRegister();
