@@ -77,8 +77,6 @@ distillation_tower.recipeBuilder()
     .EUt(80)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(ebf,[<gregtech:meta_item_1:2887>*4,<gtadditions:ga_dust:115>*7],[<liquid:rhodium_sulfate>*1000],true);
-
 roasters.recipeBuilder()
     .fluidInputs(<liquid:rhodium_filter_cake_solution>*1000)
     .outputs(<gregtech:meta_item_1:2869>)
@@ -96,10 +94,27 @@ fluidExtractor.recipeBuilder()
     .EUt(280)
     .buildAndRegister();
 
-cstr_s.recipeBuilder()
-    .fluidInputs(<liquid:potassium_disulfate>*1000)
-    .inputs(<gregtech:meta_item_1:2898>)
-    .fluidOutputs(<liquid:rhodium_sulfate>*1000)
+centrifuge.recipeBuilder()
+    .fluidInputs(<liquid:platinum_extraction_mixture>*4000,<liquid:platinum_concentrate>*4000)
+    .fluidOutputs(<liquid:platinum_extract>*3000,<liquid:palladium_extract>*1000)
+    .duration(300)
+    .EUt(170)
+    .buildAndRegister();
+
+Utils.removeRecipeByOutput(ebf,[<gregtech:meta_item_1:2887>*4,<gtadditions:ga_dust:115>*7],[<liquid:rhodium_sulfate>*1000],true);
+
+roasters.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2887>*4,<gtadditions:ga_dust:115>*7)
+    .fluidInputs(<liquid:oxygen>*1000)
+    .fluidOutputs(<liquid:platinum_residue_solution>*1000)
+    .duration(300)
+    .EUt(170)
+    .buildAndRegister();
+
+distillation_tower.recipeBuilder()
+    .fluidInputs(<liquid:platinum_residue_solution>*1000)
+    .fluidOutputs(<liquid:rhodium_sulfate>*1000,<liquid:diluted_leach_residue>*1000)
+    .outputs(<gtadditions:ga_dust:115>*7)
     .duration(300)
     .EUt(170)
     .buildAndRegister();
