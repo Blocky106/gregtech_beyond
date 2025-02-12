@@ -85,15 +85,6 @@ val polymerization_tank = Builder.start(loc, meta)
 .withZoom(0.5f)
 .buildAndRegister() as Multiblock;
 
-
-polymerization_tank.recipeMap.recipeBuilder()
-    .notConsumable(<gtadditions:ga_dust:32002>)
-    .fluidInputs(<liquid:polybenzimidazoleprepolymerfoam>*2000,<liquid:pbi_polymerization_mix>*1000)
-    .fluidOutputs(<liquid:impurepolybenzimidazolesolution>*2000)
-    .duration(200)
-    .EUt(12)
-    .buildAndRegister();
-
 polymerization_tank.recipeMap.recipeBuilder()
     .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
     .fluidInputs(<liquid:vinyl_acetate>*144,<liquid:hydrogen_peroxide>*1000)
@@ -316,6 +307,14 @@ polymerization_tank.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:tetrafluoroethylene>*1000, <liquid:ptfe_preparation_mixture>*1000)
     .notConsumable(<gtadditions:ga_dust:32001>)
     .fluidOutputs(<liquid:polytetrafluoroethylene>*2000)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
+
+polymerization_tank.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:benzimidazole>*1000, <liquid:pbi_preparation_mixture>*1000)
+    .fluidOutputs(<liquid:impurepolybenzimidazolesolution>*2000)
+	.notConsumable(<gtadditions:ga_dust:32002>)
     .duration(200)
     .EUt(12)
     .buildAndRegister();
