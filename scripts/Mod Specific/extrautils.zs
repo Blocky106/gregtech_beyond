@@ -141,3 +141,9 @@ recipes.addShaped(<extrautils2:trashcanenergy>, [ [null, <gregtech:meta_item_1:1
 recipes.addShaped(<extrautils2:trashcanfluid>, [ [null, <gregtech:meta_item_1:12184>, null],[<gregtech:meta_item_1:12184>, <gregtech:machine:803>, <gregtech:meta_item_1:12184>], [null, null, null]]);
 recipes.addShaped(<unstableaxe:unstableaxe>, [	[<ore:ingotUnstable>, <ore:ingotUnstable>, null], 	[<ore:ingotUnstable>, <contenttweaker:obsidianrod>, null], 	[null, <contenttweaker:obsidianrod>, null]]);
 
+mixer.recipeBuilder()
+    .inputs(<ore:sand>,<ore:dustGlass>)
+    .outputs(<extrautils2:decorativesolid:4>)
+    .duration(20)
+    .EUt(4)
+    .buildAndRegister();
