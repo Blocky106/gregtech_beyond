@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
-    "FOREST",
-    "MOUNTAIN",
-    "SNOWY",
     "CONIFEROUS",
     "RARE",
+    "FOREST",
+    "SNOWY",
+    "MOUNTAIN",
     "COLD"
   ],
   "BiomeManager Entries": {},

@@ -81,6 +81,7 @@ minecraft:llama_spit
 minecraft:parrot
 minecraft:villager
 minecraft:ender_crystal
+quark:gravisand
 quark:flat_item_frame
 quark:leash_knot
 quark:colored_item_frame
@@ -95,7 +96,6 @@ quark:frog
 quark:pirate
 quark:crab
 quark:wraith
-quark:gravisand
 quark:chest_passenger
 quark:pickarang
 quark:arrow_ender
@@ -174,8 +174,8 @@ thaumcraft:taintacletiny
 thaumcraft:taintswarm
 thaumcraft:taintseed
 thaumcraft:taintseedprime
-enderio:primed_charge
 enderio:falling_machine
+enderio:primed_charge
 enderio:owl_egg
 tconstruct:blueslime
 tconstruct:indestructible
