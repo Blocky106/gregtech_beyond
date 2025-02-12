@@ -2835,13 +2835,6 @@ roasters.recipeBuilder()
 
 electrolyzer.findRecipe(30 , [<gregtech:meta_item_1:2361>*3], null).remove();
 
-chemical_bath.recipeBuilder()
-    .fluidInputs(<liquid:sulfuric_acid_solution>*1000)
-    .inputs(<gregtech:meta_item_1:2361>)
-    .fluidOutputs(<liquid:dissolved_chalcocite_solution>*1000)
-    .duration(380)
-    .EUt(20)
-    .buildAndRegister();
 
 chemReactor.recipeBuilder()
     .fluidInputs(<liquid:air>*2000,<liquid:dissolved_chalcocite_solution>*4000)
@@ -2965,3 +2958,97 @@ tbr.recipeBuilder()
     .EUt(280)
     .buildAndRegister();
 
+furnace.remove(<gregtech:meta_item_1:10041>);
+furnace.remove(<gregtech:meta_item_1:9041>);
+
+distillation_tower.recipeBuilder()
+    .fluidInputs(<liquid:olefin_mixture>*1000)
+    .fluidOutputs(<liquid:1_butene>*200,<liquid:1_octene>*200,<liquid:1_dodecene>*200,<liquid:1_hexene>*200,<liquid:1_decene>*200)
+    .duration(200)
+    .EUt(280)
+    .buildAndRegister();
+
+furnace.remove(<gregtech:meta_item_1:10633>);
+
+ebf.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2633>)
+    .outputs(<gregtech:meta_item_1:10633>)
+    .duration(200)
+    .property("temperature", 10000)
+    .EUt(7800)
+    .buildAndRegister();
+
+cstr_s.recipeBuilder()
+    .fluidInputs(<liquid:purified_1_decene>*1000,<liquid:hydrogen>*1000,<liquid:tetradecanol>*200)
+    .inputs(<gregtech:meta_item_1:2049>)
+    .fluidOutputs(<liquid:hydrogenated_olefin>*1000)
+    .duration(200)
+    .EUt(280)
+    .buildAndRegister();
+
+cstr_s.recipeBuilder()
+    .fluidInputs(<liquid:purified_1_dodecene>*1000,<liquid:hydrogen>*1000,<liquid:tetradecanol>*200)
+    .inputs(<gregtech:meta_item_1:2049>)
+    .fluidOutputs(<liquid:hydrogenated_olefin>*1000)
+    .duration(200)
+    .EUt(280)
+    .buildAndRegister();
+
+distillation_tower.recipeBuilder()
+    .fluidInputs(<liquid:hydrogenated_olefin>*1000)
+    .fluidOutputs(<liquid:purified_olefin>*1000,<liquid:tetradecanol>*2000)
+    .outputs(<gregtech:meta_item_1:2049>)
+    .duration(200)
+    .EUt(280)
+    .buildAndRegister();
+
+tbr.recipeBuilder()
+    .fluidInputs(<liquid:ethoxylated_nonylphenol>*1000,<liquid:purified_olefin>*1000)
+    .inputs(<gregtech:meta_item_1:2097>*3,<gtadditions:ga_dust:24>)
+    .fluidOutputs(<liquid:olefin_drilling_mud>*1000)
+    .duration(200)
+    .EUt(280)
+    .buildAndRegister();
+
+furnace.remove(<gregtech:meta_item_1:10585>);
+
+ebf.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2585>)
+    .outputs(<gregtech:meta_item_1:10585>)
+    .property("temperature", 8000)
+    .EUt(22800)
+    .duration(700)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:917>*3)
+    .fluidInputs(<liquid:acetic_anhydride>*1000,<liquid:tetrahydrofuran>*1000)
+    .fluidOutputs(<liquid:succinimidyl_acetate_solution>*1000)
+    .EUt(280)
+    .duration(700)
+    .buildAndRegister();
+
+lcr.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:917>*3)
+    .fluidInputs(<liquid:acetic_anhydride>*1000,<liquid:tetrahydrofuran>*1000)
+    .fluidOutputs(<liquid:succinimidyl_acetate_solution>*1000)
+    .EUt(280)
+    .duration(700)
+    .buildAndRegister();
+
+rotary_evaporator.recipeBuilder()
+    .fluidInputs(<liquid:succinimidyl_acetate_solution>*1000)
+    .outputs(<gtadditions:ga_dust:917>*4)
+    .fluidOutputs(<liquid:acetic_acid>*1000,<liquid:tetrahydrofuran>*1000)
+    .EUt(280)
+    .duration(700)
+    .buildAndRegister();
+
+chemical_bath.recipeBuilder()
+    .fluidInputs(<liquid:sulfuric_acid>*1000)
+    .inputs(<gregtech:meta_item_1:2361>*3)
+    .fluidOutputs(<liquid:dissolved_chalcocite_solution>*1000)
+    .outputs(<gregtech:meta_item_1:2328>)
+    .EUt(280)
+    .duration(700)
+    .buildAndRegister();
