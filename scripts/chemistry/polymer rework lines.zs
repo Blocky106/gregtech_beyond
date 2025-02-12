@@ -312,7 +312,7 @@ chemReactor.recipeBuilder()
     .buildAndRegister();
 
 lcr.recipeBuilder()
-	.inputs(<gtadditions:ga_dust:32267>*5)
+	.inputs(<gtadditions:ga_dust:32272>*5)
 	.fluidInputs(<liquid:trifluorotoluene>*500, <liquid:fluorine>*1000, <liquid:Chromic_acid>*1000)
 	.notConsumable(<gtadditions:ga_dust:32268>*5, <liquid:fluoroantimonic_acid>*2000)
 	.fluidOutputs(<liquid:fluorinated_isophthalic_acid>*2500, <liquid:hydrogen_fluoride>*200)
