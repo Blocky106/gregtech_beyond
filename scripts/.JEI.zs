@@ -127,6 +127,7 @@ mods.jei.JEI.hideCategory("gregtech:tube_in_tube_reactor");
 mods.jei.JEI.hideCategory("gregtech:quencher");
 mods.jei.JEI.hideCategory("gregtech:mega_alloy_blast_smelter");
 mods.jei.JEI.hideCategory("gregtech:electrowinning_cell");
+mods.jei.JEI.hideCategory("gregtech:primitive_blast_furnace");
 
 
 
