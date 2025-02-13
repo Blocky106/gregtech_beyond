@@ -258,7 +258,7 @@ cstr_s.recipeBuilder()
     .inputs(<gtadditions:ga_dust:32269>*2)
 	.fluidInputs(<liquid:4-nitrophenol>*1000)
 	.notConsumable(<gtadditions:ga_dust:32268>*2)
-    .fluidOutputs(<liquid:4-Nitrofluorophenol>*500, <liquid:fluorinated_nitrophenol_residue>*500)
+    .fluidOutputs(<liquid:4-nitrofluorophenol>*500, <liquid:fluorinated_nitrophenol_residue>*500)
     .EUt(500)
     .duration(1200)
     .buildAndRegister();
