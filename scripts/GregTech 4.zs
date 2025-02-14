@@ -1930,50 +1930,57 @@ mixer.recipeBuilder()
 furnace.addRecipe(<minecraft:glass>,<tconstruct:clear_glass>);
 furnace.remove(<minecraft:glass>);
 
-compressor.recipeBuilder()
+assembler.recipeBuilder()
     .inputs(<minecraft:coal>*2)
     .outputs(<contenttweaker:coalball>)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 4}))
     .duration(20)
     .EUt(12)
     .buildAndRegister();
 
-compressor.recipeBuilder()
+assembler.recipeBuilder()
     .inputs(<minecraft:coal:1>*2)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 4}))
     .outputs(<contenttweaker:coalball>)
     .duration(20)
     .EUt(12)
     .buildAndRegister();
 
-compressor.recipeBuilder()
+assembler.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2106>*2)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 4}))
     .outputs(<contenttweaker:coalball>)
     .duration(20)
     .EUt(12)
     .buildAndRegister();
 
-compressor.recipeBuilder()
+assembler.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2101>*2)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 4}))
     .outputs(<contenttweaker:coalball>)
     .duration(20)
     .EUt(12)
     .buildAndRegister();
 
-compressor.recipeBuilder()
+assembler.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2211>*2)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 4}))
     .outputs(<contenttweaker:coalball>)
     .duration(20)
     .EUt(12)
     .buildAndRegister();
 
-compressor.recipeBuilder()
+assembler.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2225>*2)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 4}))
     .outputs(<contenttweaker:coalball>)
     .duration(20)
     .EUt(12)
     .buildAndRegister();
 
-compressor.recipeBuilder()
+assembler.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2357>*2)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 4}))
     .outputs(<contenttweaker:coalball>)
     .duration(20)
     .EUt(12)
@@ -3540,3 +3547,12 @@ vacfreezer.recipeBuilder()
     .duration(200)
     .EUt(80)
     .buildAndRegister();
+
+metal_bender.recipeBuilder()
+    .inputs(<contenttweaker:coalball>)
+    .outputs(<contenttweaker:coal_plate>)
+    .duration(200)
+    .EUt(5)
+    .buildAndRegister();
+
+recipes.addShaped(<quark:redstone_randomizer>, [	[<minecraft:repeater>, <minecraft:comparator>, <minecraft:repeater>], 	[<minecraft:comparator>, <ore:gearRedstone>, <minecraft:comparator>], 	[<contenttweaker:coal_plate>, <contenttweaker:coal_plate>, <contenttweaker:coal_plate>]]);

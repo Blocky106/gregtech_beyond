@@ -411,3 +411,12 @@ froth_flotation_cell.recipeMap.recipeBuilder()
     .duration(800)
     .EUt(70)
     .buildAndRegister();
+
+froth_flotation_cell.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:froth_flotation_fluid>*1000,<liquid:oleic_acid>*1000,<liquid:methyl_isobutyl_carbonyl>*1000)
+    .inputs(<contenttweaker:sifted_tantalite>*4,<gregtech:meta_item_1:2373>*2)
+    .fluidOutputs(<liquid:used_froth_flotation_fluid>*1000,<liquid:tantalite_slurry>*1000)
+    .duration(800)
+    .EUt(70)
+    .buildAndRegister();
+

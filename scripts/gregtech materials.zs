@@ -602,7 +602,28 @@ util.registerDust("Magnesium_silicate", 32271, 0xa46681, "DULL");
 util.registerDust("manganese_nitride", 32272, 0xAAB7C4, "DULL");
 
 
-
+util.registerFluid("chromic_acid", 0xE7C8C8);
+util.registerFluid("4-nitrophenol", 0xC69E9E);
+util.registerFluid("pbi_preparation_mixture", 0x141515);
+util.registerFluid("pbi_preparation_mixture_precurser", 0x242525);
+util.registerFluid("n-methylpyrrolidone", 0x535242);
+util.registerFluid("2-pyrrolidone", 0x509993);
+util.registerFluid("benzimidazole", 0x2C2F30);
+util.registerFluid("fluorinated_isophthalic_acid", 0x77A67A);
+util.registerFluid("fluorinated_benzimidazole_mixture", 0x3E3F40);
+util.registerFluid("trifluorotoluene", 0x56B05A);
+util.registerFluid("fluorinated_diaminodiphenyl_ether", 0x9BBBCC);
+util.registerFluid("4-4_dinitrofluorodiphenyl_ether", 0x80C3E4);
+util.registerFluid("tetranitrofluorophenol", 0xAD5D1C);
+util.registerFluid("trinitrofluorophenol", 0xDC8945);
+util.registerFluid("4-nitrofluorophenol", 0xEFC098);
+util.registerFluid("fluorinated_nitrophenol_residue", 0xB7B287);
+util.registerFluid("dinitrofluorophenol", 0x92B094);
+util.registerFluid("fluorinated_benzimidazole", 0xBB7292);
+util.registerFluid("tantalite_slurry", 0x965E4D);
+util.registerFluid("radon_rich_air", 0xB17BBA);
+util.registerFluid("chilled_radon_rich_air", 0x9863A2);
+util.registerFluid("radon_containing_noble_gasses", 0x86618C);
 util.registerFluid("diluted_iron_concentrate", 0x5A5857);
 util.registerFluid("diluted_leach_residue", 0x5B463F);
 util.registerFluid("platinum_residue_solution", 0x706F61);

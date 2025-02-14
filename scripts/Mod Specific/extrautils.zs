@@ -147,3 +147,10 @@ mixer.recipeBuilder()
     .duration(20)
     .EUt(4)
     .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:9001>,<thaumcraft:nugget:6>)
+    .outputs(<extrautils2:unstableingots:1>)
+    .duration(200)
+    .EUt(48)
+    .buildAndRegister();

@@ -129,4 +129,9 @@ cryogenic_distillation_plant.recipeMap.recipeBuilder()
     .EUt(300)
     .buildAndRegister();
 
- 
+ cryogenic_distillation_plant.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:chilled_radon_rich_air>*1000)
+    .fluidOutputs(<liquid:oxygen>*400,<liquid:nitrogen>*300,<liquid:radon_containing_noble_gasses>*300)
+    .duration(400)
+    .EUt(300)
+    .buildAndRegister();

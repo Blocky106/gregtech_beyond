@@ -205,6 +205,7 @@ registerMetalBlock("core_processing_casing", 12.0, 10.0, 1);
 var items = [
 "ga_as_wafer",
 "iron_concentrate",
+"floated_tantalite", 
 "sifted_andradite",
 "sifted_tantalite",
 "passivated_spincoated_ga_as_wafer",
