@@ -3070,3 +3070,19 @@ electrolyzer.recipeBuilder()
     .buildAndRegister();
 
 furnace.remove(<gregtech:meta_item_1:10632>);
+
+assembler.recipeBuilder()
+    .fluidInputs(<liquid:polyetheretherketone>*1440)
+    .inputs(<gregtech:frame_dark_naquatic_abyssal_alloy>, <gregtech:meta_item_1:12205>*6, <gtadditions:ga_machine_casing>, <gregtech:meta_item_1:12631>*3)
+    .outputs(<contenttweaker:ore_factory_casing>)
+    .duration(200)
+    .EUt(600000)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .fluidInputs(<liquid:cross_linked_polyethylene>*2000, <liquid:osmiridium>*1500, <liquid:polycyclopentene>*500, <liquid:polyetheretherketone>*144)
+    .inputs(<gregtech:frame_dark_naquatic_abyssal_alloy>*4, <gregtech:meta_item_1:12631>*5, <gregtech:meta_item_1:12791>*10, <gtadditions:ga_nuclear_casing:9>*2, <gregtech:meta_item_1:32676>)
+    .outputs(<contenttweaker:core_processing_casing>)
+    .duration(400)
+    .EUt(1500000)
+    .buildAndRegister();

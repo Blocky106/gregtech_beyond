@@ -63,7 +63,7 @@ val ore_factory = Builder.start(loc, meta)
                 .where("~", IBlockMatcher.ANY)
                 .setAmountAtLeast('C', 85)
                 .whereOr("C", 
-                <metastate:gtadditions:ga_metal_casing_2:4>,
+                <metastate:contenttweaker:ore_factory_casing>,
                     IBlockMatcher.abilityPartPredicate(
                         MultiblockAbility.IMPORT_FLUIDS,
                         MultiblockAbility.IMPORT_ITEMS,
@@ -72,7 +72,7 @@ val ore_factory = Builder.start(loc, meta)
                         MultiblockAbility.EXPORT_ITEMS
                 ))
                 .where("G", <metastate:qmd:containment_glass>)
-                .where("Q", <metastate:gtadditions:ga_metal_casing_2:3>)
+                .where("Q", <metastate:contenttweaker:core_processing_casing>)
                 .build())
         .addDesign(
                 FactoryMultiblockShapeInfo.start()
@@ -85,9 +85,9 @@ val ore_factory = Builder.start(loc, meta)
                 .aisle("CCCCC","QQQQQ","QQQQQ","QQQQQ","CCCCC")
                 .aisle(" C C "," CCC ","CC CC"," CCC "," C C ")
 
-                .where("C", <metastate:gtadditions:ga_metal_casing_2:4>)
+                .where("C", <metastate:contenttweaker:ore_factory_casing>)
                 .where("G", <metastate:qmd:containment_glass>)
-                .where("Q", <metastate:gtadditions:ga_metal_casing_2:3>)
+                .where("Q", <metastate:contenttweaker:core_processing_casing>)
                 .where("S", IBlockInfo.controller(loc))
                 .where("E", MetaTileEntities.ENERGY_INPUT_HATCH[4], IFacing.east())
                 .build())

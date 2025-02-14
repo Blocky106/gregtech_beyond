@@ -2220,7 +2220,8 @@ item.contenttweaker.sifted_tantalite.name=Sifted Tantalite
 item.contenttweaker.sifted_andradite.name=Sifted Andradite
 item.contenttweaker.iron_concentrate.name=Iron Concentrate
 tile.contenttweaker.carved_pumpkin.name=Carved Pumpkin
-
+tile.contenttweaker.ore_factory_casing.name=Ore Factory Casing
+tile.contenttweaker.core_processing_casing.name=Core Processing Casing
 
 
 
