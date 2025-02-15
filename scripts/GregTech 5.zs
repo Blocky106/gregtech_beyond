@@ -3095,3 +3095,22 @@ ebf.recipeBuilder()
     .EUt(200)
     .duration(100)
     .buildAndRegister();
+
+recipe.addShaped(<gregtech:machine:1560>, [[<ore:wireFineElectrum>, <gregtech:meta_item_1:32640>, <ore:wireFineElectrum>], [<gregtech:meta_item_1:32600>, <gregtech:machine:501>, <gregtech:meta_item_1:32600>], [<ore:circuitBasic>, <ore:plateSteel>, <ore:circuitBasic>]]);
+recipe.addShaped(<gregtech:machine:1561>, [[<ore:wireFineChrome>, <gregtech:meta_item_1:32641>, <ore:wireFineChrome>], [<gregtech:meta_item_1:32601>, <gregtech:machine:502>, <gregtech:meta_item_1:32601>], [<ore:circuitGood>, <ore:plateAluminium>, <ore:circuitGood>]]);
+recipe.addShaped(<gregtech:machine:1562>, [[<ore:wireFineMagnalium>, <gregtech:meta_item_1:32642>, <ore:wireFineMagnalium>], [<gregtech:meta_item_1:32602>, <gregtech:machine:503>, <gregtech:meta_item_1:32602>], [<ore:circuitAdvanced>, <ore:plateStainlessSteel>, <ore:circuitAdvanced>]]);
+recipe.addShaped(<gregtech:machine:1563>, [[<ore:wireFineEnderium>, <gregtech:meta_item_1:32643>, <ore:wireFineEnderium>], [<gregtech:meta_item_1:32603>, <gregtech:machine:504>, <gregtech:meta_item_1:32603>], [<ore:circuitExtreme>, <ore:plateTitanium>, <ore:circuitExtreme>]]);
+recipe.addShaped(<gregtech:machine:1564>, [[<ore:wireFineUltimet>, <gregtech:meta_item_1:32644>, <ore:wireFineUltimet>], [<gregtech:meta_item_1:32604>, <gregtech:machine:505>, <gregtech:meta_item_1:32604>], [<ore:circuitElite>, <ore:plateTungstenSteel>, <ore:circuitElite>]]);
+recipe.addShaped(<gregtech:machine:1565>, [[<ore:wireFineOsmium>, <gregtech:meta_item_1:32645>, <ore:wireFineOsmium>], [<gregtech:meta_item_1:32606>, <gregtech:machine:506>, <gregtech:meta_item_1:32606>], [<ore:circuitMaster>, <ore:plateRhodiumPlatedPalladium>, <ore:circuitMaster>]]);
+recipe.addShaped(<gregtech:machine:1566>, [[<contenttweaker:wrapofruriditfinewire>, <gregtech:meta_item_1:32646>, <contenttweaker:wrapofruriditfinewire>], [<gregtech:meta_item_1:32607>, <gregtech:machine:507>, <gregtech:meta_item_1:32607>], [<ore:circuitUltimate>, <ore:plateOsmiridium>, <ore:circuitUltimate>]]);
+recipe.addShaped(<gregtech:machine:1567>, [[<ore:wireFinePedot>, <gregtech:meta_item_1:32647>, <ore:wireFinePedot>], [<gregtech:meta_item_1:32608>, <gregtech:machine:508>, <gregtech:meta_item_1:32608>], [<ore:circuitSuperconductor>, <ore:plateTritanium>, <ore:circuitSuperconductor>]]);
+
+recipe.addShaped(<gregtech:machine:1512>, [[<ore:circuitGood>, <ore:craftingLensMagenta>, <ore:circuitGood>], [<gregtech:meta_item_1:32601>, <gregtech:machine:502>, <gregtech:meta_item_1:32601>], [<ore:plateAluminium>, <gregtech:meta_item_1:32681>, <ore:plateAluminium>]]);
+recipe.addShaped(<gregtech:machine:1513>, [[<ore:circuitAdvanced>, <ore:craftingLensMagenta>, <ore:circuitAdvanced>], [<gregtech:meta_item_1:32602>, <gregtech:machine:503>, <gregtech:meta_item_1:32602>], [<ore:plateStainlessSteel>, <gregtech:meta_item_1:32682>, <ore:plateStainlessSteel>]]);
+recipe.addShaped(<gregtech:machine:1514>, [[<ore:circuitExtreme>, <ore:craftingLensMagenta>, <ore:circuitExtreme>], [<gregtech:meta_item_1:32603>, <gregtech:machine:504>, <gregtech:meta_item_1:32603>], [<ore:plateTitanium>, <gregtech:meta_item_1:32683>, <ore:plateTitanium>]]);
+recipe.addShaped(<gregtech:machine:1515>, [[<ore:circuitElite>, <ore:craftingLensMagenta>, <ore:circuitElite>], [<gregtech:meta_item_1:32604>, <gregtech:machine:505>, <gregtech:meta_item_1:32604>], [<ore:plateTungstenSteel>, <gregtech:meta_item_1:32684>, <ore:plateTungstenSteel>]]);
+recipe.addShaped(<gregtech:machine:1516>, [[<ore:circuitMaster>, <ore:craftingLensMagenta>, <ore:circuitMaster>], [<gregtech:meta_item_1:32606>, <gregtech:machine:506>, <gregtech:meta_item_1:32606>],[<ore:plateRhodiumPlatedPalladium>, <gregtech:meta_item_1:32685>, <ore:plateRhodiumPlatedPalladium>]]);
+
+recipe.addShaped(<gregtech:machine:1409>, [[<ore:plateRhodiumPlatedPalladium>, <gregtech:meta_item_1:32606>, <ore:plateRhodiumPlatedPalladium>], [<ore:cableGtQuadrupleNiobiumTitanium>, <gregtech:machine:506>, <ore:cableGtQuadrupleNiobiumTitanium>], [<ore:circuitMaster>, <ore:craftingGrinder>, <ore:circuitMaster>]]);
+
+recipe.addShaped(<gregtech:machine:1434>, [[<ore:circuitSuperconductor>, <ore:plateNylon610>, <ore:circuitSuperconductor>], [<gregtech:meta_item_1:32697>, <gregtech:machine:508>, <gregtech:meta_item_1:32687>], [<ore:circuitSuperconductor>, <ore:plateNylon610>, <ore:circuitSuperconductor>]]);
