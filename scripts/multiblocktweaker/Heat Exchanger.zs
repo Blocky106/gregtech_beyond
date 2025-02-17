@@ -218,3 +218,10 @@ heat_exchanger.recipeMap.recipeBuilder()
     .duration(200)
     .EUt(12)
     .buildAndRegister();
+
+heat_exchanger.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:high_pressure_water>*1000)
+    .fluidOutputs(<liquid:fire_water>*1000)
+    .EUt(60)
+    .duration(240)
+    .buildAndRegister();
