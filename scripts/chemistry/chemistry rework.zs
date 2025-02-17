@@ -62,7 +62,7 @@ cstr_s.recipeBuilder()
 
 cstr_s.recipeBuilder()
     .fluidInputs(<liquid:methanol>*1000,<liquid:acetic_acid>*1000)
-    .fluidOutputs(<liquid:methyl_acetate>*1000)
+    .fluidOutputs(<liquid:methyl_acetate>*1000,<liquid:water>*1000)
     .duration(200)
     .EUt(80)
     .buildAndRegister();
@@ -174,13 +174,6 @@ Utils.removeRecipeByOutput(lcr,[],[<liquid:cumene>*1000],true);
 
 Utils.removeRecipeByOutput(chemReactor,[],[<liquid:ethylanthraquinone>*1000,<liquid:hydrogen_peroxide>*2000],true);
 Utils.removeRecipeByOutput(lcr,[],[<liquid:ethylanthraquinone>*1000,<liquid:hydrogen_peroxide>*2000],true);
-
-cstr_s.recipeBuilder()
-    .fluidInputs(<liquid:propene>*8000,<liquid:benzene>*8000)
-    .fluidOutputs(<liquid:ethylanthraquinone>*1000,<liquid:hydrogen_peroxide>*2000)
-    .duration(200)
-    .EUt(80)
-    .buildAndRegister();
 
 Utils.removeRecipeByOutput(chemReactor,[],[<liquid:ammonium_sulfate>*1000,<liquid:acetic_acid>*1000],true);
 Utils.removeRecipeByOutput(lcr,[],[<liquid:ammonium_sulfate>*1000,<liquid:acetic_acid>*1000],true);
@@ -334,9 +327,9 @@ cstr_s.recipeBuilder()
     .buildAndRegister();
 
 cstr_s.recipeBuilder()
-    .fluidInputs(<liquid:boron_fluoride>*1000,<liquid:nitric_acid>*1000)
+    .fluidInputs(<liquid:boron_fluoride>*1000,<liquid:nitric_acid>*1000,<liquid:hydrofluoric_acid>*1000)
     .outputs(<gtadditions:ga_dust:920>*4)
-    .fluidOutputs(<liquid:oxygen>*1000)
+    .fluidOutputs(<liquid:water>*1000)
     .duration(200)
     .EUt(800)
     .buildAndRegister();
@@ -418,3 +411,88 @@ cstr_s.recipeBuilder()
     .duration(530)
     .EUt(120)
     .buildAndRegister();
+
+cstr_s.recipeBuilder()
+    .fluidInputs(<liquid:hypochlorous_acid>*1000,<liquid:ammonia>*1000)
+    .fluidOutputs(<liquid:chloramine>*1000,<liquid:water>*1000)
+    .duration(530)
+    .EUt(120)
+    .buildAndRegister();
+
+cstr_s.recipeBuilder()
+    .fluidInputs(<liquid:boric_acid>*1000,<liquid:ethanol>*3000)
+    .inputs(<gtadditions:ga_dust:147>*8)
+    .notConsumable(<liquid:sulfuric_acid>)
+    .fluidOutputs(<liquid:water>*3000)
+    .outputs(<gtadditions:ga_dust:929>*6,<gtadditions:ga_dust:73>*27)
+    .duration(400)
+    .EUt(120)
+    .buildAndRegister();
+
+tbr.recipeBuilder()
+    .fluidInputs(<liquid:acetaldehyde>*1000,<liquid:oxygen>*1000)
+    .notConsumable(<liquid:selenous_acid>)
+    .fluidOutputs(<liquid:water>*1000,<liquid:glyoxal>*1000)
+    .duration(400)
+    .EUt(120)
+    .buildAndRegister();
+
+cstr_s.recipeBuilder()
+    .fluidInputs(<liquid:ethylbenzene>*1000)
+    .inputs(<gregtech:meta_item_1:2926>*15)
+    .fluidOutputs(<liquid:ethylanthraquinone>*1000,<liquid:water>*1000)
+    .duration(400)
+    .EUt(120)
+    .buildAndRegister();
+
+tbr.recipeBuilder()
+    .fluidInputs(<liquid:ethylanthraquinone>*1000,<liquid:hydrogen>*1000)
+    .fluidOutputs(<liquid:ethylanthrahydroquinone>*1000)
+    .duration(500)
+    .EUt(110)
+    .buildAndRegister();
+
+cstr_s.recipeBuilder()
+    .fluidOutputs(<liquid:ethylanthraquinone>*1000,<liquid:hydrogen_peroxide>*2000)
+    .notConsumable(<liquid:anthracene>)
+    .fluidInputs(<liquid:ethylanthrahydroquinone>*1000,<liquid:oxygen>*2000)
+    .duration(400)
+    .EUt(120)
+    .buildAndRegister();
+
+cstr_s.recipeBuilder()
+    .fluidInputs(<liquid:hypochlorous_acid>*1000)
+    .inputs(<gregtech:meta_item_1:2373>*3)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 2}))
+    .fluidOutputs(<liquid:water>*1000)
+    .outputs(<gtadditions:ga_dust:195>*3)
+    .duration(200)
+    .EUt(120)
+    .buildAndRegister();
+
+cstr_s.recipeBuilder()
+    .fluidInputs(<liquid:hydrogen>*6000,<liquid:nitric_acid>*1000,<liquid:phenol>*1000)
+    .notConsumable(<gtadditions:ga_dust:205>)
+    .fluidOutputs(<liquid:water>*3000,<liquid:aminophenol>*1000)
+    .duration(200)
+    .EUt(120)
+    .buildAndRegister();
+
+tbr.recipeBuilder()
+    .fluidInputs(<liquid:nitric_acid>*6000)
+    .inputs(<gregtech:meta_item_1:2906>*5)
+    .fluidOutputs(<liquid:water>*3000)
+    .outputs(<gtadditions:ga_dust:206>*26)
+    .duration(200)
+    .EUt(120)
+    .buildAndRegister();
+
+cstr_s.recipeBuilder()
+    .fluidInputs(<liquid:oxygen>*9000)
+    .inputs(<gtadditions:ga_dust:166>*24)
+    .notConsumable(<gtadditions:ga_dust:92>)
+    .fluidOutputs(<liquid:oxalic_acid>*3000,<liquid:water>*3000)
+    .duration(200)
+    .EUt(120)
+    .buildAndRegister();
+

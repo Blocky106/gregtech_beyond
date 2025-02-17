@@ -258,7 +258,7 @@ cstr_s.recipeBuilder()
     .inputs(<gtadditions:ga_dust:32269>*2)
 	.fluidInputs(<liquid:4-nitrophenol>*1000)
 	.notConsumable(<gtadditions:ga_dust:32268>*2)
-    .fluidOutputs(<liquid:4-Nitrofluorophenol>*500, <liquid:fluorinated_nitrophenol_residue>*500)
+    .fluidOutputs(<liquid:4-nitrofluorophenol>*500, <liquid:fluorinated_nitrophenol_residue>*500)
     .EUt(500)
     .duration(1200)
     .buildAndRegister();
@@ -359,7 +359,7 @@ chemReactor.recipeBuilder()
     .buildAndRegister();
 
 lcr.recipeBuilder()
-	.inputs(<gtadditions:ga_dust:32267>*5)
+	.inputs(<gtadditions:ga_dust:32272>*5)
 	.fluidInputs(<liquid:trifluorotoluene>*500, <liquid:fluorine>*1000, <liquid:chromic_acid>*1000)
 	.notConsumable(<gtadditions:ga_dust:32268>*5)
 	.notConsumable(<liquid:fluoroantimonic_acid>*2000)	
@@ -413,17 +413,3 @@ chemReactor.recipeBuilder()
     .EUt(4000)
     .duration(400)
     .buildAndRegister();
-
-mixer.recipeBuilder()
-	.fluidInputs(<liquid:dimethylacetamide>*1000, <liquid:triton_x100>*1000, <liquid:acetic_anhydride>*1000)
-	.fluidOutputs(<liquid:pbi_preparation_mixture_precurser>*5000)
-	.EUt(5000)
-	.duration(880)
-	.buildAndRegister();
-
-mixer.recipeBuilder()
-	.fluidInputs(<liquid:pbi_preparation_mixture_precurser>*1000, <liquid:phosphoric_acid>*1000, <liquid:n-methylpyrrolidone>*1000)
-	.fluidOutputs(<liquid:pbi_preparation_mixture>*5000)
-	.EUt(5000)
-	.duration(880)
-	.buildAndRegister();

@@ -133,3 +133,19 @@ dissolution_tank.recipeMap.recipeBuilder()
     .duration(299)
     .EUt(80)
     .buildAndRegister();
+
+dissolution_tank.recipeMap.recipeBuilder()
+    .fluidOutputs(<liquid:rhodium_sulfate_solution>*27000)
+    .fluidInputs(<liquid:water>*9000,<liquid:rhodium_sulfate>*27000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 9}))
+    .duration(299)
+    .EUt(80)
+    .buildAndRegister();
+
+dissolution_tank.recipeMap.recipeBuilder()
+    .fluidOutputs(<liquid:rhodium_sulfate_solution>*3000)
+    .fluidInputs(<liquid:water>*1000,<liquid:rhodium_sulfate>*3000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .duration(299)
+    .EUt(80)
+    .buildAndRegister();

@@ -66,6 +66,7 @@ val condensation_unit = Builder.start(loc, meta)
                         .maxInputs(1)
                         .maxFluidInputs(2)
                         .maxFluidOutputs(4)
+                        .maxOutputs(1)
                         .build())
 .withZoom(0.5f)
 .buildAndRegister() as Multiblock;
@@ -112,4 +113,12 @@ condensation_unit.recipeMap.recipeBuilder()
     .outputs(<gregtech:meta_item_1:2887>*4)
     .duration(400)
     .EUt(280)
+    .buildAndRegister();
+
+condensation_unit.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:arsenic_vapor>*1000)
+    .outputs(<gregtech:meta_item_1:2005>*2)
+    .fluidOutputs(<liquid:carbon_monoxide>*3000)
+    .duration(400)
+    .EUt(100)
     .buildAndRegister();

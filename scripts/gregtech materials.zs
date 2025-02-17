@@ -600,8 +600,19 @@ util.registerDust("Silver_fluoride", 32269, 0xfac8c8, "SHINY");
 util.registerDust("Nickel_boride", 32270, 0xff9b00, "DULL");+
 util.registerDust("Magnesium_silicate", 32271, 0xa46681, "DULL");
 util.registerDust("manganese_nitride", 32272, 0xAAB7C4, "DULL");
+util.registerDust("manganese_nitride", 32267, 0xAAB7C4, "DULL");
+util.registerDust("antimony_pentafluoride", 32268, 0xbfd1c6, "DULL");
+util.registerDust("silver_fluoride", 32269, 0xfac8c8, "SHINY");
+util.registerDust("nickel_boride", 32270, 0xff9b00, "DULL");
+util.registerDust("magnesium_silicate", 32271, 0xa46681, "DULL");
+util.registerDust("cobalt_manganese_oxide", 32272, 0x64a47a, "SHINY");
+util.registerDust("niobium_oxide", 32273, 0xA483AA, "SHINY");
 
 
+util.registerFluid("high_pressure_water", 0x5F87AE);
+util.registerFluid("niobium_oxide_solution", 0x95729C);
+util.registerFluid("tantalum_oxide_solution", 0x6C8AA7);
+util.registerFluid("arsenic_vapor", 0xDDD9D9);
 util.registerFluid("chromic_acid", 0xE7C8C8);
 util.registerFluid("4-nitrophenol", 0xC69E9E);
 util.registerFluid("pbi_preparation_mixture", 0x141515);

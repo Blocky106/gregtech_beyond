@@ -104,7 +104,7 @@ centrifuge.recipeBuilder()
 Utils.removeRecipeByOutput(ebf,[<gregtech:meta_item_1:2887>*4,<gtadditions:ga_dust:115>*7],[<liquid:rhodium_sulfate>*1000],true);
 
 roasters.recipeBuilder()
-    .inputs(<gregtech:meta_item_1:2887>*4,<gtadditions:ga_dust:115>*7)
+    .inputs(<gregtech:meta_item_1:2898>*4,<gtadditions:ga_dust:115>*7)
     .fluidInputs(<liquid:oxygen>*1000)
     .fluidOutputs(<liquid:platinum_residue_solution>*1000)
     .duration(300)
@@ -118,3 +118,27 @@ distillation_tower.recipeBuilder()
     .duration(300)
     .EUt(170)
     .buildAndRegister();
+
+lcr.findRecipe(30, [<gregtech:meta_item_1:32766>.withTag({Configuration: 9})], [<liquid:ammonium_chloride>*800,<liquid:platinum_concentrate>*8000]).remove();
+
+cstr_s.recipeBuilder()
+    .fluidOutputs(<liquid:platinum_concentrate>*2000)
+    .inputs(<gregtech:meta_item_1:2900>*3)
+    .outputs(<gregtech:meta_item_1:2898>)
+    .fluidInputs(<liquid:aqua_regia>*2000)
+    .EUt(200)
+    .duration(200)
+    .buildAndRegister();
+
+
+Utils.removeRecipeByOutput(chemReactor,[<gregtech:meta_item_1:898>*5],[<liquid:platinum_concentrate>*1000],true);
+Utils.removeRecipeByOutput(lcr,[<gregtech:meta_item_1:898>*5],[<liquid:platinum_concentrate>*1000],true);
+
+Utils.removeRecipeByOutput(chemReactor,[<gregtech:meta_item_1:2898>*5],[<liquid:platinum_concentrate>*9000],true);
+Utils.removeRecipeByOutput(lcr,[<gregtech:meta_item_1:2898>*5],[<liquid:platinum_concentrate>*9000],true);
+
+Utils.removeRecipeByOutput(lcr, [<gregtech:meta_item_1:2887>*4],[<liquid:rhodium_sulfate_solution>*27000],true);
+Utils.removeRecipeByOutput(lcr, [<gregtech:meta_item_1:887>*4],[<liquid:rhodium_sulfate_solution>*3000],true);
+
+Utils.removeRecipeByOutput(chemReactor, [<gregtech:meta_item_1:2887>*4],[<liquid:rhodium_sulfate_solution>*27000],true);
+Utils.removeRecipeByOutput(chemReactor, [<gregtech:meta_item_1:887>*4],[<liquid:rhodium_sulfate_solution>*3000],true);

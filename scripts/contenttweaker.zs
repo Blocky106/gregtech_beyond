@@ -208,10 +208,12 @@ registerMetalBlock("magnetic_plasma_intake_array", 12.0, 10.0, 1);
 registerMetalBlock("geothermal_core_casing", 12.0, 10.0, 1);
 registerMetalBlock("core_drill_assembly", 12.0, 10.0, 1);
 registerMetalBlock("core_treatment_casing", 12.0, 10.0, 1);
-
+registerMetalBlock("blade_assembly", 5.0, 5.0, 2);
 
 
 var items = [
+"etched_phenolic_board", 
+"engraved_phenolic_board",
 "ga_as_wafer",
 "iron_concentrate",
 "floated_tantalite", 

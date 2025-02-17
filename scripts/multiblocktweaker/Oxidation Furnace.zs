@@ -131,4 +131,10 @@ oxidation_furnace.recipeMap.recipeBuilder()
     .duration(400)
     .EUt(800)
     .buildAndRegister();
-    
+
+oxidation_furnace.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2955>,<gregtech:meta_item_1:2012>*3)
+    .fluidOutputs(<liquid:arsenic_vapor>*1000)
+    .duration(400)
+    .EUt(100)
+    .buildAndRegister();
