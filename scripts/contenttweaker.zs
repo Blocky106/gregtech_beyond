@@ -197,10 +197,12 @@ registerMetalBlock("t1_rocket_combustion_engine", 12.0, 10.0, 1);
 registerMetalBlock("space_elevator_block", 10.0, 10.0, 1);
 registerMetalBlock("space_elevator_railway_block", 10.0, 10.0, 1);
 registerMetalBlock("carved_pumpkin", 1.0, 1.0, 1);
-
+registerMetalBlock("blade_assembly", 5.0, 5.0, 2);
 
 
 var items = [
+"etched_phenolic_board", 
+"engraved_phenolic_board",
 "ga_as_wafer",
 "iron_concentrate",
 "floated_tantalite", 

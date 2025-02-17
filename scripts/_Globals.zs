@@ -90,4 +90,4 @@ global automatic_wire_bonder as RecipeMap = RecipeMap.getByName("automatic_wire_
 global cstr_s as RecipeMap = RecipeMap.getByName("cstr_s");
 global tbr as RecipeMap = RecipeMap.getByName("tbr");
 global dryer as RecipeMap = RecipeMap.getByName("dryer");
-
+global fluid_compressor as RecipeMap = RecipeMap.getByName("fluid_compressor");
