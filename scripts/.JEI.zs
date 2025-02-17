@@ -128,11 +128,15 @@ mods.jei.JEI.hideCategory("gregtech:quencher");
 mods.jei.JEI.hideCategory("gregtech:mega_alloy_blast_smelter");
 mods.jei.JEI.hideCategory("gregtech:electrowinning_cell");
 mods.jei.JEI.hideCategory("gregtech:primitive_blast_furnace");
+mods.jei.JEI.hideCategory("gregtech:oxidation_furnace");
+mods.jei.JEI.hideCategory("gregtech:blender");
+mods.jei.JEI.hideCategory("gregtech:fluidizied_bed_reactor");
 
 
 
 val itemstoRemove =
 [
+<wildnature:silver_rod>,
 <wildnature:diamond_rod>,
 <wildnature:amber_sword>,
 <wildnature:amber_shovel>,
