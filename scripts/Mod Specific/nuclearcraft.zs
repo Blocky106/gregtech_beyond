@@ -798,14 +798,6 @@ fluid_solidifier.recipeBuilder()
 
 chemReactor.recipeBuilder()
     .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
-    .fluidInputs(<liquid:sodium_nitrate_solution>*144)
-    .outputs(<gregtech:meta_item_1:2865>)
-    .duration(800)
-    .EUt(1200)
-    .buildAndRegister();
-
-chemReactor.recipeBuilder()
-    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
     .fluidInputs(<liquid:iodine>*144)
     .outputs(<gregtech:meta_item_1:2757>)
     .duration(800)
@@ -904,14 +896,6 @@ lcr.recipeBuilder()
     .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
     .fluidInputs(<liquid:irradiated_borax_solution>*666)
     .outputs(<gtadditions:ga_dust:32111>)
-    .duration(800)
-    .EUt(1200)
-    .buildAndRegister();
-
-lcr.recipeBuilder()
-    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
-    .fluidInputs(<liquid:sodium_nitrate_solution>*144)
-    .outputs(<gregtech:meta_item_1:2865>)
     .duration(800)
     .EUt(1200)
     .buildAndRegister();
