@@ -209,6 +209,7 @@ registerMetalBlock("geothermal_core_casing", 12.0, 10.0, 1);
 registerMetalBlock("core_drill_assembly", 12.0, 10.0, 1);
 registerMetalBlock("core_treatment_casing", 12.0, 10.0, 1);
 registerMetalBlock("blade_assembly", 5.0, 5.0, 2);
+registerMetalBlock("interstellar_core", 15.0, 10.0, 1);
 
 
 var items = [
