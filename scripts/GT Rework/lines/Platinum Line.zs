@@ -142,3 +142,6 @@ Utils.removeRecipeByOutput(lcr, [<gregtech:meta_item_1:887>*4],[<liquid:rhodium_
 
 Utils.removeRecipeByOutput(chemReactor, [<gregtech:meta_item_1:2887>*4],[<liquid:rhodium_sulfate_solution>*27000],true);
 Utils.removeRecipeByOutput(chemReactor, [<gregtech:meta_item_1:887>*4],[<liquid:rhodium_sulfate_solution>*3000],true);
+
+Utils.removeRecipeByOutput(chemReactor,[<gregtech:meta_item_1:2047>],[<liquid:chlorine>*8000,<liquid:water>*5000],true);
+Utils.removeRecipeByOutput(lcr,[<gregtech:meta_item_1:2047>],[<liquid:chlorine>*8000,<liquid:water>*5000],true);
