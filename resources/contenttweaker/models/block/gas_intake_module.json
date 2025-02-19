@@ -1,0 +1,15 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"front": "contenttweaker:blocks/gas_intake_module",
+		"left" : "contenttweaker:blocks/gas_intake_module",
+		"right" : "contenttweaker:blocks/gas_intake_module",
+		"back" : "contenttweaker:blocks/gas_intake_module",
+		"top" : "contenttweaker:blocks/gas_intake_module",
+		"bottom" : "contenttweaker:blocks/gas_intake_module"
+
+	}
+	
+
+}

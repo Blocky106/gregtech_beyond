@@ -197,7 +197,19 @@ registerMetalBlock("t1_rocket_combustion_engine", 12.0, 10.0, 1);
 registerMetalBlock("space_elevator_block", 10.0, 10.0, 1);
 registerMetalBlock("space_elevator_railway_block", 10.0, 10.0, 1);
 registerMetalBlock("carved_pumpkin", 1.0, 1.0, 1);
+registerMetalBlock("ore_factory_casing", 12.0, 10.0, 1);
+registerMetalBlock("core_processing_casing", 12.0, 10.0, 1);
+registerMetalBlock("pressurized_atmospheric_casing", 12.0, 10.0, 1);
+registerMetalBlock("pressurized_atmospheric_tank_casing", 12.0, 10.0, 1);
+registerMetalBlock("gas_intake_module", 12.0, 10.0, 1);
+registerMetalBlock("plasma_containment_casing", 12.0, 10.0, 1);
+registerMetalBlock("magnetic_plasma_coil_casing", 12.0, 10.0, 1);
+registerMetalBlock("magnetic_plasma_intake_array", 12.0, 10.0, 1);
+registerMetalBlock("geothermal_core_casing", 12.0, 10.0, 1);
+registerMetalBlock("core_drill_assembly", 12.0, 10.0, 1);
+registerMetalBlock("core_treatment_casing", 12.0, 10.0, 1);
 registerMetalBlock("blade_assembly", 5.0, 5.0, 2);
+registerMetalBlock("interstellar_core", 15.0, 10.0, 1);
 
 
 var items = [

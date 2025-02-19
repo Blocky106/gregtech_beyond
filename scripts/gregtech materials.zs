@@ -554,6 +554,13 @@ util.registerDust("impure_naquahamericium_hydroxide", 32228, 0x684b4b, "SHINY");
 util.registerDust("naquahamericium_hydroxide", 32229, 0x8f6161, "SHINY");
 util.registerDust("chromium_slag_mud", 32230, 0x874141, "DULL");
 util.registerDust("impure_naquadah_waste", 32231, 0x281414, "DULL");
+util.registerDust("cobalt_nitrate", 32232, 0x6d392e, "DULL");
+util.registerDust("sodium_cyandiamide", 32233, 0xfffba6, "DULL");
+util.registerDust("cadmium_oxide", 32234, 0xff6630, "DULL");
+util.registerDust("potassium_hydrofluoride", 32235, 0xcdcdcd, "DULL");
+
+
+
 util.registerDust("platinum_nanopowder", 32232, 0xE0DAC0, "SHINY");
 util.registerDust("ruthenium_chloride", 32233, 0x71736E, "SHINY");
 util.registerDust("platinum_ruthenium_powder", 32234, 0x616CA5, "SHINY");
@@ -587,6 +594,12 @@ util.registerDust("high_purity_gallium", 32263, 0x6B6B6B, "SHINY");
 util.registerDust("high_purity_cadmium", 32264, 0x3D3D3D, "SHINY");
 util.registerDust("potassium_persulfate", 32265, 0x3D3D39, "DULL");
 util.registerDust("potassium_hydrofluoride", 32266, 0xcdcdcd, "DULL");
+util.registerDust("Cobalt_manganese_oxide", 32267, 0x64a47a, "SHINY");
+util.registerDust("Antimony_pentafluoride", 32268, 0xbfd1c6, "DULL");
+util.registerDust("Silver_fluoride", 32269, 0xfac8c8, "SHINY");
+util.registerDust("Nickel_boride", 32270, 0xff9b00, "DULL");+
+util.registerDust("Magnesium_silicate", 32271, 0xa46681, "DULL");
+util.registerDust("manganese_nitride", 32272, 0xAAB7C4, "DULL");
 util.registerDust("manganese_nitride", 32267, 0xAAB7C4, "DULL");
 util.registerDust("antimony_pentafluoride", 32268, 0xbfd1c6, "DULL");
 util.registerDust("silver_fluoride", 32269, 0xfac8c8, "SHINY");
@@ -1183,13 +1196,43 @@ util.registerFluid("titanium_tetrachloride", 0x701a31);
 util.registerFluid("naquatitanium_hydroxide", 0x382121);
 util.registerFluid("diluted_impure_naquahamericium_hydroxide", 0x684b4b);
 util.registerFluid("naquahamericium_hydroxide", 0x8f6161);
+util.registerFluid("glycidol",0xfeffa8);
+util.registerFluid("glycidol_ether", 0xd0d15b);
+util.registerFluid("hexafluoroacetone",0xe8e8e8);
+util.registerFluid("toluene", 0x9b9b9b);
+util.registerFluid("glycidol_preparation_mixture", 0xb6b69c);
+util.registerFluid("unrefined_epoxy_resin", 0xb47ac4);
+util.registerFluid("resin_enhancer", 0x965959);
+util.registerFluid("cyandiamide", 0xdbdbdb);
+util.registerFluid("sulfur_hexafluoride", 0xc4b763);
+util.registerFluid("dicyandiamide", 0xdbdbdb);
+util.registerFluid("chlorodifluoromethane", 0x74597b);
+util.registerFluid("trifluoroethylene", 0xbac8c8);
+util.registerFluid("tetrafluoroethylene_mixture", 0x8e9696);
+util.registerFluid("nonanol", 0xdbc782);
+util.registerFluid("peg_alkylphenol", 0xb6af94);
+util.registerFluid("triton_x100", 0xe4dfcd);
+util.registerFluid("ptfe_preparation_mixture", 0x88df97);
 util.registerFluid("superfluid_carbon_oxygen_mixture_plasma", 0xBDC0DB);
 util.registerFluid("1_butene", 0xB75B5B);
-
-
-
-
-
+util.registerFluid("trifluorotoluene", 0x8bae9c);
+util.registerFluid("fluorinated_isophthalic_acid", 0x899b94);
+util.registerFluid("fluorinated_diaminodiphenyl_ether", 0xa7c4b9);
+util.registerFluid("4-Nitrofluorophenol", 0x92704c);
+util.registerFluid("Chromic_acid", 0x44cd74);
+util.registerFluid("4-nitrophenol", 0xa88f55);
+util.registerFluid("4,4'-Dinitrofluorodiphenyl_ether", 0xb2a471);
+util.registerFluid("fluorinated_nitrophenol_residue", 0x574a2d);
+util.registerFluid("Dinitrofluorophenol", 0xb6964d);
+util.registerFluid("Trinitrofluorophenol", 0x927d4e);
+util.registerFluid("Tetranitrofluorophenol", 0x7b6c49);
+util.registerFluid("Fluorinated_benzimidazole_mixture", 0x493737);
+util.registerFluid("Fluorinated_benzimidazole", 0x604f4f);
+util.registerFluid("PBI_preparation_mixture", 0x6d77a4);
+util.registerFluid("N-methylpyrrolidone", 0x98aaff);
+util.registerFluid("2-pyrrolidone", 0x5361a4);
+util.registerFluid("benzimidazole", 0x000000);
+util.registerFluid("PBI_preparation_mixture_precurser", 0x6d77a4);
 
 
 
