@@ -117,3 +117,19 @@ fluidizied_bed_reactor.recipeMap.recipeBuilder()
     .duration(150)
     .EUt(20)
     .buildAndRegister();
+
+fluidizied_bed_reactor.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:methanol>*2000,<liquid:naphtalene>*1000)
+    .fluidOutputs(<liquid:water>*2000,<liquid:dimethylnaphthalene>*1000)
+    .duration(150)
+    .EUt(320)
+    .buildAndRegister();
+
+fluidizied_bed_reactor.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:hydrochloric_acid>*2000,<liquid:aniline>*1000)
+    .inputs(<gtadditions:ga_dust:237>*4,<gtadditions:ga_dust:236>*2)
+    .fluidOutputs(<liquid:nitrogen>*2000,<liquid:water>*2000,<liquid:iodobenzene>*1000)
+    .outputs(<gregtech:meta_item_1:2155>*4)
+    .duration(450)
+    .EUt(520)
+    .buildAndRegister();
