@@ -14,15 +14,6 @@ import mods.gtadditions.recipe.GARecipeMaps.ADV_FUSION_RECIPES;
 import mods.gregtech.recipe.CokeOvenRecipeBuilder;
 import mods.gtadditions.recipe.Utils;
 
-Utils.removeRecipeByOutput(assembler, [<gtadditions:ga_meta_item:32253> * 16], [], true);
-
-assembler.recipeBuilder()
-    .fluidInputs(<liquid:ethylene>*144)
-    .inputs(<ore:foilTungsten>,<gregtech:meta_item_1:19391>*4,<contenttweaker:thin_kapton_k_sheet>*2)
-    .outputs(<gtadditions:ga_meta_item:32253>*16)
-    .duration(400)
-    .EUt(1920)
-    .buildAndRegister();
 
 Utils.removeRecipeByOutput(assembler, [<gregtech:meta_item_1:32614>],[],true);
 Utils.removeRecipeByOutput(assembler, [<gregtech:meta_item_1:32634>],[],true);

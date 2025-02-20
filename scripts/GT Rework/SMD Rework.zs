@@ -585,7 +585,7 @@ cutting_saw.recipeBuilder()
     .buildAndRegister();
 
 assembler.recipeBuilder()
-    .inputs(<gregtech:frame_lead>,<gregtech:meta_item_2:16302>)
+    .inputs(<gregtech:frame_lead>,<gregtech:meta_item_2:16302>*4)
     .fluidInputs(<liquid:soldering_alloy>*288)
     .outputs(<contenttweaker:sod_323_packaging>)
     .duration(400)
@@ -646,8 +646,61 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:epoxid>*100)
     .inputs(<contenttweaker:quantum_smd_transistor_chips>*16,<contenttweaker:sod_323_packaging>)
     .outputs(<gtadditions:ga_meta_item:32252>*16)
-    .duration(300)
-    .EUt(900)
+    .duration(400)
+    .EUt(700)
     .buildAndRegister();
 
 Utils.removeRecipeByOutput(assembler,[<gtadditions:ga_meta_item:32252>*32],[],true);
+
+cvd_unit_s.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:12001>,<gregtech:meta_item_1:14205>)
+    .outputs(<contenttweaker:graphene_electrode_substrate>)
+    .duration(500)
+    .EUt(600)
+    .buildAndRegister();
+
+cvd_unit_s.recipeBuilder()
+    .inputs(<contenttweaker:dielectric_electrode_substrate>,<gregtech:meta_item_1:14205>)
+    .outputs(<contenttweaker:top_electrode_deposited_substrate>)
+    .duration(600)
+    .EUt(500)
+    .buildAndRegister();
+
+spincoater.recipeBuilder()
+    .inputs(<contenttweaker:top_electrode_deposited_substrate>,<contenttweaker:thin_kapton_k_sheet>)
+    .fluidInputs(<liquid:novolacs_photoresist>*100)
+    .outputs(<contenttweaker:spincoated_substrate>)
+    .duration(200)
+    .EUt(450)
+    .buildAndRegister();
+
+uv_light.recipeBuilder()
+    .inputs(<contenttweaker:spincoated_substrate>)
+    .fluidInputs(<liquid:deionized_water>*1000)
+    .outputs(<contenttweaker:deionized_substrate>)
+    .duration(200)
+    .EUt(450)
+    .buildAndRegister();
+
+plasma_etcher.recipeBuilder()
+    .inputs(<contenttweaker:exposed_substrate>)
+    .fluidInputs(<liquid:diluted_hydrofluoric_acid>*1000)
+    .outputs(<contenttweaker:etched_exposed_substrate>)
+    .duration(200)
+    .EUt(650)
+    .buildAndRegister();
+
+cutting_saw.recipeBuilder() 
+    .inputs(<contenttweaker:atomic_layered_substrate>)
+    .fluidInputs(<liquid:lubricant>*12)
+    .outputs(<contenttweaker:quantum_smd_capacitor_chips>*16)
+    .duration(260)
+    .EUt(350)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs(<contenttweaker:quantum_smd_capacitor_chips>*16,<contenttweaker:sod_323_packaging>)
+    .outputs(<gtadditions:ga_meta_item:32253>*16)
+    .duration(360)
+    .EUt(450)
+    .buildAndRegister();

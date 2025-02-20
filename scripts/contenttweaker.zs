@@ -214,6 +214,15 @@ registerMetalBlock("interstellar_core", 15.0, 10.0, 1);
 
 var items = [
 "etched_phenolic_board", 
+"graphene_electrode_substrate",
+"dielectric_electrode_substrate",
+"top_electrode_deposited_substrate",
+"etched_exposed_substrate",
+"atomic_layered_substrate",
+"quantum_smd_capacitor_chips",
+"exposed_substrate",
+"deionized_substrate",
+"spincoated_substrate",
 "engraved_phenolic_board",
 "ga_as_wafer",
 "iron_concentrate",
@@ -304,6 +313,7 @@ var items = [
 "quantum_smd_transistor_chips",
 "gated_substrate",
 "etched_substrate",
+"electron_source_100kv",
 "engraved_substrate",
 "quantum_well_substrate",
 "cotton_sheet",

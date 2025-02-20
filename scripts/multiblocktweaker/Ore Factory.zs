@@ -1638,3 +1638,11 @@ ore_factory.recipeMap.recipeBuilder()
     .duration(8000)
     .EUt(1200)
     .buildAndRegister();
+
+ore_factory.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:water>*32000)
+	.inputs(<gregtech:meta_item_1:2128>*10)
+	.outputs(<gtadditions:ga_dust:32007>*64)
+	.duration(12)
+	.EUt(6)
+	.buildAndRegister();

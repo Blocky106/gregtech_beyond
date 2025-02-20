@@ -598,6 +598,10 @@ util.registerDust("cadmium_magnesium_tellurium", 32274, 0x529CC3, "SHINY");
 
 
 
+
+util.registerFluid("pmma", 0xA9C9E4);
+util.registerFluid("diluted_hydrofluoric_acid", 0x638CAD);
+util.registerFluid("deionized_water", 0x1C5480);
 util.registerFluid("high_pressure_water", 0x5F87AE);
 util.registerFluid("niobium_oxide_solution", 0x95729C);
 util.registerFluid("tantalum_oxide_solution", 0x6C8AA7);
@@ -1213,6 +1217,7 @@ util.registerFluid("1_butene", 0xB75B5B);
 
 
 
+<material:graphene>.addFlags(["GENERATE_ROD"]);
 <material:cupronickel>.addFlags(["GENERATE_FRAME"]);
 <material:glass>.addFlags(["GENERATE_ROD"]);
 <material:emerald>.addFlags(["GENERATE_FLUID_BLOCK"]);
