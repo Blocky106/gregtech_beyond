@@ -594,6 +594,7 @@ util.registerDust("nickel_boride", 32270, 0xff9b00, "DULL");
 util.registerDust("magnesium_silicate", 32271, 0xa46681, "DULL");
 util.registerDust("cobalt_manganese_oxide", 32272, 0x64a47a, "SHINY");
 util.registerDust("niobium_oxide", 32273, 0xA483AA, "SHINY");
+util.registerDust("cadmium_magnesium_tellurium", 32274, 0x529CC3, "SHINY");
 
 
 
@@ -941,7 +942,6 @@ util.registerFluid("pxylene", 0x252525);
 util.registerFluid("diluted_acetic_acid", 0x7A6D69);
 util.registerFluid("tetrabromethane", 0x381F18);
 util.registerFluid("mxylene", 0x313130);
-util.registerFluid("oxylene", 0x201F1F);
 util.registerFluid("mpxylene", 0x191818);
 util.registerFluid("adamantium_pentoxide", 0x323F52);
 util.registerFluid("purified_bedrock_slurry", 0x171716);
@@ -983,7 +983,6 @@ util.registerFluid("chalcopyriteslurry",0x73571D);
 util.registerFluid("sylvaniteslurry",0xB2AD9D);
 util.registerFluid("stanniteslurry",0xC0BAA8);
 util.registerFluid("arsenopyriteslurry",0x7B6C47);
-util.registerFluid("tetrahedriteslurry",0x731200);
 util.registerFluid("borniteslurry",0x7D1000);
 util.registerFluid("carroliteslurry",0x807404);
 util.registerFluid("aikiniteslurry",0xA58442);
