@@ -585,7 +585,7 @@ cutting_saw.recipeBuilder()
     .buildAndRegister();
 
 assembler.recipeBuilder()
-    .inputs(<gregtech:frame_lead>,<gregtech:meta_item_2:16302>)
+    .inputs(<gregtech:frame_lead>,<gregtech:meta_item_2:16302>*4)
     .fluidInputs(<liquid:soldering_alloy>*288)
     .outputs(<contenttweaker:sod_323_packaging>)
     .duration(400)
