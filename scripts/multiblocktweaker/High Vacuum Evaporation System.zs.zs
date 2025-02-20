@@ -118,3 +118,10 @@ high_vacuum_evaporation_system.recipeMap.recipeBuilder()
     .duration(400)
     .EUt(800)
     .buildAndRegister();
+
+high_vacuum_evaporation_system.recipeMap.recipeBuilder()
+    .inputs(<contenttweaker:mesa_structured_ga_as_wafer>,<gregtech:meta_item_1:14026>)
+    .outputs(<contenttweaker:gold_layered_ga_as_wafer>)
+    .duration(400)
+    .EUt(1800)
+    .buildAndRegister();
