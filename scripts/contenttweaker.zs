@@ -313,6 +313,7 @@ var items = [
 "quantum_smd_transistor_chips",
 "gated_substrate",
 "etched_substrate",
+"electron_source_100kv",
 "engraved_substrate",
 "quantum_well_substrate",
 "cotton_sheet",

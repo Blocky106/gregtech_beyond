@@ -142,7 +142,7 @@ dilution_tank.recipeMap.recipeBuilder()
     .EUt(2000)
     .buildAndRegister();
 
-dilution_tank.recipeBuilder()
+dilution_tank.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:hydrofluoric_acid>*1000,<liquid:water>*1000)
     .fluidOutputs(<liquid:diluted_hydrofluoric_acid>*1000)
     .duration(80)
