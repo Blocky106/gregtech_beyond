@@ -69,7 +69,7 @@ lcentrifuge.recipeBuilder()
 
 lcentrifuge.recipeBuilder()
 	.inputs(<gregtech:meta_item_1:2128>)
-	.outputs(<gtadditions:ga_dust:32007>)
+	.outputs(<gtadditions:ga_dust:32007>*5)
 	.duration(12)
 	.EUt(6)
 	.buildAndRegister();
