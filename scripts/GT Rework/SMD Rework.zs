@@ -542,3 +542,112 @@ cutting_saw.recipeBuilder()
     .buildAndRegister();
 
 Utils.removeRecipeByOutput(assembler, [<gtadditions:ga_meta_item:32245>*24],[],true);
+
+engraving_unit_s.recipeBuilder()
+    .inputs(<contenttweaker:heavily_doped_ga_as_wafer>)
+    .fluidInputs(<liquid:novolacs_photoresist>*500)
+    .notConsumable(<contenttweaker:diode_lithography_mask>)
+    .outputs(<contenttweaker:engraved_doped_ga_as_wafer>)
+    .duration(400)
+    .EUt(1650)
+    .buildAndRegister();
+
+plasma_etcher.recipeBuilder()
+    .fluidInputs(<liquid:sulfuric_acid>*1000)
+    .inputs(<contenttweaker:engraved_doped_ga_as_wafer>)
+    .outputs(<contenttweaker:mesa_structured_ga_as_wafer>)
+    .duration(600)
+    .EUt(1160)
+    .buildAndRegister();
+
+cvd_unit_s.recipeBuilder()
+    .fluidInputs(<liquid:methane>*200)
+    .inputs(<contenttweaker:gold_layered_ga_as_wafer>,<gregtech:meta_item_1:14001>)
+    .outputs(<contenttweaker:aluminium_layered_ga_as_wafer>)
+    .duration(300)
+    .EUt(1480)
+    .buildAndRegister();
+
+cvd_unit_s.recipeBuilder()
+    .inputs(<contenttweaker:aluminium_layered_ga_as_wafer>,<gtadditions:ga_dust:32257>)
+    .fluidInputs(<liquid:methane>*200)
+    .outputs(<contenttweaker:passivated_quantum_smd_wafer>)
+    .duration(300)
+    .EUt(1300)
+    .buildAndRegister();
+
+cutting_saw.recipeBuilder() 
+    .inputs(<contenttweaker:passivated_quantum_smd_wafer>)
+    .outputs(<contenttweaker:quantum_smd_diode_chips>*16)
+    .fluidInputs(<liquid:lubricant>*20)
+    .duration(300)
+    .EUt(950)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs(<gregtech:frame_lead>,<gregtech:meta_item_2:16302>)
+    .fluidInputs(<liquid:soldering_alloy>*288)
+    .outputs(<contenttweaker:sod_323_packaging>)
+    .duration(400)
+    .EUt(1200)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs(<contenttweaker:quantum_smd_diode_chips>*16,<contenttweaker:sod_323_packaging>)
+    .fluidInputs(<liquid:epoxid>*288)
+    .outputs(<gtadditions:ga_meta_item:32255>*16)
+    .duration(300)
+    .EUt(950)
+    .buildAndRegister();
+
+Utils.removeRecipeByOutput(assembler,[<gtadditions:ga_meta_item:32255>*32],[],true);
+
+engraver.recipeBuilder()    
+    .inputs(<contenttweaker:quantum_well_substrate>)
+    .notConsumable(<contenttweaker:transistor_lithography_mask>)
+    .outputs(<contenttweaker:engraved_substrate>)
+    .duration(300)
+    .EUt(1200)
+    .buildAndRegister();
+
+lengraver.recipeBuilder()    
+    .inputs(<contenttweaker:quantum_well_substrate>)
+    .notConsumable(<contenttweaker:transistor_lithography_mask>)
+    .outputs(<contenttweaker:engraved_substrate>)
+    .duration(300)
+    .EUt(1200)
+    .buildAndRegister();
+
+plasma_etcher.recipeBuilder()
+    .inputs(<contenttweaker:engraved_substrate>)
+    .fluidInputs(<liquid:citric_acid>*1000)
+    .outputs(<contenttweaker:etched_substrate>)
+    .duration(300)
+    .EUt(900)
+    .buildAndRegister();
+
+ebf.recipeBuilder()
+    .inputs(<contenttweaker:metal_layered_substrate>)
+    .fluidInputs(<liquid:oxygen>*1000)
+    .outputs(<contenttweaker:annealed_layered_substrate>)
+    .duration(300)
+    .EUt(900)
+    .buildAndRegister();
+
+cutting_saw.recipeBuilder()
+    .inputs(<contenttweaker:annealed_layered_substrate>)
+    .outputs(<contenttweaker:quantum_smd_transistor_chips>*16)
+    .fluidInputs(<liquid:lubricant>*100)
+    .duration(300)
+    .EUt(900)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .fluidInputs(<liquid:epoxid>*100)
+    .inputs(<contenttweaker:quantum_smd_transistor_chips>*16,<contenttweaker:sod_323_packaging>)
+    .outputs(<gtadditions:ga_meta_item:32252>*16)
+    .duration(300)
+    .EUt(900)
+    .buildAndRegister();
+
+Utils.removeRecipeByOutput(assembler,[<gtadditions:ga_meta_item:32252>*32],[],true);

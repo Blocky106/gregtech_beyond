@@ -125,3 +125,18 @@ cryogenic_reactor.recipeMap.recipeBuilder()
     .duration(280)
     .EUt(400)
     .buildAndRegister();
+
+cryogenic_reactor.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:ammonia>*1000,<liquid:resorcinol>*1000)
+    .fluidOutputs(<liquid:ice>*1000,<liquid:3_aminophenol>*1000)
+    .duration(480)
+    .EUt(500)
+    .buildAndRegister();
+
+cryogenic_reactor.recipeMap.recipeBuilder() 
+    .fluidInputs(<liquid:octane>*3000)
+    .inputs(<gregtech:meta_item_1:2050>)
+    .fluidOutputs(<liquid:liquid_hydrogen>*3000,<liquid:trioctylphosphine>*1000)
+    .duration(480)
+    .EUt(500)
+    .buildAndRegister();

@@ -82,7 +82,7 @@ pressure_swing_adsorber.recipeMap.recipeBuilder()
 pressure_swing_adsorber.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:salt_water>*1000)
     .fluidOutputs(<liquid:water>*1000)
-    .outputs(<gregtech:meta_item_1:2155>*5)
+    .outputs(<gregtech:meta_item_1:2155>*2)
     .duration(400)
     .EUt(12)
     .buildAndRegister();

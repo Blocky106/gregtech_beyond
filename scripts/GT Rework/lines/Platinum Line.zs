@@ -142,3 +142,25 @@ Utils.removeRecipeByOutput(lcr, [<gregtech:meta_item_1:887>*4],[<liquid:rhodium_
 
 Utils.removeRecipeByOutput(chemReactor, [<gregtech:meta_item_1:2887>*4],[<liquid:rhodium_sulfate_solution>*27000],true);
 Utils.removeRecipeByOutput(chemReactor, [<gregtech:meta_item_1:887>*4],[<liquid:rhodium_sulfate_solution>*3000],true);
+
+Utils.removeRecipeByOutput(chemReactor,[<gregtech:meta_item_1:2047>],[<liquid:chlorine>*8000,<liquid:water>*5000],true);
+Utils.removeRecipeByOutput(lcr,[<gregtech:meta_item_1:2047>],[<liquid:chlorine>*8000,<liquid:water>*5000],true);
+
+Utils.removeRecipeByOutput(chemReactor,[],[<liquid:carbon_monoxide>*1000,<liquid:methyl_isobutyl_ketone>*1000],true);
+Utils.removeRecipeByOutput(lcr,[],[<liquid:carbon_monoxide>*1000,<liquid:methyl_isobutyl_ketone>*1000],true);
+
+chemReactor.recipeBuilder()
+    .fluidOutputs(<liquid:carbon_monoxide>*1000,<liquid:methyl_isobutyl_ketone>*1000)
+    .notConsumable(<gregtech:meta_item_1:2012>)
+    .fluidInputs(<liquid:mesityl_oxide>*1000,<liquid:water>*1000)
+    .EUt(400)
+    .duration(200)
+    .buildAndRegister();
+    
+lcr.recipeBuilder()
+    .fluidOutputs(<liquid:carbon_monoxide>*1000,<liquid:methyl_isobutyl_ketone>*1000)
+    .notConsumable(<gregtech:meta_item_1:2012>)
+    .fluidInputs(<liquid:mesityl_oxide>*1000,<liquid:water>*1000)
+    .EUt(400)
+    .duration(200)
+    .buildAndRegister();

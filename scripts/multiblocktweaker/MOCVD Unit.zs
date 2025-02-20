@@ -152,3 +152,26 @@ mocvd_unit.recipeMap.recipeBuilder()
     .duration(2000)
     .EUt(800)
     .buildAndRegister();
+
+mocvd_unit.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:hydrogen>*1000,<liquid:trimethylgallium>*1000,<liquid:arsine>*1000)
+    .inputs(<gregtech:meta_item_1:2007>,<gregtech:meta_item_1:2067>,<gregtech:meta_item_1:2838>,<contenttweaker:ga_as_wafer>)
+    .outputs(<contenttweaker:heavily_doped_ga_as_wafer>)
+    .duration(400)
+    .EUt(2000)
+    .buildAndRegister();
+
+mocvd_unit.recipeMap.recipeBuilder()    
+    .inputs(<gregtech:meta_item_1:12002>,<gregtech:meta_item_1:2410>,<gtadditions:ga_dust:32274>)
+    .fluidInputs(<liquid:aluminium_gallium_arsenide>*1000)
+    .outputs(<contenttweaker:quantum_well_substrate>)
+    .duration(300)
+    .EUt(2000)
+    .buildAndRegister();
+
+mocvd_unit.recipeMap.recipeBuilder()
+    .inputs(<contenttweaker:gated_substrate>,<gregtech:meta_item_2:16052>*4)
+    .outputs(<contenttweaker:metal_layered_substrate>)
+    .duration(700)
+    .EUt(1500)
+    .buildAndRegister();

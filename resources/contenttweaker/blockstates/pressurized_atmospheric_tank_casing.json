@@ -1,16 +1,16 @@
 {
-    "forge_marker": 1,
-    "defaults": {
-      "textures": {
-        "texture": "contenttweaker:blocks/pressurized_atmospheric_tank_casing",
-        "particle": "contenttweaker:blocks/pressurized_atmospheric_tank_casing"
-      },
-      "model": "base:storage",
-      "uvlock": true,
-      "transform": "forge:default-block"
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "texture": "contenttweaker:blocks/pressurized_atmospheric_tank_casing",
+      "particle": "contenttweaker:blocks/pressurized_atmospheric_tank_casing"
     },
-    "variants": {
-      "normal": [{}],
-      "inventory": [{}]
-    }
+    "model": "base:storage",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
   }
+}

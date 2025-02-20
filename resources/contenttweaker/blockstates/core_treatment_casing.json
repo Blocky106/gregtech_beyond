@@ -2,8 +2,8 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/gas_intake_module",
-      "particle": "contenttweaker:blocks/gas_intake_module"
+      "texture": "contenttweaker:blocks/core_treatment_casing",
+      "particle": "contenttweaker:blocks/core_treatment_casing"
     },
     "model": "base:storage",
     "uvlock": true,
