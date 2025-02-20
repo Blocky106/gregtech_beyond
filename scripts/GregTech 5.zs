@@ -1680,7 +1680,7 @@ dehydrator.recipeBuilder()
 assembler.recipeBuilder()
     .inputs(<contenttweaker:lithography_base_mask>,<ore:dyeBlack>)
     .outputs(<contenttweaker:uhasoc_lithography_mask>)
-    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 11}))
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 16}))
     .duration(2000)
     .EUt(9000)
     .buildAndRegister();
@@ -3344,3 +3344,13 @@ cstr_s.recipeBuilder()
     .EUt(300)
     .buildAndRegister();
 
+furnace.remove(<gregtech:meta_item_1:10013>);
+furnace.remove(<gregtech:meta_item_1:9013>);
+
+ebf.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2013>)
+    .property("temperature", 1000)
+    .EUt(80)
+    .duration(400)
+    .outputs(<gregtech:meta_item_1:10013>)
+    .buildAndRegister();
