@@ -114,3 +114,17 @@ atomic_layer_deposition_system.recipeMap.recipeBuilder()
     .duration(200)
     .EUt(1200)
     .buildAndRegister();
+
+atomic_layer_deposition_system.recipeMap.recipeBuilder()
+    .inputs(<contenttweaker:graphene_electrode_substrate>,<gtadditions:ga_dust:118>)
+    .outputs(<contenttweaker:dielectric_electrode_substrate>)
+    .duration(400)
+    .EUt(2000)
+    .buildAndRegister();
+
+atomic_layer_deposition_system.recipeMap.recipeBuilder()
+    .inputs(<contenttweaker:etched_exposed_substrate>,<gtadditions:ga_dust:248>,<gregtech:meta_item_1:2906>)
+    .outputs(<contenttweaker:atomic_layered_substrate>)
+    .duration(560)
+    .EUt(1300)
+    .buildAndRegister();
