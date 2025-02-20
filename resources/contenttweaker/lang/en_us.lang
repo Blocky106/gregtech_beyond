@@ -2293,4 +2293,12 @@ devtech.machine.fluid_compressor.luv.name=Elite Fluid Compressor II
 devtech.machine.fluid_compressor.zpm.name=Elite Fluid Compressor III
 devtech.machine.fluid_compressor.uv.name=Ultimate Fluid Compressor
 fluid.high_pressure_water=High Pressure Water
-
+devtech.machine.ion_exchange_unit.lv.name=Basic Ion Exchange Unit
+devtech.machine.ion_exchange_unit.mv.name=Advanced Ion Exchange Unit 
+devtech.machine.ion_exchange_unit.hv.name=Advanced Ion Exchange Unit II
+devtech.machine.ion_exchange_unit.ev.name=Advanced Ion Exchange Unit III
+devtech.machine.ion_exchange_unit.iv.name=Elite Ion Exchange Unit
+devtech.machine.ion_exchange_unit.luv.name=Elite Ion Exchange Unit II
+devtech.machine.ion_exchange_unit.zpm.name=Elite Ion Exchange Unit III
+devtech.machine.ion_exchange_unit.uv.name=Ultimate Ion Exchange Unit
+recipemap.ion_exchange_unit.name=Ion Exchanging

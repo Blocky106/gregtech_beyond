@@ -91,3 +91,4 @@ global cstr_s as RecipeMap = RecipeMap.getByName("cstr_s");
 global tbr as RecipeMap = RecipeMap.getByName("tbr");
 global dryer as RecipeMap = RecipeMap.getByName("dryer");
 global fluid_compressor as RecipeMap = RecipeMap.getByName("fluid_compressor");
+global ion_exchange_unit as RecipeMap = RecipeMap.getByName("ion_exchange_unit");
