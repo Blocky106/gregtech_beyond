@@ -2520,6 +2520,7 @@ chemical_bath.recipeBuilder()
     .fluidInputs(<liquid:liquid_cryolite>*1000)
     .inputs(<gregtech:meta_item_1:2524>*2)
     .fluidOutputs(<liquid:cryolite_solution>*1000)
+    .outputs(<gregtech:meta_item_1:2328>)
     .duration(200)
     .EUt(200)
     .buildAndRegister();
@@ -2817,8 +2818,7 @@ roasters.recipeBuilder()
 
 electrolyzer.findRecipe(30 , [<gregtech:meta_item_1:2361>*3], null).remove();
 
-
-chemReactor.recipeBuilder()
+cstr_s.recipeBuilder()
     .fluidInputs(<liquid:air>*2000,<liquid:dissolved_chalcocite_solution>*4000)
     .fluidOutputs(<liquid:water>*2000,<liquid:copper_leach>*2000)
     .duration(380)
@@ -3268,3 +3268,79 @@ assembly_line.recipeBuilder()
     .duration(400)
     .EUt(1500000)
     .buildAndRegister();
+
+recipes.remove(<gregtech:machine:700>);
+recipes.remove(<gregtech:machine:701>);
+
+recipes.addShaped(<gregtech:machine:700>, [[null, <ore:chest>], [null, <gregtech:machine_casing>]]);
+recipes.addShaped(<gregtech:machine:701>, [[null, <gregtech:machine_casing>], [null, <ore:chest>]]);
+
+cstr_s.recipeBuilder()
+    .outputs(<gtadditions:ga_dust:930>*6)
+    .fluidInputs(<liquid:boron_fluoride>*1000)
+    .inputs(<gregtech:meta_item_1:2773>*2)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .duration(200)
+    .EUt(80)
+    .buildAndRegister();
+
+tbr.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:32184>)
+    .fluidInputs(<liquid:water>*4000,<liquid:purified_uranyl_nitrate_solution>*2000)
+    .fluidOutputs(<liquid:carbon_monoxide>*8000,<liquid:nitric_acid>*2000,<liquid:uranium_diuranate>*1000)
+    .duration(400)
+    .EUt(120)
+    .buildAndRegister();
+
+cstr_s.recipeBuilder()
+    .notConsumable(<gtadditions:ga_dust:348>)
+    .fluidInputs(<liquid:butylaniline>*1000,<liquid:methoxybenzaldehyde>*1000)
+    .fluidOutputs(<liquid:mbba>*1000)
+    .duration(400)
+    .EUt(120)
+    .buildAndRegister();
+
+tbr.recipeBuilder()
+    .fluidInputs(<liquid:hydrofluoric_acid>*4000,<liquid:boric_acid>*1000)
+    .fluidOutputs(<liquid:fluoroboric_acid>*1000,<liquid:water>*3000)
+    .duration(400)
+    .EUt(120)
+    .buildAndRegister();
+
+chemReactor.recipeBuilder() 
+    .fluidInputs(<liquid:sulfur_trioxide>*1000,<liquid:hydrogen_chloride>*1000)
+    .fluidOutputs(<liquid:chlorosulfonic_acid>*1000)
+    .duration(200)
+    .EUt(420)
+    .buildAndRegister();
+
+lcr.recipeBuilder() 
+    .fluidInputs(<liquid:sulfur_trioxide>*1000,<liquid:hydrogen_chloride>*1000)
+    .fluidOutputs(<liquid:chlorosulfonic_acid>*1000)
+    .duration(200)
+    .EUt(420)
+    .buildAndRegister();
+
+chemical_plant.recipeBuilder()
+    .fluidInputs(<liquid:acetic_anhydride>*1000,<liquid:isochloropropane>*1000,<liquid:resorcinol>*1000,<liquid:propene>*1000,<liquid:nitric_acid>*2000)
+    .inputs(<gtadditions:ga_dust:356>*3)
+    .fluidOutputs(<liquid:water>*2000,<liquid:acetic_acid>*1000,<liquid:sodium_acetate>*1000,<liquid:dinitrodipropanyloxybenzene>*1000)
+    .outputs(<gregtech:meta_item_1:2155>*2)
+    .duration(1200)
+    .EUt(7920)
+    .buildAndRegister();
+
+tbr.recipeBuilder()
+    .fluidInputs(<liquid:oxygen>*3000,<liquid:ammonia>*1000,<liquid:toluene>*1000)
+    .fluidOutputs(<liquid:benzonitrile>*1000,<liquid:water>*3000)
+    .duration(80)
+    .EUt(300)
+    .buildAndRegister();
+
+cstr_s.recipeBuilder()
+    .fluidInputs(<liquid:hydrogen_sulfide>*1000,<liquid:methanol>*2000)
+    .fluidOutputs(<liquid:dimethylsulfide>*1000,<liquid:water>*2000)
+    .duration(80)
+    .EUt(300)
+    .buildAndRegister();
+
