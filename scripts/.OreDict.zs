@@ -57,7 +57,13 @@ import mods.nuclearcraft.IngotFormer;
 <ore:translucentluminousblock>.add(<randomthings:translucentluminousblock:15>);
 #------------------------ luminous blocks end ------------------------
 
-<ore:gemBiotite:>.add(<quark:biotite>);
+<ore:gemBiotite>.add(<quark:biotite>);
+
+<ore:dustArsenic>.add(<gtadditions:ga_dust:32213>);
+<ore:dustAluminium>.add(<gtadditions:ga_dust:32262>);
+<ore:dustAluminum>.add(<gtadditions:ga_dust:32262>);
+<ore:dustGallium>.add(<gtadditions:ga_dust:32263>);
+<ore:dustCadmium>.add(<gtadditions:ga_dust:32264>);
 #------------------------ goofy ahh ingots start----------------------
 
 
