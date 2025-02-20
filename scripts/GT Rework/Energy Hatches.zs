@@ -10,7 +10,6 @@ import mods.gtadditions.recipe.GARecipeMaps.ADV_FUSION_RECIPES;
 import mods.gregtech.recipe.CokeOvenRecipeBuilder;
 import mods.gtadditions.recipe.Utils;
 
-Utils.removeRecipeByOutput(c, [<gregtech:machine:704>], [], false);
 
 recipes.addShaped(<gregtech:machine:704>, 
 [	[<gregtech:cable:5035>, <gregtech:meta_item_1:12035>, <gregtech:cable:5035>],
@@ -261,7 +260,7 @@ assembly_line.recipeBuilder()
 	.buildAndRegister();
 
 assembly_line.recipeBuilder()
-	.inputs(<gregtech:meta_item_1:12636>*16, <gregtech:cable:3308>*16 <gtadditions:ga_meta_item:32426>*24, <contenttweaker:superconductingcoil>*8, <ore:circuitSuperconductor>, <ore:circuitSuperconductor>, <contenttweaker:onecryogeniccoolant>, <contenttweaker:onecryogeniccoolant>, <gtadditions:ga_meta_item:1786>*2, <gregtech:machine:508>)
+	.inputs(<gregtech:meta_item_1:12636>*16, <gregtech:cable:3308>*16, <gtadditions:ga_meta_item:32426>*24, <contenttweaker:superconductingcoil>*8, <ore:circuitSuperconductor>, <ore:circuitSuperconductor>, <contenttweaker:onecryogeniccoolant>, <contenttweaker:onecryogeniccoolant>, <gtadditions:ga_meta_item:1786>*2, <gregtech:machine:508>)
 	.fluidInputs(<liquid:soldering_alloy>*9000, <liquid:naquadah_alloy>*2000)
 	.outputs(<gregtech:machine:3052>)
 	.EUt(524000)
