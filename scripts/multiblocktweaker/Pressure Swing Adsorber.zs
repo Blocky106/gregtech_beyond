@@ -61,7 +61,6 @@ val pressure_swing_adsorber = Builder.start(loc, meta)
                         .maxFluidInputs(1)
                         .maxOutputs(1)
                         .build())
-.withTexture(ICubeRenderer.sided("contenttweaker:blocks/machine_casing_clean_stainless_steel"))
 .withZoom(0.5f)
 .buildAndRegister() as Multiblock;
 

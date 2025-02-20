@@ -138,3 +138,13 @@ electron_beam_lithographer.recipeMap.recipeBuilder()
     .duration(400)
     .EUt(800)
     .buildAndRegister();
+
+electron_beam_lithographer.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:pmma>*100)
+    .inputs(<contenttweaker:electron_source_100kv>,<contenttweaker:deionized_substrate>,<gregtech:meta_item_1:2157>,<gregtech:meta_item_1:2045>)
+    .outputs(<contenttweaker:exposed_substrate>)
+    .duration(300)
+    .EUt(1450)
+    .buildAndRegister();
+
+    
