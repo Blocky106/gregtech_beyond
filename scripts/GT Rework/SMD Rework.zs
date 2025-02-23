@@ -491,7 +491,7 @@ assembler.recipeBuilder()
     .EUt(500)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(assembler,[<gtadditions:ga_meta_item:32246>*16],[],true);
+Utils.removeRecipeByOutput(assembler,[<gtadditions:ga_meta_item:32246>*8],[],true);
 
 dryer.recipeBuilder()
     .inputs(<contenttweaker:gallium_arsenide_substrate>)
@@ -578,7 +578,7 @@ cvd_unit_s.recipeBuilder()
 
 cutting_saw.recipeBuilder() 
     .inputs(<contenttweaker:passivated_quantum_smd_wafer>)
-    .outputs(<contenttweaker:quantum_smd_diode_chips>*16)
+    .outputs(<contenttweaker:quantum_smd_diode_chips>*8)
     .fluidInputs(<liquid:lubricant>*20)
     .duration(300)
     .EUt(950)
@@ -589,15 +589,15 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:soldering_alloy>*288)
     .outputs(<contenttweaker:sod_323_packaging>)
     .duration(400)
-    .EUt(1200)
+    .EUt(5200)
     .buildAndRegister();
 
 assembler.recipeBuilder()
-    .inputs(<contenttweaker:quantum_smd_diode_chips>*16,<contenttweaker:sod_323_packaging>)
+    .inputs(<contenttweaker:quantum_smd_diode_chips>*8,<contenttweaker:sod_323_packaging>)
     .fluidInputs(<liquid:epoxid>*288)
-    .outputs(<gtadditions:ga_meta_item:32255>*16)
+    .outputs(<gtadditions:ga_meta_item:32255>*8)
     .duration(300)
-    .EUt(950)
+    .EUt(450)
     .buildAndRegister();
 
 Utils.removeRecipeByOutput(assembler,[<gtadditions:ga_meta_item:32255>*32],[],true);
@@ -607,7 +607,7 @@ engraver.recipeBuilder()
     .notConsumable(<contenttweaker:transistor_lithography_mask>)
     .outputs(<contenttweaker:engraved_substrate>)
     .duration(300)
-    .EUt(1200)
+    .EUt(3200)
     .buildAndRegister();
 
 lengraver.recipeBuilder()    
@@ -615,7 +615,7 @@ lengraver.recipeBuilder()
     .notConsumable(<contenttweaker:transistor_lithography_mask>)
     .outputs(<contenttweaker:engraved_substrate>)
     .duration(300)
-    .EUt(1200)
+    .EUt(6200)
     .buildAndRegister();
 
 plasma_etcher.recipeBuilder()
@@ -623,7 +623,7 @@ plasma_etcher.recipeBuilder()
     .fluidInputs(<liquid:citric_acid>*1000)
     .outputs(<contenttweaker:etched_substrate>)
     .duration(300)
-    .EUt(900)
+    .EUt(5900)
     .buildAndRegister();
 
 ebf.recipeBuilder()
@@ -631,21 +631,21 @@ ebf.recipeBuilder()
     .fluidInputs(<liquid:oxygen>*1000)
     .outputs(<contenttweaker:annealed_layered_substrate>)
     .duration(300)
-    .EUt(900)
+    .EUt(4900)
     .buildAndRegister();
 
 cutting_saw.recipeBuilder()
     .inputs(<contenttweaker:annealed_layered_substrate>)
-    .outputs(<contenttweaker:quantum_smd_transistor_chips>*16)
+    .outputs(<contenttweaker:quantum_smd_transistor_chips>*8)
     .fluidInputs(<liquid:lubricant>*100)
     .duration(300)
-    .EUt(900)
+    .EUt(4900)
     .buildAndRegister();
 
 assembler.recipeBuilder()
-    .fluidInputs(<liquid:epoxid>*100)
-    .inputs(<contenttweaker:quantum_smd_transistor_chips>*16,<contenttweaker:sod_323_packaging>)
-    .outputs(<gtadditions:ga_meta_item:32252>*16)
+    .fluidInputs(<liquid:epoxid>*288)
+    .inputs(<contenttweaker:quantum_smd_transistor_chips>*8,<contenttweaker:sod_323_packaging>)
+    .outputs(<gtadditions:ga_meta_item:32252>*8)
     .duration(400)
     .EUt(700)
     .buildAndRegister();
@@ -668,7 +668,7 @@ cvd_unit_s.recipeBuilder()
 
 spincoater.recipeBuilder()
     .inputs(<contenttweaker:top_electrode_deposited_substrate>,<contenttweaker:thin_kapton_k_sheet>)
-    .fluidInputs(<liquid:novolacs_photoresist>*100)
+    .fluidInputs(<liquid:pmma>*100)
     .outputs(<contenttweaker:spincoated_substrate>)
     .duration(200)
     .EUt(450)
@@ -693,14 +693,74 @@ plasma_etcher.recipeBuilder()
 cutting_saw.recipeBuilder() 
     .inputs(<contenttweaker:atomic_layered_substrate>)
     .fluidInputs(<liquid:lubricant>*12)
-    .outputs(<contenttweaker:quantum_smd_capacitor_chips>*16)
+    .outputs(<contenttweaker:quantum_smd_capacitor_chips>*8)
     .duration(260)
     .EUt(350)
     .buildAndRegister();
 
 assembler.recipeBuilder()
-    .inputs(<contenttweaker:quantum_smd_capacitor_chips>*16,<contenttweaker:sod_323_packaging>)
-    .outputs(<gtadditions:ga_meta_item:32253>*16)
+    .inputs(<contenttweaker:quantum_smd_capacitor_chips>*8,<contenttweaker:sod_323_packaging>)
+    .fluidInputs(<liquid:epoxid>*288)
+    .outputs(<gtadditions:ga_meta_item:32253>*8)
     .duration(360)
-    .EUt(450)
+    .EUt(5450)
     .buildAndRegister();
+
+Utils.removeRecipeByOutput(assembler,[<gtadditions:ga_meta_item:32253>*16],[],true);
+
+chemical_bath.recipeBuilder()
+    .fluidInputs(<liquid:plasma.oxygen>*100)
+    .inputs(<contenttweaker:heavily_doped_ga_as_wafer>)
+    .outputs(<contenttweaker:cleaned_doped_ga_as_wafer>)
+    .duration(360)
+    .EUt(4450)
+    .buildAndRegister();
+
+cvd_unit_s.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2205>,<contenttweaker:cleaned_doped_ga_as_wafer>)
+    .outputs(<contenttweaker:resistivated_ga_as_wafer>)
+    .duration(360)
+    .EUt(3450)
+    .buildAndRegister();
+
+spincoater.recipeBuilder()
+    .inputs(<contenttweaker:resistivated_ga_as_wafer>)
+    .fluidInputs(<liquid:pmma>*400)
+    .outputs(<contenttweaker:spincoated_resistivated_ga_as_wafer>)
+    .duration(260)
+    .EUt(2350)
+    .buildAndRegister();
+
+chemical_bath.recipeBuilder()
+    .fluidInputs(<liquid:methyl_isobutyl_ketone>*200)
+    .inputs(<contenttweaker:engraved_spincoated_ga_as_wafer>)
+    .outputs(<contenttweaker:developed_ga_as_wafer>)
+    .duration(460)
+    .EUt(4540)
+    .buildAndRegister();
+
+ebf.recipeBuilder()
+    .inputs(<contenttweaker:atomic_layered_ga_as_wafer>)
+    .outputs(<contenttweaker:annealed_ga_as_wafer>)
+    .duration(860)
+    .EUt(3440)
+    .property("temperature", 2800)
+    .buildAndRegister();
+
+cutting_saw.recipeBuilder()
+    .fluidInputs(<liquid:lubricant>*100)
+    .inputs(<contenttweaker:annealed_ga_as_wafer>)
+    .outputs(<contenttweaker:quantum_smd_resistor_chips>*8)
+    .duration(800)
+    .EUt(4240)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs(<contenttweaker:sod_323_packaging>,<contenttweaker:quantum_smd_resistor_chips>*8)
+    .fluidInputs(<liquid:epoxid>*288)
+    .outputs(<gtadditions:ga_meta_item:32254>*8)
+    .duration(2000)
+    .EUt(4540)
+    .buildAndRegister();
+
+Utils.removeRecipeByOutput(assembler,[<gtadditions:ga_meta_item:32254>*24],[],true);
