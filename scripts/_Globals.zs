@@ -92,3 +92,8 @@ global tbr as RecipeMap = RecipeMap.getByName("tbr");
 global dryer as RecipeMap = RecipeMap.getByName("dryer");
 global fluid_compressor as RecipeMap = RecipeMap.getByName("fluid_compressor");
 global ion_exchange_unit as RecipeMap = RecipeMap.getByName("ion_exchange_unit");
+
+
+#GregTech Food Option 
+
+global green_house as RecipeMap = RecipeMap.getByName("green_house");
