@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
+    "WET",
     "WATER",
-    "FOREST",
-    "WET"
+    "FOREST"
   ],
   "BiomeManager Entries": {
     "COOL Weights": [

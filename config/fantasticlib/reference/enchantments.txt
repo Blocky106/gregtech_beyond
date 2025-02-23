@@ -44,13 +44,13 @@ tombstone:plague_bringer
 tombstone:blessing
 tombstone:curse_of_bones
 gregtech:disjunction
-endercore:autosmelt
 endercore:xpboost
-enderio:repellent
-enderio:soulbound
-enderio:shimmer
+endercore:autosmelt
 enderio:witherweapon
 enderio:witherarrow
+enderio:repellent
+enderio:shimmer
+enderio:soulbound
 cofhcore:holding
 cofhcore:insight
 cofhcore:leech
