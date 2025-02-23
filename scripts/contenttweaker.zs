@@ -213,7 +213,18 @@ registerMetalBlock("interstellar_core", 15.0, 10.0, 1);
 
 
 var items = [
-"etched_phenolic_board", 
+"etched_phenolic_board",
+"floated_naquadah_concentrate",
+"sifted_naquadah_concentrate",
+"cleaned_doped_ga_as_wafer",
+"spincoated_resistivated_ga_as_wafer", 
+"resistor_lithography_mask",
+"resistivated_ga_as_wafer",
+"engraved_spincoated_ga_as_wafer",
+"developed_ga_as_wafer",
+"annealed_ga_as_wafer",
+"atomic_layered_ga_as_wafer",
+"quantum_smd_resistor_chips",
 "graphene_electrode_substrate",
 "dielectric_electrode_substrate",
 "top_electrode_deposited_substrate",
