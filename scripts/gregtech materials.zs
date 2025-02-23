@@ -597,8 +597,21 @@ util.registerDust("niobium_oxide", 32273, 0xA483AA, "SHINY");
 util.registerDust("cadmium_magnesium_tellurium", 32274, 0x529CC3, "SHINY");
 
 
-
-
+util.registerFluid("pentene", 0xF1B29F);
+util.registerFluid("wet_pmma_emulsion", 0x0ee3d5);
+util.registerFluid("dried_pmma_emulsion", 0x86BFC7);
+util.registerFluid("acetone_cyanohydrin", 0x73A5D6);
+util.registerFluid("methacrylamide_sulfate", 0x374494);
+util.registerFluid("methyl_methacrylate", 0x5AB1BB);
+util.registerFluid("methyl_methacrylate_emulsion", 0x2496A5);
+util.registerFluid("potassium_amyl_xanthate", 0xE8D743);
+util.registerFluid("naquadah_concentrate_slurry", 0x454444);
+util.registerFluid("naquadah_oxide_solution", 0x5A5B5B);
+util.registerFluid("acidic_naquadah_concentrate", 0x474F4F);
+util.registerFluid("naquadah_extraction_mixture", 0xAE6EBF);
+util.registerFluid("naquadah_extract", 0x3F3E3E);
+util.registerFluid("naquadah_mother_liqour", 0x504E4E);
+util.registerFluid("arsenic_solution", 0xD5D0D0);
 util.registerFluid("pmma", 0xA9C9E4);
 util.registerFluid("diluted_hydrofluoric_acid", 0x638CAD);
 util.registerFluid("deionized_water", 0x1C5480);
