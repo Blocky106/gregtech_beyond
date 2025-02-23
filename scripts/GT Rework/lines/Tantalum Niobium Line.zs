@@ -74,3 +74,11 @@ ebf.recipeBuilder()
     .EUt(390)
     .duration(340)
     .buildAndRegister();
+
+cstr_s.recipeBuilder()
+    .fluidInputs(<liquid:potassium_hydroxide>*1000,<liquid:hydrofluoric_acid>*3500,<liquid:heptafluorotantalate>*1000)
+    .outputs(<gtadditions:ga_dust:189>*5)
+    .fluidOutputs(<liquid:water>*1000)
+    .EUt(890)
+    .duration(340)
+    .buildAndRegister();
