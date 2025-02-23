@@ -142,3 +142,11 @@ gravity_separator.recipeMap.recipeBuilder()
     .duration(200)
     .EUt(120)
     .buildAndRegister();
+
+gravity_separator.recipeMap.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:3>)
+    .outputs(<contenttweaker:sifted_naquadah_concentrate>,<gregtech:meta_item_1:2328>)
+    .duration(500)
+    .EUt(8000)
+    .buildAndRegister();
+

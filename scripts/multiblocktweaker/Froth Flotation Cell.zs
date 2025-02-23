@@ -417,6 +417,16 @@ froth_flotation_cell.recipeMap.recipeBuilder()
     .inputs(<contenttweaker:sifted_tantalite>*4,<gregtech:meta_item_1:2373>*2)
     .fluidOutputs(<liquid:used_froth_flotation_fluid>*1000,<liquid:tantalite_slurry>*1000)
     .duration(800)
-    .EUt(70)
+    .EUt(700)
     .buildAndRegister();
 
+froth_flotation_cell.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:froth_flotation_fluid>*1000)
+    .notConsumable(<liquid:heavy_water>)
+    .notConsumable(<liquid:potassium_amyl_xanthate>)
+    .notConsumable(<liquid:methyl_isobutyl_carbonyl>)
+    .inputs(<contenttweaker:sifted_naquadah_concentrate>*5,<gtadditions:ga_dust:24>*2)
+    .fluidOutputs(<liquid:naquadah_concentrate_slurry>*1000)
+    .duration(800)
+    .EUt(7670)
+    .buildAndRegister();

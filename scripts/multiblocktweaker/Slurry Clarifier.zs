@@ -299,4 +299,12 @@ slurry_clarifier.recipeMap.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
+slurry_clarifier.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:naquadah_concentrate_slurry>*1000)
+    .fluidOutputs(<liquid:used_froth_flotation_fluid>*200)
+    .outputs(<gtadditions:ga_dust:24>*3,<contenttweaker:floated_naquadah_concentrate>*10,<gregtech:meta_item_1:2026>*5)
+    .duration(200)
+    .EUt(1200)
+    .buildAndRegister();
+
 
