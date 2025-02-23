@@ -128,3 +128,10 @@ atomic_layer_deposition_system.recipeMap.recipeBuilder()
     .duration(560)
     .EUt(1300)
     .buildAndRegister();
+
+atomic_layer_deposition_system.recipeMap.recipeBuilder()
+    .inputs(<contenttweaker:developed_ga_as_wafer>,<gregtech:meta_item_2:16883>,<contenttweaker:dielectric_film>)
+    .outputs(<contenttweaker:atomic_layered_ga_as_wafer>)
+    .duration(860)
+    .EUt(1400)
+    .buildAndRegister();

@@ -145,3 +145,10 @@ enzymatic_hydrolisis_tank.recipeMap.recipeBuilder()
     .duration(800)
     .EUt(24)
     .buildAndRegister();
+
+enzymatic_hydrolisis_tank.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:acetone_cyanohydrin>*1000,<liquid:sulfuric_acid>*1000)
+    .fluidOutputs(<liquid:methacrylamide_sulfate>*1000)
+    .duration(800)
+    .EUt(600)
+    .buildAndRegister();

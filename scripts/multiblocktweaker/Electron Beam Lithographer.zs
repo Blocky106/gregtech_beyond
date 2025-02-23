@@ -109,7 +109,7 @@ val electron_beam_lithographer = Builder.start(loc, meta)
                 .withTexture(ICubeRenderer.sided("contenttweaker:blocks/machine_casing_solid_steel"))
 .withRecipeMap(
         FactoryRecipeMap.start(loc)
-                        .maxInputs(3)
+                        .maxInputs(4)
                         .maxFluidInputs(1)
                         .maxFluidOutputs(1)
                         .maxOutputs(1)
@@ -147,4 +147,11 @@ electron_beam_lithographer.recipeMap.recipeBuilder()
     .EUt(1450)
     .buildAndRegister();
 
-    
+electron_beam_lithographer.recipeMap.recipeBuilder()
+    .inputs(<contenttweaker:spincoated_resistivated_ga_as_wafer>)
+    .fluidInputs(<liquid:pmma>*200)
+    .notConsumable(<contenttweaker:resistor_lithography_mask>)
+    .outputs(<contenttweaker:engraved_spincoated_ga_as_wafer>)
+    .duration(350)
+    .EUt(650)
+    .buildAndRegister();

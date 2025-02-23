@@ -318,3 +318,12 @@ polymerization_tank.recipeMap.recipeBuilder()
     .duration(200)
     .EUt(12)
     .buildAndRegister();
+
+polymerization_tank.recipeMap.recipeBuilder()
+    .notConsumable(<gtadditions:ga_dust:32002>)
+    .inputs(<gtadditions:ga_dust:116>)
+    .fluidInputs(<liquid:methyl_methacrylate_emulsion>*1000)
+    .fluidOutputs(<liquid:wet_pmma_emulsion>*1000)
+    .duration(600)
+    .EUt(2012)
+    .buildAndRegister();
