@@ -2037,7 +2037,7 @@ assembler.recipeBuilder()
     .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 14}))
     .outputs(<contenttweaker:circiut_board_lithography_mask>)
     .duration(200)
-    .EUt(1200)
+    .EUt(20)
     .buildAndRegister();
 
 assembler.recipeBuilder()
@@ -3106,6 +3106,7 @@ tbr.recipeBuilder()
     .EUt(80)
     .duration(200)
     .buildAndRegister();
+
 distillation_tower.recipeBuilder()
     .fluidInputs(<liquid:sodium_nitrate_solution>*1000)
     .fluidOutputs(<liquid:water>*1000)
@@ -3127,7 +3128,7 @@ engraving_unit_s.recipeBuilder()
     .notConsumable(<contenttweaker:circiut_board_lithography_mask>)
     .fluidInputs(<liquid:novolacs_photoresist>*50)
     .outputs(<contenttweaker:engraved_phenolic_board>)
-    .EUt(80)
+    .EUt(8)
     .duration(400)
     .buildAndRegister();
 
@@ -3135,14 +3136,14 @@ chemical_bath.recipeBuilder()
     .fluidInputs(<liquid:sulfuric_acid>*100)
     .inputs(<contenttweaker:engraved_phenolic_board>)
     .outputs(<contenttweaker:etched_phenolic_board>)
-    .EUt(90)
+    .EUt(9)
     .duration(340)
     .buildAndRegister();
 
 forming_press.recipeBuilder()
     .inputs(<contenttweaker:etched_phenolic_board>,<gregtech:meta_item_1:19071>*2)
     .outputs(<gtadditions:ga_meta_item:32030>)
-    .EUt(90)
+    .EUt(9)
     .duration(340)
     .buildAndRegister();
 
@@ -3353,4 +3354,41 @@ ebf.recipeBuilder()
     .EUt(80)
     .duration(400)
     .outputs(<gregtech:meta_item_1:10013>)
+    .buildAndRegister();
+
+green_house.recipeBuilder()
+    .fluidInputs(<liquid:water>*2000)
+    .notConsumable(<minecraft:vine>)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 0}))
+    .outputs(<minecraft:vine>)
+    .duration(400)
+    .EUt(80)
+    .buildAndRegister();
+
+green_house.recipeBuilder()
+    .fluidInputs(<liquid:water>*2000)
+    .inputs(<minecraft:dye:15>)
+    .notConsumable(<minecraft:vine>)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 0}))
+    .outputs(<minecraft:vine>*2)
+    .duration(400)
+    .EUt(80)
+    .buildAndRegister();
+
+green_house.recipeBuilder()
+    .fluidInputs(<liquid:water>*2000)
+    .inputs(<gregtech:meta_item_1:2754>)
+    .notConsumable(<minecraft:vine>)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 0}))
+    .outputs(<minecraft:vine>*3)
+    .duration(400)
+    .EUt(80)
+    .buildAndRegister();
+
+cstr_s.recipeBuilder()
+    .fluidInputs(<liquid:potassium_hydroxide>*1000,<liquid:pentanol>*1000)
+    .inputs(<gtadditions:ga_dust:32241>)
+    .fluidOutputs(<liquid:potassium_amyl_xanthate>*1000)
+    .duration(400)
+    .EUt(80)
     .buildAndRegister();
