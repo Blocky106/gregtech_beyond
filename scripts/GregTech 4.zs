@@ -3556,3 +3556,11 @@ metal_bender.recipeBuilder()
     .buildAndRegister();
 
 recipes.addShaped(<quark:redstone_randomizer>, [	[<minecraft:repeater>, <minecraft:comparator>, <minecraft:repeater>], 	[<minecraft:comparator>, <ore:gearRedstone>, <minecraft:comparator>], 	[<contenttweaker:coal_plate>, <contenttweaker:coal_plate>, <contenttweaker:coal_plate>]]);
+
+ebf.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2041>)
+    .outputs(<gregtech:meta_item_1:10041>)
+    .duration(300)
+    .EUt(20)
+    .property("temperature", 500)
+    .buildAndRegister();
