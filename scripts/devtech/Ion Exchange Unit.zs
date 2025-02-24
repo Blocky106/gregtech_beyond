@@ -13,7 +13,7 @@ import mods.devtech.OverlayRenderer;
 
 var ion_exchange_unit_overlay = OverlayRenderer.newOverlay("machines/ion_exchange_unit_overlay", OverlayFace.FRONT, OverlayFace.SIDE,  OverlayFace.TOP, OverlayFace.BACK, OverlayFace.BOTTOM);
 
-var ion_exchange_unit = IRecipeMap.recipeMapBuilder("ion_exchange_unit",0,1,0,1,0,0,0,1)
+var ion_exchange_unit = IRecipeMap.recipeMapBuilder("ion_exchange_unit",0,1,0,1,0,1,0,1)
     .setOverlaySlots(OverlaySlot.newOverlaySlot(false, false, false, GUITextures.get("crystal_overlay")))
     .setProgressBar(GUITextures.get("progress_bar_bending"), MoveType.VERTICAL)
     .build();
