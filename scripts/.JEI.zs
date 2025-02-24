@@ -133,7 +133,6 @@ mods.jei.JEI.hideCategory("gregtech:blender");
 mods.jei.JEI.hideCategory("gregtech:fluidizied_bed_reactor");
 mods.jei.JEI.hideCategory("gregtech:atomic_layer_deposition_system");
 mods.jei.JEI.hideCategory("gregtech:fractional_distillation_unit");
-mods.jei.JEI.hideCategory("gtadditions:primitive_blast_furnace");
 
 
 val itemstoRemove =
