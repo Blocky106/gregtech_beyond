@@ -13,7 +13,7 @@ import mods.devtech.OverlayRenderer;
 
 var vacuum_ejection_chamber_overlay = OverlayRenderer.newOverlay("machines/vacuum_ejection_chamber_overlay", OverlayFace.FRONT, OverlayFace.SIDE, OverlayFace.TOP);
 
-var vacuum_ejection_chamber = IRecipeMap.recipeMapBuilder("vacuum_ejection_chamber",0,1,0,1,0,0,0,0)
+var vacuum_ejection_chamber = IRecipeMap.recipeMapBuilder("vacuum_ejection_chamber",0,1,0,1,0,2,0,1)
     .setOverlaySlots(OverlaySlot.newOverlaySlot(false, false,false,GUITextures.get("crystal_overlay")))
     .setProgressBar(GUITextures.get("progress_bar_bending"), MoveType.VERTICAL)
     .build();
