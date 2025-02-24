@@ -79,3 +79,6 @@ chemical_bath.recipeBuilder()
     .EUt(600)
     .buildAndRegister();
 
+Utils.removeRecipeByOutput(chemReactor,[<gtadditions:ga_meta_item:32033>],[],true);
+Utils.removeRecipeByOutput(lcr,[<gtadditions:ga_meta_item:32033>],[],true);
+

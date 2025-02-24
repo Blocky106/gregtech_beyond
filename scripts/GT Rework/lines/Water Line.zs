@@ -58,6 +58,7 @@ distillery.recipeBuilder()
 
 ion_exchange_unit.recipeBuilder()
     .fluidInputs(<liquid:ultrapure_water>*1000)
+    .notConsumable(<gtadditions:ga_dust:32184>)
     .fluidOutputs(<liquid:ultrapure_water_grade_1>*900)
     .duration(600)
     .EUt(2000)
