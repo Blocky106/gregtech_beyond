@@ -2644,3 +2644,13 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .inputs(<gregtech:meta_item_1:32617>,<ore:circuitSuperconductor>*2)
     .outputs(<gregtech:meta_item_2:32707>)
+    .duration(400)
+    .EUt(800)
+    .buildAndRegister();
+
+alloy_smelter.recipeBuilder()
+    .inputs(<minecraft:diamond>,<gregtech:meta_item_1:10204>*3)
+    .outputs(<nuclearcraft:alloy:2>*3)
+    .duration(400)
+    .EUt(800)
+    .buildAndRegister();
