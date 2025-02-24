@@ -212,8 +212,18 @@ registerMetalBlock("blade_assembly", 5.0, 5.0, 2);
 registerMetalBlock("interstellar_core", 15.0, 10.0, 1);
 
 
+
 var items = [
+"josephson_junction_extreme_board",
+"patterned_extreme_reinforced_board",
+"etched_extreme_board",
+"insulated_extreme_board",
+"electroplated_extreme_board",
+"patterned_extreme_board",
 "etched_phenolic_board",
+"rayon_plate",
+"wet_rayon_spinneret",
+"rayon_spinneret",
 "floated_naquadah_concentrate",
 "sifted_naquadah_concentrate",
 "cleaned_doped_ga_as_wafer",
