@@ -132,3 +132,11 @@ reactive_ion_etcher.recipeMap.recipeBuilder()
     .EUt(240)
     .buildAndRegister();
 
+reactive_ion_etcher.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:bcl3_cl2_ar_etchant>*200)
+    .inputs(<contenttweaker:patterned_extreme_board>)
+    .outputs(<contenttweaker:etched_extreme_board>)
+    .duration(400)
+    .EUt(640)
+    .buildAndRegister();
+
