@@ -135,3 +135,12 @@ cryogenic_distillation_plant.recipeMap.recipeBuilder()
     .duration(400)
     .EUt(300)
     .buildAndRegister();
+
+cryogenic_distillation_plant.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:water>*1000)
+    .fluidOutputs(<liquid:heavy_water>*40,<liquid:tritiated_water>*10,<liquid:light_water>*950)
+    .duration(400)
+    .EUt(300)
+    .buildAndRegister();
+
+
