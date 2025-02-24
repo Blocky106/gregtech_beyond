@@ -23,8 +23,8 @@
     "WET",
     "JUNGLE",
     "HILLS",
-    "DENSE",
-    "FOREST"
+    "FOREST",
+    "DENSE"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [

@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DRY",
-    "SAVANNA",
+    "SANDY",
     "HOT",
-    "SANDY"
+    "SAVANNA",
+    "DRY"
   ],
   "BiomeManager Entries": {
     "DESERT Weights": [

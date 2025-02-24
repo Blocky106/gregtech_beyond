@@ -4,8 +4,8 @@ minecraft:priest
 minecraft:smith
 minecraft:butcher
 minecraft:nitwit
-forestry:apiarist
 forestry:arborist
+forestry:apiarist
 extrautils2:alchemist
 extrautils2:red_mechanic
 extrautils2:shady_merchant
