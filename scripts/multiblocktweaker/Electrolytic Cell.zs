@@ -169,11 +169,19 @@ electrolytic_cell.recipeMap.recipeBuilder()
     .EUt(8)
     .buildAndRegister();
 
-            
 electrolytic_cell.recipeMap.recipeBuilder()
     .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
     .fluidInputs(<liquid:ethoxylated_nonylphenol>*1000,<liquid:water>*1000)
     .fluidOutputs(<liquid:nonylphenol>*800,<liquid:ethylene_glycol>*800,<liquid:nonoxynol-9_solution>*200,<liquid:hydrogen>*200)
     .duration(299)
     .EUt(100)
+    .buildAndRegister();
+
+electrolytic_cell.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:manganese_sulfate_solution>*1000)
+    .fluidOutputs(<liquid:sulfuric_acid>*1000)
+    .outputs(<gregtech:meta_item_1:2039>)
+    .notConsumable(<gregtech:meta_item_1:14039>)
+    .duration(500)
+    .EUt(300)
     .buildAndRegister();
