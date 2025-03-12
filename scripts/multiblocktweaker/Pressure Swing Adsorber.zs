@@ -28,9 +28,22 @@ var meta = 10052;
 val pressure_swing_adsorber = Builder.start(loc, meta)
     .withPattern(
             FactoryBlockPattern.start(RelativeDirection.RIGHT, RelativeDirection.BACK, RelativeDirection.UP)
-                .aisle("CCC","CCC","CCC","CSC")
-                .aisle("CCC","C~C","C~C","CCC")
-                .aisle("CCC","CCC","CCC","CCC")
+                .aisle(
+                    "CCC",
+                    "CCC",
+                    "CSC")
+                .aisle(
+                    "CCC",
+                    "C~C",
+                    "CCC")
+                .aisle(
+                    "CCC",
+                    "C~C",
+                    "CCC")
+                .aisle(
+                    "CCC",
+                    "CCC",
+                    "CCC")
                 .where("S", IBlockMatcher.controller(loc))
                 .where("~", IBlockMatcher.ANY)
                 .setAmountAtLeast('C', 26)
