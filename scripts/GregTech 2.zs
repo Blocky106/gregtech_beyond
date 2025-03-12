@@ -447,7 +447,7 @@ metal_bender.recipeBuilder()
     .buildAndRegister();
 
 ebf.recipeBuilder()
-    .inputs(<gtadditions:ga_dust:32045>,<gregtech:meta_item_1:19671>*2)
+    .inputs(<gtadditions:ga_dust:32045>)
     .fluidInputs(<liquid:draconium>*288)
     .outputs(<contenttweaker:protoadamantiumplatedalloyingot>)
     .duration(200)

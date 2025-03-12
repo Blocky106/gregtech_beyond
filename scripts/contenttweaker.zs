@@ -214,6 +214,14 @@ registerMetalBlock("interstellar_core", 15.0, 10.0, 1);
 
 
 var items = [
+"steel_source_casing",
+"dowex_50_exchange_beads",
+"condensated_dowex_50",
+"sifted_zirkelite",
+"floated_zirkelite",
+"sifted_zircon",
+"floated_zircon",
+"zircon_concentrate",
 "josephson_junction_extreme_board",
 "patterned_extreme_reinforced_board",
 "etched_extreme_board",

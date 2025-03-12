@@ -98,6 +98,7 @@ blastalloy.recipeBuilder()
 ebf.recipeBuilder()
     .inputs(<contenttweaker:sintered_neodymium_plate>)
     .fluidInputs(<liquid:oxygen>*1000)
+    .property("temperature", 2000)
     .outputs(<contenttweaker:annealed_neodymium_plate>)
     .duration(200)
     .EUt(1200)
@@ -108,7 +109,7 @@ chemical_bath.recipeBuilder()
     .inputs(<contenttweaker:annealed_neodymium_plate>)
     .outputs(<contenttweaker:coated_neodymium_plate>)
     .duration(400)
-    .EUt(7000)
+    .EUt(270)
     .buildAndRegister();
 
 chemical_bath.recipeBuilder()
@@ -116,7 +117,7 @@ chemical_bath.recipeBuilder()
     .inputs(<contenttweaker:annealed_neodymium_plate>)
     .outputs(<contenttweaker:coated_neodymium_plate>)
     .duration(400)
-    .EUt(7000)
+    .EUt(270)
     .buildAndRegister();
 
 chemical_bath.recipeBuilder()
@@ -124,7 +125,7 @@ chemical_bath.recipeBuilder()
     .inputs(<contenttweaker:annealed_neodymium_plate>)
     .outputs(<contenttweaker:coated_neodymium_plate>)
     .duration(400)
-    .EUt(7000)
+    .EUt(270)
     .buildAndRegister();
 
 polarizer.recipeBuilder()
@@ -2185,15 +2186,7 @@ lcr.recipeBuilder()
     .EUt(120)
     .buildAndRegister();
 
-chemReactor.recipeBuilder()
-    .fluidInputs(<liquid:butene>*1000)
-    .fluidOutputs(<liquid:1_butene>*1000)
-    .notConsumable(<contenttweaker:amberlyst_15_ion_exchange_beads>)
-    .duration(200)
-    .EUt(40)
-    .buildAndRegister();
-
-lcr.recipeBuilder()
+ion_exchange_unit.recipeBuilder()
     .fluidInputs(<liquid:butene>*1000)
     .fluidOutputs(<liquid:1_butene>*1000)
     .notConsumable(<contenttweaker:amberlyst_15_ion_exchange_beads>)
@@ -2650,7 +2643,7 @@ assembler.recipeBuilder()
 
 alloy_smelter.recipeBuilder()
     .inputs(<minecraft:diamond>,<gregtech:meta_item_1:10204>*3)
-    .outputs(<nuclearcraft:alloy:2>*3)
+    .outputs(<nuclearcraft:alloy:2>)
     .duration(400)
     .EUt(800)
     .buildAndRegister();
