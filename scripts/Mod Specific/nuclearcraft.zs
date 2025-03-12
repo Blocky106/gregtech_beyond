@@ -527,16 +527,7 @@ fluid_solidifier.recipeBuilder()
     .duration(400)
     .EUt(240)
     .buildAndRegister();
-
-chemReactor.recipeBuilder()
-    .inputs(<gregtech:meta_item_1:2773>)
-.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 2}))
-    .fluidInputs(<liquid:water>*1000)
-    .fluidOutputs(<liquid:sodium_fluoride_solution>*1000)
-    .duration(40)
-    .EUt(120)
-    .buildAndRegister();
-
+    
 mixer.recipeBuilder()
     .fluidInputs(<liquid:ethanol>*250,<liquid:redstone>*250)
     .fluidOutputs(<liquid:redstone_ethanol>*500)
@@ -617,15 +608,6 @@ chemReactor.recipeBuilder()
     .buildAndRegister();
 
 chemReactor.recipeBuilder()
-    .inputs(<gregtech:meta_item_1:2703> )
-.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 2}))
-    .fluidInputs(<liquid:water>*1000)
-    .fluidOutputs(<liquid:fluorite_water>*1000)
-    .duration(80)
-    .EUt(90)
-    .buildAndRegister();
-
-chemReactor.recipeBuilder()
     .inputs(<nuclearcraft:gem_dust:4> )
 .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 2}))
     .fluidInputs(<liquid:water>*1000)
@@ -699,18 +681,9 @@ lcr.recipeBuilder()
 
 lcr.recipeBuilder()
     .inputs(<nuclearcraft:compound> )
-.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 2}))
-    .fluidInputs(<liquid:water>*1000)
-    .fluidOutputs(<liquid:calcium_sulfate_solution>*1000)
-    .duration(80)
-    .EUt(90)
-    .buildAndRegister();
-
-lcr.recipeBuilder()
-    .inputs(<gregtech:meta_item_1:2703> )
     .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 2}))
     .fluidInputs(<liquid:water>*1000)
-    .fluidOutputs(<liquid:fluorite_water>*1000)
+    .fluidOutputs(<liquid:calcium_sulfate_solution>*1000)
     .duration(80)
     .EUt(90)
     .buildAndRegister();
@@ -734,24 +707,8 @@ chemReactor.recipeBuilder()
 
 chemReactor.recipeBuilder()
     .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
-    .fluidInputs(<liquid:fluorite_water>*666)
-    .outputs(<gregtech:meta_item_1:2703>)
-    .duration(800)
-    .EUt(1200)
-    .buildAndRegister();
-
-chemReactor.recipeBuilder()
-    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
     .fluidInputs(<liquid:calcium_sulfate_solution>*666)
     .outputs(<nuclearcraft:compound>)
-    .duration(800)
-    .EUt(1200)
-    .buildAndRegister();
-
-chemReactor.recipeBuilder()
-    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
-    .fluidInputs(<liquid:sodium_fluoride_solution>*666)
-    .outputs(<gregtech:meta_item_1:2773>)
     .duration(800)
     .EUt(1200)
     .buildAndRegister();
@@ -846,24 +803,8 @@ lcr.recipeBuilder()
 
 lcr.recipeBuilder()
     .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
-    .fluidInputs(<liquid:fluorite_water>*666)
-    .outputs(<gregtech:meta_item_1:2703>)
-    .duration(800)
-    .EUt(1200)
-    .buildAndRegister();
-
-lcr.recipeBuilder()
-    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
     .fluidInputs(<liquid:calcium_sulfate_solution>*666)
     .outputs(<nuclearcraft:compound>)
-    .duration(800)
-    .EUt(1200)
-    .buildAndRegister();
-
-lcr.recipeBuilder()
-    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
-    .fluidInputs(<liquid:sodium_fluoride_solution>*666)
-    .outputs(<gregtech:meta_item_1:2773>)
     .duration(800)
     .EUt(1200)
     .buildAndRegister();
