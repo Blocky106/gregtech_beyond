@@ -588,7 +588,7 @@ ebf.recipeBuilder()
 
 cstr_s.recipeBuilder()
     .fluidInputs(<liquid:purified_1_decene>*1000,<liquid:hydrogen>*1000,<liquid:n-tetradecanol>*200)
-    .inputs(<gregtech:meta_item_1:2049>)
+    .notConsumable(<gregtech:meta_item_1:2049>)
     .fluidOutputs(<liquid:hydrogenated_olefin>*1000)
     .duration(200)
     .EUt(280)
@@ -596,7 +596,7 @@ cstr_s.recipeBuilder()
 
 cstr_s.recipeBuilder()
     .fluidInputs(<liquid:purified_1_dodecene>*1000,<liquid:hydrogen>*1000,<liquid:n-tetradecanol>*200)
-    .inputs(<gregtech:meta_item_1:2049>)
+    .notConsumable(<gregtech:meta_item_1:2049>)
     .fluidOutputs(<liquid:hydrogenated_olefin>*1000)
     .duration(200)
     .EUt(280)
@@ -841,3 +841,235 @@ recipes.addShaped(<gregtech:machine:1624>, [	[<gregtech:meta_item_1:32614>, <gre
 recipes.addShaped(<gregtech:machine:1625>, [	[<gregtech:meta_item_1:32615>, <gregtech:meta_item_1:32655>, <gregtech:meta_item_1:32615>], 	[<gregtech:meta_item_1:32405>, <gregtech:machine:506>, <gregtech:meta_item_1:32405>], 	[<gregtech:meta_item_2:32705>, <gregtech:meta_item_1:32655>, <gregtech:meta_item_2:32705>]]);
 recipes.addShaped(<gregtech:machine:1626>, [	[<gregtech:meta_item_1:32616>, <gregtech:meta_item_1:32656>, <gregtech:meta_item_1:32616>], 	[<gregtech:meta_item_1:32405>, <gregtech:machine:507>, <gregtech:meta_item_1:32405>], 	[<gregtech:meta_item_2:32706>, <gregtech:meta_item_1:32656>, <gregtech:meta_item_2:32706>]]);
 recipes.addShaped(<gregtech:machine:1627>, [	[<gregtech:meta_item_1:32617>, <gregtech:meta_item_1:32657>, <gregtech:meta_item_1:32617>], 	[<gregtech:meta_item_1:32405>, <gregtech:machine:508>, <gregtech:meta_item_1:32405>], 	[<gregtech:meta_item_2:32707>, <gregtech:meta_item_1:32657>, <gregtech:meta_item_2:32707>]]);
+
+tbr.recipeBuilder()
+    .fluidInputs(<liquid:methane>*1000)
+    .inputs(<gregtech:meta_item_1:2065>*4)
+    .outputs(<gtadditions:ga_dust:32241>)
+    .fluidOutputs(<liquid:hydrogen_sulfide>*2000)
+    .duration(300)
+    .EUt(400)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs(<gtadditions:ga_meta_item:184>*4,<gregtech:meta_item_1:19035>*4)
+    .outputs(<contenttweaker:steel_source_casing>)
+    .duration(300)
+    .EUt(400)
+    .buildAndRegister();
+
+furnace.remove(<gregtech:meta_item_1:10838>);
+furnace.remove(<gregtech:meta_item_1:9838>);
+
+ebf.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2838>)
+    .outputs(<gregtech:meta_item_1:10838>)
+    .property("temperature", 2000)
+    .duration(400)
+    .EUt(800)
+    .buildAndRegister();
+
+Utils.removeRecipeByOutput(electrolyzer,[<gregtech:meta_item_1:2602>*17],[],true);
+
+mixer.recipeBuilder()
+    .inputs(<minecraft:glowstone_dust>,<minecraft:redstone>)
+    .outputs(<nuclearcraft:compound:2>*2)
+    .duration(400)
+    .EUt(120)
+    .buildAndRegister();
+
+centrifuge.recipeBuilder()
+    .inputs(<nuclearcraft:compound:2>*2)
+    .outputs(<minecraft:glowstone_dust>,<minecraft:redstone>)
+    .duration(400)
+    .EUt(120)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:12074>*4,<gregtech:meta_item_1:12032>*4,<gregtech:meta_item_1:2111>)
+    .outputs(<gregtech:meta_item_2:32434>)
+    .duration(400)
+    .EUt(120)
+    .buildAndRegister();
+
+furnace.remove(<gregtech:meta_item_1:10066>);
+furnace.remove(<gregtech:meta_item_1:9066>);
+
+ebf.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2066>)
+    .outputs(<gregtech:meta_item_1:10066>)
+    .duration(400)
+    .EUt(700)
+    .property("temperature", 3500)
+    .buildAndRegister();
+
+dehydrator.recipeBuilder()  
+    .fluidInputs(<liquid:oleic_acid>*1000)
+    .outputs(<gtadditions:ga_dust:32307>*3)
+    .duration(400)
+    .EUt(700)
+    .buildAndRegister();
+
+electrolyzer.findRecipe(60,[<gregtech:meta_item_1:2602>*17],null).remove();
+
+recipes.addShaped(<forestry:gt_alveary>, [	[<ore:circuitMaster>, <gregtech:meta_item_1:32654>, <ore:circuitMaster>], 	[<forestry:alveary.plain>, <gregtech:machine:505>, <forestry:alveary.plain>], 	[<ore:circuitMaster>, <gregtech:meta_item_1:32654>, <ore:circuitMaster>]]);
+
+extractor.recipeBuilder()
+    .inputs(<ore:dropHoney>)
+    .fluidOutputs(<liquid:honey>*100)
+    .duration(80)
+    .EUt(12)
+    .buildAndRegister();
+
+extractor.recipeBuilder()
+    .inputs(<ore:dropHoneydew>)
+    .fluidOutputs(<liquid:honey>*20)
+    .duration(80)
+    .EUt(12)
+    .buildAndRegister();
+
+cstr_s.recipeBuilder()
+    .fluidInputs(<liquid:rhenium_scrubbed_solution>*1000,<liquid:sulfuric_acid>*1000,<liquid:ammonia>*3000)
+    .fluidOutputs(<liquid:ammonium_perrhenate>*1000,<liquid:ammonium_sulfate>*1000)
+    .duration(80)
+    .EUt(1920)
+    .buildAndRegister();
+
+tbr.recipeBuilder()
+    .fluidInputs(<liquid:ammonium_perrhenate>*1000,<liquid:potassium_hydroxide>*1000)
+    .fluidOutputs(<liquid:water>*1000,<liquid:ammonia>*1000)
+    .outputs(<gtadditions:ga_dust:341>*6)
+    .duration(80)
+    .EUt(1920)
+    .buildAndRegister();
+
+dryer.recipeBuilder()
+    .inputs(<minecraft:sponge:1>)
+    .outputs(<minecraft:sponge>)
+    .fluidOutputs(<liquid:water>*1000)
+    .duration(80)
+    .EUt(4)
+    .buildAndRegister();
+
+fluid_solidifier.recipeBuilder()
+    .outputs(<minecraft:sponge:1>)
+    .inputs(<minecraft:sponge>)
+    .fluidInputs(<liquid:water>*1000)
+    .duration(80)
+    .EUt(4)
+    .buildAndRegister();
+
+cstr_s.recipeBuilder()
+    .fluidInputs(<liquid:phosphorus_trichloride>*1000,<liquid:toluene>*1000,<liquid:bromooctane>*3000)
+    .fluidOutputs(<liquid:trioctylphosphine_solution>*1000)
+    .inputs(<gregtech:meta_item_1:2373>*3)
+    .duration(80)
+    .EUt(1788)
+    .buildAndRegister();
+
+distillation_tower.recipeBuilder()
+    .fluidOutputs(<liquid:trioctylphosphine>*1000,<liquid:toluene>*1000)
+    .fluidInputs(<liquid:trioctylphosphine_solution>*1000)
+    .outputs(<gregtech:meta_item_1:2373>*3)
+    .duration(80)
+    .EUt(2004)
+    .buildAndRegister();
+
+cstr_s.recipeBuilder()
+    .fluidInputs(<liquid:trioctylphosphine>*1000,<liquid:oxygen>*1000)
+    .fluidOutputs(<liquid:trioctylphosphine_oxide>*1000)
+    .duration(80)
+    .EUt(2004)
+    .buildAndRegister();
+
+cstr_s.recipeBuilder()
+    .fluidInputs(<liquid:phosphorus_trichloride>*1000,<liquid:toluene>*1000,<liquid:bromotridecane>*3000)
+    .fluidOutputs(<liquid:tridecylphosphine_solution>*1000)
+    .inputs(<gregtech:meta_item_1:2373>*3)
+    .duration(80)
+    .EUt(2004)
+    .buildAndRegister();
+
+distillation_tower.recipeBuilder()
+    .fluidOutputs(<liquid:tridecylphosphine>*1000,<liquid:toluene>*1000)
+    .fluidInputs(<liquid:tridecylphosphine_solution>*1000)
+    .outputs(<gregtech:meta_item_1:2373>*3)
+    .duration(480)
+    .EUt(2044)
+    .buildAndRegister();
+
+cstr_s.recipeBuilder()
+    .fluidInputs(<liquid:tridecylphosphine>*1000,<liquid:oxygen>*1000)
+    .fluidOutputs(<liquid:tridecylphosphine_oxide>*1000)
+    .duration(580)
+    .EUt(1554)
+    .buildAndRegister();
+
+mixer.recipeBuilder()
+    .fluidInputs(<liquid:tridecylphosphine_oxide>*1000,<liquid:trioctylphosphine_oxide>*1000)
+    .fluidOutputs(<liquid:cyanex_923>*1000)
+    .duration(380)
+    .EUt(1664)
+    .buildAndRegister();
+
+cstr_s.recipeBuilder()
+    .fluidInputs(<liquid:tridecane>*1000,<liquid:oxygen>*1000)
+    .fluidOutputs(<liquid:tridecanoic_acid>*1000)
+    .duration(280)
+    .EUt(1434)
+    .buildAndRegister();
+
+roasters.recipeBuilder()
+    .fluidInputs(<liquid:tridecanoic_acid>*1000,<liquid:hydrogen>*2000)
+    .notConsumable(<gregtech:meta_item_1:2044>)
+    .fluidOutputs(<liquid:tridecanol>*1000,<liquid:water>*1000)
+    .duration(150)
+    .EUt(1900)
+    .buildAndRegister();
+
+cstr_s.recipeBuilder()
+    .fluidInputs(<liquid:hydrobromic_acid>*1000,<liquid:tridecanol>*1000)
+    .fluidOutputs(<liquid:bromotridecane>*100,<liquid:water>*1000)
+    .duration(150)
+    .EUt(1900)
+    .buildAndRegister();
+
+cstr_s.recipeBuilder()
+    .fluidInputs(<liquid:hydrobromic_acid>*1000,<liquid:octanol>*1000)
+    .fluidOutputs(<liquid:bromooctane>*1000,<liquid:water>*1000)
+    .duration(150)
+    .EUt(1900)
+    .buildAndRegister();
+
+furnace.remove(<gregtech:meta_item_1:10912>);
+furnace.remove(<gregtech:meta_item_1:9912>);
+
+ebf.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2912>)
+    .outputs(<gregtech:meta_item_1:10912>)
+    .property("temperature", 2000)
+    .duration(400)
+    .EUt(480)
+    .buildAndRegister();
+
+electrolyzer.findRecipe(30,[<gregtech:meta_item_1:2770>*3],null).remove();
+lcentrifuge.findRecipe(320,[<gregtech:meta_item_1:2904>*58],[<liquid:hydrofluoric_acid>*88000]).remove();
+
+electrolyzer.recipeBuilder()
+    .fluidInputs(<liquid:radon_trioxide>*1000)
+    .fluidOutputs(<liquid:radon>*1000,<liquid:oxygen>*3000)
+    .duration(400)
+    .EUt(480)
+    .buildAndRegister();
+
+furnace.remove(<gregtech:meta_item_1:10010>);
+furnace.remove(<gregtech:meta_item_1:9010>);
+
+ebf.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2010>)
+    .outputs(<gregtech:meta_item_1:10010>)
+    .property("temperature", 3000)
+    .duration(400)
+    .EUt(480)
+    .buildAndRegister();
+
