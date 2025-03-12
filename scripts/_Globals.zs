@@ -40,6 +40,7 @@ global orewasher           as RecipeMap = RecipeMap.getByName("orewasher");
 global lcr           as RecipeMap = RecipeMap.getByName("large_chemical_reactor");
 global forming_press           as RecipeMap = RecipeMap.getByName("forming_press");
 global lmixer           as RecipeMap = RecipeMap.getByName("large_mixer");
+global large_electrolyzer           as RecipeMap = RecipeMap.getByName("large_electrolyzer");
 global blastalloy           as RecipeMap = RecipeMap.getByName("blast_alloy");
 global stellar           as RecipeMap = RecipeMap.getByName("stellar_forge");
 global dehydrator           as RecipeMap = RecipeMap.getByName("chemical_dehydrator");
