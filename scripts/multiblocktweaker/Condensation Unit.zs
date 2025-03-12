@@ -122,3 +122,10 @@ condensation_unit.recipeMap.recipeBuilder()
     .duration(400)
     .EUt(100)
     .buildAndRegister();
+
+condensation_unit.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:dowex_50>*1000)
+    .outputs(<contenttweaker:condensated_dowex_50>)
+    .duration(400)
+    .EUt(500)
+    .buildAndRegister();
