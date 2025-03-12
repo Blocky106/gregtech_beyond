@@ -150,3 +150,16 @@ gravity_separator.recipeMap.recipeBuilder()
     .EUt(8000)
     .buildAndRegister();
 
+gravity_separator.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2713>)
+    .outputs(<contenttweaker:sifted_zircon>)
+    .duration(500)
+    .EUt(600)
+    .buildAndRegister();
+
+gravity_separator.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2904>)
+    .outputs(<contenttweaker:sifted_zirkelite>)
+    .duration(200)
+    .EUt(800)
+    .buildAndRegister();

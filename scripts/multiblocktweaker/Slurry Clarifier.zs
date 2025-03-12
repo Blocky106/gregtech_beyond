@@ -307,4 +307,18 @@ slurry_clarifier.recipeMap.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
+slurry_clarifier.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:purified_zircon_slurry>*1000)
+    .outputs(<contenttweaker:floated_zircon>*10)
+    .fluidOutputs(<liquid:wastewater>*1000)
+    .duration(200)
+    .EUt(1200)
+    .buildAndRegister();
 
+slurry_clarifier.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:zirkelite_slurry>*1000)
+    .outputs(<contenttweaker:floated_zirkelite>*8)
+    .fluidOutputs(<liquid:wastewater>*1000)
+    .duration(200)
+    .EUt(1200)
+    .buildAndRegister();

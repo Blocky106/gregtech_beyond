@@ -430,3 +430,25 @@ froth_flotation_cell.recipeMap.recipeBuilder()
     .duration(800)
     .EUt(7670)
     .buildAndRegister();
+
+froth_flotation_cell.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:zircon_slurry>*1000)
+    .notConsumable(<gregtech:meta_item_1:2890>)
+    .notConsumable(<liquid:soda_ash_solution>)
+    .notConsumable(<liquid:aklaline_sodium_oleate_solution>)
+    .fluidOutputs(<liquid:purified_zircon_slurry>*1000)
+    .duration(800)
+    .EUt(7670)
+    .buildAndRegister();
+
+froth_flotation_cell.recipeMap.recipeBuilder()
+    .notConsumable(<gtadditions:ga_dust:24>)
+    .inputs(<contenttweaker:sifted_zirkelite>*6)
+    .notConsumable(<liquid:methyl_isobutyl_carbonyl>)
+    .notConsumable(<liquid:potassium_ethyl_xanthate_solution>)
+    .notConsumable(<gregtech:meta_item_1:2595>)
+    .fluidOutputs(<liquid:zirkelite_slurry>*1000)
+    .duration(800)
+    .EUt(2000)
+    .buildAndRegister();
+

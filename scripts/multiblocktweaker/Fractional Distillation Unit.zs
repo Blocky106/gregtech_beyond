@@ -120,3 +120,10 @@ fractional_distillation_unit.recipeMap.recipeBuilder()
     .duration(200)
     .EUt(800)
     .buildAndRegister();
+
+fractional_distillation_unit.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:zirconium_hafnium_fluoride_extract>*1000)
+    .fluidOutputs(<liquid:zirconium_fluoride_solution>*1000,<liquid:hafnium_fluoride_solution>*1000)
+    .duration(200)
+    .EUt(800)
+    .buildAndRegister();
