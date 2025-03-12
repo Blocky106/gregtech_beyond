@@ -98,7 +98,7 @@ val neutron_accelerator = Builder.start(loc, meta)
                 .build())
 .withRecipeMap(
         FactoryRecipeMap.start(loc)
-                        .maxInputs(1)
+                        .maxInputs(4)
                         .maxFluidInputs(1)
                         .maxFluidOutputs(2)
                         .maxOutputs(4)
@@ -164,3 +164,10 @@ neutron_accelerator.recipeMap.recipeBuilder()
     .EUt(1200)
     .buildAndRegister();
 
+neutron_accelerator.recipeMap.recipeBuilder()
+    .inputs(<contenttweaker:steel_source_casing>)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .outputs(<contenttweaker:electron_source_100kv>)
+    .duration(800)
+    .EUt(1200)
+    .buildAndRegister();

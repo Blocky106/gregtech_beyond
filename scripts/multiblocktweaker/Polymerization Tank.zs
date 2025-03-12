@@ -79,7 +79,7 @@ val polymerization_tank = Builder.start(loc, meta)
 .withRecipeMap(
         FactoryRecipeMap.start(loc)
                         .maxInputs(2)
-                        .maxFluidInputs(2)
+                        .maxFluidInputs(4)
                         .maxFluidOutputs(1)
                         .build())
 .withZoom(0.5f)
@@ -324,6 +324,14 @@ polymerization_tank.recipeMap.recipeBuilder()
     .inputs(<gtadditions:ga_dust:116>)
     .fluidInputs(<liquid:methyl_methacrylate_emulsion>*1000)
     .fluidOutputs(<liquid:wet_pmma_emulsion>*1000)
+    .duration(600)
+    .EUt(2012)
+    .buildAndRegister();
+
+polymerization_tank.recipeMap.recipeBuilder()
+    .fluidInputs(<liquid:divinylbenzene>*1000,<liquid:benzoyl_chloride>*1000,<liquid:styrene>*1000)
+    .notConsumable(<liquid:rock_salt_solution>)
+    .fluidOutputs(<liquid:dowex_50_suspension>*1000)
     .duration(600)
     .EUt(2012)
     .buildAndRegister();
