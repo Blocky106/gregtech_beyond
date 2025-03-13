@@ -1073,3 +1073,21 @@ ebf.recipeBuilder()
     .EUt(480)
     .buildAndRegister();
 
+fluidheater.recipeBuilder()
+    .fluidInputs(<liquid:gallium_vapor>*1000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .fluidOutputs(<liquid:sublimed_gallium_vapour>*1000)
+    .duration(400)
+    .EUt(480)
+    .buildAndRegister();
+
+furnace.remove(<gregtech:meta_item_1:10764>);
+furnace.remove(<gregtech:meta_item_1:9764>);
+
+ebf.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2764>)
+    .outputs(<gregtech:meta_item_1:10764>)
+    .property("temperature", 2500)
+    .duration(800)
+    .EUt(1480)
+    .buildAndRegister();
